@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Simple Squamous Epithelium",
+    "faTitle": "اپی‌تلیوم سنگفرشی ساده",
+    "location": "Alveoli, blood vessels",
+    "summary": "یک لایه سلول صاف برای انتشار و فیلتراسیون."
+  },
+  {
+    "id": 2,
+    "title": "Simple Cuboidal Epithelium",
+    "faTitle": "اپی‌تلیوم مکعبی ساده",
+    "location": "Kidney tubules",
+    "summary": "یک لایه سلول مکعبی برای ترشح و جذب."
+  },
+  {
+    "id": 3,
+    "title": "Simple Columnar Epithelium",
+    "faTitle": "اپی‌تلیوم ستونی ساده",
+    "location": "GI tract",
+    "summary": "جذب و ترشح؛ اغلب دارای Microvilli و Goblet cells."
+  }
+]
