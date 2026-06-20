@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Aspirin",
+    "class": "NSAID",
+    "mechanism": "Irreversible COX inhibition",
+    "indications": ["Pain", "Fever", "Antiplatelet"],
+    "adverseEffects": ["GI bleeding", "Tinnitus"]
+  },
+  {
+    "id": 2,
+    "name": "Metformin",
+    "class": "Biguanide",
+    "mechanism": "Decreases hepatic gluconeogenesis",
+    "indications": ["Type 2 Diabetes"],
+    "adverseEffects": ["GI upset", "Lactic acidosis"]
+  },
+  {
+    "id": 3,
+    "name": "Atorvastatin",
+    "class": "Statin",
+    "mechanism": "HMG-CoA reductase inhibition",
+    "indications": ["Hyperlipidemia"],
+    "adverseEffects": ["Myopathy", "Elevated liver enzymes"]
+  }
+]
