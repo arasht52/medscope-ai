@@ -1,0 +1,29 @@
+.score-summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.score-summary__circle {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.score-summary__fraction {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.score-summary__message {
+  font-size: 13.5px;
+  color: var(--color-text-muted);
+}

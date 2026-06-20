@@ -1,0 +1,117 @@
+/* Shared component styles — Design System: medical blue / soft green,
+   white cards with subtle shadow, mobile-first, RTL-friendly */
+
+:root {
+  --set-primary: #2563eb;
+  --set-secondary: #4ade80;
+  --set-danger: #ef4444;
+  --set-bg: #f7f8fa;
+  --set-card-bg: #ffffff;
+  --set-text: #1f2937;
+  --set-text-muted: #6b7280;
+  --set-radius: 14px;
+}
+
+.set-card {
+  background: var(--set-card-bg);
+  border-radius: var(--set-radius);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.set-card__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: var(--set-text);
+}
+
+.set-card__body {
+  font-size: 14px;
+  color: var(--set-text);
+  line-height: 1.7;
+}
+
+.set-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+}
+
+.set-btn--primary {
+  background: var(--set-primary);
+  color: #fff;
+}
+
+.set-btn--secondary {
+  background: #eef1f5;
+  color: var(--set-text);
+}
+
+.set-btn--danger {
+  background: var(--set-danger);
+  color: #fff;
+}
+
+.set-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.set-page-header {
+  margin-bottom: 16px;
+}
+
+.set-page-header__title {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0;
+  color: var(--set-text);
+}
+
+.set-page-header__subtitle {
+  font-size: 13px;
+  color: var(--set-text-muted);
+  margin: 4px 0 0;
+}
+
+.set-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.set-modal {
+  background: #fff;
+  border-radius: var(--set-radius);
+  padding: 20px;
+  width: 85%;
+  max-width: 340px;
+}
+
+.set-modal__title {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.set-modal__message {
+  font-size: 14px;
+  color: var(--set-text-muted);
+  margin: 0 0 16px;
+  line-height: 1.6;
+}
+
+.set-modal__actions {
+  display: flex;
+  gap: 10px;
+}

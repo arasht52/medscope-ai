@@ -1,26 +1,1413 @@
-[
-  {
-    "id": 1,
-    "name": "Aspirin",
-    "class": "NSAID",
-    "mechanism": "Irreversible COX inhibition",
-    "indications": ["Pain", "Fever", "Antiplatelet"],
-    "adverseEffects": ["GI bleeding", "Tinnitus"]
-  },
-  {
-    "id": 2,
-    "name": "Metformin",
-    "class": "Biguanide",
-    "mechanism": "Decreases hepatic gluconeogenesis",
-    "indications": ["Type 2 Diabetes"],
-    "adverseEffects": ["GI upset", "Lactic acidosis"]
-  },
-  {
-    "id": 3,
-    "name": "Atorvastatin",
-    "class": "Statin",
-    "mechanism": "HMG-CoA reductase inhibition",
-    "indications": ["Hyperlipidemia"],
-    "adverseEffects": ["Myopathy", "Elevated liver enzymes"]
-  }
-]
+{
+  "categories": [
+    "Analgesics & NSAIDs",
+    "Antibiotics",
+    "Anticoagulants",
+    "CNS",
+    "Cardiovascular",
+    "Endocrine",
+    "GI",
+    "Immunosuppressant/Antineoplastic",
+    "Psychiatry",
+    "Respiratory"
+  ],
+  "drugs": [
+    {
+      "id": "amoxicillin",
+      "generic_name": "Amoxicillin",
+      "brand_names": [
+        "Amoxil",
+        "Trimox"
+      ],
+      "category": "Antibiotics",
+      "drug_class": "Aminopenicillin (Beta-lactam)",
+      "mechanism": "مهار سنتز دیواره سلولی باکتری از طریق اتصال به Penicillin-Binding Proteins (PBPs) و مهار ترانس‌پپتیداسیون.",
+      "indications": [
+        "عفونت‌های گوش و حلق و بینی",
+        "عفونت‌های ادراری",
+        "پنومونی اکتسابی از جامعه",
+        "اندوکاردیت پروفیلاکسی"
+      ],
+      "adverse_effects": [
+        "راش پوستی",
+        "اسهال",
+        "واکنش آلرژیک",
+        "کولیت ناشی از Clostridioides difficile"
+      ],
+      "contraindications": [
+        "حساسیت به پنیسیلین‌ها"
+      ],
+      "interactions": [
+        "کاهش اثر داروهای ضدبارداری خوراکی",
+        "افزایش راش با Allopurinol"
+      ],
+      "exam_tips": "در Mononucleosis (EBV) باعث ایجاد راش غیرآلرژیک ماکولوپاپولار می‌شود؛ نکته‌ی کلاسیک امتحانی."
+    },
+    {
+      "id": "azithromycin",
+      "generic_name": "Azithromycin",
+      "brand_names": [
+        "Zithromax",
+        "Z-Pak"
+      ],
+      "category": "Antibiotics",
+      "drug_class": "Macrolide",
+      "mechanism": "اتصال به زیرواحد 50S ریبوزوم باکتری و مهار سنتز پروتئین.",
+      "indications": [
+        "پنومونی آتیپیک",
+        "عفونت‌های کلامیدیایی",
+        "تشدید COPD",
+        "سیاه‌سرفه (Pertussis)"
+      ],
+      "adverse_effects": [
+        "ناراحتی گوارشی",
+        "طولانی‌شدن QT",
+        "اوتوتوکسیسیتی برگشت‌پذیر"
+      ],
+      "contraindications": [
+        "سابقه طولانی‌شدن QT",
+        "بیماری شدید کبدی"
+      ],
+      "interactions": [
+        "افزایش ریسک آریتمی با سایر داروهای طولانی‌کننده QT",
+        "افزایش اثر Warfarin"
+      ],
+      "exam_tips": "نیمه‌عمر طولانی → دوره درمان کوتاه (مثلاً ۳ تا ۵ روزه)؛ پوشش آتیپیک‌ها را به‌خاطر بسپارید."
+    },
+    {
+      "id": "ciprofloxacin",
+      "generic_name": "Ciprofloxacin",
+      "brand_names": [
+        "Cipro"
+      ],
+      "category": "Antibiotics",
+      "drug_class": "Fluoroquinolone",
+      "mechanism": "مهار DNA gyrase و Topoisomerase IV باکتری و در نتیجه مهار همانندسازی DNA.",
+      "indications": [
+        "عفونت ادراری پیچیده",
+        "گاستروانتریت باکتریایی",
+        "آنتراکس"
+      ],
+      "adverse_effects": [
+        "تاندینوپاتی و خطر پارگی تاندون",
+        "طولانی‌شدن QT",
+        "نوروپاتی محیطی",
+        "آرتروپاتی در کودکان"
+      ],
+      "contraindications": [
+        "بارداری",
+        "کودکان (به‌دلیل اثر بر کارتیلاژ رشد) به‌جز موارد خاص"
+      ],
+      "interactions": [
+        "کاهش جذب با کاتیون‌های دو/سه‌ظرفیتی (کلسیم، آهن، آنتی‌اسید)",
+        "افزایش اثر Warfarin و Theophylline"
+      ],
+      "exam_tips": "در کودکان و بارداری به‌علت آسیب کارتیلاژ معمولاً اجتناب می‌شود."
+    },
+    {
+      "id": "doxycycline",
+      "generic_name": "Doxycycline",
+      "brand_names": [
+        "Vibramycin"
+      ],
+      "category": "Antibiotics",
+      "drug_class": "Tetracycline",
+      "mechanism": "اتصال به زیرواحد 30S ریبوزوم و مهار سنتز پروتئین باکتری.",
+      "indications": [
+        "آکنه ولگاریس",
+        "بیماری لایم",
+        "ریکتزیوزها (RMSF)",
+        "عفونت کلامیدیایی"
+      ],
+      "adverse_effects": [
+        "فوتوسنسیتیویتی",
+        "تغییر رنگ دندان در کودکان",
+        "ناراحتی گوارشی"
+      ],
+      "contraindications": [
+        "بارداری",
+        "کودکان زیر ۸ سال (غیرضروری)"
+      ],
+      "interactions": [
+        "کاهش جذب با لبنیات و آنتی‌اسید حاوی کلسیم"
+      ],
+      "exam_tips": "رسوب در استخوان و دندان در حال رشد؛ در بارداری و کودکی کنترااندیکه است."
+    },
+    {
+      "id": "vancomycin",
+      "generic_name": "Vancomycin",
+      "brand_names": [
+        "Vancocin"
+      ],
+      "category": "Antibiotics",
+      "drug_class": "Glycopeptide",
+      "mechanism": "اتصال به D-Ala-D-Ala پیش‌ساز پپتیدوگلیکان و مهار سنتز دیواره سلولی در باکتری‌های گرم‌مثبت.",
+      "indications": [
+        "MRSA",
+        "کولیت شدید ناشی از C. difficile (خوراکی)",
+        "اندوکاردیت"
+      ],
+      "adverse_effects": [
+        "Red man syndrome (در تزریق سریع)",
+        "نفروتوکسیسیتی",
+        "اوتوتوکسیسیتی"
+      ],
+      "contraindications": [
+        "احتیاط در نارسایی کلیوی (نیاز به تنظیم دوز)"
+      ],
+      "interactions": [
+        "افزایش نفروتوکسیسیتی با Aminoglycosides"
+      ],
+      "exam_tips": "Red man syndrome واکنش هیستامینی است نه آلرژی واقعی؛ با کاهش سرعت انفوزیون پیشگیری می‌شود."
+    },
+    {
+      "id": "metronidazole",
+      "generic_name": "Metronidazole",
+      "brand_names": [
+        "Flagyl"
+      ],
+      "category": "Antibiotics",
+      "drug_class": "Nitroimidazole",
+      "mechanism": "تولید رادیکال‌های آزاد سیتوتوکسیک در محیط بی‌هوازی که به DNA باکتری/انگل آسیب می‌زند.",
+      "indications": [
+        "عفونت‌های بی‌هوازی",
+        "Trichomoniasis",
+        "آمیبیاز",
+        "واژینوز باکتریایی"
+      ],
+      "adverse_effects": [
+        "طعم متالیک در دهان",
+        "نوروپاتی محیطی با مصرف طولانی",
+        "واکنش شبه‌دیسولفیرام با الکل"
+      ],
+      "contraindications": [
+        "مصرف هم‌زمان الکل"
+      ],
+      "interactions": [
+        "واکنش دیسولفیرام‌مانند با الکل",
+        "افزایش اثر Warfarin"
+      ],
+      "exam_tips": "پوشش عالی برای بی‌هوازی‌ها و انگل‌ها؛ هشدار کلاسیک: قطع الکل تا ۲۴-۴۸ ساعت پس از درمان."
+    },
+    {
+      "id": "ceftriaxone",
+      "generic_name": "Ceftriaxone",
+      "brand_names": [
+        "Rocephin"
+      ],
+      "category": "Antibiotics",
+      "drug_class": "Third-generation Cephalosporin",
+      "mechanism": "مهار PBPs و سنتز دیواره سلولی باکتری، با پوشش گرم‌منفی وسیع‌تر نسبت به نسل‌های قبلی.",
+      "indications": [
+        "مننژیت باکتریایی",
+        "گونوره",
+        "پنومونی شدید اکتسابی از جامعه",
+        "اپیدیدیمیت"
+      ],
+      "adverse_effects": [
+        "لجن صفراوی (Biliary sludging)",
+        "حساسیت متقاطع با پنیسیلین (نادر)"
+      ],
+      "contraindications": [
+        "نوزادان هایپربیلیروبینمیک (به‌ویژه همراه با کلسیم وریدی)"
+      ],
+      "interactions": [
+        "رسوب با محلول‌های حاوی کلسیم در نوزادان"
+      ],
+      "exam_tips": "عبور خوب از سد خونی-مغزی؛ انتخاب اول تجربی برای مننژیت باکتریایی در بالغین."
+    },
+    {
+      "id": "gentamicin",
+      "generic_name": "Gentamicin",
+      "brand_names": [
+        "Garamycin"
+      ],
+      "category": "Antibiotics",
+      "drug_class": "Aminoglycoside",
+      "mechanism": "اتصال به زیرواحد 30S ریبوزوم و ایجاد خطا در خوانش mRNA؛ وابسته به اکسیژن (بر بی‌هوازی‌ها اثر ندارد).",
+      "indications": [
+        "عفونت‌های گرم‌منفی شدید",
+        "اندوکاردیت (همراه با بتالاکتام)",
+        "سپسیس"
+      ],
+      "adverse_effects": [
+        "نفروتوکسیسیتی",
+        "اوتوتوکسیسیتی (شنوایی و وستیبولار)"
+      ],
+      "contraindications": [
+        "میاستنی گراویس",
+        "نارسایی کلیوی شدید بدون تنظیم دوز"
+      ],
+      "interactions": [
+        "افزایش نفروتوکسیسیتی با Vancomycin",
+        "افزایش بلوک نورومسکولار با بیهوشی"
+      ],
+      "exam_tips": "نیاز به مانیتورینگ سطح دارویی (Peak/Trough) به‌علت بازه درمانی باریک."
+    },
+    {
+      "id": "atorvastatin",
+      "generic_name": "Atorvastatin",
+      "brand_names": [
+        "Lipitor"
+      ],
+      "category": "Cardiovascular",
+      "drug_class": "HMG-CoA Reductase Inhibitor (Statin)",
+      "mechanism": "مهار آنزیم HMG-CoA reductase و کاهش سنتز کلسترول در کبد؛ افزایش گیرنده‌های LDL.",
+      "indications": [
+        "هیپرلیپیدمی",
+        "پیشگیری اولیه و ثانویه بیماری‌های قلبی‌عروقی"
+      ],
+      "adverse_effects": [
+        "میوپاتی و میالژی",
+        "افزایش آنزیم‌های کبدی",
+        "ریسک نادر رابدومیولیز"
+      ],
+      "contraindications": [
+        "بیماری فعال کبدی",
+        "بارداری"
+      ],
+      "interactions": [
+        "افزایش ریسک میوپاتی با Fibrates و مهارکننده‌های CYP3A4 (مثل گریپ‌فروت)"
+      ],
+      "exam_tips": "مصرف شب هنگام به‌دلیل پیک سنتز کلسترول شبانه توصیه می‌شود."
+    },
+    {
+      "id": "lisinopril",
+      "generic_name": "Lisinopril",
+      "brand_names": [
+        "Zestril",
+        "Prinivil"
+      ],
+      "category": "Cardiovascular",
+      "drug_class": "ACE Inhibitor",
+      "mechanism": "مهار آنزیم تبدیل‌کننده آنژیوتانسین (ACE)، کاهش تشکیل آنژیوتانسین II و کاهش تجزیه برادی‌کینین.",
+      "indications": [
+        "هیپرتانسیون",
+        "نارسایی قلبی",
+        "نفروپاتی دیابتی"
+      ],
+      "adverse_effects": [
+        "سرفه خشک",
+        "آنژیوادم",
+        "هیپرکالمی",
+        "نارسایی حاد کلیوی در تنگی دوطرفه شریان کلیه"
+      ],
+      "contraindications": [
+        "بارداری",
+        "آنژیوادم قبلی با ACEI",
+        "تنگی دوطرفه شریان کلیوی"
+      ],
+      "interactions": [
+        "افزایش هیپرکالمی با دیورتیک‌های نگه‌دارنده پتاسیم و NSAIDs"
+      ],
+      "exam_tips": "سرفه ناشی از تجمع برادی‌کینین است؛ علت شایع تغییر دارو به ARB."
+    },
+    {
+      "id": "amlodipine",
+      "generic_name": "Amlodipine",
+      "brand_names": [
+        "Norvasc"
+      ],
+      "category": "Cardiovascular",
+      "drug_class": "Dihydropyridine Calcium Channel Blocker",
+      "mechanism": "مهار کانال‌های کلسیمی نوع L در عضله صاف عروقی و کاهش مقاومت عروق محیطی.",
+      "indications": [
+        "هیپرتانسیون",
+        "آنژین پایدار",
+        "آنژین پرینزمتال"
+      ],
+      "adverse_effects": [
+        "ادم محیطی",
+        "گرگرفتگی",
+        "سردرد",
+        "تاکی‌کاردی رفلکسی"
+      ],
+      "contraindications": [
+        "حساسیت شناخته‌شده به دی‌هیدروپیریدین‌ها"
+      ],
+      "interactions": [
+        "افزایش اثر هیپوتانسیو با سایر آنتی‌هیپرتانسیوها"
+      ],
+      "exam_tips": "برخلاف Verapamil/Diltiazem، اثر مهم بر گره AV ندارد؛ عمدتاً عروقی‌سلکتیو است."
+    },
+    {
+      "id": "metoprolol",
+      "generic_name": "Metoprolol",
+      "brand_names": [
+        "Lopressor",
+        "Toprol-XL"
+      ],
+      "category": "Cardiovascular",
+      "drug_class": "Beta-1 Selective Blocker",
+      "mechanism": "بلوک انتخابی گیرنده‌های بتا-۱ قلبی و کاهش ضربان قلب، کنتراکتیلیته و تقاضای اکسیژن میوکارد.",
+      "indications": [
+        "هیپرتانسیون",
+        "آنژین صدری",
+        "نارسایی قلبی (دوز پایین و تیتره‌شده)",
+        "آریتمی‌ها"
+      ],
+      "adverse_effects": [
+        "برادی‌کاردی",
+        "خستگی",
+        "برونکواسپاسم در دوزهای بالا",
+        "ماسک‌کردن علائم هیپوگلیسمی"
+      ],
+      "contraindications": [
+        "برادی‌کاردی شدید",
+        "بلوک AV درجه ۲/۳ بدون پیس‌میکر",
+        "آسم شدید کنترل‌نشده"
+      ],
+      "interactions": [
+        "افزایش برادی‌کاردی با Verapamil/Diltiazem"
+      ],
+      "exam_tips": "قطع ناگهانی می‌تواند Rebound Tachycardia و افزایش ریسک ایسکمی ایجاد کند."
+    },
+    {
+      "id": "furosemide",
+      "generic_name": "Furosemide",
+      "brand_names": [
+        "Lasix"
+      ],
+      "category": "Cardiovascular",
+      "drug_class": "Loop Diuretic",
+      "mechanism": "مهار کوترانسپورتر Na-K-2Cl در قوس صعودی ضخیم هنله و افزایش دفع سدیم و آب.",
+      "indications": [
+        "ادم ناشی از نارسایی قلبی",
+        "ادم ریوی حاد",
+        "هیپرکالمی حاد (همراه درمان دیگر)"
+      ],
+      "adverse_effects": [
+        "هیپوکالمی",
+        "هیپوناترمی",
+        "اوتوتوکسیسیتی در دوز بالا/تزریق سریع",
+        "آلکالوز متابولیک"
+      ],
+      "contraindications": [
+        "آنوری شدید",
+        "حساسیت به سولفونامید (احتیاط)"
+      ],
+      "interactions": [
+        "افزایش اوتوتوکسیسیتی با Aminoglycosides",
+        "افزایش ریسک مسمومیت با لیتیوم"
+      ],
+      "exam_tips": "قوی‌ترین دیورتیک موجود؛ نام «Loop» از محل اثر در قوس هنله گرفته شده است."
+    },
+    {
+      "id": "losartan",
+      "generic_name": "Losartan",
+      "brand_names": [
+        "Cozaar"
+      ],
+      "category": "Cardiovascular",
+      "drug_class": "Angiotensin II Receptor Blocker (ARB)",
+      "mechanism": "بلوک مستقیم گیرنده AT1 آنژیوتانسین II بدون اثر بر برادی‌کینین.",
+      "indications": [
+        "هیپرتانسیون",
+        "نفروپاتی دیابتی",
+        "جایگزین ACEI در بیماران با سرفه/آنژیوادم"
+      ],
+      "adverse_effects": [
+        "هیپرکالمی",
+        "سرگیجه",
+        "بسیار کمتر آنژیوادم نسبت به ACEI"
+      ],
+      "contraindications": [
+        "بارداری",
+        "تنگی دوطرفه شریان کلیوی"
+      ],
+      "interactions": [
+        "افزایش هیپرکالمی با مکمل‌های پتاسیم و دیورتیک‌های پتاسیم‌نگه‌دار"
+      ],
+      "exam_tips": "بدون سرفه چون مسیر برادی‌کینین دست‌نخورده باقی می‌ماند."
+    },
+    {
+      "id": "digoxin",
+      "generic_name": "Digoxin",
+      "brand_names": [
+        "Lanoxin"
+      ],
+      "category": "Cardiovascular",
+      "drug_class": "Cardiac Glycoside",
+      "mechanism": "مهار پمپ Na-K-ATPase میوکارد، افزایش کلسیم داخل سلولی و اینوتروپی مثبت؛ افزایش تون واگ.",
+      "indications": [
+        "نارسایی قلبی علامت‌دار",
+        "کنترل ضربان در فیبریلاسیون دهلیزی"
+      ],
+      "adverse_effects": [
+        "آریتمی",
+        "دید زرد/سبز (Xanthopsia)",
+        "تهوع و آنورکسی",
+        "علائم تشدید با هیپوکالمی"
+      ],
+      "contraindications": [
+        "بلوک AV بدون پیس‌میکر",
+        "کاردیومیوپاتی هیپرتروفیک انسدادی"
+      ],
+      "interactions": [
+        "افزایش سمیت با هیپوکالمی، Verapamil و Amiodarone"
+      ],
+      "exam_tips": "بازه درمانی بسیار باریک؛ هیپوکالمی خطر مسمومیت دیگوکسین را به‌شدت افزایش می‌دهد."
+    },
+    {
+      "id": "phenytoin",
+      "generic_name": "Phenytoin",
+      "brand_names": [
+        "Dilantin"
+      ],
+      "category": "CNS",
+      "drug_class": "Antiepileptic (Sodium Channel Blocker)",
+      "mechanism": "مهار کانال‌های سدیمی وابسته به ولتاژ و کاهش تخلیه نورونی پرفرکانس مکرر.",
+      "indications": [
+        "صرع تونیک-کلونیک",
+        "وضعیت صرعی (Status epilepticus)",
+        "آریتمی‌های ناشی از دیگوکسین"
+      ],
+      "adverse_effects": [
+        "هیپرپلازی لثه",
+        "هیرسوتیسم",
+        "آتاکسی و نیستاگموس",
+        "سندرم استیون-جانسون"
+      ],
+      "contraindications": [
+        "بارداری (تراتوژن - Fetal Hydantoin Syndrome)"
+      ],
+      "interactions": [
+        "القاکننده قوی CYP450؛ کاهش اثر ضدبارداری خوراکی و Warfarin"
+      ],
+      "exam_tips": "کینتیک غیرخطی (Zero-order) در دوزهای درمانی؛ افزایش جزئی دوز می‌تواند سطح خونی را به‌شدت بالا ببرد."
+    },
+    {
+      "id": "levodopa-carbidopa",
+      "generic_name": "Levodopa-Carbidopa",
+      "brand_names": [
+        "Sinemet"
+      ],
+      "category": "CNS",
+      "drug_class": "Dopamine Precursor + Decarboxylase Inhibitor",
+      "mechanism": "لوودوپا پیش‌ساز دوپامین است که از سد خونی-مغزی عبور می‌کند؛ کاربیدوپا مهارکننده محیطی دکربوکسیلاز است که تبدیل زودرس به دوپامین در محیط را کاهش می‌دهد.",
+      "indications": [
+        "بیماری پارکینسون"
+      ],
+      "adverse_effects": [
+        "دیسکینزی با مصرف طولانی",
+        "هیپوتانسیون ارتواستاتیک",
+        "تهوع",
+        "نوسانات حرکتی (On-off phenomenon)"
+      ],
+      "contraindications": [
+        "گلوکوم زاویه بسته بدون درمان",
+        "مصرف هم‌زمان MAO inhibitors غیرسلکتیو"
+      ],
+      "interactions": [
+        "کاهش اثر با آنتی‌سایکوتیک‌های تیپیک (آنتاگونیست دوپامین)"
+      ],
+      "exam_tips": "کاربیدوپا به‌تنهایی از سد خونی-مغزی عبور نمی‌کند؛ فقط اثر محیطی دارد."
+    },
+    {
+      "id": "diazepam",
+      "generic_name": "Diazepam",
+      "brand_names": [
+        "Valium"
+      ],
+      "category": "CNS",
+      "drug_class": "Benzodiazepine (long-acting)",
+      "mechanism": "افزایش فرکانس بازشدن کانال کلر GABA-A و تقویت اثر مهاری GABA.",
+      "indications": [
+        "وضعیت صرعی",
+        "اضطراب حاد",
+        "اسپاسم عضلانی",
+        "سندرم قطع الکل"
+      ],
+      "adverse_effects": [
+        "سداسیون",
+        "دپرسیون تنفسی (به‌خصوص با اوپیوئید)",
+        "وابستگی با مصرف طولانی"
+      ],
+      "contraindications": [
+        "گلوکوم زاویه بسته حاد",
+        "نارسایی تنفسی شدید"
+      ],
+      "interactions": [
+        "تشدید دپرسیون CNS با الکل و اوپیوئیدها"
+      ],
+      "exam_tips": "در مسمومیت با بنزودیازپین، آنتاگونیست Flumazenil است؛ نیمه‌عمر طولانی به‌علت متابولیت‌های فعال."
+    },
+    {
+      "id": "sumatriptan",
+      "generic_name": "Sumatriptan",
+      "brand_names": [
+        "Imitrex"
+      ],
+      "category": "CNS",
+      "drug_class": "5-HT1B/1D Agonist (Triptan)",
+      "mechanism": "آگونیسم گیرنده‌های سروتونینی 5-HT1B/1D و انقباض عروق مغزی متسع همراه با مهار آزادسازی نوروپپتید التهابی.",
+      "indications": [
+        "میگرن حاد",
+        "سردرد کلاستر حاد"
+      ],
+      "adverse_effects": [
+        "احساس فشار قفسه سینه",
+        "گزگز و سرگیجه",
+        "وازواسپاسم کرونری (نادر)"
+      ],
+      "contraindications": [
+        "بیماری عروق کرونر/ایسکمیک قلبی",
+        "مصرف هم‌زمان Ergotamine"
+      ],
+      "interactions": [
+        "ریسک سندرم سروتونینی با SSRIs/SNRIs"
+      ],
+      "exam_tips": "به‌علت اثر وازوکانستریکتیو در بیماران با ریسک کرونری کنترااندیکه است."
+    },
+    {
+      "id": "gabapentin",
+      "generic_name": "Gabapentin",
+      "brand_names": [
+        "Neurontin"
+      ],
+      "category": "CNS",
+      "drug_class": "GABA Analog (Alpha-2-delta Calcium Channel Ligand)",
+      "mechanism": "اتصال به زیرواحد آلفا-۲-دلتای کانال‌های کلسیمی وابسته به ولتاژ و کاهش آزادسازی نوروترانسمیترهای تحریکی.",
+      "indications": [
+        "درد نوروپاتیک",
+        "صرع کانونی (کمکی)",
+        "نورالژی پس از هرپس زوستر"
+      ],
+      "adverse_effects": [
+        "خواب‌آلودگی",
+        "سرگیجه",
+        "ادم محیطی",
+        "آتاکسی"
+      ],
+      "contraindications": [
+        "احتیاط در نارسایی کلیوی (نیاز به تنظیم دوز)"
+      ],
+      "interactions": [
+        "تشدید سداسیون با اوپیوئیدها و الکل"
+      ],
+      "exam_tips": "با وجود نام، مستقیماً روی گیرنده GABA اثر ندارد؛ از کانال کلسیمی اثر می‌کند."
+    },
+    {
+      "id": "donepezil",
+      "generic_name": "Donepezil",
+      "brand_names": [
+        "Aricept"
+      ],
+      "category": "CNS",
+      "drug_class": "Acetylcholinesterase Inhibitor",
+      "mechanism": "مهار آنزیم استیل‌کولین‌استراز و افزایش غلظت استیل‌کولین سیناپسی در CNS.",
+      "indications": [
+        "بیماری آلزایمر (خفیف تا متوسط تا شدید)"
+      ],
+      "adverse_effects": [
+        "تهوع و اسهال",
+        "برادی‌کاردی",
+        "بی‌خوابی",
+        "گرفتگی عضلانی"
+      ],
+      "contraindications": [
+        "بلوک قلبی شدید بدون پیس‌میکر (احتیاط)"
+      ],
+      "interactions": [
+        "اثر متضاد با داروهای آنتی‌کولینرژیک"
+      ],
+      "exam_tips": "اثرات کولینرژیک محیطی (GI، برادی‌کاردی) از مهار استیل‌کولین‌استراز قابل پیش‌بینی است."
+    },
+    {
+      "id": "fluoxetine",
+      "generic_name": "Fluoxetine",
+      "brand_names": [
+        "Prozac"
+      ],
+      "category": "Psychiatry",
+      "drug_class": "SSRI",
+      "mechanism": "مهار بازجذب سروتونین در سیناپس و افزایش غلظت آن در فضای سیناپسی.",
+      "indications": [
+        "اختلال افسردگی اساسی",
+        "اختلال وسواس فکری-عملی",
+        "بولیمیا نروزا"
+      ],
+      "adverse_effects": [
+        "اختلال جنسی",
+        "بی‌قراری اولیه",
+        "کاهش اشتها",
+        "سندرم سروتونینی (در ترکیب با سایر داروها)"
+      ],
+      "contraindications": [
+        "مصرف هم‌زمان MAO inhibitors"
+      ],
+      "interactions": [
+        "ریسک سندرم سروتونینی با MAOIs، Triptans و Tramadol",
+        "مهارکننده قوی CYP2D6"
+      ],
+      "exam_tips": "نیمه‌عمر بسیار طولانی (و متابولیت فعال)؛ ریسک پایین‌تر سندرم قطع دارو نسبت به سایر SSRIها."
+    },
+    {
+      "id": "sertraline",
+      "generic_name": "Sertraline",
+      "brand_names": [
+        "Zoloft"
+      ],
+      "category": "Psychiatry",
+      "drug_class": "SSRI",
+      "mechanism": "مهار انتخابی بازجذب سروتونین (SERT) در نورون پیش‌سیناپسی.",
+      "indications": [
+        "افسردگی اساسی",
+        "اختلال پانیک",
+        "PTSD",
+        "اختلال اضطراب اجتماعی"
+      ],
+      "adverse_effects": [
+        "ناراحتی گوارشی",
+        "اختلال جنسی",
+        "هیپوناترمی (به‌خصوص در سالمندان)"
+      ],
+      "contraindications": [
+        "مصرف هم‌زمان MAO inhibitors"
+      ],
+      "interactions": [
+        "ریسک سندرم سروتونینی با سایر داروهای سروتونرژیک"
+      ],
+      "exam_tips": "یکی از ایمن‌ترین SSRIها از نظر تداخل دارویی؛ گزینه رایج در بیماران قلبی."
+    },
+    {
+      "id": "haloperidol",
+      "generic_name": "Haloperidol",
+      "brand_names": [
+        "Haldol"
+      ],
+      "category": "Psychiatry",
+      "drug_class": "Typical Antipsychotic (High-potency)",
+      "mechanism": "آنتاگونیسم قوی گیرنده D2 دوپامین در مسیر مزولیمبیک.",
+      "indications": [
+        "اسکیزوفرنی",
+        "آژیتاسیون حاد روان‌پریشی",
+        "سندرم تورت"
+      ],
+      "adverse_effects": [
+        "علائم اکستراپیرامیدال (دیستونی، آکاتیزیا، پارکینسونیسم)",
+        "دیسکینزی دیررس",
+        "طولانی‌شدن QT",
+        "سندرم نورولپتیک بدخیم"
+      ],
+      "contraindications": [
+        "پارکینسون فعال",
+        "QT طولانی شدید"
+      ],
+      "interactions": [
+        "تشدید سداسیون با سایر دپرسانت‌های CNS"
+      ],
+      "exam_tips": "پتانسی بالا → ریسک بیشتر علائم اکستراپیرامیدال نسبت به آنتی‌سایکوتیک‌های کم‌پتانسی."
+    },
+    {
+      "id": "lithium",
+      "generic_name": "Lithium",
+      "brand_names": [
+        "Lithobid"
+      ],
+      "category": "Psychiatry",
+      "drug_class": "Mood Stabilizer",
+      "mechanism": "مکانیسم دقیق نامشخص؛ احتمالاً از طریق مهار مسیر inositol و تثبیت غشای نورونی اثر می‌کند.",
+      "indications": [
+        "اختلال دوقطبی (پیشگیری و درمان مانیا)"
+      ],
+      "adverse_effects": [
+        "دیابت بی‌مزه نفروژنیک",
+        "هیپوتیروئیدی",
+        "ترمور",
+        "تراتوژنیسیتی قلبی (آنومالی Ebstein)"
+      ],
+      "contraindications": [
+        "بارداری (به‌ویژه تریمستر اول)",
+        "نارسایی کلیوی شدید"
+      ],
+      "interactions": [
+        "افزایش سطح خونی با دیورتیک‌های تیازیدی و NSAIDs"
+      ],
+      "exam_tips": "بازه درمانی بسیار باریک؛ نیاز به مانیتورینگ منظم سطح خونی، تیروئید و کلیه."
+    },
+    {
+      "id": "risperidone",
+      "generic_name": "Risperidone",
+      "brand_names": [
+        "Risperdal"
+      ],
+      "category": "Psychiatry",
+      "drug_class": "Atypical Antipsychotic",
+      "mechanism": "آنتاگونیسم گیرنده‌های D2 دوپامین و 5-HT2A سروتونین.",
+      "indications": [
+        "اسکیزوفرنی",
+        "اختلال دوقطبی",
+        "تحریک‌پذیری در اوتیسم"
+      ],
+      "adverse_effects": [
+        "افزایش وزن",
+        "هیپرپرولاکتینمی",
+        "علائم اکستراپیرامیدال (کمتر از تیپیک‌ها)"
+      ],
+      "contraindications": [
+        "احتیاط در دمانس (افزایش ریسک سکته در سالمندان)"
+      ],
+      "interactions": [
+        "تشدید سداسیون با سایر دپرسانت‌های CNS"
+      ],
+      "exam_tips": "در دوزهای بالاتر پروفایل D2 آن شبیه آنتی‌سایکوتیک‌های تیپیک می‌شود."
+    },
+    {
+      "id": "ibuprofen",
+      "generic_name": "Ibuprofen",
+      "brand_names": [
+        "Advil",
+        "Motrin"
+      ],
+      "category": "Analgesics & NSAIDs",
+      "drug_class": "NSAID (Non-selective COX inhibitor)",
+      "mechanism": "مهار غیرانتخابی COX-1 و COX-2 و کاهش سنتز پروستاگلاندین‌ها.",
+      "indications": [
+        "درد خفیف تا متوسط",
+        "تب",
+        "التهاب در آرتریت"
+      ],
+      "adverse_effects": [
+        "زخم و خونریزی گوارشی",
+        "آسیب کلیوی",
+        "افزایش ریسک قلبی‌عروقی با مصرف طولانی"
+      ],
+      "contraindications": [
+        "زخم گوارشی فعال",
+        "نارسایی کلیوی شدید",
+        "تریمستر سوم بارداری"
+      ],
+      "interactions": [
+        "افزایش خونریزی با Warfarin/Aspirin",
+        "کاهش اثر ACEI/دیورتیک"
+      ],
+      "exam_tips": "مهار COX-1 باعث کاهش پروستاگلاندین محافظ معده و کاهش جریان خون کلیوی می‌شود."
+    },
+    {
+      "id": "acetaminophen",
+      "generic_name": "Acetaminophen (Paracetamol)",
+      "brand_names": [
+        "Tylenol"
+      ],
+      "category": "Analgesics & NSAIDs",
+      "drug_class": "Analgesic/Antipyretic (non-NSAID)",
+      "mechanism": "مهار سنتز پروستاگلاندین در CNS؛ اثر ضدالتهابی محیطی ضعیف؛ مکانیسم دقیق هنوز کاملاً روشن نیست.",
+      "indications": [
+        "درد خفیف تا متوسط",
+        "تب"
+      ],
+      "adverse_effects": [
+        "هپاتوتوکسیسیتی در دوز بالا یا مصرف مزمن همراه با الکل"
+      ],
+      "contraindications": [
+        "بیماری شدید کبدی فعال"
+      ],
+      "interactions": [
+        "افزایش ریسک هپاتوتوکسیسیتی با الکل و سایر القاکننده‌های CYP2E1"
+      ],
+      "exam_tips": "آنتی‌دوت مسمومیت: N-acetylcysteine؛ متابولیت سمی NAPQI با گلوتاتیون خنثی می‌شود."
+    },
+    {
+      "id": "morphine",
+      "generic_name": "Morphine",
+      "brand_names": [
+        "MS Contin"
+      ],
+      "category": "Analgesics & NSAIDs",
+      "drug_class": "Opioid Agonist (Mu-receptor)",
+      "mechanism": "آگونیسم گیرنده‌های اوپیوئیدی Mu در CNS و کاهش انتقال سیگنال درد.",
+      "indications": [
+        "درد شدید حاد و مزمن",
+        "درد ناشی از سرطان",
+        "تسکین تنگی‌نفس در نارسایی قلبی پیشرفته"
+      ],
+      "adverse_effects": [
+        "دپرسیون تنفسی",
+        "یبوست",
+        "میوزیس",
+        "وابستگی و تحمل"
+      ],
+      "contraindications": [
+        "نارسایی تنفسی شدید بدون مانیتورینگ",
+        "ایلئوس گاستروانتستینال"
+      ],
+      "interactions": [
+        "تشدید دپرسیون تنفسی با بنزودیازپین‌ها و الکل"
+      ],
+      "exam_tips": "آنتاگونیست در مسمومیت: Naloxone؛ یبوست تحمل ایجاد نمی‌کند و باید مدیریت شود."
+    },
+    {
+      "id": "aspirin",
+      "generic_name": "Aspirin",
+      "brand_names": [
+        "Bayer",
+        "Ecotrin"
+      ],
+      "category": "Analgesics & NSAIDs",
+      "drug_class": "NSAID / Antiplatelet (irreversible COX inhibitor)",
+      "mechanism": "استیلاسیون غیرقابل‌برگشت COX-1 و COX-2؛ در دوز پایین مهار تولید Thromboxane A2 پلاکتی غالب است.",
+      "indications": [
+        "پیشگیری از حوادث قلبی‌عروقی (دوز پایین)",
+        "درد و تب (دوز بالا)",
+        "بیماری کاوازاکی"
+      ],
+      "adverse_effects": [
+        "خونریزی گوارشی",
+        "سندرم رِی در کودکان مبتلا به عفونت ویروسی",
+        "تینیتوس در مسمومیت"
+      ],
+      "contraindications": [
+        "کودکان با عفونت ویروسی (ریسک سندرم ری)",
+        "اختلالات انعقادی فعال"
+      ],
+      "interactions": [
+        "افزایش خونریزی با سایر ضدانعقادها/ضدپلاکت‌ها"
+      ],
+      "exam_tips": "اثر ضدپلاکتی به‌علت غیرقابل‌برگشت بودن، تا تشکیل پلاکت جدید (~۷-۱۰ روز) باقی می‌ماند."
+    },
+    {
+      "id": "celecoxib",
+      "generic_name": "Celecoxib",
+      "brand_names": [
+        "Celebrex"
+      ],
+      "category": "Analgesics & NSAIDs",
+      "drug_class": "Selective COX-2 Inhibitor",
+      "mechanism": "مهار انتخابی COX-2 با حفظ نسبی COX-1 و در نتیجه کاهش عوارض گوارشی نسبت به NSAIDهای غیرانتخابی.",
+      "indications": [
+        "استئوآرتریت",
+        "آرتریت روماتوئید",
+        "درد حاد"
+      ],
+      "adverse_effects": [
+        "افزایش ریسک ترومبوتیک قلبی‌عروقی",
+        "عوارض کلیوی مشابه سایر NSAIDها"
+      ],
+      "contraindications": [
+        "حساسیت به سولفونامید",
+        "بیماری شدید قلبی‌عروقی"
+      ],
+      "interactions": [
+        "کاهش اثر ACEI/دیورتیک‌ها"
+      ],
+      "exam_tips": "پروفایل گوارشی بهتر اما ریسک قلبی‌عروقی نسبتاً بالاتر نسبت به NSAIDهای کلاسیک."
+    },
+    {
+      "id": "metformin",
+      "generic_name": "Metformin",
+      "brand_names": [
+        "Glucophage"
+      ],
+      "category": "Endocrine",
+      "drug_class": "Biguanide",
+      "mechanism": "کاهش گلوکونئوژنز کبدی و افزایش حساسیت محیطی به انسولین؛ بدون تحریک ترشح انسولین.",
+      "indications": [
+        "دیابت نوع ۲ (خط اول)",
+        "سندرم تخمدان پلی‌کیستیک (مصرف خارج برند)"
+      ],
+      "adverse_effects": [
+        "ناراحتی گوارشی",
+        "کمبود ویتامین B12 با مصرف طولانی",
+        "اسیدوز لاکتیک (نادر)"
+      ],
+      "contraindications": [
+        "نارسایی کلیوی پیشرفته",
+        "نارسایی شدید کبدی یا قلبی",
+        "قبل از تصویربرداری با کنتراست یددار (موقت)"
+      ],
+      "interactions": [
+        "افزایش ریسک اسیدوز لاکتیک با کنتراست یددار و الکل"
+      ],
+      "exam_tips": "بر خلاف سولفونیل‌اوره‌ها، باعث هیپوگلیسمی یا افزایش وزن نمی‌شود."
+    },
+    {
+      "id": "insulin-regular",
+      "generic_name": "Insulin (Regular)",
+      "brand_names": [
+        "Humulin R",
+        "Novolin R"
+      ],
+      "category": "Endocrine",
+      "drug_class": "Short-acting Insulin",
+      "mechanism": "اتصال به گیرنده انسولین و تسهیل ورود گلوکز به سلول از طریق GLUT4؛ افزایش انتقال پتاسیم به داخل سلول.",
+      "indications": [
+        "دیابت نوع ۱",
+        "کتواسیدوز دیابتی",
+        "هیپرکالمی حاد (همراه گلوکز)"
+      ],
+      "adverse_effects": [
+        "هیپوگلیسمی",
+        "هیپوکالمی",
+        "لیپوهیپرتروفی محل تزریق"
+      ],
+      "contraindications": [
+        "هیپوگلیسمی فعال"
+      ],
+      "interactions": [
+        "افزایش هیپوگلیسمی با الکل و سایر داروهای کاهنده گلوکز"
+      ],
+      "exam_tips": "در درمان هیپرکالمی، انسولین پتاسیم را به داخل سلول می‌برد بدون کاهش کل پتاسیم بدن."
+    },
+    {
+      "id": "levothyroxine",
+      "generic_name": "Levothyroxine",
+      "brand_names": [
+        "Synthroid"
+      ],
+      "category": "Endocrine",
+      "drug_class": "Thyroid Hormone (T4)",
+      "mechanism": "فرم سنتزی T4 که در بافت‌های محیطی به T3 فعال تبدیل می‌شود و گیرنده‌های هسته‌ای هورمون تیروئید را فعال می‌کند.",
+      "indications": [
+        "هیپوتیروئیدی",
+        "سرکوب TSH در گواتر/سرطان تیروئید"
+      ],
+      "adverse_effects": [
+        "علائم هیپرتیروئیدی در دوز بالا (تاکی‌کاردی، کاهش وزن، بی‌خوابی)"
+      ],
+      "contraindications": [
+        "تیروتوکسیکوز حاد بدون درمان زمینه‌ای",
+        "انفارکتوس میوکارد حاد کنترل‌نشده (احتیاط)"
+      ],
+      "interactions": [
+        "کاهش جذب با کلسیم، آهن و آنتی‌اسید (نیاز به فاصله‌گذاری زمانی)"
+      ],
+      "exam_tips": "مصرف صبح ناشتا و با فاصله از سایر داروها برای جذب بهینه توصیه می‌شود."
+    },
+    {
+      "id": "glipizide",
+      "generic_name": "Glipizide",
+      "brand_names": [
+        "Glucotrol"
+      ],
+      "category": "Endocrine",
+      "drug_class": "Sulfonylurea",
+      "mechanism": "بسته‌شدن کانال‌های پتاسیمی وابسته به ATP در سلول بتای پانکراس و تحریک ترشح انسولین.",
+      "indications": [
+        "دیابت نوع ۲ (نیازمند عملکرد باقی‌مانده سلول بتا)"
+      ],
+      "adverse_effects": [
+        "هیپوگلیسمی",
+        "افزایش وزن"
+      ],
+      "contraindications": [
+        "دیابت نوع ۱",
+        "کتواسیدوز دیابتی"
+      ],
+      "interactions": [
+        "تشدید هیپوگلیسمی با الکل و سایر داروهای کاهنده قند"
+      ],
+      "exam_tips": "برخلاف متفورمین، مستقیماً باعث هیپوگلیسمی و افزایش وزن می‌شود."
+    },
+    {
+      "id": "hydrocortisone",
+      "generic_name": "Hydrocortisone",
+      "brand_names": [
+        "Cortef",
+        "Solu-Cortef"
+      ],
+      "category": "Endocrine",
+      "drug_class": "Corticosteroid (short-acting, mineralocorticoid activity present)",
+      "mechanism": "فعال‌سازی گیرنده‌های گلوکوکورتیکوئیدی داخل‌سلولی و تنظیم رونویسی ژن‌های ضدالتهابی؛ فعالیت مینرالوکورتیکوئیدی نسبی.",
+      "indications": [
+        "نارسایی آدرنال (درمان جایگزینی)",
+        "شوک سپتیک مقاوم",
+        "بحران آدرنال"
+      ],
+      "adverse_effects": [
+        "هیپرگلیسمی",
+        "سرکوب محور HPA با مصرف طولانی",
+        "احتباس سدیم و آب"
+      ],
+      "contraindications": [
+        "عفونت سیستمیک فعال کنترل‌نشده (احتیاط در درمان جایگزینی)"
+      ],
+      "interactions": [
+        "افزایش هیپرگلیسمی با سایر داروهای دیابتی نیازمند تنظیم دوز"
+      ],
+      "exam_tips": "انتخاب اول برای درمان جایگزینی در نارسایی آدرنال به‌علت فعالیت مینرالوکورتیکوئیدی نسبی."
+    },
+    {
+      "id": "prednisone",
+      "generic_name": "Prednisone",
+      "brand_names": [
+        "Deltasone"
+      ],
+      "category": "Endocrine",
+      "drug_class": "Corticosteroid (intermediate-acting)",
+      "mechanism": "پیش‌داروی Prednisolone؛ فعال‌سازی گیرنده گلوکوکورتیکوئیدی و سرکوب وسیع پاسخ التهابی و ایمنی.",
+      "indications": [
+        "بیماری‌های التهابی و خودایمنی",
+        "آسم/COPD تشدید شده",
+        "پیوند عضو (سرکوب ایمنی)"
+      ],
+      "adverse_effects": [
+        "هیپرگلیسمی",
+        "پوکی استخوان",
+        "سرکوب محور HPA",
+        "افزایش ریسک عفونت",
+        "کوشینگوئید"
+      ],
+      "contraindications": [
+        "عفونت قارچی سیستمیک فعال"
+      ],
+      "interactions": [
+        "کاهش اثر واکسن‌های زنده",
+        "افزایش هیپوکالمی با دیورتیک‌های لوپ/تیازیدی"
+      ],
+      "exam_tips": "قطع ناگهانی پس از مصرف طولانی می‌تواند بحران آدرنال ایجاد کند؛ کاهش تدریجی دوز ضروری است."
+    },
+    {
+      "id": "albuterol",
+      "generic_name": "Albuterol (Salbutamol)",
+      "brand_names": [
+        "Ventolin",
+        "ProAir"
+      ],
+      "category": "Respiratory",
+      "drug_class": "Short-acting Beta-2 Agonist (SABA)",
+      "mechanism": "آگونیسم گیرنده‌های بتا-۲ عضله صاف برونش و افزایش cAMP که موجب شل‌شدن برونش می‌شود.",
+      "indications": [
+        "حمله حاد آسم",
+        "تشدید حاد COPD",
+        "پیشگیری از برونکواسپاسم ناشی از ورزش"
+      ],
+      "adverse_effects": [
+        "ترمور",
+        "تاکی‌کاردی",
+        "هیپوکالمی در دوز بالا"
+      ],
+      "contraindications": [
+        "تاکی‌آریتمی شدید (احتیاط)"
+      ],
+      "interactions": [
+        "تشدید هیپوکالمی با دیورتیک‌ها",
+        "آنتاگونیسم با بتابلوکرها"
+      ],
+      "exam_tips": "درمان نجات‌بخش خط اول در حمله حاد آسم؛ برای کنترل طولانی‌مدت کافی نیست."
+    },
+    {
+      "id": "ipratropium",
+      "generic_name": "Ipratropium",
+      "brand_names": [
+        "Atrovent"
+      ],
+      "category": "Respiratory",
+      "drug_class": "Short-acting Anticholinergic (SAMA)",
+      "mechanism": "آنتاگونیسم گیرنده‌های موسکارینی M3 در راه هوایی و کاهش برونکوکانستریکسیون واسطه‌شده توسط واگ.",
+      "indications": [
+        "تشدید حاد COPD (همراه با SABA)",
+        "آسم حاد شدید (کمکی)"
+      ],
+      "adverse_effects": [
+        "خشکی دهان",
+        "تاری دید با تماس چشمی ناخواسته"
+      ],
+      "contraindications": [
+        "حساسیت به آتروپین یا مشتقات آن"
+      ],
+      "interactions": [
+        "اثر افزایشی برونکودیلاتوری با SABA"
+      ],
+      "exam_tips": "در COPD اغلب اثربخش‌تر از SABA به‌تنهایی است؛ ترکیب آن‌ها متداول است."
+    },
+    {
+      "id": "montelukast",
+      "generic_name": "Montelukast",
+      "brand_names": [
+        "Singulair"
+      ],
+      "category": "Respiratory",
+      "drug_class": "Leukotriene Receptor Antagonist",
+      "mechanism": "آنتاگونیسم گیرنده CysLT1 لکوترین و کاهش التهاب و برونکوکانستریکسیون ناشی از لکوترین.",
+      "indications": [
+        "کنترل نگهدارنده آسم",
+        "آسم ناشی از ورزش",
+        "رینیت آلرژیک"
+      ],
+      "adverse_effects": [
+        "سردرد",
+        "تغییرات نوروپسیشیاتریک نادر (تغییر خلق، افکار خودکشی - هشدار FDA)"
+      ],
+      "contraindications": [
+        "ندارد به‌طور خاص؛ احتیاط در سابقه اختلالات روانی"
+      ],
+      "interactions": [
+        "تداخل قابل‌توجه کمی دارد"
+      ],
+      "exam_tips": "برای درمان حمله حاد آسم کاربرد ندارد؛ فقط نقش پروفیلاکتیک/نگهدارنده."
+    },
+    {
+      "id": "theophylline",
+      "generic_name": "Theophylline",
+      "brand_names": [
+        "Theo-24"
+      ],
+      "category": "Respiratory",
+      "drug_class": "Methylxanthine (Phosphodiesterase Inhibitor)",
+      "mechanism": "مهار فسفودی‌استراز و افزایش cAMP داخل‌سلولی؛ آنتاگونیسم گیرنده آدنوزین.",
+      "indications": [
+        "آسم/COPD نگهدارنده (کاربرد کاهش‌یافته به‌علت بازه درمانی باریک)"
+      ],
+      "adverse_effects": [
+        "آریتمی",
+        "تشنج در مسمومیت",
+        "تهوع و بی‌قراری"
+      ],
+      "contraindications": [
+        "آریتمی فعال کنترل‌نشده"
+      ],
+      "interactions": [
+        "افزایش سطح خونی با Ciprofloxacin و سایر مهارکننده‌های CYP1A2"
+      ],
+      "exam_tips": "بازه درمانی بسیار باریک؛ امروزه به‌علت داروهای ایمن‌تر کمتر استفاده می‌شود."
+    },
+    {
+      "id": "omeprazole",
+      "generic_name": "Omeprazole",
+      "brand_names": [
+        "Prilosec"
+      ],
+      "category": "GI",
+      "drug_class": "Proton Pump Inhibitor (PPI)",
+      "mechanism": "مهار غیرقابل‌برگشت پمپ H+/K+-ATPase در سلول‌های پاریتال معده و کاهش ترشح اسید.",
+      "indications": [
+        "بیماری ریفلاکس معده به مری (GERD)",
+        "زخم پپتیک",
+        "سندرم زولینگر-الیسون"
+      ],
+      "adverse_effects": [
+        "افزایش ریسک عفونت C. difficile",
+        "کاهش جذب B12 و منیزیم با مصرف طولانی",
+        "افزایش ریسک شکستگی استخوان"
+      ],
+      "contraindications": [
+        "ندارد به‌طور مطلق؛ احتیاط در مصرف طولانی‌مدت"
+      ],
+      "interactions": [
+        "کاهش جذب داروهایی که نیاز به اسید معده دارند (مثل کتوکونازول)؛ کاهش اثر Clopidogrel (با Omeprazole خاص)"
+      ],
+      "exam_tips": "با مهار غیرقابل‌برگشت پمپ پروتون، اثر طولانی‌تر از آنتاگونیست‌های H2 دارد."
+    },
+    {
+      "id": "famotidine",
+      "generic_name": "Famotidine",
+      "brand_names": [
+        "Pepcid"
+      ],
+      "category": "GI",
+      "drug_class": "H2 Receptor Antagonist",
+      "mechanism": "آنتاگونیسم گیرنده‌های H2 هیستامین در سلول پاریتال و کاهش ترشح اسید معده.",
+      "indications": [
+        "GERD خفیف",
+        "زخم پپتیک",
+        "پروفیلاکسی زخم استرسی"
+      ],
+      "adverse_effects": [
+        "سردرد",
+        "ندرتاً سردرگمی در سالمندان"
+      ],
+      "contraindications": [
+        "ندارد به‌طور خاص"
+      ],
+      "interactions": [
+        "تداخل کمتر نسبت به Cimetidine (Famotidine اثر کمتری بر CYP450 دارد)"
+      ],
+      "exam_tips": "در مقایسه با Cimetidine، تداخلات دارویی و اثرات ضدآندروژنیک کمتری دارد."
+    },
+    {
+      "id": "loperamide",
+      "generic_name": "Loperamide",
+      "brand_names": [
+        "Imodium"
+      ],
+      "category": "GI",
+      "drug_class": "Opioid Receptor Agonist (peripheral, antidiarrheal)",
+      "mechanism": "آگونیسم گیرنده‌های اوپیوئیدی موجود در دیواره روده و کاهش حرکات پریستالتیک؛ عبور حداقل از سد خونی-مغزی.",
+      "indications": [
+        "اسهال حاد غیرعفونی",
+        "کنترل علامتی اسهال مزمن"
+      ],
+      "adverse_effects": [
+        "یبوست",
+        "کرامپ شکمی",
+        "ریسک مگاکولون توکسیک در کولیت عفونی"
+      ],
+      "contraindications": [
+        "کولیت ناشی از باکتری‌های مهاجم (مثل Shigella)",
+        "اسهال خونی با تب"
+      ],
+      "interactions": [
+        "افزایش اثر CNS در دوز بالا با مهارکننده‌های P-glycoprotein"
+      ],
+      "exam_tips": "در اسهال عفونی با تب یا خون در مدفوع باید با احتیاط یا اجتناب استفاده شود."
+    },
+    {
+      "id": "ondansetron",
+      "generic_name": "Ondansetron",
+      "brand_names": [
+        "Zofran"
+      ],
+      "category": "GI",
+      "drug_class": "5-HT3 Receptor Antagonist",
+      "mechanism": "آنتاگونیسم گیرنده‌های 5-HT3 سروتونین در ناحیه پستریما و عصب واگ روده‌ای.",
+      "indications": [
+        "تهوع و استفراغ ناشی از شیمی‌درمانی",
+        "تهوع پس از عمل جراحی"
+      ],
+      "adverse_effects": [
+        "یبوست",
+        "سردرد",
+        "طولانی‌شدن QT (وابسته به دوز)"
+      ],
+      "contraindications": [
+        "سندرم QT طولانی مادرزادی شدید (احتیاط)"
+      ],
+      "interactions": [
+        "افزایش ریسک QT طولانی با سایر داروهای طولانی‌کننده QT"
+      ],
+      "exam_tips": "بر خلاف Metoclopramide، اثر آنتاگونیست دوپامین ندارد و علائم اکستراپیرامیدال ایجاد نمی‌کند."
+    },
+    {
+      "id": "metoclopramide",
+      "generic_name": "Metoclopramide",
+      "brand_names": [
+        "Reglan"
+      ],
+      "category": "GI",
+      "drug_class": "Dopamine D2 Antagonist / Prokinetic",
+      "mechanism": "آنتاگونیسم گیرنده D2 مرکزی (ضدتهوع) و افزایش تون اسفنکتر تحتانی مری و تخلیه معده (پروکینتیک).",
+      "indications": [
+        "گاستروپارزی دیابتی",
+        "ریفلاکس معده به مری",
+        "تهوع و استفراغ"
+      ],
+      "adverse_effects": [
+        "علائم اکستراپیرامیدال",
+        "دیسکینزی دیررس با مصرف طولانی",
+        "هیپرپرولاکتینمی"
+      ],
+      "contraindications": [
+        "انسداد مکانیکی گوارشی",
+        "پارکینسون فعال"
+      ],
+      "interactions": [
+        "تشدید علائم اکستراپیرامیدال با آنتی‌سایکوتیک‌ها"
+      ],
+      "exam_tips": "یکی از معدود داروهای ضدتهوع با اثر پروکینتیک هم‌زمان؛ ریسک دیسکینزی دیررس را به‌خاطر بسپارید."
+    },
+    {
+      "id": "warfarin",
+      "generic_name": "Warfarin",
+      "brand_names": [
+        "Coumadin"
+      ],
+      "category": "Anticoagulants",
+      "drug_class": "Vitamin K Antagonist",
+      "mechanism": "مهار آنزیم Vitamin K epoxide reductase و کاهش سنتز فاکتورهای انعقادی وابسته به ویتامین K (II, VII, IX, X) و پروتئین C/S.",
+      "indications": [
+        "فیبریلاسیون دهلیزی",
+        "ترومبوز ورید عمقی/آمبولی ریوی",
+        "دریچه‌های مکانیکی قلب"
+      ],
+      "adverse_effects": [
+        "خونریزی",
+        "نکروز پوستی زودرس (به‌علت کاهش سریع پروتئین C)",
+        "تراتوژنیسیتی"
+      ],
+      "contraindications": [
+        "بارداری",
+        "خونریزی فعال"
+      ],
+      "interactions": [
+        "تشدید اثر با NSAIDs/آنتی‌بیوتیک‌های وسیع‌الطیف؛ کاهش اثر با ویتامین K و القاکننده‌های CYP"
+      ],
+      "exam_tips": "نیاز به مانیتورینگ INR؛ آنتی‌دوت در خونریزی شدید: Vitamin K و گاهی FFP/PCC."
+    },
+    {
+      "id": "heparin",
+      "generic_name": "Heparin (Unfractionated)",
+      "brand_names": [
+        "Heparin Sodium"
+      ],
+      "category": "Anticoagulants",
+      "drug_class": "Indirect Thrombin/Factor Xa Inhibitor",
+      "mechanism": "فعال‌سازی Antithrombin III و تسریع مهار ترومبین و فاکتور Xa.",
+      "indications": [
+        "پروفیلاکسی و درمان ترومبوآمبولی وریدی",
+        "سندرم کرونری حاد",
+        "حین جراحی قلب باز/دیالیز"
+      ],
+      "adverse_effects": [
+        "خونریزی",
+        "ترومبوسیتوپنی ناشی از هپارین (HIT)",
+        "استئوپروز با مصرف طولانی"
+      ],
+      "contraindications": [
+        "ترومبوسیتوپنی فعال ناشی از هپارین",
+        "خونریزی فعال شدید"
+      ],
+      "interactions": [
+        "تشدید خونریزی با سایر ضدانعقادها"
+      ],
+      "exam_tips": "آنتی‌دوت: Protamine sulfate؛ نظارت با aPTT؛ HIT یک واکنش ایمنی خطرناک است نه صرفاً کاهش پلاکت."
+    },
+    {
+      "id": "clopidogrel",
+      "generic_name": "Clopidogrel",
+      "brand_names": [
+        "Plavix"
+      ],
+      "category": "Anticoagulants",
+      "drug_class": "P2Y12 ADP Receptor Antagonist (Antiplatelet)",
+      "mechanism": "مهار غیرقابل‌برگشت گیرنده P2Y12 پلاکتی و جلوگیری از فعال‌سازی پلاکت واسطه‌شده با ADP.",
+      "indications": [
+        "سندرم کرونری حاد",
+        "پس از استنت‌گذاری کرونری",
+        "پیشگیری ثانویه سکته مغزی ایسکمیک"
+      ],
+      "adverse_effects": [
+        "خونریزی",
+        "پورپورای ترومبوتیک ترومبوسیتوپنیک (نادر)"
+      ],
+      "contraindications": [
+        "خونریزی فعال شدید"
+      ],
+      "interactions": [
+        "کاهش اثر با Omeprazole (مهار CYP2C19)"
+      ],
+      "exam_tips": "پیش‌داروست و نیاز به فعال‌سازی توسط CYP2C19 دارد؛ پلی‌مورفیسم ژنتیکی می‌تواند اثربخشی را کاهش دهد."
+    },
+    {
+      "id": "methotrexate",
+      "generic_name": "Methotrexate",
+      "brand_names": [
+        "Trexall",
+        "Rheumatrex"
+      ],
+      "category": "Immunosuppressant/Antineoplastic",
+      "drug_class": "Folate Antagonist (DHFR Inhibitor)",
+      "mechanism": "مهار آنزیم Dihydrofolate reductase و کاهش سنتز پورین/پیریمیدین لازم برای تقسیم سلولی.",
+      "indications": [
+        "آرتریت روماتوئید",
+        "پسوریازیس شدید",
+        "برخی بدخیمی‌ها (دوز بالا)",
+        "حاملگی خارج رحمی (در موارد خاص)"
+      ],
+      "adverse_effects": [
+        "سرکوب مغز استخوان",
+        "هپاتوتوکسیسیتی",
+        "موکوزیت",
+        "پنوموتیت ریوی"
+      ],
+      "contraindications": [
+        "بارداری (تراتوژن قوی)",
+        "نارسایی شدید کبدی یا کلیوی"
+      ],
+      "interactions": [
+        "افزایش سمیت با NSAIDs/Trimethoprim (هر دو ضد فولات/کاهش دفع کلیوی)"
+      ],
+      "exam_tips": "آنتی‌دوت/نجات‌دهنده در سمیت: Leucovorin (Folinic acid)؛ تراتوژنیسیتی شدید را به‌خاطر بسپارید."
+    }
+  ]
+}

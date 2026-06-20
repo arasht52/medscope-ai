@@ -1,0 +1,72 @@
+[
+  {
+    "id": "p-q1",
+    "topicId": "metformin",
+    "drugTitleEn": "Metformin",
+    "question_fa": "مکانیسم اصلی اثر متفورمین در درمان دیابت نوع ۲ کدام است؟",
+    "options": [
+      { "id": "a", "text_fa": "افزایش ترشح انسولین از پانکراس", "text_en": "Increased insulin secretion" },
+      { "id": "b", "text_fa": "کاهش گلوکونئوژنز کبدی", "text_en": "Decreased hepatic gluconeogenesis" },
+      { "id": "c", "text_fa": "مهار آلفا-گلوکوزیداز روده", "text_en": "Alpha-glucosidase inhibition" },
+      { "id": "d", "text_fa": "افزایش دفع کلیوی گلوکز", "text_en": "Increased renal glucose excretion" }
+    ],
+    "correctOptionId": "b",
+    "explanation_fa": "متفورمین عمدتاً با کاهش گلوکونئوژنز کبدی و افزایش حساسیت به انسولین عمل می‌کند و باعث ترشح انسولین نمی‌شود (ریسک هیپوگلیسمی پایین)."
+  },
+  {
+    "id": "p-q2",
+    "topicId": "beta-lactam-allergy",
+    "drugTitleEn": "Penicillin",
+    "question_fa": "مهم‌ترین نکته ایمنی پیش از تجویز پنی‌سیلین چیست؟",
+    "options": [
+      { "id": "a", "text_fa": "بررسی سابقه حساسیت به بتالاکتام‌ها", "text_en": "Check beta-lactam allergy history" },
+      { "id": "b", "text_fa": "بررسی عملکرد تیروئید", "text_en": "Check thyroid function" },
+      { "id": "c", "text_fa": "بررسی سطح پتاسیم خون", "text_en": "Check serum potassium" },
+      { "id": "d", "text_fa": "بررسی سطح ویتامین D", "text_en": "Check vitamin D level" }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "واکنش‌های حساسیتی شامل آنافیلاکسی، شایع‌ترین و خطرناک‌ترین عارضه بتالاکتام‌ها هستند، بنابراین بررسی سابقه آلرژی ضروری است."
+  },
+  {
+    "id": "p-q3",
+    "topicId": "ace-inhibitors",
+    "drugTitleEn": "ACE Inhibitors (e.g. Enalapril)",
+    "question_fa": "کدام عارضه جانبی به طور مشخص با مهارکننده‌های ACE مرتبط است؟",
+    "options": [
+      { "id": "a", "text_fa": "سرفه خشک", "text_en": "Dry cough" },
+      { "id": "b", "text_fa": "افزایش وزن شدید", "text_en": "Severe weight gain" },
+      { "id": "c", "text_fa": "زردی پوست", "text_en": "Jaundice" },
+      { "id": "d", "text_fa": "ریزش مو", "text_en": "Hair loss" }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تجمع برادی‌کینین به دنبال مهار ACE می‌تواند باعث سرفه خشک مزمن و در موارد نادر آنژیوادم شود."
+  },
+  {
+    "id": "p-q4",
+    "topicId": "warfarin-interactions",
+    "drugTitleEn": "Warfarin",
+    "question_fa": "تداخل دارویی وارفارین با کدام دارو خطر خونریزی را به طور قابل‌توجهی افزایش می‌دهد؟",
+    "options": [
+      { "id": "a", "text_fa": "استامینوفن در دوز معمول", "text_en": "Standard-dose Acetaminophen" },
+      { "id": "b", "text_fa": "آسپرین", "text_en": "Aspirin" },
+      { "id": "c", "text_fa": "کلسیم کربنات", "text_en": "Calcium Carbonate" },
+      { "id": "d", "text_fa": "ویتامین B12", "text_en": "Vitamin B12" }
+    ],
+    "correctOptionId": "b",
+    "explanation_fa": "آسپرین اثر ضدپلاکتی دارد و در ترکیب با وارفارین (ضد انعقاد) خطر خونریزی به‌طور قابل‌توجهی افزایش می‌یابد."
+  },
+  {
+    "id": "p-q5",
+    "topicId": "beta-blockers-contraindication",
+    "drugTitleEn": "Beta-blockers (e.g. Propranolol)",
+    "question_fa": "بتابلوکرها باید با احتیاط زیاد در کدام بیماری زمینه‌ای تجویز شوند؟",
+    "options": [
+      { "id": "a", "text_fa": "آسم شدید", "text_en": "Severe Asthma" },
+      { "id": "b", "text_fa": "میگرن", "text_en": "Migraine" },
+      { "id": "c", "text_fa": "هیپرتیروئیدیسم", "text_en": "Hyperthyroidism" },
+      { "id": "d", "text_fa": "استئوپروز", "text_en": "Osteoporosis" }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "بتابلوکرهای غیرانتخابی می‌توانند با مهار گیرنده‌های بتا-۲ برونش، برونکواسپاسم را در بیماران آسمی تشدید کنند."
+  }
+]

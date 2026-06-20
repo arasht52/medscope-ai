@@ -1,23 +1,289 @@
-[
-  {
-    "id": 1,
-    "title": "Simple Squamous Epithelium",
-    "faTitle": "اپی‌تلیوم سنگفرشی ساده",
-    "location": "Alveoli, blood vessels",
-    "summary": "یک لایه سلول صاف برای انتشار و فیلتراسیون."
-  },
-  {
-    "id": 2,
-    "title": "Simple Cuboidal Epithelium",
-    "faTitle": "اپی‌تلیوم مکعبی ساده",
-    "location": "Kidney tubules",
-    "summary": "یک لایه سلول مکعبی برای ترشح و جذب."
-  },
-  {
-    "id": 3,
-    "title": "Simple Columnar Epithelium",
-    "faTitle": "اپی‌تلیوم ستونی ساده",
-    "location": "GI tract",
-    "summary": "جذب و ترشح؛ اغلب دارای Microvilli و Goblet cells."
-  }
-]
+{
+  "categories": [
+    { "id": "epithelial", "label_fa": "بافت پوششی", "label_en": "Epithelial Tissue" },
+    { "id": "connective", "label_fa": "بافت همبند", "label_en": "Connective Tissue" },
+    { "id": "muscle", "label_fa": "بافت عضلانی", "label_en": "Muscle Tissue" },
+    { "id": "nervous", "label_fa": "بافت عصبی", "label_en": "Nervous Tissue" }
+  ],
+  "items": [
+    {
+      "id": "simple-squamous-epithelium",
+      "title_en": "Simple Squamous Epithelium",
+      "title_fa": "اپیتلیوم سنگفرشی ساده",
+      "category": "epithelial",
+      "image_url": "/images/histology/simple-squamous-epithelium.jpg",
+      "microscopic_features": [
+        "یک لایه سلول‌های نازک و پهن",
+        "هسته‌های پهن و بیضی‌شکل که در مرکز سلول قرار دارند",
+        "سیتوپلاسم بسیار کم به نظر می‌رسد"
+      ],
+      "locations": [
+        "آلوئول‌های ریه",
+        "اندوتلیوم عروق خونی",
+        "کپسول بومن در کلیه"
+      ],
+      "diagnostic_clues": [
+        "ظاهر «تخت و کشیده» سلول‌ها در مقطع عرضی",
+        "مناسب برای تبادل سریع گاز یا مواد به دلیل نازک بودن لایه"
+      ],
+      "common_confusions": [
+        "اشتباه گرفتن با اندوتلیوم به دلیل شباهت ظاهری (اندوتلیوم نوعی اپیتلیوم سنگفرشی ساده است)",
+        "تمایز از مزوتلیوم که پوشاننده حفرات بدن است"
+      ],
+      "exam_tips": [
+        "اگر سؤال درباره تبادل گاز یا فیلتراسیون بود، به این بافت فکر کنید",
+        "محل‌های کلیدی: آلوئول، گلومرول، عروق"
+      ],
+      "quiz_questions": [
+        {
+          "question": "اپیتلیوم سنگفرشی ساده در کدام ساختار یافت می‌شود؟",
+          "options": ["آلوئول ریه", "مری", "روده بزرگ", "مثانه"],
+          "answer_index": 0
+        }
+      ]
+    },
+    {
+      "id": "stratified-squamous-epithelium",
+      "title_en": "Stratified Squamous Epithelium",
+      "title_fa": "اپیتلیوم سنگفرشی مطبق",
+      "category": "epithelial",
+      "image_url": "/images/histology/stratified-squamous-epithelium.jpg",
+      "microscopic_features": [
+        "چند لایه سلولی با سلول‌های مکعبی در پایه و سنگفرشی در سطح",
+        "ممکن است کراتینیزه (پوست) یا غیرکراتینیزه (مری، دهان) باشد"
+      ],
+      "locations": [
+        "اپیدرم پوست (کراتینیزه)",
+        "مری، دهان، واژن (غیرکراتینیزه)"
+      ],
+      "diagnostic_clues": [
+        "وجود چندین لایه سلول قابل تشخیص از سطح به عمق",
+        "حضور لایه کراتین در نوع کراتینیزه"
+      ],
+      "common_confusions": [
+        "اشتباه گرفتن نوع کراتینیزه و غیرکراتینیزه با یکدیگر",
+        "تمایز از اپیتلیوم مطبق مکعبی که نادرتر است"
+      ],
+      "exam_tips": [
+        "وجود کراتین = پوست؛ عدم وجود کراتین = مری یا حفره دهان",
+        "محافظت در برابر سایش، نه تبادل مواد"
+      ],
+      "quiz_questions": [
+        {
+          "question": "اپیتلیوم سنگفرشی مطبق کراتینیزه در کجا دیده می‌شود؟",
+          "options": ["اپیدرم پوست", "آلوئول", "گلومرول", "روده باریک"],
+          "answer_index": 0
+        }
+      ]
+    },
+    {
+      "id": "hyaline-cartilage",
+      "title_en": "Hyaline Cartilage",
+      "title_fa": "غضروف هیالین",
+      "category": "connective",
+      "image_url": "/images/histology/hyaline-cartilage.jpg",
+      "microscopic_features": [
+        "ماتریکس شیشه‌ای و یکنواخت",
+        "کندروسیت‌ها درون حفره‌های کوچک به نام لاکونا",
+        "فاقد عروق خونی و عصب"
+      ],
+      "locations": [
+        "غضروف مفصلی",
+        "حلقه‌های نای و برونش",
+        "صفحه اپی‌فیزی استخوان‌های بلند"
+      ],
+      "diagnostic_clues": [
+        "ماتریکس صاف و بدون الیاف قابل مشاهده با میکروسکوپ نوری معمولی",
+        "وجود پری‌کندریوم در اطراف بافت (به جز در غضروف مفصلی)"
+      ],
+      "common_confusions": [
+        "اشتباه گرفتن با غضروف الاستیک که الیاف الاستیک بیشتری دارد",
+        "تمایز از غضروف فیبری که الیاف کلاژن قابل مشاهده بیشتری دارد"
+      ],
+      "exam_tips": [
+        "پرتکرارترین نوع غضروف در بدن و در سؤالات امتحانی",
+        "نبود رگ خونی یعنی تغذیه از طریق انتشار از پری‌کندریوم"
+      ],
+      "quiz_questions": [
+        {
+          "question": "غضروف هیالین در کدام ساختار یافت نمی‌شود؟",
+          "options": ["لاله گوش", "نای", "غضروف مفصلی", "صفحه اپی‌فیزی"],
+          "answer_index": 0
+        }
+      ]
+    },
+    {
+      "id": "dense-regular-connective-tissue",
+      "title_en": "Dense Regular Connective Tissue",
+      "title_fa": "بافت همبند متراکم منظم",
+      "category": "connective",
+      "image_url": "/images/histology/dense-regular-connective-tissue.jpg",
+      "microscopic_features": [
+        "دسته‌های موازی و منظم الیاف کلاژن",
+        "فیبروبلاست‌های کشیده بین دسته‌های کلاژن"
+      ],
+      "locations": [
+        "تاندون",
+        "لیگامان"
+      ],
+      "diagnostic_clues": [
+        "آرایش موازی و یک‌جهته الیاف، برخلاف بافت همبند نامنظم"
+      ],
+      "common_confusions": [
+        "اشتباه گرفتن با بافت همبند متراکم نامنظم (مانند درم پوست) که آرایش الیاف در آن تصادفی است"
+      ],
+      "exam_tips": [
+        "آرایش موازی = تاندون یا لیگامان؛ آرایش تصادفی = درم"
+      ],
+      "quiz_questions": [
+        {
+          "question": "ویژگی اصلی بافت همبند متراکم منظم چیست؟",
+          "options": [
+            "آرایش موازی الیاف کلاژن",
+            "آرایش تصادفی الیاف کلاژن",
+            "غلبه الیاف الاستیک",
+            "فقدان فیبروبلاست"
+          ],
+          "answer_index": 0
+        }
+      ]
+    },
+    {
+      "id": "skeletal-muscle",
+      "title_en": "Skeletal Muscle",
+      "title_fa": "عضله اسکلتی",
+      "category": "muscle",
+      "image_url": "/images/histology/skeletal-muscle.jpg",
+      "microscopic_features": [
+        "فیبرهای استوانه‌ای بلند و چندهسته‌ای",
+        "هسته‌های محیطی (در کنار غشای سلول)",
+        "خط‌خطی عرضی مشخص (striations)"
+      ],
+      "locations": [
+        "عضلات اسکلتی متصل به استخوان"
+      ],
+      "diagnostic_clues": [
+        "چندهسته‌ای بودن همراه با هسته‌های محیطی، مشخصه قطعی است"
+      ],
+      "common_confusions": [
+        "اشتباه گرفتن با عضله قلبی به دلیل وجود خط‌خطی در هر دو",
+        "تفاوت کلیدی: عضله قلبی هسته مرکزی و دیسک بینابینی دارد"
+      ],
+      "exam_tips": [
+        "هسته محیطی + چندهسته‌ای = اسکلتی",
+        "تحت کنترل اراده (ولنتاری)"
+      ],
+      "quiz_questions": [
+        {
+          "question": "محل قرارگیری هسته در فیبر عضله اسکلتی کجاست؟",
+          "options": ["محیطی", "مرکزی", "بدون هسته", "متغیر"],
+          "answer_index": 0
+        }
+      ]
+    },
+    {
+      "id": "cardiac-muscle",
+      "title_en": "Cardiac Muscle",
+      "title_fa": "عضله قلبی",
+      "category": "muscle",
+      "image_url": "/images/histology/cardiac-muscle.jpg",
+      "microscopic_features": [
+        "فیبرهای انشعابی با هسته مرکزی (عموماً تک‌هسته‌ای)",
+        "وجود دیسک‌های بینابینی (intercalated discs)",
+        "خط‌خطی عرضی قابل مشاهده"
+      ],
+      "locations": [
+        "دیواره قلب (میوکارد)"
+      ],
+      "diagnostic_clues": [
+        "دیسک بینابینی، مشخصه اختصاصی این نوع عضله است و در نوع دیگری دیده نمی‌شود"
+      ],
+      "common_confusions": [
+        "اشتباه گرفتن با عضله اسکلتی؛ تفاوت اصلی هسته مرکزی و دیسک بینابینی است"
+      ],
+      "exam_tips": [
+        "دیسک بینابینی = همیشه به معنی عضله قلبی است",
+        "غیرولنتاری و دارای فعالیت خودکار (اتوریتمیک)"
+      ],
+      "quiz_questions": [
+        {
+          "question": "کدام ویژگی مخصوص عضله قلبی است؟",
+          "options": [
+            "دیسک بینابینی",
+            "هسته محیطی",
+            "چندهسته‌ای بودن",
+            "فقدان خط‌خطی"
+          ],
+          "answer_index": 0
+        }
+      ]
+    },
+    {
+      "id": "smooth-muscle",
+      "title_en": "Smooth Muscle",
+      "title_fa": "عضله صاف",
+      "category": "muscle",
+      "image_url": "/images/histology/smooth-muscle.jpg",
+      "microscopic_features": [
+        "سلول‌های دوکی‌شکل با هسته مرکزی واحد",
+        "فاقد خط‌خطی عرضی (غیر مخطط)"
+      ],
+      "locations": [
+        "دیواره احشا مانند روده و رگ‌های خونی",
+        "مجاری تنفسی و دستگاه ادراری-تناسلی"
+      ],
+      "diagnostic_clues": [
+        "نبود خط‌خطی همراه با هسته مرکزی واحد، تشخیص آن را ممکن می‌کند"
+      ],
+      "common_confusions": [
+        "اشتباه گرفتن با فیبروبلاست در مقاطع نازک به دلیل شکل دوکی مشابه"
+      ],
+      "exam_tips": [
+        "غیرمخطط و غیرولنتاری؛ معمولاً در دیواره اندام‌های لوله‌ای"
+      ],
+      "quiz_questions": [
+        {
+          "question": "عضله صاف معمولاً در کدام ساختار یافت می‌شود؟",
+          "options": [
+            "دیواره روده",
+            "میوکارد قلب",
+            "عضله دوسر بازویی",
+            "دیافراگم"
+          ],
+          "answer_index": 0
+        }
+      ]
+    },
+    {
+      "id": "peripheral-nerve",
+      "title_en": "Peripheral Nerve",
+      "title_fa": "عصب محیطی",
+      "category": "nervous",
+      "image_url": "/images/histology/peripheral-nerve.jpg",
+      "microscopic_features": [
+        "دسته‌های آکسون پوشیده‌شده توسط میلین",
+        "سلول‌های شوان به عنوان سلول‌های میلین‌ساز",
+        "بافت همبند پوششی در سه سطح: اندونوریوم، پری‌نوریوم، اپی‌نوریوم"
+      ],
+      "locations": [
+        "اعصاب محیطی در سراسر بدن"
+      ],
+      "diagnostic_clues": [
+        "مقطع عرضی به شکل دایره‌های متعدد با مرکز روشن (آکسون) و حلقه میلین در مقطع"
+      ],
+      "common_confusions": [
+        "اشتباه گرفتن پری‌نوریوم با اپی‌نوریوم در شناسایی لایه‌های پوششی"
+      ],
+      "exam_tips": [
+        "سلول شوان فقط در سیستم عصبی محیطی است؛ در CNS اولیگودندروسیت میلین می‌سازد"
+      ],
+      "quiz_questions": [
+        {
+          "question": "سلول میلین‌ساز در سیستم عصبی محیطی کدام است؟",
+          "options": ["سلول شوان", "اولیگودندروسیت", "آستروسیت", "میکروگلیا"],
+          "answer_index": 0
+        }
+      ]
+    }
+  ]
+}

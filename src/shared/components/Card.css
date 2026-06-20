@@ -1,0 +1,21 @@
+.ms-card {
+  background: var(--color-card);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  padding: var(--space-4);
+}
+
+.ms-card[role="button"] {
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  border: 1px solid transparent;
+}
+
+.ms-card[role="button"]:hover {
+  box-shadow: 0 4px 16px rgba(20, 40, 70, 0.12);
+}
+
+.ms-card[role="button"]:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}

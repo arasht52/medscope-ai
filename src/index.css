@@ -1,25 +1,221 @@
+/* ===========================================================
+   MedScope AI — Consolidated global stylesheet
+   Source of truth: DESIGN_SYSTEM.md
+
+   This merges what were previously THREE separate token files
+   (Histology's index.css, Pharmacology's index.css, Quiz's
+   tokens.css) plus Tailwind (used only by Home).
+
+   Each module's components were left untouched, so every CSS
+   variable name any of them reference is kept here — pointing at
+   ONE consolidated value instead of three slightly different
+   shades of "medical blue" defined three times. Module-specific
+   token names (e.g. Quiz's --color-correct, Pharmacology's
+   --color-danger) are kept as-is since nothing else uses them.
+   =========================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --- Canonical shared tokens (union of histology/pharmacology/quiz) --- */
+  --color-primary: #1467c8;          /* medical blue — picked from Pharmacology (most complete token set) */
+  --color-primary-dark: #0e4f9e;
+  --color-secondary: #2fa66b;        /* soft green */
+  --color-bg: #f7f8fa;               /* very light gray */
+  --color-surface: #ffffff;
+  --color-card: #ffffff;             /* alias used by Quiz components */
+  --color-text: #1b2430;
+  --color-text-muted: #5e6b7a;
+  --color-border: #e6e9ee;
+
+  /* Module-specific "soft"/"tint" variants — kept under BOTH names so
+     neither Histology's nor Pharmacology's existing CSS needs editing */
+  --color-primary-soft: #e8f0fb;
+  --color-primary-tint: #e8f0fb;
+  --color-secondary-soft: #e7f6ee;
+  --color-secondary-tint: #e7f6ee;
+  --color-danger: #c0392b;
+  --color-danger-tint: #fbeae8;
+
+  /* Quiz-only tokens (correct/wrong feedback states — unique names, no collision) */
+  --color-correct: #2e9e5b;
+  --color-correct-bg: #e8f7ee;
+  --color-wrong: #d64545;
+  --color-wrong-bg: #fdecec;
+
+  /* Radius / shadow */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-card: 14px;     /* Quiz alias for --radius-md */
+  --radius-pill: 999px;
+  --shadow-card: 0 1px 2px rgba(16, 24, 40, 0.04), 0 2px 8px rgba(16, 24, 40, 0.06);
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  /* Type */
+  --font-fa: "Vazirmatn", "Tahoma", sans-serif;
+  --font-en: "Inter", "Segoe UI", sans-serif;
+}
+
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
+html,
 body {
-  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-fa);
   direction: rtl;
-  background: #f8fafc;
-  color: #0f172a;
+  -webkit-tap-highlight-color: transparent;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-button {
-  font-family: inherit;
+body {
+  -webkit-font-smoothing: antialiased;
+  text-align: right;
 }
 
 #root {
   min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-fa);
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-text);
+}
+
+p {
+  margin: 0;
+  line-height: 1.8;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input {
+  font-family: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* English/Latin medical terms stay LTR even inside RTL flow.
+   Three different class names were used for the exact same purpose
+   across modules (.term-en, .en/.latin, .ltr-term) — all three are
+   kept as aliases so no component needs to change its className. */
+.term-en,
+.en,
+.latin,
+.ltr-term {
+  direction: ltr;
+  unicode-bidi: isolate;
+  font-family: var(--font-en);
+  display: inline-block;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Visually hidden but available to screen readers — used where state is
+   otherwise communicated by color alone (e.g. Quiz correct/wrong answers). */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* App shell — single column, mobile-first, max 480px, per DESIGN_SYSTEM.md */
+.app-shell {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  background: var(--color-bg);
+  min-height: 100vh;
+  position: relative;
+}
+
+.app-shell__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Generic page wrapper used by Pharmacology/Histology/Quiz pages */
+.page {
+  flex: 1;
+  padding: var(--space-4) var(--space-4) calc(72px + var(--space-4));
+}
+
+.page-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--color-bg);
+  padding: var(--space-4) var(--space-4) var(--space-2);
+}
+
+.page-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 2px;
+}
+
+.page-subtitle {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  .app-shell {
+    border-inline: 1px solid var(--color-border);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
 }

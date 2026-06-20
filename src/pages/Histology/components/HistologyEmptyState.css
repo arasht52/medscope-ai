@@ -1,0 +1,19 @@
+.h-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-2);
+  padding: var(--space-6) var(--space-4);
+  color: var(--color-text-muted);
+}
+
+.h-empty-state__title {
+  font-size: 15px;
+  color: var(--color-text);
+}
+
+.h-empty-state__desc {
+  font-size: 13.5px;
+  color: var(--color-text-muted);
+}

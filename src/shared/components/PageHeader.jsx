@@ -1,14 +1,19 @@
-export default function PageHeader({
-  title,
-  subtitle
-}) {
-  return (
-    <div className="page-header">
-      <h1>{title}</h1>
+import "./PageHeader.css";
 
-      {subtitle && (
-        <p>{subtitle}</p>
+/**
+ * Shared PageHeader.
+ * Used at the top of every screen (Home, Histology, Pharmacology, Quiz, ...).
+ */
+export default function PageHeader({ title, onBack, right = null }) {
+  return (
+    <header className="ms-header">
+      {onBack && (
+        <button className="ms-header__back" onClick={onBack} aria-label="بازگشت">
+          →
+        </button>
       )}
-    </div>
+      <h1 className="ms-header__title">{title}</h1>
+      <div className="ms-header__right">{right}</div>
+    </header>
   );
 }

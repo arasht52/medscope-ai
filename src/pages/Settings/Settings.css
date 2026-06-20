@@ -1,0 +1,43 @@
+.settings-page {
+  padding: 16px;
+  background: var(--set-bg);
+  min-height: 100%;
+}
+
+.settings-version {
+  font-weight: 700;
+  color: var(--set-primary);
+}
+
+.settings-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.settings-badge {
+  font-size: 12px;
+  color: var(--set-text-muted);
+  background: #eef1f5;
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+
+.settings-reset-row {
+  margin-bottom: 10px;
+}
+
+.settings-toast {
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--set-text);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 13px;
+  z-index: 60;
+}

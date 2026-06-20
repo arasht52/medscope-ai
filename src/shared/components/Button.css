@@ -1,0 +1,39 @@
+.ms-btn {
+  font-family: var(--font-fa);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: var(--radius-pill);
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.12s ease, transform 0.05s ease;
+}
+
+.ms-btn:active {
+  transform: scale(0.98);
+}
+
+.ms-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.ms-btn--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.ms-btn--secondary {
+  background: var(--color-secondary);
+  color: #fff;
+}
+
+.ms-btn--ghost {
+  background: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-border);
+}
+
+.ms-btn--full {
+  width: 100%;
+}
