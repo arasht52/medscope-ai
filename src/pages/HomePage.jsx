@@ -23,16 +23,22 @@ export default function Home() {
         />
 
         <ModuleCard
-          title="Quiz"
-          description="آزمون و مرور"
-          to="/quiz"
-        />
+  title="Quiz"
+  description="آزمون و مرور"
+  to="/quiz"
+/>
 
-        <ModuleCard
-          title="Favorites"
-          description="موارد ذخیره‌شده"
-          to="/favorites"
-        />
+<ModuleCard
+  title="Pathology"
+  description="آسیب‌شناسی و بیماری‌ها"
+  to="/pathology"
+/>
+
+<ModuleCard
+  title="Favorites"
+  description="موارد ذخیره‌شده"
+  to="/favorites"
+/>
       </div>
 
       <RecentItemCard />
