@@ -4,6 +4,7 @@ import CardNotch from "./CardNotch.jsx";
 const VARIANT = {
   histology: { iconBg: "bg-histologySoft", iconColor: "text-histology", subtitle: "text-histology" },
   pharm: { iconBg: "bg-pharmSoft", iconColor: "text-pharm", subtitle: "text-pharm" },
+  path: { iconBg: "bg-pathSoft", iconColor: "text-path", subtitle: "text-path" },
   quiz: { iconBg: "bg-quizSoft", iconColor: "text-quiz", subtitle: "text-quiz" },
   fav: { iconBg: "bg-favSoft", iconColor: "text-fav", subtitle: "text-fav" },
 };

@@ -41,6 +41,12 @@
   --color-danger: #c0392b;
   --color-danger-tint: #fbeae8;
 
+  /* Pathology's own accent (purple) — new module, no prior visual
+     identity to preserve, so it gets a token distinct from Pharmacology's
+     blue chips rather than reusing --color-primary-tint */
+  --color-path: #7c4dbc;
+  --color-path-tint: #f1ecfa;
+
   /* Quiz-only tokens (correct/wrong feedback states — unique names, no collision) */
   --color-correct: #2e9e5b;
   --color-correct-bg: #e8f7ee;

@@ -21,6 +21,9 @@ export default {
 
         fav: "#B9436B",
         favSoft: "#FBEAF0",
+
+        path: "#7C4DBC",
+        pathSoft: "#F1ECFA",
       },
       fontFamily: {
         sans: ["Vazirmatn", "Tahoma", "sans-serif"],

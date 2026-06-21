@@ -28,8 +28,8 @@
     ],
     "correctOptionId": "a",
     "explanation_fa": "اپیتلیوم سنگفرشی ساده به دلیل نازک بودن، گزینه ایده‌آل برای تبادل گاز در آلوئول‌ها و فیلتراسیون در گلومرول است.",
-    "image_url": "/images/histology/simple-squamous-epithelium.jpg",
-    "image_caption": "نمای میکروسکوپی اپیتلیوم سنگفرشی ساده — لایه‌ای نازک از سلول‌های پهن، رنگ‌آمیزی H&E"
+    "image_url": "/images/histology/simple-squamous-epithelium.svg",
+    "image_caption": "نمودار شماتیک — نمای میکروسکوپی اپیتلیوم سنگفرشی ساده — لایه‌ای نازک از سلول‌های پهن، رنگ‌آمیزی H&E (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)"
   },
   {
     "id": "h-q2",
@@ -60,8 +60,8 @@
     ],
     "correctOptionId": "b",
     "explanation_fa": "غضروف هیالین فاقد رگ خونی است و ماتریکس آن حاوی کلاژن نوع II است؛ در نای، برونش و سطوح مفصلی یافت می‌شود.",
-    "image_url": "/images/histology/hyaline-cartilage.jpg",
-    "image_caption": "نمای میکروسکوپی غضروف هیالین — کندروسیت‌ها در لاکونا درون ماتریکس شیشه‌ای"
+    "image_url": "/images/histology/hyaline-cartilage.svg",
+    "image_caption": "نمودار شماتیک — نمای میکروسکوپی غضروف هیالین — کندروسیت‌ها در لاکونا درون ماتریکس شیشه‌ای (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)"
   },
   {
     "id": "h-q3",
@@ -92,8 +92,8 @@
     ],
     "correctOptionId": "c",
     "explanation_fa": "دیسک‌های بینابینی محل اتصال سلول‌های عضله قلبی هستند و شامل دسموزوم و گپ جانکشن می‌شوند که هماهنگی انقباض را ممکن می‌سازند.",
-    "image_url": "/images/histology/cardiac-muscle.jpg",
-    "image_caption": "نمای میکروسکوپی عضله قلبی — فیبرهای مخطط با دیسک‌های بینابینی (intercalated discs)"
+    "image_url": "/images/histology/cardiac-muscle.svg",
+    "image_caption": "نمودار شماتیک — نمای میکروسکوپی عضله قلبی — فیبرهای مخطط با دیسک‌های بینابینی (intercalated discs) (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)"
   },
   {
     "id": "h-q4",
