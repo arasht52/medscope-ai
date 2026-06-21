@@ -3,6 +3,7 @@ import PageHeader from "../../../shared/components/PageHeader";
 import Card from "../../../shared/components/Card";
 import histologyQuestions from "../data/histologyQuestions.json";
 import pharmacologyQuestions from "../data/pharmacologyQuestions.json";
+import pathologyQuestions from "../data/pathologyQuestions.json";
 import "./QuizHome.css";
 
 /**
@@ -28,6 +29,30 @@ export default function QuizHome() {
       count: pharmacologyQuestions.length,
       path: "/quiz/pharmacology",
       accent: "secondary",
+    },
+    {
+      key: "pathology",
+      title: "آزمون پاتولوژی",
+      subtitle: "Pathology Quiz",
+      count: pathologyQuestions.length,
+      path: "/quiz/pathology",
+      accent: "tertiary",
+    },
+    {
+      key: "histology-image",
+      title: "🖼️ آزمون تصویری بافت‌شناسی",
+      subtitle: "Histology Image Quiz",
+      count: 8,
+      path: "/quiz/histology-image",
+      accent: "primary",
+    },
+    {
+      key: "pathology-image",
+      title: "🖼️ آزمون تصویری پاتولوژی",
+      subtitle: "Pathology Image Quiz",
+      count: 8,
+      path: "/quiz/pathology-image",
+      accent: "tertiary",
     },
   ];
 

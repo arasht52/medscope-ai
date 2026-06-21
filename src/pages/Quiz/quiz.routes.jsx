@@ -1,6 +1,9 @@
 import QuizHome from "./pages/QuizHome";
 import HistologyQuiz from "./pages/HistologyQuiz";
 import PharmacologyQuiz from "./pages/PharmacologyQuiz";
+import PathologyQuiz from "./pages/PathologyQuiz";
+import HistologyImageQuiz from "./pages/HistologyImageQuiz";
+import PathologyImageQuiz from "./pages/PathologyImageQuiz";
 import QuizResult from "./pages/QuizResult";
 
 /**
@@ -22,6 +25,12 @@ const quizRoutes = [
   { path: "/quiz/histology/result", element: <QuizResult /> },
   { path: "/quiz/pharmacology", element: <PharmacologyQuiz /> },
   { path: "/quiz/pharmacology/result", element: <QuizResult /> },
+  { path: "/quiz/pathology", element: <PathologyQuiz /> },
+  { path: "/quiz/pathology/result", element: <QuizResult /> },
+  { path: "/quiz/histology-image", element: <HistologyImageQuiz /> },
+  { path: "/quiz/histology-image/result", element: <QuizResult /> },
+  { path: "/quiz/pathology-image", element: <PathologyImageQuiz /> },
+  { path: "/quiz/pathology-image/result", element: <QuizResult /> },
 ];
 
 export default quizRoutes;

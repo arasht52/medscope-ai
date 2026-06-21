@@ -30,9 +30,11 @@ export default function QuizResult() {
   }
 
   const { score, total, wrongAnswers } = state;
-  const retakePath = location.pathname.includes("histology")
-    ? "/quiz/histology"
-    : "/quiz/pharmacology";
+  // Derived generically so it works for every quiz type automatically
+  // (histology, pharmacology, pathology, and the image-quiz variants)
+  // instead of a binary histology/pharmacology check that had already
+  // gone stale once Pathology was added.
+  const retakePath = location.pathname.replace(/\/result$/, "");
 
   return (
     <div className="quiz-result">
