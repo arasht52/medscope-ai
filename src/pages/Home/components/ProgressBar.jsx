@@ -1,6 +1,7 @@
 const BAR_COLOR = {
   histology: "bg-histology",
   pharm: "bg-pharm",
+  path: "bg-path",
   quiz: "bg-quiz",
   fav: "bg-fav",
 };

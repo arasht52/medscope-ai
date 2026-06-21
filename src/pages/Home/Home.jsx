@@ -56,6 +56,7 @@ export default function Home() {
   // "Reset Progress" in Settings has a real, visible effect.
   const histology = useProgress("histology", HISTOLOGY_TOTAL, 0);
   const pharmacology = useProgress("pharmacology", PHARMACOLOGY_TOTAL, 0);
+  const pathology = useProgress("pathology", PATHOLOGY_TOTAL, 0);
 
   return (
     <div dir="rtl" lang="fa" className="w-full max-w-md mx-auto flex flex-col bg-bg">
@@ -109,6 +110,16 @@ export default function Home() {
                 </span>
               </div>
               <ProgressBar value={pharmacology.done} total={pharmacology.total} variant="pharm" />
+            </div>
+
+            <div>
+              <div className="flex items-center justify-between mb-1.5">
+                <span className="text-xs text-ink">پاتولوژی · Pathology</span>
+                <span className="text-xs text-path">
+                  {toFaDigits(pathology.done)}/{toFaDigits(pathology.total)}
+                </span>
+              </div>
+              <ProgressBar value={pathology.done} total={pathology.total} variant="path" />
             </div>
           </div>
         </div>
