@@ -13,13 +13,19 @@ import "./HistologyList.css";
  *  - onSelectItem: (id: string) => void
  *  - onBack: (() => void) | undefined
  */
-export default function HistologyList({ onSelectItem, onBack }) {
+export default function HistologyList({ onSelectItem, onBack, onOpenAtlas }) {
   const { categories, query, setQuery, categoryId, setCategoryId, filteredItems } =
     useHistologyData();
 
   return (
     <div className="histology-list">
       <Header title="آتلاس هیستولوژی" onBack={onBack} />
+
+      {onOpenAtlas && (
+        <button type="button" className="histology-list__atlas-btn" onClick={onOpenAtlas}>
+          🖼️ حالت اطلس تصویری — فقط مرور عکس‌ها
+        </button>
+      )}
 
       <div className="histology-list__controls">
         <SearchBar

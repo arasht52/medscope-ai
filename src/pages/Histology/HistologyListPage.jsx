@@ -10,5 +10,10 @@ import HistologyList from "./HistologyList";
  */
 export default function HistologyListPage() {
   const navigate = useNavigate();
-  return <HistologyList onSelectItem={(id) => navigate(`/histology/${id}`)} />;
+  return (
+    <HistologyList
+      onSelectItem={(id) => navigate(`/histology/${id}`)}
+      onOpenAtlas={() => navigate("/histology/atlas")}
+    />
+  );
 }
