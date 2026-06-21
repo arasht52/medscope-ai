@@ -80,24 +80,37 @@
 
 .suffix-tips__item {
   display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 13px;
+  min-width: 0;
+}
+
+.suffix-tips__main {
+  display: flex;
   flex-wrap: wrap;
   align-items: baseline;
   gap: var(--space-2);
-  font-size: 13px;
+  min-width: 0;
 }
 
 .suffix-tips__suffix {
   font-weight: 700;
   color: var(--color-primary);
+  flex-shrink: 0;
 }
 
 .suffix-tips__class {
   color: var(--color-text);
+  min-width: 0;
+  overflow-wrap: break-word;
 }
 
 .suffix-tips__example {
   font-size: 12px;
   color: var(--color-text-muted);
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 .drug-list {

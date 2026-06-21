@@ -17,8 +17,10 @@ export default function SuffixTipsCard() {
         <ul className="suffix-tips__list">
           {SUFFIX_TIPS.map((tip) => (
             <li key={tip.suffix} className="suffix-tips__item">
-              <span className="suffix-tips__suffix en">{tip.suffix}</span>
-              <span className="suffix-tips__class">{tip.class_fa}</span>
+              <div className="suffix-tips__main">
+                <span className="suffix-tips__suffix en">{tip.suffix}</span>
+                <span className="suffix-tips__class">{tip.class_fa}</span>
+              </div>
               <span className="suffix-tips__example en">{tip.example_en}</span>
             </li>
           ))}
