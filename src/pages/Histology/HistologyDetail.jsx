@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
-import ImageWithFallback from "../../shared/components/ImageWithFallback";
+import ImageCarousel from "../../shared/components/ImageCarousel.jsx";
 import EmptyState from "./components/HistologyEmptyState";
 import FavoriteButton from "../Favorites/components/FavoriteButton";
 import { FAVORITE_TYPES } from "../../shared/lib/storage";
@@ -8,7 +8,9 @@ import { getHistologyItemById, getCategoryLabel } from "./useHistologyData";
 import "./HistologyDetail.css";
 
 /**
- * Histology Detail screen (APP_STRUCTURE.md → Histology → Histology Detail).
+ * Histology Detail screen — image-first per student feedback: the
+ * tissue's image carousel is the first thing shown, with "stain •
+ * magnification" directly underneath it, before any reading material.
  * Renders every field defined for "Histology Item" in DATA_SCHEMA.md,
  * except quiz_questions (owned by the separate Quiz module, out of
  * scope for this task).
@@ -34,14 +36,8 @@ export default function HistologyDetail({ itemId, onBack }) {
       <Header title={getCategoryLabel(item.category)} onBack={onBack} />
 
       <div className="histology-detail__hero">
-        <ImageWithFallback
-          className="histology-detail__image"
-          src={item.image_url}
-          alt={item.title_en}
-        />
-        <p className="histology-detail__image-caption">
-          {item.image_caption || "تصویری برای این مورد هنوز ثبت نشده است."}
-        </p>
+        <ImageCarousel images={item.images} stain={item.stain} alt={item.title_en} />
+
         <div className="histology-detail__title-row">
           <div>
             <h2 className="histology-detail__title-fa">{item.title_fa}</h2>

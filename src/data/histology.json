@@ -27,7 +27,7 @@
       "title_en": "Simple Squamous Epithelium",
       "title_fa": "اپیتلیوم سنگفرشی ساده",
       "category": "epithelial",
-      "image_url": "/images/histology/simple-squamous-epithelium.jpg",
+      "image_url": "/images/histology/simple-squamous-epithelium.svg",
       "microscopic_features": [
         "یک لایه سلول‌های نازک و پهن",
         "هسته‌های پهن و بیضی‌شکل که در مرکز سلول قرار دارند",
@@ -62,14 +62,28 @@
           "answer_index": 0
         }
       ],
-      "image_caption": "نمای میکروسکوپی اپیتلیوم سنگفرشی ساده — لایه‌ای نازک از سلول‌های پهن، رنگ‌آمیزی H&E"
+      "image_caption": "نمودار شماتیک — نمای میکروسکوپی اپیتلیوم سنگفرشی ساده — لایه‌ای نازک از سلول‌های پهن، رنگ‌آمیزی H&E (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/simple-squamous-epithelium-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — اپیتلیوم سنگفرشی ساده",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/simple-squamous-epithelium.svg",
+          "caption": "نمودار شماتیک — نمای میکروسکوپی اپیتلیوم سنگفرشی ساده — لایه‌ای نازک از سلول‌های پهن، رنگ‌آمیزی H&E (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+          "magnification": "400x"
+        }
+      ],
+      "magnification": "400x"
     },
     {
       "id": "stratified-squamous-epithelium",
       "title_en": "Stratified Squamous Epithelium",
       "title_fa": "اپیتلیوم سنگفرشی مطبق",
       "category": "epithelial",
-      "image_url": "/images/histology/stratified-squamous-epithelium.jpg",
+      "image_url": "/images/histology/stratified-squamous-epithelium.svg",
       "microscopic_features": [
         "چند لایه سلولی با سلول‌های مکعبی در پایه و سنگفرشی در سطح",
         "ممکن است کراتینیزه (پوست) یا غیرکراتینیزه (مری، دهان) باشد"
@@ -102,14 +116,28 @@
           "answer_index": 0
         }
       ],
-      "image_caption": "نمای میکروسکوپی اپیتلیوم سنگفرشی مطبق — چندین لایه سلولی با سلول‌های سطحی پهن"
+      "image_caption": "نمودار شماتیک — نمای میکروسکوپی اپیتلیوم سنگفرشی مطبق — چندین لایه سلولی با سلول‌های سطحی پهن (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/stratified-squamous-epithelium-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — اپیتلیوم سنگفرشی مطبق",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/stratified-squamous-epithelium.svg",
+          "caption": "نمودار شماتیک — نمای میکروسکوپی اپیتلیوم سنگفرشی مطبق — چندین لایه سلولی با سلول‌های سطحی پهن (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+          "magnification": "400x"
+        }
+      ],
+      "magnification": "400x"
     },
     {
       "id": "hyaline-cartilage",
       "title_en": "Hyaline Cartilage",
       "title_fa": "غضروف هیالین",
       "category": "connective",
-      "image_url": "/images/histology/hyaline-cartilage.jpg",
+      "image_url": "/images/histology/hyaline-cartilage.svg",
       "microscopic_features": [
         "ماتریکس شیشه‌ای و یکنواخت",
         "کندروسیت‌ها درون حفره‌های کوچک به نام لاکونا",
@@ -144,14 +172,28 @@
           "answer_index": 0
         }
       ],
-      "image_caption": "نمای میکروسکوپی غضروف هیالین — کندروسیت‌ها در لاکونا درون ماتریکس شیشه‌ای"
+      "image_caption": "نمودار شماتیک — نمای میکروسکوپی غضروف هیالین — کندروسیت‌ها در لاکونا درون ماتریکس شیشه‌ای (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/hyaline-cartilage-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — غضروف هیالین",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/hyaline-cartilage.svg",
+          "caption": "نمودار شماتیک — نمای میکروسکوپی غضروف هیالین — کندروسیت‌ها در لاکونا درون ماتریکس شیشه‌ای (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+          "magnification": "400x"
+        }
+      ],
+      "magnification": "400x"
     },
     {
       "id": "dense-regular-connective-tissue",
       "title_en": "Dense Regular Connective Tissue",
       "title_fa": "بافت همبند متراکم منظم",
       "category": "connective",
-      "image_url": "/images/histology/dense-regular-connective-tissue.jpg",
+      "image_url": "/images/histology/dense-regular-connective-tissue.svg",
       "microscopic_features": [
         "دسته‌های موازی و منظم الیاف کلاژن",
         "فیبروبلاست‌های کشیده بین دسته‌های کلاژن"
@@ -181,14 +223,28 @@
           "answer_index": 0
         }
       ],
-      "image_caption": "نمای میکروسکوپی بافت همبند متراکم منظم — رشته‌های کلاژن موازی (مانند تاندون)"
+      "image_caption": "نمودار شماتیک — نمای میکروسکوپی بافت همبند متراکم منظم — رشته‌های کلاژن موازی (مانند تاندون) (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/dense-regular-connective-tissue-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — بافت همبند متراکم منظم",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/dense-regular-connective-tissue.svg",
+          "caption": "نمودار شماتیک — نمای میکروسکوپی بافت همبند متراکم منظم — رشته‌های کلاژن موازی (مانند تاندون) (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+          "magnification": "400x"
+        }
+      ],
+      "magnification": "400x"
     },
     {
       "id": "skeletal-muscle",
       "title_en": "Skeletal Muscle",
       "title_fa": "عضله اسکلتی",
       "category": "muscle",
-      "image_url": "/images/histology/skeletal-muscle.jpg",
+      "image_url": "/images/histology/skeletal-muscle.svg",
       "microscopic_features": [
         "فیبرهای استوانه‌ای بلند و چندهسته‌ای",
         "هسته‌های محیطی (در کنار غشای سلول)",
@@ -220,14 +276,28 @@
           "answer_index": 0
         }
       ],
-      "image_caption": "نمای میکروسکوپی عضله اسکلتی — فیبرهای استوانه‌ای مخطط چندهسته‌ای"
+      "image_caption": "نمودار شماتیک — نمای میکروسکوپی عضله اسکلتی — فیبرهای استوانه‌ای مخطط چندهسته‌ای (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/skeletal-muscle-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — عضله اسکلتی",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/skeletal-muscle.svg",
+          "caption": "نمودار شماتیک — نمای میکروسکوپی عضله اسکلتی — فیبرهای استوانه‌ای مخطط چندهسته‌ای (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+          "magnification": "400x"
+        }
+      ],
+      "magnification": "400x"
     },
     {
       "id": "cardiac-muscle",
       "title_en": "Cardiac Muscle",
       "title_fa": "عضله قلبی",
       "category": "muscle",
-      "image_url": "/images/histology/cardiac-muscle.jpg",
+      "image_url": "/images/histology/cardiac-muscle.svg",
       "microscopic_features": [
         "فیبرهای انشعابی با هسته مرکزی (عموماً تک‌هسته‌ای)",
         "وجود دیسک‌های بینابینی (intercalated discs)",
@@ -258,14 +328,28 @@
           "answer_index": 0
         }
       ],
-      "image_caption": "نمای میکروسکوپی عضله قلبی — فیبرهای مخطط با دیسک‌های بینابینی (intercalated discs)"
+      "image_caption": "نمودار شماتیک — نمای میکروسکوپی عضله قلبی — فیبرهای مخطط با دیسک‌های بینابینی (intercalated discs) (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/cardiac-muscle-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — عضله قلبی",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/cardiac-muscle.svg",
+          "caption": "نمودار شماتیک — نمای میکروسکوپی عضله قلبی — فیبرهای مخطط با دیسک‌های بینابینی (intercalated discs) (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+          "magnification": "400x"
+        }
+      ],
+      "magnification": "400x"
     },
     {
       "id": "smooth-muscle",
       "title_en": "Smooth Muscle",
       "title_fa": "عضله صاف",
       "category": "muscle",
-      "image_url": "/images/histology/smooth-muscle.jpg",
+      "image_url": "/images/histology/smooth-muscle.svg",
       "microscopic_features": [
         "سلول‌های دوکی‌شکل با هسته مرکزی واحد",
         "فاقد خط‌خطی عرضی (غیر مخطط)"
@@ -295,14 +379,28 @@
           "answer_index": 0
         }
       ],
-      "image_caption": "نمای میکروسکوپی عضله صاف — سلول‌های دوکی‌شکل تک‌هسته‌ای بدون مخطط بودن"
+      "image_caption": "نمودار شماتیک — نمای میکروسکوپی عضله صاف — سلول‌های دوکی‌شکل تک‌هسته‌ای بدون مخطط بودن (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/smooth-muscle-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — عضله صاف",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/smooth-muscle.svg",
+          "caption": "نمودار شماتیک — نمای میکروسکوپی عضله صاف — سلول‌های دوکی‌شکل تک‌هسته‌ای بدون مخطط بودن (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+          "magnification": "400x"
+        }
+      ],
+      "magnification": "400x"
     },
     {
       "id": "peripheral-nerve",
       "title_en": "Peripheral Nerve",
       "title_fa": "عصب محیطی",
       "category": "nervous",
-      "image_url": "/images/histology/peripheral-nerve.jpg",
+      "image_url": "/images/histology/peripheral-nerve.svg",
       "microscopic_features": [
         "دسته‌های آکسون پوشیده‌شده توسط میلین",
         "سلول‌های شوان به عنوان سلول‌های میلین‌ساز",
@@ -332,7 +430,21 @@
           "answer_index": 0
         }
       ],
-      "image_caption": "نمای میکروسکوپی عصب محیطی — دسته‌های آکسون پوشیده‌شده با میلین و پری‌نوریوم"
+      "image_caption": "نمودار شماتیک — نمای میکروسکوپی عصب محیطی — دسته‌های آکسون پوشیده‌شده با میلین و پری‌نوریوم (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/peripheral-nerve-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — عصب محیطی",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/peripheral-nerve.svg",
+          "caption": "نمودار شماتیک — نمای میکروسکوپی عصب محیطی — دسته‌های آکسون پوشیده‌شده با میلین و پری‌نوریوم (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+          "magnification": "400x"
+        }
+      ],
+      "magnification": "400x"
     }
   ]
 }
