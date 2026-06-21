@@ -1,0 +1,18 @@
+[
+  {
+    "id": "pathology-q1",
+    "module": "pathology",
+    "type": "text",
+    "question": "Which term describes abnormal tissue growth?",
+    "question_fa": "کدام اصطلاح رشد غیرطبیعی بافت را توصیف می‌کند؟",
+    "options": [
+      "Hyperplasia",
+      "Apoptosis",
+      "Atrophy",
+      "Necrosis"
+    ],
+    "answer": "Hyperplasia",
+    "explanation": "Hyperplasia means an increase in the number of cells in a tissue.",
+    "explanation_fa": "Hyperplasia یعنی افزایش تعداد سلول‌ها در یک بافت."
+  }
+]
