@@ -445,6 +445,479 @@
         }
       ],
       "magnification": "400x"
+    },
+    {
+      "id": "simple-cuboidal-epithelium",
+      "title_fa": "اپیتلیوم مکعبی ساده",
+      "title_en": "Simple Cuboidal Epithelium",
+      "category": "epithelial",
+      "microscopic_features": [
+        "یک لایه سلول‌های هم‌عرض و هم‌بلند (شکل مکعبی)",
+        "هسته‌ی گرد و مرکزی"
+      ],
+      "locations": [
+        "لوله‌های کلیوی",
+        "غدد اگزوکرین کوچک",
+        "سطح تخمدان"
+      ],
+      "diagnostic_clues": [
+        "شکل منظم و یکنواخت مکعبی سلول‌ها، تمایز آن را از سنگفرشی (پهن) ساده می‌دهد"
+      ],
+      "common_confusions": [
+        "با اپیتلیوم سنگفرشی ساده اشتباه گرفته می‌شود؛ تفاوت اصلی نسبت ارتفاع به عرض سلول است"
+      ],
+      "exam_tips": [
+        "لوله پیچ‌خورده پروگزیمال کلیه نمونه‌ی کلاسیک این بافت در امتحان است"
+      ],
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/simple-cuboidal-epithelium-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — اپیتلیوم مکعبی ساده",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/simple-cuboidal-epithelium.svg",
+          "caption": "نمای میکروسکوپی اپیتلیوم مکعبی ساده — سلول‌های هم‌عرض و هم‌بلند با هسته مرکزی",
+          "magnification": "400x"
+        }
+      ],
+      "image_url": "/images/histology/simple-cuboidal-epithelium.svg",
+      "image_caption": "نمای میکروسکوپی اپیتلیوم مکعبی ساده — سلول‌های هم‌عرض و هم‌بلند با هسته مرکزی",
+      "magnification": "400x"
+    },
+    {
+      "id": "simple-columnar-epithelium",
+      "title_fa": "اپیتلیوم استوانه‌ای ساده",
+      "title_en": "Simple Columnar Epithelium",
+      "category": "epithelial",
+      "microscopic_features": [
+        "سلول‌های بلند و باریک با هسته‌ی بیضی در قسمت پایه",
+        "اغلب همراه با سلول‌های جامی (goblet cells)",
+        "حاشیه‌ی براش (brush border) در روده"
+      ],
+      "locations": [
+        "پوشش داخلی معده و روده",
+        "رحم",
+        "لوله‌های رحمی"
+      ],
+      "diagnostic_clues": [
+        "وجود سلول‌های جامی موکوس‌ساز بین سلول‌های استوانه‌ای، نشانه‌ی بافت روده‌ای است"
+      ],
+      "common_confusions": [
+        "با اپیتلیوم کاذب مطبق استوانه‌ای (که چند ردیف هسته دارد ولی تک‌لایه است) اشتباه گرفته می‌شود"
+      ],
+      "exam_tips": [
+        "حاشیه‌ی براش در روده کوچک = افزایش سطح جذب؛ نکته‌ی کلیدی فیزیولوژیک-بافت‌شناسی"
+      ],
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/simple-columnar-epithelium-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — اپیتلیوم استوانه‌ای ساده",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/simple-columnar-epithelium.svg",
+          "caption": "نمای میکروسکوپی اپیتلیوم استوانه‌ای ساده — سلول‌های بلند با سلول‌های جامی موکوسی",
+          "magnification": "400x"
+        }
+      ],
+      "image_url": "/images/histology/simple-columnar-epithelium.svg",
+      "image_caption": "نمای میکروسکوپی اپیتلیوم استوانه‌ای ساده — سلول‌های بلند با سلول‌های جامی موکوسی",
+      "magnification": "400x"
+    },
+    {
+      "id": "pseudostratified-columnar-epithelium",
+      "title_fa": "اپیتلیوم کاذب مطبق استوانه‌ای",
+      "title_en": "Pseudostratified Columnar Epithelium",
+      "category": "epithelial",
+      "microscopic_features": [
+        "به‌ظاهر چندلایه (هسته‌ها در سطوح مختلف) ولی همه‌ی سلول‌ها به غشای پایه می‌رسند",
+        "مژک‌دار (ciliated) در دستگاه تنفسی"
+      ],
+      "locations": [
+        "نای و برونش‌ها",
+        "بخشی از مجرای اپیدیدیم"
+      ],
+      "diagnostic_clues": [
+        "مژک‌های فعال روی سطح، نشانه‌ی بافت پوششی مجاری هوایی است"
+      ],
+      "common_confusions": [
+        "با اپیتلیوم مطبق واقعی (که سلول‌های لایه‌های بالایی به غشای پایه نمی‌رسند) اشتباه گرفته می‌شود"
+      ],
+      "exam_tips": [
+        "تک‌لایه بودن واقعی این بافت با وجود ظاهر چندلایه، سؤال کلاسیک امتحانی است"
+      ],
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/pseudostratified-columnar-epithelium-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — اپیتلیوم کاذب مطبق استوانه‌ای",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/pseudostratified-columnar-epithelium.svg",
+          "caption": "نمای میکروسکوپی اپیتلیوم کاذب مطبق استوانه‌ای مژک‌دار نای",
+          "magnification": "400x"
+        }
+      ],
+      "image_url": "/images/histology/pseudostratified-columnar-epithelium.svg",
+      "image_caption": "نمای میکروسکوپی اپیتلیوم کاذب مطبق استوانه‌ای مژک‌دار نای",
+      "magnification": "400x"
+    },
+    {
+      "id": "transitional-epithelium",
+      "title_fa": "اپیتلیوم انتقالی (یوروتلیوم)",
+      "title_en": "Transitional Epithelium (Urothelium)",
+      "category": "epithelial",
+      "microscopic_features": [
+        "سلول‌های سطحی گنبدی‌شکل (umbrella cells) در حالت غیرکشیده",
+        "قابلیت تغییر شکل بسته به میزان کشش بافت"
+      ],
+      "locations": [
+        "مثانه",
+        "حالب‌ها",
+        "بخشی از مجرای ادرار"
+      ],
+      "diagnostic_clues": [
+        "سلول‌های umbrella با سطح محدب گنبدی، مشخصه‌ی اختصاصی این بافت در مثانه‌ی خالی است"
+      ],
+      "common_confusions": [
+        "با اپیتلیوم سنگفرشی مطبق اشتباه گرفته می‌شود؛ تمایز اصلی قابلیت کشش و شکل سلول سطحی است"
+      ],
+      "exam_tips": [
+        "ضخامت این اپیتلیوم در مثانه‌ی پر شده (کشیده) کاهش می‌یابد؛ نکته‌ی فیزیولوژیک پرتکرار"
+      ],
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/transitional-epithelium-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — اپیتلیوم انتقالی (یوروتلیوم)",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/transitional-epithelium.svg",
+          "caption": "نمای میکروسکوپی اپیتلیوم انتقالی مثانه — سلول‌های سطحی گنبدی‌شکل",
+          "magnification": "400x"
+        }
+      ],
+      "image_url": "/images/histology/transitional-epithelium.svg",
+      "image_caption": "نمای میکروسکوپی اپیتلیوم انتقالی مثانه — سلول‌های سطحی گنبدی‌شکل",
+      "magnification": "400x"
+    },
+    {
+      "id": "stratified-squamous-keratinized",
+      "title_fa": "اپیتلیوم سنگفرشی مطبق کراتینیزه",
+      "title_en": "Keratinized Stratified Squamous Epithelium",
+      "category": "epithelial",
+      "microscopic_features": [
+        "لایه‌ی سطحی از سلول‌های مرده و بدون هسته پر از کراتین",
+        "لایه‌های زیرین زنده با هسته"
+      ],
+      "locations": [
+        "اپیدرم پوست"
+      ],
+      "diagnostic_clues": [
+        "لایه‌ی کراتین بدون هسته در سطح، آن را از نوع غیرکراتینیزه (مخاط دهان و مری) متمایز می‌کند"
+      ],
+      "common_confusions": [
+        "با نوع غیرکراتینیزه (که سلول‌های سطحی هنوز هسته دارند) اشتباه گرفته می‌شود"
+      ],
+      "exam_tips": [
+        "وجود لایه‌ی کراتین = پوست؛ عدم وجود آن = مخاط (مری، دهان، واژن)"
+      ],
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/stratified-squamous-keratinized-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — اپیتلیوم سنگفرشی مطبق کراتینیزه",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/stratified-squamous-keratinized.svg",
+          "caption": "نمای میکروسکوپی اپیدرم — اپیتلیوم سنگفرشی مطبق کراتینیزه",
+          "magnification": "400x"
+        }
+      ],
+      "image_url": "/images/histology/stratified-squamous-keratinized.svg",
+      "image_caption": "نمای میکروسکوپی اپیدرم — اپیتلیوم سنگفرشی مطبق کراتینیزه",
+      "magnification": "400x"
+    },
+    {
+      "id": "loose-areolar-connective-tissue",
+      "title_fa": "بافت همبند سست آره‌ئولار",
+      "title_en": "Loose (Areolar) Connective Tissue",
+      "category": "connective",
+      "microscopic_features": [
+        "رشته‌های کلاژن و الاستیک به‌صورت نامنظم و پراکنده",
+        "سلول‌های متنوع (فیبروبلاست، ماکروفاژ، سلول ماست) در فضای باز"
+      ],
+      "locations": [
+        "زیر اپیتلیوم پوست و مخاط‌ها (لامینا پروپریا)",
+        "اطراف عروق و اعصاب"
+      ],
+      "diagnostic_clues": [
+        "آرایش نامنظم و باز رشته‌ها برخلاف بافت همبند متراکم منظم (تاندون)، نشانه‌ی این بافت است"
+      ],
+      "common_confusions": [
+        "با بافت همبند متراکم منظم اشتباه گرفته می‌شود؛ تفاوت اصلی تراکم و نظم رشته‌هاست"
+      ],
+      "exam_tips": [
+        "محل اصلی واکنش‌های التهابی و ایمنی اولیه به دلیل تنوع سلولی بالا"
+      ],
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/loose-areolar-connective-tissue-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — بافت همبند سست آره‌ئولار",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/loose-areolar-connective-tissue.svg",
+          "caption": "نمای میکروسکوپی بافت همبند سست آره‌ئولار — رشته‌های پراکنده و سلول‌های متنوع",
+          "magnification": "400x"
+        }
+      ],
+      "image_url": "/images/histology/loose-areolar-connective-tissue.svg",
+      "image_caption": "نمای میکروسکوپی بافت همبند سست آره‌ئولار — رشته‌های پراکنده و سلول‌های متنوع",
+      "magnification": "400x"
+    },
+    {
+      "id": "adipose-tissue",
+      "title_fa": "بافت چربی",
+      "title_en": "Adipose Tissue",
+      "category": "connective",
+      "microscopic_features": [
+        "سلول‌های بزرگ تک‌قطره‌ای چربی (unilocular) با هسته‌ی فشرده‌شده در حاشیه",
+        "ظاهر شبکه‌ای (chicken-wire) به دلیل از بین رفتن چربی در پردازش بافتی"
+      ],
+      "locations": [
+        "زیر پوست (هیپودرم)",
+        "اطراف اندام‌های داخلی",
+        "مغز استخوان زرد"
+      ],
+      "diagnostic_clues": [
+        "ظاهر شبکه‌ای خالی (chicken-wire) ناشی از حل شدن چربی طی پردازش، یافته‌ی کلاسیک است"
+      ],
+      "common_confusions": [
+        "بافت چربی قهوه‌ای (چند‌قطره‌ای، در نوزادان) با بافت چربی سفید (تک‌قطره‌ای، در بزرگسالان) اشتباه گرفته می‌شود"
+      ],
+      "exam_tips": [
+        "هسته‌ی فشرده در حاشیه‌ی سلول، نشانه‌ی کلیدی افتراق از سایر سلول‌های بزرگ است"
+      ],
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/adipose-tissue-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — بافت چربی",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/adipose-tissue.svg",
+          "caption": "نمای میکروسکوپی بافت چربی — سلول‌های تک‌قطره‌ای با ظاهر شبکه‌ای",
+          "magnification": "400x"
+        }
+      ],
+      "image_url": "/images/histology/adipose-tissue.svg",
+      "image_caption": "نمای میکروسکوپی بافت چربی — سلول‌های تک‌قطره‌ای با ظاهر شبکه‌ای",
+      "magnification": "400x"
+    },
+    {
+      "id": "elastic-cartilage",
+      "title_fa": "غضروف الاستیک",
+      "title_en": "Elastic Cartilage",
+      "category": "connective",
+      "microscopic_features": [
+        "رشته‌های الاستیک فراوان در ماتریکس (با رنگ‌آمیزی اختصاصی قابل مشاهده)",
+        "کندروسیت‌ها در لاکونا، مشابه غضروف هیالین"
+      ],
+      "locations": [
+        "لاله‌ی گوش",
+        "اپیگلوت",
+        "حنجره (بخشی)"
+      ],
+      "diagnostic_clues": [
+        "نیاز به رنگ‌آمیزی اختصاصی (مثل orcein) برای دیدن واضح رشته‌های الاستیک"
+      ],
+      "common_confusions": [
+        "با غضروف هیالین اشتباه گرفته می‌شود؛ تفاوت اصلی وجود رشته‌های الاستیک متراکم است"
+      ],
+      "exam_tips": [
+        "انعطاف‌پذیری بالای لاله‌ی گوش، نتیجه‌ی مستقیم رشته‌های الاستیک این غضروف است"
+      ],
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/elastic-cartilage-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — غضروف الاستیک",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/elastic-cartilage.svg",
+          "caption": "نمای میکروسکوپی غضروف الاستیک — رشته‌های الاستیک فراوان در ماتریکس",
+          "magnification": "400x"
+        }
+      ],
+      "image_url": "/images/histology/elastic-cartilage.svg",
+      "image_caption": "نمای میکروسکوپی غضروف الاستیک — رشته‌های الاستیک فراوان در ماتریکس",
+      "magnification": "400x"
+    },
+    {
+      "id": "fibrocartilage",
+      "title_fa": "فیبروکارتیلاژ",
+      "title_en": "Fibrocartilage",
+      "category": "connective",
+      "microscopic_features": [
+        "ردیف‌های موازی کندروسیت بین دسته‌های متراکم کلاژن نوع I",
+        "فاقد پری‌کندریوم مشخص"
+      ],
+      "locations": [
+        "دیسک‌های بین مهره‌ای",
+        "منیسک زانو",
+        "سمفیز پوبیس"
+      ],
+      "diagnostic_clues": [
+        "آرایش ردیفی کندروسیت‌ها بین رشته‌های کلاژن متراکم، نشانه‌ی اختصاصی این نوع غضروف است"
+      ],
+      "common_confusions": [
+        "با بافت همبند متراکم منظم (که اصلاً کندروسیت ندارد) اشتباه گرفته می‌شود"
+      ],
+      "exam_tips": [
+        "تنها نوع غضروفی که پری‌کندریوم مشخص ندارد؛ نکته‌ی افتراقی کلاسیک با هیالین و الاستیک"
+      ],
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/fibrocartilage-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — فیبروکارتیلاژ",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/fibrocartilage.svg",
+          "caption": "نمای میکروسکوپی فیبروکارتیلاژ — ردیف‌های کندروسیت بین کلاژن متراکم",
+          "magnification": "400x"
+        }
+      ],
+      "image_url": "/images/histology/fibrocartilage.svg",
+      "image_caption": "نمای میکروسکوپی فیبروکارتیلاژ — ردیف‌های کندروسیت بین کلاژن متراکم",
+      "magnification": "400x"
+    },
+    {
+      "id": "compact-bone",
+      "title_fa": "استخوان متراکم (کورتیکال)",
+      "title_en": "Compact Bone",
+      "category": "connective",
+      "microscopic_features": [
+        "واحدهای استخوانی استوانه‌ای (سیستم هاورس / استئون) با کانال مرکزی هاورس",
+        "لاملاهای متحدالمرکز اطراف کانال"
+      ],
+      "locations": [
+        "لایه‌ی خارجی تمام استخوان‌های بلند و پهن"
+      ],
+      "diagnostic_clues": [
+        "الگوی حلقه‌های متحدالمرکز (لاملا) اطراف کانال هاورس، یافته‌ی کلاسیک استخوان متراکم در مقطع عرضی است"
+      ],
+      "common_confusions": [
+        "با استخوان اسفنجی (که فاقد سیستم هاورس منظم است و ساختار ترابکولار دارد) اشتباه گرفته می‌شود"
+      ],
+      "exam_tips": [
+        "کانال هاورس حاوی عروق خونی و اعصاب است؛ کانال‌های ولکمن آن‌ها را به هم متصل می‌کنند"
+      ],
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/compact-bone-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — استخوان متراکم (کورتیکال)",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/compact-bone.svg",
+          "caption": "نمای میکروسکوپی استخوان متراکم — سیستم هاورس با لاملاهای متحدالمرکز",
+          "magnification": "400x"
+        }
+      ],
+      "image_url": "/images/histology/compact-bone.svg",
+      "image_caption": "نمای میکروسکوپی استخوان متراکم — سیستم هاورس با لاملاهای متحدالمرکز",
+      "magnification": "400x"
+    },
+    {
+      "id": "spongy-bone",
+      "title_fa": "استخوان اسفنجی (ترابکولار)",
+      "title_en": "Spongy (Trabecular) Bone",
+      "category": "connective",
+      "microscopic_features": [
+        "شبکه‌ای از ترابکول‌های استخوانی نامنظم بدون سیستم هاورس کامل",
+        "فضاهای بین ترابکولی پر از مغز استخوان"
+      ],
+      "locations": [
+        "مرکز اپی‌فیز استخوان‌های بلند",
+        "داخل استخوان‌های پهن (مثل جناغ و تیغه‌های لگن)"
+      ],
+      "diagnostic_clues": [
+        "ساختار شبکه‌ای باز (ترابکولار) بدون سیستم هاورس منظم، نشانه‌ی این بافت است"
+      ],
+      "common_confusions": [
+        "با استخوان متراکم اشتباه گرفته می‌شود؛ تفاوت اصلی تراکم و وجود/عدم سیستم هاورس کامل است"
+      ],
+      "exam_tips": [
+        "محل اصلی فعالیت خونساز مغز استخوان قرمز در بزرگسالان (مثل تیغه‌های لگن)"
+      ],
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/spongy-bone-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — استخوان اسفنجی (ترابکولار)",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/spongy-bone.svg",
+          "caption": "نمای میکروسکوپی استخوان اسفنجی — شبکه‌ی ترابکولار با فضای مغز استخوان",
+          "magnification": "400x"
+        }
+      ],
+      "image_url": "/images/histology/spongy-bone.svg",
+      "image_caption": "نمای میکروسکوپی استخوان اسفنجی — شبکه‌ی ترابکولار با فضای مغز استخوان",
+      "magnification": "400x"
+    },
+    {
+      "id": "lymph-node",
+      "title_fa": "گره لنفی",
+      "title_en": "Lymph Node",
+      "category": "connective",
+      "microscopic_features": [
+        "کپسول فیبروزی بیرونی",
+        "قشر (cortex) حاوی فولیکول‌های لنفی با مرکز ژرمینال",
+        "مدولا با طناب‌های مدولاری"
+      ],
+      "locations": [
+        "در طول مسیر عروق لنفاوی در سراسر بدن (گردن، زیر بغل، کشاله ران و...)"
+      ],
+      "diagnostic_clues": [
+        "فولیکول لنفی با مرکز ژرمینال روشن، نشانه‌ی پاسخ ایمنی فعال (تکثیر لنفوسیت B) است"
+      ],
+      "common_confusions": [
+        "با طحال (که فولیکول لنفی دارد ولی پالپ قرمز و سفید مجزا دارد) اشتباه گرفته می‌شود"
+      ],
+      "exam_tips": [
+        "مرکز ژرمینال فعال = نشانه‌ی پاسخ ایمنی هومورال در حال انجام؛ سؤال پرتکرار ایمونولوژی-بافت‌شناسی"
+      ],
+      "stain": "H&E",
+      "images": [
+        {
+          "url": "/images/histology/lymph-node-100x.svg",
+          "caption": "نمای کلی با بزرگنمایی کم — گره لنفی",
+          "magnification": "100x"
+        },
+        {
+          "url": "/images/histology/lymph-node.svg",
+          "caption": "نمای میکروسکوپی گره لنفی — فولیکول لنفی با مرکز ژرمینال",
+          "magnification": "400x"
+        }
+      ],
+      "image_url": "/images/histology/lymph-node.svg",
+      "image_caption": "نمای میکروسکوپی گره لنفی — فولیکول لنفی با مرکز ژرمینال",
+      "magnification": "400x"
     }
   ]
 }
