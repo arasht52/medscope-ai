@@ -19,6 +19,13 @@
   margin-bottom: var(--space-2);
 }
 
+.histology-detail__image-caption {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-2);
+  max-width: 280px;
+}
+
 .histology-detail__title-fa {
   font-size: 19px;
 }

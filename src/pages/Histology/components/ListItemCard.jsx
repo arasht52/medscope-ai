@@ -1,5 +1,5 @@
 import "./ListItemCard.css";
-import ImageWithFallback from "./ImageWithFallback";
+import ImageWithFallback from "../../../shared/components/ImageWithFallback";
 
 /**
  * Generic tappable list card: thumbnail + title (fa/en) + a category tag.

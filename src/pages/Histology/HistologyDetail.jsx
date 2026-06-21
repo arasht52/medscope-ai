@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
-import ImageWithFallback from "./components/ImageWithFallback";
+import ImageWithFallback from "../../shared/components/ImageWithFallback";
 import EmptyState from "./components/HistologyEmptyState";
 import FavoriteButton from "../Favorites/components/FavoriteButton";
 import { FAVORITE_TYPES } from "../../shared/lib/storage";
@@ -39,6 +39,9 @@ export default function HistologyDetail({ itemId, onBack }) {
           src={item.image_url}
           alt={item.title_en}
         />
+        <p className="histology-detail__image-caption">
+          {item.image_caption || "تصویری برای این مورد هنوز ثبت نشده است."}
+        </p>
         <div className="histology-detail__title-row">
           <div>
             <h2 className="histology-detail__title-fa">{item.title_fa}</h2>

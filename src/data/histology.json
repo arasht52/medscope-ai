@@ -1,9 +1,25 @@
 {
   "categories": [
-    { "id": "epithelial", "label_fa": "بافت پوششی", "label_en": "Epithelial Tissue" },
-    { "id": "connective", "label_fa": "بافت همبند", "label_en": "Connective Tissue" },
-    { "id": "muscle", "label_fa": "بافت عضلانی", "label_en": "Muscle Tissue" },
-    { "id": "nervous", "label_fa": "بافت عصبی", "label_en": "Nervous Tissue" }
+    {
+      "id": "epithelial",
+      "label_fa": "بافت پوششی",
+      "label_en": "Epithelial Tissue"
+    },
+    {
+      "id": "connective",
+      "label_fa": "بافت همبند",
+      "label_en": "Connective Tissue"
+    },
+    {
+      "id": "muscle",
+      "label_fa": "بافت عضلانی",
+      "label_en": "Muscle Tissue"
+    },
+    {
+      "id": "nervous",
+      "label_fa": "بافت عصبی",
+      "label_en": "Nervous Tissue"
+    }
   ],
   "items": [
     {
@@ -37,10 +53,16 @@
       "quiz_questions": [
         {
           "question": "اپیتلیوم سنگفرشی ساده در کدام ساختار یافت می‌شود؟",
-          "options": ["آلوئول ریه", "مری", "روده بزرگ", "مثانه"],
+          "options": [
+            "آلوئول ریه",
+            "مری",
+            "روده بزرگ",
+            "مثانه"
+          ],
           "answer_index": 0
         }
-      ]
+      ],
+      "image_caption": "نمای میکروسکوپی اپیتلیوم سنگفرشی ساده — لایه‌ای نازک از سلول‌های پهن، رنگ‌آمیزی H&E"
     },
     {
       "id": "stratified-squamous-epithelium",
@@ -71,10 +93,16 @@
       "quiz_questions": [
         {
           "question": "اپیتلیوم سنگفرشی مطبق کراتینیزه در کجا دیده می‌شود؟",
-          "options": ["اپیدرم پوست", "آلوئول", "گلومرول", "روده باریک"],
+          "options": [
+            "اپیدرم پوست",
+            "آلوئول",
+            "گلومرول",
+            "روده باریک"
+          ],
           "answer_index": 0
         }
-      ]
+      ],
+      "image_caption": "نمای میکروسکوپی اپیتلیوم سنگفرشی مطبق — چندین لایه سلولی با سلول‌های سطحی پهن"
     },
     {
       "id": "hyaline-cartilage",
@@ -107,10 +135,16 @@
       "quiz_questions": [
         {
           "question": "غضروف هیالین در کدام ساختار یافت نمی‌شود؟",
-          "options": ["لاله گوش", "نای", "غضروف مفصلی", "صفحه اپی‌فیزی"],
+          "options": [
+            "لاله گوش",
+            "نای",
+            "غضروف مفصلی",
+            "صفحه اپی‌فیزی"
+          ],
           "answer_index": 0
         }
-      ]
+      ],
+      "image_caption": "نمای میکروسکوپی غضروف هیالین — کندروسیت‌ها در لاکونا درون ماتریکس شیشه‌ای"
     },
     {
       "id": "dense-regular-connective-tissue",
@@ -146,7 +180,8 @@
           ],
           "answer_index": 0
         }
-      ]
+      ],
+      "image_caption": "نمای میکروسکوپی بافت همبند متراکم منظم — رشته‌های کلاژن موازی (مانند تاندون)"
     },
     {
       "id": "skeletal-muscle",
@@ -176,10 +211,16 @@
       "quiz_questions": [
         {
           "question": "محل قرارگیری هسته در فیبر عضله اسکلتی کجاست؟",
-          "options": ["محیطی", "مرکزی", "بدون هسته", "متغیر"],
+          "options": [
+            "محیطی",
+            "مرکزی",
+            "بدون هسته",
+            "متغیر"
+          ],
           "answer_index": 0
         }
-      ]
+      ],
+      "image_caption": "نمای میکروسکوپی عضله اسکلتی — فیبرهای استوانه‌ای مخطط چندهسته‌ای"
     },
     {
       "id": "cardiac-muscle",
@@ -216,7 +257,8 @@
           ],
           "answer_index": 0
         }
-      ]
+      ],
+      "image_caption": "نمای میکروسکوپی عضله قلبی — فیبرهای مخطط با دیسک‌های بینابینی (intercalated discs)"
     },
     {
       "id": "smooth-muscle",
@@ -252,7 +294,8 @@
           ],
           "answer_index": 0
         }
-      ]
+      ],
+      "image_caption": "نمای میکروسکوپی عضله صاف — سلول‌های دوکی‌شکل تک‌هسته‌ای بدون مخطط بودن"
     },
     {
       "id": "peripheral-nerve",
@@ -280,10 +323,16 @@
       "quiz_questions": [
         {
           "question": "سلول میلین‌ساز در سیستم عصبی محیطی کدام است؟",
-          "options": ["سلول شوان", "اولیگودندروسیت", "آستروسیت", "میکروگلیا"],
+          "options": [
+            "سلول شوان",
+            "اولیگودندروسیت",
+            "آستروسیت",
+            "میکروگلیا"
+          ],
           "answer_index": 0
         }
-      ]
+      ],
+      "image_caption": "نمای میکروسکوپی عصب محیطی — دسته‌های آکسون پوشیده‌شده با میلین و پری‌نوریوم"
     }
   ]
 }
