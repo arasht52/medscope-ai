@@ -5,13 +5,31 @@
     "topicTitleEn": "Simple Squamous Epithelium",
     "question_fa": "بافت پوششی که از یک لایه سلول‌های پهن و نازک تشکیل شده و در آلوئول‌های ریه دیده می‌شود، چه نام دارد؟",
     "options": [
-      { "id": "a", "text_fa": "اپیتلیوم سنگفرشی ساده", "text_en": "Simple Squamous Epithelium" },
-      { "id": "b", "text_fa": "اپیتلیوم مکعبی ساده", "text_en": "Simple Cuboidal Epithelium" },
-      { "id": "c", "text_fa": "اپیتلیوم استوانه‌ای مطبق کاذب", "text_en": "Pseudostratified Columnar" },
-      { "id": "d", "text_fa": "اپیتلیوم سنگفرشی مطبق", "text_en": "Stratified Squamous" }
+      {
+        "id": "a",
+        "text_fa": "اپیتلیوم سنگفرشی ساده",
+        "text_en": "Simple Squamous Epithelium"
+      },
+      {
+        "id": "b",
+        "text_fa": "اپیتلیوم مکعبی ساده",
+        "text_en": "Simple Cuboidal Epithelium"
+      },
+      {
+        "id": "c",
+        "text_fa": "اپیتلیوم استوانه‌ای مطبق کاذب",
+        "text_en": "Pseudostratified Columnar"
+      },
+      {
+        "id": "d",
+        "text_fa": "اپیتلیوم سنگفرشی مطبق",
+        "text_en": "Stratified Squamous"
+      }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "اپیتلیوم سنگفرشی ساده به دلیل نازک بودن، گزینه ایده‌آل برای تبادل گاز در آلوئول‌ها و فیلتراسیون در گلومرول است."
+    "explanation_fa": "اپیتلیوم سنگفرشی ساده به دلیل نازک بودن، گزینه ایده‌آل برای تبادل گاز در آلوئول‌ها و فیلتراسیون در گلومرول است.",
+    "image_url": "/images/histology/simple-squamous-epithelium.jpg",
+    "image_caption": "نمای میکروسکوپی اپیتلیوم سنگفرشی ساده — لایه‌ای نازک از سلول‌های پهن، رنگ‌آمیزی H&E"
   },
   {
     "id": "h-q2",
@@ -19,13 +37,31 @@
     "topicTitleEn": "Hyaline Cartilage",
     "question_fa": "شایع‌ترین نوع غضروف بدن که در سطوح مفصلی و نای دیده می‌شود کدام است؟",
     "options": [
-      { "id": "a", "text_fa": "غضروف الاستیک", "text_en": "Elastic Cartilage" },
-      { "id": "b", "text_fa": "غضروف هیالین", "text_en": "Hyaline Cartilage" },
-      { "id": "c", "text_fa": "فیبروکارتیلاژ", "text_en": "Fibrocartilage" },
-      { "id": "d", "text_fa": "استخوان متراکم", "text_en": "Compact Bone" }
+      {
+        "id": "a",
+        "text_fa": "غضروف الاستیک",
+        "text_en": "Elastic Cartilage"
+      },
+      {
+        "id": "b",
+        "text_fa": "غضروف هیالین",
+        "text_en": "Hyaline Cartilage"
+      },
+      {
+        "id": "c",
+        "text_fa": "فیبروکارتیلاژ",
+        "text_en": "Fibrocartilage"
+      },
+      {
+        "id": "d",
+        "text_fa": "استخوان متراکم",
+        "text_en": "Compact Bone"
+      }
     ],
     "correctOptionId": "b",
-    "explanation_fa": "غضروف هیالین فاقد رگ خونی است و ماتریکس آن حاوی کلاژن نوع II است؛ در نای، برونش و سطوح مفصلی یافت می‌شود."
+    "explanation_fa": "غضروف هیالین فاقد رگ خونی است و ماتریکس آن حاوی کلاژن نوع II است؛ در نای، برونش و سطوح مفصلی یافت می‌شود.",
+    "image_url": "/images/histology/hyaline-cartilage.jpg",
+    "image_caption": "نمای میکروسکوپی غضروف هیالین — کندروسیت‌ها در لاکونا درون ماتریکس شیشه‌ای"
   },
   {
     "id": "h-q3",
@@ -33,13 +69,31 @@
     "topicTitleEn": "Cardiac Muscle",
     "question_fa": "وجود دیسک‌های بینابینی (Intercalated Discs) مشخصه کدام نوع بافت عضلانی است؟",
     "options": [
-      { "id": "a", "text_fa": "عضله اسکلتی", "text_en": "Skeletal Muscle" },
-      { "id": "b", "text_fa": "عضله صاف", "text_en": "Smooth Muscle" },
-      { "id": "c", "text_fa": "عضله قلبی", "text_en": "Cardiac Muscle" },
-      { "id": "d", "text_fa": "بافت همبند متراکم", "text_en": "Dense Connective Tissue" }
+      {
+        "id": "a",
+        "text_fa": "عضله اسکلتی",
+        "text_en": "Skeletal Muscle"
+      },
+      {
+        "id": "b",
+        "text_fa": "عضله صاف",
+        "text_en": "Smooth Muscle"
+      },
+      {
+        "id": "c",
+        "text_fa": "عضله قلبی",
+        "text_en": "Cardiac Muscle"
+      },
+      {
+        "id": "d",
+        "text_fa": "بافت همبند متراکم",
+        "text_en": "Dense Connective Tissue"
+      }
     ],
     "correctOptionId": "c",
-    "explanation_fa": "دیسک‌های بینابینی محل اتصال سلول‌های عضله قلبی هستند و شامل دسموزوم و گپ جانکشن می‌شوند که هماهنگی انقباض را ممکن می‌سازند."
+    "explanation_fa": "دیسک‌های بینابینی محل اتصال سلول‌های عضله قلبی هستند و شامل دسموزوم و گپ جانکشن می‌شوند که هماهنگی انقباض را ممکن می‌سازند.",
+    "image_url": "/images/histology/cardiac-muscle.jpg",
+    "image_caption": "نمای میکروسکوپی عضله قلبی — فیبرهای مخطط با دیسک‌های بینابینی (intercalated discs)"
   },
   {
     "id": "h-q4",
@@ -47,13 +101,31 @@
     "topicTitleEn": "Stratified Squamous Keratinized Epithelium",
     "question_fa": "اپیدرم پوست از چه نوع بافت پوششی تشکیل شده است؟",
     "options": [
-      { "id": "a", "text_fa": "سنگفرشی مطبق غیر شاخی", "text_en": "Stratified Squamous Non-keratinized" },
-      { "id": "b", "text_fa": "سنگفرشی مطبق شاخی", "text_en": "Stratified Squamous Keratinized" },
-      { "id": "c", "text_fa": "استوانه‌ای ساده", "text_en": "Simple Columnar" },
-      { "id": "d", "text_fa": "مهاره‌ای", "text_en": "Transitional" }
+      {
+        "id": "a",
+        "text_fa": "سنگفرشی مطبق غیر شاخی",
+        "text_en": "Stratified Squamous Non-keratinized"
+      },
+      {
+        "id": "b",
+        "text_fa": "سنگفرشی مطبق شاخی",
+        "text_en": "Stratified Squamous Keratinized"
+      },
+      {
+        "id": "c",
+        "text_fa": "استوانه‌ای ساده",
+        "text_en": "Simple Columnar"
+      },
+      {
+        "id": "d",
+        "text_fa": "مهاره‌ای",
+        "text_en": "Transitional"
+      }
     ],
     "correctOptionId": "b",
-    "explanation_fa": "اپیدرم به دلیل قرار گرفتن در معرض محیط بیرونی، لایه شاخی (keratin) برای محافظت در برابر آسیب و کم‌آبی دارد."
+    "explanation_fa": "اپیدرم به دلیل قرار گرفتن در معرض محیط بیرونی، لایه شاخی (keratin) برای محافظت در برابر آسیب و کم‌آبی دارد.",
+    "image_url": "/images/histology/stratified-squamous-keratinized.jpg",
+    "image_caption": "تصویر این موضوع هنوز در اطلس هیستولوژی ثبت نشده است."
   },
   {
     "id": "h-q5",
@@ -61,12 +133,30 @@
     "topicTitleEn": "Transitional Epithelium (Urothelium)",
     "question_fa": "اپیتلیوم مهاره‌ای (Urothelium) که قابلیت کشسانی بالایی دارد، عمدتاً در کجا دیده می‌شود؟",
     "options": [
-      { "id": "a", "text_fa": "مری", "text_en": "Esophagus" },
-      { "id": "b", "text_fa": "مثانه و مجاری ادراری", "text_en": "Bladder and Ureters" },
-      { "id": "c", "text_fa": "روده باریک", "text_en": "Small Intestine" },
-      { "id": "d", "text_fa": "آلوئول ریه", "text_en": "Lung Alveoli" }
+      {
+        "id": "a",
+        "text_fa": "مری",
+        "text_en": "Esophagus"
+      },
+      {
+        "id": "b",
+        "text_fa": "مثانه و مجاری ادراری",
+        "text_en": "Bladder and Ureters"
+      },
+      {
+        "id": "c",
+        "text_fa": "روده باریک",
+        "text_en": "Small Intestine"
+      },
+      {
+        "id": "d",
+        "text_fa": "آلوئول ریه",
+        "text_en": "Lung Alveoli"
+      }
     ],
     "correctOptionId": "b",
-    "explanation_fa": "اپیتلیوم مهاره‌ای امکان تغییر شکل سلول‌ها هنگام پر و خالی شدن مثانه را فراهم می‌کند."
+    "explanation_fa": "اپیتلیوم مهاره‌ای امکان تغییر شکل سلول‌ها هنگام پر و خالی شدن مثانه را فراهم می‌کند.",
+    "image_url": "/images/histology/transitional-epithelium.jpg",
+    "image_caption": "تصویر این موضوع هنوز در اطلس هیستولوژی ثبت نشده است."
   }
 ]

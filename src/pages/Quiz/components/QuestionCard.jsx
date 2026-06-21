@@ -1,10 +1,17 @@
 import Card from "../../../shared/components/Card";
+import ImageWithFallback from "../../../shared/components/ImageWithFallback";
 import AnswerOption from "./AnswerOption";
 import "./QuestionCard.css";
 
 /**
  * QuestionCard
  * Shows one question with its options. Reuses the shared Card component.
+ *
+ * If the question includes an `image_url` (currently only Histology
+ * questions do), it's rendered above the question text via the same
+ * placeholder-fallback component Histology's Detail page uses, so a
+ * missing/not-yet-shot image degrades gracefully instead of breaking
+ * the quiz.
  *
  * @param {object} question - current question object
  * @param {string|undefined} selectedOptionId - option chosen by the user (if any)
@@ -35,6 +42,20 @@ export default function QuestionCard({ question, selectedOptionId, onSelect, ind
           {question.topicTitleEn || question.drugTitleEn}
         </div>
       )}
+
+      {question.image_url && (
+        <div className="question-card__image-wrap">
+          <ImageWithFallback
+            className="question-card__image"
+            src={question.image_url}
+            alt={question.topicTitleEn || question.drugTitleEn || ""}
+          />
+          {question.image_caption && (
+            <p className="question-card__image-caption">{question.image_caption}</p>
+          )}
+        </div>
+      )}
+
       <h2 className="question-card__question">{question.question_fa}</h2>
 
       <div className="question-card__options">
