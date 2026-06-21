@@ -6,6 +6,7 @@ import Disclaimer from "./components/Disclaimer.jsx";
 import EmptyState from "./components/EmptyState.jsx";
 import FavoriteButton from "../Favorites/components/FavoriteButton";
 import { FAVORITE_TYPES } from "../../shared/lib/storage";
+import { matchSuffixTip } from "./suffixTips.js";
 import "./Pharmacology.css";
 
 const { drugs } = pharmacologyData;
@@ -20,6 +21,7 @@ const SECTIONS = [
 export default function DrugDetail() {
   const { id } = useParams();
   const drug = useMemo(() => drugs.find((d) => d.id === id), [id]);
+  const suffixTip = drug ? matchSuffixTip(drug.generic_name) : null;
 
   if (!drug) {
     return (
@@ -69,6 +71,20 @@ export default function DrugDetail() {
         </p>
         <p className="drug-detail__class en">{drug.drug_class}</p>
       </Card>
+
+      {suffixTip && (
+        <Card className="drug-detail__section suffix-tip-inline">
+          <p className="drug-detail__section-label">
+            <span className="drug-detail__section-icon" aria-hidden="true">💡</span>
+            نکته پسوند
+          </p>
+          <p className="drug-detail__text">
+            نام این دارو با پسوند <span className="en">{suffixTip.suffix}</span> تمام می‌شود؛
+            این پسوند معمولاً نشانه‌ی <strong>{suffixTip.class_fa}</strong>{" "}
+            (<span className="en">{suffixTip.class_en}</span>) است.
+          </p>
+        </Card>
+      )}
 
       <Card className="drug-detail__section">
         <p className="drug-detail__section-label">

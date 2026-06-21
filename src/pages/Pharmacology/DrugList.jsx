@@ -5,6 +5,8 @@ import SearchBar from "./components/SearchBar.jsx";
 import CategoryFilter from "./components/CategoryFilter.jsx";
 import Card from "./components/Card.jsx";
 import EmptyState from "./components/EmptyState.jsx";
+import CategoryGrid from "./CategoryGrid.jsx";
+import SuffixTipsCard from "./SuffixTipsCard.jsx";
 import "./Pharmacology.css";
 
 const { drugs, categories } = pharmacologyData;
@@ -33,6 +35,12 @@ export default function DrugList() {
     );
   }, [query, activeCategory]);
 
+  // Category-first: a flat "all drugs" list is only shown while actively
+  // searching. Otherwise the student must pick a category before seeing
+  // any drug list — this is the whole point of the redesign, so there is
+  // intentionally no "all" fallback view here anymore.
+  const showCategoryGrid = !activeCategory && query.trim() === "";
+
   return (
     <div className="page pharma-page">
       <div className="page-header pharma-page__header">
@@ -46,36 +54,61 @@ export default function DrugList() {
             onChange={setQuery}
             placeholder="جستجوی نام دارو، برند یا گروه دارویی..."
           />
-          <CategoryFilter
-            categories={categories}
-            active={activeCategory}
-            onChange={setActiveCategory}
-          />
+          {!showCategoryGrid && (
+            <CategoryFilter
+              categories={categories}
+              active={activeCategory}
+              onChange={setActiveCategory}
+              showAll={false}
+            />
+          )}
         </div>
       </div>
 
-      {filtered.length === 0 ? (
-        <EmptyState
-          icon="💊"
-          title="دارویی پیدا نشد"
-          description="عبارت جستجو یا فیلتر دسته‌بندی را تغییر دهید."
-        />
+      {showCategoryGrid ? (
+        <>
+          <SuffixTipsCard />
+          <CategoryGrid categories={categories} drugs={drugs} onSelectCategory={setActiveCategory} />
+        </>
       ) : (
-        <ul className="drug-list" aria-label="فهرست داروها">
-          {filtered.map((drug) => (
-            <li key={drug.id}>
-              <Card as={Link} to={`/pharmacology/${drug.id}`} interactive className="drug-list__card">
-                <div className="drug-list__row">
-                  <div className="drug-list__main">
-                    <p className="drug-list__name en">{drug.generic_name}</p>
-                    <p className="drug-list__class">{drug.drug_class}</p>
-                  </div>
-                  <span className="drug-list__chip">{drug.category}</span>
-                </div>
-              </Card>
-            </li>
-          ))}
-        </ul>
+        <>
+          {!showCategoryGrid && (
+            <button
+              type="button"
+              className="pharma-page__back-to-categories"
+              onClick={() => {
+                setActiveCategory(null);
+                setQuery("");
+              }}
+            >
+              ← بازگشت به دسته‌بندی‌ها
+            </button>
+          )}
+
+          {filtered.length === 0 ? (
+            <EmptyState
+              icon="💊"
+              title="دارویی پیدا نشد"
+              description="عبارت جستجو یا فیلتر دسته‌بندی را تغییر دهید."
+            />
+          ) : (
+            <ul className="drug-list" aria-label="فهرست داروها">
+              {filtered.map((drug) => (
+                <li key={drug.id}>
+                  <Card as={Link} to={`/pharmacology/${drug.id}`} interactive className="drug-list__card">
+                    <div className="drug-list__row">
+                      <div className="drug-list__main">
+                        <p className="drug-list__name en">{drug.generic_name}</p>
+                        <p className="drug-list__class">{drug.drug_class}</p>
+                      </div>
+                      <span className="drug-list__chip">{drug.category}</span>
+                    </div>
+                  </Card>
+                </li>
+              ))}
+            </ul>
+          )}
+        </>
       )}
     </div>
   );

@@ -19,6 +19,87 @@
   gap: var(--space-2);
 }
 
+.pharma-page__back-to-categories {
+  display: inline-block;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 13px;
+  color: var(--color-primary);
+  font-weight: 600;
+  margin-bottom: var(--space-3);
+  cursor: pointer;
+}
+
+/* ---------- Category-first landing grid ---------- */
+.category-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+}
+
+.category-grid__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  text-align: right;
+  width: 100%;
+}
+
+.category-grid__name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.category-grid__count {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+/* ---------- Suffix tips reference ---------- */
+.suffix-tips {
+  margin: 0 0 var(--space-3);
+}
+
+.suffix-tips__summary {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.suffix-tips__list {
+  list-style: none;
+  margin: var(--space-2) 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.suffix-tips__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2);
+  font-size: 13px;
+}
+
+.suffix-tips__suffix {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.suffix-tips__class {
+  color: var(--color-text);
+}
+
+.suffix-tips__example {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
 .drug-list {
   list-style: none;
   margin: 0;
@@ -108,6 +189,11 @@
 
 .drug-detail__section {
   margin-bottom: var(--space-3);
+}
+
+.suffix-tip-inline {
+  background: var(--color-primary-tint);
+  border: 1px solid var(--color-primary);
 }
 
 .drug-detail__section-label {

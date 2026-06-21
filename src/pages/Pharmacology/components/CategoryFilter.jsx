@@ -7,22 +7,33 @@ import "./CategoryFilter.css";
  *
  * Props:
  *  - categories: string[]
- *  - active: string | null   ("all" or null means no filter)
+ *  - active: string | null   (null means no filter)
  *  - onChange: (category: string | null) => void
  *  - allLabel: string
+ *  - showAll: boolean — set false to hide the "all" chip entirely
+ *    (Pharmacology is now category-first, so it never shows an
+ *    unfiltered "all drugs" view from this control)
  */
-export default function CategoryFilter({ categories, active, onChange, allLabel = "همه" }) {
+export default function CategoryFilter({
+  categories,
+  active,
+  onChange,
+  allLabel = "همه",
+  showAll = true,
+}) {
   return (
     <div className="category-filter" role="tablist" aria-label="فیلتر دسته‌بندی">
-      <button
-        type="button"
-        role="tab"
-        aria-selected={active === null}
-        className={`category-filter__chip ${active === null ? "is-active" : ""}`}
-        onClick={() => onChange(null)}
-      >
-        {allLabel}
-      </button>
+      {showAll && (
+        <button
+          type="button"
+          role="tab"
+          aria-selected={active === null}
+          className={`category-filter__chip ${active === null ? "is-active" : ""}`}
+          onClick={() => onChange(null)}
+        >
+          {allLabel}
+        </button>
+      )}
       {categories.map((cat) => (
         <button
           key={cat}
