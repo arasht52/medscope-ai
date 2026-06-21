@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Search, Microscope, Pill, Brain, Star, ChevronLeft } from "lucide-react";
+import { Search, Microscope, Pill, Stethoscope, Brain, Star, ChevronLeft } from "lucide-react";
 
 import ProgressBar from "./components/ProgressBar.jsx";
 import CardNotch from "./components/CardNotch.jsx";
@@ -10,12 +10,14 @@ import { toFaDigits } from "./utils/toFaDigits.js";
 
 import histologyData from "../../data/histology.json";
 import pharmacologyData from "../../data/pharmacology.json";
+import pathologyData from "../../data/pathology.json";
 
 // Per QA fix: totals must reflect the actual content available, not a
 // hardcoded MVP-curriculum target — otherwise the count shown on the
 // module cards can silently drift from what's really in the data files.
 const HISTOLOGY_TOTAL = histologyData.items.length;
 const PHARMACOLOGY_TOTAL = pharmacologyData.drugs.length;
+const PATHOLOGY_TOTAL = pathologyData.items.length;
 
 /**
  * The real Histology module stores items as { categories, items } with a
@@ -130,6 +132,14 @@ export default function Home() {
             titleFa="داروشناسی"
             titleEn="Pharmacology"
             subtitle={`${toFaDigits(PHARMACOLOGY_TOTAL)} دارو`}
+          />
+          <ModuleCard
+            to="/pathology"
+            variant="path"
+            icon={Stethoscope}
+            titleFa="پاتولوژی"
+            titleEn="Pathology"
+            subtitle={`${toFaDigits(PATHOLOGY_TOTAL)} مورد`}
           />
           <ModuleCard
             to="/quiz"

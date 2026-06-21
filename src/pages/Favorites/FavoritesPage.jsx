@@ -10,7 +10,14 @@ const FILTERS = [
   { key: 'all', label: 'همه' },
   { key: FAVORITE_TYPES.HISTOLOGY, label: 'هیستولوژی' },
   { key: FAVORITE_TYPES.PHARMACOLOGY, label: 'داروشناسی' },
+  { key: FAVORITE_TYPES.PATHOLOGY, label: 'پاتولوژی' },
 ]
+
+const TYPE_LABEL = {
+  [FAVORITE_TYPES.HISTOLOGY]: 'هیستولوژی',
+  [FAVORITE_TYPES.PHARMACOLOGY]: 'دارو',
+  [FAVORITE_TYPES.PATHOLOGY]: 'پاتولوژی',
+}
 
 export default function FavoritesPage({ onOpenItem }) {
   const { favorites, removeFavorite } = useFavorites()
@@ -45,7 +52,7 @@ export default function FavoritesPage({ onOpenItem }) {
       {visible.length === 0 ? (
         <EmptyState
           title="هنوز چیزی اضافه نکرده‌اید"
-          description="روی آیکون ⭐ در صفحه‌ی هیستولوژی یا داروشناسی بزنید تا اینجا ذخیره شود."
+          description="روی آیکون ⭐ در صفحه‌ی هیستولوژی، داروشناسی یا پاتولوژی بزنید تا اینجا ذخیره شود."
         />
       ) : (
         <ul className="ms-favorites-page__list">
@@ -59,7 +66,7 @@ export default function FavoritesPage({ onOpenItem }) {
                   <span
                     className={`ms-badge ms-badge--${item.type}`}
                   >
-                    {item.type === FAVORITE_TYPES.HISTOLOGY ? 'هیستولوژی' : 'دارو'}
+                    {TYPE_LABEL[item.type] || item.type}
                   </span>
                   <h2 className="ms-favorites-page__item-title">{item.title_fa}</h2>
                   <p className="ms-favorites-page__item-subtitle">

@@ -24,6 +24,7 @@ const FAVORITES_CHANGE_EVENT = "medscope:favorites-changed";
 export const FAVORITE_TYPES = {
   HISTOLOGY: "histology",
   PHARMACOLOGY: "pharmacology",
+  PATHOLOGY: "pathology",
 };
 
 export const APP_VERSION = "0.1.0 (MVP)";

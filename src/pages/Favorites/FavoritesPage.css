@@ -108,6 +108,11 @@
   color: #2e9e57; /* soft green */
 }
 
+.ms-badge--pathology {
+  background: #f1ecfa;
+  color: #7c4dbc; /* soft purple, matches Pathology's module color */
+}
+
 .ms-favorites-page__remove {
   flex-shrink: 0;
   border: none;

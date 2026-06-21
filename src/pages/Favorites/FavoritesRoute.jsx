@@ -16,6 +16,8 @@ export default function FavoritesRoute() {
       navigate(`/histology/${item.id}`);
     } else if (item.type === FAVORITE_TYPES.PHARMACOLOGY) {
       navigate(`/pharmacology/${item.id}`);
+    } else if (item.type === FAVORITE_TYPES.PATHOLOGY) {
+      navigate(`/pathology/${item.id}`);
     }
   }
 

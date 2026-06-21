@@ -1,10 +1,11 @@
 import { Link, useLocation } from "react-router-dom";
-import { Home as HomeIcon, Microscope, Pill, Brain, Grid2x2 } from "lucide-react";
+import { Home as HomeIcon, Microscope, Pill, Stethoscope, Brain, Grid2x2 } from "lucide-react";
 
 const ITEMS = [
   { to: "/", label: "خانه", icon: HomeIcon },
   { to: "/histology", label: "بافت‌شناسی", icon: Microscope },
   { to: "/pharmacology", label: "داروشناسی", icon: Pill },
+  { to: "/pathology", label: "پاتولوژی", icon: Stethoscope },
   { to: "/quiz", label: "آزمون", icon: Brain },
   { to: "/settings", label: "بیشتر", icon: Grid2x2 },
 ];
