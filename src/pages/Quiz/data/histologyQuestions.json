@@ -124,8 +124,8 @@
     ],
     "correctOptionId": "b",
     "explanation_fa": "اپیدرم به دلیل قرار گرفتن در معرض محیط بیرونی، لایه شاخی (keratin) برای محافظت در برابر آسیب و کم‌آبی دارد.",
-    "image_url": "/images/histology/stratified-squamous-keratinized.jpg",
-    "image_caption": "تصویر این موضوع هنوز در اطلس هیستولوژی ثبت نشده است."
+    "image_url": "/images/histology/stratified-squamous-keratinized.svg",
+    "image_caption": "نمودار شماتیک — نمای میکروسکوپی اپیدرم، اپیتلیوم سنگفرشی مطبق کراتینیزه (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)"
   },
   {
     "id": "h-q5",
@@ -156,7 +156,7 @@
     ],
     "correctOptionId": "b",
     "explanation_fa": "اپیتلیوم مهاره‌ای امکان تغییر شکل سلول‌ها هنگام پر و خالی شدن مثانه را فراهم می‌کند.",
-    "image_url": "/images/histology/transitional-epithelium.jpg",
-    "image_caption": "تصویر این موضوع هنوز در اطلس هیستولوژی ثبت نشده است."
+    "image_url": "/images/histology/transitional-epithelium.svg",
+    "image_caption": "نمودار شماتیک — نمای میکروسکوپی اپیتلیوم انتقالی مثانه با سلول‌های گنبدی‌شکل (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)"
   }
 ]
