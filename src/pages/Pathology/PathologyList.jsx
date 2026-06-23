@@ -5,6 +5,7 @@ import PathologySearchBar from "./components/PathologySearchBar.jsx";
 import PathologyCategoryFilter from "./components/PathologyCategoryFilter.jsx";
 import Card from "./components/Card.jsx";
 import PathologyEmptyState from "./components/PathologyEmptyState.jsx";
+import CategoryGrid from "./CategoryGrid.jsx";
 import "./Pathology.css";
 
 const { items, categories } = pathologyData;
@@ -33,6 +34,12 @@ export default function PathologyList() {
     );
   }, [query, activeCategory]);
 
+  // Category-first, same rationale as Pharmacology: with 13 categories a
+  // horizontally-scrolling chip row meant endless swiping to find one.
+  // The flat list (via chips) is now only reachable while actively
+  // searching or after picking a category from the grid below.
+  const showCategoryGrid = !activeCategory && query.trim() === "";
+
   return (
     <div className="page path-page">
       <div className="page-header path-page__header">
@@ -46,36 +53,56 @@ export default function PathologyList() {
             onChange={setQuery}
             placeholder="جستجوی نام بیماری یا دسته‌بندی..."
           />
-          <PathologyCategoryFilter
-            categories={categories}
-            active={activeCategory}
-            onChange={setActiveCategory}
-          />
+          {!showCategoryGrid && (
+            <PathologyCategoryFilter
+              categories={categories}
+              active={activeCategory}
+              onChange={setActiveCategory}
+              showAll={false}
+            />
+          )}
         </div>
       </div>
 
-      {filtered.length === 0 ? (
-        <PathologyEmptyState
-          icon="🔬"
-          title="موردی پیدا نشد"
-          description="عبارت جستجو یا فیلتر دسته‌بندی را تغییر دهید."
-        />
+      {showCategoryGrid ? (
+        <CategoryGrid categories={categories} items={items} onSelectCategory={setActiveCategory} />
       ) : (
-        <ul className="path-list" aria-label="فهرست موارد پاتولوژی">
-          {filtered.map((it) => (
-            <li key={it.id}>
-              <Card as={Link} to={`/pathology/${it.id}`} interactive className="path-list__card">
-                <div className="path-list__row">
-                  <div className="path-list__main">
-                    <p className="path-list__name-fa">{it.title_fa}</p>
-                    <p className="path-list__name-en en">{it.title_en}</p>
-                  </div>
-                  <span className="path-list__chip en">{it.category}</span>
-                </div>
-              </Card>
-            </li>
-          ))}
-        </ul>
+        <>
+          <button
+            type="button"
+            className="path-page__back-to-categories"
+            onClick={() => {
+              setActiveCategory(null);
+              setQuery("");
+            }}
+          >
+            ← بازگشت به دسته‌بندی‌ها
+          </button>
+
+          {filtered.length === 0 ? (
+            <PathologyEmptyState
+              icon="🔬"
+              title="موردی پیدا نشد"
+              description="عبارت جستجو یا فیلتر دسته‌بندی را تغییر دهید."
+            />
+          ) : (
+            <ul className="path-list" aria-label="فهرست موارد پاتولوژی">
+              {filtered.map((it) => (
+                <li key={it.id}>
+                  <Card as={Link} to={`/pathology/${it.id}`} interactive className="path-list__card">
+                    <div className="path-list__row">
+                      <div className="path-list__main">
+                        <p className="path-list__name-fa">{it.title_fa}</p>
+                        <p className="path-list__name-en en">{it.title_en}</p>
+                      </div>
+                      <span className="path-list__chip en">{it.category}</span>
+                    </div>
+                  </Card>
+                </li>
+              ))}
+            </ul>
+          )}
+        </>
       )}
     </div>
   );

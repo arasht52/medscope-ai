@@ -1,11 +1,12 @@
-import { useMemo } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useEffect, useMemo } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import pharmacologyData from "../../data/pharmacology.json";
 import Card from "./components/Card.jsx";
 import Disclaimer from "./components/Disclaimer.jsx";
 import EmptyState from "./components/EmptyState.jsx";
+import BackButton from "../../shared/components/BackButton.jsx";
 import FavoriteButton from "../Favorites/components/FavoriteButton";
-import { FAVORITE_TYPES } from "../../shared/lib/storage";
+import { FAVORITE_TYPES, markItemViewed } from "../../shared/lib/storage";
 import { matchSuffixTip } from "./suffixTips.js";
 import "./Pharmacology.css";
 
@@ -20,8 +21,14 @@ const SECTIONS = [
 
 export default function DrugDetail() {
   const { id } = useParams();
+  const navigate = useNavigate();
   const drug = useMemo(() => drugs.find((d) => d.id === id), [id]);
   const suffixTip = drug ? matchSuffixTip(drug.generic_name) : null;
+
+  // Real progress tracking: opening a detail page counts as "studied".
+  useEffect(() => {
+    if (drug) markItemViewed("pharmacology", drug.id);
+  }, [drug]);
 
   if (!drug) {
     return (
@@ -31,9 +38,7 @@ export default function DrugDetail() {
           title="این دارو پیدا نشد"
           description="ممکن است لینک نادرست باشد یا دارو حذف شده باشد."
         />
-        <Link className="back-link" to="/pharmacology">
-          ← بازگشت به فهرست داروها
-        </Link>
+        <BackButton onClick={() => navigate("/pharmacology")} label="فهرست داروها" />
       </div>
     );
   }
@@ -41,9 +46,7 @@ export default function DrugDetail() {
   return (
     <div className="page drug-detail">
       <div className="page-header drug-detail__header">
-        <Link className="back-link" to="/pharmacology" aria-label="بازگشت">
-          ← فهرست داروها
-        </Link>
+        <BackButton onClick={() => navigate("/pharmacology")} label="فهرست داروها" />
         <div className="drug-detail__title-row">
           <h1 className="drug-detail__name en">{drug.generic_name}</h1>
           <FavoriteButton

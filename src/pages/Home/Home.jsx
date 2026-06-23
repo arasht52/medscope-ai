@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { Search, Microscope, Pill, Stethoscope, Brain, Star, ChevronLeft } from "lucide-react";
 
 import ProgressBar from "./components/ProgressBar.jsx";
 import CardNotch from "./components/CardNotch.jsx";
 import ModuleCard from "./components/ModuleCard.jsx";
 import RecentItemCard from "./components/RecentItemCard.jsx";
+import SearchResults from "./components/SearchResults.jsx";
 import { useProgress } from "./hooks/useProgress.js";
 import { toFaDigits } from "./utils/toFaDigits.js";
 
@@ -30,6 +31,39 @@ function histologyCategoryLabel(categoryId) {
   return histologyData.categories.find((c) => c.id === categoryId)?.label_fa ?? categoryId;
 }
 
+/** Normalizes text for case/diacritic-insensitive matching across fa/en. */
+function normalize(text) {
+  return (text || "").toString().toLowerCase().trim();
+}
+
+/**
+ * Real cross-module search (replaces the old "visual only" search bar).
+ * Matches against title_fa/title_en (+ brand names for drugs) across all
+ * three datasets and returns a flat, capped list ready to render.
+ */
+function searchAllModules(query) {
+  const q = normalize(query);
+  if (!q) return [];
+
+  const fromHistology = histologyData.items
+    .filter((i) => normalize(i.title_fa).includes(q) || normalize(i.title_en).includes(q))
+    .map((i) => ({ id: i.id, type: "histology", title_fa: i.title_fa, title_en: i.title_en }));
+
+  const fromPharmacology = pharmacologyData.drugs
+    .filter(
+      (d) =>
+        normalize(d.generic_name).includes(q) ||
+        (d.brand_names || []).some((b) => normalize(b).includes(q))
+    )
+    .map((d) => ({ id: d.id, type: "pharmacology", title_fa: d.generic_name, title_en: d.generic_name }));
+
+  const fromPathology = pathologyData.items
+    .filter((p) => normalize(p.title_fa).includes(q) || normalize(p.title_en).includes(q))
+    .map((p) => ({ id: p.id, type: "pathology", title_fa: p.title_fa, title_en: p.title_en }));
+
+  return [...fromHistology, ...fromPharmacology, ...fromPathology].slice(0, 8);
+}
+
 const recentItems = [
   ...histologyData.items.slice(0, 2).map((i) => ({
     id: i.id,
@@ -49,14 +83,15 @@ const recentItems = [
 
 export default function Home() {
   const [query, setQuery] = useState("");
+  const isSearching = query.trim().length > 0;
+  const searchResults = useMemo(() => searchAllModules(query), [query]);
 
-  // No screen currently calls markDone() — real progress tracking is not
-  // implemented yet (documented in useProgress.js). Until it is, this
-  // correctly shows 0/total rather than a fake non-zero demo value, so
-  // "Reset Progress" in Settings has a real, visible effect.
-  const histology = useProgress("histology", HISTOLOGY_TOTAL, 0);
-  const pharmacology = useProgress("pharmacology", PHARMACOLOGY_TOTAL, 0);
-  const pathology = useProgress("pathology", PATHOLOGY_TOTAL, 0);
+  // Real progress: each module's Detail page calls markDone(itemId) when
+  // opened (see useProgress.js), so these counts reflect actual distinct
+  // items the student has viewed, persisted in localStorage.
+  const histology = useProgress("histology", HISTOLOGY_TOTAL);
+  const pharmacology = useProgress("pharmacology", PHARMACOLOGY_TOTAL);
+  const pathology = useProgress("pathology", PATHOLOGY_TOTAL);
 
   return (
     <div dir="rtl" lang="fa" className="w-full max-w-md mx-auto flex flex-col bg-bg">
@@ -66,8 +101,9 @@ export default function Home() {
         <h1 className="text-xl font-bold mt-0.5 text-ink">امروز چی می‌خوای مرور کنی؟</h1>
       </header>
 
-      {/* Search bar — visual only for now: no search route exists yet,
-          so Enter intentionally does nothing rather than half-navigating. */}
+      {/* Search bar — real cross-module search (Histology + Pharmacology +
+          Pathology); results render below, replacing the rest of Home
+          while a query is active. */}
       <div className="px-5 pb-4">
         <div className="flex items-center gap-2 rounded-2xl px-3 py-3 bg-surface border border-border">
           <Search size={18} className="text-muted" />
@@ -75,13 +111,17 @@ export default function Home() {
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             type="text"
-            placeholder="جستجو در بافت‌شناسی و داروها..."
-            aria-label="جستجو در بافت‌شناسی و داروها"
+            placeholder="جستجو در بافت‌شناسی، داروها و پاتولوژی..."
+            aria-label="جستجو در بافت‌شناسی، داروها و پاتولوژی"
             className="flex-1 bg-transparent outline-none text-sm text-right text-ink"
           />
         </div>
       </div>
 
+      {isSearching && <SearchResults results={searchResults} />}
+
+      {!isSearching && (
+        <>
       {/* Progress section */}
       <section className="px-5 pb-4">
         <div className="relative rounded-2xl p-4 bg-surface border border-border">
@@ -183,6 +223,8 @@ export default function Home() {
           ))}
         </div>
       </section>
+        </>
+      )}
     </div>
   );
 }

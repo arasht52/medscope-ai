@@ -1,9 +1,10 @@
+import { useEffect } from "react";
 import Header from "./components/Header";
 import Section from "./components/Section";
 import ImageCarousel from "../../shared/components/ImageCarousel.jsx";
 import EmptyState from "./components/HistologyEmptyState";
 import FavoriteButton from "../Favorites/components/FavoriteButton";
-import { FAVORITE_TYPES } from "../../shared/lib/storage";
+import { FAVORITE_TYPES, markItemViewed } from "../../shared/lib/storage";
 import { getHistologyItemById, getCategoryLabel } from "./useHistologyData";
 import "./HistologyDetail.css";
 
@@ -21,6 +22,11 @@ import "./HistologyDetail.css";
  */
 export default function HistologyDetail({ itemId, onBack }) {
   const item = getHistologyItemById(itemId);
+
+  // Real progress tracking: opening a detail page counts as "studied".
+  useEffect(() => {
+    if (item) markItemViewed("histology", item.id);
+  }, [item]);
 
   if (!item) {
     return (

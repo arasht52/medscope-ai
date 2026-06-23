@@ -1,11 +1,12 @@
-import { useMemo } from "react";
-import { Link, useParams } from "react-router-dom";
+import { useEffect, useMemo } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import pathologyData from "../../data/pathology.json";
 import Card from "./components/Card.jsx";
 import PathologyEmptyState from "./components/PathologyEmptyState.jsx";
 import ImageWithFallback from "../../shared/components/ImageWithFallback.jsx";
+import BackButton from "../../shared/components/BackButton.jsx";
 import FavoriteButton from "../Favorites/components/FavoriteButton";
-import { FAVORITE_TYPES } from "../../shared/lib/storage";
+import { FAVORITE_TYPES, markItemViewed } from "../../shared/lib/storage";
 import "./Pathology.css";
 
 const { items } = pathologyData;
@@ -23,7 +24,13 @@ const SECTIONS = [
 
 export default function PathologyDetail() {
   const { id } = useParams();
+  const navigate = useNavigate();
   const item = useMemo(() => items.find((it) => it.id === id), [id]);
+
+  // Real progress tracking: opening a detail page counts as "studied".
+  useEffect(() => {
+    if (item) markItemViewed("pathology", item.id);
+  }, [item]);
 
   if (!item) {
     return (
@@ -33,9 +40,7 @@ export default function PathologyDetail() {
           title="این مورد پیدا نشد"
           description="ممکن است لینک نادرست باشد یا مورد حذف شده باشد."
         />
-        <Link className="back-link" to="/pathology">
-          ← بازگشت به فهرست پاتولوژی
-        </Link>
+        <BackButton onClick={() => navigate("/pathology")} label="فهرست پاتولوژی" />
       </div>
     );
   }
@@ -43,9 +48,7 @@ export default function PathologyDetail() {
   return (
     <div className="page path-detail">
       <div className="page-header path-detail__header">
-        <Link className="back-link" to="/pathology" aria-label="بازگشت">
-          ← فهرست پاتولوژی
-        </Link>
+        <BackButton onClick={() => navigate("/pathology")} label="فهرست پاتولوژی" />
         <div className="path-detail__title-row">
           <div>
             <h1 className="path-detail__name-fa">{item.title_fa}</h1>

@@ -1,34 +1,26 @@
 import { useState, useCallback } from "react";
-import { readProgressStore, writeProgressStore } from "../../../shared/lib/storage";
+import { getViewedCount, markItemViewed } from "../../../shared/lib/storage";
 
 /**
- * Tracks how many items a student has completed in a given module,
- * persisted to localStorage.
+ * Tracks how many distinct items a student has opened in a given module,
+ * persisted to localStorage via the shared viewed-items store.
  *
- * Real progress *marking* is not implemented yet — no screen in the app
- * currently calls `markDone()`. This hook only reads whatever is already
- * in storage and exposes `markDone` for that future work; it must NOT
- * write anything back to storage on its own, otherwise "Reset Progress"
- * in Settings would be immediately undone the next time Home mounts
- * (the bug this fixes). `initial` is only used when no real progress
- * has ever been recorded — it intentionally defaults to 0, not a fake
- * demo value, so a reset module always and visibly shows "0 done".
+ * `done` is read once on mount (Home re-mounts on every navigation back to
+ * it via React Router, so this always reflects the latest state — no live
+ * subscription needed, unlike Favorites which can update while mounted).
+ *
+ * `markDone(itemId)` is called by each module's Detail page when an item
+ * is opened; it records that id (deduplicated, so revisits never inflate
+ * the count) and updates local state if this hook instance is still
+ * mounted to see it.
  */
-export function useProgress(moduleKey, total, initial = 0) {
-  const [done, setDone] = useState(() => {
-    const store = readProgressStore();
-    return store[moduleKey] ?? initial;
-  });
+export function useProgress(moduleKey, total) {
+  const [done, setDone] = useState(() => Math.min(total, getViewedCount(moduleKey)));
 
   const markDone = useCallback(
-    (count) => {
-      setDone((prev) => {
-        const next = Math.min(total, Math.max(prev, count));
-        const store = readProgressStore();
-        store[moduleKey] = next;
-        writeProgressStore(store);
-        return next;
-      });
+    (itemId) => {
+      markItemViewed(moduleKey, itemId);
+      setDone(Math.min(total, getViewedCount(moduleKey)));
     },
     [total, moduleKey]
   );

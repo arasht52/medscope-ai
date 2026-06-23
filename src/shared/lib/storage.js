@@ -14,7 +14,8 @@
 // originally built in isolation.
 
 const KEYS = {
-  progress: "medscope_progress", // { [moduleKey]: doneCount }
+  progress: "medscope_progress", // legacy key, kept only so resetProgress() still clears any old data
+  viewed: "medscope_viewed_items", // { [moduleKey]: string[] } — real progress source of truth
   favorites: "medscope:favorites", // Array<FavoriteItem>
   theme: "medscope:settings:theme",
 };
@@ -63,8 +64,39 @@ export function writeProgressStore(store) {
   writeJSON(KEYS.progress, store);
 }
 
+/**
+ * Real progress tracking: a student's progress in a module is the number
+ * of *distinct* items they have opened (viewed), not a hand-incremented
+ * counter. Storing a Set-like array of ids (deduplicated) means revisiting
+ * the same item twice never inflates the count, and progress always
+ * reflects actual browsing regardless of order.
+ */
+function readViewedStore() {
+  return readJSON(KEYS.viewed, {});
+}
+
+function writeViewedStore(store) {
+  writeJSON(KEYS.viewed, store);
+}
+
+export function markItemViewed(moduleKey, itemId) {
+  if (!moduleKey || !itemId) return;
+  const store = readViewedStore();
+  const ids = store[moduleKey] || [];
+  if (!ids.includes(itemId)) {
+    store[moduleKey] = [...ids, itemId];
+    writeViewedStore(store);
+  }
+}
+
+export function getViewedCount(moduleKey) {
+  const store = readViewedStore();
+  return (store[moduleKey] || []).length;
+}
+
 export function resetProgress() {
   removeKey(KEYS.progress);
+  removeKey(KEYS.viewed);
 }
 
 /* ---------------------------------------------------------------------- */
