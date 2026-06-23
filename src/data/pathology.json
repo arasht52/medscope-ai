@@ -9,10 +9,9 @@
     "Endocrine",
     "Hematologic & Lymphoid",
     "Musculoskeletal",
-    "Breast & Reproductive",
-    "Cervix, Vagina & Vulva",
-    "Testis & Epididymis",
-    "Nervous System"
+    "Nervous System",
+    "Male Reproductive System",
+    "Female Reproductive System"
   ],
   "items": [
     {
@@ -1056,7 +1055,7 @@
       "id": "fibroadenoma-breast",
       "title_fa": "فیبروآدنوم پستان",
       "title_en": "Fibroadenoma of the Breast",
-      "category": "Breast & Reproductive",
+      "category": "Female Reproductive System",
       "etiology": [
         "حساسیت به استروژن؛ شایع‌ترین توده‌ی خوش‌خیم پستان در زنان جوان"
       ],
@@ -1273,7 +1272,7 @@
       "id": "benign-prostatic-hyperplasia",
       "title_fa": "هیپرپلازی خوش‌خیم پروستات",
       "title_en": "Benign Prostatic Hyperplasia (BPH)",
-      "category": "Breast & Reproductive",
+      "category": "Male Reproductive System",
       "etiology": [
         "افزایش سن",
         "تغییرات هورمونی (دی‌هیدروتستوسترون / DHT) با افزایش سن"
@@ -1742,7 +1741,7 @@
       "id": "bartholin-cyst-vulvar-inflammation",
       "title_fa": "کیست غده بارتولن و بیماری‌های التهابی ولو",
       "title_en": "Bartholin Cyst & Vulvar Inflammatory Conditions",
-      "category": "Cervix, Vagina & Vulva",
+      "category": "Female Reproductive System",
       "etiology": [
         "انسداد مجرای غده بارتولن در پی یک فرآیند التهابی",
         "ولو به‌خاطر تماس دائم با ترشحات و رطوبت، مستعد عفونت‌های سطحی‌تری نسبت به سایر نواحی پوست بدن است",
@@ -1790,7 +1789,7 @@
       "id": "lichen-sclerosus-vulva",
       "title_fa": "لیکن اسکلروزوس و هیپرپلازی سلول سنگفرشی ولو",
       "title_en": "Lichen Sclerosus & Squamous Cell Hyperplasia (Vulva)",
-      "category": "Cervix, Vagina & Vulva",
+      "category": "Female Reproductive System",
       "etiology": [
         "لیکن اسکلروزوس: پاتوژنز نامشخص، اما حضور لنفوسیت‌های T فعال و ارتباط با بیماری‌های اتوایمیون نقش یک مکانیسم ایمنی را مطرح می‌کند",
         "هیپرپلازی سلول سنگفرشی (لیکن سیمپلکس کرونیکوس): واکنش غیراختصاصی به خراش یا مالش مزمن برای رفع خارش"
@@ -1836,7 +1835,7 @@
       "id": "condyloma-vin-classic",
       "title_fa": "کاندیلوم آکومیناتوم و VIN کلاسیک (وابسته به HPV)",
       "title_en": "Condyloma Acuminatum & Classic VIN (HPV-related)",
-      "category": "Cervix, Vagina & Vulva",
+      "category": "Female Reproductive System",
       "etiology": [
         "کاندیلوم آکومیناتوم: عفونت با HPV کم‌خطر، عمدتاً تیپ ۶ و ۱۱",
         "VIN کلاسیک: عفونت با HPV پرخطر، شایع‌ترین تیپ HPV-16"
@@ -1884,7 +1883,7 @@
       "id": "differentiated-vin-vulvar-scc",
       "title_fa": "VIN تفکیک‌یافته و کارسینوم سلول سنگفرشی ولو",
       "title_en": "Differentiated VIN & Vulvar Squamous Cell Carcinoma",
-      "category": "Cervix, Vagina & Vulva",
+      "category": "Female Reproductive System",
       "etiology": [
         "زمینه‌ی لیکن اسکلروزوس یا هیپرپلازی سلول سنگفرشی طولانی‌مدت (التهاب مزمن)",
         "بدون ارتباط با HPV",
@@ -1931,7 +1930,7 @@
       "id": "vaginal-scc-rhabdomyosarcoma",
       "title_fa": "کارسینوم سلول سنگفرشی واژن و رابدومیوسارکوم آمبریونال",
       "title_en": "Vaginal Squamous Cell Carcinoma & Embryonal Rhabdomyosarcoma",
-      "category": "Cervix, Vagina & Vulva",
+      "category": "Female Reproductive System",
       "etiology": [
         "تقریباً تمام کارسینوم‌های اولیه‌ی واژن از نوع سلول سنگفرشی و وابسته به HPV پرخطر هستند",
         "رابدومیوسارکوم آمبریونال (sarcoma botryoides) از رابدومیوبلاست‌های بدخیم آمبریونال منشا می‌گیرد و عمدتاً در نوزادان و کودکان زیر ۵ سال دیده می‌شود"
@@ -1977,7 +1976,7 @@
       "id": "cervical-hpv-cin-carcinoma",
       "title_fa": "بیولوژی HPV، طیف CIN/SIL و کارسینوم سرویکس",
       "title_en": "Cervical HPV Biology, CIN/SIL Spectrum & Cervical Carcinoma",
-      "category": "Cervix, Vagina & Vulva",
+      "category": "Female Reproductive System",
       "etiology": [
         "عفونت با تیپ‌های پرخطر HPV، به‌خصوص HPV-16 و HPV-18، مهم‌ترین عامل خطر کارسینوم سرویکس است",
         "سایر تیپ‌های پرخطر: ۳۱، ۳۳، ۳۵، ۳۹، ۴۵، ۵۱، ۵۲، ۵۶، ۵۸، ۵۹",
@@ -2031,7 +2030,7 @@
       "id": "cryptorchidism",
       "title_fa": "کریپتورکیدیسم",
       "title_en": "Cryptorchidism",
-      "category": "Testis & Epididymis",
+      "category": "Male Reproductive System",
       "etiology": [
         "نزول ناقص یا کامل بیضه‌ی داخل‌شکمی به کیسه‌ی اسکروتوم",
         "فاز ترانس‌آبدومینال نزول تحت کنترل هورمون آنتی‌مولرین و فاز اینگوینواسکروتال وابسته به آندروژن است؛ اختلال در هر مرحله می‌تواند باعث کریپتورکیدیسم شود"
@@ -2079,7 +2078,7 @@
       "id": "testicular-torsion",
       "title_fa": "تورشن بیضه",
       "title_en": "Testicular Torsion",
-      "category": "Testis & Epididymis",
+      "category": "Male Reproductive System",
       "etiology": [
         "پیچش طناب اسپرماتیک که در درجه‌ی اول زهکشی وریدی بیضه را مسدود می‌کند"
       ],
@@ -2124,7 +2123,7 @@
       "id": "epididymo-orchitis",
       "title_fa": "اپیدیدیمو-اورکیت",
       "title_en": "Epididymo-orchitis",
-      "category": "Testis & Epididymis",
+      "category": "Male Reproductive System",
       "etiology": [
         "در مردان فعال جنسی زیر ۳۵ سال، شایع‌ترین عوامل، پاتوژن‌های منتقله از راه جنسی Chlamydia trachomatis و Neisseria gonorrhoeae هستند",
         "برخی عفونت‌ها (سل، سوزاک) ابتدا اپیدیدیم را درگیر کرده و سپس به بیضه گسترش می‌یابند؛ برخی دیگر مثل سیفلیس ابتدا بیضه را گرفتار می‌کنند"
@@ -2169,7 +2168,7 @@
       "id": "seminoma-embryonal-carcinoma",
       "title_fa": "سمینوما و کارسینوم آمبریونال",
       "title_en": "Seminoma & Embryonal Carcinoma",
-      "category": "Testis & Epididymis",
+      "category": "Male Reproductive System",
       "etiology": [
         "هر دو از تومورهای ژرم‌سل بیضه هستند؛ پیک سنی بروز کلی تومورهای ژرم‌سل بین ۱۵ تا ۴۵ سالگی است",
         "کریپتورکیدیسم در حدود ۱۰٪ از تومورهای ژرم‌سل بیضه دیده می‌شود",
@@ -2216,7 +2215,7 @@
       "id": "yolk-sac-tumor-choriocarcinoma",
       "title_fa": "تومور یولک‌ساک و کوریوکارسینوما",
       "title_en": "Yolk Sac Tumor & Choriocarcinoma",
-      "category": "Testis & Epididymis",
+      "category": "Male Reproductive System",
       "etiology": [
         "تومور یولک‌ساک پره‌پوبرتال (سینوس آندودرمال): شایع‌ترین تومور بیضه در نوزادان و کودکان زیر ۳ سال، با پیش‌آگهی خوب",
         "نوع پس از بلوغ به‌ندرت به‌صورت خالص دیده می‌شود و معمولاً همراه با کارسینوم آمبریونال یا سایر اجزای ژرم‌سل است",
@@ -2264,7 +2263,7 @@
       "id": "sex-cord-tumors-testis",
       "title_fa": "تومورهای سکس‌کورد بیضه (لایدیگ و سرتولی)",
       "title_en": "Sex Cord–Stromal Tumors of the Testis (Leydig & Sertoli)",
-      "category": "Testis & Epididymis",
+      "category": "Male Reproductive System",
       "etiology": [
         "تومور سلول لایدیگ: شایع‌ترین تومور سکس‌کورد-استرومایی بیضه (۱ تا ۲٪ تومورهای بیضه در بزرگسالان، ۳ تا ۶٪ در پسران پیش از بلوغ)؛ مرتبط با سندرم کلاین‌فلتر، کریپتورکیدیسم و سندرم لیومیوماتوز ارثی همراه با کارسینوم سلول کلیه (موتاسیون فومارات هیدراتاز)",
         "تومور سلول سرتولی: دومین تومور شایع سکس‌کورد، در سنین زیر ۲۰ سال نادر است (میانگین سنی حدود ۴۵ سال)"

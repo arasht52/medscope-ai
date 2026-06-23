@@ -22,6 +22,9 @@ export default function SuffixTipsCard() {
                 <span className="suffix-tips__class">{tip.class_fa}</span>
               </div>
               <span className="suffix-tips__example en">{tip.example_en}</span>
+              {tip.note_fa && (
+                <span className="suffix-tips__note">{tip.note_fa}</span>
+              )}
             </li>
           ))}
         </ul>
