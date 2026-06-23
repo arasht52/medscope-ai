@@ -1,18 +1,25 @@
+/* Same round icon-button language as the shared PageHeader's back
+   button (.ms-header__back) and Histology's own Header
+   (.app-header__back) — this file exists so Pathology/Pharmacology
+   Detail pages, which don't use either header component, can still
+   render an identical-looking back button instead of inventing a
+   third visual style. */
 .back-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-pill);
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-pill);
-  padding: 6px 12px;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--color-primary);
+  font-size: 18px;
+  line-height: 1;
+  color: var(--color-text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   margin-bottom: var(--space-3);
 }
 
 .back-button:active {
-  transform: scale(0.97);
+  transform: scale(0.94);
 }
