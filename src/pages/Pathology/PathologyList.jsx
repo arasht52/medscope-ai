@@ -86,21 +86,45 @@ export default function PathologyList() {
               description="عبارت جستجو یا فیلتر دسته‌بندی را تغییر دهید."
             />
           ) : (
-            <ul className="path-list" aria-label="فهرست موارد پاتولوژی">
-              {filtered.map((it) => (
-                <li key={it.id}>
-                  <Card as={Link} to={`/pathology/${it.id}`} interactive className="path-list__card">
-                    <div className="path-list__row">
-                      <div className="path-list__main">
-                        <p className="path-list__name-fa">{it.title_fa}</p>
-                        <p className="path-list__name-en en">{it.title_en}</p>
-                      </div>
-                      <span className="path-list__chip en">{it.category}</span>
-                    </div>
-                  </Card>
-                </li>
-              ))}
-            </ul>
+            (() => {
+              // Group by subcategory_fa when present (e.g. GI: مری/معده/روده).
+              // Items without a subcategory fall into a single unlabeled
+              // group, so other categories render exactly as before.
+              const groups = [];
+              const groupIndex = new Map();
+              for (const it of filtered) {
+                const key = it.subcategory_fa || "";
+                if (!groupIndex.has(key)) {
+                  groupIndex.set(key, groups.length);
+                  groups.push({ key, items: [] });
+                }
+                groups[groupIndex.get(key)].items.push(it);
+              }
+              const showHeadings = groups.length > 1 || groups[0]?.key;
+
+              return groups.map((group) => (
+                <div key={group.key || "default"} className="path-list__group">
+                  {showHeadings && group.key && (
+                    <h2 className="path-list__group-heading">{group.key}</h2>
+                  )}
+                  <ul className="path-list" aria-label="فهرست موارد پاتولوژی">
+                    {group.items.map((it) => (
+                      <li key={it.id}>
+                        <Card as={Link} to={`/pathology/${it.id}`} interactive className="path-list__card">
+                          <div className="path-list__row">
+                            <div className="path-list__main">
+                              <p className="path-list__name-fa">{it.title_fa}</p>
+                              <p className="path-list__name-en en">{it.title_en}</p>
+                            </div>
+                            <span className="path-list__chip en">{it.category}</span>
+                          </div>
+                        </Card>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ));
+            })()
           )}
         </>
       )}

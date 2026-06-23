@@ -447,7 +447,8 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "subcategory_fa": "معده"
     },
     {
       "id": "cirrhosis-of-liver",
@@ -2848,7 +2849,8 @@
           "magnification": "200x"
         }
       ],
-      "magnification": "200x"
+      "magnification": "200x",
+      "subcategory_fa": "معده"
     },
     {
       "id": "gastric-carcinoma",
@@ -2894,7 +2896,8 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "subcategory_fa": "معده"
     },
     {
       "id": "reflux-esophagitis-barrett",
@@ -2939,7 +2942,8 @@
           "magnification": "200x"
         }
       ],
-      "magnification": "200x"
+      "magnification": "200x",
+      "subcategory_fa": "مری"
     },
     {
       "id": "esophageal-carcinoma",
@@ -2985,7 +2989,8 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "subcategory_fa": "مری"
     },
     {
       "id": "achalasia-mallory-weiss",
@@ -3032,7 +3037,8 @@
           "magnification": "10x"
         }
       ],
-      "magnification": "10x"
+      "magnification": "10x",
+      "subcategory_fa": "مری"
     },
     {
       "id": "ibd-crohn-ulcerative-colitis",
@@ -3080,7 +3086,8 @@
           "magnification": "200x"
         }
       ],
-      "magnification": "200x"
+      "magnification": "200x",
+      "subcategory_fa": "روده و کولون"
     },
     {
       "id": "celiac-disease",
@@ -3126,7 +3133,8 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "subcategory_fa": "روده و کولون"
     },
     {
       "id": "c-difficile-colitis",
@@ -3170,7 +3178,8 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "subcategory_fa": "روده و کولون"
     },
     {
       "id": "colorectal-adenocarcinoma-polyps",
@@ -3216,7 +3225,8 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "subcategory_fa": "روده و کولون"
     },
     {
       "id": "oral-mucosal-lesions",
@@ -3262,7 +3272,8 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "subcategory_fa": "دهان و غدد بزاقی"
     },
     {
       "id": "salivary-gland-tumors",
@@ -3310,7 +3321,8 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "subcategory_fa": "دهان و غدد بزاقی"
     },
     {
       "id": "chronic-viral-hepatitis-cirrhosis",

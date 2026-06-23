@@ -57,6 +57,18 @@
   gap: var(--space-2);
 }
 
+.path-list__group + .path-list__group {
+  margin-top: var(--space-4, 16px);
+}
+
+.path-list__group-heading {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-2) 0;
+  padding-right: var(--space-1, 4px);
+}
+
 .path-list__card {
   display: block;
 }
