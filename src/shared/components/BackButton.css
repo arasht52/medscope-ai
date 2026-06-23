@@ -4,15 +4,26 @@
    Detail pages, which don't use either header component, can still
    render an identical-looking back button instead of inventing a
    third visual style. */
+/* Same visual language as the shared PageHeader's back button
+   (.ms-header__back) and Histology's own Header (.app-header__back) —
+   this file exists so Pathology/Pharmacology Detail pages, which don't
+   use either header component, can still render an identical-looking
+   back button instead of inventing a third visual style.
+   A real user testing the app (not a developer who already knows
+   where to look) didn't notice the previous faint, border-only version
+   was tappable, so this is filled with a light brand tint + a visible
+   shadow instead of relying on a thin 1px border for affordance. */
 .back-button {
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   border-radius: var(--radius-pill);
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
+  background: var(--color-primary-tint);
+  border: none;
+  box-shadow: 0 1px 4px rgba(20, 103, 200, 0.25);
   font-size: 18px;
   line-height: 1;
-  color: var(--color-text);
+  color: var(--color-primary-dark);
+  font-weight: 700;
   display: inline-flex;
   align-items: center;
   justify-content: center;
