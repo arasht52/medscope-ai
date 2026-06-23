@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M70,120 Q120,140 170,120 L165,70 Q120,55 75,70 Z" fill="#D9C49A" opacity="0.4" stroke="#7C4DBC" stroke-width="1"/>
+  <circle cx="120" cy="85" r="22" fill="#7C4DBC" opacity="0.5"/>
+  <line x1="120" y1="85" x2="120" y2="30" stroke="#7C4DBC" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="120" y1="85" x2="70" y2="45" stroke="#7C4DBC" stroke-width="1.5"/>
+  <line x1="120" y1="85" x2="170" y2="45" stroke="#7C4DBC" stroke-width="1.5"/>
+  <text x="120" y="24" font-size="8" fill="#7C4DBC" text-anchor="middle">GH</text>
+  <text x="60" y="40" font-size="8" fill="#7C4DBC" text-anchor="middle">PRL</text>
+  <text x="180" y="40" font-size="8" fill="#7C4DBC" text-anchor="middle">ACTH</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Functioning pituitary adenoma — hormone-secreting cell nest</text>
+</svg>

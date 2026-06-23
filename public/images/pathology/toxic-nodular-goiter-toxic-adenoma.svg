@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <ellipse cx="120" cy="85" rx="70" ry="45" fill="#D9C49A" opacity="0.3" stroke="#7C4DBC" stroke-width="1"/>
+  <circle cx="85" cy="70" r="16" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1"/>
+  <circle cx="140" cy="65" r="22" fill="#7C4DBC" opacity="0.55" stroke="#7C4DBC" stroke-width="1.5"/>
+  <circle cx="100" cy="110" r="14" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1"/>
+  <circle cx="160" cy="105" r="11" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1"/>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Toxic multinodular goiter — one autonomously hyperfunctioning nodule</text>
+</svg>

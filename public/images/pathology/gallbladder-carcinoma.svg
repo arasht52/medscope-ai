@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M60,40 Q40,90 70,130 Q120,150 170,130 Q200,90 180,40 Q120,20 60,40 Z" fill="none" stroke="#7C4DBC" stroke-width="2.5"/>
+  <circle cx="100" cy="90" r="10" fill="#B08D57" opacity="0.8"/>
+  <circle cx="125" cy="100" r="8" fill="#B08D57" opacity="0.8"/>
+  <circle cx="115" cy="75" r="6" fill="#B08D57" opacity="0.8"/>
+  <path d="M70,50 Q90,45 110,55 Q105,65 85,62 Q72,58 70,50 Z" fill="#7C4DBC" opacity="0.5"/>
+  <path d="M150,45 Q170,42 178,58 Q165,65 152,58 Q148,50 150,45 Z" fill="#7C4DBC" opacity="0.5"/>
+  <text x="120" y="33" font-size="7" fill="#7C4DBC" text-anchor="middle">adenocarcinoma infiltrating wall</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Carcinoma of the gallbladder — adenocarcinoma infiltrating wall, gallstones in lumen</text>
+</svg>
