@@ -129,6 +129,18 @@
   gap: var(--space-2);
 }
 
+.drug-list__group + .drug-list__group {
+  margin-top: var(--space-4, 16px);
+}
+
+.drug-list__group-heading {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-2) 0;
+  padding-right: var(--space-1, 4px);
+}
+
 .drug-list__card {
   display: block;
 }
