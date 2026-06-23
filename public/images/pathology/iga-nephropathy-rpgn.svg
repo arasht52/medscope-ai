@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <circle cx="100" cy="85" r="38" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1.5"/>
+  <path d="M70,60 A40,40 0 0,1 130,55 L120,75 A22,22 0 0,0 80,78 Z" fill="#7C4DBC" opacity="0.55"/>
+  <circle cx="101.6" cy="58.9" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="101.6" cy="69.0" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="93.7" cy="64.7" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="87.9" cy="76.5" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="115.2" cy="72.4" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="102.5" cy="84.4" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="96.1" cy="71.0" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="114.6" cy="55.5" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="91.8" cy="63.4" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="112.3" cy="71.0" r="1.6" fill="#5B3A8C" opacity="0.7"/>
+  <text x="100" y="135" font-size="7" fill="#7C4DBC" text-anchor="middle">crescent (RPGN)</text>
+  <circle cx="180" cy="60" r="6" fill="#9B7FC4" opacity="0.8"/>
+  <circle cx="190" cy="68" r="5" fill="#9B7FC4" opacity="0.8"/>
+  <circle cx="178" cy="72" r="4.5" fill="#9B7FC4" opacity="0.8"/>
+  <text x="184" y="95" font-size="7" fill="#7C4DBC" text-anchor="middle">mesangial IgA</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">IgA nephropathy (mesangial deposits) and crescentic RPGN</text>
+</svg>

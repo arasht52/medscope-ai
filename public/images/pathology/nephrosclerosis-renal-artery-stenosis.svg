@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <circle cx="70" cy="80" r="20" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="3"/>
+  <circle cx="70" cy="80" r="9" fill="none" stroke="#7C4DBC" stroke-width="1"/>
+  <text x="70" y="115" font-size="7" fill="#7C4DBC" text-anchor="middle">hyaline arteriolosclerosis</text>
+  <path d="M120,80 L160,75 Q175,73 185,80 Q175,87 160,85 L120,80" fill="none" stroke="#7C4DBC" stroke-width="2"/>
+  <path d="M150,73 Q158,80 150,87" fill="#7C4DBC" opacity="0.6"/>
+  <text x="160" y="105" font-size="7" fill="#7C4DBC" text-anchor="middle">renal artery stenosis</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Benign nephrosclerosis (hyaline arteriolosclerosis) and renal artery stenosis</text>
+</svg>

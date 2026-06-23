@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M50,130 Q40,80 70,40 Q120,15 170,40 Q200,80 190,130 Z" fill="none" stroke="#7C4DBC" stroke-width="2.5"/>
+  <path d="M90,55 Q100,35 115,40 Q110,55 100,60 Z" fill="#7C4DBC" opacity="0.55"/>
+  <path d="M120,45 Q130,28 145,35 Q138,50 128,55 Z" fill="#7C4DBC" opacity="0.55"/>
+  <path d="M105,65 Q115,50 128,58 Q122,70 112,72 Z" fill="#7C4DBC" opacity="0.4"/>
+  <text x="120" y="22" font-size="7" fill="#7C4DBC" text-anchor="middle">papillary urothelial carcinoma</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Urothelial (transitional cell) carcinoma — papillary fronds into bladder lumen</text>
+</svg>
