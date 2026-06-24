@@ -16,6 +16,8 @@ import PathologyDetail from "./pages/Pathology/PathologyDetail.jsx";
 
 import { quizRoutes } from "./pages/Quiz/index.js";
 
+import { gameRoutes } from "./pages/Game/index.js";
+
 import FavoritesRoute from "./pages/Favorites/FavoritesRoute.jsx";
 
 import Settings from "./pages/Settings/Settings.jsx";
@@ -56,6 +58,10 @@ function AppShell() {
           <Route path="/pathology/:id" element={<PathologyDetail />} />
 
           {quizRoutes.map((r) => (
+            <Route key={r.path} path={r.path} element={r.element} />
+          ))}
+
+          {gameRoutes.map((r) => (
             <Route key={r.path} path={r.path} element={r.element} />
           ))}
 

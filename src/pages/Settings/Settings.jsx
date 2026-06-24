@@ -7,6 +7,7 @@ import {
   APP_VERSION,
   resetProgress,
   resetFavorites,
+  resetGameScores,
 } from "../../shared/lib/storage";
 import "./Settings.css";
 
@@ -27,6 +28,9 @@ export default function Settings() {
     } else if (pendingAction === "favorites") {
       resetFavorites();
       showToast("علاقه‌مندی‌ها با موفقیت پاک شد.");
+    } else if (pendingAction === "game") {
+      resetGameScores();
+      showToast("رکوردهای بازی حافظه با موفقیت پاک شد.");
     }
     setPendingAction(null);
   }
@@ -78,6 +82,14 @@ export default function Settings() {
             بازنشانی علاقه‌مندی‌ها
           </Button>
         </div>
+        <div className="settings-reset-row">
+          <Button
+            variant="danger"
+            onClick={() => setPendingAction("game")}
+          >
+            بازنشانی رکورد بازی حافظه
+          </Button>
+        </div>
       </Card>
 
       {toast && <div className="settings-toast">{toast}</div>}
@@ -88,7 +100,9 @@ export default function Settings() {
         message={
           pendingAction === "progress"
             ? "تمام پیشرفت کوئیزهای شما حذف خواهد شد. این عمل قابل بازگشت نیست."
-            : "تمام علاقه‌مندی‌های ذخیره‌شده حذف خواهد شد. این عمل قابل بازگشت نیست."
+            : pendingAction === "favorites"
+            ? "تمام علاقه‌مندی‌های ذخیره‌شده حذف خواهد شد. این عمل قابل بازگشت نیست."
+            : "تمام رکوردهای بازی حافظه حذف خواهد شد. این عمل قابل بازگشت نیست."
         }
         confirmLabel="بازنشانی"
         cancelLabel="انصراف"

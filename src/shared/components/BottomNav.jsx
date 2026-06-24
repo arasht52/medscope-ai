@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import { Home as HomeIcon, Microscope, Pill, Stethoscope, Brain, Grid2x2 } from "lucide-react";
+import { Home as HomeIcon, Microscope, Pill, Stethoscope, Brain, Gamepad2, Grid2x2 } from "lucide-react";
 
 const ITEMS = [
   { to: "/", label: "خانه", icon: HomeIcon },
@@ -7,6 +7,7 @@ const ITEMS = [
   { to: "/pharmacology", label: "داروشناسی", icon: Pill },
   { to: "/pathology", label: "پاتولوژی", icon: Stethoscope },
   { to: "/quiz", label: "آزمون", icon: Brain },
+  { to: "/game", label: "بازی", icon: Gamepad2 },
   { to: "/settings", label: "بیشتر", icon: Grid2x2 },
 ];
 

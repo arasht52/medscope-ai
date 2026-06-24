@@ -18,6 +18,7 @@ const KEYS = {
   viewed: "medscope_viewed_items", // { [moduleKey]: string[] } — real progress source of truth
   favorites: "medscope:favorites", // Array<FavoriteItem>
   theme: "medscope:settings:theme",
+  gameBest: "medscope:game:bestScores", // { [subjectId]: { moves, seconds } }
 };
 
 const FAVORITES_CHANGE_EVENT = "medscope:favorites-changed";
@@ -170,6 +171,25 @@ export function getThemePreference() {
 
 export function setThemePreference(value) {
   writeJSON(KEYS.theme, value);
+}
+
+/* ---------------------------------------------------------------------- */
+/* Memory Game best scores                                                */
+/* ---------------------------------------------------------------------- */
+
+export function getGameBest(subjectId) {
+  const store = readJSON(KEYS.gameBest, {});
+  return store[subjectId] || null;
+}
+
+export function saveGameBest(subjectId, result) {
+  const store = readJSON(KEYS.gameBest, {});
+  store[subjectId] = result;
+  writeJSON(KEYS.gameBest, store);
+}
+
+export function resetGameScores() {
+  removeKey(KEYS.gameBest);
 }
 
 export const STORAGE_KEYS = KEYS;

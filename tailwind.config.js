@@ -24,6 +24,9 @@ export default {
 
         path: "#7C4DBC",
         pathSoft: "#F1ECFA",
+
+        game: "#1F8F93",
+        gameSoft: "#E6F5F5",
       },
       fontFamily: {
         sans: ["Vazirmatn", "Tahoma", "sans-serif"],

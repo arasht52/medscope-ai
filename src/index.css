@@ -53,6 +53,11 @@
   --color-wrong: #d64545;
   --color-wrong-bg: #fdecec;
 
+  /* Memory Game's own accent (teal) — distinct from the other five module
+     colors (blue/green/purple/orange/pink) already in use */
+  --color-game: #1f8f93;
+  --color-game-tint: #e6f5f5;
+
   /* Radius / shadow */
   --radius-sm: 8px;
   --radius-md: 14px;
