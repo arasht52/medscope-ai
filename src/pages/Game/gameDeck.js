@@ -18,18 +18,21 @@ export const SUBJECTS = [
     label_fa: "بافت‌شناسی",
     label_en: "Histology",
     description_fa: "تصویر را با اصطلاح درست جفت کن",
+    back_icon: "🔬",
   },
   {
     id: "pathology",
     label_fa: "پاتولوژی",
     label_en: "Pathology",
     description_fa: "تصویر را با اصطلاح درست جفت کن",
+    back_icon: "🧬",
   },
   {
     id: "pharmacology",
     label_fa: "داروشناسی",
     label_en: "Pharmacology",
     description_fa: "نام ژنریک را با نام تجاری جفت کن",
+    back_icon: "💊",
   },
 ];
 

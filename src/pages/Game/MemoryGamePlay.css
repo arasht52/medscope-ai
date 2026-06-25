@@ -62,8 +62,7 @@
 .game-card__face--back {
   background: var(--color-game-tint);
   color: var(--color-game);
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 30px;
 }
 
 .game-card__face--front {

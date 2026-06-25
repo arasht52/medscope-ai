@@ -62,7 +62,7 @@ function MemoryGameBoard({ subjectId, meta, navigate }) {
             >
               <div className="game-card__inner">
                 <div className="game-card__face game-card__face--back" aria-hidden="true">
-                  ؟
+                  {meta.back_icon || "؟"}
                 </div>
                 <div className="game-card__face game-card__face--front">
                   {card.kind === "image" ? (
