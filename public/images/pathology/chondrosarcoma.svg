@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M50,60 Q70,40 100,55 Q130,40 160,60 Q190,75 175,105 Q150,130 110,120 Q70,130 55,100 Z" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1.5"/>
+  <ellipse cx="90" cy="80" rx="10" ry="8" fill="#7C4DBC" opacity="0.4"/>
+  <ellipse cx="130" cy="90" rx="9" ry="7" fill="#7C4DBC" opacity="0.4"/>
+  <ellipse cx="110" cy="65" rx="8" ry="6" fill="#7C4DBC" opacity="0.4"/>
+  <text x="120" y="145" font-size="7" fill="#7C4DBC" text-anchor="middle">malignant cartilage-producing lobules</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Chondrosarcoma — malignant cartilage-producing tumor</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M40,80 Q90,50 120,80 Q150,50 200,80 Q150,110 120,80 Q90,110 40,80 Z" fill="none" stroke="#7C4DBC" stroke-width="2"/>
+  <circle cx="80" cy="78" r="6" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1.2"/>
+  <text x="80" y="100" font-size="6" fill="#7C4DBC" text-anchor="middle">nodule</text>
+  <path d="M150,65 Q165,55 178,65 Q170,78 158,75 Z" fill="#7C4DBC" opacity="0.55"/>
+  <text x="165" y="100" font-size="6" fill="#7C4DBC" text-anchor="middle">SCC</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Vocal cord nodule vs. laryngeal squamous cell carcinoma</text>
+</svg>

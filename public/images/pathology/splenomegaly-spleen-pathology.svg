@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M90,40 Q60,60 60,90 Q60,125 100,130 Q150,135 165,100 Q175,70 150,45 Q120,25 90,40 Z" fill="#D9C49A" opacity="0.5" stroke="#7C4DBC" stroke-width="2"/>
+  <circle cx="100" cy="75" r="8" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1"/>
+  <circle cx="125" cy="95" r="7" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1"/>
+  <circle cx="140" cy="70" r="6" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1"/>
+  <text x="115" y="150" font-size="7" fill="#7C4DBC" text-anchor="middle">splenomegaly — red pulp congestion, white pulp follicles</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Splenomegaly — congested red pulp with white pulp lymphoid follicles</text>
+</svg>

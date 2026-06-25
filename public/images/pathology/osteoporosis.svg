@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <rect x="40" y="30" width="70" height="100" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1"/>
+  <path d="M50,40 L100,45 M50,60 L100,55 M50,80 L100,85 M50,100 L100,95 M50,120 L100,115" stroke="#7C4DBC" stroke-width="2.5"/>
+  <text x="75" y="143" font-size="6.5" fill="#7C4DBC" text-anchor="middle">normal trabeculae</text>
+  <rect x="150" y="30" width="70" height="100" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1"/>
+  <path d="M160,40 L210,48 M160,65 L210,60 M160,90 L210,95 M160,115 L210,110" stroke="#7C4DBC" stroke-width="0.8"/>
+  <text x="185" y="143" font-size="6.5" fill="#7C4DBC" text-anchor="middle">osteoporotic (thinned)</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Osteoporosis — thinned, sparse trabecular bone compared to normal</text>
+</svg>

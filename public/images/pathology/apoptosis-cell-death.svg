@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <circle cx="70" cy="80" r="28" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1.5"/>
+  <circle cx="70" cy="80" r="14" fill="#7C4DBC" opacity="0.6"/>
+  <path d="M105,80 L130,80" stroke="#7C4DBC" stroke-width="1.5" marker-end="url(#a)"/>
+  <circle cx="155" cy="68" r="10" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1.2"/>
+  <circle cx="175" cy="85" r="8" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1.2"/>
+  <circle cx="150" cy="95" r="7" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1.2"/>
+  <text x="165" y="120" font-size="7" fill="#7C4DBC" text-anchor="middle">apoptotic bodies</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Apoptosis — cell shrinkage and fragmentation into apoptotic bodies</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M50,40 Q40,80 60,120 Q90,135 100,100 Q95,60 70,40 Z" fill="#D9C49A" opacity="0.5" stroke="#7C4DBC" stroke-width="1.5"/>
+  <text x="65" y="20" font-size="6.5" fill="#7C4DBC" text-anchor="middle">collapsed lung (pneumothorax)</text>
+  <path d="M150,35 Q210,45 210,80 Q210,115 150,125 Q160,80 150,35 Z" fill="#7C4DBC" opacity="0.4"/>
+  <text x="180" y="143" font-size="6.5" fill="#7C4DBC" text-anchor="middle">pleural rind (mesothelioma)</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Pneumothorax (lung collapse) and malignant mesothelioma (pleural rind)</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <circle cx="70" cy="60" r="10" fill="#7C4DBC" opacity="0.6"/><circle cx="65" cy="58" r="3" fill="#2D1B4E"/>
+  <circle cx="100" cy="75" r="10" fill="#7C4DBC" opacity="0.6"/><circle cx="106" cy="78" r="3" fill="#2D1B4E"/>
+  <circle cx="75" cy="95" r="10" fill="#7C4DBC" opacity="0.6"/><circle cx="70" cy="98" r="3" fill="#2D1B4E"/>
+  <text x="85" y="125" font-size="6.5" fill="#7C4DBC" text-anchor="middle">plasma cells (eccentric nucleus)</text>
+  <rect x="150" y="50" width="70" height="60" fill="none" stroke="#7C4DBC" stroke-width="2"/>
+  <circle cx="170" cy="65" r="8" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1"/>
+  <circle cx="195" cy="90" r="9" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1"/>
+  <text x="185" y="125" font-size="6.5" fill="#7C4DBC" text-anchor="middle">punched-out lytic lesions</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Multiple myeloma — plasma cells and punched-out lytic bone lesions</text>
+</svg>

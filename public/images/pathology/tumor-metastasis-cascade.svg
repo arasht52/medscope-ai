@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <ellipse cx="55" cy="80" rx="26" ry="22" fill="#7C4DBC" opacity="0.55"/>
+  <path d="M85,80 L120,55 Q150,40 180,55" fill="none" stroke="#7C4DBC" stroke-width="3"/>
+  <path d="M180,55 Q200,65 190,85" fill="none" stroke="#7C4DBC" stroke-width="3"/>
+  <ellipse cx="190" cy="100" rx="16" ry="14" fill="#7C4DBC" opacity="0.4"/>
+  <text x="55" y="115" font-size="6.5" fill="#7C4DBC" text-anchor="middle">primary tumor</text>
+  <text x="190" y="125" font-size="6.5" fill="#7C4DBC" text-anchor="middle">distant metastasis</text>
+  <text x="135" y="30" font-size="6.5" fill="#7C4DBC" text-anchor="middle">intravasation → circulation → extravasation</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Metastatic cascade — invasion, intravasation, circulation, extravasation, colonization</text>
+</svg>
