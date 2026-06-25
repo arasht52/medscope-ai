@@ -1,18 +1,36 @@
+import { useParams } from "react-router-dom";
 import QuizPlay from "./QuizPlay";
+import QuizCategoryPicker from "../components/QuizCategoryPicker";
 import pharmacologyQuestions from "../data/pharmacologyQuestions.json";
 
 /**
  * PharmacologyQuiz
- * Required page per APP_STRUCTURE.md. Delegates all logic to the
- * shared QuizPlay engine to avoid duplicating quiz-taking code.
+ * Entry point at /quiz/pharmacology — shows a category picker (CNS,
+ * Cardiovascular, GI, ...) instead of one combined exam, per the
+ * project's quiz-structure rule. Selecting a category renders the
+ * actual quiz for just that system at /quiz/pharmacology/:category.
  */
 export default function PharmacologyQuiz() {
   return (
-    <QuizPlay
+    <QuizCategoryPicker
       title="آزمون داروشناسی"
       questions={pharmacologyQuestions}
-      resultPath="/quiz/pharmacology/result"
-      homePath="/quiz"
+      basePath="/quiz/pharmacology"
+    />
+  );
+}
+
+export function PharmacologyCategoryQuiz() {
+  const { category } = useParams();
+  const decoded = decodeURIComponent(category);
+  const filtered = pharmacologyQuestions.filter((q) => q.category === decoded);
+
+  return (
+    <QuizPlay
+      title={`آزمون داروشناسی — ${decoded}`}
+      questions={filtered}
+      resultPath={`/quiz/pharmacology/${category}/result`}
+      homePath="/quiz/pharmacology"
     />
   );
 }

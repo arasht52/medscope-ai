@@ -1,0 +1,31 @@
+.quiz-category-picker__hint {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin: 0 0 var(--space-3, 12px) 0;
+}
+
+.quiz-category-picker__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2);
+}
+
+.quiz-category-picker__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  text-align: right;
+  width: 100%;
+}
+
+.quiz-category-picker__name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.quiz-category-picker__count {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}

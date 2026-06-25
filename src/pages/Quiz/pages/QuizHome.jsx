@@ -3,15 +3,16 @@ import PageHeader from "../../../shared/components/PageHeader";
 import Card from "../../../shared/components/Card";
 import histologyQuestions from "../data/histologyQuestions.json";
 import pharmacologyQuestions from "../data/pharmacologyQuestions.json";
+import pathologyQuestions from "../data/pathologyQuestions.json";
 import "./QuizHome.css";
 
 /**
  * QuizHome
  * Entry point of the Quiz module. Student chooses which quiz to take.
  *
- * Note: the text-based Pathology Quiz was removed for MVP stability
- * (it shipped as an empty stub, never had real content) — see
- * quiz.routes.jsx for details. Pathology Image Quiz is unaffected.
+ * Pharmacology and Pathology now route to a per-system category picker
+ * (see quiz.routes.jsx) rather than one combined exam, so their counts
+ * here reflect the full question bank across all systems.
  */
 export default function QuizHome() {
   const navigate = useNavigate();
@@ -28,10 +29,18 @@ export default function QuizHome() {
     {
       key: "pharmacology",
       title: "آزمون داروشناسی",
-      subtitle: "Pharmacology Quiz",
+      subtitle: "Pharmacology Quiz — بر اساس سیستم",
       count: pharmacologyQuestions.length,
       path: "/quiz/pharmacology",
       accent: "secondary",
+    },
+    {
+      key: "pathology",
+      title: "آزمون پاتولوژی",
+      subtitle: "Pathology Quiz — بر اساس سیستم",
+      count: pathologyQuestions.length,
+      path: "/quiz/pathology",
+      accent: "tertiary",
     },
     {
       key: "histology-image",
