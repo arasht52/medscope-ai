@@ -39,3 +39,23 @@ export function PathologyCategoryQuiz() {
     />
   );
 }
+
+/**
+ * PathologyCombinedQuiz
+ * Custom mix-and-match quiz across whatever categories the student
+ * picked on the QuizCategoryPicker screen.
+ */
+export function PathologyCombinedQuiz() {
+  const { cats } = useParams();
+  const selected = decodeURIComponent(cats).split("|").filter(Boolean);
+  const filtered = pathologyQuestions.filter((q) => selected.includes(q.category));
+
+  return (
+    <QuizPlay
+      title={`آزمون پاتولوژی — ترکیبی (${selected.length} موضوع)`}
+      questions={filtered}
+      resultPath={`/quiz/pathology/custom/${cats}/result`}
+      homePath="/quiz/pathology"
+    />
+  );
+}

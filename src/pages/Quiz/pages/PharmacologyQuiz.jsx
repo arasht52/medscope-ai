@@ -34,3 +34,24 @@ export function PharmacologyCategoryQuiz() {
     />
   );
 }
+
+/**
+ * PharmacologyCombinedQuiz
+ * Custom mix-and-match quiz across whatever categories the student
+ * picked on the QuizCategoryPicker screen (e.g. CNS + Endocrine
+ * together), per the project's "custom topic-selection quiz" requirement.
+ */
+export function PharmacologyCombinedQuiz() {
+  const { cats } = useParams();
+  const selected = decodeURIComponent(cats).split("|").filter(Boolean);
+  const filtered = pharmacologyQuestions.filter((q) => selected.includes(q.category));
+
+  return (
+    <QuizPlay
+      title={`آزمون داروشناسی — ترکیبی (${selected.length} موضوع)`}
+      questions={filtered}
+      resultPath={`/quiz/pharmacology/custom/${cats}/result`}
+      homePath="/quiz/pharmacology"
+    />
+  );
+}

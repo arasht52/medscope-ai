@@ -12,11 +12,52 @@
 
 .quiz-category-picker__item {
   display: flex;
+  align-items: stretch;
+  gap: var(--space-2, 8px);
+  text-align: right;
+  width: 100%;
+  padding: 0;
+}
+
+.quiz-category-picker__checkbox {
+  flex: 0 0 auto;
+  width: 28px;
+  height: 28px;
+  margin: var(--space-2, 8px) 0 var(--space-2, 8px) var(--space-2, 8px);
+  border-radius: 8px;
+  border: 1.5px solid var(--color-border, #d8d2e8);
+  background: var(--color-card);
+  color: var(--color-game, #1F8F93);
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-category-picker__checkbox--checked {
+  background: var(--color-game-tint, #e6f5f5);
+  border-color: var(--color-game, #1F8F93);
+}
+
+.quiz-category-picker__main {
+  flex: 1 1 auto;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
   text-align: right;
-  width: 100%;
+  padding: var(--space-3, 12px) var(--space-3, 12px) var(--space-3, 12px) 0;
+  background: transparent;
+  border: none;
+}
+
+.quiz-category-picker__custom-bar {
+  position: sticky;
+  bottom: 0;
+  margin-top: var(--space-3, 12px);
+  padding-top: var(--space-2, 8px);
+  background: var(--color-bg);
 }
 
 .quiz-category-picker__name {
