@@ -75,26 +75,43 @@ function deckFromImageItems(items, pairCount) {
   return cards;
 }
 
-// Pharmacology has no per-item image, so pairs are generic name <-> brand
-// name instead — the "matching drug" pairing Arash asked for.
+// Pharmacology has no per-item image, so pairs are drug class/family <->
+// drug name instead (changed from generic<->brand per Arash's daughter's
+// feedback: matching by pharmacological family is more useful for study
+// than matching brand names). The class string's parenthetical aside
+// (e.g. "Aminopenicillin (Beta-lactam)") is trimmed to just the primary
+// term so it fits the small card face.
 function deckFromPharmacology(drugs, pairCount) {
-  const eligible = drugs.filter((d) => d.brand_names && d.brand_names.length > 0);
-  const chosen = pickRandom(eligible, pairCount);
+  const eligible = drugs.filter((d) => d.drug_class);
+  // Picking blindly could put two drugs with the *same* class in one
+  // round (e.g. two different beta blockers) — their class-card text
+  // would be identical, making the match ambiguous. Greedily pick while
+  // skipping any drug whose (shortened) class already appears.
+  const seenClasses = new Set();
+  const chosen = [];
+  for (const drug of shuffle(eligible)) {
+    const shortClass = drug.drug_class.split(" (")[0];
+    if (seenClasses.has(shortClass)) continue;
+    seenClasses.add(shortClass);
+    chosen.push(drug);
+    if (chosen.length >= pairCount) break;
+  }
   const cards = [];
   chosen.forEach((drug) => {
+    const shortClass = drug.drug_class.split(" (")[0];
+    cards.push({
+      pairId: drug.id,
+      kind: "text",
+      content: shortClass,
+      lang: "en",
+      tag: "خانواده‌ی دارو",
+    });
     cards.push({
       pairId: drug.id,
       kind: "text",
       content: drug.generic_name,
       lang: "en",
-      tag: "ژنریک",
-    });
-    cards.push({
-      pairId: drug.id,
-      kind: "text",
-      content: drug.brand_names[0],
-      lang: "en",
-      tag: "تجاری",
+      tag: "اسم دارو",
     });
   });
   return cards;
