@@ -5,5 +5,5 @@ import HistologyDetail from "./HistologyDetail";
 export default function HistologyDetailPage() {
   const { id } = useParams();
   const navigate = useNavigate();
-  return <HistologyDetail itemId={id} onBack={() => navigate("/histology")} />;
+  return <HistologyDetail itemId={id} onBack={() => navigate(-1)} />;
 }

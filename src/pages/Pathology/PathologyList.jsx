@@ -1,5 +1,5 @@
-import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { useMemo } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 import pathologyData from "../../data/pathology.json";
 import PathologySearchBar from "./components/PathologySearchBar.jsx";
 import PathologyCategoryFilter from "./components/PathologyCategoryFilter.jsx";
@@ -25,8 +25,31 @@ function matchesQuery(item, query) {
 }
 
 export default function PathologyList() {
-  const [query, setQuery] = useState("");
-  const [activeCategory, setActiveCategory] = useState(null);
+  // Category/search state lives in the URL (not plain useState) so that
+  // pressing the browser/in-app back button from an item's detail page
+  // restores the exact filtered view (e.g. GI) the student came from,
+  // instead of losing that selection on remount and falling back to the
+  // unfiltered category grid. Selecting a category pushes a new history
+  // entry (so back steps category -> grid, then exits), typing in search
+  // replaces in place (so each keystroke doesn't spam the history stack).
+  const [searchParams, setSearchParams] = useSearchParams();
+  const activeCategory = searchParams.get("category") || null;
+  const query = searchParams.get("q") || "";
+
+  function setActiveCategory(cat) {
+    const next = new URLSearchParams(searchParams);
+    next.delete("q");
+    if (cat) next.set("category", cat);
+    else next.delete("category");
+    setSearchParams(next);
+  }
+
+  function setQuery(q) {
+    const next = new URLSearchParams(searchParams);
+    if (q) next.set("q", q);
+    else next.delete("q");
+    setSearchParams(next, { replace: true });
+  }
 
   const filtered = useMemo(() => {
     return items.filter(

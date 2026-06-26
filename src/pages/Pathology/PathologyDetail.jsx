@@ -40,7 +40,7 @@ export default function PathologyDetail() {
           title="این مورد پیدا نشد"
           description="ممکن است لینک نادرست باشد یا مورد حذف شده باشد."
         />
-        <BackButton onClick={() => navigate("/pathology")} label="فهرست پاتولوژی" />
+        <BackButton onClick={() => navigate(-1)} label="بازگشت" />
       </div>
     );
   }
@@ -48,7 +48,7 @@ export default function PathologyDetail() {
   return (
     <div className="page path-detail">
       <div className="page-header path-detail__header">
-        <BackButton onClick={() => navigate("/pathology")} label="فهرست پاتولوژی" />
+        <BackButton onClick={() => navigate(-1)} label="بازگشت" />
         <div className="path-detail__title-row">
           <div>
             <h1 className="path-detail__name-fa">{item.title_fa}</h1>

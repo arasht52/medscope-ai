@@ -1,14 +1,37 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
+import { useSearchParams } from "react-router-dom";
 import histologyData from "../../data/histology.json";
 
 /**
  * Loads the local histology.json (MVP data source per PROJECT_MEMORY.md:
  * "Local JSON for MVP. Supabase later.") and exposes search + category
  * filtering for the Histology List page.
+ *
+ * categoryId/query live in the URL (useSearchParams), not plain
+ * useState, so that opening an item's detail page and then pressing
+ * back restores the exact filtered category view the student came
+ * from, instead of losing it on remount and falling back to the
+ * unfiltered category grid (same fix applied to Pathology/Pharmacology).
  */
 export function useHistologyData() {
-  const [query, setQuery] = useState("");
-  const [categoryId, setCategoryId] = useState(null);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const categoryId = searchParams.get("category") || null;
+  const query = searchParams.get("q") || "";
+
+  function setCategoryId(cat) {
+    const next = new URLSearchParams(searchParams);
+    next.delete("q");
+    if (cat) next.set("category", cat);
+    else next.delete("category");
+    setSearchParams(next);
+  }
+
+  function setQuery(q) {
+    const next = new URLSearchParams(searchParams);
+    if (q) next.set("q", q);
+    else next.delete("q");
+    setSearchParams(next, { replace: true });
+  }
 
   const items = histologyData.items;
   const categories = histologyData.categories;

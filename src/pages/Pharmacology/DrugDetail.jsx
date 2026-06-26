@@ -38,7 +38,7 @@ export default function DrugDetail() {
           title="این دارو پیدا نشد"
           description="ممکن است لینک نادرست باشد یا دارو حذف شده باشد."
         />
-        <BackButton onClick={() => navigate("/pharmacology")} label="فهرست داروها" />
+        <BackButton onClick={() => navigate(-1)} label="بازگشت" />
       </div>
     );
   }
@@ -46,7 +46,7 @@ export default function DrugDetail() {
   return (
     <div className="page drug-detail">
       <div className="page-header drug-detail__header">
-        <BackButton onClick={() => navigate("/pharmacology")} label="فهرست داروها" />
+        <BackButton onClick={() => navigate(-1)} label="بازگشت" />
         <div className="drug-detail__title-row">
           <h1 className="drug-detail__name en">{drug.generic_name}</h1>
           <FavoriteButton

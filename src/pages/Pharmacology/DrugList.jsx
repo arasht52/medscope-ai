@@ -1,5 +1,5 @@
-import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { useMemo } from "react";
+import { Link, useSearchParams } from "react-router-dom";
 import pharmacologyData from "../../data/pharmacology.json";
 import SearchBar from "./components/SearchBar.jsx";
 import CategoryFilter from "./components/CategoryFilter.jsx";
@@ -26,8 +26,28 @@ function matchesQuery(drug, query) {
 }
 
 export default function DrugList() {
-  const [query, setQuery] = useState("");
-  const [activeCategory, setActiveCategory] = useState(null);
+  // Same fix as Pathology's PathologyList: category/search state lives in
+  // the URL so the in-app back button (after opening a drug's detail
+  // page) restores the exact filtered category view instead of losing
+  // it and falling back to the unfiltered category grid.
+  const [searchParams, setSearchParams] = useSearchParams();
+  const activeCategory = searchParams.get("category") || null;
+  const query = searchParams.get("q") || "";
+
+  function setActiveCategory(cat) {
+    const next = new URLSearchParams(searchParams);
+    next.delete("q");
+    if (cat) next.set("category", cat);
+    else next.delete("category");
+    setSearchParams(next);
+  }
+
+  function setQuery(q) {
+    const next = new URLSearchParams(searchParams);
+    if (q) next.set("q", q);
+    else next.delete("q");
+    setSearchParams(next, { replace: true });
+  }
 
   const filtered = useMemo(() => {
     return drugs.filter(
