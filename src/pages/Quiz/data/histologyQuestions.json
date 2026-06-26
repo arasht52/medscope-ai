@@ -5,10 +5,26 @@
     "category": "بافت پوششی",
     "question_fa": "بیوپسی از دیواره‌ی آلوئول ریه، یک لایه‌ی نازک سلول‌های پهن را برای امکان تبادل گاز نشان می‌دهد. این بافت پوششی کدام است؟",
     "options": [
-      { "id": "a", "text_fa": "اپیتلیوم سنگفرشی ساده", "text_en": "Simple Squamous Epithelium" },
-      { "id": "b", "text_fa": "اپیتلیوم مکعبی ساده", "text_en": "Simple Cuboidal Epithelium" },
-      { "id": "c", "text_fa": "اپیتلیوم استوانه‌ای مطبق کاذب", "text_en": "Pseudostratified Columnar" },
-      { "id": "d", "text_fa": "اپیتلیوم سنگفرشی مطبق", "text_en": "Stratified Squamous" }
+      {
+        "id": "a",
+        "text_fa": "اپیتلیوم سنگفرشی ساده",
+        "text_en": "Simple Squamous Epithelium"
+      },
+      {
+        "id": "b",
+        "text_fa": "اپیتلیوم مکعبی ساده",
+        "text_en": "Simple Cuboidal Epithelium"
+      },
+      {
+        "id": "c",
+        "text_fa": "اپیتلیوم استوانه‌ای مطبق کاذب",
+        "text_en": "Pseudostratified Columnar"
+      },
+      {
+        "id": "d",
+        "text_fa": "اپیتلیوم سنگفرشی مطبق",
+        "text_en": "Stratified Squamous"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "اپیتلیوم سنگفرشی ساده به دلیل نازک بودن، گزینه‌ی ایده‌آل برای تبادل گاز در آلوئول‌ها و فیلتراسیون در گلومرول است.",
@@ -21,10 +37,26 @@
     "category": "بافت پوششی",
     "question_fa": "بیوپسی از مخاط نای، اپیتلیوم استوانه‌ای با مژک و سلول‌های گابلت موکوسی نشان می‌دهد که همه‌ی سلول‌ها به غشای پایه می‌رسند ولی همه به سطح آزاد نمی‌رسند. این بافت کدام است؟",
     "options": [
-      { "id": "a", "text_fa": "اپیتلیوم استوانه‌ای مطبق کاذب مژک‌دار", "text_en": "Pseudostratified Columnar (Ciliated)" },
-      { "id": "b", "text_fa": "اپیتلیوم سنگفرشی مطبق", "text_en": "Stratified Squamous" },
-      { "id": "c", "text_fa": "اپیتلیوم مهاره‌ای", "text_en": "Transitional Epithelium" },
-      { "id": "d", "text_fa": "اپیتلیوم مکعبی ساده", "text_en": "Simple Cuboidal" }
+      {
+        "id": "a",
+        "text_fa": "اپیتلیوم استوانه‌ای مطبق کاذب مژک‌دار",
+        "text_en": "Pseudostratified Columnar (Ciliated)"
+      },
+      {
+        "id": "b",
+        "text_fa": "اپیتلیوم سنگفرشی مطبق",
+        "text_en": "Stratified Squamous"
+      },
+      {
+        "id": "c",
+        "text_fa": "اپیتلیوم مهاره‌ای",
+        "text_en": "Transitional Epithelium"
+      },
+      {
+        "id": "d",
+        "text_fa": "اپیتلیوم مکعبی ساده",
+        "text_en": "Simple Cuboidal"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "اپیتلیوم استوانه‌ای مطبق کاذب مژک‌دار مشخصه‌ی دستگاه تنفسی فوقانی (نای، برونش) است؛ همه‌ی سلول‌ها روی غشای پایه قرار دارند ولی فقط برخی به سطح می‌رسند که ظاهر کاذب «مطبق» ایجاد می‌کند.",
@@ -37,10 +69,26 @@
     "category": "بافت همبند",
     "question_fa": "نمونه‌ی بافتی از سطح مفصلی استخوان، کندروسیت‌هایی درون لاکونا با ماتریکس همگن شیشه‌ای و فاقد عروق خونی نشان می‌دهد. این بافت کدام است؟",
     "options": [
-      { "id": "a", "text_fa": "غضروف الاستیک", "text_en": "Elastic Cartilage" },
-      { "id": "b", "text_fa": "غضروف هیالین", "text_en": "Hyaline Cartilage" },
-      { "id": "c", "text_fa": "فیبروکارتیلاژ", "text_en": "Fibrocartilage" },
-      { "id": "d", "text_fa": "استخوان متراکم", "text_en": "Compact Bone" }
+      {
+        "id": "a",
+        "text_fa": "غضروف الاستیک",
+        "text_en": "Elastic Cartilage"
+      },
+      {
+        "id": "b",
+        "text_fa": "غضروف هیالین",
+        "text_en": "Hyaline Cartilage"
+      },
+      {
+        "id": "c",
+        "text_fa": "فیبروکارتیلاژ",
+        "text_en": "Fibrocartilage"
+      },
+      {
+        "id": "d",
+        "text_fa": "استخوان متراکم",
+        "text_en": "Compact Bone"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "غضروف هیالین فاقد رگ خونی است و ماتریکس آن حاوی کلاژن نوع II است؛ در سطوح مفصلی، نای و برونش یافت می‌شود و تغذیه‌اش از طریق انتشار از پری‌کندریوم تأمین می‌شود.",
@@ -53,10 +101,26 @@
     "category": "بافت همبند",
     "question_fa": "بیوپسی استخوان دیافیز فمور، واحدهای حلقوی متحدالمرکز (سیستم هاورس) با کانال مرکزی حاوی عروق خونی نشان می‌دهد. این بافت کدام است؟",
     "options": [
-      { "id": "a", "text_fa": "استخوان اسفنجی (ترابکولار)", "text_en": "Spongy (Trabecular) Bone" },
-      { "id": "b", "text_fa": "استخوان متراکم (کورتیکال)", "text_en": "Compact Bone" },
-      { "id": "c", "text_fa": "غضروف الاستیک", "text_en": "Elastic Cartilage" },
-      { "id": "d", "text_fa": "بافت همبند متراکم نامنظم", "text_en": "Dense Irregular Connective Tissue" }
+      {
+        "id": "a",
+        "text_fa": "استخوان اسفنجی (ترابکولار)",
+        "text_en": "Spongy (Trabecular) Bone"
+      },
+      {
+        "id": "b",
+        "text_fa": "استخوان متراکم (کورتیکال)",
+        "text_en": "Compact Bone"
+      },
+      {
+        "id": "c",
+        "text_fa": "غضروف الاستیک",
+        "text_en": "Elastic Cartilage"
+      },
+      {
+        "id": "d",
+        "text_fa": "بافت همبند متراکم نامنظم",
+        "text_en": "Dense Irregular Connective Tissue"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "استخوان متراکم از واحدهای استخوانی (osteon/سیستم هاورس) تشکیل شده که هرکدام لاملاهای متحدالمرکز اطراف یک کانال هاورس حاوی عروق و عصب دارند؛ این ساختار در دیافیز استخوان‌های بلند غالب است."
@@ -67,10 +131,26 @@
     "category": "بافت عضلانی",
     "question_fa": "نمونه‌ی بافتی از دیواره‌ی بطن قلب، فیبرهای مخطط با شاخه‌های منشعب و دیسک‌های بینابینی (intercalated discs) نشان می‌دهد. این بافت کدام است؟",
     "options": [
-      { "id": "a", "text_fa": "عضله‌ی اسکلتی", "text_en": "Skeletal Muscle" },
-      { "id": "b", "text_fa": "عضله‌ی صاف", "text_en": "Smooth Muscle" },
-      { "id": "c", "text_fa": "عضله‌ی قلبی", "text_en": "Cardiac Muscle" },
-      { "id": "d", "text_fa": "بافت همبند متراکم", "text_en": "Dense Connective Tissue" }
+      {
+        "id": "a",
+        "text_fa": "عضله‌ی اسکلتی",
+        "text_en": "Skeletal Muscle"
+      },
+      {
+        "id": "b",
+        "text_fa": "عضله‌ی صاف",
+        "text_en": "Smooth Muscle"
+      },
+      {
+        "id": "c",
+        "text_fa": "عضله‌ی قلبی",
+        "text_en": "Cardiac Muscle"
+      },
+      {
+        "id": "d",
+        "text_fa": "بافت همبند متراکم",
+        "text_en": "Dense Connective Tissue"
+      }
     ],
     "correctOptionId": "c",
     "explanation_fa": "دیسک‌های بینابینی محل اتصال سلول‌های عضله‌ی قلبی هستند و شامل دسموزوم و گپ جانکشن می‌شوند که هماهنگی انقباض الکتریکی بین سلول‌ها را ممکن می‌سازند؛ این ویژگی منحصر به عضله‌ی قلبی است.",
@@ -83,10 +163,26 @@
     "category": "بافت عضلانی",
     "question_fa": "نمونه‌ی بافتی از دیواره‌ی روده، سلول‌های دوکی‌شکل غیرمخطط با یک هسته‌ی مرکزی بیضی‌شکل در هر سلول نشان می‌دهد. این بافت کدام است؟",
     "options": [
-      { "id": "a", "text_fa": "عضله‌ی صاف", "text_en": "Smooth Muscle" },
-      { "id": "b", "text_fa": "عضله‌ی اسکلتی", "text_en": "Skeletal Muscle" },
-      { "id": "c", "text_fa": "عضله‌ی قلبی", "text_en": "Cardiac Muscle" },
-      { "id": "d", "text_fa": "بافت عصبی", "text_en": "Nervous Tissue" }
+      {
+        "id": "a",
+        "text_fa": "عضله‌ی صاف",
+        "text_en": "Smooth Muscle"
+      },
+      {
+        "id": "b",
+        "text_fa": "عضله‌ی اسکلتی",
+        "text_en": "Skeletal Muscle"
+      },
+      {
+        "id": "c",
+        "text_fa": "عضله‌ی قلبی",
+        "text_en": "Cardiac Muscle"
+      },
+      {
+        "id": "d",
+        "text_fa": "بافت عصبی",
+        "text_en": "Nervous Tissue"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "عضله‌ی صاف فاقد الگوی مخطط (striation) است، سلول‌های دوکی‌شکل با یک هسته‌ی مرکزی دارد، و در دیواره‌ی احشای لوله‌ای مانند روده و عروق خونی یافت می‌شود؛ انقباض آن غیرارادی و کندتر از عضله‌ی اسکلتی است.",
@@ -100,10 +196,26 @@
     "category_fa": "بافت عصبی",
     "question_fa": "مقطع عرضی یک عصب محیطی، دسته‌هایی از آکسون‌های میلین‌دار را نشان می‌دهد که هرکدام توسط یک لایه‌ی بافت همبند احاطه شده‌اند. این لایه‌ی بافت همبند اطراف هر فیبر عصبی منفرد چه نام دارد؟",
     "options": [
-      { "id": "a", "text_fa": "اپی‌نوریوم", "text_en": "Epineurium" },
-      { "id": "b", "text_fa": "پری‌نوریوم", "text_en": "Perineurium" },
-      { "id": "c", "text_fa": "اندونوریوم", "text_en": "Endoneurium" },
-      { "id": "d", "text_fa": "پری‌کندریوم", "text_en": "Perichondrium" }
+      {
+        "id": "a",
+        "text_fa": "اپی‌نوریوم",
+        "text_en": "Epineurium"
+      },
+      {
+        "id": "b",
+        "text_fa": "پری‌نوریوم",
+        "text_en": "Perineurium"
+      },
+      {
+        "id": "c",
+        "text_fa": "اندونوریوم",
+        "text_en": "Endoneurium"
+      },
+      {
+        "id": "d",
+        "text_fa": "پری‌کندریوم",
+        "text_en": "Perichondrium"
+      }
     ],
     "correctOptionId": "c",
     "explanation_fa": "اندونوریوم بافت همبند ظریفی است که هر فیبر عصبی منفرد را می‌پوشاند؛ پری‌نوریوم دسته‌های فیبر (فاسیکل) را و اپی‌نوریوم کل عصب را احاطه می‌کند.",
@@ -116,12 +228,238 @@
     "category": "بافت عصبی",
     "question_fa": "در یک عصب محیطی میلین‌دار، میلین توسط کدام سلول تولید می‌شود و این با سیستم عصبی مرکزی چه تفاوتی دارد؟",
     "options": [
-      { "id": "a", "text_fa": "سلول شوان؛ در CNS این کار توسط اولیگودندروسیت انجام می‌شود", "text_en": "Schwann cell; oligodendrocyte in CNS" },
-      { "id": "b", "text_fa": "آستروسیت؛ در CNS توسط میکروگلیا", "text_en": "Astrocyte; microglia in CNS" },
-      { "id": "c", "text_fa": "فیبروبلاست؛ یکسان در CNS و PNS", "text_en": "Fibroblast; same in CNS and PNS" },
-      { "id": "d", "text_fa": "ماکروفاژ؛ بدون نقش در CNS", "text_en": "Macrophage; no role in CNS" }
+      {
+        "id": "a",
+        "text_fa": "سلول شوان؛ در CNS این کار توسط اولیگودندروسیت انجام می‌شود",
+        "text_en": "Schwann cell; oligodendrocyte in CNS"
+      },
+      {
+        "id": "b",
+        "text_fa": "آستروسیت؛ در CNS توسط میکروگلیا",
+        "text_en": "Astrocyte; microglia in CNS"
+      },
+      {
+        "id": "c",
+        "text_fa": "فیبروبلاست؛ یکسان در CNS و PNS",
+        "text_en": "Fibroblast; same in CNS and PNS"
+      },
+      {
+        "id": "d",
+        "text_fa": "ماکروفاژ؛ بدون نقش در CNS",
+        "text_en": "Macrophage; no role in CNS"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "در سیستم عصبی محیطی، هر سلول شوان میلین یک بخش از یک آکسون منفرد را می‌سازد؛ در سیستم عصبی مرکزی، اولیگودندروسیت‌ها این نقش را ایفا می‌کنند و هر اولیگودندروسیت می‌تواند به چندین آکسون میلین بدهد."
+  },
+  {
+    "id": "h-epithelial-3",
+    "topicId": "transitional-epithelium",
+    "category": "بافت پوششی",
+    "question_fa": "بیوپسی مثانه‌ی خالی (غیرکشیده)، اپیتلیومی با چندین لایه‌ی سلولی که سلول‌های سطحی آن گنبدی‌شکل (umbrella cells) هستند نشان می‌دهد. این بافت کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "اپیتلیوم مهاره‌ای (ترانزیشنال)",
+        "text_en": "Transitional Epithelium"
+      },
+      {
+        "id": "b",
+        "text_fa": "اپیتلیوم سنگفرشی مطبق غیرکراتینیزه",
+        "text_en": "Non-keratinized Stratified Squamous"
+      },
+      {
+        "id": "c",
+        "text_fa": "اپیتلیوم استوانه‌ای ساده",
+        "text_en": "Simple Columnar"
+      },
+      {
+        "id": "d",
+        "text_fa": "اپیتلیوم مکعبی مطبق",
+        "text_en": "Stratified Cuboidal"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اپیتلیوم مهاره‌ای (ترانزیشنال) منحصراً در دستگاه ادراری (مثانه، حالب، بخشی از مجرای ادراری) یافت می‌شود؛ توانایی کشیده‌شدن دارد و سلول‌های سطحی گنبدی‌شکل آن در حالت غیرکشیده مشخصه‌ی آن است."
+  },
+  {
+    "id": "h-epithelial-4",
+    "topicId": "stratified-squamous-keratinized",
+    "category": "بافت پوششی",
+    "question_fa": "اپیدرم پوست بدن کدام نوع اپیتلیوم پوششی است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "اپیتلیوم سنگفرشی مطبق کراتینیزه",
+        "text_en": "Keratinized Stratified Squamous"
+      },
+      {
+        "id": "b",
+        "text_fa": "اپیتلیوم سنگفرشی مطبق غیرکراتینیزه",
+        "text_en": "Non-keratinized Stratified Squamous"
+      },
+      {
+        "id": "c",
+        "text_fa": "اپیتلیوم استوانه‌ای مطبق کاذب",
+        "text_en": "Pseudostratified Columnar"
+      },
+      {
+        "id": "d",
+        "text_fa": "اپیتلیوم مهاره‌ای",
+        "text_en": "Transitional Epithelium"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اپیدرم پوست اپیتلیوم سنگفرشی مطبق کراتینیزه است که لایه‌ی سطحی آن (استراتوم کورنئوم) از سلول‌های مرده‌ی پر از کراتین تشکیل شده؛ این لایه‌ی محافظ در برابر آب و عوامل بیرونی نقش دارد. مخاط دهان و مری (مرطوب) معمولاً غیرکراتینیزه است."
+  },
+  {
+    "id": "h-connective-3",
+    "topicId": "adipose-tissue",
+    "category": "بافت همبند",
+    "question_fa": "بافتی با سلول‌های بزرگ یک‌هسته‌ای که هسته‌شان به حاشیه رانده شده و سیتوپلاسم آن‌ها پر از یک قطره‌ی چربی بزرگ منفرد است (ظاهر «حلقه‌ی انگشتری»)، کدام بافت همبند است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بافت چربی سفید (آدیپوز)",
+        "text_en": "White Adipose Tissue"
+      },
+      {
+        "id": "b",
+        "text_fa": "غضروف هیالین",
+        "text_en": "Hyaline Cartilage"
+      },
+      {
+        "id": "c",
+        "text_fa": "بافت همبند متراکم منظم",
+        "text_en": "Dense Regular Connective Tissue"
+      },
+      {
+        "id": "d",
+        "text_fa": "استخوان اسفنجی",
+        "text_en": "Spongy Bone"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آدیپوسیت‌های بافت چربی سفید هر کدام یک قطره‌ی چربی منفرد بزرگ دارند که هسته را به حاشیه می‌راند و ظاهر «حلقه‌ی انگشتری» مشخصه‌ی این بافت را ایجاد می‌کند؛ نقش اصلی آن ذخیره‌ی انرژی و عایق‌بندی حرارتی است."
+  },
+  {
+    "id": "h-connective-4",
+    "topicId": "dense-regular-connective-tissue",
+    "category": "بافت همبند",
+    "question_fa": "تاندون و لیگامان از کدام نوع بافت همبند تشکیل شده‌اند، و چرا الگوی فیبرهای آن‌ها این‌گونه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بافت همبند متراکم منظم؛ فیبرهای کلاژن موازی برای مقاومت کششی در یک راستا",
+        "text_en": "Dense regular connective tissue; parallel collagen fibers for unidirectional tensile strength"
+      },
+      {
+        "id": "b",
+        "text_fa": "بافت همبند شل (آره‌ولار)؛ فیبرهای پراکنده برای انعطاف",
+        "text_en": "Loose areolar tissue; scattered fibers for flexibility"
+      },
+      {
+        "id": "c",
+        "text_fa": "بافت همبند متراکم نامنظم؛ بدون جهت خاص",
+        "text_en": "Dense irregular tissue; no specific orientation"
+      },
+      {
+        "id": "d",
+        "text_fa": "بافت چربی",
+        "text_en": "Adipose tissue"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تاندون‌ها (اتصال عضله به استخوان) و لیگامان‌ها (اتصال استخوان به استخوان) از بافت همبند متراکم منظم تشکیل شده‌اند که فیبرهای کلاژن آن به‌صورت موازی و در یک راستا قرار گرفته‌اند تا حداکثر مقاومت کششی را در همان راستا فراهم کنند."
+  },
+  {
+    "id": "h-muscle-3",
+    "topicId": "skeletal-muscle",
+    "category": "بافت عضلانی",
+    "question_fa": "نمونه‌ی بافتی از عضله‌ی دو سر بازویی، فیبرهای استوانه‌ای بلند، چندهسته‌ای (محیطی)، و مخطط مشخص نشان می‌دهد. این بافت کدام است و انقباض آن چه ویژگی دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "عضله‌ی اسکلتی؛ ارادی و سریع",
+        "text_en": "Skeletal muscle; voluntary and fast"
+      },
+      {
+        "id": "b",
+        "text_fa": "عضله‌ی صاف؛ غیرارادی و کند",
+        "text_en": "Smooth muscle; involuntary and slow"
+      },
+      {
+        "id": "c",
+        "text_fa": "عضله‌ی قلبی؛ غیرارادی و ریتمیک",
+        "text_en": "Cardiac muscle; involuntary and rhythmic"
+      },
+      {
+        "id": "d",
+        "text_fa": "بافت همبند متراکم",
+        "text_en": "Dense connective tissue"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "عضله‌ی اسکلتی فیبرهای استوانه‌ای بلند با چند هسته‌ی محیطی (نه مرکزی) و الگوی مخطط واضح دارد؛ تحت کنترل ارادی است و سریع‌ترین نوع انقباض عضلانی را در بین سه نوع عضله دارد."
+  },
+  {
+    "id": "h-muscle-4",
+    "topicId": "cardiac-muscle",
+    "category": "بافت عضلانی",
+    "question_fa": "چرا عضله‌ی قلبی برخلاف عضله‌ی اسکلتی، توانایی ترمیم و بازسازی محدودی پس از آسیب (مثل انفارکتوس) دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سلول‌های قلبی بالغ ظرفیت تکثیر و میتوز بسیار محدودی دارند",
+        "text_en": "Mature cardiac myocytes have very limited mitotic capacity"
+      },
+      {
+        "id": "b",
+        "text_fa": "عضله‌ی قلبی فاقد عروق خونی است",
+        "text_en": "Cardiac muscle lacks blood vessels"
+      },
+      {
+        "id": "c",
+        "text_fa": "عضله‌ی قلبی سلول‌های بنیادی فراوانی دارد که هرگز فعال نمی‌شوند",
+        "text_en": "Has abundant stem cells that never activate"
+      },
+      {
+        "id": "d",
+        "text_fa": "بدون دلیل خاص، تصادفی است",
+        "text_en": "No specific reason"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "برخلاف عضله‌ی اسکلتی که سلول‌های ساتلایت دارد و می‌تواند ترمیم نسبی کند، میوسیت‌های قلبی بالغ پس از تولد تقریباً وارد چرخه‌ی سلولی نمی‌شوند؛ به همین دلیل بافت آسیب‌دیده در انفارکتوس میوکارد با اسکار فیبروزی (نه بازسازی عضلانی واقعی) جایگزین می‌شود."
+  },
+  {
+    "id": "h-nervous-3",
+    "topicId": "peripheral-nerve",
+    "category": "بافت عصبی",
+    "question_fa": "کدام لایه‌ی بافت همبند، چندین فاسیکل آکسونی را با هم در یک عصب محیطی واحد بسته‌بندی می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "اپی‌نوریوم",
+        "text_en": "Epineurium"
+      },
+      {
+        "id": "b",
+        "text_fa": "اندونوریوم",
+        "text_en": "Endoneurium"
+      },
+      {
+        "id": "c",
+        "text_fa": "پری‌کاریون",
+        "text_en": "Perikaryon"
+      },
+      {
+        "id": "d",
+        "text_fa": "نوروگلیا",
+        "text_en": "Neuroglia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اپی‌نوریوم خارجی‌ترین و ضخیم‌ترین لایه‌ی بافت همبند است که کل عصب محیطی (شامل چندین فاسیکل) را احاطه می‌کند؛ این سلسله‌مراتب (اندونوریوم → پری‌نوریوم → اپی‌نوریوم) از سطح فیبر تا کل عصب پیش می‌رود."
   }
 ]

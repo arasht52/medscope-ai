@@ -5,10 +5,26 @@
     "category": "Antibiotics",
     "question_fa": "زن ۲۴ ساله‌ای در هفته‌ی ۱۸ بارداری با علائم عفونت ادراری مراجعه می‌کند. کشت ادرار حساسیت به چند آنتی‌بیوتیک را نشان می‌دهد. کدام دارو باید به‌علت خطر برای جنین اجتناب شود؟",
     "options": [
-      { "id": "a", "text_fa": "سفتریاکسون", "text_en": "Ceftriaxone" },
-      { "id": "b", "text_fa": "سیپروفلوکساسین", "text_en": "Ciprofloxacin" },
-      { "id": "c", "text_fa": "آموکسی‌سیلین", "text_en": "Amoxicillin" },
-      { "id": "d", "text_fa": "نیتروفورانتوئین (در سه‌ماهه‌ی دوم)", "text_en": "Nitrofurantoin" }
+      {
+        "id": "a",
+        "text_fa": "سفتریاکسون",
+        "text_en": "Ceftriaxone"
+      },
+      {
+        "id": "b",
+        "text_fa": "سیپروفلوکساسین",
+        "text_en": "Ciprofloxacin"
+      },
+      {
+        "id": "c",
+        "text_fa": "آموکسی‌سیلین",
+        "text_en": "Amoxicillin"
+      },
+      {
+        "id": "d",
+        "text_fa": "نیتروفورانتوئین (در سه‌ماهه‌ی دوم)",
+        "text_en": "Nitrofurantoin"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "فلوروکینولون‌ها (سیپروفلوکساسین) به‌علت خطر آسیب کارتیلاژ رشدی جنین/کودک معمولاً در بارداری اجتناب می‌شوند؛ سفالوسپورین‌ها و پنی‌سیلین‌ها در بارداری ایمن‌تر هستند."
@@ -19,10 +35,26 @@
     "category": "Antibiotics",
     "question_fa": "بیمار ۶۵ ساله‌ای پس از یک دوره آنتی‌بیوتیک‌تراپی برای پنومونی، دچار اسهال آبکی شدید و درد شکمی شده و تست توکسین Clostridioides difficile مثبت است. کدام درمان خط اول برای فرم شدید این عفونت مناسب‌تر است؟",
     "options": [
-      { "id": "a", "text_fa": "آزیترومایسین خوراکی", "text_en": "Oral azithromycin" },
-      { "id": "b", "text_fa": "ونکومایسین خوراکی", "text_en": "Oral vancomycin" },
-      { "id": "c", "text_fa": "جنتامایسین وریدی", "text_en": "IV gentamicin" },
-      { "id": "d", "text_fa": "داکسی‌سایکلین خوراکی", "text_en": "Oral doxycycline" }
+      {
+        "id": "a",
+        "text_fa": "آزیترومایسین خوراکی",
+        "text_en": "Oral azithromycin"
+      },
+      {
+        "id": "b",
+        "text_fa": "ونکومایسین خوراکی",
+        "text_en": "Oral vancomycin"
+      },
+      {
+        "id": "c",
+        "text_fa": "جنتامایسین وریدی",
+        "text_en": "IV gentamicin"
+      },
+      {
+        "id": "d",
+        "text_fa": "داکسی‌سایکلین خوراکی",
+        "text_en": "Oral doxycycline"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "ونکومایسین خوراکی (نه وریدی، چون باید در لومن روده اثر کند) برای کولیت شدید ناشی از C. difficile درمان خط اول است؛ ونکومایسین وریدی در این عفونت روده‌ای مؤثر نیست."
@@ -33,10 +65,26 @@
     "category": "Anticoagulants",
     "question_fa": "بیمار ۷۰ ساله‌ای تحت درمان پایدار با وارفارین برای فیبریلاسیون دهلیزی، به‌تازگی برای عفونت قارچی فلوکونازول شروع کرده و اکنون با کبودی‌های گسترده مراجعه کرده است. علت احتمالی چیست؟",
     "options": [
-      { "id": "a", "text_fa": "فلوکونازول متابولیسم وارفارین را افزایش داده است", "text_en": "Increased warfarin metabolism" },
-      { "id": "b", "text_fa": "فلوکونازول متابولیسم کبدی وارفارین را مهار کرده و INR را افزایش داده است", "text_en": "Inhibited warfarin metabolism, raised INR" },
-      { "id": "c", "text_fa": "فلوکونازول جذب وارفارین را کاهش داده است", "text_en": "Decreased warfarin absorption" },
-      { "id": "d", "text_fa": "بی‌ربط به دارو، باید عفونت اولیه را بررسی کرد", "text_en": "Unrelated to medication" }
+      {
+        "id": "a",
+        "text_fa": "فلوکونازول متابولیسم وارفارین را افزایش داده است",
+        "text_en": "Increased warfarin metabolism"
+      },
+      {
+        "id": "b",
+        "text_fa": "فلوکونازول متابولیسم کبدی وارفارین را مهار کرده و INR را افزایش داده است",
+        "text_en": "Inhibited warfarin metabolism, raised INR"
+      },
+      {
+        "id": "c",
+        "text_fa": "فلوکونازول جذب وارفارین را کاهش داده است",
+        "text_en": "Decreased warfarin absorption"
+      },
+      {
+        "id": "d",
+        "text_fa": "بی‌ربط به دارو، باید عفونت اولیه را بررسی کرد",
+        "text_en": "Unrelated to medication"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "فلوکونازول مهارکننده‌ی CYP2C9 است که مسئول متابولیسم وارفارین است؛ مهار این آنزیم غلظت وارفارین و INR را افزایش داده و خطر خون‌ریزی را بالا می‌برد."
@@ -47,10 +95,26 @@
     "category": "Anticoagulants",
     "question_fa": "بیماری که ۷ روز است هپارین وریدی دریافت می‌کند، دچار کاهش ناگهانی شمارش پلاکت به کمتر از نیمی از مقدار پایه همراه با ترومبوز جدید وریدی شده است. مناسب‌ترین اقدام چیست؟",
     "options": [
-      { "id": "a", "text_fa": "افزایش دوز هپارین برای کنترل ترومبوز", "text_en": "Increase heparin dose" },
-      { "id": "b", "text_fa": "قطع فوری هپارین و شروع یک ضدانعقاد غیرهپارینی", "text_en": "Stop heparin, start non-heparin anticoagulant" },
-      { "id": "c", "text_fa": "تزریق پلاکت", "text_en": "Platelet transfusion" },
-      { "id": "d", "text_fa": "ادامه‌ی هپارین با همان دوز و پایش", "text_en": "Continue heparin, monitor" }
+      {
+        "id": "a",
+        "text_fa": "افزایش دوز هپارین برای کنترل ترومبوز",
+        "text_en": "Increase heparin dose"
+      },
+      {
+        "id": "b",
+        "text_fa": "قطع فوری هپارین و شروع یک ضدانعقاد غیرهپارینی",
+        "text_en": "Stop heparin, start non-heparin anticoagulant"
+      },
+      {
+        "id": "c",
+        "text_fa": "تزریق پلاکت",
+        "text_en": "Platelet transfusion"
+      },
+      {
+        "id": "d",
+        "text_fa": "ادامه‌ی هپارین با همان دوز و پایش",
+        "text_en": "Continue heparin, monitor"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "این تصویر کلاسیک ترومبوسیتوپنی ناشی از هپارین (HIT) است؛ باید فوراً هپارین قطع و یک ضدانعقاد جایگزین (غیرهپارینی) شروع شود؛ تزریق پلاکت می‌تواند ترومبوز را تشدید کند."
@@ -61,10 +125,26 @@
     "category": "CNS",
     "question_fa": "زن ۲۶ ساله‌ی مبتلا به صرع ژنرالیزه که قصد بارداری دارد، تحت درمان با والپروات است. مناسب‌ترین اقدام پیش از بارداری چیست؟",
     "options": [
-      { "id": "a", "text_fa": "ادامه‌ی والپروات بدون تغییر، چون کنترل تشنج اولویت دارد", "text_en": "Continue valproate unchanged" },
-      { "id": "b", "text_fa": "بررسی تغییر به لاموتریژین که خطر تراتوژنیک کمتری دارد", "text_en": "Consider switching to lamotrigine" },
-      { "id": "c", "text_fa": "قطع کامل و ناگهانی تمام داروهای ضدتشنج", "text_en": "Abruptly stop all antiseizure drugs" },
-      { "id": "d", "text_fa": "افزایش دوز والپروات برای ایمنی بیشتر", "text_en": "Increase valproate dose" }
+      {
+        "id": "a",
+        "text_fa": "ادامه‌ی والپروات بدون تغییر، چون کنترل تشنج اولویت دارد",
+        "text_en": "Continue valproate unchanged"
+      },
+      {
+        "id": "b",
+        "text_fa": "بررسی تغییر به لاموتریژین که خطر تراتوژنیک کمتری دارد",
+        "text_en": "Consider switching to lamotrigine"
+      },
+      {
+        "id": "c",
+        "text_fa": "قطع کامل و ناگهانی تمام داروهای ضدتشنج",
+        "text_en": "Abruptly stop all antiseizure drugs"
+      },
+      {
+        "id": "d",
+        "text_fa": "افزایش دوز والپروات برای ایمنی بیشتر",
+        "text_en": "Increase valproate dose"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "والپروات با خطر بالای نقص لوله‌ی عصبی همراه است؛ پیش از بارداری برنامه‌ریزی‌شده، تغییر به داروی ضدتشنج با خطر تراتوژنیک کمتر (مثل لاموتریژین) باید با پزشک بررسی شود، نه قطع ناگهانی که خطر تشنج کنترل‌نشده دارد."
@@ -75,10 +155,26 @@
     "category": "CNS",
     "question_fa": "بیمار مبتلا به پارکینسون تحت درمان با لوودوپا-کاربیدوپا، دچار تهوع شدید شده است. کدام داروی ضداستفراغ باید برای این بیمار اجتناب شود؟",
     "options": [
-      { "id": "a", "text_fa": "دومپریدون", "text_en": "Domperidone" },
-      { "id": "b", "text_fa": "اوندانسترون", "text_en": "Ondansetron" },
-      { "id": "c", "text_fa": "متوکلوپرامید", "text_en": "Metoclopramide" },
-      { "id": "d", "text_fa": "زنجبیل خوراکی", "text_en": "Oral ginger" }
+      {
+        "id": "a",
+        "text_fa": "دومپریدون",
+        "text_en": "Domperidone"
+      },
+      {
+        "id": "b",
+        "text_fa": "اوندانسترون",
+        "text_en": "Ondansetron"
+      },
+      {
+        "id": "c",
+        "text_fa": "متوکلوپرامید",
+        "text_en": "Metoclopramide"
+      },
+      {
+        "id": "d",
+        "text_fa": "زنجبیل خوراکی",
+        "text_en": "Oral ginger"
+      }
     ],
     "correctOptionId": "c",
     "explanation_fa": "متوکلوپرامید آنتاگونیست دوپامین مرکزی است و می‌تواند اثر لوودوپا را خنثی کرده و علائم پارکینسون را تشدید کند؛ دومپریدون به‌علت عبور محدود از سد خونی-مغزی ایمن‌تر است."
@@ -89,10 +185,26 @@
     "category": "Cardiovascular",
     "question_fa": "بیمار ۵۵ ساله‌ای دو هفته پس از شروع لیزینوپریل برای فشار خون بالا، با تورم لب و زبان بدون کهیر مراجعه می‌کند. مناسب‌ترین اقدام چیست؟",
     "options": [
-      { "id": "a", "text_fa": "ادامه‌ی لیزینوپریل با دوز کمتر", "text_en": "Continue at lower dose" },
-      { "id": "b", "text_fa": "قطع لیزینوپریل و تغییر به یک ARB مانند لوزارتان با احتیاط", "text_en": "Stop ACEi, switch to ARB cautiously" },
-      { "id": "c", "text_fa": "افزودن آنتی‌هیستامین و ادامه‌ی همان دارو", "text_en": "Add antihistamine, continue same drug" },
-      { "id": "d", "text_fa": "تغییر به آملودیپین بدون نگرانی خاص", "text_en": "Switch to amlodipine without concern" }
+      {
+        "id": "a",
+        "text_fa": "ادامه‌ی لیزینوپریل با دوز کمتر",
+        "text_en": "Continue at lower dose"
+      },
+      {
+        "id": "b",
+        "text_fa": "قطع لیزینوپریل و تغییر به یک ARB مانند لوزارتان با احتیاط",
+        "text_en": "Stop ACEi, switch to ARB cautiously"
+      },
+      {
+        "id": "c",
+        "text_fa": "افزودن آنتی‌هیستامین و ادامه‌ی همان دارو",
+        "text_en": "Add antihistamine, continue same drug"
+      },
+      {
+        "id": "d",
+        "text_fa": "تغییر به آملودیپین بدون نگرانی خاص",
+        "text_en": "Switch to amlodipine without concern"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "این آنژیوادم ناشی از مهارکننده‌ی ACE است (تجمع برادی‌کینین)؛ باید فوراً قطع شود. ARBها خطر کمتری برای آنژیوادم دارند ولی خطر صفر نیست و باید با احتیاط استفاده شوند."
@@ -103,10 +215,26 @@
     "category": "Cardiovascular",
     "question_fa": "بیمار مبتلا به آسم متوسط که برای کنترل فشار خون به بتابلوکر نیاز دارد، باید بیشتر از کدام دارو پرهیز کند؟",
     "options": [
-      { "id": "a", "text_fa": "متوپرولول (بتا-۱ انتخابی)", "text_en": "Metoprolol (beta-1 selective)" },
-      { "id": "b", "text_fa": "پروپرانولول (غیرانتخابی)", "text_en": "Propranolol (non-selective)" },
-      { "id": "c", "text_fa": "آملودیپین", "text_en": "Amlodipine" },
-      { "id": "d", "text_fa": "لیزینوپریل", "text_en": "Lisinopril" }
+      {
+        "id": "a",
+        "text_fa": "متوپرولول (بتا-۱ انتخابی)",
+        "text_en": "Metoprolol (beta-1 selective)"
+      },
+      {
+        "id": "b",
+        "text_fa": "پروپرانولول (غیرانتخابی)",
+        "text_en": "Propranolol (non-selective)"
+      },
+      {
+        "id": "c",
+        "text_fa": "آملودیپین",
+        "text_en": "Amlodipine"
+      },
+      {
+        "id": "d",
+        "text_fa": "لیزینوپریل",
+        "text_en": "Lisinopril"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "بتابلوکرهای غیرانتخابی مانند پروپرانولول می‌توانند گیرنده‌ی بتا-۲ برونش را نیز مسدود کرده و برونکواسپاسم را تشدید کنند؛ در صورت ضرورت، بتابلوکرهای بتا-۱ انتخابی با احتیاط بیشتر تحمل می‌شوند."
@@ -117,10 +245,26 @@
     "category": "Endocrine",
     "question_fa": "زن ۲۸ ساله‌ای در هفته‌ی ششم بارداری با پرکاری تیروئید جدید تشخیص داده می‌شود. کدام داروی ضدتیروئید برای این مرحله از بارداری ترجیح داده می‌شود؟",
     "options": [
-      { "id": "a", "text_fa": "متی‌مازول", "text_en": "Methimazole" },
-      { "id": "b", "text_fa": "پروپیل‌تیواوراسیل", "text_en": "Propylthiouracil" },
-      { "id": "c", "text_fa": "لووتیروکسین", "text_en": "Levothyroxine" },
-      { "id": "d", "text_fa": "ید رادیواکتیو", "text_en": "Radioactive iodine" }
+      {
+        "id": "a",
+        "text_fa": "متی‌مازول",
+        "text_en": "Methimazole"
+      },
+      {
+        "id": "b",
+        "text_fa": "پروپیل‌تیواوراسیل",
+        "text_en": "Propylthiouracil"
+      },
+      {
+        "id": "c",
+        "text_fa": "لووتیروکسین",
+        "text_en": "Levothyroxine"
+      },
+      {
+        "id": "d",
+        "text_fa": "ید رادیواکتیو",
+        "text_en": "Radioactive iodine"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "متی‌مازول در سه‌ماهه‌ی اول بارداری با خطر آپلازی کوتیس همراه است؛ پروپیل‌تیواوراسیل در این دوره ترجیح داده می‌شود، سپس از سه‌ماهه‌ی دوم به‌بعد می‌توان به متی‌مازول برگشت (به‌علت خطر کمتر هپاتوتوکسیسیتی آن نسبت به PTU طولانی‌مدت)."
@@ -131,10 +275,26 @@
     "category": "Endocrine",
     "question_fa": "بیمار دیابتی نوع ۲ با نارسایی قلبی همزمان (EF کاهش‌یافته) نیاز به افزودن یک داروی ضددیابت دیگر دارد. کدام انتخاب علاوه‌بر کنترل قند، فایده‌ی قلبی-عروقی اثبات‌شده هم دارد؟",
     "options": [
-      { "id": "a", "text_fa": "گلیپیزید", "text_en": "Glipizide" },
-      { "id": "b", "text_fa": "امپاگلیفلوزین", "text_en": "Empagliflozin" },
-      { "id": "c", "text_fa": "انسولین رگولار به‌تنهایی", "text_en": "Regular insulin alone" },
-      { "id": "d", "text_fa": "سیتاگلیپتین", "text_en": "Sitagliptin" }
+      {
+        "id": "a",
+        "text_fa": "گلیپیزید",
+        "text_en": "Glipizide"
+      },
+      {
+        "id": "b",
+        "text_fa": "امپاگلیفلوزین",
+        "text_en": "Empagliflozin"
+      },
+      {
+        "id": "c",
+        "text_fa": "انسولین رگولار به‌تنهایی",
+        "text_en": "Regular insulin alone"
+      },
+      {
+        "id": "d",
+        "text_fa": "سیتاگلیپتین",
+        "text_en": "Sitagliptin"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "مهارکننده‌های SGLT2 مانند امپاگلیفلوزین در کارآزمایی‌های بالینی نشان داده‌اند که بستری مجدد به‌علت نارسایی قلبی را کاهش می‌دهند، حتی در بیماران غیردیابتی، و در این بیمار با نارسایی قلبی همزمان انتخاب منطقی‌تری هستند."
@@ -145,10 +305,26 @@
     "category": "GI",
     "question_fa": "بیمار سالمندی که برای آرتریت روماتوئید ایبوپروفن طولانی‌مدت مصرف می‌کند، برای پیشگیری از زخم گاستریت/پپتیک نیاز به محافظت دارد. مناسب‌ترین انتخاب چیست؟",
     "options": [
-      { "id": "a", "text_fa": "فاموتیدین", "text_en": "Famotidine" },
-      { "id": "b", "text_fa": "امپرازول", "text_en": "Omeprazole" },
-      { "id": "c", "text_fa": "اوندانسترون", "text_en": "Ondansetron" },
-      { "id": "d", "text_fa": "متوکلوپرامید", "text_en": "Metoclopramide" }
+      {
+        "id": "a",
+        "text_fa": "فاموتیدین",
+        "text_en": "Famotidine"
+      },
+      {
+        "id": "b",
+        "text_fa": "امپرازول",
+        "text_en": "Omeprazole"
+      },
+      {
+        "id": "c",
+        "text_fa": "اوندانسترون",
+        "text_en": "Ondansetron"
+      },
+      {
+        "id": "d",
+        "text_fa": "متوکلوپرامید",
+        "text_en": "Metoclopramide"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "مهارکننده‌های پمپ پروتون (PPI) مانند امپرازول مؤثرترین گزینه برای پیشگیری از زخم پپتیک ناشی از NSAID طولانی‌مدت هستند، به‌خصوص در بیماران پرخطر مانند سالمندان."
@@ -159,10 +335,26 @@
     "category": "GI",
     "question_fa": "بیمار مبتلا به کولیت اولسراتیو فعال با اسهال خونی شدید مراجعه کرده است. کدام دارو در این شرایط باید اجتناب شود؟",
     "options": [
-      { "id": "a", "text_fa": "سولفاسالازین", "text_en": "Sulfasalazine" },
-      { "id": "b", "text_fa": "لوپرامید", "text_en": "Loperamide" },
-      { "id": "c", "text_fa": "مایعات وریدی", "text_en": "IV fluids" },
-      { "id": "d", "text_fa": "کورتیکواستروئید وریدی", "text_en": "IV corticosteroid" }
+      {
+        "id": "a",
+        "text_fa": "سولفاسالازین",
+        "text_en": "Sulfasalazine"
+      },
+      {
+        "id": "b",
+        "text_fa": "لوپرامید",
+        "text_en": "Loperamide"
+      },
+      {
+        "id": "c",
+        "text_fa": "مایعات وریدی",
+        "text_en": "IV fluids"
+      },
+      {
+        "id": "d",
+        "text_fa": "کورتیکواستروئید وریدی",
+        "text_en": "IV corticosteroid"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "داروهای ضداسهال مانند لوپرامید در کولیت فعال شدید می‌توانند خطر مگاکولون توکسیک را افزایش دهند و باید اجتناب شوند."
@@ -173,10 +365,26 @@
     "category": "Immunosuppressant/Antineoplastic",
     "question_fa": "بیمار مبتلا به آرتریت روماتوئید تحت درمان با متوترکسات هفتگی، اخیراً برای درد مفصلی ایبوپروفن منظم شروع کرده است. این ترکیب چه خطری دارد؟",
     "options": [
-      { "id": "a", "text_fa": "ایبوپروفن کلیرانس کلیوی متوترکسات را کاهش داده و خطر مسمومیت را افزایش می‌دهد", "text_en": "Reduced renal clearance, increased toxicity" },
-      { "id": "b", "text_fa": "بدون تداخل قابل‌توجه", "text_en": "No significant interaction" },
-      { "id": "c", "text_fa": "ایبوپروفن اثر متوترکسات را کاملاً خنثی می‌کند", "text_en": "Completely negates effect" },
-      { "id": "d", "text_fa": "ایبوپروفن جذب متوترکسات را کاهش می‌دهد", "text_en": "Decreases absorption" }
+      {
+        "id": "a",
+        "text_fa": "ایبوپروفن کلیرانس کلیوی متوترکسات را کاهش داده و خطر مسمومیت را افزایش می‌دهد",
+        "text_en": "Reduced renal clearance, increased toxicity"
+      },
+      {
+        "id": "b",
+        "text_fa": "بدون تداخل قابل‌توجه",
+        "text_en": "No significant interaction"
+      },
+      {
+        "id": "c",
+        "text_fa": "ایبوپروفن اثر متوترکسات را کاملاً خنثی می‌کند",
+        "text_en": "Completely negates effect"
+      },
+      {
+        "id": "d",
+        "text_fa": "ایبوپروفن جذب متوترکسات را کاهش می‌دهد",
+        "text_en": "Decreases absorption"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "NSAIDها می‌توانند دفع کلیوی متوترکسات را کاهش دهند و غلظت پلاسمایی آن را به سطح سمی برسانند؛ این ترکیب باید با احتیاط و پایش دقیق انجام شود."
@@ -187,10 +395,26 @@
     "category": "Immunosuppressant/Antineoplastic",
     "question_fa": "بیمار تحت درمان با دوز بالای متوترکسات برای بدخیمی، چه دارویی به‌عنوان «نجات» برای کاهش سمیت سلول‌های طبیعی همراه دارو تجویز می‌شود؟",
     "options": [
-      { "id": "a", "text_fa": "اسید فولیک پیش از درمان", "text_en": "Folic acid before treatment" },
-      { "id": "b", "text_fa": "لئوکوورین (فولینیک اسید) پس از دوز بالا", "text_en": "Leucovorin (folinic acid) rescue" },
-      { "id": "c", "text_fa": "ویتامین B12", "text_en": "Vitamin B12" },
-      { "id": "d", "text_fa": "آهن خوراکی", "text_en": "Oral iron" }
+      {
+        "id": "a",
+        "text_fa": "اسید فولیک پیش از درمان",
+        "text_en": "Folic acid before treatment"
+      },
+      {
+        "id": "b",
+        "text_fa": "لئوکوورین (فولینیک اسید) پس از دوز بالا",
+        "text_en": "Leucovorin (folinic acid) rescue"
+      },
+      {
+        "id": "c",
+        "text_fa": "ویتامین B12",
+        "text_en": "Vitamin B12"
+      },
+      {
+        "id": "d",
+        "text_fa": "آهن خوراکی",
+        "text_en": "Oral iron"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "لئوکوورین (فولینیک اسید) مستقیماً به فرم فعال فولات تبدیل می‌شود و بدون نیاز به آنزیم مهارشده توسط متوترکسات (دی‌هیدروفولات ردوکتاز) عمل می‌کند، که سلول‌های طبیعی را در دوزهای بالای متوترکسات نجات می‌دهد."
@@ -201,10 +425,26 @@
     "category": "Psychiatry",
     "question_fa": "بیمار تحت درمان با فلوکستین که اخیراً برای میگرن سوماتریپتان نیز شروع کرده، با تحریک‌پذیری، تعریق و لرزش عضلانی مراجعه می‌کند. تشخیص احتمالی چیست؟",
     "options": [
-      { "id": "a", "text_fa": "سندرم سروتونین", "text_en": "Serotonin syndrome" },
-      { "id": "b", "text_fa": "سندرم نورولپتیک بدخیم", "text_en": "Neuroleptic malignant syndrome" },
-      { "id": "c", "text_fa": "واکنش آلرژیک ساده", "text_en": "Simple allergic reaction" },
-      { "id": "d", "text_fa": "کم‌کاری تیروئید", "text_en": "Hypothyroidism" }
+      {
+        "id": "a",
+        "text_fa": "سندرم سروتونین",
+        "text_en": "Serotonin syndrome"
+      },
+      {
+        "id": "b",
+        "text_fa": "سندرم نورولپتیک بدخیم",
+        "text_en": "Neuroleptic malignant syndrome"
+      },
+      {
+        "id": "c",
+        "text_fa": "واکنش آلرژیک ساده",
+        "text_en": "Simple allergic reaction"
+      },
+      {
+        "id": "d",
+        "text_fa": "کم‌کاری تیروئید",
+        "text_en": "Hypothyroidism"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "ترکیب SSRI با تریپتان‌ها (که فعالیت سروتونرژیک دارند) خطر سندرم سروتونین را افزایش می‌دهد؛ علائم شامل آژیتاسیون، تعریق، لرزش، و در موارد شدید هایپرترمی و بی‌ثباتی اتونوم است."
@@ -215,10 +455,26 @@
     "category": "Psychiatry",
     "question_fa": "بیمار مبتلا به اسکیزوفرنی مقاوم به درمان تحت کلوزاپین، با تب و گلودرد مراجعه می‌کند. اولین اقدام ضروری چیست؟",
     "options": [
-      { "id": "a", "text_fa": "افزایش دوز کلوزاپین", "text_en": "Increase clozapine dose" },
-      { "id": "b", "text_fa": "بررسی فوری شمارش گلبول سفید برای رد آگرانولوسیتوز", "text_en": "Urgent CBC to rule out agranulocytosis" },
-      { "id": "c", "text_fa": "تجویز آنتی‌بیوتیک بدون بررسی بیشتر و ادامه‌ی دارو", "text_en": "Give antibiotics, continue as usual" },
-      { "id": "d", "text_fa": "نادیده‌گرفتن علائم، احتمالاً سرماخوردگی ساده است", "text_en": "Ignore symptoms" }
+      {
+        "id": "a",
+        "text_fa": "افزایش دوز کلوزاپین",
+        "text_en": "Increase clozapine dose"
+      },
+      {
+        "id": "b",
+        "text_fa": "بررسی فوری شمارش گلبول سفید برای رد آگرانولوسیتوز",
+        "text_en": "Urgent CBC to rule out agranulocytosis"
+      },
+      {
+        "id": "c",
+        "text_fa": "تجویز آنتی‌بیوتیک بدون بررسی بیشتر و ادامه‌ی دارو",
+        "text_en": "Give antibiotics, continue as usual"
+      },
+      {
+        "id": "d",
+        "text_fa": "نادیده‌گرفتن علائم، احتمالاً سرماخوردگی ساده است",
+        "text_en": "Ignore symptoms"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "کلوزاپین خطر آگرانولوسیتوز دارد؛ تب و گلودرد در بیمار تحت کلوزاپین باید فوراً با شمارش کامل خون بررسی شود تا این عارضه‌ی تهدیدکننده‌ی حیات رد یا تأیید شود."
@@ -229,10 +485,26 @@
     "category": "Respiratory",
     "question_fa": "بیمار آسمی که بیش از یک بار در روز برای کنترل علائم به آلبوترول نیاز پیدا کرده، نشان‌دهنده‌ی چه چیزی است و چه اقدامی لازم است؟",
     "options": [
-      { "id": "a", "text_fa": "کنترل خوب بیماری، نیازی به تغییر درمان نیست", "text_en": "Good control, no change needed" },
-      { "id": "b", "text_fa": "کنترل ناکافی آسم؛ نیاز به افزودن کورتیکواستروئید استنشاقی", "text_en": "Inadequate control; add inhaled corticosteroid" },
-      { "id": "c", "text_fa": "باید فوراً تئوفیلین جایگزین آلبوترول شود", "text_en": "Replace with theophylline" },
-      { "id": "d", "text_fa": "نیاز به قطع کامل تمام داروهای تنفسی", "text_en": "Stop all respiratory medications" }
+      {
+        "id": "a",
+        "text_fa": "کنترل خوب بیماری، نیازی به تغییر درمان نیست",
+        "text_en": "Good control, no change needed"
+      },
+      {
+        "id": "b",
+        "text_fa": "کنترل ناکافی آسم؛ نیاز به افزودن کورتیکواستروئید استنشاقی",
+        "text_en": "Inadequate control; add inhaled corticosteroid"
+      },
+      {
+        "id": "c",
+        "text_fa": "باید فوراً تئوفیلین جایگزین آلبوترول شود",
+        "text_en": "Replace with theophylline"
+      },
+      {
+        "id": "d",
+        "text_fa": "نیاز به قطع کامل تمام داروهای تنفسی",
+        "text_en": "Stop all respiratory medications"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "نیاز مکرر به SABA (بیش از حد معمول) نشانه‌ی کنترل ناکافی آسم زمینه‌ای است و باید درمان کنترلی (مانند کورتیکواستروئید استنشاقی) افزوده یا تشدید شود، نه صرفاً افزایش مصرف داروی نجات."
@@ -243,10 +515,26 @@
     "category": "Respiratory",
     "question_fa": "بیمار تحت درمان با تئوفیلین برای COPD با تهوع، تاکی‌کاردی و در موارد شدید تشنج مراجعه می‌کند. علت احتمالی چیست؟",
     "options": [
-      { "id": "a", "text_fa": "دوز پایین‌تر از حد درمانی", "text_en": "Subtherapeutic dose" },
-      { "id": "b", "text_fa": "مسمومیت با تئوفیلین (محدوده‌ی درمانی باریک)", "text_en": "Theophylline toxicity (narrow therapeutic index)" },
-      { "id": "c", "text_fa": "واکنش آلرژیک خفیف", "text_en": "Mild allergic reaction" },
-      { "id": "d", "text_fa": "بی‌ربط به دارو", "text_en": "Unrelated to drug" }
+      {
+        "id": "a",
+        "text_fa": "دوز پایین‌تر از حد درمانی",
+        "text_en": "Subtherapeutic dose"
+      },
+      {
+        "id": "b",
+        "text_fa": "مسمومیت با تئوفیلین (محدوده‌ی درمانی باریک)",
+        "text_en": "Theophylline toxicity (narrow therapeutic index)"
+      },
+      {
+        "id": "c",
+        "text_fa": "واکنش آلرژیک خفیف",
+        "text_en": "Mild allergic reaction"
+      },
+      {
+        "id": "d",
+        "text_fa": "بی‌ربط به دارو",
+        "text_en": "Unrelated to drug"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "تئوفیلین محدوده‌ی درمانی بسیار باریکی دارد؛ تهوع، تاکی‌کاردی، و تشنج علائم کلاسیک مسمومیت هستند و نیاز به پایش سطح پلاسمایی و کاهش/قطع دارو دارند."
@@ -257,10 +545,26 @@
     "category": "Analgesics & NSAIDs",
     "question_fa": "بیمار مبتلا به بیماری مزمن کلیوی پیشرفته با درد خفیف تا متوسط مراجعه می‌کند. مناسب‌ترین آنالژزیک اولیه کدام است؟",
     "options": [
-      { "id": "a", "text_fa": "ایبوپروفن", "text_en": "Ibuprofen" },
-      { "id": "b", "text_fa": "استامینوفن", "text_en": "Acetaminophen" },
-      { "id": "c", "text_fa": "آسپرین دوز بالا", "text_en": "High-dose aspirin" },
-      { "id": "d", "text_fa": "سلکوکسیب", "text_en": "Celecoxib" }
+      {
+        "id": "a",
+        "text_fa": "ایبوپروفن",
+        "text_en": "Ibuprofen"
+      },
+      {
+        "id": "b",
+        "text_fa": "استامینوفن",
+        "text_en": "Acetaminophen"
+      },
+      {
+        "id": "c",
+        "text_fa": "آسپرین دوز بالا",
+        "text_en": "High-dose aspirin"
+      },
+      {
+        "id": "d",
+        "text_fa": "سلکوکسیب",
+        "text_en": "Celecoxib"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "NSAIDها (از جمله سلکوکسیب) می‌توانند پرفیوژن کلیوی را کاهش داده و عملکرد کلیه را در بیماری کلیوی مزمن بدتر کنند؛ استامینوفن گزینه‌ی ایمن‌تری برای درد خفیف تا متوسط در این بیماران است."
@@ -271,10 +575,26 @@
     "category": "Analgesics & NSAIDs",
     "question_fa": "بیمار پس از تزریق وریدی مورفین برای درد پس از جراحی، دچار کاهش سطح هوشیاری و تنفس ۶ بار در دقیقه شده است. فوری‌ترین اقدام چیست؟",
     "options": [
-      { "id": "a", "text_fa": "تجویز نالوکسون", "text_en": "Administer naloxone" },
-      { "id": "b", "text_fa": "افزایش دوز مورفین بعدی", "text_en": "Increase next morphine dose" },
-      { "id": "c", "text_fa": "تجویز کافئین خوراکی", "text_en": "Give oral caffeine" },
-      { "id": "d", "text_fa": "صبر کردن بدون مداخله", "text_en": "Wait without intervention" }
+      {
+        "id": "a",
+        "text_fa": "تجویز نالوکسون",
+        "text_en": "Administer naloxone"
+      },
+      {
+        "id": "b",
+        "text_fa": "افزایش دوز مورفین بعدی",
+        "text_en": "Increase next morphine dose"
+      },
+      {
+        "id": "c",
+        "text_fa": "تجویز کافئین خوراکی",
+        "text_en": "Give oral caffeine"
+      },
+      {
+        "id": "d",
+        "text_fa": "صبر کردن بدون مداخله",
+        "text_en": "Wait without intervention"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "دپرسیون تنفسی شدید ناشی از اوپیوئید یک اورژانس است و نیاز به نالوکسون فوری دارد تا اثر اوپیوئید معکوس و تنفس بازگردانده شود."
@@ -285,10 +605,26 @@
     "category": "Anesthetics",
     "question_fa": "بیمار ترومایی با فشار خون پایین و شوک هموراژیک نیاز به القای بیهوشی برای جراحی اورژانسی دارد. کدام بیهوش‌کننده‌ی عمومی برای حفظ ثبات همودینامیک مناسب‌تر است؟",
     "options": [
-      { "id": "a", "text_fa": "پروپوفول دوز استاندارد", "text_en": "Standard-dose propofol" },
-      { "id": "b", "text_fa": "کتامین", "text_en": "Ketamine" },
-      { "id": "c", "text_fa": "افزایش دوز بنزودیازپین", "text_en": "Higher-dose benzodiazepine" },
-      { "id": "d", "text_fa": "بدون نیاز به بیهوشی عمومی", "text_en": "No general anesthesia needed" }
+      {
+        "id": "a",
+        "text_fa": "پروپوفول دوز استاندارد",
+        "text_en": "Standard-dose propofol"
+      },
+      {
+        "id": "b",
+        "text_fa": "کتامین",
+        "text_en": "Ketamine"
+      },
+      {
+        "id": "c",
+        "text_fa": "افزایش دوز بنزودیازپین",
+        "text_en": "Higher-dose benzodiazepine"
+      },
+      {
+        "id": "d",
+        "text_fa": "بدون نیاز به بیهوشی عمومی",
+        "text_en": "No general anesthesia needed"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "کتامین برخلاف پروپوفول (که افت فشار خون قابل‌توجه ایجاد می‌کند) تون سمپاتیک را حفظ یا حتی افزایش می‌دهد و برای بیماران ناپایدار همودینامیک مانند شوک هموراژیک ترجیح داده می‌شود."
@@ -299,10 +635,26 @@
     "category": "Anesthetics",
     "question_fa": "بیمار حین تزریق بی‌حسی موضعی لیدوکائین برای بلوک عصبی، دچار حس بی‌حسی دور دهان و سرگیجه می‌شود. این علامت هشداردهنده‌ی چه چیزی است؟",
     "options": [
-      { "id": "a", "text_fa": "واکنش آلرژیک ساده", "text_en": "Simple allergic reaction" },
-      { "id": "b", "text_fa": "شروع مسمومیت سیستمیک بی‌حس‌کننده‌ی موضعی (LAST)", "text_en": "Onset of local anesthetic systemic toxicity (LAST)" },
-      { "id": "c", "text_fa": "بی‌اثر بودن دارو", "text_en": "Drug ineffectiveness" },
-      { "id": "d", "text_fa": "کم‌خونی زمینه‌ای", "text_en": "Underlying anemia" }
+      {
+        "id": "a",
+        "text_fa": "واکنش آلرژیک ساده",
+        "text_en": "Simple allergic reaction"
+      },
+      {
+        "id": "b",
+        "text_fa": "شروع مسمومیت سیستمیک بی‌حس‌کننده‌ی موضعی (LAST)",
+        "text_en": "Onset of local anesthetic systemic toxicity (LAST)"
+      },
+      {
+        "id": "c",
+        "text_fa": "بی‌اثر بودن دارو",
+        "text_en": "Drug ineffectiveness"
+      },
+      {
+        "id": "d",
+        "text_fa": "کم‌خونی زمینه‌ای",
+        "text_en": "Underlying anemia"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "حس بی‌حسی دور دهان و سرگیجه اولین علائم هشداردهنده‌ی مسمومیت سیستمیک بی‌حس‌کننده‌ی موضعی (LAST) هستند که می‌تواند به تشنج و آریتمی پیشرفت کند؛ تزریق باید فوراً متوقف شود."
@@ -313,10 +665,26 @@
     "category": "Antiparasitic",
     "question_fa": "بیماری با عفونت مزمن استرونژیلوئیدس قرار است برای بیماری دیگری کورتیکواستروئید دوز بالا دریافت کند. چرا باید قبل از شروع استروئید، درمان ضدانگل انجام شود؟",
     "options": [
-      { "id": "a", "text_fa": "استروئید درمان ضدانگل را تقویت می‌کند", "text_en": "Steroid enhances antiparasitic treatment" },
-      { "id": "b", "text_fa": "خطر سندرم هیپرانفکشن کشنده با سرکوب ایمنی", "text_en": "Risk of fatal hyperinfection syndrome with immunosuppression" },
-      { "id": "c", "text_fa": "بدون ارتباط بین این دو دارو", "text_en": "No relationship between the two" },
-      { "id": "d", "text_fa": "استروئید جذب ایورمکتین را افزایش می‌دهد", "text_en": "Steroid increases ivermectin absorption" }
+      {
+        "id": "a",
+        "text_fa": "استروئید درمان ضدانگل را تقویت می‌کند",
+        "text_en": "Steroid enhances antiparasitic treatment"
+      },
+      {
+        "id": "b",
+        "text_fa": "خطر سندرم هیپرانفکشن کشنده با سرکوب ایمنی",
+        "text_en": "Risk of fatal hyperinfection syndrome with immunosuppression"
+      },
+      {
+        "id": "c",
+        "text_fa": "بدون ارتباط بین این دو دارو",
+        "text_en": "No relationship between the two"
+      },
+      {
+        "id": "d",
+        "text_fa": "استروئید جذب ایورمکتین را افزایش می‌دهد",
+        "text_en": "Steroid increases ivermectin absorption"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "سرکوب ایمنی با کورتیکواستروئید در فرد آلوده به استرونژیلوئیدس می‌تواند سندرم هیپرانفکشن کشنده ایجاد کند؛ درمان با ایورمکتین باید قبل از شروع ایمونوساپرسیون انجام شود."
@@ -327,12 +695,658 @@
     "category": "Antiparasitic",
     "question_fa": "بیماری با نوروسیستی‌سرکوزیس (کیست انگلی مغزی) تحت درمان با پرازیکوانتل قرار می‌گیرد. چرا معمولاً کورتیکواستروئید هم‌زمان تجویز می‌شود؟",
     "options": [
-      { "id": "a", "text_fa": "برای افزایش اثر ضدانگلی دارو", "text_en": "To enhance antiparasitic effect" },
-      { "id": "b", "text_fa": "برای کنترل واکنش التهابی ناشی از مرگ کیست در مغز", "text_en": "To control inflammatory reaction from cyst death" },
-      { "id": "c", "text_fa": "برای پیشگیری از آلرژی غذایی", "text_en": "To prevent food allergy" },
-      { "id": "d", "text_fa": "بدون دلیل خاص، صرفاً یک عادت تجویزی", "text_en": "No specific reason" }
+      {
+        "id": "a",
+        "text_fa": "برای افزایش اثر ضدانگلی دارو",
+        "text_en": "To enhance antiparasitic effect"
+      },
+      {
+        "id": "b",
+        "text_fa": "برای کنترل واکنش التهابی ناشی از مرگ کیست در مغز",
+        "text_en": "To control inflammatory reaction from cyst death"
+      },
+      {
+        "id": "c",
+        "text_fa": "برای پیشگیری از آلرژی غذایی",
+        "text_en": "To prevent food allergy"
+      },
+      {
+        "id": "d",
+        "text_fa": "بدون دلیل خاص، صرفاً یک عادت تجویزی",
+        "text_en": "No specific reason"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "مرگ انگل در بافت مغزی می‌تواند واکنش التهابی شدید (و حتی تشنج) ایجاد کند؛ کورتیکواستروئید هم‌زمان این واکنش التهابی را کنترل می‌کند."
+  },
+  {
+    "id": "ph-antibiotics-3",
+    "topicId": "metronidazole",
+    "category": "Antibiotics",
+    "question_fa": "بیمار با آبسه‌ی شکمی ناشی از باکتری‌های آنروب، علاوه‌بر بقیه‌ی درمان، متفونیدازول دریافت کرده. به بیمار باید درباره‌ی پرهیز از کدام ماده هشدار داد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "الکل (واکنش دیسولفیرام‌مانند)",
+        "text_en": "Alcohol (disulfiram-like reaction)"
+      },
+      {
+        "id": "b",
+        "text_fa": "محصولات لبنی",
+        "text_en": "Dairy products"
+      },
+      {
+        "id": "c",
+        "text_fa": "غذاهای پرپتاسیم",
+        "text_en": "High-potassium foods"
+      },
+      {
+        "id": "d",
+        "text_fa": "ویتامین C",
+        "text_en": "Vitamin C"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "مترونیدازول مهارکننده‌ی آلدئید دهیدروژناز است؛ مصرف هم‌زمان الکل واکنش دیسولفیرام‌مانند (تهوع، فلاشینگ، تاکی‌کاردی) ایجاد می‌کند."
+  },
+  {
+    "id": "ph-antibiotics-4",
+    "topicId": "amoxicillin",
+    "category": "Antibiotics",
+    "question_fa": "بیماری با مونونوکلئوز عفونی (EBV) به‌اشتباه آموکسی‌سیلین دریافت کرده است. کدام عارضه‌ی کلاسیک منتظره؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "راش ماکولوپاپولار غیرآلرژیک گسترده",
+        "text_en": "Widespread non-allergic morbilliform rash"
+      },
+      {
+        "id": "b",
+        "text_fa": "آنافیلاکسی فوری",
+        "text_en": "Immediate anaphylaxis"
+      },
+      {
+        "id": "c",
+        "text_fa": "نارسایی کبدی حاد",
+        "text_en": "Acute liver failure"
+      },
+      {
+        "id": "d",
+        "text_fa": "هیچ واکنشی، EBV با آموکسی‌سیلین تداخل ندارد",
+        "text_en": "No reaction"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آموکسی‌سیلین در بیماران با مونونوکلئوز عفونی (EBV) راش ماکولوپاپولار غیرآلرژیک کلاسیک ایجاد می‌کند؛ این راش نشانه‌ی حساسیت واقعی به پنی‌سیلین نیست."
+  },
+  {
+    "id": "ph-cardiovascular-3",
+    "topicId": "digoxin",
+    "category": "Cardiovascular",
+    "question_fa": "بیمار سالمندی تحت درمان با دیگوکسین، اخیراً به‌علت اسهال هیپوکالمی پیدا کرده و حالا با تهوع، اختلال بینایی رنگی (زرد-سبز)، و آریتمی مراجعه می‌کند. علت تشدید مسمومیت چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هیپوکالمی اثر دیگوکسین روی پمپ Na/K-ATPase را تشدید می‌کند",
+        "text_en": "Hypokalemia potentiates digoxin toxicity"
+      },
+      {
+        "id": "b",
+        "text_fa": "هیپوکالمی اثر دیگوکسین را خنثی می‌کند",
+        "text_en": "Hypokalemia negates digoxin effect"
+      },
+      {
+        "id": "c",
+        "text_fa": "اسهال جذب دیگوکسین را کاهش داده است",
+        "text_en": "Diarrhea decreased absorption"
+      },
+      {
+        "id": "d",
+        "text_fa": "بی‌ربط به سطح پتاسیم",
+        "text_en": "Unrelated to potassium"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "دیگوکسین و پتاسیم برای اتصال به پمپ Na/K-ATPase رقابت می‌کنند؛ هیپوکالمی باعث افزایش اتصال دیگوکسین و تشدید مسمومیت می‌شود، حتی در سطح پلاسمایی پایدار دارو."
+  },
+  {
+    "id": "ph-cardiovascular-4",
+    "topicId": "furosemide",
+    "category": "Cardiovascular",
+    "question_fa": "همه‌ی موارد زیر از عوارض شایع فوروزماید هستند، به‌جز:",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هیپوکالمی",
+        "text_en": "Hypokalemia"
+      },
+      {
+        "id": "b",
+        "text_fa": "اتوتوکسیسیتی",
+        "text_en": "Ototoxicity"
+      },
+      {
+        "id": "c",
+        "text_fa": "هیپرکالمی",
+        "text_en": "Hyperkalemia"
+      },
+      {
+        "id": "d",
+        "text_fa": "آلکالوز متابولیک",
+        "text_en": "Metabolic alkalosis"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation_fa": "دیورتیک‌های لوپ مانند فوروزماید با افزایش دفع پتاسیم باعث هیپوکالمی (نه هیپرکالمی) می‌شوند؛ سایر گزینه‌ها (اتوتوکسیسیتی، آلکالوز متابولیک) عوارض شناخته‌شده‌ی این دسته هستند."
+  },
+  {
+    "id": "ph-cns-3",
+    "topicId": "phenytoin",
+    "category": "CNS",
+    "question_fa": "زن بارداری که برای صرع فنی‌توئین مصرف می‌کند، نوزادش با شکاف کام، هیپوپلازی فالانژ انتهایی، و نقص رشد متولد می‌شود. این مجموعه‌ی یافته‌ها چه نام دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سندرم فنیتوئین جنینی",
+        "text_en": "Fetal hydantoin syndrome"
+      },
+      {
+        "id": "b",
+        "text_fa": "نقص لوله‌ی عصبی",
+        "text_en": "Neural tube defect"
+      },
+      {
+        "id": "c",
+        "text_fa": "سندرم الکل جنینی",
+        "text_en": "Fetal alcohol syndrome"
+      },
+      {
+        "id": "d",
+        "text_fa": "بدون ارتباط با دارو",
+        "text_en": "Unrelated to medication"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "فنی‌توئین در بارداری با سندرم فنیتوئین جنینی (شکاف کام/لب، هیپوپلازی فالانژ انتهایی، عقب‌ماندگی رشد) همراه است؛ این با نقص لوله‌ی عصبی ناشی از والپروات متفاوت است."
+  },
+  {
+    "id": "ph-cns-4",
+    "topicId": "diazepam",
+    "category": "CNS",
+    "question_fa": "کدام دارو برای معکوس‌سازی مسمومیت حاد بنزودیازپین استفاده می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فلومازنیل",
+        "text_en": "Flumazenil"
+      },
+      {
+        "id": "b",
+        "text_fa": "نالوکسون",
+        "text_en": "Naloxone"
+      },
+      {
+        "id": "c",
+        "text_fa": "فیزوستیگمین",
+        "text_en": "Physostigmine"
+      },
+      {
+        "id": "d",
+        "text_fa": "پرالیدوکسیم",
+        "text_en": "Pralidoxime"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "فلومازنیل آنتاگونیست رقابتی گیرنده‌ی بنزودیازپین در مجموعه‌ی GABA-A است و برای معکوس‌سازی مسمومیت حاد بنزودیازپین (مثل دیازپام) استفاده می‌شود؛ باید با احتیاط در مصرف‌کنندگان طولانی‌مدت تجویز شود (خطر تشنج قطع ناگهانی)."
+  },
+  {
+    "id": "ph-psychiatry-3",
+    "topicId": "lithium",
+    "category": "Psychiatry",
+    "question_fa": "بیمار تحت درمان طولانی‌مدت با لیتیوم برای اختلال دوقطبی، با پرنوشی و پرادراری شدید مراجعه می‌کند که با دسموپرسین بهبود نمی‌یابد. تشخیص و مکانیسم چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "دیابت بی‌مزه‌ی نفروژنیک (لیتیوم پاسخ کلیه به ADH را مختل می‌کند)",
+        "text_en": "Nephrogenic DI; lithium impairs renal response to ADH"
+      },
+      {
+        "id": "b",
+        "text_fa": "دیابت بی‌مزه‌ی مرکزی",
+        "text_en": "Central diabetes insipidus"
+      },
+      {
+        "id": "c",
+        "text_fa": "دیابت ملیتوس ناشی از لیتیوم",
+        "text_en": "Lithium-induced diabetes mellitus"
+      },
+      {
+        "id": "d",
+        "text_fa": "بی‌ربط به دارو",
+        "text_en": "Unrelated to medication"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لیتیوم با مختل‌کردن پاسخ توبول جمع‌کننده‌ی کلیه به ADH، دیابت بی‌مزه‌ی نفروژنیک ایجاد می‌کند؛ به همین دلیل با دسموپرسین (که نوع مرکزی را درمان می‌کند) بهبود نمی‌یابد."
+  },
+  {
+    "id": "ph-psychiatry-4",
+    "topicId": "haloperidol",
+    "category": "Psychiatry",
+    "question_fa": "بیمار چند ساعت پس از تزریق هالوپریدول دچار اسپاسم گردنی شدید و چرخش غیرارادی چشم (اکولوژیریک کرایسیس) شده است. درمان فوری چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بنزتروپین (آنتی‌کولینرژیک) وریدی/عضلانی",
+        "text_en": "IV/IM benztropine (anticholinergic)"
+      },
+      {
+        "id": "b",
+        "text_fa": "افزایش دوز هالوپریدول",
+        "text_en": "Increase haloperidol dose"
+      },
+      {
+        "id": "c",
+        "text_fa": "نالوکسون",
+        "text_en": "Naloxone"
+      },
+      {
+        "id": "d",
+        "text_fa": "مشاهده بدون درمان",
+        "text_en": "Observation only"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "این تصویر دیستونی حاد ناشی از آنتی‌سایکوتیک است (عارضه‌ی زودرس EPS)؛ آنتی‌کولینرژیک‌هایی مثل بنزتروپین یا دیفن‌هیدرامین به‌سرعت علائم را برطرف می‌کنند."
+  },
+  {
+    "id": "ph-analgesicsnsaids-3",
+    "topicId": "aspirin",
+    "category": "Analgesics & NSAIDs",
+    "question_fa": "کودکی که برای آبله‌مرغان آسپیرین دریافت کرده، دچار استفراغ و تغییر سطح هوشیاری شده است. این کودک در خطر کدام سندرم نادر ولی کشنده است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سندرم ری",
+        "text_en": "Reye syndrome"
+      },
+      {
+        "id": "b",
+        "text_fa": "سندرم استیون-جانسون",
+        "text_en": "Stevens-Johnson syndrome"
+      },
+      {
+        "id": "c",
+        "text_fa": "سندرم سروتونین",
+        "text_en": "Serotonin syndrome"
+      },
+      {
+        "id": "d",
+        "text_fa": "سندرم نورولپتیک بدخیم",
+        "text_en": "Neuroleptic malignant syndrome"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آسپرین در کودکان با عفونت ویروسی (مثل آبله‌مرغان یا آنفلوانزا) با سندرم ری (آنسفالوپاتی + نارسایی کبدی) همراه است؛ به همین دلیل آسپرین در کودکان زیر ۱۸ سال برای تب/درد ویروسی اجتناب می‌شود."
+  },
+  {
+    "id": "ph-analgesicsnsaids-4",
+    "topicId": "morphine",
+    "category": "Analgesics & NSAIDs",
+    "question_fa": "بیمار پس از دریافت مورفین وریدی دچار خارش منتشر بدون راش یا افت فشار خون قابل‌توجه شده است. علت محتمل‌تر کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آزادسازی مستقیم هیستامین از ماست‌سل (نه آلرژی واقعی)",
+        "text_en": "Direct mast cell histamine release (not true allergy)"
+      },
+      {
+        "id": "b",
+        "text_fa": "آنافیلاکسی IgE-وابسته",
+        "text_en": "IgE-mediated anaphylaxis"
+      },
+      {
+        "id": "c",
+        "text_fa": "واکنش انتقال خون",
+        "text_en": "Transfusion reaction"
+      },
+      {
+        "id": "d",
+        "text_fa": "مسمومیت کبدی حاد",
+        "text_en": "Acute hepatotoxicity"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "مورفین می‌تواند مستقیماً ماست‌سل‌ها را برای آزادسازی هیستامین تحریک کند بدون آنکه واکنش آلرژیک واقعی IgE-وابسته باشد؛ این خارش معمولاً نیازی به قطع کامل دارو ندارد."
+  },
+  {
+    "id": "ph-endocrine-3",
+    "topicId": "levothyroxine",
+    "category": "Endocrine",
+    "question_fa": "بیمار تحت درمان با لووتیروکسین برای کم‌کاری تیروئید، با تپش قلب، کاهش وزن، و بی‌قراری مراجعه می‌کند. کدام اقدام مناسب‌تر است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بررسی TSH و کاهش دوز لووتیروکسین در صورت سرکوب‌شدن",
+        "text_en": "Check TSH, reduce dose if suppressed"
+      },
+      {
+        "id": "b",
+        "text_fa": "افزایش دوز لووتیروکسین",
+        "text_en": "Increase levothyroxine dose"
+      },
+      {
+        "id": "c",
+        "text_fa": "قطع کامل و ناگهانی دارو",
+        "text_en": "Abruptly stop drug"
+      },
+      {
+        "id": "d",
+        "text_fa": "بدون ارتباط با دارو",
+        "text_en": "Unrelated to medication"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "علائم تپش قلب، کاهش وزن، و بی‌قراری نشانه‌ی پرکاری تیروئید ناشی از دوز بیش‌ازحد لووتیروکسین است؛ TSH سرکوب‌شده این را تأیید می‌کند و دوز باید کاهش یابد."
+  },
+  {
+    "id": "ph-endocrine-4",
+    "topicId": "hydrocortisone",
+    "category": "Endocrine",
+    "question_fa": "بیماری که ۶ ماه است پردنیزولون دوز بالا مصرف می‌کرده، ناگهان و بدون نظر پزشک دارو را قطع کرده است. مهم‌ترین خطر این کار چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بحران حاد آدرنال (نارسایی آدرنال ثانویه ناشی از سرکوب محور HPA)",
+        "text_en": "Acute adrenal crisis from HPA suppression"
+      },
+      {
+        "id": "b",
+        "text_fa": "هیپرگلیسمی موقت",
+        "text_en": "Transient hyperglycemia"
+      },
+      {
+        "id": "c",
+        "text_fa": "بدون خطر خاص",
+        "text_en": "No particular risk"
+      },
+      {
+        "id": "d",
+        "text_fa": "افزایش موقت قد",
+        "text_en": "Transient height increase"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "مصرف طولانی‌مدت کورتیکواستروئید محور هیپوتالاموس-هیپوفیز-آدرنال را سرکوب می‌کند؛ قطع ناگهانی می‌تواند به بحران آدرنال (هیپوتانسیون، شوک) منجر شود. باید به‌تدریج (tapering) کاهش یابد."
+  },
+  {
+    "id": "ph-respiratory-3",
+    "topicId": "montelukast",
+    "category": "Respiratory",
+    "question_fa": "بیمار آسمی با سابقه‌ی پولیپ بینی، پس از مصرف آسپرین برای سردرد دچار تشدید شدید آسم شده است. کدام داروی پروفیلاکتیک برای این فنوتیپ خاص آسم مفید است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مونته‌لوکاست (آنتاگونیست لکوترین)",
+        "text_en": "Montelukast (leukotriene antagonist)"
+      },
+      {
+        "id": "b",
+        "text_fa": "تئوفیلین",
+        "text_en": "Theophylline"
+      },
+      {
+        "id": "c",
+        "text_fa": "ایپراتروپیوم",
+        "text_en": "Ipratropium"
+      },
+      {
+        "id": "d",
+        "text_fa": "آلبوترول به‌تنهایی",
+        "text_en": "Albuterol alone"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "این تصویر کلاسیک بیماری تنفسی تشدیدشده با آسپرین (AERD) است که با مسیر لکوترین مرتبط است؛ آنتاگونیست‌های لکوترین مانند مونته‌لوکاست در این فنوتیپ خاص آسم به‌خصوص مفیدند."
+  },
+  {
+    "id": "ph-respiratory-4",
+    "topicId": "ipratropium",
+    "category": "Respiratory",
+    "question_fa": "مکانیسم اصلی ایپراتروپیوم در COPD کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آنتاگونیست گیرنده‌ی موسکارینی (آنتی‌کولینرژیک)",
+        "text_en": "Muscarinic receptor antagonist"
+      },
+      {
+        "id": "b",
+        "text_fa": "آگونیست بتا-۲ آدرنرژیک",
+        "text_en": "Beta-2 agonist"
+      },
+      {
+        "id": "c",
+        "text_fa": "مهارکننده‌ی فسفودی‌استراز",
+        "text_en": "Phosphodiesterase inhibitor"
+      },
+      {
+        "id": "d",
+        "text_fa": "آنتاگونیست لکوترین",
+        "text_en": "Leukotriene antagonist"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "ایپراتروپیوم آنتاگونیست گیرنده‌ی موسکارینی است که با مهار اثر برونکوکانستریکتیو استیل‌کولین، باعث برونکودیلاتاسیون می‌شود؛ مکمل مناسبی برای آگونیست‌های بتا در COPD است."
+  },
+  {
+    "id": "ph-gi-3",
+    "topicId": "metoclopramide",
+    "category": "GI",
+    "question_fa": "زن جوانی پس از یک دوز متوکلوپرامید برای تهوع، دچار اسپاسم گردنی شدید و چرخش چشم شده است. علت این واکنش چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آنتاگونیسم دوپامین مرکزی (دیستونی حاد، شبیه آنتی‌سایکوتیک‌ها)",
+        "text_en": "Central dopamine antagonism causing acute dystonia"
+      },
+      {
+        "id": "b",
+        "text_fa": "واکنش آلرژیک IgE",
+        "text_en": "IgE allergic reaction"
+      },
+      {
+        "id": "c",
+        "text_fa": "اثر آنتی‌کولینرژیک",
+        "text_en": "Anticholinergic effect"
+      },
+      {
+        "id": "d",
+        "text_fa": "هیپوگلیسمی",
+        "text_en": "Hypoglycemia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "متوکلوپرامید آنتاگونیست دوپامین مرکزی است و می‌تواند مثل آنتی‌سایکوتیک‌های تیپیک واکنش‌های اکستراپیرامیدال (دیستونی حاد) ایجاد کند، به‌خصوص در زنان جوان."
+  },
+  {
+    "id": "ph-gi-4",
+    "topicId": "ondansetron",
+    "category": "GI",
+    "question_fa": "کدام عارضه‌ی قلبی باید پیش از تجویز دوز بالای اوندانسترون وریدی در نظر گرفته شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "طولانی‌شدن فاصله‌ی QT",
+        "text_en": "QT prolongation"
+      },
+      {
+        "id": "b",
+        "text_fa": "برادی‌کاردی شدید",
+        "text_en": "Severe bradycardia"
+      },
+      {
+        "id": "c",
+        "text_fa": "بلوک کامل قلبی فوری",
+        "text_en": "Immediate complete heart block"
+      },
+      {
+        "id": "d",
+        "text_fa": "هیچ خطر قلبی شناخته‌شده‌ای ندارد",
+        "text_en": "No known cardiac risk"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اوندانسترون می‌تواند فاصله‌ی QT را وابسته به دوز طولانی کند؛ در بیماران با ریسک‌فاکتور آریتمی یا مصرف هم‌زمان سایر داروهای طولانی‌کننده‌ی QT باید با احتیاط استفاده شود."
+  },
+  {
+    "id": "ph-anticoagulants-3",
+    "topicId": "clopidogrel",
+    "category": "Anticoagulants",
+    "question_fa": "بیماری پس از قرارگیری استنت کرونری تحت درمان با کلوپیدوگرل، هم‌زمان امپرازول هم دریافت می‌کند. این ترکیب چه خطری دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "امپرازول می‌تواند فعال‌سازی متابولیک کلوپیدوگرل (CYP2C19) را مهار و اثر ضدپلاکتی را کم کند",
+        "text_en": "Omeprazole inhibits CYP2C19 activation of clopidogrel"
+      },
+      {
+        "id": "b",
+        "text_fa": "بدون تداخل قابل‌توجه",
+        "text_en": "No significant interaction"
+      },
+      {
+        "id": "c",
+        "text_fa": "امپرازول اثر کلوپیدوگرل را تشدید می‌کند",
+        "text_en": "Omeprazole enhances clopidogrel effect"
+      },
+      {
+        "id": "d",
+        "text_fa": "افزایش خطر خون‌ریزی فوری",
+        "text_en": "Immediate increased bleeding risk"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کلوپیدوگرل پیش‌داروست و باید توسط CYP2C19 به فرم فعال تبدیل شود؛ امپرازول این آنزیم را مهار می‌کند و می‌تواند اثربخشی ضدپلاکتی کلوپیدوگرل را کاهش دهد، به‌خصوص پس از استنت‌گذاری خطرناک است."
+  },
+  {
+    "id": "ph-anticoagulants-4",
+    "topicId": "heparin",
+    "category": "Anticoagulants",
+    "question_fa": "کدام دارو به‌عنوان آنتی‌دوت اختصاصی مسمومیت با هپارین استفاده می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پروتامین سولفات",
+        "text_en": "Protamine sulfate"
+      },
+      {
+        "id": "b",
+        "text_fa": "ویتامین K",
+        "text_en": "Vitamin K"
+      },
+      {
+        "id": "c",
+        "text_fa": "ایدوروسیزوماب",
+        "text_en": "Idarucizumab"
+      },
+      {
+        "id": "d",
+        "text_fa": "فیتومنادیون خوراکی",
+        "text_en": "Oral phytomenadione"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پروتامین سولفات با اتصال به هپارین (که بار منفی دارد) از طریق برهم‌کنش الکترواستاتیک آن را خنثی می‌کند؛ ویتامین K آنتی‌دوت وارفارین است، نه هپارین."
+  },
+  {
+    "id": "ph-immunosuppressantantineoplastic-3",
+    "topicId": "methotrexate",
+    "category": "Immunosuppressant/Antineoplastic",
+    "question_fa": "بیمار تحت درمان طولانی‌مدت با متوترکسات هفتگی برای پسوریازیس، با سرفه‌ی خشک و تنگی نفس پیشرونده مراجعه می‌کند. کدام عارضه‌ی ریوی باید مطرح شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پنومونیت ناشی از متوترکسات",
+        "text_en": "Methotrexate-induced pneumonitis"
+      },
+      {
+        "id": "b",
+        "text_fa": "آمبولی ریوی حتماً",
+        "text_en": "Definitely pulmonary embolism"
+      },
+      {
+        "id": "c",
+        "text_fa": "آسم آلرژیک جدید",
+        "text_en": "New allergic asthma"
+      },
+      {
+        "id": "d",
+        "text_fa": "بدون ارتباط با دارو",
+        "text_en": "Unrelated to drug"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "متوترکسات می‌تواند پنومونیت حساسیتی نادر ولی مهم ایجاد کند که با سرفه‌ی خشک و تنگی نفس پیشرونده تظاهر می‌کند و نیاز به قطع فوری دارو دارد."
+  },
+  {
+    "id": "ph-anesthetics-3",
+    "topicId": "propofol",
+    "category": "Anesthetics",
+    "question_fa": "بیمار ICU تحت انفوزیون طولانی‌مدت دوز بالای پروپوفول، دچار اسیدوز متابولیک، ریابدومیولیز و نارسایی قلبی ناگهانی می‌شود. این سندرم چه نام دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سندرم انفوزیون پروپوفول",
+        "text_en": "Propofol infusion syndrome"
+      },
+      {
+        "id": "b",
+        "text_fa": "هیپرترمی بدخیم",
+        "text_en": "Malignant hyperthermia"
+      },
+      {
+        "id": "c",
+        "text_fa": "سندرم سروتونین",
+        "text_en": "Serotonin syndrome"
+      },
+      {
+        "id": "d",
+        "text_fa": "بحران تیروتوکسیک",
+        "text_en": "Thyroid storm"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "سندرم انفوزیون پروپوفول یک عارضه‌ی نادر ولی کشنده‌ی انفوزیون طولانی‌مدت دوز بالا (به‌خصوص در ICU) است که با اسیدوز متابولیک، ریابدومیولیز، و نارسایی قلبی تظاهر می‌کند."
+  },
+  {
+    "id": "ph-antiparasitic-3",
+    "topicId": "albendazole",
+    "category": "Antiparasitic",
+    "question_fa": "آلبندازول در درمان کدام عفونت انگلی کیستیک کبدی/ریوی استفاده می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "اکینوکوکوزیس (کیست هیداتید)",
+        "text_en": "Echinococcosis (hydatid cyst)"
+      },
+      {
+        "id": "b",
+        "text_fa": "مالاریا",
+        "text_en": "Malaria"
+      },
+      {
+        "id": "c",
+        "text_fa": "توکسوپلاسموز",
+        "text_en": "Toxoplasmosis"
+      },
+      {
+        "id": "d",
+        "text_fa": "لیشمانیوز",
+        "text_en": "Leishmaniasis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آلبندازول برای درمان اکینوکوکوزیس (کیست هیداتید ناشی از Echinococcus) استفاده می‌شود؛ معمولاً قبل و بعد از تخلیه‌ی کیست یا به‌تنهایی در موارد غیرقابل‌جراحی تجویز می‌شود."
   }
 ]

@@ -5,10 +5,26 @@
     "category": "General Pathology",
     "question_fa": "بیمار مبتلا به سل ریوی، بیوپسی غدد لنفاوی نکروزی با ظاهر «پنیری» نشان می‌دهد. این الگوی نکروز کدام است؟",
     "options": [
-      { "id": "a", "text_fa": "نکروز انعقادی", "text_en": "Coagulative necrosis" },
-      { "id": "b", "text_fa": "نکروز کازئوز", "text_en": "Caseous necrosis" },
-      { "id": "c", "text_fa": "نکروز چربی", "text_en": "Fat necrosis" },
-      { "id": "d", "text_fa": "نکروز فیبرینوئید", "text_en": "Fibrinoid necrosis" }
+      {
+        "id": "a",
+        "text_fa": "نکروز انعقادی",
+        "text_en": "Coagulative necrosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "نکروز کازئوز",
+        "text_en": "Caseous necrosis"
+      },
+      {
+        "id": "c",
+        "text_fa": "نکروز چربی",
+        "text_en": "Fat necrosis"
+      },
+      {
+        "id": "d",
+        "text_fa": "نکروز فیبرینوئید",
+        "text_en": "Fibrinoid necrosis"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "نکروز کازئوز مشخصه‌ی عفونت‌های گرانولوماتوز مانند سل است؛ ترکیبی از ویژگی‌های نکروز انعقادی و لیکوفکتیو با ظاهر ماکروسکوپیک شبیه پنیر نرم است."
@@ -19,10 +35,26 @@
     "category": "General Pathology",
     "question_fa": "بیمار با آرتریت روماتوئید مزمن چندساله، اخیراً پروتئینوری جدید پیدا کرده است. بیوپسی کلیه با رنگ کنگو رد دو‌رنگ‌نمایی سبز-سیب نشان می‌دهد. تشخیص چیست؟",
     "options": [
-      { "id": "a", "text_fa": "آمیلوئیدوز ثانویه (AA)", "text_en": "Secondary (AA) amyloidosis" },
-      { "id": "b", "text_fa": "گلومرولونفریت پس از استرپتوکوک", "text_en": "Post-streptococcal GN" },
-      { "id": "c", "text_fa": "نفروپاتی دیابتی", "text_en": "Diabetic nephropathy" },
-      { "id": "d", "text_fa": "پیلونفریت حاد", "text_en": "Acute pyelonephritis" }
+      {
+        "id": "a",
+        "text_fa": "آمیلوئیدوز ثانویه (AA)",
+        "text_en": "Secondary (AA) amyloidosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "گلومرولونفریت پس از استرپتوکوک",
+        "text_en": "Post-streptococcal GN"
+      },
+      {
+        "id": "c",
+        "text_fa": "نفروپاتی دیابتی",
+        "text_en": "Diabetic nephropathy"
+      },
+      {
+        "id": "d",
+        "text_fa": "پیلونفریت حاد",
+        "text_en": "Acute pyelonephritis"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "التهاب مزمن طولانی‌مدت (مثل آرتریت روماتوئید) باعث رسوب پروتئین واکنش‌گر فاز حاد سرمی (SAA) به شکل آمیلوئید AA می‌شود؛ دو‌رنگ‌نمایی سبز-سیب با کنگو رد تأییدکننده‌ی آمیلوئید است."
@@ -33,10 +65,26 @@
     "category": "Cardiovascular",
     "question_fa": "مرد ۶۰ ساله‌ی سیگاری با درد قفسه‌ی سینه فعالیتی، آنژیوگرافی پلاک‌های نامنظم در عروق کرونری نشان می‌دهد. کدام سلول در مرکز تشکیل پلاک آتروم نقش کلیدی دارد؟",
     "options": [
-      { "id": "a", "text_fa": "سلول فوم (ماکروفاژ پرشده از لیپید)", "text_en": "Foam cell (lipid-laden macrophage)" },
-      { "id": "b", "text_fa": "سلول پلاسما", "text_en": "Plasma cell" },
-      { "id": "c", "text_fa": "ائوزینوفیل", "text_en": "Eosinophil" },
-      { "id": "d", "text_fa": "مگاکاریوسیت", "text_en": "Megakaryocyte" }
+      {
+        "id": "a",
+        "text_fa": "سلول فوم (ماکروفاژ پرشده از لیپید)",
+        "text_en": "Foam cell (lipid-laden macrophage)"
+      },
+      {
+        "id": "b",
+        "text_fa": "سلول پلاسما",
+        "text_en": "Plasma cell"
+      },
+      {
+        "id": "c",
+        "text_fa": "ائوزینوفیل",
+        "text_en": "Eosinophil"
+      },
+      {
+        "id": "d",
+        "text_fa": "مگاکاریوسیت",
+        "text_en": "Megakaryocyte"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "ماکروفاژهایی که LDL اکسیدشده را بلعیده‌اند به سلول فوم تبدیل می‌شوند که هسته‌ی چربی پلاک آتروماتو را تشکیل می‌دهند؛ این سلول‌ها نقش محوری در پاتوژنز آترواسکلروز دارند."
@@ -47,10 +95,26 @@
     "category": "Cardiovascular",
     "question_fa": "کودک ۸ ساله ۳ هفته پس از فارنژیت استرپتوکوکی درمان‌نشده، با تب، آرتریت مهاجر، و سوفل قلبی جدید مراجعه می‌کند. مکانیسم اصلی آسیب قلبی در این بیماری چیست؟",
     "options": [
-      { "id": "a", "text_fa": "تهاجم مستقیم باکتری به دریچه‌ی قلب", "text_en": "Direct bacterial invasion of valve" },
-      { "id": "b", "text_fa": "واکنش متقاطع آنتی‌بادی ضد استرپتوکوک با آنتی‌ژن‌های قلبی", "text_en": "Molecular mimicry / cross-reactive antibodies" },
-      { "id": "c", "text_fa": "آمبولی سپتیک از دریچه", "text_en": "Septic embolism from valve" },
-      { "id": "d", "text_fa": "رسوب مستقیم کمپلکس ایمنی بدون واکنش متقاطع", "text_en": "Direct immune complex deposition" }
+      {
+        "id": "a",
+        "text_fa": "تهاجم مستقیم باکتری به دریچه‌ی قلب",
+        "text_en": "Direct bacterial invasion of valve"
+      },
+      {
+        "id": "b",
+        "text_fa": "واکنش متقاطع آنتی‌بادی ضد استرپتوکوک با آنتی‌ژن‌های قلبی",
+        "text_en": "Molecular mimicry / cross-reactive antibodies"
+      },
+      {
+        "id": "c",
+        "text_fa": "آمبولی سپتیک از دریچه",
+        "text_en": "Septic embolism from valve"
+      },
+      {
+        "id": "d",
+        "text_fa": "رسوب مستقیم کمپلکس ایمنی بدون واکنش متقاطع",
+        "text_en": "Direct immune complex deposition"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "تب روماتیسمی حاد ناشی از واکنش متقاطع (مولکولار میمیکری) آنتی‌بادی‌های ضد M-پروتئین استرپتوکوک با آنتی‌ژن‌های میوکارد و دریچه‌ی قلب است، نه تهاجم مستقیم باکتری."
@@ -61,10 +125,26 @@
     "category": "Respiratory",
     "question_fa": "مرد ۲۸ ساله‌ی غیرسیگاری با تنگی نفس پیشرونده، اسپیرومتری الگوی انسدادی و تصویربرداری آمفیزم پایه‌ی ریه (نه راس) نشان می‌دهد. کدام بررسی باید انجام شود؟",
     "options": [
-      { "id": "a", "text_fa": "سطح آلفا-۱-آنتی‌تریپسین", "text_en": "Alpha-1 antitrypsin level" },
-      { "id": "b", "text_fa": "آنتی‌بادی ضد GBM", "text_en": "Anti-GBM antibody" },
-      { "id": "c", "text_fa": "سطح IgE", "text_en": "IgE level" },
-      { "id": "d", "text_fa": "بیوپسی غدد لنفاوی", "text_en": "Lymph node biopsy" }
+      {
+        "id": "a",
+        "text_fa": "سطح آلفا-۱-آنتی‌تریپسین",
+        "text_en": "Alpha-1 antitrypsin level"
+      },
+      {
+        "id": "b",
+        "text_fa": "آنتی‌بادی ضد GBM",
+        "text_en": "Anti-GBM antibody"
+      },
+      {
+        "id": "c",
+        "text_fa": "سطح IgE",
+        "text_en": "IgE level"
+      },
+      {
+        "id": "d",
+        "text_fa": "بیوپسی غدد لنفاوی",
+        "text_en": "Lymph node biopsy"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "آمفیزم در فرد جوان غیرسیگاری با توزیع پایه‌ی ریه (نه الگوی معمول راسی سیگاری‌ها) باید کمبود آلفا-۱-آنتی‌تریپسین را مطرح کند."
@@ -75,10 +155,26 @@
     "category": "Respiratory",
     "question_fa": "بیمار ۵ روز پس از جراحی ارتوپدی بزرگ، با تنگی نفس ناگهانی و درد قفسه‌ی سینه مراجعه می‌کند. کدام منشأ شایع‌ترین علت این تظاهر است؟",
     "options": [
-      { "id": "a", "text_fa": "ترومبوز ورید عمقی پا", "text_en": "Deep vein thrombosis of the leg" },
-      { "id": "b", "text_fa": "آمبولی چربی از مغز استخوان", "text_en": "Fat embolism from bone marrow" },
-      { "id": "c", "text_fa": "آمبولی هوا", "text_en": "Air embolism" },
-      { "id": "d", "text_fa": "آمبولی مایع آمنیوتیک", "text_en": "Amniotic fluid embolism" }
+      {
+        "id": "a",
+        "text_fa": "ترومبوز ورید عمقی پا",
+        "text_en": "Deep vein thrombosis of the leg"
+      },
+      {
+        "id": "b",
+        "text_fa": "آمبولی چربی از مغز استخوان",
+        "text_en": "Fat embolism from bone marrow"
+      },
+      {
+        "id": "c",
+        "text_fa": "آمبولی هوا",
+        "text_en": "Air embolism"
+      },
+      {
+        "id": "d",
+        "text_fa": "آمبولی مایع آمنیوتیک",
+        "text_en": "Amniotic fluid embolism"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "بیش از ۹۵٪ آمبولی‌های ریوی از ترومبوز ورید عمقی اندام تحتانی منشأ می‌گیرند، به‌خصوص پس از جراحی بزرگ ارتوپدی با بی‌حرکتی طولانی."
@@ -89,10 +185,26 @@
     "category": "GI",
     "question_fa": "بیمار با اسهال خونی محدود به رکتوم و کولون که به‌صورت منتشر و مداوم (بدون نواحی سالم بینابینی) درگیر است، کدام بیماری را مطرح می‌کند؟",
     "options": [
-      { "id": "a", "text_fa": "بیماری کرون", "text_en": "Crohn disease" },
-      { "id": "b", "text_fa": "کولیت اولسراتیو", "text_en": "Ulcerative colitis" },
-      { "id": "c", "text_fa": "بیماری سلیاک", "text_en": "Celiac disease" },
-      { "id": "d", "text_fa": "ایسکمی روده", "text_en": "Bowel ischemia" }
+      {
+        "id": "a",
+        "text_fa": "بیماری کرون",
+        "text_en": "Crohn disease"
+      },
+      {
+        "id": "b",
+        "text_fa": "کولیت اولسراتیو",
+        "text_en": "Ulcerative colitis"
+      },
+      {
+        "id": "c",
+        "text_fa": "بیماری سلیاک",
+        "text_en": "Celiac disease"
+      },
+      {
+        "id": "d",
+        "text_fa": "ایسکمی روده",
+        "text_en": "Bowel ischemia"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "کولیت اولسراتیو همیشه از رکتوم شروع و به‌صورت منتشر و مداوم (بدون skip lesion) به سمت پروگزیمال کولون پیش می‌رود؛ این الگو آن را از بیماری کرون (که می‌تواند هر بخش لوله‌ی گوارش را با نواحی سالم بینابینی درگیر کند) افتراق می‌دهد."
@@ -103,10 +215,26 @@
     "category": "GI",
     "question_fa": "کودک با اسهال چرب مزمن، نفخ، و عقب‌ماندگی رشد، بیوپسی روده‌ی کوچک آتروفی پرز و هیپرپلازی کریپت نشان می‌دهد. کدام آنتی‌بادی برای تأیید تشخیص بیشترین کمک را می‌کند؟",
     "options": [
-      { "id": "a", "text_fa": "آنتی‌بادی ضد ترانس‌گلوتامیناز بافتی (tTG)", "text_en": "Anti-tissue transglutaminase" },
-      { "id": "b", "text_fa": "آنتی‌بادی ضد GAD", "text_en": "Anti-GAD" },
-      { "id": "c", "text_fa": "آنتی‌بادی ضد TPO", "text_en": "Anti-TPO" },
-      { "id": "d", "text_fa": "آنتی‌بادی ضد دسموگلئین", "text_en": "Anti-desmoglein" }
+      {
+        "id": "a",
+        "text_fa": "آنتی‌بادی ضد ترانس‌گلوتامیناز بافتی (tTG)",
+        "text_en": "Anti-tissue transglutaminase"
+      },
+      {
+        "id": "b",
+        "text_fa": "آنتی‌بادی ضد GAD",
+        "text_en": "Anti-GAD"
+      },
+      {
+        "id": "c",
+        "text_fa": "آنتی‌بادی ضد TPO",
+        "text_en": "Anti-TPO"
+      },
+      {
+        "id": "d",
+        "text_fa": "آنتی‌بادی ضد دسموگلئین",
+        "text_en": "Anti-desmoglein"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "آنتی‌بادی ضد ترانس‌گلوتامیناز بافتی (anti-tTG IgA) حساس‌ترین و اختصاصی‌ترین تست سرولوژیک برای بیماری سلیاک است؛ تشخیص نهایی با بیوپسی روده‌ی کوچک تأیید می‌شود."
@@ -117,10 +245,26 @@
     "category": "Hepatobiliary",
     "question_fa": "بیمار با درد شدید اپی‌گاستر منتشر به پشت، تهوع، و افزایش لیپاز سرم ۵ برابر حد بالا مراجعه کرده است. شایع‌ترین دو علت این تظاهر در بالغین چیست؟",
     "options": [
-      { "id": "a", "text_fa": "سنگ کیسه‌صفرا و الکل", "text_en": "Gallstones and alcohol" },
-      { "id": "b", "text_fa": "تروما و عفونت ویروسی", "text_en": "Trauma and viral infection" },
-      { "id": "c", "text_fa": "هیپرکلسمی و داروها", "text_en": "Hypercalcemia and drugs" },
-      { "id": "d", "text_fa": "اتوایمیون و ژنتیک", "text_en": "Autoimmune and genetic" }
+      {
+        "id": "a",
+        "text_fa": "سنگ کیسه‌صفرا و الکل",
+        "text_en": "Gallstones and alcohol"
+      },
+      {
+        "id": "b",
+        "text_fa": "تروما و عفونت ویروسی",
+        "text_en": "Trauma and viral infection"
+      },
+      {
+        "id": "c",
+        "text_fa": "هیپرکلسمی و داروها",
+        "text_en": "Hypercalcemia and drugs"
+      },
+      {
+        "id": "d",
+        "text_fa": "اتوایمیون و ژنتیک",
+        "text_en": "Autoimmune and genetic"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "سنگ کیسه‌صفرا و مصرف الکل دو علت اصلی پانکراتیت حاد در بالغین هستند و با هم بیشتر موارد را تشکیل می‌دهند."
@@ -131,10 +275,26 @@
     "category": "Hepatobiliary",
     "question_fa": "زن سالمندی با سابقه‌ی سنگ کیسه‌صفرای طولانی‌مدت، در سونوگرافی کلسیفیکاسیون کامل دیواره‌ی کیسه‌صفرا (پرسلانی) دارد. این یافته نشانه‌ی افزایش خطر چیست؟",
     "options": [
-      { "id": "a", "text_fa": "کارسینوم کیسه‌صفرا", "text_en": "Gallbladder carcinoma" },
-      { "id": "b", "text_fa": "هپاتیت خودایمنی", "text_en": "Autoimmune hepatitis" },
-      { "id": "c", "text_fa": "سیروز صفراوی اولیه", "text_en": "Primary biliary cirrhosis" },
-      { "id": "d", "text_fa": "کیست کبدی ساده", "text_en": "Simple hepatic cyst" }
+      {
+        "id": "a",
+        "text_fa": "کارسینوم کیسه‌صفرا",
+        "text_en": "Gallbladder carcinoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "هپاتیت خودایمنی",
+        "text_en": "Autoimmune hepatitis"
+      },
+      {
+        "id": "c",
+        "text_fa": "سیروز صفراوی اولیه",
+        "text_en": "Primary biliary cirrhosis"
+      },
+      {
+        "id": "d",
+        "text_fa": "کیست کبدی ساده",
+        "text_en": "Simple hepatic cyst"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "کیسه‌صفرای پرسلانی (کلسیفیه) به‌علت التهاب مزمن طولانی‌مدت ریسک‌فاکتور مهمی برای کارسینوم کیسه‌صفراست و معمولاً اندیکاسیون کوله‌سیستکتومی پروفیلاکتیک است."
@@ -145,10 +305,26 @@
     "category": "Renal",
     "question_fa": "کودک ۴ ساله با ادم منتشر و پروتئینوری شدید، بیوپسی کلیه گلومرول طبیعی در میکروسکوپ نوری نشان می‌دهد. شایع‌ترین تشخیص و درمان اولیه‌ی آن چیست؟",
     "options": [
-      { "id": "a", "text_fa": "بیماری مینیمال چنج، پاسخ خوب به کورتیکواستروئید", "text_en": "Minimal change disease, responds to steroids" },
-      { "id": "b", "text_fa": "گلومرولواسکلروز فوکال سگمنتال، نیاز به دیالیز فوری", "text_en": "FSGS, needs immediate dialysis" },
-      { "id": "c", "text_fa": "نفروپاتی ممبرانوس، نیاز به پیوند کلیه", "text_en": "Membranous nephropathy, needs transplant" },
-      { "id": "d", "text_fa": "گلومرولونفریت پس از استرپتوکوک", "text_en": "Post-streptococcal GN" }
+      {
+        "id": "a",
+        "text_fa": "بیماری مینیمال چنج، پاسخ خوب به کورتیکواستروئید",
+        "text_en": "Minimal change disease, responds to steroids"
+      },
+      {
+        "id": "b",
+        "text_fa": "گلومرولواسکلروز فوکال سگمنتال، نیاز به دیالیز فوری",
+        "text_en": "FSGS, needs immediate dialysis"
+      },
+      {
+        "id": "c",
+        "text_fa": "نفروپاتی ممبرانوس، نیاز به پیوند کلیه",
+        "text_en": "Membranous nephropathy, needs transplant"
+      },
+      {
+        "id": "d",
+        "text_fa": "گلومرولونفریت پس از استرپتوکوک",
+        "text_en": "Post-streptococcal GN"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "بیماری مینیمال چنج شایع‌ترین علت سندرم نفروتیک در کودکان است؛ گلومرول در میکروسکوپ نوری طبیعی به‌نظر می‌رسد (آسیب فقط در EM دیده می‌شود) و معمولاً به‌سرعت به کورتیکواستروئید پاسخ می‌دهد."
@@ -159,10 +335,26 @@
     "category": "Renal",
     "question_fa": "کودک ۳ ساله توسط مادرش با یک توده‌ی شکمی بدون علامت مراجعه می‌کند. کدام تومور بیشترین احتمال را در این سن دارد؟",
     "options": [
-      { "id": "a", "text_fa": "تومور ویلمز", "text_en": "Wilms tumor" },
-      { "id": "b", "text_fa": "کارسینوم سلول کلیوی", "text_en": "Renal cell carcinoma" },
-      { "id": "c", "text_fa": "آنژیومیولیپوم", "text_en": "Angiomyolipoma" },
-      { "id": "d", "text_fa": "کارسینوم اوروتلیال", "text_en": "Urothelial carcinoma" }
+      {
+        "id": "a",
+        "text_fa": "تومور ویلمز",
+        "text_en": "Wilms tumor"
+      },
+      {
+        "id": "b",
+        "text_fa": "کارسینوم سلول کلیوی",
+        "text_en": "Renal cell carcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "آنژیومیولیپوم",
+        "text_en": "Angiomyolipoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "کارسینوم اوروتلیال",
+        "text_en": "Urothelial carcinoma"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "تومور ویلمز شایع‌ترین تومور بدخیم اولیه‌ی کلیه در کودکان است (پیک سنی ۲ تا ۵ سالگی) و کلاسیک‌ترین تظاهر آن توده‌ی شکمی بدون علامت است."
@@ -173,10 +365,26 @@
     "category": "Endocrine",
     "question_fa": "نوجوان ۱۴ ساله با کاهش وزن سریع، پرنوشی، و کتواسیدوز دیابتی مراجعه می‌کند. آنتی‌بادی ضد GAD مثبت و C-پپتید پایین است. مکانیسم اصلی این بیماری چیست؟",
     "options": [
-      { "id": "a", "text_fa": "مقاومت محیطی به انسولین", "text_en": "Peripheral insulin resistance" },
-      { "id": "b", "text_fa": "تخریب خودایمنی سلول‌های بتای جزیره", "text_en": "Autoimmune destruction of beta cells" },
-      { "id": "c", "text_fa": "تومور ترشح‌کننده‌ی گلوکاگون", "text_en": "Glucagon-secreting tumor" },
-      { "id": "d", "text_fa": "کمبود مزمن ویتامین D", "text_en": "Chronic vitamin D deficiency" }
+      {
+        "id": "a",
+        "text_fa": "مقاومت محیطی به انسولین",
+        "text_en": "Peripheral insulin resistance"
+      },
+      {
+        "id": "b",
+        "text_fa": "تخریب خودایمنی سلول‌های بتای جزیره",
+        "text_en": "Autoimmune destruction of beta cells"
+      },
+      {
+        "id": "c",
+        "text_fa": "تومور ترشح‌کننده‌ی گلوکاگون",
+        "text_en": "Glucagon-secreting tumor"
+      },
+      {
+        "id": "d",
+        "text_fa": "کمبود مزمن ویتامین D",
+        "text_en": "Chronic vitamin D deficiency"
+      }
     ],
     "correctOptionId": "b",
     "explanation_fa": "دیابت نوع ۱ ناشی از تخریب خودایمنی سلول‌های بتای جزایر لانگرهانس است؛ C-پپتید پایین (نشانگر تولید داخلی کم انسولین) و GAD مثبت این تشخیص را تأیید می‌کنند، برخلاف نوع ۲ که مقاومت انسولینی غالب است."
@@ -187,10 +395,26 @@
     "category": "Endocrine",
     "question_fa": "زن ۳۵ ساله با گواتر بدون درد و علائم کم‌کاری تیروئید، بیوپسی نفوذ لنفوسیتی متراکم با مراکز ژرمینال نشان می‌دهد. تشخیص چیست؟",
     "options": [
-      { "id": "a", "text_fa": "تیروئیدیت هاشیموتو", "text_en": "Hashimoto thyroiditis" },
-      { "id": "b", "text_fa": "بیماری گریوز", "text_en": "Graves disease" },
-      { "id": "c", "text_fa": "گواتر مولتی‌ندولار سمی", "text_en": "Toxic multinodular goiter" },
-      { "id": "d", "text_fa": "تیروئیدیت دو کرواین (تحت‌حاد)", "text_en": "Subacute (de Quervain) thyroiditis" }
+      {
+        "id": "a",
+        "text_fa": "تیروئیدیت هاشیموتو",
+        "text_en": "Hashimoto thyroiditis"
+      },
+      {
+        "id": "b",
+        "text_fa": "بیماری گریوز",
+        "text_en": "Graves disease"
+      },
+      {
+        "id": "c",
+        "text_fa": "گواتر مولتی‌ندولار سمی",
+        "text_en": "Toxic multinodular goiter"
+      },
+      {
+        "id": "d",
+        "text_fa": "تیروئیدیت دو کرواین (تحت‌حاد)",
+        "text_en": "Subacute (de Quervain) thyroiditis"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "نفوذ لنفوسیتی با مراکز ژرمینال و علائم کم‌کاری تیروئید یافته‌ی کلاسیک تیروئیدیت هاشیموتو، شایع‌ترین علت هیپوتیروئیدی در مناطق با ید کافی است."
@@ -201,10 +425,26 @@
     "category": "Hematologic & Lymphoid",
     "question_fa": "مرد ۲۵ ساله با لنفادنوپاتی گردنی بدون درد و تعریق شبانه، بیوپسی سلول‌های غول‌پیکر دوهسته‌ای با هسته‌ی به‌شکل «چشم جغد» نشان می‌دهد. تشخیص چیست؟",
     "options": [
-      { "id": "a", "text_fa": "لنفوم هوچکین (سلول رید-اشتنبرگ)", "text_en": "Hodgkin lymphoma (Reed-Sternberg cell)" },
-      { "id": "b", "text_fa": "لنفوم بورکیت", "text_en": "Burkitt lymphoma" },
-      { "id": "c", "text_fa": "لوسمی لنفوسیتی مزمن", "text_en": "Chronic lymphocytic leukemia" },
-      { "id": "d", "text_fa": "میلوم مولتیپل", "text_en": "Multiple myeloma" }
+      {
+        "id": "a",
+        "text_fa": "لنفوم هوچکین (سلول رید-اشتنبرگ)",
+        "text_en": "Hodgkin lymphoma (Reed-Sternberg cell)"
+      },
+      {
+        "id": "b",
+        "text_fa": "لنفوم بورکیت",
+        "text_en": "Burkitt lymphoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "لوسمی لنفوسیتی مزمن",
+        "text_en": "Chronic lymphocytic leukemia"
+      },
+      {
+        "id": "d",
+        "text_fa": "میلوم مولتیپل",
+        "text_en": "Multiple myeloma"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "سلول رید-اشتنبرگ (دوهسته‌ای با ظاهر چشم جغد) یافته‌ی پاتولوژیک تعیین‌کننده‌ی لنفوم هوچکین است."
@@ -215,10 +455,26 @@
     "category": "Hematologic & Lymphoid",
     "question_fa": "مرد ۶۸ ساله با کمردرد، نارسایی کلیه، کم‌خونی، و هیپرکلسمی مراجعه می‌کند. الکتروفورز پروتئین سرم یک پیک مونوکلونال (M-spike) نشان می‌دهد. تشخیص چیست؟",
     "options": [
-      { "id": "a", "text_fa": "میلوم مولتیپل", "text_en": "Multiple myeloma" },
-      { "id": "b", "text_fa": "لنفوم فولیکولار", "text_en": "Follicular lymphoma" },
-      { "id": "c", "text_fa": "لوسمی میلوئید حاد", "text_en": "Acute myeloid leukemia" },
-      { "id": "d", "text_fa": "آنمی فقر آهن", "text_en": "Iron deficiency anemia" }
+      {
+        "id": "a",
+        "text_fa": "میلوم مولتیپل",
+        "text_en": "Multiple myeloma"
+      },
+      {
+        "id": "b",
+        "text_fa": "لنفوم فولیکولار",
+        "text_en": "Follicular lymphoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "لوسمی میلوئید حاد",
+        "text_en": "Acute myeloid leukemia"
+      },
+      {
+        "id": "d",
+        "text_fa": "آنمی فقر آهن",
+        "text_en": "Iron deficiency anemia"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "یادگار CRAB (Calcium بالا، Renal insufficiency، Anemia، Bone lesions) همراه با M-spike مونوکلونال، تظاهر کلاسیک میلوم مولتیپل است."
@@ -229,10 +485,26 @@
     "category": "Musculoskeletal",
     "question_fa": "نوجوان ۱۲ ساله با درد و تورم دیافیز فمور و تب خفیف، تصویربرداری الگوی لایه‌لایه‌ی «پوست پیاز» نشان می‌دهد. تشخیص احتمالی چیست؟",
     "options": [
-      { "id": "a", "text_fa": "سارکوم یووینگ", "text_en": "Ewing sarcoma" },
-      { "id": "b", "text_fa": "استئوسارکوم", "text_en": "Osteosarcoma" },
-      { "id": "c", "text_fa": "استئومیلیت باکتریایی به‌تنهایی", "text_en": "Bacterial osteomyelitis alone" },
-      { "id": "d", "text_fa": "کندروسارکوم", "text_en": "Chondrosarcoma" }
+      {
+        "id": "a",
+        "text_fa": "سارکوم یووینگ",
+        "text_en": "Ewing sarcoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "استئوسارکوم",
+        "text_en": "Osteosarcoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "استئومیلیت باکتریایی به‌تنهایی",
+        "text_en": "Bacterial osteomyelitis alone"
+      },
+      {
+        "id": "d",
+        "text_fa": "کندروسارکوم",
+        "text_en": "Chondrosarcoma"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "الگوی پوست‌پیازی پریوستئال در استخوان دیافیزی نوجوان همراه با تب خفیف، یافته‌ی کلاسیک سارکوم یووینگ است؛ باید از استئومیلیت افتراق داده شود."
@@ -243,10 +515,26 @@
     "category": "Musculoskeletal",
     "question_fa": "مرد ۷۰ ساله بدون علامت، در آزمایش روتین آلکالین فسفاتاز بسیار بالا با کلسیم و فسفر طبیعی دارد. کدام بیماری استخوانی بیشترین احتمال را دارد؟",
     "options": [
-      { "id": "a", "text_fa": "بیماری پاژه‌ی استخوان", "text_en": "Paget disease of bone" },
-      { "id": "b", "text_fa": "استئوپروز", "text_en": "Osteoporosis" },
-      { "id": "c", "text_fa": "استئومالاسی", "text_en": "Osteomalacia" },
-      { "id": "d", "text_fa": "هیپرپاراتیروئیدیسم اولیه", "text_en": "Primary hyperparathyroidism" }
+      {
+        "id": "a",
+        "text_fa": "بیماری پاژه‌ی استخوان",
+        "text_en": "Paget disease of bone"
+      },
+      {
+        "id": "b",
+        "text_fa": "استئوپروز",
+        "text_en": "Osteoporosis"
+      },
+      {
+        "id": "c",
+        "text_fa": "استئومالاسی",
+        "text_en": "Osteomalacia"
+      },
+      {
+        "id": "d",
+        "text_fa": "هیپرپاراتیروئیدیسم اولیه",
+        "text_en": "Primary hyperparathyroidism"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "افزایش ایزوله‌ی آلکالین فسفاتاز (با کلسیم/فسفر طبیعی) در سالمند بدون علامت، یافته‌ی کلاسیک بیماری پاژه‌ی استخوان است؛ در هیپرپاراتیروئیدیسم کلسیم نیز بالا می‌بود."
@@ -257,10 +545,26 @@
     "category": "Nervous System",
     "question_fa": "بیمار ۷۵ ساله با ضعف ناگهانی نیمه‌ی راست بدن و اختلال گفتاری مراجعه می‌کند. سی‌تی‌اسکن اولیه (۲ ساعت پس از شروع) طبیعی است. محتمل‌ترین یافته‌ی پاتولوژیک زمینه‌ای چیست؟",
     "options": [
-      { "id": "a", "text_fa": "انفارکت ایسکمیک مغزی حاد (هنوز در CT دیده نمی‌شود)", "text_en": "Acute ischemic infarct (not yet visible on CT)" },
-      { "id": "b", "text_fa": "خون‌ریزی ساب‌آراکنوئید", "text_en": "Subarachnoid hemorrhage" },
-      { "id": "c", "text_fa": "تومور مغزی اولیه", "text_en": "Primary brain tumor" },
-      { "id": "d", "text_fa": "مننژیت باکتریایی", "text_en": "Bacterial meningitis" }
+      {
+        "id": "a",
+        "text_fa": "انفارکت ایسکمیک مغزی حاد (هنوز در CT دیده نمی‌شود)",
+        "text_en": "Acute ischemic infarct (not yet visible on CT)"
+      },
+      {
+        "id": "b",
+        "text_fa": "خون‌ریزی ساب‌آراکنوئید",
+        "text_en": "Subarachnoid hemorrhage"
+      },
+      {
+        "id": "c",
+        "text_fa": "تومور مغزی اولیه",
+        "text_en": "Primary brain tumor"
+      },
+      {
+        "id": "d",
+        "text_fa": "مننژیت باکتریایی",
+        "text_en": "Bacterial meningitis"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "در ساعات اولیه‌ی سکته‌ی ایسکمیک، CT بدون کنتراست اغلب طبیعی به‌نظر می‌رسد چون تغییرات نکروزی هنوز به‌اندازه‌ی کافی پیشرفت نکرده‌اند؛ این یافته‌ی منفی کاذب نباید تشخیص را رد کند."
@@ -271,10 +575,26 @@
     "category": "Nervous System",
     "question_fa": "کودک ۶ ساله با سردرد صبحگاهی، استفراغ، و آتاکسی، MRI توده‌ی خط وسط مخچه (فضای چهارم بطن) نشان می‌دهد. شایع‌ترین تومور بدخیم مغزی کودکان در این موقعیت چیست؟",
     "options": [
-      { "id": "a", "text_fa": "مدولوبلاستوم", "text_en": "Medulloblastoma" },
-      { "id": "b", "text_fa": "گلیوبلاستوم مولتی‌فرم", "text_en": "Glioblastoma multiforme" },
-      { "id": "c", "text_fa": "مننژیوم", "text_en": "Meningioma" },
-      { "id": "d", "text_fa": "آدنوم هیپوفیز", "text_en": "Pituitary adenoma" }
+      {
+        "id": "a",
+        "text_fa": "مدولوبلاستوم",
+        "text_en": "Medulloblastoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "گلیوبلاستوم مولتی‌فرم",
+        "text_en": "Glioblastoma multiforme"
+      },
+      {
+        "id": "c",
+        "text_fa": "مننژیوم",
+        "text_en": "Meningioma"
+      },
+      {
+        "id": "d",
+        "text_fa": "آدنوم هیپوفیز",
+        "text_en": "Pituitary adenoma"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "مدولوبلاستوم شایع‌ترین تومور بدخیم مغزی کودکان است که معمولاً در خط وسط مخچه (ورمیس) ایجاد می‌شود و با انسداد بطن چهارم علائم هیدروسفالی (سردرد، استفراغ، آتاکسی) ایجاد می‌کند."
@@ -285,10 +605,26 @@
     "category": "Male Reproductive System",
     "question_fa": "مرد ۶۸ ساله با علائم انسداد ادراری (تأخیر در شروع ادرار، ضعف جریان، شب‌ادراری)، معاینه‌ی رکتال پروستات بزرگ، متقارن و لاستیکی نشان می‌دهد. تشخیص محتمل‌تر چیست؟",
     "options": [
-      { "id": "a", "text_fa": "هیپرپلازی خوش‌خیم پروستات (BPH)", "text_en": "Benign prostatic hyperplasia" },
-      { "id": "b", "text_fa": "کارسینوم پروستات", "text_en": "Prostate carcinoma" },
-      { "id": "c", "text_fa": "پروستاتیت حاد باکتریایی", "text_en": "Acute bacterial prostatitis" },
-      { "id": "d", "text_fa": "تورشن بیضه", "text_en": "Testicular torsion" }
+      {
+        "id": "a",
+        "text_fa": "هیپرپلازی خوش‌خیم پروستات (BPH)",
+        "text_en": "Benign prostatic hyperplasia"
+      },
+      {
+        "id": "b",
+        "text_fa": "کارسینوم پروستات",
+        "text_en": "Prostate carcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "پروستاتیت حاد باکتریایی",
+        "text_en": "Acute bacterial prostatitis"
+      },
+      {
+        "id": "d",
+        "text_fa": "تورشن بیضه",
+        "text_en": "Testicular torsion"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "BPH معمولاً ناحیه‌ی تحت‌مخاطی (انتقالی) پروستات را درگیر می‌کند و بزرگ‌شدن متقارن و لاستیکی ایجاد می‌کند؛ کارسینوم پروستات معمولاً ندول سخت و نامتقارن در زون محیطی ایجاد می‌کند."
@@ -299,10 +635,26 @@
     "category": "Male Reproductive System",
     "question_fa": "نوجوان ۱۵ ساله با درد بیضه‌ی شدید و ناگهانی، بیضه‌ی بالارفته و افقی، و فقدان رفلکس کرماستریک مراجعه می‌کند. فوری‌ترین اقدام چیست؟",
     "options": [
-      { "id": "a", "text_fa": "جراحی اورژانسی برای رفع تورشن", "text_en": "Emergency surgical detorsion" },
-      { "id": "b", "text_fa": "آنتی‌بیوتیک خوراکی و پیگیری سرپایی", "text_en": "Oral antibiotics, outpatient follow-up" },
-      { "id": "c", "text_fa": "سونوگرافی برنامه‌ریزی‌شده برای روز بعد", "text_en": "Scheduled ultrasound next day" },
-      { "id": "d", "text_fa": "مشاهده بدون مداخله", "text_en": "Observation only" }
+      {
+        "id": "a",
+        "text_fa": "جراحی اورژانسی برای رفع تورشن",
+        "text_en": "Emergency surgical detorsion"
+      },
+      {
+        "id": "b",
+        "text_fa": "آنتی‌بیوتیک خوراکی و پیگیری سرپایی",
+        "text_en": "Oral antibiotics, outpatient follow-up"
+      },
+      {
+        "id": "c",
+        "text_fa": "سونوگرافی برنامه‌ریزی‌شده برای روز بعد",
+        "text_en": "Scheduled ultrasound next day"
+      },
+      {
+        "id": "d",
+        "text_fa": "مشاهده بدون مداخله",
+        "text_en": "Observation only"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "تورشن بیضه یک اورژانس جراحی است؛ تأخیر در درمان (بیش از ۶ ساعت) خطر از دست رفتن دائمی بیضه به‌علت ایسکمی را به‌شدت افزایش می‌دهد."
@@ -313,10 +665,26 @@
     "category": "Female Reproductive System",
     "question_fa": "زن ۳۵ ساله با پاپ اسمیر غیرطبیعی، بیوپسی دیسپلازی شدید سرویکس (CIN III) نشان می‌دهد. مهم‌ترین عامل اتیولوژیک زمینه‌ای چیست؟",
     "options": [
-      { "id": "a", "text_fa": "عفونت پایدار با تیپ‌های پرخطر HPV (مثل ۱۶ و ۱۸)", "text_en": "Persistent high-risk HPV infection" },
-      { "id": "b", "text_fa": "کمبود استروژن", "text_en": "Estrogen deficiency" },
-      { "id": "c", "text_fa": "عفونت باکتریایی کلامیدیا به‌تنهایی", "text_en": "Chlamydia infection alone" },
-      { "id": "d", "text_fa": "سابقه‌ی خانوادگی بدون عامل عفونی", "text_en": "Family history without infectious cause" }
+      {
+        "id": "a",
+        "text_fa": "عفونت پایدار با تیپ‌های پرخطر HPV (مثل ۱۶ و ۱۸)",
+        "text_en": "Persistent high-risk HPV infection"
+      },
+      {
+        "id": "b",
+        "text_fa": "کمبود استروژن",
+        "text_en": "Estrogen deficiency"
+      },
+      {
+        "id": "c",
+        "text_fa": "عفونت باکتریایی کلامیدیا به‌تنهایی",
+        "text_en": "Chlamydia infection alone"
+      },
+      {
+        "id": "d",
+        "text_fa": "سابقه‌ی خانوادگی بدون عامل عفونی",
+        "text_en": "Family history without infectious cause"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "عفونت پایدار با تیپ‌های پرخطر HPV (به‌خصوص ۱۶ و ۱۸) عامل اصلی دیسپلازی و کارسینوم سرویکس است؛ پروتئین‌های ویروسی E6 و E7 مسیرهای سرکوبگر تومور (p53 و Rb) را مختل می‌کنند."
@@ -327,12 +695,688 @@
     "category": "Female Reproductive System",
     "question_fa": "زن ۲۲ ساله توده‌ی پستانی متحرک، گرد، بدون درد، و خوش‌تعریف پیدا کرده که اندازه‌ی آن با سیکل قاعدگی کمی تغییر می‌کند. محتمل‌ترین تشخیص چیست؟",
     "options": [
-      { "id": "a", "text_fa": "فیبروآدنوم پستان", "text_en": "Fibroadenoma" },
-      { "id": "b", "text_fa": "کارسینوم مهاجم داکتال", "text_en": "Invasive ductal carcinoma" },
-      { "id": "c", "text_fa": "بیماری پاژه‌ی پستان", "text_en": "Paget disease of the breast" },
-      { "id": "d", "text_fa": "آبسه‌ی پستان", "text_en": "Breast abscess" }
+      {
+        "id": "a",
+        "text_fa": "فیبروآدنوم پستان",
+        "text_en": "Fibroadenoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "کارسینوم مهاجم داکتال",
+        "text_en": "Invasive ductal carcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "بیماری پاژه‌ی پستان",
+        "text_en": "Paget disease of the breast"
+      },
+      {
+        "id": "d",
+        "text_fa": "آبسه‌ی پستان",
+        "text_en": "Breast abscess"
+      }
     ],
     "correctOptionId": "a",
     "explanation_fa": "فیبروآدنوم شایع‌ترین تومور خوش‌خیم پستان در زنان جوان است؛ توده‌ای متحرک، خوش‌تعریف، و حساس به هورمون (تغییر اندازه با سیکل قاعدگی) از ویژگی‌های کلاسیک آن است."
+  },
+  {
+    "id": "pa-generalpathology-3",
+    "topicId": "granuloma",
+    "category": "General Pathology",
+    "question_fa": "بیوپسی غدد لنفاوی، تجمع ماکروفاژهای اپیتلیوئید با حاشیه‌ی لنفوسیتی بدون نکروز کازئوز نشان می‌دهد. این ساختار چه نام دارد و کدام بیماری کلاسیک با آن همراه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "گرانولوم غیرکازئیفه؛ سارکوئیدوز",
+        "text_en": "Non-caseating granuloma; sarcoidosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "آبسه؛ عفونت باکتریایی حاد",
+        "text_en": "Abscess; acute bacterial infection"
+      },
+      {
+        "id": "c",
+        "text_fa": "نکروز فیبرینوئید؛ واسکولیت",
+        "text_en": "Fibrinoid necrosis; vasculitis"
+      },
+      {
+        "id": "d",
+        "text_fa": "آمیلوئید؛ میلوم مولتیپل",
+        "text_en": "Amyloid; multiple myeloma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "گرانولوم غیرکازئیفه (بدون نکروز مرکزی) مشخصه‌ی سارکوئیدوز است، برخلاف سل که معمولاً گرانولوم کازئیفه (با نکروز کازئوز مرکزی) ایجاد می‌کند."
+  },
+  {
+    "id": "pa-generalpathology-4",
+    "topicId": "dysplasia-cis",
+    "category": "General Pathology",
+    "question_fa": "تفاوت اصلی بین دیسپلازی شدید/کارسینوم درجا (CIS) و کارسینوم مهاجم چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "در CIS، غشای پایه دست‌نخورده باقی می‌ماند؛ در مهاجم، تهاجم به غشای پایه رخ داده است",
+        "text_en": "Basement membrane intact in CIS; breached in invasive"
+      },
+      {
+        "id": "b",
+        "text_fa": "هیچ تفاوتی ندارند",
+        "text_en": "No difference"
+      },
+      {
+        "id": "c",
+        "text_fa": "CIS همیشه متاستاز می‌دهد",
+        "text_en": "CIS always metastasizes"
+      },
+      {
+        "id": "d",
+        "text_fa": "فقط در اندازه‌ی تومور تفاوت دارند",
+        "text_en": "Differ only in tumor size"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در کارسینوم درجا، سلول‌های آتیپیک کل ضخامت اپیتلیوم را درگیر کرده‌اند ولی غشای پایه دست‌نخورده است؛ پتانسیل متاستاز ندارد. عبور از غشای پایه نشانگر کارسینوم مهاجم است."
+  },
+  {
+    "id": "pa-cardiovascular-3",
+    "topicId": "myocardial-infarction",
+    "category": "Cardiovascular",
+    "question_fa": "بیماری ۳ روز پس از انفارکتوس میوکارد، با درد قفسه‌ی سینه‌ی جدید که با تنفس عمیق تشدید می‌شود مراجعه می‌کند. بافت‌شناسی در این مرحله‌ی زمانی انفارکت میوکارد چه چیزی نشان می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "نفوذ نوتروفیلی فراوان و شروع نکروز کوآگولاتیو",
+        "text_en": "Heavy neutrophilic infiltrate, early coagulative necrosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "اسکار فیبروزی کامل",
+        "text_en": "Complete fibrous scar"
+      },
+      {
+        "id": "c",
+        "text_fa": "بافت کاملاً طبیعی",
+        "text_en": "Completely normal tissue"
+      },
+      {
+        "id": "d",
+        "text_fa": "کلسیفیکاسیون دیستروفیک گسترده",
+        "text_en": "Extensive dystrophic calcification"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در روز ۳ پس از انفارکت، نفوذ نوتروفیلی در اوج خود است و نکروز کوآگولاتیو میوسیت‌ها مشهود است؛ اسکار فیبروزی کامل معمولاً پس از ۶ تا ۸ هفته شکل می‌گیرد. درد پلوریتیک در این بازه می‌تواند نشانه‌ی پریکاردیت پس از انفارکت (سندرم درسلر در اشکال دیرتر) باشد."
+  },
+  {
+    "id": "pa-cardiovascular-4",
+    "topicId": "deep-vein-thrombosis",
+    "category": "Cardiovascular",
+    "question_fa": "کدام مجموعه از عوامل، تریاد ویرشو برای تشکیل ترومبوز را تشکیل می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "استاز خونی، آسیب اندوتلیال، هایپرکوآگولوپلی",
+        "text_en": "Stasis, endothelial injury, hypercoagulability"
+      },
+      {
+        "id": "b",
+        "text_fa": "هیپرتانسیون، دیابت، هیپرلیپیدمی",
+        "text_en": "Hypertension, diabetes, hyperlipidemia"
+      },
+      {
+        "id": "c",
+        "text_fa": "تب، لکوسیتوز، افزایش CRP",
+        "text_en": "Fever, leukocytosis, elevated CRP"
+      },
+      {
+        "id": "d",
+        "text_fa": "آنمی، ترومبوسیتوپنی، لکوپنی",
+        "text_en": "Anemia, thrombocytopenia, leukopenia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تریاد ویرشو (استاز خونی، آسیب اندوتلیال، و حالت هایپرکوآگولوپل) سه عامل کلیدی مستعدکننده‌ی ترومبوز وریدی هستند و چارچوب مفهومی اصلی برای درک پاتوژنز DVT است."
+  },
+  {
+    "id": "pa-respiratory-3",
+    "topicId": "asthma",
+    "category": "Respiratory",
+    "question_fa": "بیوپسی برونش بیمار آسمی مزمن، هیپرتروفی غدد موکوسی، ضخیم‌شدن غشای پایه، و نفوذ ائوزینوفیلی نشان می‌دهد. کدام سلول التهابی نقش کلیدی در پاتوژنز آسم آلرژیک دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "ائوزینوفیل (واسطه‌ی پاسخ Th2)",
+        "text_en": "Eosinophil (Th2-mediated response)"
+      },
+      {
+        "id": "b",
+        "text_fa": "نوتروفیل",
+        "text_en": "Neutrophil"
+      },
+      {
+        "id": "c",
+        "text_fa": "سلول پلاسما",
+        "text_en": "Plasma cell"
+      },
+      {
+        "id": "d",
+        "text_fa": "مگاکاریوسیت",
+        "text_en": "Megakaryocyte"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آسم آلرژیک کلاسیک یک بیماری واسطه‌ی Th2 است که ائوزینوفیل‌ها نقش محوری در التهاب راه هوایی، آسیب اپیتلیال، و بازسازی (remodeling) مجرای هوایی دارند."
+  },
+  {
+    "id": "pa-respiratory-4",
+    "topicId": "pneumoconiosis",
+    "category": "Respiratory",
+    "question_fa": "کارگر معدن زغال‌سنگ پس از سال‌ها مواجهه، توده‌های کوچک سیاه‌رنگ منتشر در رادیوگرافی ریه دارد. کدام بیماری شغلی مطرح است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "نوموکونیوز کارگر زغال‌سنگ",
+        "text_en": "Coal worker's pneumoconiosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "آسم شغلی",
+        "text_en": "Occupational asthma"
+      },
+      {
+        "id": "c",
+        "text_fa": "پنومونی اکتسابی از جامعه",
+        "text_en": "Community-acquired pneumonia"
+      },
+      {
+        "id": "d",
+        "text_fa": "آمبولی ریوی شغلی",
+        "text_en": "Occupational pulmonary embolism"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "نوموکونیوز کارگر زغال‌سنگ ناشی از استنشاق طولانی‌مدت ذرات کربن است و با ماکول‌های کوچک سیاه‌رنگ منتشر در ریه تظاهر می‌کند؛ در موارد پیشرفته می‌تواند به فیبروز پیشرونده تبدیل شود."
+  },
+  {
+    "id": "pa-gi-3",
+    "topicId": "gastric-carcinoma",
+    "category": "GI",
+    "question_fa": "بیوپسی معده با سلول‌های منفرد حلقه‌ی مهر (signet ring) که به‌صورت نفوذی در دیواره پخش شده‌اند، کدام نوع کارسینوم گاستریک را نشان می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "نوع دیفیوز (Diffuse type)",
+        "text_en": "Diffuse type"
+      },
+      {
+        "id": "b",
+        "text_fa": "نوع روده‌ای (Intestinal type)",
+        "text_en": "Intestinal type"
+      },
+      {
+        "id": "c",
+        "text_fa": "لنفوم MALT",
+        "text_en": "MALT lymphoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "تومور کارسینوئید",
+        "text_en": "Carcinoid tumor"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کارسینوم گاستریک نوع دیفیوز با سلول‌های منفرد یا کوچک حلقه‌ی مهر که به‌صورت نفوذی (نه توده‌ساز) در دیواره پخش می‌شوند مشخص می‌شود؛ نوع روده‌ای ساختار غده‌ای واضح‌تری دارد و با گاستریت آتروفیک/متاپلازی روده‌ای مرتبط است."
+  },
+  {
+    "id": "pa-gi-4",
+    "topicId": "esophageal-carcinoma",
+    "category": "GI",
+    "question_fa": "بیمار با ریفلاکس مزمن طولانی‌مدت و باره‌ت مری، در نهایت به کدام نوع کارسینوم مری بیشترین خطر را دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آدنوکارسینوم",
+        "text_en": "Adenocarcinoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "کارسینوم سلول سنگفرشی",
+        "text_en": "Squamous cell carcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "تومور کارسینوئید",
+        "text_en": "Carcinoid tumor"
+      },
+      {
+        "id": "d",
+        "text_fa": "لیومیوسارکوم",
+        "text_en": "Leiomyosarcoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "باره‌ت مری (متاپلازی روده‌ای ناشی از ریفلاکس مزمن) ریسک‌فاکتور اصلی آدنوکارسینوم مری است؛ کارسینوم سلول سنگفرشی بیشتر با سیگار و الکل مرتبط است، نه ریفلاکس."
+  },
+  {
+    "id": "pa-hepatobiliary-3",
+    "topicId": "hemochromatosis-wilson-disease",
+    "category": "Hepatobiliary",
+    "question_fa": "بیمار جوان با علائم عصبی (ترمور، دیسارتری)، بیماری کبدی، و حلقه‌ی قهوه‌ای-سبز در اطراف قرنیه (کایزر-فلایشر) مراجعه می‌کند. کدام بیماری ارثی مطرح است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بیماری ویلسون (تجمع مس)",
+        "text_en": "Wilson disease (copper accumulation)"
+      },
+      {
+        "id": "b",
+        "text_fa": "هموکروماتوز (تجمع آهن)",
+        "text_en": "Hemochromatosis (iron accumulation)"
+      },
+      {
+        "id": "c",
+        "text_fa": "کمبود آلفا-۱-آنتی‌تریپسین",
+        "text_en": "Alpha-1 antitrypsin deficiency"
+      },
+      {
+        "id": "d",
+        "text_fa": "سیروز صفراوی اولیه",
+        "text_en": "Primary biliary cirrhosis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "حلقه‌ی کایزر-فلایشر (رسوب مس در غشای دسمه) همراه با علائم نورولوژیک و بیماری کبدی در فرد جوان، یافته‌ی کلاسیک بیماری ویلسون است؛ هموکروماتوز معمولاً با دیابت برنزه (bronze diabetes) و کاردیومیوپاتی تظاهر می‌کند."
+  },
+  {
+    "id": "pa-hepatobiliary-4",
+    "topicId": "alpha1-antitrypsin-deficiency",
+    "category": "Hepatobiliary",
+    "question_fa": "کمبود آلفا-۱-آنتی‌تریپسین می‌تواند هم‌زمان باعث بیماری در کدام دو اندام شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "ریه (آمفیزم) و کبد (سیروز)",
+        "text_en": "Lung (emphysema) and liver (cirrhosis)"
+      },
+      {
+        "id": "b",
+        "text_fa": "کلیه و قلب",
+        "text_en": "Kidney and heart"
+      },
+      {
+        "id": "c",
+        "text_fa": "مغز و طحال",
+        "text_en": "Brain and spleen"
+      },
+      {
+        "id": "d",
+        "text_fa": "فقط پوست",
+        "text_en": "Skin only"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کمبود آلفا-۱-آنتی‌تریپسین در ریه باعث آمفیزم (به‌علت عدم‌تعادل پروتئاز-آنتی‌پروتئاز) و در کبد به‌علت تجمع پروتئین غیرطبیعی پلیمریزه‌شده در هپاتوسیت‌ها باعث آسیب کبدی/سیروز می‌شود."
+  },
+  {
+    "id": "pa-renal-3",
+    "topicId": "acute-tubular-necrosis",
+    "category": "Renal",
+    "question_fa": "بیمار پس از یک دوره‌ی افت فشار خون شدید (شوک سپتیک)، کراتینین به‌سرعت افزایش یافته و در ادرار سیلندرهای اپیتلیال توبولی قهوه‌ای دیده می‌شود. تشخیص چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "نکروز توبولار حاد ایسکمیک",
+        "text_en": "Ischemic acute tubular necrosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "گلومرولونفریت پس از استرپتوکوک",
+        "text_en": "Post-streptococcal GN"
+      },
+      {
+        "id": "c",
+        "text_fa": "پلی‌کیستیک کلیه",
+        "text_en": "Polycystic kidney disease"
+      },
+      {
+        "id": "d",
+        "text_fa": "نفروپاتی دیابتی",
+        "text_en": "Diabetic nephropathy"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "ایسکمی شدید (مثل شوک) باعث آسیب و نکروز سلول‌های اپیتلیال توبولی می‌شود؛ سیلندرهای اپیتلیال قهوه‌ای-رنگی (granular/muddy brown casts) یافته‌ی کلاسیک ادراری نکروز توبولار حاد است."
+  },
+  {
+    "id": "pa-renal-4",
+    "topicId": "renal-cell-carcinoma",
+    "category": "Renal",
+    "question_fa": "مرد ۶۰ ساله‌ی سیگاری با هماچوری بدون درد، درد پهلو، و توده‌ی شکمی قابل‌لمس مراجعه می‌کند. شایع‌ترین تومور بدخیم اولیه‌ی کلیه در بالغین کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کارسینوم سلول کلیوی (سلول روشن)",
+        "text_en": "Renal cell carcinoma (clear cell)"
+      },
+      {
+        "id": "b",
+        "text_fa": "تومور ویلمز",
+        "text_en": "Wilms tumor"
+      },
+      {
+        "id": "c",
+        "text_fa": "آنژیومیولیپوم",
+        "text_en": "Angiomyolipoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "لنفوم کلیوی اولیه",
+        "text_en": "Primary renal lymphoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کارسینوم سلول کلیوی (به‌خصوص زیرگروه سلول روشن) شایع‌ترین تومور بدخیم اولیه‌ی کلیه در بالغین است؛ سیگار مهم‌ترین فاکتور خطر قابل‌تغییر آن است."
+  },
+  {
+    "id": "pa-endocrine-3",
+    "topicId": "cushing-syndrome",
+    "category": "Endocrine",
+    "question_fa": "زنی با چاقی مرکزی، صورت ماه‌شکل، استریای ارغوانی، و فشار خون بالا مراجعه می‌کند. کدام یافته‌ی آزمایشگاهی اولیه برای تأیید سندرم کوشینگ استفاده می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کورتیزول آزاد ادرار ۲۴ ساعته یا تست سرکوب دگزامتازون دوز پایین",
+        "text_en": "24-hour urinary free cortisol or low-dose dexamethasone suppression test"
+      },
+      {
+        "id": "b",
+        "text_fa": "سطح TSH",
+        "text_en": "TSH level"
+      },
+      {
+        "id": "c",
+        "text_fa": "گلوکز ناشتا به‌تنهایی",
+        "text_en": "Fasting glucose alone"
+      },
+      {
+        "id": "d",
+        "text_fa": "سطح کلسیم سرم",
+        "text_en": "Serum calcium"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تست‌های غربالگری اولیه برای سندرم کوشینگ شامل کورتیزول آزاد ادرار ۲۴ ساعته، تست سرکوب دگزامتازون دوز پایین، یا کورتیزول بزاقی نیمه‌شب هستند؛ این تست‌ها به تأیید هایپرکورتیزولیسم کمک می‌کنند."
+  },
+  {
+    "id": "pa-endocrine-4",
+    "topicId": "pheochromocytoma",
+    "category": "Endocrine",
+    "question_fa": "بیمار با حملات اپیزودیک سردرد شدید، تعریق، تپش قلب، و فشار خون بسیار بالا مراجعه می‌کند. کدام تومور باید مطرح شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فئوکروموسیتوم",
+        "text_en": "Pheochromocytoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "آدنوم هیپوفیز غیرفعال",
+        "text_en": "Non-functioning pituitary adenoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "انسولینوما",
+        "text_en": "Insulinoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "آدنوم پاراتیروئید",
+        "text_en": "Parathyroid adenoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "حملات اپیزودیک کلاسیک سردرد، تعریق، تپش قلب، و هیپرتانسیون شدید (یادگار 5 P) مشخصه‌ی فئوکروموسیتوم است که از سلول‌های کرومافین مدولای آدرنال منشأ می‌گیرد و کاتکول‌آمین ترشح می‌کند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-3",
+    "topicId": "iron-deficiency-anemia",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "مرد مسنی با آنمی فقر آهن جدید بدون منبع خون‌ریزی واضح (نه از قاعدگی، نه تروما) مراجعه می‌کند. اولین قدم تشخیصی ضروری چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کولونوسکوپی برای رد کارسینوم کولورکتال",
+        "text_en": "Colonoscopy to rule out colorectal carcinoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "شروع آهن خوراکی بدون بررسی بیشتر",
+        "text_en": "Start oral iron without further workup"
+      },
+      {
+        "id": "c",
+        "text_fa": "بیوپسی مغز استخوان فوری",
+        "text_en": "Immediate bone marrow biopsy"
+      },
+      {
+        "id": "d",
+        "text_fa": "نادیده‌گرفتن یافته، شایع و بی‌خطر است",
+        "text_en": "Ignore finding"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آنمی فقر آهن جدید در مرد مسن بدون منبع خون‌ریزی واضح باید همیشه کارسینوم کولورکتال (خون‌ریزی مزمن مخفی گوارشی) را مطرح کند تا رد شود؛ کولونوسکوپی اقدام تشخیصی کلیدی است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-4",
+    "topicId": "chronic-myeloid-leukemia",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "کدام ناهنجاری ژنتیکی کلاسیک، علت اصلی لوسمی میلوئید مزمن (CML) است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کروموزوم فیلادلفیا t(9;22) — BCR-ABL",
+        "text_en": "Philadelphia chromosome t(9;22) — BCR-ABL"
+      },
+      {
+        "id": "b",
+        "text_fa": "t(14;18) — BCL-2",
+        "text_en": "t(14;18) — BCL-2"
+      },
+      {
+        "id": "c",
+        "text_fa": "t(8;14) — MYC",
+        "text_en": "t(8;14) — MYC"
+      },
+      {
+        "id": "d",
+        "text_fa": "تریزومی ۲۱",
+        "text_en": "Trisomy 21"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کروموزوم فیلادلفیا، حاصل ترانسلوکیشن t(9;22) که ژن فوزیون BCR-ABL با فعالیت تیروزین کیناز پیوسته تولید می‌کند، علت اصلی CML است؛ مهارکننده‌های تیروزین کیناز (مثل ایماتینیب) درمان هدفمند آن هستند."
+  },
+  {
+    "id": "pa-musculoskeletal-3",
+    "topicId": "osteosarcoma",
+    "category": "Musculoskeletal",
+    "question_fa": "نوجوان ۱۵ ساله با درد و توده‌ی متافیز فمور دیستال، رادیوگرافی الگوی «اشعه‌ی آفتاب» (sunburst) با واکنش پریوستئال مثلثی (مثلث کادمن) نشان می‌دهد. تشخیص کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "استئوسارکوم",
+        "text_en": "Osteosarcoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "سارکوم یووینگ",
+        "text_en": "Ewing sarcoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "استئوکندروم",
+        "text_en": "Osteochondroma"
+      },
+      {
+        "id": "d",
+        "text_fa": "کیست استخوانی آنوریسمال",
+        "text_en": "Aneurysmal bone cyst"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "الگوی sunburst و مثلث کادمن (واکنش پریوستئال بلندشده) در متافیز استخوان بلند نوجوان، یافته‌ی کلاسیک استئوسارکوم است؛ شایع‌ترین محل آن متافیز دیستال فمور یا پروگزیمال تیبیا است."
+  },
+  {
+    "id": "pa-musculoskeletal-4",
+    "topicId": "rheumatoid-arthritis",
+    "category": "Musculoskeletal",
+    "question_fa": "آرتریت روماتوئید کدام مفاصل را به‌طور مشخص و متقارن درگیر می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مفاصل کوچک دست (MCP و PIP)، به‌صورت متقارن",
+        "text_en": "Small hand joints (MCP, PIP), symmetric"
+      },
+      {
+        "id": "b",
+        "text_fa": "مفاصل بین‌فالانژی دیستال (DIP)",
+        "text_en": "DIP joints"
+      },
+      {
+        "id": "c",
+        "text_fa": "ستون فقرات کمری به‌تنهایی",
+        "text_en": "Lumbar spine alone"
+      },
+      {
+        "id": "d",
+        "text_fa": "فقط مفاصل بزرگ یک‌طرفه",
+        "text_en": "Only large unilateral joints"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آرتریت روماتوئید به‌طور کلاسیک مفاصل کوچک دست (متاکارپوفالانژیال و بین‌فالانژی پروگزیمال) را به‌صورت متقارن درگیر می‌کند و DIP را معمولاً رها می‌کند؛ این الگو آن را از استئوآرتریت (که DIP را درگیر می‌کند) افتراق می‌دهد."
+  },
+  {
+    "id": "pa-nervoussystem-3",
+    "topicId": "multiple-sclerosis",
+    "category": "Nervous System",
+    "question_fa": "زن جوانی با دوره‌های مکرر اختلال بینایی، ضعف اندام، و پارستزی که با گذشت زمان بهبود نسبی می‌یابند مراجعه می‌کند. MRI ضایعات دمیلینه‌ی متعدد در ماده‌ی سفید نشان می‌دهد. تشخیص چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مولتیپل اسکلروزیس (MS)",
+        "text_en": "Multiple sclerosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "بیماری پارکینسون",
+        "text_en": "Parkinson disease"
+      },
+      {
+        "id": "c",
+        "text_fa": "آلزایمر",
+        "text_en": "Alzheimer disease"
+      },
+      {
+        "id": "d",
+        "text_fa": "سکته‌ی مغزی ایسکمیک",
+        "text_en": "Ischemic stroke"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "MS یک بیماری خودایمنی دمیلینه‌کننده‌ی CNS با دوره‌های عود و بهبود (relapsing-remitting) است که عمدتاً زنان جوان را درگیر می‌کند؛ ضایعات متعدد در ماده‌ی سفید با پراکندگی زمانی و مکانی یافته‌ی تشخیصی MRI است."
+  },
+  {
+    "id": "pa-nervoussystem-4",
+    "topicId": "alzheimer-disease",
+    "category": "Nervous System",
+    "question_fa": "کدام دو یافته‌ی بافت‌شناسی کلاسیک در بیماری آلزایمر دیده می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پلاک‌های آمیلوئید خارج‌سلولی و درهم‌تنیدگی‌های نوروفیبریلاری داخل‌سلولی (تاو)",
+        "text_en": "Extracellular amyloid plaques and intracellular neurofibrillary tangles (tau)"
+      },
+      {
+        "id": "b",
+        "text_fa": "اجسام لویی",
+        "text_en": "Lewy bodies"
+      },
+      {
+        "id": "c",
+        "text_fa": "دمیلینیزاسیون پلاکی",
+        "text_en": "Plaque demyelination"
+      },
+      {
+        "id": "d",
+        "text_fa": "گرانولوم غیرکازئیفه",
+        "text_en": "Non-caseating granuloma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پلاک‌های آمیلوئید بتا (خارج‌سلولی) و درهم‌تنیدگی‌های نوروفیبریلاری حاوی پروتئین تاو هیپرفسفریله (داخل‌سلولی) دو یافته‌ی پاتولوژیک کلیدی آلزایمر هستند؛ اجسام لویی مشخصه‌ی پارکینسون و دمانس با اجسام لویی است."
+  },
+  {
+    "id": "pa-malereproductivesystem-3",
+    "topicId": "seminoma-embryonal-carcinoma",
+    "category": "Male Reproductive System",
+    "question_fa": "مرد ۲۸ ساله توده‌ی بیضه‌ی بدون درد دارد. بیوپسی پس از ارکیکتومی، سلول‌های بزرگ یکنواخت با سیتوپلاسم شفاف و نفوذ لنفوسیتی نشان می‌دهد. کدام تومور بیضه مطرح است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سمینوما",
+        "text_en": "Seminoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "کارسینوم آمبریونال",
+        "text_en": "Embryonal carcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "تومور سلول لیدیگ",
+        "text_en": "Leydig cell tumor"
+      },
+      {
+        "id": "d",
+        "text_fa": "اپیدیدیموارکیت",
+        "text_en": "Epididymo-orchitis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "سمینوما شایع‌ترین تومور سلول زایای بیضه است و با سلول‌های بزرگ یکنواخت با سیتوپلاسم شفاف و نفوذ لنفوسیتی استرومایی مشخص می‌شود؛ پیش‌آگهی آن نسبت به اکثر تومورهای ژرم‌سل دیگر بهتر است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-3",
+    "topicId": "condyloma-vin-classic",
+    "category": "Female Reproductive System",
+    "question_fa": "ضایعات زگیلی متعدد ولو با ظاهر گل‌کلمی، ناشی از کدام عامل اتیولوژیک شایع است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "HPV تیپ‌های کم‌خطر (۶ و ۱۱)",
+        "text_en": "Low-risk HPV types (6, 11)"
+      },
+      {
+        "id": "b",
+        "text_fa": "هرپس سیمپلکس",
+        "text_en": "Herpes simplex"
+      },
+      {
+        "id": "c",
+        "text_fa": "سیفلیس",
+        "text_en": "Syphilis"
+      },
+      {
+        "id": "d",
+        "text_fa": "کاندیدا",
+        "text_en": "Candida"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کندیلوم آکومیناتوم (زگیل تناسلی) عمدتاً ناشی از تیپ‌های کم‌خطر HPV (۶ و ۱۱) است که خطر بدخیمی پایینی دارند، برخلاف تیپ‌های پرخطر (۱۶، ۱۸) که با دیسپلازی/کارسینوم سرویکس مرتبط‌اند."
   }
 ]
