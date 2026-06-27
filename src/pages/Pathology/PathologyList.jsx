@@ -94,10 +94,7 @@ export default function PathologyList() {
           <button
             type="button"
             className="path-page__back-to-categories"
-            onClick={() => {
-              setActiveCategory(null);
-              setQuery("");
-            }}
+            onClick={() => setActiveCategory(null)}
           >
             ← بازگشت به دسته‌بندی‌ها
           </button>

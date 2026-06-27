@@ -96,10 +96,7 @@ export default function DrugList() {
             <button
               type="button"
               className="pharma-page__back-to-categories"
-              onClick={() => {
-                setActiveCategory(null);
-                setQuery("");
-              }}
+              onClick={() => setActiveCategory(null)}
             >
               ← بازگشت به دسته‌بندی‌ها
             </button>

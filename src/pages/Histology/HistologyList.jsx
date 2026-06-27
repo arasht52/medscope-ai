@@ -52,10 +52,7 @@ export default function HistologyList({ onSelectItem, onBack, onOpenAtlas }) {
           <button
             type="button"
             className="histology-list__back-to-categories"
-            onClick={() => {
-              setCategoryId(null);
-              setQuery("");
-            }}
+            onClick={() => setCategoryId(null)}
           >
             ← بازگشت به دسته‌بندی‌ها
           </button>
