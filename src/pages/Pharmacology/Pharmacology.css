@@ -45,12 +45,15 @@
   gap: 4px;
   text-align: right;
   width: 100%;
+  min-width: 0;
 }
 
 .category-grid__name {
   font-size: 14px;
   font-weight: 600;
   color: var(--color-text);
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .category-grid__count {
