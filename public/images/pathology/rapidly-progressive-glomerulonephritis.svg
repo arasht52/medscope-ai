@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <circle cx="120" cy="90" r="35" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1.3"/>
+  <path d="M90,65 A38,38 0 0,1 150,60 L138,80 A20,20 0 0,0 100,82 Z" fill="#7C4DBC" opacity="0.55"/>
+  <circle cx="114.2" cy="61.4" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="107.3" cy="83.2" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="120.5" cy="76.1" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="119.7" cy="66.3" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="125.4" cy="72.4" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="127.0" cy="75.2" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="128.9" cy="68.1" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="107.0" cy="58.8" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="125.1" cy="59.4" r="1.6" fill="#5B3A8C" opacity="0.7"/><circle cx="122.9" cy="73.9" r="1.6" fill="#5B3A8C" opacity="0.7"/>
+  <text x="120" y="140" font-size="6.5" fill="#7C4DBC" text-anchor="middle">crescent (Bowman space) in most glomeruli</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">RPGN — cellular crescent filling Bowman space</text>
+</svg>

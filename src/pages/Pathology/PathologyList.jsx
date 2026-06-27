@@ -8,7 +8,7 @@ import PathologyEmptyState from "./components/PathologyEmptyState.jsx";
 import CategoryGrid from "./CategoryGrid.jsx";
 import "./Pathology.css";
 
-const { items, categories } = pathologyData;
+const { items, categories, clusters = [] } = pathologyData;
 
 /** Normalizes text for case/diacritic-insensitive matching across fa/en. */
 function normalize(text) {
@@ -50,6 +50,16 @@ export default function PathologyList() {
     else next.delete("q");
     setSearchParams(next, { replace: true });
   }
+
+  // Show this category's Diagnostic Clusters (comparison hubs) as their
+  // own cards above the regular disease list — per the architecture
+  // Arash approved, a cluster is a separate comparison page, not a
+  // disease itself. The diseases inside a cluster still also appear
+  // below in the normal list (direct access either way).
+  const categoryClusters = useMemo(() => {
+    if (!activeCategory) return [];
+    return clusters.filter((c) => c.category === activeCategory);
+  }, [activeCategory]);
 
   const filtered = useMemo(() => {
     return items.filter(
@@ -98,6 +108,24 @@ export default function PathologyList() {
           >
             ← بازگشت به دسته‌بندی‌ها
           </button>
+
+          {categoryClusters.length > 0 && (
+            <ul className="path-list path-list__clusters" aria-label="مجموعه‌های مقایسه‌ای">
+              {categoryClusters.map((c) => (
+                <li key={c.id}>
+                  <Card as={Link} to={`/pathology/cluster/${c.id}`} interactive className="path-list__card path-list__card--cluster">
+                    <div className="path-list__row">
+                      <div className="path-list__main">
+                        <p className="path-list__name-fa">🔍 {c.title_fa} (مقایسه)</p>
+                        <p className="path-list__name-en en">{c.title_en} — Diagnostic Cluster</p>
+                      </div>
+                      <span className="path-list__chip en">{c.disease_ids.length} بیماری</span>
+                    </div>
+                  </Card>
+                </li>
+              ))}
+            </ul>
+          )}
 
           {filtered.length === 0 ? (
             <PathologyEmptyState

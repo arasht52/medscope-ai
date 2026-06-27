@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
-  <rect width="240" height="160" fill="#f8f5fc"/>
-  <circle cx="120" cy="80" r="45" fill="none" stroke="#7C4DBC" stroke-width="2"/>
-  <circle cx="120" cy="80" r="34" fill="#F1ECFA" opacity="0.6"/>
-  <path d="M90,60 Q120,40 150,60 Q165,80 150,100 Q120,120 90,100 Q75,80 90,60 Z" fill="none" stroke="#7C4DBC" stroke-width="1" stroke-dasharray="2,2"/>
-  <path d="M95,65 L100,55 M105,62 L108,50 M115,60 L116,48 M125,60 L126,48 M135,62 L138,50 M145,65 L150,55" stroke="#C0392B" stroke-width="1.5"/>
-  <text x="120" y="38" font-size="7" fill="#C0392B" text-anchor="middle">foot process effacement</text>
-  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Nephrotic syndrome — podocyte foot process effacement (MCD/FSGS/Membranous)</text>
-</svg>

@@ -13,6 +13,7 @@ import DrugDetail from "./pages/Pharmacology/DrugDetail.jsx";
 
 import PathologyList from "./pages/Pathology/PathologyList.jsx";
 import PathologyDetail from "./pages/Pathology/PathologyDetail.jsx";
+import PathologyCluster from "./pages/Pathology/PathologyCluster.jsx";
 
 import { quizRoutes } from "./pages/Quiz/index.js";
 
@@ -55,6 +56,7 @@ function AppShell() {
           <Route path="/pharmacology/:id" element={<DrugDetail />} />
 
           <Route path="/pathology" element={<PathologyList />} />
+          <Route path="/pathology/cluster/:clusterId" element={<PathologyCluster />} />
           <Route path="/pathology/:id" element={<PathologyDetail />} />
 
           {quizRoutes.map((r) => (

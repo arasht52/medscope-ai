@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <circle cx="120" cy="85" r="55" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1.5"/>
+  <path d="M120,85 L120,45 M120,85 L155,65 M120,85 L155,105 M120,85 L120,125 M120,85 L85,105 M120,85 L85,65" stroke="#7C4DBC" stroke-width="3"/>
+  <circle cx="120" cy="85" r="8" fill="#7C4DBC" opacity="0.6"/>
+  <text x="120" y="140" font-size="6.5" fill="#7C4DBC" text-anchor="middle">stellate central scar, radiating septa</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">FNH — stellate central scar with radiating fibrous septa</text>
+</svg>

@@ -73,6 +73,15 @@
   display: block;
 }
 
+.path-list__card--cluster {
+  background: var(--color-path-tint);
+  border: 1.5px dashed var(--color-path);
+}
+
+.path-list__clusters {
+  margin-bottom: var(--space-3, 12px);
+}
+
 .path-list__row {
   display: flex;
   align-items: center;

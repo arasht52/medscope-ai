@@ -1,0 +1,184 @@
+.path-cluster__disease-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.path-cluster__disease-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-3);
+  border-radius: var(--radius-md, 10px);
+  background: var(--color-path-tint);
+  text-decoration: none;
+  color: inherit;
+}
+
+.path-cluster__disease-name-fa {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.path-cluster__disease-name-en {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.path-cluster__chevron {
+  color: var(--color-path);
+  font-size: 18px;
+}
+
+/* ---------- Quick Compare (one feature at a time) ---------- */
+.path-cluster__compare {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.path-cluster__compare-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.path-cluster__compare-arrow {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-pill, 999px);
+  border: none;
+  background: var(--color-path-tint);
+  color: var(--color-path);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.path-cluster__compare-arrow:disabled {
+  opacity: 0.35;
+}
+
+.path-cluster__compare-title {
+  flex: 1;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.path-cluster__compare-rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.path-cluster__compare-row {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--space-2);
+  border-radius: var(--radius-md, 10px);
+  background: var(--color-card);
+  border: 1px solid var(--color-border, #e6e1f2);
+}
+
+.path-cluster__compare-disease {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--color-path);
+}
+
+.path-cluster__compare-value {
+  font-size: 13.5px;
+  color: var(--color-text);
+  overflow-wrap: break-word;
+}
+
+.path-cluster__compare-dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: var(--space-1, 4px);
+}
+
+.path-cluster__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-border, #e6e1f2);
+}
+
+.path-cluster__dot--active {
+  background: var(--color-path);
+}
+
+/* ---------- Decision Path ---------- */
+.path-cluster__disclaimer {
+  font-size: 11.5px;
+  color: var(--color-text-muted);
+  background: var(--color-path-tint);
+  border-radius: var(--radius-md, 10px);
+  padding: var(--space-2);
+  margin: 0 0 var(--space-3, 12px) 0;
+}
+
+.path-cluster__decision-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.path-cluster__decision-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+}
+
+.path-cluster__decision-prompt {
+  font-size: 13.5px;
+  color: var(--color-text);
+}
+
+.path-cluster__decision-arrow {
+  color: var(--color-text-muted);
+  font-size: 14px;
+}
+
+.path-cluster__decision-result {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--color-path);
+  text-decoration: none;
+}
+
+/* ---------- Exam Traps ---------- */
+.path-cluster__traps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3, 12px);
+}
+
+.path-cluster__trap-title {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0 0 4px 0;
+}
