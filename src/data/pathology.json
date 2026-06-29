@@ -831,17 +831,27 @@
       "exam_tips": [
         "پیش‌آگهی هوچکین به‌طور کلی بهتر از اکثر زیرگروه‌های لنفوم غیرهوچکین است"
       ],
-      "image_url": "/images/pathology/hodgkin-lymphoma.svg",
-      "image_caption": "نمودار شماتیک — لنفوم هوچکین (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reed-Sternberg_lymphocyte_nci-vol-7172-300_pl.jpg",
+      "image_caption": "سلول رید-اشتنبرگ کلاسیک با ظاهر چشم جغد (Reed-Sternberg cell) — عکس میکروسکوپی واقعی",
       "stain": "H&E",
       "images": [
         {
+          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reed-Sternberg_lymphocyte_nci-vol-7172-300_pl.jpg",
+          "caption": "سلول رید-اشتنبرگ کلاسیک با ظاهر چشم جغد (Reed-Sternberg cell)",
+          "magnification": "—",
+          "stain": "H&E",
+          "source": "National Cancer Institute (NCI) Visuals Online",
+          "source_url": "https://visualsonline.cancer.gov/details.cfm?imageid=7172",
+          "license": "CC BY 4.0",
+          "attribution": "National Cancer Institute Visuals Online"
+        },
+        {
           "url": "/images/pathology/hodgkin-lymphoma.svg",
-          "caption": "نمودار شماتیک — لنفوم هوچکین (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+          "caption": "نمودار شماتیک — لنفوم هوچکین (مرجع کمکی)",
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "—"
     },
     {
       "id": "chronic-myeloid-leukemia",
