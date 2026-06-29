@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <ellipse cx="120" cy="85" rx="55" ry="45" fill="#F1ECFA" stroke="#7C4DBC" stroke-width="1.5"/>
+  <rect x="108" y="50" width="20" height="70" fill="#7C4DBC" opacity="0.5"/>
+  <text x="118" y="40" font-size="6.5" fill="#7C4DBC" text-anchor="middle">asymmetric septal hypertrophy</text>
+  <path d="M70,100 L78,95 L72,108 L82,103 L75,115" stroke="#C0392B" stroke-width="1.3" fill="none"/>
+  <path d="M155,100 L163,108 L153,103 L160,115 L150,110" stroke="#C0392B" stroke-width="1.3" fill="none"/>
+  <text x="120" y="135" font-size="6.5" fill="#C0392B" text-anchor="middle">myofiber disarray</text>
+  <text x="120.0" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">HCM — asymmetric septal hypertrophy with myofiber disarray</text>
+</svg>
