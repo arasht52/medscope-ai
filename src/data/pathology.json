@@ -56,7 +56,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/caseous-necrosis.svg",
+        "alt": "Caseous Necrosis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "granuloma",
@@ -101,7 +113,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/granuloma.svg",
+        "alt": "Granuloma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "dysplasia-cis",
@@ -145,7 +169,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/dysplasia-cis.svg",
+        "alt": "Dysplasia & Carcinoma In Situ — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "atherosclerosis",
@@ -190,7 +226,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/atherosclerosis.svg",
+        "alt": "Atherosclerosis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "myocardial-infarction",
@@ -233,7 +281,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/myocardial-infarction.svg",
+        "alt": "Myocardial Infarction — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "rheumatic-heart-disease",
@@ -275,7 +335,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/rheumatic-heart-disease.svg",
+        "alt": "Rheumatic Heart Disease — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "lobar-pneumonia",
@@ -317,7 +389,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/lobar-pneumonia.svg",
+        "alt": "Lobar Pneumonia — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "pulmonary-tuberculosis",
@@ -359,7 +443,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/pulmonary-tuberculosis.svg",
+        "alt": "Pulmonary Tuberculosis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "bronchogenic-carcinoma",
@@ -403,7 +499,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/bronchogenic-carcinoma.svg",
+        "alt": "Bronchogenic Carcinoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "peptic-ulcer-disease",
@@ -448,7 +556,19 @@
         }
       ],
       "magnification": "400x",
-      "subcategory_fa": "معده"
+      "subcategory_fa": "معده",
+      "image": {
+        "url": "/images/pathology/peptic-ulcer-disease.svg",
+        "alt": "Peptic Ulcer Disease — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "cirrhosis-of-liver",
@@ -492,7 +612,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/cirrhosis-of-liver.svg",
+        "alt": "Cirrhosis of the Liver — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "hepatocellular-carcinoma",
@@ -542,7 +674,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/hepatocellular-carcinoma.svg",
+        "alt": "Hepatocellular Carcinoma (HCC) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "acute-tubular-necrosis",
@@ -585,7 +729,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/acute-tubular-necrosis.svg",
+        "alt": "Acute Tubular Necrosis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "glomerulonephritis-poststreptococcal",
@@ -627,7 +783,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/glomerulonephritis-poststreptococcal.svg",
+        "alt": "Post-Streptococcal Glomerulonephritis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "renal-cell-carcinoma",
@@ -671,7 +839,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/renal-cell-carcinoma.svg",
+        "alt": "Renal Cell Carcinoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "graves-disease",
@@ -713,7 +893,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/graves-disease.svg",
+        "alt": "Graves' Disease — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "papillary-thyroid-carcinoma",
@@ -755,7 +947,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/papillary-thyroid-carcinoma.svg",
+        "alt": "Papillary Thyroid Carcinoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "iron-deficiency-anemia",
@@ -799,7 +1003,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/iron-deficiency-anemia.svg",
+        "alt": "Iron Deficiency Anemia — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "hodgkin-lymphoma",
@@ -851,7 +1067,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "—"
+      "magnification": "—",
+      "image": {
+        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reed-Sternberg_lymphocyte_nci-vol-7172-300_pl.jpg",
+        "alt": "لنفوم هوچکین — سلول رید-اشتنبرگ کلاسیک با ظاهر «چشم جغد» (Reed-Sternberg cell)",
+        "type": "real_slide",
+        "magnification": null,
+        "stain": "H&E",
+        "labels": [],
+        "source": "Wikimedia Commons — National Cancer Institute (NCI) Visuals Online (image 7172)",
+        "license": "CC BY 4.0 (ادعای منبع — تأییدنشده)",
+        "attribution": "National Cancer Institute Visuals Online — https://visualsonline.cancer.gov/details.cfm?imageid=7172",
+        "verifiedOpenLicense": false
+      }
     },
     {
       "id": "chronic-myeloid-leukemia",
@@ -893,7 +1121,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/chronic-myeloid-leukemia.svg",
+        "alt": "Chronic Myeloid Leukemia — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "osteosarcoma",
@@ -937,7 +1177,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/osteosarcoma.svg",
+        "alt": "Osteosarcoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "rheumatoid-arthritis",
@@ -979,7 +1231,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/rheumatoid-arthritis.svg",
+        "alt": "Rheumatoid Arthritis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "fibroadenoma-breast",
@@ -1021,7 +1285,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/fibroadenoma-breast.svg",
+        "alt": "Fibroadenoma of the Breast — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "type-2-diabetes-mellitus",
@@ -1065,7 +1341,19 @@
       ],
       "image_url": "/images/pathology/type-2-diabetes-mellitus.svg",
       "image_caption": "نمودار شماتیک — دیابت ملیتوس نوع ۲ (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/type-2-diabetes-mellitus.svg",
+        "alt": "Type 2 Diabetes Mellitus — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "deep-vein-thrombosis",
@@ -1109,7 +1397,19 @@
       ],
       "image_url": "/images/pathology/deep-vein-thrombosis.svg",
       "image_caption": "نمودار شماتیک — ترومبوز ورید عمقی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/deep-vein-thrombosis.svg",
+        "alt": "Deep Vein Thrombosis (DVT) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "asthma",
@@ -1152,7 +1452,19 @@
       ],
       "image_url": "/images/pathology/asthma.svg",
       "image_caption": "نمودار شماتیک — آسم (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/asthma.svg",
+        "alt": "Asthma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "benign-prostatic-hyperplasia",
@@ -1195,7 +1507,19 @@
       ],
       "image_url": "/images/pathology/benign-prostatic-hyperplasia.svg",
       "image_caption": "نمودار شماتیک — هیپرپلازی خوش‌خیم پروستات (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/benign-prostatic-hyperplasia.svg",
+        "alt": "Benign Prostatic Hyperplasia (BPH) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "bronchopneumonia",
@@ -1244,7 +1568,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/bronchopneumonia.svg",
+        "alt": "Bronchopneumonia — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "atypical-mycoplasma-pneumonia",
@@ -1290,7 +1626,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/atypical-mycoplasma-pneumonia.svg",
+        "alt": "Atypical (Mycoplasma) Pneumonia — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "idiopathic-pulmonary-fibrosis",
@@ -1336,7 +1684,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/idiopathic-pulmonary-fibrosis.svg",
+        "alt": "Idiopathic Pulmonary Fibrosis (IPF) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "pneumoconiosis",
@@ -1383,7 +1743,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/pneumoconiosis.svg",
+        "alt": "Pneumoconiosis (Coal Worker's / Silicosis / Asbestosis) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "pulmonary-carcinoid-tumor",
@@ -1428,7 +1800,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/pulmonary-carcinoid-tumor.svg",
+        "alt": "Pulmonary Carcinoid Tumor — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "cushing-syndrome",
@@ -1478,7 +1862,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/cushing-syndrome.svg",
+        "alt": "Cushing Syndrome — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "primary-hyperaldosteronism",
@@ -1526,7 +1922,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/primary-hyperaldosteronism.svg",
+        "alt": "Primary Hyperaldosteronism (Conn Syndrome) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "addison-disease",
@@ -1576,7 +1984,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/addison-disease.svg",
+        "alt": "Addison Disease (Primary Chronic Adrenocortical Insufficiency) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "pheochromocytoma",
@@ -1621,7 +2041,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/pheochromocytoma.svg",
+        "alt": "Pheochromocytoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "bartholin-cyst-vulvar-inflammation",
@@ -1669,7 +2101,19 @@
           "magnification": "40x"
         }
       ],
-      "magnification": "40x"
+      "magnification": "40x",
+      "image": {
+        "url": "/images/pathology/bartholin-cyst-vulvar-inflammation.svg",
+        "alt": "Bartholin Cyst & Vulvar Inflammatory Conditions — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "lichen-sclerosus-vulva",
@@ -1715,7 +2159,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/lichen-sclerosus-vulva.svg",
+        "alt": "Lichen Sclerosus & Squamous Cell Hyperplasia (Vulva) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "condyloma-vin-classic",
@@ -1763,7 +2219,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/condyloma-vin-classic.svg",
+        "alt": "Condyloma Acuminatum & Classic VIN (HPV-related) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "differentiated-vin-vulvar-scc",
@@ -1810,7 +2278,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/differentiated-vin-vulvar-scc.svg",
+        "alt": "Differentiated VIN & Vulvar Squamous Cell Carcinoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "vaginal-scc-rhabdomyosarcoma",
@@ -1856,7 +2336,19 @@
           "magnification": "40x"
         }
       ],
-      "magnification": "40x"
+      "magnification": "40x",
+      "image": {
+        "url": "/images/pathology/vaginal-scc-rhabdomyosarcoma.svg",
+        "alt": "Vaginal Squamous Cell Carcinoma & Embryonal Rhabdomyosarcoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "cervical-hpv-cin-carcinoma",
@@ -1910,7 +2402,19 @@
           "magnification": "200x"
         }
       ],
-      "magnification": "200x"
+      "magnification": "200x",
+      "image": {
+        "url": "/images/pathology/cervical-hpv-cin-carcinoma.svg",
+        "alt": "Cervical HPV Biology, CIN/SIL Spectrum & Cervical Carcinoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "medium",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "cryptorchidism",
@@ -1958,7 +2462,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/cryptorchidism.svg",
+        "alt": "Cryptorchidism — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "testicular-torsion",
@@ -2003,7 +2519,19 @@
           "magnification": "20x"
         }
       ],
-      "magnification": "20x"
+      "magnification": "20x",
+      "image": {
+        "url": "/images/pathology/testicular-torsion.svg",
+        "alt": "Testicular Torsion — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "epididymo-orchitis",
@@ -2048,7 +2576,19 @@
           "magnification": "200x"
         }
       ],
-      "magnification": "200x"
+      "magnification": "200x",
+      "image": {
+        "url": "/images/pathology/epididymo-orchitis.svg",
+        "alt": "Epididymo-orchitis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "medium",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "seminoma-embryonal-carcinoma",
@@ -2095,7 +2635,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/seminoma-embryonal-carcinoma.svg",
+        "alt": "Seminoma & Embryonal Carcinoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "yolk-sac-tumor-choriocarcinoma",
@@ -2143,7 +2695,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/yolk-sac-tumor-choriocarcinoma.svg",
+        "alt": "Yolk Sac Tumor & Choriocarcinoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "sex-cord-tumors-testis",
@@ -2191,7 +2755,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/sex-cord-tumors-testis.svg",
+        "alt": "Sex Cord–Stromal Tumors of the Testis (Leydig & Sertoli) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "astrocytoma-glioblastoma",
@@ -2240,7 +2816,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/astrocytoma-glioblastoma.svg",
+        "alt": "Astrocytoma & Glioblastoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "meningioma",
@@ -2288,7 +2876,19 @@
           "magnification": "200x"
         }
       ],
-      "magnification": "200x"
+      "magnification": "200x",
+      "image": {
+        "url": "/images/pathology/meningioma.svg",
+        "alt": "Meningioma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "medium",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "medulloblastoma",
@@ -2335,7 +2935,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/medulloblastoma.svg",
+        "alt": "Medulloblastoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "bacterial-fungal-meningitis",
@@ -2382,7 +2994,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/bacterial-fungal-meningitis.svg",
+        "alt": "Bacterial & Fungal Meningitis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E / Gram stain",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "viral-encephalitis",
@@ -2433,7 +3057,19 @@
           "magnification": "200x"
         }
       ],
-      "magnification": "200x"
+      "magnification": "200x",
+      "image": {
+        "url": "/images/pathology/viral-encephalitis.svg",
+        "alt": "Viral Encephalitis (HSV, VZV, Rabies) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "medium",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "alzheimer-disease",
@@ -2478,7 +3114,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/alzheimer-disease.svg",
+        "alt": "Alzheimer Disease — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E / Congo Red",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "parkinson-disease",
@@ -2522,7 +3170,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/parkinson-disease.svg",
+        "alt": "Parkinson Disease — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "multiple-sclerosis",
@@ -2569,7 +3229,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/multiple-sclerosis.svg",
+        "alt": "Multiple Sclerosis (MS) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "Luxol Fast Blue",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "peripheral-nerve-sheath-tumors",
@@ -2620,7 +3292,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/peripheral-nerve-sheath-tumors.svg",
+        "alt": "Peripheral Nerve Sheath Tumors (Schwannoma, Neurofibroma, MPNST) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "ischemic-stroke",
@@ -2667,7 +3351,19 @@
           "magnification": "40x"
         }
       ],
-      "magnification": "40x"
+      "magnification": "40x",
+      "image": {
+        "url": "/images/pathology/ischemic-stroke.svg",
+        "alt": "Ischemic Stroke (Thrombotic & Embolic) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "myocarditis-pericarditis",
@@ -2714,7 +3410,19 @@
           "magnification": "200x"
         }
       ],
-      "magnification": "200x"
+      "magnification": "200x",
+      "image": {
+        "url": "/images/pathology/myocarditis-pericarditis.svg",
+        "alt": "Myocarditis & Pericarditis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "medium",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "gastritis-acute-chronic",
@@ -2764,7 +3472,19 @@
         }
       ],
       "magnification": "200x",
-      "subcategory_fa": "معده"
+      "subcategory_fa": "معده",
+      "image": {
+        "url": "/images/pathology/gastritis-acute-chronic.svg",
+        "alt": "Acute & Chronic Gastritis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "medium",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "gastric-carcinoma",
@@ -2811,7 +3531,19 @@
         }
       ],
       "magnification": "400x",
-      "subcategory_fa": "معده"
+      "subcategory_fa": "معده",
+      "image": {
+        "url": "/images/pathology/gastric-carcinoma.svg",
+        "alt": "Gastric Carcinoma (Intestinal & Diffuse Type) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "reflux-esophagitis-barrett",
@@ -2857,7 +3589,19 @@
         }
       ],
       "magnification": "200x",
-      "subcategory_fa": "مری"
+      "subcategory_fa": "مری",
+      "image": {
+        "url": "/images/pathology/reflux-esophagitis-barrett.svg",
+        "alt": "Reflux Esophagitis & Barrett Esophagus — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "medium",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "esophageal-carcinoma",
@@ -2904,7 +3648,19 @@
         }
       ],
       "magnification": "100x",
-      "subcategory_fa": "مری"
+      "subcategory_fa": "مری",
+      "image": {
+        "url": "/images/pathology/esophageal-carcinoma.svg",
+        "alt": "Esophageal Carcinoma (Squamous Cell & Adenocarcinoma) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "achalasia-mallory-weiss",
@@ -2952,7 +3708,19 @@
         }
       ],
       "magnification": "10x",
-      "subcategory_fa": "مری"
+      "subcategory_fa": "مری",
+      "image": {
+        "url": "/images/pathology/achalasia-mallory-weiss.svg",
+        "alt": "Achalasia & Mallory-Weiss Syndrome — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "ibd-crohn-ulcerative-colitis",
@@ -3001,7 +3769,19 @@
         }
       ],
       "magnification": "200x",
-      "subcategory_fa": "روده و کولون"
+      "subcategory_fa": "روده و کولون",
+      "image": {
+        "url": "/images/pathology/ibd-crohn-ulcerative-colitis.svg",
+        "alt": "Inflammatory Bowel Disease (Crohn Disease & Ulcerative Colitis) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "medium",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "celiac-disease",
@@ -3048,7 +3828,19 @@
         }
       ],
       "magnification": "100x",
-      "subcategory_fa": "روده و کولون"
+      "subcategory_fa": "روده و کولون",
+      "image": {
+        "url": "/images/pathology/celiac-disease.svg",
+        "alt": "Celiac Disease — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "c-difficile-colitis",
@@ -3093,7 +3885,19 @@
         }
       ],
       "magnification": "100x",
-      "subcategory_fa": "روده و کولون"
+      "subcategory_fa": "روده و کولون",
+      "image": {
+        "url": "/images/pathology/c-difficile-colitis.svg",
+        "alt": "Clostridioides difficile Colitis (Pseudomembranous Colitis) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "colorectal-adenocarcinoma-polyps",
@@ -3140,7 +3944,19 @@
         }
       ],
       "magnification": "100x",
-      "subcategory_fa": "روده و کولون"
+      "subcategory_fa": "روده و کولون",
+      "image": {
+        "url": "/images/pathology/colorectal-adenocarcinoma-polyps.svg",
+        "alt": "Colorectal Adenocarcinoma & Polyps (FAP) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "oral-mucosal-lesions",
@@ -3187,7 +4003,19 @@
         }
       ],
       "magnification": "100x",
-      "subcategory_fa": "دهان و غدد بزاقی"
+      "subcategory_fa": "دهان و غدد بزاقی",
+      "image": {
+        "url": "/images/pathology/oral-mucosal-lesions.svg",
+        "alt": "Oral Mucosal Lesions (Leukoplakia & Oral SCC) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "salivary-gland-tumors",
@@ -3236,7 +4064,19 @@
         }
       ],
       "magnification": "100x",
-      "subcategory_fa": "دهان و غدد بزاقی"
+      "subcategory_fa": "دهان و غدد بزاقی",
+      "image": {
+        "url": "/images/pathology/salivary-gland-tumors.svg",
+        "alt": "Salivary Gland Tumors (Pleomorphic Adenoma, Warthin Tumor, Mucoepidermoid Carcinoma) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "chronic-viral-hepatitis-cirrhosis",
@@ -3282,7 +4122,19 @@
           "magnification": "40x"
         }
       ],
-      "magnification": "40x"
+      "magnification": "40x",
+      "image": {
+        "url": "/images/pathology/chronic-viral-hepatitis-cirrhosis.svg",
+        "alt": "Chronic Viral Hepatitis & Cirrhosis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E / Masson Trichrome",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "hemochromatosis-wilson-disease",
@@ -3328,7 +4180,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/hemochromatosis-wilson-disease.svg",
+        "alt": "Hemochromatosis & Wilson Disease — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "Prussian Blue",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "alpha1-antitrypsin-deficiency",
@@ -3374,7 +4238,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/alpha1-antitrypsin-deficiency.svg",
+        "alt": "Alpha-1 Antitrypsin Deficiency — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "PAS",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "cholestatic-liver-disease-pbc-psc",
@@ -3420,7 +4296,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/cholestatic-liver-disease-pbc-psc.svg",
+        "alt": "Cholestatic Liver Disease (PBC & PSC) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "cholelithiasis-cholecystitis",
@@ -3466,7 +4354,19 @@
           "magnification": "گراس"
         }
       ],
-      "magnification": "گراس"
+      "magnification": "گراس",
+      "image": {
+        "url": "/images/pathology/cholelithiasis-cholecystitis.svg",
+        "alt": "Cholelithiasis & Cholecystitis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": null,
+        "stain": "گراس",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "acute-chronic-pancreatitis",
@@ -3513,7 +4413,19 @@
           "magnification": "40x"
         }
       ],
-      "magnification": "40x"
+      "magnification": "40x",
+      "image": {
+        "url": "/images/pathology/acute-chronic-pancreatitis.svg",
+        "alt": "Acute & Chronic Pancreatitis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "pancreatic-ductal-adenocarcinoma",
@@ -3557,7 +4469,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/pancreatic-ductal-adenocarcinoma.svg",
+        "alt": "Pancreatic Ductal Adenocarcinoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "type-1-diabetes-mellitus",
@@ -3603,7 +4527,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/type-1-diabetes-mellitus.svg",
+        "alt": "Type 1 Diabetes Mellitus — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "mody-lada-other-diabetes",
@@ -3645,7 +4581,19 @@
           "magnification": "—"
         }
       ],
-      "magnification": "—"
+      "magnification": "—",
+      "image": {
+        "url": "/images/pathology/mody-lada-other-diabetes.svg",
+        "alt": "Other Specific Types of Diabetes (MODY, LADA, Gestational, Secondary) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": null,
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "pituitary-adenoma-functioning",
@@ -3690,7 +4638,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/pituitary-adenoma-functioning.svg",
+        "alt": "Functioning Pituitary Adenomas — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "pituitary-adenoma-nonfunctioning",
@@ -3735,7 +4695,19 @@
           "magnification": "—"
         }
       ],
-      "magnification": "—"
+      "magnification": "—",
+      "image": {
+        "url": "/images/pathology/pituitary-adenoma-nonfunctioning.svg",
+        "alt": "Non-functioning Pituitary Adenoma & Mass Effect — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": null,
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "hypopituitarism-sheehan-syndrome",
@@ -3779,7 +4751,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/hypopituitarism-sheehan-syndrome.svg",
+        "alt": "Hypopituitarism & Sheehan Syndrome — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "hashimoto-thyroiditis",
@@ -3823,7 +4807,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/hashimoto-thyroiditis.svg",
+        "alt": "Hashimoto Thyroiditis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "toxic-nodular-goiter-toxic-adenoma",
@@ -3865,7 +4861,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/toxic-nodular-goiter-toxic-adenoma.svg",
+        "alt": "Toxic Multinodular Goiter & Toxic Adenoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "follicular-thyroid-carcinoma",
@@ -3907,7 +4915,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/follicular-thyroid-carcinoma.svg",
+        "alt": "Follicular Thyroid Carcinoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "medullary-anaplastic-thyroid-carcinoma",
@@ -3953,7 +4973,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/medullary-anaplastic-thyroid-carcinoma.svg",
+        "alt": "Medullary & Anaplastic Thyroid Carcinoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "gallbladder-carcinoma",
@@ -3995,7 +5027,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/gallbladder-carcinoma.svg",
+        "alt": "Carcinoma of the Gallbladder — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "polycystic-kidney-disease",
@@ -4040,7 +5084,19 @@
           "magnification": "Gross"
         }
       ],
-      "magnification": "Gross"
+      "magnification": "Gross",
+      "image": {
+        "url": "/images/pathology/polycystic-kidney-disease.svg",
+        "alt": "Polycystic Kidney Disease (Autosomal Dominant & Recessive) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": null,
+        "stain": "Gross",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "tubulointerstitial-nephritis-pyelonephritis",
@@ -4086,7 +5142,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/tubulointerstitial-nephritis-pyelonephritis.svg",
+        "alt": "Tubulointerstitial Nephritis & Pyelonephritis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "nephrosclerosis-renal-artery-stenosis",
@@ -4131,7 +5199,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/nephrosclerosis-renal-artery-stenosis.svg",
+        "alt": "Nephrosclerosis & Renal Artery Stenosis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "angiomyolipoma-renal",
@@ -4174,7 +5254,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/angiomyolipoma-renal.svg",
+        "alt": "Renal Angiomyolipoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "bladder-urothelial-carcinoma",
@@ -4219,7 +5311,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/bladder-urothelial-carcinoma.svg",
+        "alt": "Urothelial (Transitional Cell) Carcinoma of the Bladder — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "wilms-tumor",
@@ -4263,7 +5367,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/wilms-tumor.svg",
+        "alt": "Wilms Tumor (Nephroblastoma) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "necrosis-patterns-other",
@@ -4306,7 +5422,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/necrosis-patterns-other.svg",
+        "alt": "Other Necrosis Patterns (Coagulative, Liquefactive, Fat) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "apoptosis-cell-death",
@@ -4346,7 +5474,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/apoptosis-cell-death.svg",
+        "alt": "Apoptosis (Programmed Cell Death) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "amyloidosis",
@@ -4390,7 +5530,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/amyloidosis.svg",
+        "alt": "Amyloidosis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "Congo Red",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "vasculitis-classification-overview",
@@ -4436,7 +5588,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/vasculitis-classification-overview.svg",
+        "alt": "Vasculitis Classification by Vessel Size — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "tumor-metastasis-cascade",
@@ -4474,7 +5638,19 @@
           "magnification": "Diagram"
         }
       ],
-      "magnification": "Diagram"
+      "magnification": "Diagram",
+      "image": {
+        "url": "/images/pathology/tumor-metastasis-cascade.svg",
+        "alt": "Tumor Metastatic Cascade — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": null,
+        "stain": "Diagram",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "non-hodgkin-lymphoma-overview",
@@ -4520,7 +5696,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/non-hodgkin-lymphoma-overview.svg",
+        "alt": "Non-Hodgkin Lymphoma Overview (DLBCL, Follicular, Burkitt, MALT) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "multiple-myeloma",
@@ -4563,7 +5751,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/multiple-myeloma.svg",
+        "alt": "Multiple Myeloma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "acute-leukemia-aml-all",
@@ -4606,7 +5806,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/acute-leukemia-aml-all.svg",
+        "alt": "Acute Leukemia (AML vs ALL) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E / Wright-Giemsa",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "chronic-lymphocytic-leukemia",
@@ -4649,7 +5861,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/chronic-lymphocytic-leukemia.svg",
+        "alt": "Chronic Lymphocytic Leukemia / Small Lymphocytic Lymphoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "Wright-Giemsa",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "thymoma",
@@ -4691,7 +5915,19 @@
           "magnification": "200x"
         }
       ],
-      "magnification": "200x"
+      "magnification": "200x",
+      "image": {
+        "url": "/images/pathology/thymoma.svg",
+        "alt": "Thymoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "medium",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "splenomegaly-spleen-pathology",
@@ -4733,7 +5969,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/splenomegaly-spleen-pathology.svg",
+        "alt": "Splenomegaly & Spleen Pathology — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "Gross / H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "chondrosarcoma",
@@ -4776,7 +6024,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/chondrosarcoma.svg",
+        "alt": "Chondrosarcoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "ewing-sarcoma",
@@ -4818,7 +6078,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/ewing-sarcoma.svg",
+        "alt": "Ewing Sarcoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "osteochondroma-chondroma",
@@ -4863,7 +6135,19 @@
           "magnification": "40x"
         }
       ],
-      "magnification": "40x"
+      "magnification": "40x",
+      "image": {
+        "url": "/images/pathology/osteochondroma-chondroma.svg",
+        "alt": "Osteochondroma & Chondroma (Enchondroma) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "osteoporosis",
@@ -4907,7 +6191,19 @@
           "magnification": "40x"
         }
       ],
-      "magnification": "40x"
+      "magnification": "40x",
+      "image": {
+        "url": "/images/pathology/osteoporosis.svg",
+        "alt": "Osteoporosis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "Gross / Micro-CT",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "paget-disease-bone",
@@ -4949,7 +6245,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/paget-disease-bone.svg",
+        "alt": "Paget Disease of Bone — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "dermatomyositis-polymyositis",
@@ -4991,7 +6299,19 @@
           "magnification": "200x"
         }
       ],
-      "magnification": "200x"
+      "magnification": "200x",
+      "image": {
+        "url": "/images/pathology/dermatomyositis-polymyositis.svg",
+        "alt": "Dermatomyositis & Polymyositis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "medium",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "duchenne-becker-muscular-dystrophy",
@@ -5035,7 +6355,19 @@
           "magnification": "200x"
         }
       ],
-      "magnification": "200x"
+      "magnification": "200x",
+      "image": {
+        "url": "/images/pathology/duchenne-becker-muscular-dystrophy.svg",
+        "alt": "Duchenne & Becker Muscular Dystrophy — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "medium",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "copd-emphysema-chronic-bronchitis",
@@ -5080,7 +6412,19 @@
           "magnification": "40x"
         }
       ],
-      "magnification": "40x"
+      "magnification": "40x",
+      "image": {
+        "url": "/images/pathology/copd-emphysema-chronic-bronchitis.svg",
+        "alt": "COPD (Emphysema & Chronic Bronchitis) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "pneumothorax-mesothelioma-pleural",
@@ -5124,7 +6468,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/pneumothorax-mesothelioma-pleural.svg",
+        "alt": "Pneumothorax & Malignant Pleural Mesothelioma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E / IHC",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "pulmonary-embolism-hypertension",
@@ -5168,7 +6524,19 @@
           "magnification": "40x"
         }
       ],
-      "magnification": "40x"
+      "magnification": "40x",
+      "image": {
+        "url": "/images/pathology/pulmonary-embolism-hypertension.svg",
+        "alt": "Pulmonary Embolism & Pulmonary Hypertension — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "laryngeal-carcinoma-vocal-cord-lesions",
@@ -5214,7 +6582,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/laryngeal-carcinoma-vocal-cord-lesions.svg",
+        "alt": "Laryngeal Carcinoma & Vocal Cord Lesions — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "cholangiocarcinoma",
@@ -5263,7 +6643,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/cholangiocarcinoma.svg",
+        "alt": "Cholangiocarcinoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "hepatic-adenoma",
@@ -5308,7 +6700,19 @@
           "magnification": "100x"
         }
       ],
-      "magnification": "100x"
+      "magnification": "100x",
+      "image": {
+        "url": "/images/pathology/hepatic-adenoma.svg",
+        "alt": "Hepatic (Hepatocellular) Adenoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "focal-nodular-hyperplasia",
@@ -5352,7 +6756,19 @@
           "magnification": "20x"
         }
       ],
-      "magnification": "20x"
+      "magnification": "20x",
+      "image": {
+        "url": "/images/pathology/focal-nodular-hyperplasia.svg",
+        "alt": "Focal Nodular Hyperplasia (FNH) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "low",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "minimal-change-disease",
@@ -5395,7 +6811,19 @@
           "magnification": "EM"
         }
       ],
-      "magnification": "EM"
+      "magnification": "EM",
+      "image": {
+        "url": "/images/pathology/minimal-change-disease.svg",
+        "alt": "Minimal Change Disease (MCD) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": null,
+        "stain": "EM",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "focal-segmental-glomerulosclerosis",
@@ -5436,7 +6864,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/focal-segmental-glomerulosclerosis.svg",
+        "alt": "Focal Segmental Glomerulosclerosis (FSGS) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "membranous-nephropathy",
@@ -5478,7 +6918,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/membranous-nephropathy.svg",
+        "alt": "Membranous Nephropathy — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "Silver stain",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "iga-nephropathy",
@@ -5519,7 +6971,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/iga-nephropathy.svg",
+        "alt": "IgA Nephropathy — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "Immunofluorescence",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "rapidly-progressive-glomerulonephritis",
@@ -5563,7 +7027,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/rapidly-progressive-glomerulonephritis.svg",
+        "alt": "Rapidly Progressive (Crescentic) Glomerulonephritis — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "dilated-cardiomyopathy",
@@ -5622,7 +7098,19 @@
           "magnification": "گراس"
         }
       ],
-      "magnification": "گراس"
+      "magnification": "گراس",
+      "image": {
+        "url": "/images/pathology/dilated-cardiomyopathy.svg",
+        "alt": "Dilated Cardiomyopathy (DCM) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": null,
+        "stain": "Gross",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "hypertrophic-cardiomyopathy",
@@ -5679,7 +7167,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/hypertrophic-cardiomyopathy.svg",
+        "alt": "Hypertrophic Cardiomyopathy (HCM) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "restrictive-cardiomyopathy",
@@ -5735,7 +7235,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/pathology/restrictive-cardiomyopathy.svg",
+        "alt": "Restrictive Cardiomyopathy (RCM) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "Congo Red",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "epidural-hematoma",
@@ -5785,7 +7297,19 @@
           "magnification": "گراس"
         }
       ],
-      "magnification": "گراس"
+      "magnification": "گراس",
+      "image": {
+        "url": "/images/pathology/epidural-hematoma.svg",
+        "alt": "Epidural Hematoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": null,
+        "stain": "Gross",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "subdural-hematoma",
@@ -5837,7 +7361,19 @@
           "magnification": "گراس"
         }
       ],
-      "magnification": "گراس"
+      "magnification": "گراس",
+      "image": {
+        "url": "/images/pathology/subdural-hematoma.svg",
+        "alt": "Subdural Hematoma — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": null,
+        "stain": "Gross",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "subarachnoid-hemorrhage",
@@ -5892,7 +7428,19 @@
           "magnification": "گراس"
         }
       ],
-      "magnification": "گراس"
+      "magnification": "گراس",
+      "image": {
+        "url": "/images/pathology/subarachnoid-hemorrhage.svg",
+        "alt": "Subarachnoid Hemorrhage (SAH) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": null,
+        "stain": "Gross",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "intracerebral-hemorrhage",
@@ -5947,7 +7495,19 @@
           "magnification": "گراس"
         }
       ],
-      "magnification": "گراس"
+      "magnification": "گراس",
+      "image": {
+        "url": "/images/pathology/intracerebral-hemorrhage.svg",
+        "alt": "Intracerebral (Intraparenchymal) Hemorrhage — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": null,
+        "stain": "Gross",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     }
   ],
   "clusters": [

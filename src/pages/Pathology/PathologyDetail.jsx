@@ -3,10 +3,11 @@ import { useNavigate, useParams } from "react-router-dom";
 import pathologyData from "../../data/pathology.json";
 import Card from "./components/Card.jsx";
 import PathologyEmptyState from "./components/PathologyEmptyState.jsx";
-import ImageWithFallback from "../../shared/components/ImageWithFallback.jsx";
+import ImageViewer from "../../shared/components/ImageViewer.jsx";
 import BackButton from "../../shared/components/BackButton.jsx";
 import FavoriteButton from "../Favorites/components/FavoriteButton";
 import { FAVORITE_TYPES, markItemViewed } from "../../shared/lib/storage";
+import { recordStudy } from "../../shared/lib/learning";
 import "./Pathology.css";
 
 const { items } = pathologyData;
@@ -30,6 +31,7 @@ export default function PathologyDetail() {
   // Real progress tracking: opening a detail page counts as "studied".
   useEffect(() => {
     if (item) markItemViewed("pathology", item.id);
+    if (item) recordStudy("pathology", item.id, { title_fa: item.title_fa, title_en: item.title_en, subtitle: item.category });
   }, [item]);
 
   if (!item) {
@@ -68,14 +70,7 @@ export default function PathologyDetail() {
       </div>
 
       <div className="path-detail__hero">
-        <ImageWithFallback
-          className="path-detail__image"
-          src={item.image_url}
-          alt={item.title_en}
-        />
-        <p className="path-detail__image-caption">
-          {item.image_caption || "تصویری برای این مورد هنوز ثبت نشده است."}
-        </p>
+        <ImageViewer image={item.image} titleEn={item.title_en} />
       </div>
 
       {item.pathogenesis && (

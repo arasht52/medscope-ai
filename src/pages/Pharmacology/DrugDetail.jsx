@@ -7,6 +7,7 @@ import EmptyState from "./components/EmptyState.jsx";
 import BackButton from "../../shared/components/BackButton.jsx";
 import FavoriteButton from "../Favorites/components/FavoriteButton";
 import { FAVORITE_TYPES, markItemViewed } from "../../shared/lib/storage";
+import { recordStudy } from "../../shared/lib/learning";
 import { matchSuffixTip } from "./suffixTips.js";
 import "./Pharmacology.css";
 
@@ -28,6 +29,7 @@ export default function DrugDetail() {
   // Real progress tracking: opening a detail page counts as "studied".
   useEffect(() => {
     if (drug) markItemViewed("pharmacology", drug.id);
+    if (drug) recordStudy("pharmacology", drug.id, { title_fa: drug.generic_name, title_en: drug.generic_name, subtitle: drug.drug_class || drug.category });
   }, [drug]);
 
   if (!drug) {

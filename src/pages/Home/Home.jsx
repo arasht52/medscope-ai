@@ -1,5 +1,7 @@
 import { useState, useMemo } from "react";
-import { Search, Microscope, Pill, Stethoscope, Brain, Star, ChevronLeft } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Search, Microscope, Pill, Stethoscope, Brain, Star, ChevronLeft, CalendarCheck, BarChart3 } from "lucide-react";
+import { getDueCount } from "../../shared/lib/learning.js";
 
 import ProgressBar from "./components/ProgressBar.jsx";
 import CardNotch from "./components/CardNotch.jsx";
@@ -84,6 +86,7 @@ const recentItems = [
 export default function Home() {
   const [query, setQuery] = useState("");
   const isSearching = query.trim().length > 0;
+  const dueCount = useMemo(() => getDueCount(), []);
   const searchResults = useMemo(() => searchAllModules(query), [query]);
 
   // Real progress: each module's Detail page calls markDone(itemId) when
@@ -122,6 +125,31 @@ export default function Home() {
 
       {!isSearching && (
         <>
+      {/* Active-learning entry: daily spaced-repetition review + analytics */}
+      <section className="px-5 pb-4">
+        <div className="grid grid-cols-2 gap-3">
+          <Link
+            to="/review"
+            className="relative flex items-center gap-2 rounded-2xl px-3 py-3 bg-surface border border-border"
+          >
+            <CalendarCheck size={20} className="text-histology" />
+            <span className="text-sm font-semibold text-ink">مرور امروز</span>
+            {dueCount > 0 && (
+              <span className="absolute -top-1.5 -left-1.5 min-w-[20px] h-5 px-1 rounded-full bg-histology text-white text-[11px] font-bold grid place-items-center">
+                {toFaDigits(dueCount)}
+              </span>
+            )}
+          </Link>
+          <Link
+            to="/progress"
+            className="flex items-center gap-2 rounded-2xl px-3 py-3 bg-surface border border-border"
+          >
+            <BarChart3 size={20} className="text-histology" />
+            <span className="text-sm font-semibold text-ink">پیشرفت</span>
+          </Link>
+        </div>
+      </section>
+
       {/* Progress section */}
       <section className="px-5 pb-4">
         <div className="relative rounded-2xl p-4 bg-surface border border-border">

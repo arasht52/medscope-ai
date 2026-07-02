@@ -1,7 +1,26 @@
 import Card from "../../../shared/components/Card";
-import ImageWithFallback from "../../../shared/components/ImageWithFallback";
+import ImageViewer from "../../../shared/components/ImageViewer";
 import AnswerOption from "./AnswerOption";
 import "./QuestionCard.css";
+
+/**
+ * Resolve a question's image into the safe `image` schema. New questions carry
+ * an `image` object; legacy questions only had an `image_url` with no license
+ * metadata — those are treated as unverified so the viewer shows the
+ * educational placeholder instead of unlicensed content.
+ */
+function resolveQuestionImage(question) {
+  if (question.image && typeof question.image === "object") return question.image;
+  if (question.image_url) {
+    return {
+      url: question.image_url,
+      alt: question.image_caption || "",
+      type: "placeholder",
+      verifiedOpenLicense: false,
+    };
+  }
+  return null;
+}
 
 /**
  * QuestionCard
@@ -21,6 +40,7 @@ import "./QuestionCard.css";
  */
 export default function QuestionCard({ question, selectedOptionId, onSelect, index, total }) {
   const hasAnswered = selectedOptionId !== undefined;
+  const questionImage = resolveQuestionImage(question);
 
   function getState(option) {
     if (!hasAnswered) return "idle";
@@ -43,16 +63,13 @@ export default function QuestionCard({ question, selectedOptionId, onSelect, ind
         </div>
       )}
 
-      {question.image_url && (
+      {questionImage && (
         <div className="question-card__image-wrap">
-          <ImageWithFallback
-            className="question-card__image"
-            src={question.image_url}
-            alt={question.topicTitleEn || question.drugTitleEn || ""}
+          <ImageViewer
+            image={questionImage}
+            titleEn={question.topicTitleEn || question.drugTitleEn || ""}
+            compact
           />
-          {question.image_caption && (
-            <p className="question-card__image-caption">{question.image_caption}</p>
-          )}
         </div>
       )}
 

@@ -32,3 +32,48 @@
   flex-direction: column;
   padding: 0 var(--space-4);
 }
+
+/* --- Phase 1 pedagogical blocks --- */
+.histology-detail__selfcheck {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.histology-detail__selfcheck-item {
+  border: 1px solid var(--color-border, #e6e9ee);
+  border-radius: var(--radius-md, 14px);
+  overflow: hidden;
+  background: var(--color-surface, #fff);
+}
+.histology-detail__selfcheck-q {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 12px 14px;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text, #1b2430);
+  text-align: right;
+  cursor: pointer;
+}
+.histology-detail__selfcheck-a {
+  margin: 0;
+  padding: 0 14px 12px;
+  font-size: 13.5px;
+  line-height: 1.9;
+  color: var(--color-text-muted, #5e6b7a);
+}
+.section--summary .histology-detail__summary {
+  margin: 0;
+  padding: 12px 14px;
+  background: var(--color-primary-soft, #e8f0fb);
+  border-radius: var(--radius-md, 14px);
+  font-size: 14px;
+  line-height: 1.9;
+  color: var(--color-primary-dark, #0e4f9e);
+}

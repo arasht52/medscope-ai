@@ -1,34 +1,38 @@
+import { lazy, Suspense } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 
 import BottomNav from "./shared/components/BottomNav.jsx";
+import RouteFallback from "./shared/components/RouteFallback.jsx";
 
+// Home stays eager so the landing screen paints instantly. Everything else is
+// code-split so the initial bundle no longer carries every module + its JSON
+// (Phase 7). Each import() becomes its own lazily-loaded chunk.
 import Home from "./pages/Home/Home.jsx";
 
-import HistologyListPage from "./pages/Histology/HistologyListPage.jsx";
-import HistologyDetailPage from "./pages/Histology/HistologyDetailPage.jsx";
-import HistologyAtlas from "./pages/Histology/HistologyAtlas.jsx";
+const HistologyListPage = lazy(() => import("./pages/Histology/HistologyListPage.jsx"));
+const HistologyDetailPage = lazy(() => import("./pages/Histology/HistologyDetailPage.jsx"));
+const HistologyAtlas = lazy(() => import("./pages/Histology/HistologyAtlas.jsx"));
 
-import DrugList from "./pages/Pharmacology/DrugList.jsx";
-import DrugDetail from "./pages/Pharmacology/DrugDetail.jsx";
+const DrugList = lazy(() => import("./pages/Pharmacology/DrugList.jsx"));
+const DrugDetail = lazy(() => import("./pages/Pharmacology/DrugDetail.jsx"));
 
-import PathologyList from "./pages/Pathology/PathologyList.jsx";
-import PathologyDetail from "./pages/Pathology/PathologyDetail.jsx";
-import PathologyCluster from "./pages/Pathology/PathologyCluster.jsx";
+const PathologyList = lazy(() => import("./pages/Pathology/PathologyList.jsx"));
+const PathologyDetail = lazy(() => import("./pages/Pathology/PathologyDetail.jsx"));
+const PathologyCluster = lazy(() => import("./pages/Pathology/PathologyCluster.jsx"));
+
+const FavoritesRoute = lazy(() => import("./pages/Favorites/FavoritesRoute.jsx"));
+const Settings = lazy(() => import("./pages/Settings/Settings.jsx"));
+const ReviewPage = lazy(() => import("./pages/Review/ReviewPage.jsx"));
+const ProgressPage = lazy(() => import("./pages/Progress/ProgressPage.jsx"));
 
 import { quizRoutes } from "./pages/Quiz/index.js";
-
 import { gameRoutes } from "./pages/Game/index.js";
-
-import FavoritesRoute from "./pages/Favorites/FavoritesRoute.jsx";
-
-import Settings from "./pages/Settings/Settings.jsx";
 
 // The Quiz module's gameplay screens ship their own fixed action footer
 // (Next/See-result button) that already reserves the exact screen region
 // the BottomNav would occupy. Showing both at once means the footer's
 // background visually covers the nav, so the nav is hidden only on these
-// two routes — every other route (including the Quiz home and result
-// pages) keeps it.
+// routes — every other route keeps it. /review is full-screen focus too.
 const ROUTES_WITHOUT_BOTTOM_NAV = [
   "/histology/atlas",
   "/quiz/histology",
@@ -36,6 +40,7 @@ const ROUTES_WITHOUT_BOTTOM_NAV = [
   "/quiz/pathology",
   "/quiz/histology-image",
   "/quiz/pathology-image",
+  "/review",
 ];
 
 function AppShell() {
@@ -45,34 +50,38 @@ function AppShell() {
   return (
     <div className="app-shell">
       <div className="app-shell__content">
-        <Routes>
-          <Route path="/" element={<Home />} />
+        <Suspense fallback={<RouteFallback />}>
+          <Routes>
+            <Route path="/" element={<Home />} />
 
-          <Route path="/histology" element={<HistologyListPage />} />
-          <Route path="/histology/atlas" element={<HistologyAtlas />} />
-          <Route path="/histology/:id" element={<HistologyDetailPage />} />
+            <Route path="/histology" element={<HistologyListPage />} />
+            <Route path="/histology/atlas" element={<HistologyAtlas />} />
+            <Route path="/histology/:id" element={<HistologyDetailPage />} />
 
-          <Route path="/pharmacology" element={<DrugList />} />
-          <Route path="/pharmacology/:id" element={<DrugDetail />} />
+            <Route path="/pharmacology" element={<DrugList />} />
+            <Route path="/pharmacology/:id" element={<DrugDetail />} />
 
-          <Route path="/pathology" element={<PathologyList />} />
-          <Route path="/pathology/cluster/:clusterId" element={<PathologyCluster />} />
-          <Route path="/pathology/:id" element={<PathologyDetail />} />
+            <Route path="/pathology" element={<PathologyList />} />
+            <Route path="/pathology/cluster/:clusterId" element={<PathologyCluster />} />
+            <Route path="/pathology/:id" element={<PathologyDetail />} />
 
-          {quizRoutes.map((r) => (
-            <Route key={r.path} path={r.path} element={r.element} />
-          ))}
+            {quizRoutes.map((r) => (
+              <Route key={r.path} path={r.path} element={r.element} />
+            ))}
 
-          {gameRoutes.map((r) => (
-            <Route key={r.path} path={r.path} element={r.element} />
-          ))}
+            {gameRoutes.map((r) => (
+              <Route key={r.path} path={r.path} element={r.element} />
+            ))}
 
-          <Route path="/favorites" element={<FavoritesRoute />} />
+            <Route path="/review" element={<ReviewPage />} />
+            <Route path="/progress" element={<ProgressPage />} />
 
-          <Route path="/settings" element={<Settings />} />
+            <Route path="/favorites" element={<FavoritesRoute />} />
+            <Route path="/settings" element={<Settings />} />
 
-          <Route path="*" element={<Navigate to="/" replace />} />
-        </Routes>
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+        </Suspense>
       </div>
 
       {!hideNav && <BottomNav />}

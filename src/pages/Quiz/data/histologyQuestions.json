@@ -28,8 +28,18 @@
     ],
     "correctOptionId": "a",
     "explanation_fa": "اپیتلیوم سنگفرشی ساده به دلیل نازک بودن، گزینه‌ی ایده‌آل برای تبادل گاز در آلوئول‌ها و فیلتراسیون در گلومرول است.",
-    "image_url": "/images/histology/simple-squamous-epithelium.svg",
-    "image_caption": "نمودار شماتیک — نمای میکروسکوپی اپیتلیوم سنگفرشی ساده (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)"
+    "image": {
+      "url": "/images/histology/simple-squamous-epithelium.svg",
+      "alt": "نمودار شماتیک — نمای میکروسکوپی اپیتلیوم سنگفرشی ساده (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "type": "diagram",
+      "magnification": null,
+      "stain": null,
+      "labels": [],
+      "source": "MedScope AI — نمودار اصلی و خودساخته",
+      "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+      "attribution": null,
+      "verifiedOpenLicense": true
+    }
   },
   {
     "id": "h-epithelial-2",
@@ -60,8 +70,18 @@
     ],
     "correctOptionId": "a",
     "explanation_fa": "اپیتلیوم استوانه‌ای مطبق کاذب مژک‌دار مشخصه‌ی دستگاه تنفسی فوقانی (نای، برونش) است؛ همه‌ی سلول‌ها روی غشای پایه قرار دارند ولی فقط برخی به سطح می‌رسند که ظاهر کاذب «مطبق» ایجاد می‌کند.",
-    "image_url": "/images/histology/pseudostratified-columnar-epithelium.svg",
-    "image_caption": "نمودار شماتیک — اپیتلیوم استوانه‌ای مطبق کاذب مژک‌دار (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)"
+    "image": {
+      "url": "/images/histology/pseudostratified-columnar-epithelium.svg",
+      "alt": "نمودار شماتیک — اپیتلیوم استوانه‌ای مطبق کاذب مژک‌دار (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "type": "diagram",
+      "magnification": null,
+      "stain": null,
+      "labels": [],
+      "source": "MedScope AI — نمودار اصلی و خودساخته",
+      "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+      "attribution": null,
+      "verifiedOpenLicense": true
+    }
   },
   {
     "id": "h-connective-1",
@@ -92,8 +112,18 @@
     ],
     "correctOptionId": "b",
     "explanation_fa": "غضروف هیالین فاقد رگ خونی است و ماتریکس آن حاوی کلاژن نوع II است؛ در سطوح مفصلی، نای و برونش یافت می‌شود و تغذیه‌اش از طریق انتشار از پری‌کندریوم تأمین می‌شود.",
-    "image_url": "/images/histology/hyaline-cartilage.svg",
-    "image_caption": "نمودار شماتیک — غضروف هیالین، کندروسیت‌ها در لاکونا (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)"
+    "image": {
+      "url": "/images/histology/hyaline-cartilage.svg",
+      "alt": "نمودار شماتیک — غضروف هیالین، کندروسیت‌ها در لاکونا (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "type": "diagram",
+      "magnification": null,
+      "stain": null,
+      "labels": [],
+      "source": "MedScope AI — نمودار اصلی و خودساخته",
+      "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+      "attribution": null,
+      "verifiedOpenLicense": true
+    }
   },
   {
     "id": "h-connective-2",
@@ -154,8 +184,18 @@
     ],
     "correctOptionId": "c",
     "explanation_fa": "دیسک‌های بینابینی محل اتصال سلول‌های عضله‌ی قلبی هستند و شامل دسموزوم و گپ جانکشن می‌شوند که هماهنگی انقباض الکتریکی بین سلول‌ها را ممکن می‌سازند؛ این ویژگی منحصر به عضله‌ی قلبی است.",
-    "image_url": "/images/histology/cardiac-muscle.svg",
-    "image_caption": "نمودار شماتیک — عضله‌ی قلبی با دیسک‌های بینابینی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)"
+    "image": {
+      "url": "/images/histology/cardiac-muscle.svg",
+      "alt": "نمودار شماتیک — عضله‌ی قلبی با دیسک‌های بینابینی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "type": "diagram",
+      "magnification": null,
+      "stain": null,
+      "labels": [],
+      "source": "MedScope AI — نمودار اصلی و خودساخته",
+      "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+      "attribution": null,
+      "verifiedOpenLicense": true
+    }
   },
   {
     "id": "h-muscle-2",
@@ -186,8 +226,18 @@
     ],
     "correctOptionId": "a",
     "explanation_fa": "عضله‌ی صاف فاقد الگوی مخطط (striation) است، سلول‌های دوکی‌شکل با یک هسته‌ی مرکزی دارد، و در دیواره‌ی احشای لوله‌ای مانند روده و عروق خونی یافت می‌شود؛ انقباض آن غیرارادی و کندتر از عضله‌ی اسکلتی است.",
-    "image_url": "/images/histology/smooth-muscle.svg",
-    "image_caption": "نمودار شماتیک — عضله‌ی صاف، سلول‌های دوکی‌شکل با هسته‌ی مرکزی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)"
+    "image": {
+      "url": "/images/histology/smooth-muscle.svg",
+      "alt": "نمودار شماتیک — عضله‌ی صاف، سلول‌های دوکی‌شکل با هسته‌ی مرکزی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "type": "diagram",
+      "magnification": null,
+      "stain": null,
+      "labels": [],
+      "source": "MedScope AI — نمودار اصلی و خودساخته",
+      "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+      "attribution": null,
+      "verifiedOpenLicense": true
+    }
   },
   {
     "id": "h-nervous-1",
@@ -219,8 +269,18 @@
     ],
     "correctOptionId": "c",
     "explanation_fa": "اندونوریوم بافت همبند ظریفی است که هر فیبر عصبی منفرد را می‌پوشاند؛ پری‌نوریوم دسته‌های فیبر (فاسیکل) را و اپی‌نوریوم کل عصب را احاطه می‌کند.",
-    "image_url": "/images/histology/peripheral-nerve.svg",
-    "image_caption": "نمودار شماتیک — مقطع عرضی عصب محیطی با فاسیکل‌های آکسونی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)"
+    "image": {
+      "url": "/images/histology/peripheral-nerve.svg",
+      "alt": "نمودار شماتیک — مقطع عرضی عصب محیطی با فاسیکل‌های آکسونی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "type": "diagram",
+      "magnification": null,
+      "stain": null,
+      "labels": [],
+      "source": "MedScope AI — نمودار اصلی و خودساخته",
+      "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+      "attribution": null,
+      "verifiedOpenLicense": true
+    }
   },
   {
     "id": "h-nervous-2",

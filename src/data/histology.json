@@ -76,7 +76,95 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/simple-squamous-epithelium.svg",
+        "alt": "Simple Squamous Epithelium — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [
+          {
+            "name": "Squamous cell",
+            "x": 27.5,
+            "y": 30,
+            "description": "سلول پهن و نازک؛ سیتوپلاسم بسیار کم به نظر می‌رسد."
+          },
+          {
+            "name": "Flattened nucleus",
+            "x": 43,
+            "y": 37.5,
+            "description": "هسته‌ی پهن و بیضی‌شکل در مرکز سلول."
+          },
+          {
+            "name": "Basement membrane",
+            "x": 60,
+            "y": 49,
+            "description": "غشای پایه که اپیتلیوم روی آن قرار گرفته است."
+          }
+        ],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      },
+      "learning_objectives": [
+        "شناسایی اپیتلیوم سنگفرشی ساده در مقاطع بافتی",
+        "تمایز آن از اپیتلیوم مکعبی و استوانه‌ای ساده",
+        "نام‌بردن محل‌های اصلی این بافت در بدن"
+      ],
+      "tissue_overview": "یک لایه‌ی منفرد از سلول‌های پهن و نازک روی غشای پایه که برای تبادل و فیلتراسیون سریع تخصص یافته است.",
+      "identification_strategy": [
+        "دنبال یک ردیف منفرد از سلول‌های بسیار پهن با سیتوپلاسم کم‌رنگ بگرد.",
+        "هسته‌های پهن و بیضی که کمی برجستگی ایجاد می‌کنند نشانه‌ی کلیدی‌اند.",
+        "در محل‌هایی مثل آلوئول ریه و جدار عروق به آن فکر کن."
+      ],
+      "recognition_steps": [
+        "ابتدا سطح آزاد و غشای پایه را پیدا کن تا جهت اپیتلیوم مشخص شود.",
+        "تعداد لایه‌ها را بشمار؛ اگر تنها یک لایه است، «ساده» است.",
+        "ارتفاع سلول را بسنج؛ پهن‌تر از بلندی یعنی «سنگفرشی»."
+      ],
+      "low_power_findings": [
+        "مرز نازک و خطی بین بافت و فضای مجاور",
+        "هسته‌های پراکنده با فواصل منظم روی یک خط"
+      ],
+      "high_power_findings": [
+        "سیتوپلاسم بسیار نازک و کشیده در دو طرف هسته",
+        "هسته‌ی پهن که ضخیم‌ترین بخش سلول است"
+      ],
+      "diagnostic_landmarks": [
+        "قرارگیری تک‌لایه روی غشای پایه",
+        "نمای «تخم‌مرغ روی بشقاب» هسته‌ها در مقطع"
+      ],
+      "structures_missed": [
+        "غشای پایه که در بزرگ‌نمایی کم ممکن است دیده نشود",
+        "هسته‌های پهن که به‌سادگی با بافت همبند زمینه اشتباه می‌شوند"
+      ],
+      "exam_traps": [
+        "اشتباه‌گرفتن با اندوتلیوم/مزوتلیوم بدون توجه به محل (که خودشان اپیتلیوم سنگفرشی ساده‌اند)",
+        "تصور چندلایه‌بودن به‌دلیل برش مورب مقطع"
+      ],
+      "differential_identification": [
+        "اپیتلیوم مکعبی ساده: سلول‌ها هم‌ارتفاع و هم‌عرض با هسته‌ی گرد مرکزی",
+        "مزوتلیوم/اندوتلیوم: ساختار یکسان اما بر اساس محل نام‌گذاری می‌شوند"
+      ],
+      "clinical_relevance": [
+        "نازکیِ این لایه در آلوئول‌ها برای تبادل گاز حیاتی است؛ درک این ساختار به فهم فیزیولوژی تنفس کمک می‌کند (صرفاً آموزشی، بدون توصیه‌ی درمانی)."
+      ],
+      "mnemonics": [
+        "«سنگفرش = صاف و پهن»: کف سنگفرش صاف است، مثل سلول‌های پهن این بافت."
+      ],
+      "self_check": [
+        {
+          "q": "چرا اپیتلیوم سنگفرشی ساده برای تبادل گاز مناسب است؟",
+          "a": "چون تک‌لایه و بسیار نازک است و فاصله‌ی انتشار را به کمینه می‌رساند."
+        },
+        {
+          "q": "تفاوت کلیدی با اپیتلیوم مکعبی ساده چیست؟",
+          "a": "ارتفاع سلول؛ در سنگفرشی سلول پهن و هسته پهن است، در مکعبی ارتفاع و عرض برابرند و هسته گرد و مرکزی است."
+        }
+      ],
+      "summary": "تک‌لایه سلول‌های پهن روی غشای پایه، متخصص تبادل و فیلتراسیون؛ در آلوئول، اندوتلیوم عروق و مزوتلیوم دیده می‌شود."
     },
     {
       "id": "stratified-squamous-epithelium",
@@ -130,7 +218,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/stratified-squamous-epithelium.svg",
+        "alt": "Stratified Squamous Epithelium — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "hyaline-cartilage",
@@ -186,7 +286,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/hyaline-cartilage.svg",
+        "alt": "Hyaline Cartilage — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "dense-regular-connective-tissue",
@@ -237,7 +349,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/dense-regular-connective-tissue.svg",
+        "alt": "Dense Regular Connective Tissue — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "skeletal-muscle",
@@ -290,7 +414,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/skeletal-muscle.svg",
+        "alt": "Skeletal Muscle — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "cardiac-muscle",
@@ -342,7 +478,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/cardiac-muscle.svg",
+        "alt": "Cardiac Muscle — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "smooth-muscle",
@@ -393,7 +541,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/smooth-muscle.svg",
+        "alt": "Smooth Muscle — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "peripheral-nerve",
@@ -444,7 +604,19 @@
           "magnification": "400x"
         }
       ],
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/peripheral-nerve.svg",
+        "alt": "Peripheral Nerve — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "simple-cuboidal-epithelium",
@@ -484,7 +656,19 @@
       ],
       "image_url": "/images/histology/simple-cuboidal-epithelium.svg",
       "image_caption": "نمای میکروسکوپی اپیتلیوم مکعبی ساده — سلول‌های هم‌عرض و هم‌بلند با هسته مرکزی",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/simple-cuboidal-epithelium.svg",
+        "alt": "Simple Cuboidal Epithelium — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "simple-columnar-epithelium",
@@ -525,7 +709,19 @@
       ],
       "image_url": "/images/histology/simple-columnar-epithelium.svg",
       "image_caption": "نمای میکروسکوپی اپیتلیوم استوانه‌ای ساده — سلول‌های بلند با سلول‌های جامی موکوسی",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/simple-columnar-epithelium.svg",
+        "alt": "Simple Columnar Epithelium — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "pseudostratified-columnar-epithelium",
@@ -564,7 +760,19 @@
       ],
       "image_url": "/images/histology/pseudostratified-columnar-epithelium.svg",
       "image_caption": "نمای میکروسکوپی اپیتلیوم کاذب مطبق استوانه‌ای مژک‌دار نای",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/pseudostratified-columnar-epithelium.svg",
+        "alt": "Pseudostratified Columnar Epithelium — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "transitional-epithelium",
@@ -604,7 +812,19 @@
       ],
       "image_url": "/images/histology/transitional-epithelium.svg",
       "image_caption": "نمای میکروسکوپی اپیتلیوم انتقالی مثانه — سلول‌های سطحی گنبدی‌شکل",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/transitional-epithelium.svg",
+        "alt": "Transitional Epithelium (Urothelium) — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "stratified-squamous-keratinized",
@@ -642,7 +862,19 @@
       ],
       "image_url": "/images/histology/stratified-squamous-keratinized.svg",
       "image_caption": "نمای میکروسکوپی اپیدرم — اپیتلیوم سنگفرشی مطبق کراتینیزه",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/stratified-squamous-keratinized.svg",
+        "alt": "Keratinized Stratified Squamous Epithelium — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "loose-areolar-connective-tissue",
@@ -681,7 +913,19 @@
       ],
       "image_url": "/images/histology/loose-areolar-connective-tissue.svg",
       "image_caption": "نمای میکروسکوپی بافت همبند سست آره‌ئولار — رشته‌های پراکنده و سلول‌های متنوع",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/loose-areolar-connective-tissue.svg",
+        "alt": "Loose (Areolar) Connective Tissue — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "adipose-tissue",
@@ -721,7 +965,19 @@
       ],
       "image_url": "/images/histology/adipose-tissue.svg",
       "image_caption": "نمای میکروسکوپی بافت چربی — سلول‌های تک‌قطره‌ای با ظاهر شبکه‌ای",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/adipose-tissue.svg",
+        "alt": "Adipose Tissue — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "elastic-cartilage",
@@ -761,7 +1017,19 @@
       ],
       "image_url": "/images/histology/elastic-cartilage.svg",
       "image_caption": "نمای میکروسکوپی غضروف الاستیک — رشته‌های الاستیک فراوان در ماتریکس",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/elastic-cartilage.svg",
+        "alt": "Elastic Cartilage — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "fibrocartilage",
@@ -801,7 +1069,19 @@
       ],
       "image_url": "/images/histology/fibrocartilage.svg",
       "image_caption": "نمای میکروسکوپی فیبروکارتیلاژ — ردیف‌های کندروسیت بین کلاژن متراکم",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/fibrocartilage.svg",
+        "alt": "Fibrocartilage — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "compact-bone",
@@ -839,7 +1119,19 @@
       ],
       "image_url": "/images/histology/compact-bone.svg",
       "image_caption": "نمای میکروسکوپی استخوان متراکم — سیستم هاورس با لاملاهای متحدالمرکز",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/compact-bone.svg",
+        "alt": "Compact Bone — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "spongy-bone",
@@ -878,7 +1170,19 @@
       ],
       "image_url": "/images/histology/spongy-bone.svg",
       "image_caption": "نمای میکروسکوپی استخوان اسفنجی — شبکه‌ی ترابکولار با فضای مغز استخوان",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/spongy-bone.svg",
+        "alt": "Spongy (Trabecular) Bone — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     },
     {
       "id": "lymph-node",
@@ -917,7 +1221,19 @@
       ],
       "image_url": "/images/histology/lymph-node.svg",
       "image_caption": "نمای میکروسکوپی گره لنفی — فولیکول لنفی با مرکز ژرمینال",
-      "magnification": "400x"
+      "magnification": "400x",
+      "image": {
+        "url": "/images/histology/lymph-node.svg",
+        "alt": "Lymph Node — نمودار شماتیک آموزشی",
+        "type": "diagram",
+        "magnification": "high",
+        "stain": "H&E",
+        "labels": [],
+        "source": "MedScope AI — نمودار اصلی و خودساخته",
+        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
+        "attribution": null,
+        "verifiedOpenLicense": true
+      }
     }
   ]
 }

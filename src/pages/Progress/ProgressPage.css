@@ -1,0 +1,79 @@
+.progress-page {
+  padding: 0 var(--space-4, 16px) var(--space-6, 32px);
+  max-width: 680px;
+  margin: 0 auto;
+  direction: rtl;
+}
+.progress-empty { text-align: center; padding: var(--space-6) var(--space-3); color: var(--color-text-muted); display: flex; flex-direction: column; gap: 16px; }
+.progress-content { display: flex; flex-direction: column; gap: var(--space-5, 24px); }
+
+/* Readiness gauge */
+.progress-readiness { text-align: center; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.progress-readiness__gauge {
+  width: 148px; height: 148px; border-radius: 50%;
+  display: grid; place-items: center;
+}
+.progress-readiness__inner {
+  width: 116px; height: 116px; border-radius: 50%;
+  background: var(--color-surface, #fff);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  box-shadow: inset 0 0 0 1px var(--color-border, #e6e9ee);
+}
+.progress-readiness__num { font-size: 30px; font-weight: 800; color: var(--color-text, #1b2430); }
+.progress-readiness__label { font-size: 12px; color: var(--color-text-muted, #5e6b7a); }
+.progress-readiness__note { margin: 0; font-size: 12px; color: var(--color-text-muted); max-width: 40ch; line-height: 1.7; }
+
+/* Stat grid */
+.progress-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-2, 8px); }
+.progress-stat {
+  background: var(--color-surface, #fff);
+  border: 1px solid var(--color-border, #e6e9ee);
+  border-radius: var(--radius-md, 14px);
+  padding: 12px 8px;
+  display: flex; flex-direction: column; align-items: center; gap: 3px;
+  text-align: center;
+  font-family: inherit;
+}
+.progress-stat.is-button { cursor: pointer; }
+.progress-stat.is-accent { border-color: var(--color-primary, #1467c8); background: var(--color-primary-soft, #e8f0fb); }
+.progress-stat__icon { font-size: 18px; }
+.progress-stat__value { font-size: 17px; font-weight: 700; color: var(--color-text, #1b2430); }
+.progress-stat__label { font-size: 11.5px; color: var(--color-text-muted, #5e6b7a); }
+
+/* Blocks */
+.progress-block h3 { margin: 0 0 var(--space-3, 12px); font-size: 15px; color: var(--color-text, #1b2430); }
+
+/* Daily bars */
+.progress-bars { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; align-items: end; height: 120px; }
+.progress-bars__col { display: flex; flex-direction: column; align-items: center; gap: 4px; height: 100%; justify-content: flex-end; }
+.progress-bars__bar-wrap { flex: 1; width: 100%; display: flex; align-items: flex-end; justify-content: center; }
+.progress-bars__bar { width: 66%; min-height: 3px; background: var(--color-primary, #1467c8); border-radius: 6px 6px 0 0; }
+.progress-bars__label { font-size: 10.5px; color: var(--color-text-muted); }
+.progress-bars__count { font-size: 11px; font-weight: 600; color: var(--color-text); }
+
+/* Coverage */
+.progress-cov { margin-bottom: var(--space-3, 12px); }
+.progress-cov__head { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 5px; color: var(--color-text); }
+.progress-cov__num { color: var(--color-text-muted); }
+.progress-cov__track { height: 8px; border-radius: 999px; background: var(--color-border, #e6e9ee); overflow: hidden; }
+.progress-cov__fill { height: 100%; background: var(--color-secondary, #2fa66b); border-radius: 999px; }
+
+/* Topic lists */
+.progress-topics { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.progress-topics__row {
+  width: 100%;
+  display: flex; align-items: center; justify-content: space-between;
+  background: var(--color-surface, #fff);
+  border: 1px solid var(--color-border, #e6e9ee);
+  border-radius: var(--radius-md, 14px);
+  padding: 10px 12px;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: right;
+}
+.progress-topics__name { font-size: 13.5px; color: var(--color-text, #1b2430); }
+.progress-topics__pct { font-size: 12.5px; font-weight: 700; }
+.progress-topics__pct--weak { color: var(--color-wrong, #d64545); }
+.progress-topics__pct--strong { color: var(--color-correct, #2e9e5b); }
+
+.progress-actions { margin-top: 4px; }

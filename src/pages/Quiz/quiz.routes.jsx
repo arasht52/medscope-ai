@@ -1,44 +1,37 @@
-import QuizHome from "./pages/QuizHome";
-import HistologyQuiz, { HistologyCategoryQuiz, HistologyCombinedQuiz } from "./pages/HistologyQuiz";
-import PharmacologyQuiz, { PharmacologyCategoryQuiz, PharmacologyCombinedQuiz } from "./pages/PharmacologyQuiz";
-import PathologyQuiz, { PathologyCategoryQuiz, PathologyCombinedQuiz } from "./pages/PathologyQuiz";
-import HistologyImageQuiz from "./pages/HistologyImageQuiz";
-import PathologyImageQuiz from "./pages/PathologyImageQuiz";
-import QuizResult from "./pages/QuizResult";
+import { lazy } from "react";
 
 /**
- * quizRoutes
- * Self-contained route list for the Quiz module.
- * Integration: spread this array into the app's existing <Routes> /
- * router config. Does not modify Home, Histology, or Pharmacology routes.
- *
- * Histology, Pharmacology, and Pathology are all category-based:
- * /quiz/<subject> shows a per-system picker (CNS, GI, Endocrine, ...)
- * instead of one combined exam, per the project's quiz-structure rule.
- * Each question carries a `category` field matching the subject's own
- * data categories, so the picker stays in sync automatically.
- *
- * Each subject also supports a custom combined quiz: selecting several
- * categories on the picker (checkboxes) and tapping "شروع آزمون ترکیبی"
- * navigates to /quiz/<subject>/custom/:cats, where :cats is a "|"-joined,
- * URL-encoded list of the chosen category names — mixing questions from
- * just those categories into one quiz, per the project's custom
- * topic-selection quiz requirement.
- *
- * Note: an earlier text-based "/quiz/pathology" (PathologyQuiz.jsx +
- * pathologyQuestions.json) was attempted but never had real content —
- * it shipped as an empty stub and was removed for MVP stability per the
- * debugging report. This is a fresh implementation with a real question
- * bank. /quiz/pathology-image (image-first, self-contained, generates
- * its own questions from pathology.json) is unaffected and stays active.
- *
- * Example (react-router-dom v6):
- *   import { quizRoutes } from "./modules/quiz";
- *   <Routes>
- *     ...existing routes...
- *     {quizRoutes.map((r) => <Route key={r.path} path={r.path} element={r.element} />)}
- *   </Routes>
+ * quizRoutes — self-contained route list for the Quiz module.
+ * Components are lazy-loaded (Phase 7) so the quiz code + question banks are
+ * fetched only when a quiz route is visited, keeping them out of the initial
+ * bundle. They render under the app-level <Suspense> boundary in App.jsx.
  */
+const QuizHome = lazy(() => import("./pages/QuizHome"));
+const HistologyQuiz = lazy(() => import("./pages/HistologyQuiz"));
+const HistologyCategoryQuiz = lazy(() =>
+  import("./pages/HistologyQuiz").then((m) => ({ default: m.HistologyCategoryQuiz }))
+);
+const HistologyCombinedQuiz = lazy(() =>
+  import("./pages/HistologyQuiz").then((m) => ({ default: m.HistologyCombinedQuiz }))
+);
+const PharmacologyQuiz = lazy(() => import("./pages/PharmacologyQuiz"));
+const PharmacologyCategoryQuiz = lazy(() =>
+  import("./pages/PharmacologyQuiz").then((m) => ({ default: m.PharmacologyCategoryQuiz }))
+);
+const PharmacologyCombinedQuiz = lazy(() =>
+  import("./pages/PharmacologyQuiz").then((m) => ({ default: m.PharmacologyCombinedQuiz }))
+);
+const PathologyQuiz = lazy(() => import("./pages/PathologyQuiz"));
+const PathologyCategoryQuiz = lazy(() =>
+  import("./pages/PathologyQuiz").then((m) => ({ default: m.PathologyCategoryQuiz }))
+);
+const PathologyCombinedQuiz = lazy(() =>
+  import("./pages/PathologyQuiz").then((m) => ({ default: m.PathologyCombinedQuiz }))
+);
+const HistologyImageQuiz = lazy(() => import("./pages/HistologyImageQuiz"));
+const PathologyImageQuiz = lazy(() => import("./pages/PathologyImageQuiz"));
+const QuizResult = lazy(() => import("./pages/QuizResult"));
+
 const quizRoutes = [
   { path: "/quiz", element: <QuizHome /> },
 

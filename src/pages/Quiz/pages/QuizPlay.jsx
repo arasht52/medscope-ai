@@ -5,6 +5,8 @@ import ProgressBar from "../../../shared/components/ProgressBar";
 import Button from "../../../shared/components/Button";
 import QuestionCard from "../components/QuestionCard";
 import useQuiz from "../hooks/useQuiz";
+import { logQuizAttempt } from "../../../shared/lib/learning";
+import { topicMeta } from "../../../shared/lib/topicResolver";
 import "./QuizPlay.css";
 
 /**
@@ -23,6 +25,10 @@ export default function QuizPlay({ title, questions, resultPath, homePath }) {
 
   useEffect(() => {
     if (quiz.finished) {
+      // Feed results into the active-learning engine: per-topic accuracy for
+      // analytics + seed/refresh spaced-repetition cards for quizzed topics.
+      const wrongIds = quiz.wrongAnswers.map((w) => w.question.id);
+      logQuizAttempt(questions, wrongIds, topicMeta);
       navigate(resultPath, {
         state: { score: quiz.score, total: quiz.total, wrongAnswers: quiz.wrongAnswers },
         replace: true,

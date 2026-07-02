@@ -1,12 +1,12 @@
-import GameHome from "./GameHome";
-import MemoryGamePlay from "./MemoryGamePlay";
+import { lazy } from "react";
 
 /**
- * gameRoutes
- * Self-contained route list for the Memory Game module, mirroring the
- * Quiz module's pattern (see Quiz/quiz.routes.jsx). Spread this into the
- * app's existing <Routes>; it doesn't touch any other module's routes.
+ * gameRoutes — lazy-loaded (Phase 7) so the memory-game code loads only when
+ * a /game route is visited. Renders under the app-level <Suspense>.
  */
+const GameHome = lazy(() => import("./GameHome"));
+const MemoryGamePlay = lazy(() => import("./MemoryGamePlay"));
+
 const gameRoutes = [
   { path: "/game", element: <GameHome /> },
   { path: "/game/:subject", element: <MemoryGamePlay /> },

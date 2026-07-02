@@ -1,0 +1,25 @@
+.route-fallback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 50vh;
+  color: var(--color-text-muted, #5e6b7a);
+}
+.route-fallback__spinner {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 3px solid var(--color-border, #e6e9ee);
+  border-top-color: var(--color-primary, #1467c8);
+  animation: route-fallback-spin 0.7s linear infinite;
+}
+.route-fallback__text { font-size: 13px; }
+
+@keyframes route-fallback-spin {
+  to { transform: rotate(360deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .route-fallback__spinner { animation-duration: 2s; }
+}

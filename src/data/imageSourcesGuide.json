@@ -1,0 +1,36 @@
+{
+  "purpose": "راهنمای منابع تصویری مجاز برای MedScope AI. فقط تصاویری که لایسنس باز (open-license) آن‌ها تأیید شده باشد اجازه‌ی استفاده به‌عنوان محتوای واقعی را دارند. اسکن کتاب‌های درسی، تصاویر گوگل و هر منبع دارای کپی‌رایت ممنوع است.",
+  "rule": "verifiedOpenLicense باید فقط پس از بررسی دستی لایسنس روی true تنظیم شود. تا آن زمان، اپ به‌جای تصویر، placeholder آموزشی نمایش می‌دهد.",
+  "sources": [
+    {
+      "name": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org",
+      "licenseRequirement": "فقط CC0، CC BY یا CC BY-SA. لایسنس هر فایل را جداگانه بررسی کنید (بعضی فایل‌ها لایسنس محدودکننده دارند).",
+      "notes": "منبع اصلی تصاویر هیستولوژی و پاتولوژی با لایسنس باز. حتماً نام نویسنده و لینک لایسنس را در attribution ذخیره کنید."
+    },
+    {
+      "name": "OpenStax",
+      "url": "https://openstax.org",
+      "licenseRequirement": "CC BY 4.0 (به‌جز لوگو و برخی تصاویر شخص ثالث که باید جداگانه بررسی شوند).",
+      "notes": "کتاب‌های Anatomy & Physiology و Biology تصاویر آموزشی باکیفیت دارند. attribution به OpenStax الزامی است."
+    },
+    {
+      "name": "NIH / NCBI Open Access",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/about/openftlist/",
+      "licenseRequirement": "فقط زیرمجموعه‌ی Open Access با لایسنس CC. مقالات معمولی PMC لزوماً open-license نیستند؛ فقط PMC Open Access Subset مجاز است.",
+      "notes": "تصاویر بافت‌شناسی و آسیب‌شناسی از مقالات دسترسی‌آزاد. لایسنس دقیق هر مقاله را در attribution ثبت کنید."
+    },
+    {
+      "name": "University Open Educational Resources (OER)",
+      "url": "https://www.oercommons.org",
+      "licenseRequirement": "فقط منابعی با لایسنس Creative Commons صریح. اگر لایسنس مشخص نیست، استفاده نکنید.",
+      "notes": "اطلس‌های بافت‌شناسی و آسیب‌شناسی دانشگاه‌ها. شرایط استفاده‌ی هر دانشگاه را جداگانه بخوانید."
+    },
+    {
+      "name": "Self-created original images",
+      "url": null,
+      "licenseRequirement": "تصاویر و نمودارهای ساخته‌شده توسط تیم MedScope. لایسنس پیشنهادی: CC0-1.0.",
+      "notes": "امن‌ترین گزینه. شامل نمودارهای شماتیک SVG فعلی اپ می‌شود. هیچ محتوای دارای کپی‌رایت نباید در این تصاویر بازتولید شود."
+    }
+  ]
+}
