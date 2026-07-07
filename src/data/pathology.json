@@ -691,27 +691,37 @@
       "exam_tips": [
         "دکمپانسیشن ناگهانی + AFP بالا در بیمار سیروتیک شناخته‌شده = تله‌ی امتحانی کلاسیک HCC"
       ],
-      "image_url": "/images/pathology/hepatocellular-carcinoma.svg",
-      "image_caption": "نمودار شماتیک — کارسینوم هپاتوسلولار با تهاجم عروقی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/hepatocellular-carcinoma-photo.jpg",
+      "image_caption": "کارسینوم سلول کبدی (HCC) — عکس واقعی، H&E",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/hepatocellular-carcinoma-photo.jpg",
+          "caption": "کارسینوم سلول کبدی (HCC) — عکس واقعی، H&E",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hepatocellular_carcinoma_histopathology_(1).jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Wikimedia Commons"
+        },
+        {
           "url": "/images/pathology/hepatocellular-carcinoma.svg",
-          "caption": "نمودار شماتیک — کارسینوم هپاتوسلولار با تهاجم عروقی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "100x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "100x",
       "image": {
-        "url": "/images/pathology/hepatocellular-carcinoma.svg",
-        "alt": "Hepatocellular Carcinoma (HCC) — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "low",
+        "url": "/images/pathology/hepatocellular-carcinoma-photo.jpg",
+        "alt": "کارسینوم سلول کبدی — سلول‌های شبه‌هپاتوسیت با ترابکول‌های ضخیم؛ H&E",
+        "type": "real_slide",
+        "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Hepatocellular_carcinoma_histopathology_(1).jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -1214,27 +1224,37 @@
       "exam_tips": [
         "شایع‌ترین محل استئوسارکوم، متافیز دیستال فمور و پروگزیمال تیبیا (اطراف زانو) است"
       ],
-      "image_url": "/images/pathology/osteosarcoma.svg",
-      "image_caption": "نمودار شماتیک — استئوسارکوم (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/osteosarcoma-photo.jpg",
+      "image_caption": "استئوسارکوم — تولید استئوئید توسط سلول بدخیم (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/osteosarcoma-photo.jpg",
+          "caption": "استئوسارکوم — تولید استئوئید توسط سلول بدخیم (عکس واقعی، H&E)",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Mikael Häggström",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_osteosarcoma,_high_mag.jpg",
+          "license": "CC0",
+          "attribution": "Mikael Häggström"
+        },
+        {
           "url": "/images/pathology/osteosarcoma.svg",
-          "caption": "نمودار شماتیک — استئوسارکوم (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/osteosarcoma.svg",
-        "alt": "Osteosarcoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/osteosarcoma-photo.jpg",
+        "alt": "استئوسارکوم — سلول‌های بدخیم که استئوئید تولید می‌کنند؛ H&E",
+        "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Mikael Häggström",
+        "license": "CC0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_osteosarcoma,_high_mag.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -2079,27 +2099,37 @@
       "exam_tips": [
         "قانون 10s: ۱۰٪ خارج آدرنال، ۱۰٪ دوطرفه، ۱۰٪ بدخیم، ۱۰٪ بدون فشار خون، ۱۰٪ خانوادگی — یک نکته بسیار پرتکرار در امتحانات"
       ],
-      "image_url": "/images/pathology/pheochromocytoma.svg",
-      "image_caption": "نمودار شماتیک — فئوکروموسیتوما (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/pheochromocytoma-photo.jpg",
+      "image_caption": "فئوکروموسیتوما — الگوی Zellballen (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/pheochromocytoma-photo.jpg",
+          "caption": "فئوکروموسیتوما — الگوی Zellballen (عکس واقعی، H&E)",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Mikael Häggström",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pheochromocytoma.jpg",
+          "license": "CC0",
+          "attribution": "Mikael Häggström"
+        },
+        {
           "url": "/images/pathology/pheochromocytoma.svg",
-          "caption": "نمودار شماتیک — فئوکروموسیتوما (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/pheochromocytoma.svg",
-        "alt": "Pheochromocytoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/pheochromocytoma-photo.jpg",
+        "alt": "فئوکروموسیتوما — الگوی «Zellballen» (لانه‌ای)؛ H&E",
+        "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Mikael Häggström",
+        "license": "CC0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pheochromocytoma.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -2673,27 +2703,37 @@
       "exam_tips": [
         "سمینوما رادیوسنسیتیو و کموسنسیتیو است و بهترین پیش‌آگهی را در بین تومورهای ژرم‌سل دارد"
       ],
-      "image_url": "/images/pathology/seminoma-embryonal-carcinoma.svg",
-      "image_caption": "نمودار شماتیک — سلول‌های سمینوما با استرومای لنفوسیتی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/seminoma-embryonal-carcinoma-photo.jpg",
+      "image_caption": "سمینوما — سلول‌های یکنواخت + استرومای لنفوسیتی (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/seminoma-embryonal-carcinoma-photo.jpg",
+          "caption": "سمینوما — سلول‌های یکنواخت + استرومای لنفوسیتی (عکس واقعی، H&E)",
+          "magnification": "medium",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Mikael Häggström",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_seminoma,_intermediate_magnification.jpg",
+          "license": "CC0",
+          "attribution": "Mikael Häggström"
+        },
+        {
           "url": "/images/pathology/seminoma-embryonal-carcinoma.svg",
-          "caption": "نمودار شماتیک — سلول‌های سمینوما با استرومای لنفوسیتی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/seminoma-embryonal-carcinoma.svg",
-        "alt": "Seminoma & Embryonal Carcinoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "high",
+        "url": "/images/pathology/seminoma-embryonal-carcinoma-photo.jpg",
+        "alt": "سمینوما — صفحات سلول‌های بزرگ یکنواخت با استرومای لنفوسیتی؛ H&E",
+        "type": "real_slide",
+        "magnification": "medium",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Mikael Häggström",
+        "license": "CC0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_seminoma,_intermediate_magnification.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -3675,28 +3715,38 @@
       "exam_tips": [
         "باره‌ت = متاپلازی سنگفرشی به ستونی با سلول گابلت؛ این پیش‌ساز اصلی آدنوکارسینوم مری است، نه کارسینوم سنگفرشی"
       ],
-      "image_url": "/images/pathology/reflux-esophagitis-barrett.svg",
-      "image_caption": "نمودار شماتیک — متاپلازی روده‌ای با سلول‌های گابلت در باره‌ت ازوفاگوس (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/reflux-esophagitis-barrett-photo.jpg",
+      "image_caption": "مری بارت — سلول‌های جامی متاپلاستیک (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/reflux-esophagitis-barrett-photo.jpg",
+          "caption": "مری بارت — سلول‌های جامی متاپلاستیک (عکس واقعی، H&E)",
+          "magnification": "medium",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Mikael Häggström",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_Barrett%27s_esophagus,_annotated.jpg",
+          "license": "CC0",
+          "attribution": "Mikael Häggström"
+        },
+        {
           "url": "/images/pathology/reflux-esophagitis-barrett.svg",
-          "caption": "نمودار شماتیک — متاپلازی روده‌ای با سلول‌های گابلت در باره‌ت ازوفاگوس (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "200x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "200x",
       "subcategory_fa": "مری",
       "image": {
-        "url": "/images/pathology/reflux-esophagitis-barrett.svg",
-        "alt": "Reflux Esophagitis & Barrett Esophagus — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/reflux-esophagitis-barrett-photo.jpg",
+        "alt": "مری بارت — متاپلازی روده‌ای با سلول‌های جامی (goblet)؛ H&E",
+        "type": "real_slide",
         "magnification": "medium",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Mikael Häggström",
+        "license": "CC0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_Barrett%27s_esophagus,_annotated.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -3914,28 +3964,38 @@
       "exam_tips": [
         "آتروفی ویلی + هیپرپلازی کریپت + لنفوسیت داخل‌اپیتلیال = سه‌گانه‌ی کلاسیک بافت‌شناسی سلیاک"
       ],
-      "image_url": "/images/pathology/celiac-disease.svg",
-      "image_caption": "نمودار شماتیک — آتروفی ویلی و هیپرپلازی کریپت در بیماری سلیاک (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/celiac-disease-photo.jpg",
+      "image_caption": "بیماری سلیاک — آتروفی پرزی (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/celiac-disease-photo.jpg",
+          "caption": "بیماری سلیاک — آتروفی پرزی (عکس واقعی، H&E)",
+          "magnification": "low",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — GeneFood",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_villous_atrophy_in_celiac_disease.jpg",
+          "license": "CC BY 4.0",
+          "attribution": "GeneFood"
+        },
+        {
           "url": "/images/pathology/celiac-disease.svg",
-          "caption": "نمودار شماتیک — آتروفی ویلی و هیپرپلازی کریپت در بیماری سلیاک (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "100x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "100x",
       "subcategory_fa": "روده و کولون",
       "image": {
-        "url": "/images/pathology/celiac-disease.svg",
-        "alt": "Celiac Disease — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/celiac-disease-photo.jpg",
+        "alt": "بیماری سلیاک — آتروفی پرزهای روده و هایپرپلازی کریپت؛ H&E",
+        "type": "real_slide",
         "magnification": "low",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — GeneFood",
+        "license": "CC BY 4.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_villous_atrophy_in_celiac_disease.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -5700,27 +5760,37 @@
       "exam_tips": [
         "بیمار با آرتریت روماتوئید مزمن + پروتئینوری جدید = به آمیلوئیدوز AA فکر کنید"
       ],
-      "image_url": "/images/pathology/amyloidosis.svg",
-      "image_caption": "نمودار شماتیک — رسوبات آمیلوئید خارج‌سلولی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-      "stain": "Congo Red",
+      "image_url": "/images/pathology/amyloidosis-photo.jpg",
+      "image_caption": "آمیلوئیدوز — سبز سیبی Congo red زیر نور پلاریزه (عکس واقعی)",
+      "stain": "Congo red (نور پلاریزه)",
       "images": [
         {
+          "url": "/images/pathology/amyloidosis-photo.jpg",
+          "caption": "آمیلوئیدوز — سبز سیبی Congo red زیر نور پلاریزه (عکس واقعی)",
+          "magnification": "medium",
+          "stain": "Congo red (نور پلاریزه)",
+          "source": "Wikimedia Commons — Ed Uthman, MD",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Gastric_Amyloidosis_(Congo_Red_Stain,_Crossed_Polarizers)_(3595838954).jpg",
+          "license": "CC BY 2.0",
+          "attribution": "Ed Uthman, MD"
+        },
+        {
           "url": "/images/pathology/amyloidosis.svg",
-          "caption": "نمودار شماتیک — رسوبات آمیلوئید خارج‌سلولی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/amyloidosis.svg",
-        "alt": "Amyloidosis — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "high",
-        "stain": "Congo Red",
+        "url": "/images/pathology/amyloidosis-photo.jpg",
+        "alt": "آمیلوئیدوز — دورفشکنی سبز-سیبی رنگ‌آمیزی Congo red زیر نور پلاریزه",
+        "type": "real_slide",
+        "magnification": "medium",
+        "stain": "Congo red (نور پلاریزه)",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Ed Uthman, MD",
+        "license": "CC BY 2.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Gastric_Amyloidosis_(Congo_Red_Stain,_Crossed_Polarizers)_(3595838954).jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -6839,27 +6909,37 @@
       "exam_tips": [
         "کودک با درد استخوان دیافیزی + تب + الگوی پوست پیاز = سارکوم یووینگ را رد کنید قبل از فرض عفونت"
       ],
-      "image_url": "/images/pathology/ewing-sarcoma.svg",
-      "image_caption": "نمودار شماتیک — سلول‌های گرد کوچک و واکنش پریوستئال پوست‌پیازی در سارکوم یووینگ (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/ewing-sarcoma-photo.jpg",
+      "image_caption": "سارکوم یوینگ — سلول‌های آبی کوچک گرد (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/ewing-sarcoma-photo.jpg",
+          "caption": "سارکوم یوینگ — سلول‌های آبی کوچک گرد (عکس واقعی، H&E)",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Nephron",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ewing_sarcoma_-_very_high_mag.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Nephron"
+        },
+        {
           "url": "/images/pathology/ewing-sarcoma.svg",
-          "caption": "نمودار شماتیک — سلول‌های گرد کوچک و واکنش پریوستئال پوست‌پیازی در سارکوم یووینگ (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/ewing-sarcoma.svg",
-        "alt": "Ewing Sarcoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/ewing-sarcoma-photo.jpg",
+        "alt": "سارکوم یوینگ — سلول‌های آبی کوچک گرد یکنواخت؛ H&E",
+        "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Nephron",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Ewing_sarcoma_-_very_high_mag.jpg",
         "verifiedOpenLicense": true
       }
     },
