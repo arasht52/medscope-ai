@@ -5942,27 +5942,37 @@
       "exam_tips": [
         "هیپرکلسمی + نارسایی کلیه + کم‌خونی + ضایعات استخوانی (CRAB) در سالمند = میلوم مولتیپل تا رد نشود"
       ],
-      "image_url": "/images/pathology/multiple-myeloma.svg",
-      "image_caption": "نمودار شماتیک — پلاسماسل‌های میلوم و ضایعات استخوانی punched-out (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-      "stain": "H&E",
+      "image_url": "/images/pathology/multiple-myeloma-photo.jpg",
+      "image_caption": "سلول‌های پلاسما در فیلم مغز استخوان میلوما (عکس واقعی)",
+      "stain": "Wright-Giemsa",
       "images": [
         {
+          "url": "/images/pathology/multiple-myeloma-photo.jpg",
+          "caption": "سلول‌های پلاسما در فیلم مغز استخوان میلوما (عکس واقعی)",
+          "magnification": "high",
+          "stain": "Wright-Giemsa",
+          "source": "Wikimedia Commons — Dr Osaro Erhabor",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Plasma_Cells_in_a_Marrow_film_on_a_Myeloma_patient.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Dr Osaro Erhabor"
+        },
+        {
           "url": "/images/pathology/multiple-myeloma.svg",
-          "caption": "نمودار شماتیک — پلاسماسل‌های میلوم و ضایعات استخوانی punched-out (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/multiple-myeloma.svg",
-        "alt": "Multiple Myeloma — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/multiple-myeloma-photo.jpg",
+        "alt": "مولتیپل میلوما — سلول‌های پلاسمای نئوپلاستیک در آسپیره‌ی مغز استخوان",
+        "type": "real_slide",
         "magnification": "high",
-        "stain": "H&E",
+        "stain": "Wright-Giemsa",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Dr Osaro Erhabor",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Plasma_Cells_in_a_Marrow_film_on_a_Myeloma_patient.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -5997,27 +6007,37 @@
       "exam_tips": [
         "میله‌ی آئر + بلاست میلوئید = AML؛ بلاست لنفوئید کوچک بدون میله‌ی آئر = ALL"
       ],
-      "image_url": "/images/pathology/acute-leukemia-aml-all.svg",
-      "image_caption": "نمودار شماتیک — نفوذ منتشر بلاست‌های نارس در مغز استخوان (AML/ALL) (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-      "stain": "H&E / Wright-Giemsa",
+      "image_url": "/images/pathology/acute-leukemia-aml-all-photo.jpg",
+      "image_caption": "میلوبلاست با میله‌ی آوئر — نشانه‌ی AML (عکس واقعی)",
+      "stain": "Wright-Giemsa",
       "images": [
         {
+          "url": "/images/pathology/acute-leukemia-aml-all-photo.jpg",
+          "caption": "میلوبلاست با میله‌ی آوئر — نشانه‌ی AML (عکس واقعی)",
+          "magnification": "high",
+          "stain": "Wright-Giemsa",
+          "source": "Wikimedia Commons — Paulo Henrique Orlandi Mourao",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Myeloblast_with_Auer_Rod_smear_2009-11-23.JPG",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Paulo Henrique Orlandi Mourao"
+        },
+        {
           "url": "/images/pathology/acute-leukemia-aml-all.svg",
-          "caption": "نمودار شماتیک — نفوذ منتشر بلاست‌های نارس در مغز استخوان (AML/ALL) (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/acute-leukemia-aml-all.svg",
-        "alt": "Acute Leukemia (AML vs ALL) — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/acute-leukemia-aml-all-photo.jpg",
+        "alt": "لوسمی میلوئید حاد — میلوبلاست با میله‌ی آوئر (Auer rod)",
+        "type": "real_slide",
         "magnification": "high",
-        "stain": "H&E / Wright-Giemsa",
+        "stain": "Wright-Giemsa",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Paulo Henrique Orlandi Mourao",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Myeloblast_with_Auer_Rod_smear_2009-11-23.JPG",
         "verifiedOpenLicense": true
       }
     },
@@ -6052,27 +6072,37 @@
       "exam_tips": [
         "لنفوسیتوز بدون علامت در سالمند + سلول‌های لکه‌ای در اسمیر = CLL"
       ],
-      "image_url": "/images/pathology/chronic-lymphocytic-leukemia.svg",
-      "image_caption": "نمودار شماتیک — لنفوسیت‌های کوچک یکنواخت و سلول‌های لکه‌ای در CLL (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/chronic-lymphocytic-leukemia-photo.jpg",
+      "image_caption": "CLL — لنفوسیتوز و سلول‌های smudge (عکس واقعی، Wright-Giemsa)",
       "stain": "Wright-Giemsa",
       "images": [
         {
+          "url": "/images/pathology/chronic-lymphocytic-leukemia-photo.jpg",
+          "caption": "CLL — لنفوسیتوز و سلول‌های smudge (عکس واقعی، Wright-Giemsa)",
+          "magnification": "high",
+          "stain": "Wright-Giemsa",
+          "source": "Wikimedia Commons — Gabriel Caponetti",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Chronic_lymphocytic_leukemia_(Wright-Giemsa,_50x)..jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Gabriel Caponetti"
+        },
+        {
           "url": "/images/pathology/chronic-lymphocytic-leukemia.svg",
-          "caption": "نمودار شماتیک — لنفوسیت‌های کوچک یکنواخت و سلول‌های لکه‌ای در CLL (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/chronic-lymphocytic-leukemia.svg",
-        "alt": "Chronic Lymphocytic Leukemia / Small Lymphocytic Lymphoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/chronic-lymphocytic-leukemia-photo.jpg",
+        "alt": "لوسمی لنفوسیتی مزمن — لنفوسیت‌های کوچک بالغ و سلول‌های smudge؛ Wright-Giemsa",
+        "type": "real_slide",
         "magnification": "high",
         "stain": "Wright-Giemsa",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Gabriel Caponetti",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Chronic_lymphocytic_leukemia_(Wright-Giemsa,_50x)..jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -6310,27 +6340,37 @@
       ],
       "mnemonic": "«Follicular = 14-18، BCL2، آهسته (indolent)» — عدد ۱۴+۱۸ و مهار آپوپتوز توسط BCL2 را کنار هم به‌خاطر بسپار.",
       "quick_summary": "لنفوم فولیکولار دومین NHL شایع، ایندولنت و از سلول‌های مرکز زایای B است. مشخصه: t(14;18) و بیش‌بیانی BCL2 (مهار آپوپتوز)؛ الگوی ندولار یکنواخت با مرزهای نامشخص، درگیری پاراترابکولار مغز استخوان. با لنفادنوپاتی بدون‌درد تظاهر می‌کند، به درمان خوب پاسخ می‌دهد اما درمان قطعی دشوار است و می‌تواند به DLBCL تحول یابد.",
-      "image_url": "/images/pathology/follicular-lymphoma.svg",
-      "image_caption": "نمودار شماتیک — فولیکول‌های نئوپلاستیک یکنواخت (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/follicular-lymphoma-photo.jpg",
+      "image_caption": "لنفوم فولیکولار — الگوی ندولار یکنواخت (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/follicular-lymphoma-photo.jpg",
+          "caption": "لنفوم فولیکولار — الگوی ندولار یکنواخت (عکس واقعی، H&E)",
+          "magnification": "low",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Nephron",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Follicular_lymphoma_--_low_mag.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Nephron"
+        },
+        {
           "url": "/images/pathology/follicular-lymphoma.svg",
-          "caption": "نمودار شماتیک — فولیکول‌های نئوپلاستیک یکنواخت (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "بزرگ‌نمایی کم"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "بزرگ‌نمایی کم",
       "image": {
-        "url": "/images/pathology/follicular-lymphoma.svg",
-        "alt": "Follicular Lymphoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": null,
+        "url": "/images/pathology/follicular-lymphoma-photo.jpg",
+        "alt": "لنفوم فولیکولار — فولیکول‌های نئوپلاستیک یکنواخت با بزرگ‌نمایی کم؛ H&E",
+        "type": "real_slide",
+        "magnification": "low",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Nephron",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Follicular_lymphoma_--_low_mag.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -6547,27 +6587,37 @@
       ],
       "mnemonic": "«Hairy = BRAF، dry tap، اسپلنِ بزرگ، بدون گره لنفاوی» — سلول مویی + کیناز BRAF + آسپیراسیون خشک.",
       "quick_summary": "لوسمی سلول مویی نئوپلاسم ایندولنت سلول B با سلول‌های دارای زوائد سیتوپلاسمی مومانند است. مشخصه: موتاسیون BRAF (>۹۰٪)، اسپلنومگالی ماسیو، پان‌سیتوپنی و «dry tap» (مغز غیرقابل‌آسپیره به‌علت فیبروز رتیکولین). لنفادنوپاتی معمولاً وجود ندارد. بیشتر در مردان سفیدپوست میانسال.",
-      "image_url": "/images/pathology/hairy-cell-leukemia.svg",
-      "image_caption": "نمودار شماتیک — سلول مویی با زوائد سیتوپلاسمی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/hairy-cell-leukemia-photo.jpg",
+      "image_caption": "لوسمی سلول مویی — سلول‌های مویی (عکس واقعی)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/hairy-cell-leukemia-photo.jpg",
+          "caption": "لوسمی سلول مویی — سلول‌های مویی (عکس واقعی)",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Nephron",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hairy_cell_leukemia_-_high_mag.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Nephron"
+        },
+        {
           "url": "/images/pathology/hairy-cell-leukemia.svg",
-          "caption": "نمودار شماتیک — سلول مویی با زوائد سیتوپلاسمی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "بزرگ‌نمایی زیاد"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "بزرگ‌نمایی زیاد",
       "image": {
-        "url": "/images/pathology/hairy-cell-leukemia.svg",
-        "alt": "Hairy Cell Leukemia — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": null,
+        "url": "/images/pathology/hairy-cell-leukemia-photo.jpg",
+        "alt": "لوسمی سلول مویی — سلول‌های لنفوئید با زوائد سیتوپلاسمی مویی؛ H&E",
+        "type": "real_slide",
+        "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Nephron",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Hairy_cell_leukemia_-_high_mag.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -8450,27 +8500,37 @@
       ],
       "mnemonic": "«Oligo = 1 و 9 (1p/19q)، تخم‌مرغ نیمرو، سنگی (کلسیفیه)» — سه نشانه: کدلیشن 1p/19q، fried-egg، کلسیفیکاسیون.",
       "quick_summary": "الیگودندروگلیوما گلیومی با از دست رفتن 1p/19q، ظاهر «تخم‌مرغ نیمرو» (هاله‌ی روشن دور هسته) و کلسیفیکاسیون در تا ۹۰٪ موارد است. اغلب در دهه‌های میانی و گاه با تشنج تظاهر می‌کند. کدلیشن 1p/19q با پاسخ بهتر به درمان و پیش‌آگهی مطلوب‌تر همراه است.",
-      "image_url": "/images/pathology/oligodendroglioma.svg",
-      "image_caption": "نمودار شماتیک — سلول‌های «تخم‌مرغ نیمرو» و کلسیفیکاسیون (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/oligodendroglioma-photo.jpg",
+      "image_caption": "الیگودندروگلیوما — سلول‌های تخم‌مرغ نیمرو (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/oligodendroglioma-photo.jpg",
+          "caption": "الیگودندروگلیوما — سلول‌های تخم‌مرغ نیمرو (عکس واقعی، H&E)",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Nephron",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Oligodendroglioma1_high_mag.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Nephron"
+        },
+        {
           "url": "/images/pathology/oligodendroglioma.svg",
-          "caption": "نمودار شماتیک — سلول‌های «تخم‌مرغ نیمرو» و کلسیفیکاسیون (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "بزرگ‌نمایی زیاد"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "بزرگ‌نمایی زیاد",
       "image": {
-        "url": "/images/pathology/oligodendroglioma.svg",
-        "alt": "Oligodendroglioma — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": null,
+        "url": "/images/pathology/oligodendroglioma-photo.jpg",
+        "alt": "الیگودندروگلیوما — سلول‌های «تخم‌مرغ نیمرو» با هاله‌ی روشن دور هسته؛ H&E",
+        "type": "real_slide",
+        "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Nephron",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Oligodendroglioma1_high_mag.jpg",
         "verifiedOpenLicense": true
       }
     },
