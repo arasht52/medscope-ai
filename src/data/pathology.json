@@ -856,27 +856,37 @@
       "exam_tips": [
         "تمایل کارسینوم سلول کلیوی به رشد درون ورید کلیوی و حتی ورید اجوف تحتانی، نکته‌ی کلاسیک امتحانی است"
       ],
-      "image_url": "/images/pathology/renal-cell-carcinoma.svg",
-      "image_caption": "نمودار شماتیک — کارسینوم سلول کلیوی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/renal-cell-carcinoma-photo.jpg",
+      "image_caption": "کارسینوم سلول کلیوی (clear cell) — عکس واقعی، H&E",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/renal-cell-carcinoma-photo.jpg",
+          "caption": "کارسینوم سلول کلیوی (clear cell) — عکس واقعی، H&E",
+          "magnification": "medium",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Mikael Häggström",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_clear_cell_renal_cell_carcinoma,_grade_1,_intermediate_magnification.jpg",
+          "license": "CC0",
+          "attribution": "Mikael Häggström"
+        },
+        {
           "url": "/images/pathology/renal-cell-carcinoma.svg",
-          "caption": "نمودار شماتیک — کارسینوم سلول کلیوی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/renal-cell-carcinoma.svg",
-        "alt": "Renal Cell Carcinoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "high",
+        "url": "/images/pathology/renal-cell-carcinoma-photo.jpg",
+        "alt": "کارسینوم سلول کلیوی نوع clear cell — سلول‌های با سیتوپلاسم روشن؛ H&E",
+        "type": "real_slide",
+        "magnification": "medium",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Mikael Häggström",
+        "license": "CC0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_clear_cell_renal_cell_carcinoma,_grade_1,_intermediate_magnification.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -964,27 +974,37 @@
       "exam_tips": [
         "با وجود انتشار لنفاوی شایع، کارسینوم پاپیلاری تیروئید بهترین پیش‌آگهی را در میان سرطان‌های تیروئید دارد"
       ],
-      "image_url": "/images/pathology/papillary-thyroid-carcinoma.svg",
-      "image_caption": "نمودار شماتیک — کارسینوم پاپیلاری تیروئید (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/papillary-thyroid-carcinoma-photo.jpg",
+      "image_caption": "کارسینوم پاپیلاری تیروئید (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/papillary-thyroid-carcinoma-photo.jpg",
+          "caption": "کارسینوم پاپیلاری تیروئید (عکس واقعی، H&E)",
+          "magnification": "medium",
+          "stain": "H&E",
+          "source": "Wikimedia Commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Thyroid_papillary_carcinoma_histopathology_(2).jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Wikimedia Commons"
+        },
+        {
           "url": "/images/pathology/papillary-thyroid-carcinoma.svg",
-          "caption": "نمودار شماتیک — کارسینوم پاپیلاری تیروئید (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/papillary-thyroid-carcinoma.svg",
-        "alt": "Papillary Thyroid Carcinoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "high",
+        "url": "/images/pathology/papillary-thyroid-carcinoma-photo.jpg",
+        "alt": "کارسینوم پاپیلاری تیروئید — ساختار پاپیلاری و تغییرات هسته‌ای؛ H&E",
+        "type": "real_slide",
+        "magnification": "medium",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Thyroid_papillary_carcinoma_histopathology_(2).jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -2834,27 +2854,37 @@
       "exam_tips": [
         "هر چهار درجه از یک طیف واحدند: آستروسیتومای منتشر (II) → آناپلاستیک (III) → گلیوبلاستوما (IV)؛ نوع پیلوسیتیک (I) یک مسیر کاملاً جدا و نسبتاً خوش‌خیم در کودکان است"
       ],
-      "image_url": "/images/pathology/astrocytoma-glioblastoma.svg",
-      "image_caption": "نمودار شماتیک — گلیوبلاستوما با نکروز مرکزی و پرولیفراسیون عروقی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/astrocytoma-glioblastoma-photo.jpg",
+      "image_caption": "گلیوبلاستوما — پلئومورفیسم سلولی (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/astrocytoma-glioblastoma-photo.jpg",
+          "caption": "گلیوبلاستوما — پلئومورفیسم سلولی (عکس واقعی، H&E)",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Mikael Häggström",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_glioblastoma,_high_magnification.jpg",
+          "license": "CC0",
+          "attribution": "Mikael Häggström"
+        },
+        {
           "url": "/images/pathology/astrocytoma-glioblastoma.svg",
-          "caption": "نمودار شماتیک — گلیوبلاستوما با نکروز مرکزی و پرولیفراسیون عروقی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "100x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "100x",
       "image": {
-        "url": "/images/pathology/astrocytoma-glioblastoma.svg",
-        "alt": "Astrocytoma & Glioblastoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "low",
+        "url": "/images/pathology/astrocytoma-glioblastoma-photo.jpg",
+        "alt": "گلیوبلاستوما — سلول‌های پلئومورف با آتیپی بارز؛ H&E",
+        "type": "real_slide",
+        "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Mikael Häggström",
+        "license": "CC0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_glioblastoma,_high_magnification.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -2894,27 +2924,37 @@
       "exam_tips": [
         "اجسام پساموما را هم در مننژیوما و هم در برخی کارسینوم‌های پاپیلاری (مثل تیروئید) می‌بینید — ساختار مشترک ولی زمینه‌ی بافتی کاملاً متفاوت"
       ],
-      "image_url": "/images/pathology/meningioma.svg",
-      "image_caption": "نمودار شماتیک — الگوی چرخشی سلولی و اجسام پساموما در مننژیوما (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/meningioma-photo.jpg",
+      "image_caption": "مننژیوما — الگوی گردابی و اجسام پسامومایی (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/meningioma-photo.jpg",
+          "caption": "مننژیوما — الگوی گردابی و اجسام پسامومایی (عکس واقعی، H&E)",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Mikael Häggström",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_meningioma.jpg",
+          "license": "CC0",
+          "attribution": "Mikael Häggström"
+        },
+        {
           "url": "/images/pathology/meningioma.svg",
-          "caption": "نمودار شماتیک — الگوی چرخشی سلولی و اجسام پساموما در مننژیوما (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "200x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "200x",
       "image": {
-        "url": "/images/pathology/meningioma.svg",
-        "alt": "Meningioma — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "medium",
+        "url": "/images/pathology/meningioma-photo.jpg",
+        "alt": "مننژیوما — الگوی گردابی (whorls) و اجسام پسامومایی؛ H&E",
+        "type": "real_slide",
+        "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Mikael Häggström",
+        "license": "CC0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_meningioma.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -2953,27 +2993,37 @@
       "exam_tips": [
         "در کودک با علائم مخچه‌ای و فشار بالای داخل‌جمجمه‌ای، مدولوبلاستوما را در تشخیص افتراقی قرار دهید"
       ],
-      "image_url": "/images/pathology/medulloblastoma.svg",
-      "image_caption": "نمودار شماتیک — صفحات متراکم سلول‌های کوچک پریمیتیو در مدولوبلاستوما (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/medulloblastoma-photo.jpg",
+      "image_caption": "مدولوبلاستوما — روزت‌های Homer-Wright (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/medulloblastoma-photo.jpg",
+          "caption": "مدولوبلاستوما — روزت‌های Homer-Wright (عکس واقعی، H&E)",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Jensflorian",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Medulloblastoma_with_rosettes.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Jensflorian"
+        },
+        {
           "url": "/images/pathology/medulloblastoma.svg",
-          "caption": "نمودار شماتیک — صفحات متراکم سلول‌های کوچک پریمیتیو در مدولوبلاستوما (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/medulloblastoma.svg",
-        "alt": "Medulloblastoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/medulloblastoma-photo.jpg",
+        "alt": "مدولوبلاستوما — سلول‌های آبی کوچک گرد با روزت‌های Homer-Wright؛ H&E",
+        "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Jensflorian",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Medulloblastoma_with_rosettes.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -3557,28 +3607,38 @@
       "exam_tips": [
         "سلول حلقه‌نشان (signet-ring) = نوع دیفیوز؛ ساختار غده‌ای = نوع روده‌ای — این تمایز بافت‌شناسی کلیدی امتحانی است"
       ],
-      "image_url": "/images/pathology/gastric-carcinoma.svg",
-      "image_caption": "نمودار شماتیک — سلول‌های حلقه‌نشان (signet-ring) در کارسینوم معده‌ی نوع دیفیوز (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/gastric-carcinoma-photo.jpg",
+      "image_caption": "کارسینوم سلول انگشتری (signet ring) — عکس واقعی، H&E",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/gastric-carcinoma-photo.jpg",
+          "caption": "کارسینوم سلول انگشتری (signet ring) — عکس واقعی، H&E",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Nephron",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Signet_ring_cell_carcinoma_-_high_mag.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Nephron"
+        },
+        {
           "url": "/images/pathology/gastric-carcinoma.svg",
-          "caption": "نمودار شماتیک — سلول‌های حلقه‌نشان (signet-ring) در کارسینوم معده‌ی نوع دیفیوز (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "subcategory_fa": "معده",
       "image": {
-        "url": "/images/pathology/gastric-carcinoma.svg",
-        "alt": "Gastric Carcinoma (Intestinal & Diffuse Type) — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/gastric-carcinoma-photo.jpg",
+        "alt": "کارسینوم سلول انگشتری (signet ring) — سلول‌هایی با موسین که هسته را به حاشیه رانده؛ H&E",
+        "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Nephron",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Signet_ring_cell_carcinoma_-_high_mag.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -8586,27 +8646,37 @@
       ],
       "mnemonic": "«اپاندیموما = Ependyma → بطن چهارم (کودک) / نخاع (بالغ)، پزودوروزتِ اطرافِ عروق» — و هیدروسفالی به‌علت انسداد بطن چهارم.",
       "quick_summary": "اپاندیموما گلیومی از سلول‌های اپاندیمال است؛ در کودکان نزدیک بطن چهارم (با هیدروسفالی) و در بالغین در نخاع (مرتبط با NF2). یافته‌ی مشخصه، پزودوروزت اطراف عروقی است. اکثراً WHO II؛ رزکسیون کامل پیش‌آگهی را به‌طور چشمگیر بهتر می‌کند.",
-      "image_url": "/images/pathology/ependymoma.svg",
-      "image_caption": "نمودار شماتیک — پزودوروزت اطراف عروقی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/ependymoma-photo.jpg",
+      "image_caption": "اپاندیموما — پزودوروزت اطراف عروقی (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/ependymoma-photo.jpg",
+          "caption": "اپاندیموما — پزودوروزت اطراف عروقی (عکس واقعی، H&E)",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Jensflorian",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Ependymoma_pseudorosette.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Jensflorian"
+        },
+        {
           "url": "/images/pathology/ependymoma.svg",
-          "caption": "نمودار شماتیک — پزودوروزت اطراف عروقی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "بزرگ‌نمایی زیاد"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "بزرگ‌نمایی زیاد",
       "image": {
-        "url": "/images/pathology/ependymoma.svg",
-        "alt": "Ependymoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": null,
+        "url": "/images/pathology/ependymoma-photo.jpg",
+        "alt": "اپاندیموما — پزودوروزت اطراف عروقی؛ H&E",
+        "type": "real_slide",
+        "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Jensflorian",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Ependymoma_pseudorosette.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -8982,27 +9052,37 @@
       ],
       "mnemonic": "«Peripheral zone, no Basal layer, Perineural, osteoBlastic» — چهار P/B کلیدی: منشأ محیطی، فقدان لایه‌ی بازال، تهاجم پری‌نورال و متاستاز استئوبلاستیک.",
       "quick_summary": "آدنوکارسینوم پروستات از زون محیطی برمی‌خیزد (برخلاف BPH که زون گذاری). بافت‌شناسی: غدد کوچک بدون لایه‌ی بازال، تهاجم پری‌نورال. آندروژن‌محور است؛ متاستاز استخوانی استئوبلاستیک تیپیک است. گریدینگ با Gleason. PSA اختصاصی عضو است نه سرطان. علائم ادراری دیررس‌اند چون تومور محیطی است.",
-      "image_url": "/images/pathology/prostatic-adenocarcinoma.svg",
-      "image_caption": "نمودار شماتیک — منشأ کارسینوم از زون محیطی پروستات (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/prostatic-adenocarcinoma-photo.jpg",
+      "image_caption": "آدنوکارسینوم پروستات — تهاجم پری‌نورال (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/prostatic-adenocarcinoma-photo.jpg",
+          "caption": "آدنوکارسینوم پروستات — تهاجم پری‌نورال (عکس واقعی، H&E)",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Mikael Häggström",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_prostatic_adenocarcinoma_with_circumferential_perineural_invasion.jpg",
+          "license": "CC0",
+          "attribution": "Mikael Häggström"
+        },
+        {
           "url": "/images/pathology/prostatic-adenocarcinoma.svg",
-          "caption": "نمودار شماتیک — منشأ کارسینوم از زون محیطی پروستات (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "گراس"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "گراس",
       "image": {
-        "url": "/images/pathology/prostatic-adenocarcinoma.svg",
-        "alt": "Prostatic Adenocarcinoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": null,
+        "url": "/images/pathology/prostatic-adenocarcinoma-photo.jpg",
+        "alt": "آدنوکارسینوم پروستات — تهاجم پری‌نورال محیطی؛ H&E",
+        "type": "real_slide",
+        "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Mikael Häggström",
+        "license": "CC0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_prostatic_adenocarcinoma_with_circumferential_perineural_invasion.jpg",
         "verifiedOpenLicense": true
       }
     },
