@@ -1074,38 +1074,38 @@
       "exam_tips": [
         "پیش‌آگهی هوچکین به‌طور کلی بهتر از اکثر زیرگروه‌های لنفوم غیرهوچکین است"
       ],
-      "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reed-Sternberg_lymphocyte_nci-vol-7172-300_pl.jpg",
-      "image_caption": "سلول رید-اشتنبرگ کلاسیک با ظاهر چشم جغد (Reed-Sternberg cell) — عکس میکروسکوپی واقعی",
+      "image_url": "/images/pathology/hodgkin-lymphoma-photo.jpg",
+      "image_caption": "سلول رید-اشتنبرگ کلاسیک (چشم جغد) — عکس واقعی میکروسکوپی",
       "stain": "H&E",
       "images": [
         {
-          "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reed-Sternberg_lymphocyte_nci-vol-7172-300_pl.jpg",
-          "caption": "سلول رید-اشتنبرگ کلاسیک با ظاهر چشم جغد (Reed-Sternberg cell)",
+          "url": "/images/pathology/hodgkin-lymphoma-photo.jpg",
+          "caption": "سلول رید-اشتنبرگ کلاسیک (چشم جغد) — عکس واقعی میکروسکوپی",
           "magnification": "—",
           "stain": "H&E",
-          "source": "National Cancer Institute (NCI) Visuals Online",
-          "source_url": "https://visualsonline.cancer.gov/details.cfm?imageid=7172",
-          "license": "CC BY 4.0",
-          "attribution": "National Cancer Institute Visuals Online"
+          "source": "Wikimedia Commons — National Cancer Institute (NCI)",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Reed-Sternberg_lymphocyte_nci-vol-7172-300.jpg",
+          "license": "Public domain (NCI)",
+          "attribution": "National Cancer Institute (NCI) Visuals Online"
         },
         {
           "url": "/images/pathology/hodgkin-lymphoma.svg",
           "caption": "نمودار شماتیک — لنفوم هوچکین (مرجع کمکی)",
-          "magnification": "400x"
+          "magnification": "گراس"
         }
       ],
       "magnification": "—",
       "image": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Reed-Sternberg_lymphocyte_nci-vol-7172-300_pl.jpg",
-        "alt": "لنفوم هوچکین — سلول رید-اشتنبرگ کلاسیک با ظاهر «چشم جغد» (Reed-Sternberg cell)",
+        "url": "/images/pathology/hodgkin-lymphoma-photo.jpg",
+        "alt": "لنفوم هوچکین — سلول رید-اشتنبرگ کلاسیک با ظاهر «چشم جغد»؛ H&E",
         "type": "real_slide",
         "magnification": null,
         "stain": "H&E",
         "labels": [],
-        "source": "Wikimedia Commons — National Cancer Institute (NCI) Visuals Online (image 7172)",
-        "license": "CC BY 4.0 (ادعای منبع — تأییدنشده)",
-        "attribution": "National Cancer Institute Visuals Online — https://visualsonline.cancer.gov/details.cfm?imageid=7172",
-        "verifiedOpenLicense": false
+        "source": "Wikimedia Commons — National Cancer Institute (NCI)",
+        "license": "Public domain (NCI)",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Reed-Sternberg_lymphocyte_nci-vol-7172-300.jpg",
+        "verifiedOpenLicense": true
       }
     },
     {
@@ -6388,27 +6388,37 @@
       ],
       "mnemonic": "«بورکیت = 8-14، c-MYC، Starry sky، سریع‌ترین» — عدد ۸ (مثل بی‌نهایتِ خوابیده = رشد بی‌پایانِ سریع) را به c-MYC و آسمان پرستاره وصل کن.",
       "quick_summary": "لنفوم بورکیت مهاجم‌ترین و سریع‌ترین تومور انسانی است (دوبرابرشدن ۲۴–۴۸ ساعت). مشخصه: t(8;14) با بیش‌بیانی c-MYC و الگوی «آسمان پرستاره» (ماکروفاژهای tingible-body). سه فرم: اندمیک (فک، EBV تقریباً ۱۰۰٪)، اسپورادیک (شکم/ایلئوسکال) و مرتبط با HIV. رشد سریع خطر سندرم لیز تومور دارد.",
-      "image_url": "/images/pathology/burkitt-lymphoma.svg",
-      "image_caption": "نمودار شماتیک — الگوی «آسمان پرستاره» بورکیت (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/burkitt-lymphoma-photo.jpg",
+      "image_caption": "الگوی «آسمان پرستاره» بورکیت — عکس واقعی میکروسکوپی (H&E ×200)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/burkitt-lymphoma-photo.jpg",
+          "caption": "الگوی «آسمان پرستاره» بورکیت — عکس واقعی میکروسکوپی (H&E ×200)",
+          "magnification": "medium",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Datta S, Gogia A, Mallick S",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Microscopic_panel_showing_intermediate-sized_atypical_lymphoid_cells_arranged_in_sheets_with_numerous_tingible-body_macrophages,_creating_a_starry-sky_pattern_(H%26E,_%C3%97200).jpg",
+          "license": "CC BY 4.0",
+          "attribution": "Datta S, Gogia A, Mallick S"
+        },
+        {
           "url": "/images/pathology/burkitt-lymphoma.svg",
-          "caption": "نمودار شماتیک — الگوی «آسمان پرستاره» بورکیت (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "بزرگ‌نمایی زیاد"
+          "caption": "نمودار شماتیک — الگوی آسمان پرستاره (مرجع کمکی)",
+          "magnification": "گراس"
         }
       ],
       "magnification": "بزرگ‌نمایی زیاد",
       "image": {
-        "url": "/images/pathology/burkitt-lymphoma.svg",
-        "alt": "Burkitt Lymphoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": null,
+        "url": "/images/pathology/burkitt-lymphoma-photo.jpg",
+        "alt": "لنفوم بورکیت — الگوی «آسمان پرستاره» با ماکروفاژهای tingible-body؛ H&E ×200",
+        "type": "real_slide",
+        "magnification": "medium",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Datta S, Gogia A, Mallick S",
+        "license": "CC BY 4.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Microscopic_panel_showing_intermediate-sized_atypical_lymphoid_cells_arranged_in_sheets_with_numerous_tingible-body_macrophages,_creating_a_starry-sky_pattern_(H%26E,_%C3%97200).jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -8743,27 +8753,37 @@
       ],
       "mnemonic": "«COMplete = COMpletely paternal» — مول کامل کاملاً پدری است (۴۶,XX)، جنین ندارد و همان است که به کوریوکارسینوما تبدیل می‌شود؛ Partial = دو اسپرم، تری‌پلوئید، جنین دارد.",
       "quick_summary": "GTD طیف تکثیر تروفوبلاست است. مول کامل (تماماً پدری، بدون جنین، snowstorm، hCG بسیار بالا) خطر تبدیل به کوریوکارسینوما دارد؛ مول پارشیال (تری‌پلوئید، جنین حاضر) ندارد. کوریوکارسینوما بدخیم و سریعاً متاستازدهنده اما بسیار پاسخ‌ده به شیمی‌درمانی است. hCG نشانگر کلیدی تشخیص و پیگیری است.",
-      "image_url": "/images/pathology/gestational-trophoblastic-disease.svg",
-      "image_caption": "نمودار شماتیک — پرزهای کیستیک انگورمانند مول کامل (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/gestational-trophoblastic-disease-photo.jpg",
+      "image_caption": "مول هیداتیفرم کامل — پرزهای هیدروپیک متورم (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/gestational-trophoblastic-disease-photo.jpg",
+          "caption": "مول هیداتیفرم کامل — پرزهای هیدروپیک متورم (عکس واقعی، H&E)",
+          "magnification": "—",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Ed Uthman, MD",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Complete_Hydatidiform_Mole_(6032574442).jpg",
+          "license": "CC BY 2.0",
+          "attribution": "Ed Uthman, MD"
+        },
+        {
           "url": "/images/pathology/gestational-trophoblastic-disease.svg",
-          "caption": "نمودار شماتیک — پرزهای کیستیک انگورمانند مول کامل (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+          "caption": "نمودار شماتیک — پرزهای انگورمانند مول (مرجع کمکی)",
           "magnification": "گراس"
         }
       ],
       "magnification": "گراس",
       "image": {
-        "url": "/images/pathology/gestational-trophoblastic-disease.svg",
-        "alt": "Gestational Trophoblastic Disease (Hydatidiform Mole, Choriocarcinoma) — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/gestational-trophoblastic-disease-photo.jpg",
+        "alt": "مول هیداتیفرم کامل — پرزهای کوریونی متورم (هیدروپیک) با ادم بارز؛ H&E",
+        "type": "real_slide",
         "magnification": null,
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Ed Uthman, MD",
+        "license": "CC BY 2.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Complete_Hydatidiform_Mole_(6032574442).jpg",
         "verifiedOpenLicense": true
       }
     },
