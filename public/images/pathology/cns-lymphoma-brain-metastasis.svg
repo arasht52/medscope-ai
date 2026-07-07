@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M40,45 Q120,25 200,45 Q210,90 175,115 Q120,135 65,115 Q30,90 40,45 Z" fill="#efe7f7" stroke="#7C4DBC" stroke-width="1.5"/>
+  <path d="M120,32 Q120,120 120,124" stroke="#7C4DBC" stroke-width="0.8" opacity="0.4"/>
+  <circle cx="90" cy="70" r="10" fill="#C0392B" opacity="0.6"/><circle cx="150" cy="85" r="8" fill="#C0392B" opacity="0.6"/>
+  <text x="90" y="73" font-size="5" fill="#fff" text-anchor="middle">متاستاز</text>
+  <text x="120" y="115" font-size="5.5" fill="#5b3a9e" text-anchor="middle">مرز خاکستری–سفید</text>
+  <text x="120" y="135" font-size="6" fill="#C0392B" text-anchor="middle">متاستاز شایع‌ترین؛ لنفوم CNS در نقص ایمنی</text>
+  <text x="120" y="152" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Brain metastases (gray–white junction) & primary CNS lymphoma</text>
+</svg>

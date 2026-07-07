@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M85,25 Q120,15 155,25 L160,70 Q120,140 80,70 Z" fill="none" stroke="#7C4DBC" stroke-width="2"/>
+  <path d="M95,32 Q120,25 145,32 L148,60 Q120,72 92,60 Z" fill="#C0392B" opacity="0.55"/>
+  <text x="120" y="46" font-size="6" fill="#ffffff" text-anchor="middle">thickened endometrium</text>
+  <text x="120" y="105" font-size="6.5" fill="#7C4DBC" text-anchor="middle">myometrium</text>
+  <text x="120" y="150" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Endometrial hyperplasia — increased gland-to-stroma ratio</text>
+</svg>

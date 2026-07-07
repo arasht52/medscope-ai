@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <!-- uterus -->
+  <path d="M92,42 Q120,32 148,42 L154,92 Q120,128 86,92 Z" fill="#f3ecfa" stroke="#7C4DBC" stroke-width="1.8"/>
+  <!-- adenomyosis: foci within the wall -->
+  <circle cx="104" cy="70" r="3.2" fill="#C0392B" opacity="0.7"/>
+  <circle cx="132" cy="66" r="3.2" fill="#C0392B" opacity="0.7"/>
+  <circle cx="120" cy="84" r="3.2" fill="#C0392B" opacity="0.7"/>
+  <text x="120" y="55" font-size="5.5" fill="#7C4DBC" text-anchor="middle">آدنومیوز = داخل دیواره‌ی رحم</text>
+  <!-- endometriosis: ovary chocolate cyst outside -->
+  <circle cx="192" cy="60" r="15" fill="#6E2C00" opacity="0.55" stroke="#7C4DBC" stroke-width="1.2"/>
+  <text x="192" y="85" font-size="5.5" fill="#6E2C00" text-anchor="middle">کیست شکلاتی</text>
+  <text x="192" y="93" font-size="5.5" fill="#7C4DBC" text-anchor="middle">(تخمدان)</text>
+  <text x="120" y="132" font-size="6" fill="#1b2430" opacity="0.6" text-anchor="middle">اندومتریوز = بافت آندومتر خارج از رحم (شایع‌ترین محل: تخمدان)</text>
+  <text x="120" y="150" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Adenomyosis (within wall) vs Endometriosis (ectopic, e.g. ovary)</text>
+</svg>

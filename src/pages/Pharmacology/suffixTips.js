@@ -39,7 +39,6 @@ export const SUFFIX_TIPS = [
     class_fa: "مهارکننده‌های پمپ پروتون (PPI)",
     class_en: "Proton pump inhibitors (PPIs)",
     example_en: "Omeprazole, Pantoprazole",
-    note_fa: "⚠️ Aripiprazole با وجود پسوند مشابه، آنتی‌سایکوتیکه نه PPI",
   },
   {
     suffix: "-gliflozin",

@@ -1,0 +1,168 @@
+/* PathologyMindMap — memory-friendly branch view. Additive; does not touch the
+   notes (جزوه) layout. Mobile-first: branches stack in one column on narrow
+   screens and split into two on wider ones, keeping the "center + branches"
+   mind-map feel readable everywhere. */
+
+.mindmap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: var(--space-2);
+}
+
+/* Central node — the disease itself */
+.mindmap__center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  max-width: 460px;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-path);
+  color: #fff;
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.mindmap__center-title {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.mindmap__center-sub {
+  font-size: 12.5px;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.92;
+}
+
+/* Vertical connector between the center and the branches */
+.mindmap__spine {
+  width: 2px;
+  height: 20px;
+  background: var(--color-border);
+}
+
+/* Branch grid */
+.mindmap__branches {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+  width: 100%;
+}
+
+@media (min-width: 520px) {
+  .mindmap__branches {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.mindmap__highlights {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+  width: 100%;
+  margin-top: var(--space-3);
+}
+
+/* A single branch card */
+.mindmap__branch {
+  border: 1px solid var(--branch-border, var(--color-border));
+  border-inline-start: 4px solid var(--branch-strong, var(--color-border));
+  background: var(--branch-tint, var(--color-surface));
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+}
+
+.mindmap__branch--wide {
+  grid-column: 1 / -1;
+}
+
+.mindmap__branch-head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 var(--space-2);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--branch-strong, var(--color-text));
+}
+
+.mindmap__branch-head::before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: var(--radius-pill);
+  background: var(--branch-strong, var(--color-text));
+  flex: none;
+}
+
+.mindmap__leaves {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.mindmap__leaf {
+  position: relative;
+  padding-inline-start: 14px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+.mindmap__leaf::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 2px;
+  top: 9px;
+  width: 5px;
+  height: 5px;
+  border-radius: var(--radius-pill);
+  background: var(--branch-strong, var(--color-text-muted));
+}
+
+.mindmap__leaf--text {
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+.mindmap__leaf--text::before {
+  display: none;
+}
+
+/* Color families — kept in sync with app tokens in src/index.css */
+.mindmap__branch--teal {
+  --branch-strong: #1f8f93;
+  --branch-tint: #e6f5f5;
+  --branch-border: #bfe3e4;
+}
+.mindmap__branch--blue {
+  --branch-strong: var(--color-primary);
+  --branch-tint: var(--color-primary-tint);
+  --branch-border: #cfe0f6;
+}
+.mindmap__branch--amber {
+  --branch-strong: #b9770e;
+  --branch-tint: #fdf3e2;
+  --branch-border: #f2ddb6;
+}
+.mindmap__branch--purple {
+  --branch-strong: var(--color-path);
+  --branch-tint: var(--color-path-tint);
+  --branch-border: #ddccf3;
+}
+.mindmap__branch--red {
+  --branch-strong: var(--color-danger);
+  --branch-tint: var(--color-danger-tint);
+  --branch-border: #f2c9c3;
+}
+.mindmap__branch--green {
+  --branch-strong: var(--color-secondary);
+  --branch-tint: var(--color-secondary-tint);
+  --branch-border: #c2e7d3;
+}

@@ -4,3 +4,9 @@ dist/
 *.log
 .env
 .env.local
+
+# Raw lecture PDF library (~413MB) — kept local, not committed
+source-notes/
+
+# Personal per-machine Claude Code settings
+.claude/settings.local.json

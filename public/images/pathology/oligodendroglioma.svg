@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <g><circle cx="70" cy="55" r="15" fill="#fff8e1" stroke="#E6B800" stroke-width="1.5"/><circle cx="70" cy="55" r="6" fill="#7C4DBC" opacity="0.7"/>
+  <circle cx="115" cy="50" r="15" fill="#fff8e1" stroke="#E6B800" stroke-width="1.5"/><circle cx="115" cy="50" r="6" fill="#7C4DBC" opacity="0.7"/>
+  <circle cx="160" cy="60" r="15" fill="#fff8e1" stroke="#E6B800" stroke-width="1.5"/><circle cx="160" cy="60" r="6" fill="#7C4DBC" opacity="0.7"/>
+  <circle cx="90" cy="90" r="15" fill="#fff8e1" stroke="#E6B800" stroke-width="1.5"/><circle cx="90" cy="90" r="6" fill="#7C4DBC" opacity="0.7"/>
+  <circle cx="140" cy="92" r="15" fill="#fff8e1" stroke="#E6B800" stroke-width="1.5"/><circle cx="140" cy="92" r="6" fill="#7C4DBC" opacity="0.7"/></g>
+  <circle cx="118" cy="110" r="3" fill="#5e6b7a"/><text x="128" y="113" font-size="5.5" fill="#5e6b7a">کلسیفیکاسیون</text>
+  <text x="120" y="128" font-size="6.5" fill="#8a6d00" text-anchor="middle">ظاهر «تخم‌مرغ نیمرو» · هاله‌ی روشن دور هسته</text>
+  <text x="120" y="150" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Oligodendroglioma — fried-egg cells, 1p/19q, calcification</text>
+</svg>

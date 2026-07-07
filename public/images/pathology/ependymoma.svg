@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <circle cx="120" cy="70" r="10" fill="#C0392B" opacity="0.5"/>
+  <g stroke="#7C4DBC" stroke-width="1.2" opacity="0.8">
+  <line x1="120" y1="60" x2="120" y2="42"/><line x1="130" y1="70" x2="150" y2="70"/><line x1="120" y1="80" x2="120" y2="98"/><line x1="110" y1="70" x2="90" y2="70"/>
+  <line x1="127" y1="63" x2="140" y2="50"/><line x1="127" y1="77" x2="140" y2="90"/><line x1="113" y1="77" x2="100" y2="90"/><line x1="113" y1="63" x2="100" y2="50"/></g>
+  <g fill="#7C4DBC" opacity="0.6"><circle cx="120" cy="38" r="4"/><circle cx="155" cy="70" r="4"/><circle cx="120" cy="102" r="4"/><circle cx="85" cy="70" r="4"/><circle cx="144" cy="46" r="4"/><circle cx="144" cy="94" r="4"/><circle cx="96" cy="94" r="4"/><circle cx="96" cy="46" r="4"/></g>
+  <text x="120" y="128" font-size="6.5" fill="#5b3a9e" text-anchor="middle">پزودوروزت اطراف عروقی · بطن چهارم</text>
+  <text x="120" y="150" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Ependymoma — perivascular pseudorosettes</text>
+</svg>

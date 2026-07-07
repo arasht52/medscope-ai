@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M95,30 Q120,20 145,30 L150,110 Q120,125 90,110 Z" fill="#e8d9f5" stroke="#7C4DBC" stroke-width="2"/>
+  <text x="120" y="70" font-size="7" fill="#7C4DBC" text-anchor="middle">thyroid</text>
+  <circle cx="88" cy="45" r="7" fill="#C0392B" opacity="0.55"/>
+  <circle cx="152" cy="45" r="7" fill="#2E7D32" opacity="0.55"/>
+  <circle cx="86" cy="98" r="13" fill="#C0392B" opacity="0.8"/>
+  <circle cx="154" cy="98" r="7" fill="#2E7D32" opacity="0.55"/>
+  <text x="86" y="122" font-size="6" fill="#C0392B" text-anchor="middle">adenoma (enlarged)</text>
+  <text x="154" y="60" font-size="6" fill="#2E7D32" text-anchor="middle">normal</text>
+  <text x="120" y="150" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Parathyroid adenoma — solitary enlarged gland, others normal</text>
+</svg>

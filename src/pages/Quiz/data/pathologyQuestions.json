@@ -541,7 +541,7 @@
   },
   {
     "id": "pa-nervoussystem-1",
-    "topicId": "cerebrovascular-disease",
+    "topicId": "ischemic-stroke",
     "category": "Nervous System",
     "question_fa": "بیمار ۷۵ ساله با ضعف ناگهانی نیمه‌ی راست بدن و اختلال گفتاری مراجعه می‌کند. سی‌تی‌اسکن اولیه (۲ ساعت پس از شروع) طبیعی است. محتمل‌ترین یافته‌ی پاتولوژیک زمینه‌ای چیست؟",
     "options": [
@@ -571,7 +571,7 @@
   },
   {
     "id": "pa-nervoussystem-2",
-    "topicId": "cns-tumors",
+    "topicId": "medulloblastoma",
     "category": "Nervous System",
     "question_fa": "کودک ۶ ساله با سردرد صبحگاهی، استفراغ، و آتاکسی، MRI توده‌ی خط وسط مخچه (فضای چهارم بطن) نشان می‌دهد. شایع‌ترین تومور بدخیم مغزی کودکان در این موقعیت چیست؟",
     "options": [
@@ -1408,5 +1408,3605 @@
     ],
     "correctOptionId": "a",
     "explanation_fa": "لنفوم بورکیت یکی از سریع‌الرشدترین تومورهای انسانی است و در کودکان با توده‌ی شکمی سریع‌الرشد تظاهر می‌کند؛ الگوی آسمان پرستاره (ماکروفاژهای بینابینی که بقایای سلولی فاگوسیت‌شده را پاک می‌کنند) و ترانسلوکیشن t(8;14) با MYC مشخصه‌ی آن است — برخلاف لنفوم هوچکین که با سلول رید-اشتنبرگ و الگوی متفاوتی مشخص می‌شود."
+  },
+  {
+    "id": "pa-femalereproductivesystem-4",
+    "topicId": "gestational-trophoblastic-disease",
+    "category": "Female Reproductive System",
+    "question_fa": "زن ۲۴ ساله با خون‌ریزی سه‌ماهه‌ی اول، استفراغ شدید و رحم بزرگ‌تر از سن حاملگی مراجعه کرده؛ سونوگرافی «کولاک برف» بدون جنین و hCG بسیار بالا دارد. محتمل‌ترین تشخیص؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مول هیداتیفرم کامل",
+        "text_en": "Complete hydatidiform mole"
+      },
+      {
+        "id": "b",
+        "text_fa": "مول پارشیال",
+        "text_en": "Partial mole"
+      },
+      {
+        "id": "c",
+        "text_fa": "حاملگی طبیعی",
+        "text_en": "Normal pregnancy"
+      },
+      {
+        "id": "d",
+        "text_fa": "فیبروم رحمی",
+        "text_en": "Uterine fibroid"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "الگوی «کولاک برف» بدون جنین، hCG بسیار بالا و رحم بزرگ‌تر از سن حاملگی مشخصه‌ی مول کامل است که تماماً منشأ پدری دارد."
+  },
+  {
+    "id": "pa-femalereproductivesystem-5",
+    "topicId": "gestational-trophoblastic-disease",
+    "category": "Female Reproductive System",
+    "question_fa": "کاریوتیپ تیپیک مول هیداتیفرم کامل کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "۴۶,XX تماماً پدری",
+        "text_en": "46,XX entirely paternal"
+      },
+      {
+        "id": "b",
+        "text_fa": "تری‌پلوئید 69,XXY",
+        "text_en": "Triploid 69,XXY"
+      },
+      {
+        "id": "c",
+        "text_fa": "۴۵,X",
+        "text_en": "45,X"
+      },
+      {
+        "id": "d",
+        "text_fa": "۴۷,XXY",
+        "text_en": "47,XXY"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "۹۰٪ مول‌های کامل کاریوتیپ 46,XX دارند که از دوبرابرشدن ماده‌ی ژنتیک یک اسپرم در یک تخمک تهی (آندروژنز) ناشی می‌شود؛ جنین حاضر نیست."
+  },
+  {
+    "id": "pa-femalereproductivesystem-6",
+    "topicId": "gestational-trophoblastic-disease",
+    "category": "Female Reproductive System",
+    "question_fa": "کدام ضایعه‌ی GTD با خطر تبدیل به کوریوکارسینوما همراه نیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مول پارشیال",
+        "text_en": "Partial mole"
+      },
+      {
+        "id": "b",
+        "text_fa": "مول کامل",
+        "text_en": "Complete mole"
+      },
+      {
+        "id": "c",
+        "text_fa": "مول مهاجم",
+        "text_en": "Invasive mole"
+      },
+      {
+        "id": "d",
+        "text_fa": "PSTT",
+        "text_en": "Placental-site trophoblastic tumor"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "مول پارشیال با کوریوکارسینوما همراه نیست، هرچند خطر بیماری مولار پایدار را افزایش می‌دهد؛ در مقابل مول کامل ~۲.۵٪ خطر کوریوکارسینوما دارد."
+  },
+  {
+    "id": "pa-femalereproductivesystem-7",
+    "topicId": "gestational-trophoblastic-disease",
+    "category": "Female Reproductive System",
+    "question_fa": "یافته‌ی میکروسکوپی مشخصه‌ی کوریوکارسینوما کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تروفوبلاست دولایه بدون پرز کوریونی",
+        "text_en": "Biphasic trophoblast without chorionic villi"
+      },
+      {
+        "id": "b",
+        "text_fa": "پرزهای کیستیک بزرگ با سیسترن",
+        "text_en": "Large cystic villi with cisterns"
+      },
+      {
+        "id": "c",
+        "text_fa": "دو جمعیت پرز",
+        "text_en": "Two populations of villi"
+      },
+      {
+        "id": "d",
+        "text_fa": "سلول‌های سینسیشیال خوش‌خیم",
+        "text_en": "Benign syncytial cells"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کوریوکارسینوما تنها از سینسیشیوتروفوبلاست و سیتوتروفوبلاست تکثیریابنده تشکیل شده و پرز کوریونی ندارد؛ میتوز فراوان و اغلب غیرطبیعی است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-8",
+    "topicId": "gestational-trophoblastic-disease",
+    "category": "Female Reproductive System",
+    "question_fa": "شایع‌ترین محل متاستاز کوریوکارسینومای بارداری کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "ریه",
+        "text_en": "Lung"
+      },
+      {
+        "id": "b",
+        "text_fa": "مغز",
+        "text_en": "Brain"
+      },
+      {
+        "id": "c",
+        "text_fa": "کبد",
+        "text_en": "Liver"
+      },
+      {
+        "id": "d",
+        "text_fa": "استخوان",
+        "text_en": "Bone"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کوریوکارسینوما گرایش بالایی به انتشار خونی دارد و شایع‌ترین محل متاستاز ریه (۵۰٪) و سپس واژن (۳۰–۴۰٪) است."
+  },
+  {
+    "id": "pa-endocrine-5",
+    "topicId": "primary-hyperparathyroidism",
+    "category": "Endocrine",
+    "question_fa": "شایع‌ترین علت هایپرپاراتیروئیدیسم اولیه کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آدنوم منفرد پاراتیروئید",
+        "text_en": "Solitary parathyroid adenoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "هایپرپلازی چهارغده‌ای",
+        "text_en": "Four-gland hyperplasia"
+      },
+      {
+        "id": "c",
+        "text_fa": "کارسینوم پاراتیروئید",
+        "text_en": "Parathyroid carcinoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "نارسایی مزمن کلیه",
+        "text_en": "Chronic renal failure"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آدنوم منفرد پاراتیروئید ۸۵ تا ۹۵٪ موارد هایپرپاراتیروئیدیسم اولیه را تشکیل می‌دهد و شایع‌ترین علت است."
+  },
+  {
+    "id": "pa-endocrine-6",
+    "topicId": "primary-hyperparathyroidism",
+    "category": "Endocrine",
+    "question_fa": "پروفایل آزمایشگاهی تیپیک هایپرپاراتیروئیدیسم اولیه کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "PTH بالا، کلسیم بالا، فسفر پایین",
+        "text_en": "High PTH, high Ca, low phosphate"
+      },
+      {
+        "id": "b",
+        "text_fa": "PTH پایین، کلسیم بالا",
+        "text_en": "Low PTH, high Ca"
+      },
+      {
+        "id": "c",
+        "text_fa": "PTH بالا، کلسیم پایین",
+        "text_en": "High PTH, low Ca"
+      },
+      {
+        "id": "d",
+        "text_fa": "PTH پایین، کلسیم پایین",
+        "text_en": "Low PTH, low Ca"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در اولیه PTH بالا با کلسیم نرمال/بالا و فسفر پایین همراه است؛ کلسیم بالا با PTH سرکوب‌نشده تقریباً همیشه هایپرپاراتیروئیدیسم اولیه را مطرح می‌کند."
+  },
+  {
+    "id": "pa-endocrine-7",
+    "topicId": "primary-hyperparathyroidism",
+    "category": "Endocrine",
+    "question_fa": "کدام یافته آدنوم پاراتیروئید را از هایپرپلازی افتراق می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "درگیری تک‌غده با حاشیه‌ی نرمال فشرده",
+        "text_en": "Single gland with rim of compressed normal tissue"
+      },
+      {
+        "id": "b",
+        "text_fa": "درگیری هر چهار غده",
+        "text_en": "Involvement of all four glands"
+      },
+      {
+        "id": "c",
+        "text_fa": "افزایش سلول‌های چربی",
+        "text_en": "Increased fat cells"
+      },
+      {
+        "id": "d",
+        "text_fa": "نکروز گسترده",
+        "text_en": "Extensive necrosis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آدنوم معمولاً تک‌غده و همراه با حاشیه‌ای از بافت پاراتیروئید نرمال فشرده‌شده است، در حالی که هایپرپلازی کلاسیک هر چهار غده را درگیر می‌کند."
+  },
+  {
+    "id": "pa-endocrine-8",
+    "topicId": "primary-hyperparathyroidism",
+    "category": "Endocrine",
+    "question_fa": "چهارگانه‌ی کلاسیک تظاهرات هیپرکلسمی در هایپرپاراتیروئیدیسم اولیه کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سنگ، استخوان، شکایات شکمی، علائم روانی",
+        "text_en": "Stones, bones, groans, psychic moans"
+      },
+      {
+        "id": "b",
+        "text_fa": "تب، راش، آرتریت، کاردیت",
+        "text_en": "Fever, rash, arthritis, carditis"
+      },
+      {
+        "id": "c",
+        "text_fa": "پلی‌اوری، پلی‌دیپسی، پلی‌فاژی، کاهش وزن",
+        "text_en": "Polyuria, polydipsia, polyphagia, weight loss"
+      },
+      {
+        "id": "d",
+        "text_fa": "ترمور، تعریق، کاهش وزن، تپش",
+        "text_en": "Tremor, sweating, weight loss, palpitation"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "«painful bones, renal stones, abdominal groans, psychic moans» چهارگانه‌ی کلاسیک است: پوکی/درد استخوان، سنگ کلیه، شکایات گوارشی و علائم روانی."
+  },
+  {
+    "id": "pa-endocrine-9",
+    "topicId": "primary-hyperparathyroidism",
+    "category": "Endocrine",
+    "question_fa": "در هایپرپاراتیروئیدیسم ثانویه‌ی ناشی از نارسایی مزمن کلیه، سطح کلسیم سرم معمولاً چگونه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پایین",
+        "text_en": "Low"
+      },
+      {
+        "id": "b",
+        "text_fa": "بالا",
+        "text_en": "High"
+      },
+      {
+        "id": "c",
+        "text_fa": "همیشه نرمال",
+        "text_en": "Always normal"
+      },
+      {
+        "id": "d",
+        "text_fa": "بسیار بالا",
+        "text_en": "Very high"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "هایپرپاراتیروئیدیسم ثانویه پاسخ جبرانی به هیپوکلسمی مزمن (اغلب نارسایی کلیه) است؛ کلسیم پایین است و درمان معطوف به علت زمینه‌ای می‌شود، نه غده."
+  },
+  {
+    "id": "pa-malereproductivesystem-4",
+    "topicId": "prostatic-adenocarcinoma",
+    "category": "Male Reproductive System",
+    "question_fa": "بیشتر آدنوکارسینوم‌های پروستات از کدام زون منشأ می‌گیرند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "زون محیطی (peripheral)",
+        "text_en": "Peripheral zone"
+      },
+      {
+        "id": "b",
+        "text_fa": "زون گذاری (transition)",
+        "text_en": "Transition zone"
+      },
+      {
+        "id": "c",
+        "text_fa": "زون مرکزی (central)",
+        "text_en": "Central zone"
+      },
+      {
+        "id": "d",
+        "text_fa": "استرومای فیبروماسکولار قدامی",
+        "text_en": "Anterior fibromuscular stroma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "حدود ۷۰٪ آدنوکارسینوم‌های پروستات از زون محیطی برمی‌خیزند، برخلاف BPH که عمدتاً از زون گذاری منشأ می‌گیرد."
+  },
+  {
+    "id": "pa-malereproductivesystem-5",
+    "topicId": "prostatic-adenocarcinoma",
+    "category": "Male Reproductive System",
+    "question_fa": "کدام یافته‌ی بافت‌شناسی به تشخیص آدنوکارسینوم پروستات کمک می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فقدان لایه‌ی سلول بازال",
+        "text_en": "Absence of basal cell layer"
+      },
+      {
+        "id": "b",
+        "text_fa": "دو لایه‌ی سلولی سالم",
+        "text_en": "Intact two cell layers"
+      },
+      {
+        "id": "c",
+        "text_fa": "پرزهای کیستیک",
+        "text_en": "Cystic villi"
+      },
+      {
+        "id": "d",
+        "text_fa": "اجسام Verocay",
+        "text_en": "Verocay bodies"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "غدد بدخیم پروستات لایه‌ی بازال خارجی (که در غدد خوش‌خیم حاضر است) را از دست می‌دهند؛ فقدان این لایه همراه تهاجم پری‌نورال، یافته‌ی افتراقی کلیدی است."
+  },
+  {
+    "id": "pa-malereproductivesystem-6",
+    "topicId": "prostatic-adenocarcinoma",
+    "category": "Male Reproductive System",
+    "question_fa": "متاستاز استخوانی آدنوکارسینوم پروستات تیپیک از چه نوعی است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "استئوبلاستیک (سازنده‌ی استخوان)",
+        "text_en": "Osteoblastic"
+      },
+      {
+        "id": "b",
+        "text_fa": "استئولیتیک (تخریب‌کننده)",
+        "text_en": "Osteolytic"
+      },
+      {
+        "id": "c",
+        "text_fa": "مختلط بدون کلسیفیکاسیون",
+        "text_en": "Mixed non-calcified"
+      },
+      {
+        "id": "d",
+        "text_fa": "بدون درگیری استخوان",
+        "text_en": "No bone involvement"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "متاستاز استخوانی پروستات به‌طور مشخص استئوبلاستیک است و به‌ویژه اسکلت محوری (ستون فقرات) را درگیر می‌کند."
+  },
+  {
+    "id": "pa-malereproductivesystem-7",
+    "topicId": "prostatic-adenocarcinoma",
+    "category": "Male Reproductive System",
+    "question_fa": "کدام سیستم برای گریدینگ آدنوکارسینوم پروستات به کار می‌رود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "Gleason",
+        "text_en": "Gleason"
+      },
+      {
+        "id": "b",
+        "text_fa": "Bethesda",
+        "text_en": "Bethesda"
+      },
+      {
+        "id": "c",
+        "text_fa": "Ann Arbor",
+        "text_en": "Ann Arbor"
+      },
+      {
+        "id": "d",
+        "text_fa": "FIGO",
+        "text_en": "FIGO"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "سیستم Gleason بر اساس الگوی غده‌ای و درجه‌ی تمایز، شناخته‌شده‌ترین روش گریدینگ پروستات و همراه با استیج بهترین نشانگر پیش‌آگهی است."
+  },
+  {
+    "id": "pa-malereproductivesystem-8",
+    "topicId": "prostatic-adenocarcinoma",
+    "category": "Male Reproductive System",
+    "question_fa": "کدام گزاره درباره‌ی PSA درست است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "اختصاصی عضو است اما اختصاصی سرطان نیست",
+        "text_en": "Organ-specific but not cancer-specific"
+      },
+      {
+        "id": "b",
+        "text_fa": "فقط در سرطان بالا می‌رود",
+        "text_en": "Rises only in cancer"
+      },
+      {
+        "id": "c",
+        "text_fa": "در BPH هرگز بالا نمی‌رود",
+        "text_en": "Never elevated in BPH"
+      },
+      {
+        "id": "d",
+        "text_fa": "پس از انزال کاهش می‌یابد",
+        "text_en": "Decreases after ejaculation"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "PSA اختصاصی عضو است نه سرطان؛ در BPH، پروستاتیت، انفارکت پروستات و پس از انزال هم بالا می‌رود، لذا حساسیت و ویژگی آن به‌عنوان غربالگری زیربهینه است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-9",
+    "topicId": "endometrial-hyperplasia-carcinoma",
+    "category": "Female Reproductive System",
+    "question_fa": "شایع‌ترین نوع کارسینوم آندومتر (نوع I) با کدام مسیر مولکولی مرتبط است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "غیرفعال‌شدن PTEN",
+        "text_en": "PTEN inactivation"
+      },
+      {
+        "id": "b",
+        "text_fa": "موتاسیون TP53",
+        "text_en": "TP53 mutation"
+      },
+      {
+        "id": "c",
+        "text_fa": "جابه‌جایی BCR-ABL",
+        "text_en": "BCR-ABL translocation"
+      },
+      {
+        "id": "d",
+        "text_fa": "تقویت HER2",
+        "text_en": "HER2 amplification"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کارسینوم اندومتریوئید (نوع I) روی زمینه‌ی هایپرپلازی و استروژن بی‌مقابله می‌روید و غیرفعال‌شدن PTEN تغییر ژنتیکی شایع آن است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-10",
+    "topicId": "endometrial-hyperplasia-carcinoma",
+    "category": "Female Reproductive System",
+    "question_fa": "کارسینوم سروز آندومتر (نوع II) تیپیک روی چه زمینه‌ای و با کدام موتاسیون بروز می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آندومتر آتروفیک، موتاسیون TP53",
+        "text_en": "Atrophic endometrium, TP53 mutation"
+      },
+      {
+        "id": "b",
+        "text_fa": "هایپرپلازی، PTEN",
+        "text_en": "Hyperplasia, PTEN"
+      },
+      {
+        "id": "c",
+        "text_fa": "استروژن بی‌مقابله، KRAS",
+        "text_en": "Unopposed estrogen, KRAS"
+      },
+      {
+        "id": "d",
+        "text_fa": "اندومتریت مزمن، BRCA",
+        "text_en": "Chronic endometritis, BRCA"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کارسینوم سروز (نوع II) در زنان مسن‌تر روی آندومتر آتروفیک بروز می‌کند و به‌شدت با موتاسیون TP53 (بیش از ۹۰٪) مرتبط است، نه با تحریک استروژنی."
+  },
+  {
+    "id": "pa-femalereproductivesystem-11",
+    "topicId": "endometrial-hyperplasia-carcinoma",
+    "category": "Female Reproductive System",
+    "question_fa": "کدام عامل خطر اصلی هایپرپلازی آندومتر است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تحریک استروژنی بدون‌مقابله‌ی پروژسترون",
+        "text_en": "Unopposed estrogen stimulation"
+      },
+      {
+        "id": "b",
+        "text_fa": "پروژسترون‌درمانی طولانی",
+        "text_en": "Prolonged progestin therapy"
+      },
+      {
+        "id": "c",
+        "text_fa": "مصرف سیگار",
+        "text_en": "Cigarette smoking"
+      },
+      {
+        "id": "d",
+        "text_fa": "مولتی‌پاریتی",
+        "text_en": "Multiparity"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "هایپرپلازی آندومتر با تحریک استروژنی طولانی و بی‌مقابله‌ی پروژسترون همراه است (آنووولاسیون، چاقی، PCOS، تومور گرانولوزا، استروژن‌درمانی)."
+  },
+  {
+    "id": "pa-femalereproductivesystem-12",
+    "topicId": "endometrial-hyperplasia-carcinoma",
+    "category": "Female Reproductive System",
+    "question_fa": "علامت هشداردهنده‌ی اصلی که باید برای رد کارسینوم آندومتر بیوپسی شود کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "خون‌ریزی پس از یائسگی",
+        "text_en": "Postmenopausal bleeding"
+      },
+      {
+        "id": "b",
+        "text_fa": "ترشح شیری نوک پستان",
+        "text_en": "Milky nipple discharge"
+      },
+      {
+        "id": "c",
+        "text_fa": "درد لگنی چرخه‌ای",
+        "text_en": "Cyclical pelvic pain"
+      },
+      {
+        "id": "d",
+        "text_fa": "آمنوره‌ی اولیه",
+        "text_en": "Primary amenorrhea"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "خون‌ریزی پس از یائسگی تا اثبات خلاف کارسینوم آندومتر است و مستلزم بیوپسی است؛ خوشبختانه اغلب به تشخیص زودرس منجر می‌شود."
+  },
+  {
+    "id": "pa-femalereproductivesystem-13",
+    "topicId": "endometrial-hyperplasia-carcinoma",
+    "category": "Female Reproductive System",
+    "question_fa": "ویژگی تعریف‌کننده‌ی هایپرپلازی آندومتر کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "افزایش نسبت غده به استروما",
+        "text_en": "Increased gland-to-stroma ratio"
+      },
+      {
+        "id": "b",
+        "text_fa": "کاهش تعداد غدد",
+        "text_en": "Decreased number of glands"
+      },
+      {
+        "id": "c",
+        "text_fa": "آتروفی استروما بدون تغییر غده",
+        "text_en": "Stromal atrophy without glandular change"
+      },
+      {
+        "id": "d",
+        "text_fa": "حضور سلول‌های پلاسما",
+        "text_en": "Presence of plasma cells"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "هایپرپلازی آندومتر با تکثیر غیرطبیعی غدد نسبت به استروما و در نتیجه افزایش نسبت غده به استروما در مقایسه با آندومتر پرولیفراتیو نرمال تعریف می‌شود."
+  },
+  {
+    "id": "pa-femalereproductivesystem-14",
+    "topicId": "invasive-breast-carcinoma",
+    "category": "Female Reproductive System",
+    "question_fa": "کدام گزاره درباره‌ی DCIS درست است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "محدود به مجرا با حفظ غشای پایه و بدون توان متاستاز",
+        "text_en": "Confined to ducts, basement membrane intact, no metastatic capacity"
+      },
+      {
+        "id": "b",
+        "text_fa": "از غشای پایه عبور کرده",
+        "text_en": "Has crossed the basement membrane"
+      },
+      {
+        "id": "c",
+        "text_fa": "همیشه متاستاز می‌دهد",
+        "text_en": "Always metastasizes"
+      },
+      {
+        "id": "d",
+        "text_fa": "فاقد سلول میواپیتلیال است",
+        "text_en": "Lacks myoepithelial cells"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "DCIS تکثیر اپیتلیال محدود به مجاری/لبول‌ها با حفظ غشای پایه و سلول‌های میواپیتلیال است و توان متاستاز ندارد؛ عبور از غشای پایه = کارسینوم مهاجم."
+  },
+  {
+    "id": "pa-femalereproductivesystem-15",
+    "topicId": "invasive-breast-carcinoma",
+    "category": "Female Reproductive System",
+    "question_fa": "مهم‌ترین عامل پیش‌آگهی در کارسینوم مهاجم پستان کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "وضعیت غدد لنفاوی زیربغل",
+        "text_en": "Axillary lymph node status"
+      },
+      {
+        "id": "b",
+        "text_fa": "سن بیمار",
+        "text_en": "Patient age"
+      },
+      {
+        "id": "c",
+        "text_fa": "سمت درگیر",
+        "text_en": "Affected side"
+      },
+      {
+        "id": "d",
+        "text_fa": "اندازه‌ی نوک پستان",
+        "text_en": "Nipple size"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "وضعیت غدد لنفاوی زیربغل مهم‌ترین عامل پیش‌آگهی کارسینوم مهاجم پستان است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-16",
+    "topicId": "invasive-breast-carcinoma",
+    "category": "Female Reproductive System",
+    "question_fa": "موتاسیون BRCA1 علاوه بر پستان، خطر کدام بدخیمی را به‌شدت افزایش می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کارسینوم تخمدان",
+        "text_en": "Ovarian carcinoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "کارسینوم تیروئید",
+        "text_en": "Thyroid carcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "ملانوم",
+        "text_en": "Melanoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "کارسینوم معده",
+        "text_en": "Gastric carcinoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "موتاسیون BRCA1 خطر کارسینوم تخمدان را نیز به‌شدت بالا می‌برد (در ۲۰ تا ۴۰٪ حاملان رخ می‌دهد)، لذا شناسایی حاملان اهمیت دارد."
+  },
+  {
+    "id": "pa-femalereproductivesystem-17",
+    "topicId": "invasive-breast-carcinoma",
+    "category": "Female Reproductive System",
+    "question_fa": "بیماری پاژه‌ی نوک پستان معمولاً کدام پروفایل مولکولی را دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "ER منفی و HER2 مثبت",
+        "text_en": "ER-negative and HER2-positive"
+      },
+      {
+        "id": "b",
+        "text_fa": "ER مثبت و HER2 منفی",
+        "text_en": "ER-positive and HER2-negative"
+      },
+      {
+        "id": "c",
+        "text_fa": "سه‌گانه منفی",
+        "text_en": "Triple-negative"
+      },
+      {
+        "id": "d",
+        "text_fa": "فاقد هرگونه گیرنده‌ی هورمونی و HER2",
+        "text_en": "No receptors at all"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کارسینوم‌های همراه با بیماری پاژه معمولاً ER منفی هستند و HER2 را بیش‌ازحد بیان می‌کنند؛ سلول‌های پاژه از DCIS به پوست نوک پستان گسترش می‌یابند."
+  },
+  {
+    "id": "pa-femalereproductivesystem-18",
+    "topicId": "invasive-breast-carcinoma",
+    "category": "Female Reproductive System",
+    "question_fa": "کدام نوع ترشح نوک پستان ویژگی بدخیمی نیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "گالاکتوره (شیری، دوطرفه)",
+        "text_en": "Galactorrhea (milky, bilateral)"
+      },
+      {
+        "id": "b",
+        "text_fa": "ترشح خونی یک‌طرفه‌ی خودبه‌خود",
+        "text_en": "Spontaneous unilateral bloody discharge"
+      },
+      {
+        "id": "c",
+        "text_fa": "ترشح مرتبط با DCIS",
+        "text_en": "Discharge associated with DCIS"
+      },
+      {
+        "id": "d",
+        "text_fa": "ترشح خونی در زن مسن",
+        "text_en": "Bloody discharge in older woman"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "گالاکتوره (شیری، دوطرفه) با پرولاکتین بالا یا داروها مرتبط است و ویژگی بدخیمی نیست؛ ترشح خونی یک‌طرفه‌ی خودبه‌خود در زن مسن نگران‌کننده است."
+  },
+  {
+    "id": "pa-cardiovascular-5",
+    "topicId": "calcific-aortic-stenosis-mitral-valve-prolapse",
+    "category": "Cardiovascular",
+    "question_fa": "کدام یافته تنگی آئورت کلسیفیه‌ی دژنراتیو را از نوع روماتیسمی افتراق می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فقدان جوش‌خوردگی کمیسور",
+        "text_en": "Absence of commissural fusion"
+      },
+      {
+        "id": "b",
+        "text_fa": "جوش‌خوردگی کمیسور",
+        "text_en": "Commissural fusion"
+      },
+      {
+        "id": "c",
+        "text_fa": "اجسام Aschoff",
+        "text_en": "Aschoff bodies"
+      },
+      {
+        "id": "d",
+        "text_fa": "وروکای روی لبه‌ی آزاد",
+        "text_en": "Verrucae on free edge"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در تنگی آئورت کلسیفیه‌ی دژنراتیو کلسیفیکاسیون روی سطح خروجی لت‌هاست و برخلاف نوع روماتیسمی، جوش‌خوردگی کمیسور معمولاً دیده نمی‌شود."
+  },
+  {
+    "id": "pa-cardiovascular-6",
+    "topicId": "calcific-aortic-stenosis-mitral-valve-prolapse",
+    "category": "Cardiovascular",
+    "question_fa": "پرولاپس دریچه‌ی میترال با کدام تغییر بافت‌شناسی مشخص می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "دژنراسیون میکسوماتوز لایه‌ی اسپانژیوزا",
+        "text_en": "Myxomatous degeneration of the spongiosa"
+      },
+      {
+        "id": "b",
+        "text_fa": "کلسیفیکاسیون سطح خروجی",
+        "text_en": "Outflow-surface calcification"
+      },
+      {
+        "id": "c",
+        "text_fa": "اجسام Aschoff",
+        "text_en": "Aschoff bodies"
+      },
+      {
+        "id": "d",
+        "text_fa": "نکروز فیبرینوئید",
+        "text_en": "Fibrinoid necrosis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پرولاپس میترال با دژنراسیون میکسوماتوز بارز لایه‌ی اسپانژیوزا و افزایش رسوب ماتریکس هیدروفیل پرسولفاته مشخص می‌شود که لت‌ها را ضعیف می‌کند."
+  },
+  {
+    "id": "pa-cardiovascular-7",
+    "topicId": "calcific-aortic-stenosis-mitral-valve-prolapse",
+    "category": "Cardiovascular",
+    "question_fa": "پرولاپس دریچه‌ی میترال با کدام اختلال ارثی بافت همبند همراه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سندرم مارفان (FBN1)",
+        "text_en": "Marfan syndrome (FBN1)"
+      },
+      {
+        "id": "b",
+        "text_fa": "سندرم داون",
+        "text_en": "Down syndrome"
+      },
+      {
+        "id": "c",
+        "text_fa": "سندرم ترنر",
+        "text_en": "Turner syndrome"
+      },
+      {
+        "id": "d",
+        "text_fa": "هموکروماتوز",
+        "text_en": "Hemochromatosis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پرولاپس میترال با اختلالات ارثی بافت همبند از جمله سندرم مارفان (موتاسیون فیبریلین-۱/FBN1 و اختلال سیگنالینگ TGF-β) همراه است."
+  },
+  {
+    "id": "pa-cardiovascular-8",
+    "topicId": "calcific-aortic-stenosis-mitral-valve-prolapse",
+    "category": "Cardiovascular",
+    "question_fa": "سه‌گانه‌ی کلاسیک تظاهرات بالینی تنگی آئورت علامت‌دار کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آنژین، سنکوپ، نارسایی قلب",
+        "text_en": "Angina, syncope, heart failure"
+      },
+      {
+        "id": "b",
+        "text_fa": "تب، راش، آرتریت",
+        "text_en": "Fever, rash, arthritis"
+      },
+      {
+        "id": "c",
+        "text_fa": "تپش، ترمور، کاهش وزن",
+        "text_en": "Palpitation, tremor, weight loss"
+      },
+      {
+        "id": "d",
+        "text_fa": "سرفه، خلط، تب",
+        "text_en": "Cough, sputum, fever"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تنگی آئورت علامت‌دار به‌طور کلاسیک با آنژین صدری، سنکوپ و نارسایی احتقانی قلب همراه با هیپرتروفی بطن چپ تظاهر می‌کند."
+  },
+  {
+    "id": "pa-cardiovascular-9",
+    "topicId": "calcific-aortic-stenosis-mitral-valve-prolapse",
+    "category": "Cardiovascular",
+    "question_fa": "تفاوت اصلی «تنگی» و «نارسایی» دریچه‌ای کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تنگی = شکست در بازشدن؛ نارسایی = شکست در بسته‌شدن",
+        "text_en": "Stenosis = failure to open; insufficiency = failure to close"
+      },
+      {
+        "id": "b",
+        "text_fa": "تنگی = شکست در بسته‌شدن؛ نارسایی = شکست در بازشدن",
+        "text_en": "Stenosis = failure to close; insufficiency = failure to open"
+      },
+      {
+        "id": "c",
+        "text_fa": "هر دو یکسان‌اند",
+        "text_en": "They are identical"
+      },
+      {
+        "id": "d",
+        "text_fa": "تنگی فقط مادرزادی است",
+        "text_en": "Stenosis is only congenital"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تنگی شکست دریچه در بازشدن کامل (انسداد جریان رو به جلو) و نارسایی شکست در بسته‌شدن کامل (پس‌زدن خون) است؛ تنگی اضافه‌بار فشاری و نارسایی اضافه‌بار حجمی ایجاد می‌کند."
+  },
+  {
+    "id": "pa-gi-5",
+    "topicId": "ischemic-bowel-disease",
+    "category": "GI",
+    "question_fa": "شایع‌ترین محل درگیری در بیماری ایسکمیک گوارشی کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کولون",
+        "text_en": "Colon"
+      },
+      {
+        "id": "b",
+        "text_fa": "معده",
+        "text_en": "Stomach"
+      },
+      {
+        "id": "c",
+        "text_fa": "مری",
+        "text_en": "Esophagus"
+      },
+      {
+        "id": "d",
+        "text_fa": "دوازدهه",
+        "text_en": "Duodenum"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "بر اساس منبع درسی، کولون شایع‌ترین محل ایسکمی گوارشی است، هرچند هر سطحی از دستگاه گوارش می‌تواند درگیر شود."
+  },
+  {
+    "id": "pa-gi-6",
+    "topicId": "ischemic-bowel-disease",
+    "category": "GI",
+    "question_fa": "مهم‌ترین عامل خطر برای ترومبوز عروق مزانتر و انفارکت ترانس‌مورال روده کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آترواسکلروز شدید",
+        "text_en": "Severe atherosclerosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "کمبود لاکتاز",
+        "text_en": "Lactase deficiency"
+      },
+      {
+        "id": "c",
+        "text_fa": "حساسیت به گلوتن",
+        "text_en": "Gluten sensitivity"
+      },
+      {
+        "id": "d",
+        "text_fa": "عفونت ویروسی",
+        "text_en": "Viral infection"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "انفارکت ترانس‌مورال معمولاً از انسداد کامل عروقی (ترومبوز/آمبولی) ناشی می‌شود و آترواسکلروز شدید مهم‌ترین عامل خطر ترومبوز است."
+  },
+  {
+    "id": "pa-gi-7",
+    "topicId": "ischemic-bowel-disease",
+    "category": "GI",
+    "question_fa": "کدام سطح آسیب در بیماری ایسکمیک روده تمام سه لایه‌ی دیواره را درگیر می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "انفارکت ترانس‌مورال",
+        "text_en": "Transmural infarction"
+      },
+      {
+        "id": "b",
+        "text_fa": "انفارکت مخاطی",
+        "text_en": "Mucosal infarction"
+      },
+      {
+        "id": "c",
+        "text_fa": "انفارکت مورال",
+        "text_en": "Mural infarction"
+      },
+      {
+        "id": "d",
+        "text_fa": "زخم سطحی",
+        "text_en": "Superficial erosion"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "انفارکت ترانس‌مورال تمام ضخامت دیواره (هر سه لایه) را درگیر می‌کند و معمولاً از انسداد حاد و کامل عروقی ناشی می‌شود."
+  },
+  {
+    "id": "pa-gi-8",
+    "topicId": "ischemic-bowel-disease",
+    "category": "GI",
+    "question_fa": "تظاهر بالینی تیپیک ایسکمی حاد کولون در فرد مسن کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "درد ناگهانی شدید شکم تحتانی و اسهال خونی",
+        "text_en": "Sudden severe lower abdominal pain and bloody diarrhea"
+      },
+      {
+        "id": "b",
+        "text_fa": "یبوست مزمن بدون درد",
+        "text_en": "Painless chronic constipation"
+      },
+      {
+        "id": "c",
+        "text_fa": "استئاتوره و کاهش وزن تدریجی",
+        "text_en": "Steatorrhea and gradual weight loss"
+      },
+      {
+        "id": "d",
+        "text_fa": "سوزش سر دل پس از غذا",
+        "text_en": "Postprandial heartburn"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "ایسکمی حاد کولون معمولاً با درد و تندرنس ناگهانی و شدید شکم تحتانی همراه با اسهال خونی، به‌ویژه در افراد بالای ۷۰ سال، تظاهر می‌کند."
+  },
+  {
+    "id": "pa-gi-9",
+    "topicId": "ischemic-bowel-disease",
+    "category": "GI",
+    "question_fa": "کدام گزاره درباره‌ی سودوممبران در بیماری ایسکمیک روده درست است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "عفونت ثانویه‌ی باکتریایی می‌تواند سودوممبران ایجاد کند و آن را شبیه کولیت C. difficile کند",
+        "text_en": "Secondary bacterial infection can produce pseudomembranes, mimicking C. difficile colitis"
+      },
+      {
+        "id": "b",
+        "text_fa": "سودوممبران هرگز در ایسکمی روده دیده نمی‌شود",
+        "text_en": "Pseudomembranes never occur in bowel ischemia"
+      },
+      {
+        "id": "c",
+        "text_fa": "سودوممبران فقط در مری تشکیل می‌شود",
+        "text_en": "Pseudomembranes form only in the esophagus"
+      },
+      {
+        "id": "d",
+        "text_fa": "وجود سودوممبران عفونت C. difficile را قطعی می‌کند",
+        "text_en": "Pseudomembranes confirm C. difficile infection"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "عفونت ثانویه‌ی باکتریایی و آزادشدن انتروتوکسین در ایسکمی روده می‌تواند سودوممبران ایجاد کند؛ بنابراین سودوممبران به‌تنهایی عفونت C. difficile را اثبات نمی‌کند."
+  },
+  {
+    "id": "pa-femalereproductivesystem-19",
+    "topicId": "uterine-leiomyoma-leiomyosarcoma",
+    "category": "Female Reproductive System",
+    "question_fa": "شایع‌ترین تومور در زنان کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "لیومیوم رحم (فیبروم)",
+        "text_en": "Uterine leiomyoma (fibroid)"
+      },
+      {
+        "id": "b",
+        "text_fa": "کارسینوم آندومتر",
+        "text_en": "Endometrial carcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "لیومیوسارکوم",
+        "text_en": "Leiomyosarcoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "فیبروآدنوم پستان",
+        "text_en": "Breast fibroadenoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لیومیوم رحم (فیبروم) نئوپلاسم خوش‌خیم عضله‌ی صاف و شاید شایع‌ترین تومور در زنان است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-20",
+    "topicId": "uterine-leiomyoma-leiomyosarcoma",
+    "category": "Female Reproductive System",
+    "question_fa": "کدام سه معیار برای افتراق لیومیوسارکوم از لیومیوم به کار می‌رود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آتیپی هسته‌ای، اندکس میتوزی، نکروز تومور",
+        "text_en": "Nuclear atypia, mitotic index, tumor necrosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "اندازه، رنگ، محل",
+        "text_en": "Size, color, location"
+      },
+      {
+        "id": "c",
+        "text_fa": "سن، تعداد، علائم",
+        "text_en": "Age, number, symptoms"
+      },
+      {
+        "id": "d",
+        "text_fa": "الگوی گردابی، کپسول، کلسیفیکاسیون",
+        "text_en": "Whorled pattern, capsule, calcification"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "افتراق لیومیوسارکوم از لیومیوم بر پایه‌ی آتیپی هسته‌ای، اندکس میتوزی و نکروز تومور است، نه صرفاً اندازه."
+  },
+  {
+    "id": "pa-femalereproductivesystem-21",
+    "topicId": "uterine-leiomyoma-leiomyosarcoma",
+    "category": "Female Reproductive System",
+    "question_fa": "کدام گزاره درباره‌ی منشأ لیومیوسارکوم رحم درست است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "به‌طور مستقل (de novo) از میومتر می‌روید، نه از لیومیوم",
+        "text_en": "Arises de novo from myometrium, not from leiomyoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "همیشه از بدخیم‌شدن لیومیوم ایجاد می‌شود",
+        "text_en": "Always arises from malignant transformation of a leiomyoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "از اپیتلیوم آندومتر منشأ می‌گیرد",
+        "text_en": "Arises from endometrial epithelium"
+      },
+      {
+        "id": "d",
+        "text_fa": "منشأ عفونی دارد",
+        "text_en": "Has an infectious origin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لیومیوسارکوم تصور می‌شود به‌طور مستقل از میومتر یا سلول‌های پیش‌ساز استرومایی برمی‌خیزد؛ تحول بدخیم لیومیوم به آن بسیار نادر است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-22",
+    "topicId": "uterine-leiomyoma-leiomyosarcoma",
+    "category": "Female Reproductive System",
+    "question_fa": "الگوی ماکروسکوپی مشخصه‌ی لیومیوم در سطح برش کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "الگوی گردابی (whorled) دسته‌های عضله‌ی صاف",
+        "text_en": "Whorled pattern of smooth muscle bundles"
+      },
+      {
+        "id": "b",
+        "text_fa": "الگوی پیازی (onion-skin)",
+        "text_en": "Onion-skin pattern"
+      },
+      {
+        "id": "c",
+        "text_fa": "الگوی کندوی عسل",
+        "text_en": "Honeycomb pattern"
+      },
+      {
+        "id": "d",
+        "text_fa": "الگوی پاپیلاری",
+        "text_en": "Papillary pattern"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لیومیوم توده‌ای خوش‌مرز و خاکستری-سفید با الگوی گردابی مشخصه‌ی دسته‌های عضله‌ی صاف در سطح برش است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-23",
+    "topicId": "uterine-leiomyoma-leiomyosarcoma",
+    "category": "Female Reproductive System",
+    "question_fa": "لیومیوسارکوم رحم معمولاً به کدام اندام‌ها متاستاز خونی می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "ریه، استخوان و مغز",
+        "text_en": "Lungs, bone, and brain"
+      },
+      {
+        "id": "b",
+        "text_fa": "فقط غدد لنفاوی موضعی",
+        "text_en": "Only local lymph nodes"
+      },
+      {
+        "id": "c",
+        "text_fa": "کبد و طحال",
+        "text_en": "Liver and spleen"
+      },
+      {
+        "id": "d",
+        "text_fa": "پوست و بافت زیرجلدی",
+        "text_en": "Skin and subcutaneous tissue"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "بیش از نیمی از لیومیوسارکوم‌ها در نهایت به‌صورت خونی به اندام‌های دور مانند ریه، استخوان و مغز متاستاز می‌دهند."
+  },
+  {
+    "id": "pa-femalereproductivesystem-24",
+    "topicId": "endometriosis-adenomyosis",
+    "category": "Female Reproductive System",
+    "question_fa": "شایع‌ترین محل درگیری در اندومتریوز کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تخمدان",
+        "text_en": "Ovary"
+      },
+      {
+        "id": "b",
+        "text_fa": "اسکار لاپاراتومی",
+        "text_en": "Laparotomy scar"
+      },
+      {
+        "id": "c",
+        "text_fa": "سرویکس",
+        "text_en": "Cervix"
+      },
+      {
+        "id": "d",
+        "text_fa": "ریه",
+        "text_en": "Lung"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "بر اساس منبع درسی، تخمدان‌ها شایع‌ترین محل اندومتریوز هستند و می‌توانند به کیست شکلاتی (اندومتریوما) تبدیل شوند."
+  },
+  {
+    "id": "pa-femalereproductivesystem-25",
+    "topicId": "endometriosis-adenomyosis",
+    "category": "Female Reproductive System",
+    "question_fa": "«کیست شکلاتی» تخمدان با کدام بیماری مرتبط است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "اندومتریوز",
+        "text_en": "Endometriosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "لیومیوم",
+        "text_en": "Leiomyoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "کارسینوم سروز",
+        "text_en": "Serous carcinoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "کیست فولیکولار ساده",
+        "text_en": "Simple follicular cyst"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کیست شکلاتی (اندومتریوما) توده‌ی کیستیک پر از مایع قهوه‌ای حاصل خون‌ریزی مکرر است و نشانه‌ی کلاسیک اندومتریوز تخمدانی است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-26",
+    "topicId": "endometriosis-adenomyosis",
+    "category": "Female Reproductive System",
+    "question_fa": "تفاوت اصلی اندومتریوز و آدنومیوز در چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "محل بافت آندومتر: خارج از رحم در برابر داخل دیواره‌ی رحم",
+        "text_en": "Location of endometrial tissue: outside the uterus vs within the uterine wall"
+      },
+      {
+        "id": "b",
+        "text_fa": "نوع سلول‌ها",
+        "text_en": "Cell type"
+      },
+      {
+        "id": "c",
+        "text_fa": "سن بروز",
+        "text_en": "Age of onset"
+      },
+      {
+        "id": "d",
+        "text_fa": "پاسخ به هورمون",
+        "text_en": "Hormonal responsiveness"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اندومتریوز حضور بافت آندومتر خارج از رحم است، در حالی‌که آدنومیوز حضور بافت آندومتر داخل دیواره‌ی رحم (میومتر) است؛ محل کلید افتراق است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-27",
+    "topicId": "endometriosis-adenomyosis",
+    "category": "Female Reproductive System",
+    "question_fa": "نظریه‌ی پیشرو برای منشأ اندومتریوز کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "نظریه‌ی رگورژیتاسیون (قاعدگی رتروگراد)",
+        "text_en": "Regurgitation theory (retrograde menstruation)"
+      },
+      {
+        "id": "b",
+        "text_fa": "نظریه‌ی عفونی",
+        "text_en": "Infectious theory"
+      },
+      {
+        "id": "c",
+        "text_fa": "نظریه‌ی ارثی تک‌ژنی",
+        "text_en": "Single-gene hereditary theory"
+      },
+      {
+        "id": "d",
+        "text_fa": "نظریه‌ی تروماتیک",
+        "text_en": "Traumatic theory"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "نظریه‌ی رگورژیتاسیون پیشنهاد می‌کند بافت آندومتر از راه جریان قاعدگی رتروگراد در مواضع نابه‌جا کاشته می‌شود؛ یکی از نظریه‌های پیشرو است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-28",
+    "topicId": "endometriosis-adenomyosis",
+    "category": "Female Reproductive System",
+    "question_fa": "برای تشخیص بافت‌شناسی اندومتریوز، حضور کدام اجزا لازم است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "غدد و استرومای آندومتر (± هموسیدرین)",
+        "text_en": "Endometrial glands and stroma (± hemosiderin)"
+      },
+      {
+        "id": "b",
+        "text_fa": "فقط سلول‌های عضله‌ی صاف",
+        "text_en": "Smooth muscle cells only"
+      },
+      {
+        "id": "c",
+        "text_fa": "سلول‌های ژانت",
+        "text_en": "Giant cells"
+      },
+      {
+        "id": "d",
+        "text_fa": "پرزهای کوریونی",
+        "text_en": "Chorionic villi"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تشخیص اندومتریوز بر حضور هم‌زمان غدد و استرومای آندومتر (با یا بدون هموسیدرین) در محل نابه‌جا استوار است."
+  },
+  {
+    "id": "pa-malereproductivesystem-9",
+    "topicId": "prostatitis",
+    "category": "Male Reproductive System",
+    "question_fa": "شایع‌ترین فرم پروستاتیت کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "غیرباکتریایی مزمن (سندرم درد مزمن لگن)",
+        "text_en": "Chronic non-bacterial (chronic pelvic pain)"
+      },
+      {
+        "id": "b",
+        "text_fa": "باکتریایی حاد",
+        "text_en": "Acute bacterial"
+      },
+      {
+        "id": "c",
+        "text_fa": "گرانولوماتوز",
+        "text_en": "Granulomatous"
+      },
+      {
+        "id": "d",
+        "text_fa": "قارچی",
+        "text_en": "Fungal"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پروستاتیت غیرباکتریایی مزمن شایع‌ترین فرم است و اغلب سندرم درد مزمن لگن نامیده می‌شود؛ بدون سابقه‌ی عفونت مکرر ادراری."
+  },
+  {
+    "id": "pa-malereproductivesystem-10",
+    "topicId": "prostatitis",
+    "category": "Male Reproductive System",
+    "question_fa": "چرا بیوپسی در پروستاتیت باکتریایی حاد ممنوع است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "خطر سپسیس",
+        "text_en": "Risk of sepsis"
+      },
+      {
+        "id": "b",
+        "text_fa": "خطر خون‌ریزی شدید",
+        "text_en": "Risk of severe bleeding"
+      },
+      {
+        "id": "c",
+        "text_fa": "خطر ناباروری",
+        "text_en": "Risk of infertility"
+      },
+      {
+        "id": "d",
+        "text_fa": "بی‌فایده بودن",
+        "text_en": "It is useless"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "بیوپسی غده‌ی مشکوک به پروستاتیت حاد ممنوع است چون می‌تواند به سپسیس منجر شود؛ تشخیص با کشت ادرار و تظاهرات بالینی است."
+  },
+  {
+    "id": "pa-malereproductivesystem-11",
+    "topicId": "prostatitis",
+    "category": "Male Reproductive System",
+    "question_fa": "شایع‌ترین ارگانیسم پروستاتیت باکتریایی کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "E. coli",
+        "text_en": "E. coli"
+      },
+      {
+        "id": "b",
+        "text_fa": "استرپتوکوک گروه A",
+        "text_en": "Group A streptococcus"
+      },
+      {
+        "id": "c",
+        "text_fa": "مایکوباکتریوم لپره",
+        "text_en": "Mycobacterium leprae"
+      },
+      {
+        "id": "d",
+        "text_fa": "کاندیدا",
+        "text_en": "Candida"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "بیشتر موارد پروستاتیت باکتریایی ناشی از E. coli و سایر باسیل‌های گرم‌منفی، انتروکوک و استافیلوکوک است."
+  },
+  {
+    "id": "pa-malereproductivesystem-12",
+    "topicId": "prostatitis",
+    "category": "Male Reproductive System",
+    "question_fa": "یافتن گرانولوم در پروستات پس از تزریق BCG برای سرطان مثانه چه اهمیتی دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بی‌اهمیت است و نیاز به درمان ندارد",
+        "text_en": "Clinically insignificant, needs no treatment"
+      },
+      {
+        "id": "b",
+        "text_fa": "نشانه‌ی سرطان پروستات است",
+        "text_en": "Indicates prostate cancer"
+      },
+      {
+        "id": "c",
+        "text_fa": "نشانه‌ی سل فعال است",
+        "text_en": "Indicates active tuberculosis"
+      },
+      {
+        "id": "d",
+        "text_fa": "نیاز به پروستاتکتومی دارد",
+        "text_en": "Requires prostatectomy"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "گرانولومِ پروستات پس از BCG‌درمانی سرطان مثانه یافته‌ای طبیعی، بی‌اهمیت و بدون نیاز به درمان است."
+  },
+  {
+    "id": "pa-malereproductivesystem-13",
+    "topicId": "prostatitis",
+    "category": "Male Reproductive System",
+    "question_fa": "تظاهر بالینی تیپیک پروستاتیت باکتریایی حاد کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "دیزوری، لرز، تب و پروستات بسیار دردناک",
+        "text_en": "Dysuria, chills, fever, very tender prostate"
+      },
+      {
+        "id": "b",
+        "text_fa": "توده‌ی بدون‌درد",
+        "text_en": "Painless mass"
+      },
+      {
+        "id": "c",
+        "text_fa": "خون‌ریزی مقعدی",
+        "text_en": "Rectal bleeding"
+      },
+      {
+        "id": "d",
+        "text_fa": "یبوست مزمن",
+        "text_en": "Chronic constipation"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پروستاتیت حاد با دیزوری، لرز و تب همراه است و پروستات در لمس رکتال بسیار حساس و دردناک است."
+  },
+  {
+    "id": "pa-generalpathology-5",
+    "topicId": "vascular-tumors",
+    "category": "General Pathology",
+    "question_fa": "کاپوزی سارکوم با کدام ویروس مرتبط است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هرپس‌ویروس انسانی ۸ (HHV-8)",
+        "text_en": "Human herpesvirus 8 (HHV-8)"
+      },
+      {
+        "id": "b",
+        "text_fa": "EBV",
+        "text_en": "EBV"
+      },
+      {
+        "id": "c",
+        "text_fa": "HPV",
+        "text_en": "HPV"
+      },
+      {
+        "id": "d",
+        "text_fa": "HTLV-1",
+        "text_en": "HTLV-1"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کاپوزی سارکوم نئوپلاسم عروقی ناشی از HHV-8 است و شایع‌ترین در بیماران ایدز (تشخیصی) دیده می‌شود."
+  },
+  {
+    "id": "pa-generalpathology-6",
+    "topicId": "vascular-tumors",
+    "category": "General Pathology",
+    "question_fa": "تومور گلوموس از کدام سلول منشأ می‌گیرد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سلول عضله‌ی صاف اجسام گلوموس",
+        "text_en": "Smooth muscle cells of glomus bodies"
+      },
+      {
+        "id": "b",
+        "text_fa": "سلول اندوتلیال",
+        "text_en": "Endothelial cells"
+      },
+      {
+        "id": "c",
+        "text_fa": "سلول شوان",
+        "text_en": "Schwann cells"
+      },
+      {
+        "id": "d",
+        "text_fa": "فیبروبلاست",
+        "text_en": "Fibroblasts"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تومور گلوموس (خوش‌خیم اما دردناک، زیر ناخن) از سلول‌های عضله‌ی صافِ اجسام گلوموس منشأ می‌گیرد، نه از اندوتلیوم."
+  },
+  {
+    "id": "pa-generalpathology-7",
+    "topicId": "vascular-tumors",
+    "category": "General Pathology",
+    "question_fa": "آنژیوسارکوم کبدی با مواجهه با کدام عوامل مرتبط است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آرسنیک، توروتراست، پلی‌وینیل‌کلراید (PVC)",
+        "text_en": "Arsenic, Thorotrast, polyvinyl chloride (PVC)"
+      },
+      {
+        "id": "b",
+        "text_fa": "الکل و سیگار",
+        "text_en": "Alcohol and smoking"
+      },
+      {
+        "id": "c",
+        "text_fa": "آفلاتوکسین",
+        "text_en": "Aflatoxin"
+      },
+      {
+        "id": "d",
+        "text_fa": "هپاتیت B",
+        "text_en": "Hepatitis B"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آنژیوسارکوم کبدی با مواجهه با آرسنیک، توروتراست و PVC (با تأخیر طولانی بین مواجهه و تومور) مرتبط است."
+  },
+  {
+    "id": "pa-generalpathology-8",
+    "topicId": "vascular-tumors",
+    "category": "General Pathology",
+    "question_fa": "شایع‌ترین نوع همانژیوم کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مویرگی (capillary)",
+        "text_en": "Capillary"
+      },
+      {
+        "id": "b",
+        "text_fa": "کاورنو",
+        "text_en": "Cavernous"
+      },
+      {
+        "id": "c",
+        "text_fa": "اپیتلیوئید",
+        "text_en": "Epithelioid"
+      },
+      {
+        "id": "d",
+        "text_fa": "پیوژنیک",
+        "text_en": "Pyogenic"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "همانژیوم مویرگی شایع‌ترین نوع همانژیوم است و در پوست و مخاط دیده می‌شود."
+  },
+  {
+    "id": "pa-generalpathology-9",
+    "topicId": "vascular-tumors",
+    "category": "General Pathology",
+    "question_fa": "کدام گزاره درباره‌ی طیف تومورهای عروقی درست است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "از همانژیوم خوش‌خیم تا آنژیوسارکوم بدخیم گسترده است",
+        "text_en": "Ranges from benign hemangioma to malignant angiosarcoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "همه بدخیم‌اند",
+        "text_en": "All are malignant"
+      },
+      {
+        "id": "c",
+        "text_fa": "همه از عضله‌ی صاف منشأ می‌گیرند",
+        "text_en": "All arise from smooth muscle"
+      },
+      {
+        "id": "d",
+        "text_fa": "هیچ‌کدام متاستاز نمی‌دهند",
+        "text_en": "None can metastasize"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تومورهای عروقی طیفی از همانژیوم‌های خوش‌خیم شایع تا ضایعات مرزی و آنژیوسارکوم‌های به‌شدت بدخیم را در بر می‌گیرند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-6",
+    "topicId": "diffuse-large-b-cell-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "شایع‌ترین لنفوم غیرهوچکین بالغین کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "لنفوم منتشر سلول بزرگ B (DLBCL)",
+        "text_en": "Diffuse large B-cell lymphoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "لنفوم فولیکولار",
+        "text_en": "Follicular lymphoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "لنفوم بورکیت",
+        "text_en": "Burkitt lymphoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "لنفوم مانتل‌سل",
+        "text_en": "Mantle cell lymphoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "DLBCL شایع‌ترین لنفوم غیرهوچکین بالغین و یک لنفوم مهاجم است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-7",
+    "topicId": "diffuse-large-b-cell-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "اندازه‌ی سلول‌های DLBCL نسبت به لنفوسیت کوچک چقدر است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "۴ تا ۵ برابر",
+        "text_en": "4 to 5 times"
+      },
+      {
+        "id": "b",
+        "text_fa": "نصف",
+        "text_en": "Half"
+      },
+      {
+        "id": "c",
+        "text_fa": "مساوی",
+        "text_en": "Equal"
+      },
+      {
+        "id": "d",
+        "text_fa": "۱۰ برابر",
+        "text_en": "10 times"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "سلول‌های DLBCL معمولاً ۴ تا ۵ برابر قطر یک لنفوسیت کوچک هستند و الگوی رشد منتشر دارند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-8",
+    "topicId": "diffuse-large-b-cell-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "کدام بازآرایی در مسیر de novo ایجاد DLBCL نقش دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "BCL6",
+        "text_en": "BCL6"
+      },
+      {
+        "id": "b",
+        "text_fa": "BCL2",
+        "text_en": "BCL2"
+      },
+      {
+        "id": "c",
+        "text_fa": "cyclin D1",
+        "text_en": "cyclin D1"
+      },
+      {
+        "id": "d",
+        "text_fa": "c-MYC به‌تنهایی",
+        "text_en": "c-MYC alone"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "مسیر de novo ایجاد DLBCL با بازآرایی BCL6 (اغلب t(3;14)) مشخص می‌شود؛ حدود ۲۰٪ موارد از تحول فولیکولار (BCL2) ناشی می‌شوند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-9",
+    "topicId": "diffuse-large-b-cell-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "کدام ساختار لنفوئیدی در DLBCL شایع درگیر می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "حلقه‌ی والدایر (لوزه/آدنوئید)",
+        "text_en": "Waldeyer ring (tonsils/adenoids)"
+      },
+      {
+        "id": "b",
+        "text_fa": "تیموس",
+        "text_en": "Thymus"
+      },
+      {
+        "id": "c",
+        "text_fa": "مغز استخوان زودرس",
+        "text_en": "Early bone marrow"
+      },
+      {
+        "id": "d",
+        "text_fa": "طحال به‌تنهایی",
+        "text_en": "Spleen only"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "درگیری حلقه‌ی والدایر (بافت لنفوئید حلق شامل لوزه و آدنوئید) در DLBCL شایع است؛ درگیری مغز استخوان نسبتاً نادر و دیررس است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-10",
+    "topicId": "diffuse-large-b-cell-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "کدام سلول در DLBCL آناپلاستیک ممکن است با لنفوم هوچکین اشتباه شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سلول شبه‌Reed-Sternberg",
+        "text_en": "Reed-Sternberg-like cell"
+      },
+      {
+        "id": "b",
+        "text_fa": "سلول داس",
+        "text_en": "Sickle cell"
+      },
+      {
+        "id": "c",
+        "text_fa": "سلول smudge",
+        "text_en": "Smudge cell"
+      },
+      {
+        "id": "d",
+        "text_fa": "سلول hairy",
+        "text_en": "Hairy cell"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تومورهای آناپلاستیک‌تر DLBCL ممکن است سلول‌های چندهسته‌ای با هستک‌های بزرگ شبه‌Reed-Sternberg داشته باشند که با هوچکین اشتباه می‌شوند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-11",
+    "topicId": "follicular-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "جابه‌جایی مشخصه‌ی لنفوم فولیکولار کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "t(14;18) IGH/BCL2",
+        "text_en": "t(14;18) IGH/BCL2"
+      },
+      {
+        "id": "b",
+        "text_fa": "t(8;14) c-MYC",
+        "text_en": "t(8;14) c-MYC"
+      },
+      {
+        "id": "c",
+        "text_fa": "t(11;14) cyclin D1",
+        "text_en": "t(11;14) cyclin D1"
+      },
+      {
+        "id": "d",
+        "text_fa": "t(9;22) BCR-ABL",
+        "text_en": "t(9;22) BCR-ABL"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لنفوم فولیکولار با t(14;18) IGH/BCL2 در ۸۵٪ موارد مشخص می‌شود که به بیش‌بیانی BCL2 و مهار آپوپتوز منجر می‌شود."
+  },
+  {
+    "id": "pa-hematologiclymphoid-12",
+    "topicId": "follicular-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "بیش‌بیانی BCL2 در لنفوم فولیکولار چه اثری دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مهار آپوپتوز و افزایش بقای سلول",
+        "text_en": "Inhibits apoptosis, promotes cell survival"
+      },
+      {
+        "id": "b",
+        "text_fa": "افزایش میتوز",
+        "text_en": "Increases mitosis"
+      },
+      {
+        "id": "c",
+        "text_fa": "تحریک آپوپتوز",
+        "text_en": "Stimulates apoptosis"
+      },
+      {
+        "id": "d",
+        "text_fa": "توقف چرخه‌ی سلولی",
+        "text_en": "Arrests the cell cycle"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "BCL2 آنتی‌آپوپتوتیک است؛ بیش‌بیانی آن آپوپتوز را مهار کرده و بقای سلول‌های لنفوم فولیکولار را افزایش می‌دهد."
+  },
+  {
+    "id": "pa-hematologiclymphoid-13",
+    "topicId": "follicular-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "سیر بالینی لنفوم فولیکولار چگونه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "ایندولنت (کند)، پاسخ خوب ولی درمان قطعی دشوار",
+        "text_en": "Indolent, responds well but hard to cure"
+      },
+      {
+        "id": "b",
+        "text_fa": "بسیار مهاجم و سریعاً کشنده",
+        "text_en": "Highly aggressive, rapidly fatal"
+      },
+      {
+        "id": "c",
+        "text_fa": "خودبه‌خود بهبود می‌یابد",
+        "text_en": "Spontaneously resolves"
+      },
+      {
+        "id": "d",
+        "text_fa": "هرگز به درمان پاسخ نمی‌دهد",
+        "text_en": "Never responds to therapy"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لنفوم فولیکولار ایندولنت است؛ به درمان خوب پاسخ می‌دهد اما درمان قطعی آن دشوار است و می‌تواند به DLBCL تحول یابد."
+  },
+  {
+    "id": "pa-hematologiclymphoid-14",
+    "topicId": "follicular-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "الگوی درگیری مغز استخوان در لنفوم فولیکولار کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تجمعات لنفوئیدی پاراترابکولار",
+        "text_en": "Paratrabecular lymphoid aggregates"
+      },
+      {
+        "id": "b",
+        "text_fa": "ارتشاح منتشر بین‌بافتی",
+        "text_en": "Diffuse interstitial infiltrate"
+      },
+      {
+        "id": "c",
+        "text_fa": "بدون درگیری",
+        "text_en": "No involvement"
+      },
+      {
+        "id": "d",
+        "text_fa": "فیبروز کامل",
+        "text_en": "Complete fibrosis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "درگیری مغز استخوان در ۸۵٪ موارد لنفوم فولیکولار رخ می‌دهد و به‌طور مشخص تجمعات لنفوئیدی پاراترابکولار است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-15",
+    "topicId": "follicular-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "آیا t(14;18) به‌تنهایی برای ایجاد لنفوم فولیکولار کافی است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "خیر، لازم است اما کافی نیست",
+        "text_en": "No, it is necessary but not sufficient"
+      },
+      {
+        "id": "b",
+        "text_fa": "بله، به‌تنهایی کافی است",
+        "text_en": "Yes, it is sufficient alone"
+      },
+      {
+        "id": "c",
+        "text_fa": "هیچ نقشی ندارد",
+        "text_en": "It has no role"
+      },
+      {
+        "id": "d",
+        "text_fa": "فقط در کودکان کافی است",
+        "text_en": "Sufficient only in children"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "t(14;18) لازم است اما به‌تنهایی برای ایجاد لنفوم فولیکولار کافی نیست و رویدادهای ژنتیکی اضافی لازم است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-16",
+    "topicId": "burkitt-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "جابه‌جایی مشخصه‌ی لنفوم بورکیت کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "t(8;14) c-MYC",
+        "text_en": "t(8;14) c-MYC"
+      },
+      {
+        "id": "b",
+        "text_fa": "t(14;18) BCL2",
+        "text_en": "t(14;18) BCL2"
+      },
+      {
+        "id": "c",
+        "text_fa": "t(11;14) cyclin D1",
+        "text_en": "t(11;14) cyclin D1"
+      },
+      {
+        "id": "d",
+        "text_fa": "t(15;17) PML-RARA",
+        "text_en": "t(15;17) PML-RARA"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لنفوم بورکیت با t(8;14) بین c-MYC (8q24) و IgH (14q32) مشخص می‌شود که سطح پروتئین MYC را افزایش می‌دهد."
+  },
+  {
+    "id": "pa-hematologiclymphoid-17",
+    "topicId": "burkitt-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "الگوی بافت‌شناسی کلاسیک لنفوم بورکیت کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آسمان پرستاره (starry sky)",
+        "text_en": "Starry sky"
+      },
+      {
+        "id": "b",
+        "text_fa": "الگوی گردابی",
+        "text_en": "Whorled pattern"
+      },
+      {
+        "id": "c",
+        "text_fa": "اجسام Verocay",
+        "text_en": "Verocay bodies"
+      },
+      {
+        "id": "d",
+        "text_fa": "فولیکول‌های یکنواخت",
+        "text_en": "Uniform follicles"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "الگوی «آسمان پرستاره» ناشی از ماکروفاژهای tingible-body با سیتوپلاسم روشن در زمینه‌ی سلول‌های تومور، مشخصه‌ی بورکیت است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-18",
+    "topicId": "burkitt-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "فرم اندمیک (آفریقایی) لنفوم بورکیت تیپیک در کجا تظاهر می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "توده‌ی فک/اطراف چشم",
+        "text_en": "Jaw / periorbital mass"
+      },
+      {
+        "id": "b",
+        "text_fa": "توده‌ی شکمی",
+        "text_en": "Abdominal mass"
+      },
+      {
+        "id": "c",
+        "text_fa": "مغز استخوان",
+        "text_en": "Bone marrow"
+      },
+      {
+        "id": "d",
+        "text_fa": "طحال",
+        "text_en": "Spleen"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "فرم اندمیک بورکیت به‌طور تیپیک با توده‌ی فک یا اطراف چشم تظاهر می‌کند و در تقریباً ۱۰۰٪ موارد با EBV همراه است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-19",
+    "topicId": "burkitt-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "کدام ویژگی لنفوم بورکیت را متمایز می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سریع‌ترین تومور انسانی (دوبرابرشدن ۲۴–۴۸ ساعت)",
+        "text_en": "Fastest human tumor (doubling 24–48h)"
+      },
+      {
+        "id": "b",
+        "text_fa": "کندترین رشد",
+        "text_en": "Slowest growth"
+      },
+      {
+        "id": "c",
+        "text_fa": "عدم متاستاز",
+        "text_en": "No metastasis"
+      },
+      {
+        "id": "d",
+        "text_fa": "منشأ اپیتلیال",
+        "text_en": "Epithelial origin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لنفوم بورکیت سریع‌ترین تومور انسانی با زمان دوبرابرشدن ۲۴ تا ۴۸ ساعت است؛ همین رشد سریع خطر سندرم لیز تومور را ایجاد می‌کند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-20",
+    "topicId": "burkitt-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "فرم اندمیک بورکیت در چند درصد موارد با EBV همراه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تقریباً ۱۰۰٪",
+        "text_en": "Nearly 100%"
+      },
+      {
+        "id": "b",
+        "text_fa": "حدود ۱۵٪",
+        "text_en": "About 15%"
+      },
+      {
+        "id": "c",
+        "text_fa": "صفر درصد",
+        "text_en": "0%"
+      },
+      {
+        "id": "d",
+        "text_fa": "حدود ۵۰٪",
+        "text_en": "About 50%"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "فرم اندمیک (آفریقایی) بورکیت در تقریباً ۱۰۰٪ موارد با EBV همراه است، در حالی‌که فرم اسپورادیک ۱۵–۲۰٪ و فرم مرتبط با نقص ایمنی حدود ۲۵٪."
+  },
+  {
+    "id": "pa-nervoussystem-5",
+    "topicId": "oligodendroglioma",
+    "category": "Nervous System",
+    "question_fa": "کدام یافته‌ی ژنتیکی مشخصه‌ی الیگودندروگلیوماست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "از دست رفتن 1p و 19q",
+        "text_en": "Loss of 1p and 19q"
+      },
+      {
+        "id": "b",
+        "text_fa": "تقویت EGFR",
+        "text_en": "EGFR amplification"
+      },
+      {
+        "id": "c",
+        "text_fa": "t(11;14)",
+        "text_en": "t(11;14)"
+      },
+      {
+        "id": "d",
+        "text_fa": "موتاسیون RB",
+        "text_en": "RB mutation"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "الیگودندروگلیوما با از دست رفتن هتروزیگوسیتی کروموزوم‌های 1p و 19q مشخص می‌شود که با پاسخ بهتر به درمان همراه است."
+  },
+  {
+    "id": "pa-nervoussystem-6",
+    "topicId": "oligodendroglioma",
+    "category": "Nervous System",
+    "question_fa": "ظاهر بافت‌شناسی کلاسیک الیگودندروگلیوما کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تخم‌مرغ نیمرو (هاله‌ی روشن دور هسته)",
+        "text_en": "Fried-egg (perinuclear halo)"
+      },
+      {
+        "id": "b",
+        "text_fa": "آسمان پرستاره",
+        "text_en": "Starry sky"
+      },
+      {
+        "id": "c",
+        "text_fa": "پزودوروزت اطراف عروقی",
+        "text_en": "Perivascular pseudorosette"
+      },
+      {
+        "id": "d",
+        "text_fa": "اجسام Verocay",
+        "text_en": "Verocay bodies"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "سلول‌های الیگودندروگلیوما هسته‌ی گرد با هاله‌ی روشن سیتوپلاسمی دارند که ظاهر «تخم‌مرغ نیمرو» ایجاد می‌کند (آرتیفکت فیکساسیون)."
+  },
+  {
+    "id": "pa-nervoussystem-7",
+    "topicId": "oligodendroglioma",
+    "category": "Nervous System",
+    "question_fa": "کلسیفیکاسیون در چند درصد الیگودندروگلیوماها دیده می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تا ۹۰٪",
+        "text_en": "Up to 90%"
+      },
+      {
+        "id": "b",
+        "text_fa": "حدود ۵٪",
+        "text_en": "About 5%"
+      },
+      {
+        "id": "c",
+        "text_fa": "هرگز",
+        "text_en": "Never"
+      },
+      {
+        "id": "d",
+        "text_fa": "حدود ۳۰٪",
+        "text_en": "About 30%"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کلسیفیکاسیون در تا ۹۰٪ الیگودندروگلیوماها حضور دارد و یک نشانه‌ی تصویربرداری/بافت‌شناسی مفید است."
+  },
+  {
+    "id": "pa-nervoussystem-8",
+    "topicId": "oligodendroglioma",
+    "category": "Nervous System",
+    "question_fa": "از دست رفتن 1p/19q چه اهمیت بالینی دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پاسخ بهتر به درمان و پیش‌آگهی مطلوب‌تر",
+        "text_en": "Better treatment response and prognosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "پیش‌آگهی بسیار بد",
+        "text_en": "Very poor prognosis"
+      },
+      {
+        "id": "c",
+        "text_fa": "بدون اهمیت",
+        "text_en": "No significance"
+      },
+      {
+        "id": "d",
+        "text_fa": "نشانه‌ی متاستاز",
+        "text_en": "Sign of metastasis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کدلیشن 1p/19q در الیگودندروگلیوما با پاسخ بهتر به شیمی‌درمانی و پیش‌آگهی مطلوب‌تر همراه است."
+  },
+  {
+    "id": "pa-nervoussystem-9",
+    "topicId": "oligodendroglioma",
+    "category": "Nervous System",
+    "question_fa": "الیگودندروگلیوما اغلب با کدام علامت تظاهر می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تشنج",
+        "text_en": "Seizures"
+      },
+      {
+        "id": "b",
+        "text_fa": "کاهش شنوایی",
+        "text_en": "Hearing loss"
+      },
+      {
+        "id": "c",
+        "text_fa": "نابینایی ناگهانی",
+        "text_en": "Sudden blindness"
+      },
+      {
+        "id": "d",
+        "text_fa": "فلج صورت",
+        "text_en": "Facial palsy"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "الیگودندروگلیوما اغلب در نواحی قشری قرار دارد و می‌تواند با تشنج تظاهر کند."
+  },
+  {
+    "id": "pa-nervoussystem-10",
+    "topicId": "ependymoma",
+    "category": "Nervous System",
+    "question_fa": "یافته‌ی بافت‌شناسی مشخصه‌ی اپاندیموما کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پزودوروزت اطراف عروقی",
+        "text_en": "Perivascular pseudorosette"
+      },
+      {
+        "id": "b",
+        "text_fa": "تخم‌مرغ نیمرو",
+        "text_en": "Fried-egg"
+      },
+      {
+        "id": "c",
+        "text_fa": "اجسام پسامومایی",
+        "text_en": "Psammoma bodies"
+      },
+      {
+        "id": "d",
+        "text_fa": "اجسام Verocay",
+        "text_en": "Verocay bodies"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پزودوروزت اطراف عروقی (کشیده‌شدن زوائد فیبریلاری سلول‌ها به‌سمت عروق) یافته‌ی مشخصه‌ی اپاندیموماست."
+  },
+  {
+    "id": "pa-nervoussystem-11",
+    "topicId": "ependymoma",
+    "category": "Nervous System",
+    "question_fa": "شایع‌ترین محل اپاندیموما در کودکان کجاست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "نزدیک بطن چهارم",
+        "text_en": "Near the fourth ventricle"
+      },
+      {
+        "id": "b",
+        "text_fa": "نخاع",
+        "text_en": "Spinal cord"
+      },
+      {
+        "id": "c",
+        "text_fa": "لوب فرونتال",
+        "text_en": "Frontal lobe"
+      },
+      {
+        "id": "d",
+        "text_fa": "مخچه‌ی جانبی",
+        "text_en": "Lateral cerebellum"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در کودکان اپاندیموما تیپیک نزدیک بطن چهارم رخ می‌دهد؛ در بالغین نخاع شایع‌ترین محل است."
+  },
+  {
+    "id": "pa-nervoussystem-12",
+    "topicId": "ependymoma",
+    "category": "Nervous System",
+    "question_fa": "اپاندیموم گودال خلفی اغلب با کدام عارضه تظاهر می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هیدروسفالی (انسداد بطن چهارم)",
+        "text_en": "Hydrocephalus (fourth ventricle obstruction)"
+      },
+      {
+        "id": "b",
+        "text_fa": "سکته‌ی مغزی",
+        "text_en": "Stroke"
+      },
+      {
+        "id": "c",
+        "text_fa": "خون‌ریزی ساب‌آراکنوئید",
+        "text_en": "Subarachnoid hemorrhage"
+      },
+      {
+        "id": "d",
+        "text_fa": "مننژیت",
+        "text_en": "Meningitis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اپاندیموم گودال خلفی با انسداد پیش‌رونده‌ی بطن چهارم و هیدروسفالی ثانویه تظاهر می‌کند."
+  },
+  {
+    "id": "pa-nervoussystem-13",
+    "topicId": "ependymoma",
+    "category": "Nervous System",
+    "question_fa": "موتاسیون کدام ژن در اپاندیموم‌های نخاعی شایع است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "NF2",
+        "text_en": "NF2"
+      },
+      {
+        "id": "b",
+        "text_fa": "NF1",
+        "text_en": "NF1"
+      },
+      {
+        "id": "c",
+        "text_fa": "VHL",
+        "text_en": "VHL"
+      },
+      {
+        "id": "d",
+        "text_fa": "TP53",
+        "text_en": "TP53"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "موتاسیون ژن NF2 (کروموزوم ۲۲) در اپاندیموم‌های نخاعی شایع است، اما نه در سایر محل‌ها."
+  },
+  {
+    "id": "pa-nervoussystem-14",
+    "topicId": "ependymoma",
+    "category": "Nervous System",
+    "question_fa": "اپاندیموم میکسوپاپیلاری (WHO I) در کجا رخ می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فیلوم ترمینالِ نخاع",
+        "text_en": "Filum terminale of the spinal cord"
+      },
+      {
+        "id": "b",
+        "text_fa": "بطن جانبی",
+        "text_en": "Lateral ventricle"
+      },
+      {
+        "id": "c",
+        "text_fa": "مخچه",
+        "text_en": "Cerebellum"
+      },
+      {
+        "id": "d",
+        "text_fa": "ساقه‌ی مغز",
+        "text_en": "Brainstem"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اپاندیموم میکسوپاپیلاری ضایعه‌ی متمایز WHO I است که در فیلوم ترمینالِ نخاع رخ می‌دهد."
+  },
+  {
+    "id": "pa-nervoussystem-15",
+    "topicId": "cns-lymphoma-brain-metastasis",
+    "category": "Nervous System",
+    "question_fa": "شایع‌ترین علت توده‌ی مغزی در بالغین بستری کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "متاستاز (اغلب کارسینوم)",
+        "text_en": "Metastasis (usually carcinoma)"
+      },
+      {
+        "id": "b",
+        "text_fa": "گلیوبلاستوما",
+        "text_en": "Glioblastoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "مننژیوما",
+        "text_en": "Meningioma"
+      },
+      {
+        "id": "d",
+        "text_fa": "مدولوبلاستوما",
+        "text_en": "Medulloblastoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "متاستازها (اغلب کارسینوم) یک‌چهارم تا نیمی از تومورهای داخل‌جمجمه‌ی بیماران بستری را تشکیل می‌دهند و شایع‌ترین علت توده‌ی مغزی در بالغین‌اند."
+  },
+  {
+    "id": "pa-nervoussystem-16",
+    "topicId": "cns-lymphoma-brain-metastasis",
+    "category": "Nervous System",
+    "question_fa": "متاستازهای داخل‌پارانشیمی مغز به‌طور مشخص در کجا مستقر می‌شوند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "محل اتصال ماده‌ی خاکستری و سفید",
+        "text_en": "Gray–white matter junction"
+      },
+      {
+        "id": "b",
+        "text_fa": "بطن‌ها",
+        "text_en": "Ventricles"
+      },
+      {
+        "id": "c",
+        "text_fa": "ساقه‌ی مغز",
+        "text_en": "Brainstem"
+      },
+      {
+        "id": "d",
+        "text_fa": "فضای ساب‌دورال",
+        "text_en": "Subdural space"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "متاستازهای داخل‌پارانشیمی توده‌های به‌خوبی مشخص در محل اتصال ماده‌ی خاکستری و سفید، اغلب با هاله‌ی ادم، تشکیل می‌دهند."
+  },
+  {
+    "id": "pa-nervoussystem-17",
+    "topicId": "cns-lymphoma-brain-metastasis",
+    "category": "Nervous System",
+    "question_fa": "لنفوم اولیه‌ی CNS شایع‌ترین نئوپلاسم CNS در کدام گروه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "افراد دچار نقص ایمنی (ایدز/پیوند)",
+        "text_en": "Immunosuppressed (AIDS/transplant)"
+      },
+      {
+        "id": "b",
+        "text_fa": "کودکان سالم",
+        "text_en": "Healthy children"
+      },
+      {
+        "id": "c",
+        "text_fa": "ورزشکاران",
+        "text_en": "Athletes"
+      },
+      {
+        "id": "d",
+        "text_fa": "سالمندان سالم",
+        "text_en": "Healthy elderly"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لنفوم اولیه‌ی CNS شایع‌ترین نئوپلاسم CNS در افراد دچار نقص ایمنی، از جمله ایدز و پس از پیوند، است."
+  },
+  {
+    "id": "pa-nervoussystem-18",
+    "topicId": "cns-lymphoma-brain-metastasis",
+    "category": "Nervous System",
+    "question_fa": "پنج منشأ اولیه‌ی شایع متاستاز مغزی کدام‌اند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "ریه، پستان، ملانوم، کلیه، گوارش",
+        "text_en": "Lung, breast, melanoma, kidney, GI"
+      },
+      {
+        "id": "b",
+        "text_fa": "پروستات، تیروئید، مثانه، معده، کبد",
+        "text_en": "Prostate, thyroid, bladder, stomach, liver"
+      },
+      {
+        "id": "c",
+        "text_fa": "استخوان، غضروف، عضله، پوست، چشم",
+        "text_en": "Bone, cartilage, muscle, skin, eye"
+      },
+      {
+        "id": "d",
+        "text_fa": "لوزالمعده، طحال، تخمدان، بیضه، رحم",
+        "text_en": "Pancreas, spleen, ovary, testis, uterus"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پنج منشأ اولیه‌ی شایع متاستاز مغزی ریه، پستان، پوست (ملانوم)، کلیه و دستگاه گوارش هستند."
+  },
+  {
+    "id": "pa-nervoussystem-19",
+    "topicId": "cns-lymphoma-brain-metastasis",
+    "category": "Nervous System",
+    "question_fa": "لنفوم اولیه‌ی CNS معمولاً از چه نوع سلولی است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سلول B مهاجم",
+        "text_en": "Aggressive B-cell"
+      },
+      {
+        "id": "b",
+        "text_fa": "سلول T",
+        "text_en": "T-cell"
+      },
+      {
+        "id": "c",
+        "text_fa": "سلول NK",
+        "text_en": "NK-cell"
+      },
+      {
+        "id": "d",
+        "text_fa": "سلول پلاسما",
+        "text_en": "Plasma cell"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لنفوم اولیه‌ی CNS تقریباً همیشه لنفوم سلول B مهاجم است و اغلب چندکانونی و در زمینه‌ی نقص ایمنی (با EBV) رخ می‌دهد."
+  },
+  {
+    "id": "pa-renal-5",
+    "topicId": "congenital-renal-anomalies",
+    "category": "Renal",
+    "question_fa": "کلیه‌ی نعل‌اسبی از اتصال کدام قسمت دو کلیه ایجاد می‌شود (شایع‌ترین)؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "قطب تحتانی (۹۰٪)",
+        "text_en": "Lower poles (90%)"
+      },
+      {
+        "id": "b",
+        "text_fa": "قطب فوقانی (۹۰٪)",
+        "text_en": "Upper poles (90%)"
+      },
+      {
+        "id": "c",
+        "text_fa": "هیلوم",
+        "text_en": "Hilum"
+      },
+      {
+        "id": "d",
+        "text_fa": "کورتکس جانبی",
+        "text_en": "Lateral cortex"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کلیه‌ی نعل‌اسبی در ۹۰٪ موارد از اتصال قطب تحتانی دو کلیه ایجاد می‌شود و جلوی عروق بزرگ در خط وسط قرار می‌گیرد."
+  },
+  {
+    "id": "pa-renal-6",
+    "topicId": "congenital-renal-anomalies",
+    "category": "Renal",
+    "question_fa": "آژنزی دوطرفه‌ی کلیه چه پیامدی دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "ناسازگار با حیات (توالی پاتر)",
+        "text_en": "Incompatible with life (Potter sequence)"
+      },
+      {
+        "id": "b",
+        "text_fa": "بدون علامت",
+        "text_en": "Asymptomatic"
+      },
+      {
+        "id": "c",
+        "text_fa": "نارسایی خفیف در بزرگسالی",
+        "text_en": "Mild failure in adulthood"
+      },
+      {
+        "id": "d",
+        "text_fa": "افزایش فشار خون تنها",
+        "text_en": "Hypertension only"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آژنزی دوطرفه‌ی کلیه ناسازگار با حیات است، در مرده‌زایی دیده می‌شود و اغلب با سایر اختلالات مادرزادی (توالی پاتر) همراه است."
+  },
+  {
+    "id": "pa-renal-7",
+    "topicId": "congenital-renal-anomalies",
+    "category": "Renal",
+    "question_fa": "کدام گزاره درباره‌ی دیسپلازی مولتی‌کیستیک کلیه درست است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "اسپورادیک و غیرارثی است",
+        "text_en": "Sporadic and non-hereditary"
+      },
+      {
+        "id": "b",
+        "text_fa": "همیشه ارثی مغلوب است",
+        "text_en": "Always autosomal recessive"
+      },
+      {
+        "id": "c",
+        "text_fa": "هرگز یک‌طرفه نیست",
+        "text_en": "Never unilateral"
+      },
+      {
+        "id": "d",
+        "text_fa": "فاقد کیست است",
+        "text_en": "Has no cysts"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "دیسپلازی مولتی‌کیستیک کلیه اختلالی اسپورادیک و غیرارثی است (برخلاف PKD ارثی) و اغلب با انسداد مجاری ادراری همراه است."
+  },
+  {
+    "id": "pa-renal-8",
+    "topicId": "congenital-renal-anomalies",
+    "category": "Renal",
+    "question_fa": "دیسپلازی مولتی‌کیستیک یک‌طرفه گاه با چه چیزی اشتباه می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "نئوپلاسم (منجر به نفرکتومی)",
+        "text_en": "Neoplasm (leading to nephrectomy)"
+      },
+      {
+        "id": "b",
+        "text_fa": "سنگ کلیه",
+        "text_en": "Kidney stone"
+      },
+      {
+        "id": "c",
+        "text_fa": "پیلونفریت",
+        "text_en": "Pyelonephritis"
+      },
+      {
+        "id": "d",
+        "text_fa": "کیست ساده",
+        "text_en": "Simple cyst"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "دیسپلازی مولتی‌کیستیک یک‌طرفه (کلیه‌ی بزرگ نامنظم) می‌تواند نئوپلاسم را تقلید کند و به نفرکتومی بینجامد؛ کلیه‌ی مقابل طبیعی کار می‌کند."
+  },
+  {
+    "id": "pa-renal-9",
+    "topicId": "congenital-renal-anomalies",
+    "category": "Renal",
+    "question_fa": "بافت‌شناسی دیسپلازی مولتی‌کیستیک اغلب شامل چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بافت مزانشیمی نابالغ، اغلب همراه غضروف",
+        "text_en": "Immature mesenchyme, often with cartilage"
+      },
+      {
+        "id": "b",
+        "text_fa": "گلومرول‌های طبیعی",
+        "text_en": "Normal glomeruli"
+      },
+      {
+        "id": "c",
+        "text_fa": "فقط چربی",
+        "text_en": "Only fat"
+      },
+      {
+        "id": "d",
+        "text_fa": "استخوان بالغ",
+        "text_en": "Mature bone"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "دیسپلازی مولتی‌کیستیک شامل بافت مزانشیمی نابالغ، اغلب همراه با غضروف و مجاری جمع‌کننده‌ی نابالغ است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-21",
+    "topicId": "mantle-cell-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "جابه‌جایی مشخصه‌ی لنفوم مانتل‌سل کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "t(11;14) cyclin D1",
+        "text_en": "t(11;14) cyclin D1"
+      },
+      {
+        "id": "b",
+        "text_fa": "t(14;18) BCL2",
+        "text_en": "t(14;18) BCL2"
+      },
+      {
+        "id": "c",
+        "text_fa": "t(8;14) c-MYC",
+        "text_en": "t(8;14) c-MYC"
+      },
+      {
+        "id": "d",
+        "text_fa": "t(9;22) BCR-ABL",
+        "text_en": "t(9;22) BCR-ABL"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لنفوم مانتل‌سل تقریباً همیشه t(11;14) IGH/CCND1 دارد که به بیش‌بیانی cyclin D1 و شتاب G1→S منجر می‌شود."
+  },
+  {
+    "id": "pa-hematologiclymphoid-22",
+    "topicId": "mantle-cell-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "بیش‌بیانی cyclin D1 در مانتل‌سل چه اثری دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "شتاب پیشرفت G1 به S چرخه‌ی سلولی",
+        "text_en": "Accelerates G1-to-S progression"
+      },
+      {
+        "id": "b",
+        "text_fa": "مهار آپوپتوز",
+        "text_en": "Inhibits apoptosis"
+      },
+      {
+        "id": "c",
+        "text_fa": "افزایش تمایز",
+        "text_en": "Increases differentiation"
+      },
+      {
+        "id": "d",
+        "text_fa": "توقف رشد",
+        "text_en": "Growth arrest"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "cyclin D1 پیشرفت از فاز G1 به S چرخه‌ی سلولی را تسریع می‌کند و محرک تکثیر در مانتل‌سل است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-23",
+    "topicId": "mantle-cell-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "درگیری گوارشی مانتل‌سل اغلب به چه شکل است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پولیپ‌های متعدد روده‌ای (لنفوماتوز پولیپوزیس)",
+        "text_en": "Multiple intestinal polyps (lymphomatous polyposis)"
+      },
+      {
+        "id": "b",
+        "text_fa": "زخم منفرد معده",
+        "text_en": "Single gastric ulcer"
+      },
+      {
+        "id": "c",
+        "text_fa": "آبسه",
+        "text_en": "Abscess"
+      },
+      {
+        "id": "d",
+        "text_fa": "واریس مری",
+        "text_en": "Esophageal varices"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "درگیری گوارشی مانتل‌سل می‌تواند به‌صورت پولیپ‌های متعدد روده‌ای (لنفوماتوز پولیپوزیس) تظاهر کند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-24",
+    "topicId": "mantle-cell-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "سیر بالینی لنفوم مانتل‌سل چگونه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تهاجمی متوسط و غیرقابل‌درمان (بقای ۸–۱۰ سال)",
+        "text_en": "Moderately aggressive, incurable (8–10y survival)"
+      },
+      {
+        "id": "b",
+        "text_fa": "کاملاً خوش‌خیم",
+        "text_en": "Entirely benign"
+      },
+      {
+        "id": "c",
+        "text_fa": "همیشه قابل‌درمان قطعی",
+        "text_en": "Always curable"
+      },
+      {
+        "id": "d",
+        "text_fa": "بدون علامت مادام‌العمر",
+        "text_en": "Lifelong asymptomatic"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لنفوم مانتل‌سل تهاجمی متوسط و اغلب غیرقابل‌درمان است؛ بیشتر بیماران در مرحله‌ی پیشرفته تشخیص داده می‌شوند و بقای متوسط ۸ تا ۱۰ سال است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-25",
+    "topicId": "mantle-cell-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "مورفولوژی سلول‌های مانتل‌سل کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "جمعیت یکنواخت سلول‌های لنفوئیدی کوچک",
+        "text_en": "Monotonous small lymphoid cells"
+      },
+      {
+        "id": "b",
+        "text_fa": "سلول‌های بزرگ منتشر",
+        "text_en": "Large diffuse cells"
+      },
+      {
+        "id": "c",
+        "text_fa": "سلول‌های مویی",
+        "text_en": "Hairy cells"
+      },
+      {
+        "id": "d",
+        "text_fa": "سلول‌های Reed-Sternberg",
+        "text_en": "Reed-Sternberg cells"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لنفوم مانتل‌سل از جمعیت یکنواخت (monotonous) سلول‌های لنفوئیدی کوچک تشکیل شده است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-26",
+    "topicId": "hairy-cell-leukemia",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "موتاسیون کدام ژن در بیش از ۹۰٪ موارد لوسمی سلول مویی دیده می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "BRAF",
+        "text_en": "BRAF"
+      },
+      {
+        "id": "b",
+        "text_fa": "BCL2",
+        "text_en": "BCL2"
+      },
+      {
+        "id": "c",
+        "text_fa": "c-MYC",
+        "text_en": "c-MYC"
+      },
+      {
+        "id": "d",
+        "text_fa": "JAK2",
+        "text_en": "JAK2"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لوسمی سلول مویی در بیش از ۹۰٪ موارد با موتاسیون فعال‌کننده‌ی کیناز BRAF (پایین‌دست RAS در آبشار MAPK) همراه است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-27",
+    "topicId": "hairy-cell-leukemia",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "چرا در لوسمی سلول مویی «dry tap» رخ می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فیبروز رتیکولین مغز را غیرقابل‌آسپیره می‌کند",
+        "text_en": "Reticulin fibrosis makes marrow inaspirable"
+      },
+      {
+        "id": "b",
+        "text_fa": "فقدان کامل سلول",
+        "text_en": "Total absence of cells"
+      },
+      {
+        "id": "c",
+        "text_fa": "خون‌ریزی مغز",
+        "text_en": "Marrow hemorrhage"
+      },
+      {
+        "id": "d",
+        "text_fa": "عفونت مغز",
+        "text_en": "Marrow infection"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "سلول‌های مویی در ماتریکس رتیکولین به‌دام می‌افتند و مغز غیرقابل‌آسپیره می‌شود («dry tap»)؛ سلول‌ها فقط در بیوپسی مغز دیده می‌شوند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-28",
+    "topicId": "hairy-cell-leukemia",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "شایع‌ترین یافته‌ی فیزیکی در لوسمی سلول مویی کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "اسپلنومگالی (اغلب ماسیو)",
+        "text_en": "Splenomegaly (often massive)"
+      },
+      {
+        "id": "b",
+        "text_fa": "لنفادنوپاتی منتشر",
+        "text_en": "Diffuse lymphadenopathy"
+      },
+      {
+        "id": "c",
+        "text_fa": "توده‌ی مدیاستن",
+        "text_en": "Mediastinal mass"
+      },
+      {
+        "id": "d",
+        "text_fa": "ضایعات پوستی",
+        "text_en": "Skin lesions"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اسپلنومگالی، اغلب ماسیو، شایع‌ترین و گاه تنها یافته‌ی فیزیکی غیرطبیعی در لوسمی سلول مویی است؛ لنفادنوپاتی معمولاً دیده نمی‌شود."
+  },
+  {
+    "id": "pa-hematologiclymphoid-29",
+    "topicId": "hairy-cell-leukemia",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "مورفولوژی سلول‌های مویی در اسمیر خون کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سیتوپلاسم با زوائد نخ‌مانند/حبابی (مویی)",
+        "text_en": "Cytoplasm with threadlike/bleb-like (hairy) projections"
+      },
+      {
+        "id": "b",
+        "text_fa": "سیتوپلاسم پر از گرانول",
+        "text_en": "Granule-packed cytoplasm"
+      },
+      {
+        "id": "c",
+        "text_fa": "هسته‌ی دولوبه",
+        "text_en": "Bilobed nucleus"
+      },
+      {
+        "id": "d",
+        "text_fa": "حلقه‌ی سیدروبلاست",
+        "text_en": "Sideroblast ring"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "سلول‌های مویی سیتوپلاسم آبی کم‌رنگ با زوائد نخ‌مانند یا حبابی («مویی») دارند که نام بیماری از آن گرفته شده است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-30",
+    "topicId": "hairy-cell-leukemia",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "کدام گزاره درباره‌ی لنفادنوپاتی در لوسمی سلول مویی درست است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "معمولاً وجود ندارد",
+        "text_en": "Usually absent"
+      },
+      {
+        "id": "b",
+        "text_fa": "همیشه ماسیو است",
+        "text_en": "Always massive"
+      },
+      {
+        "id": "c",
+        "text_fa": "اولین علامت است",
+        "text_en": "Is the first sign"
+      },
+      {
+        "id": "d",
+        "text_fa": "فقط گردنی است",
+        "text_en": "Only cervical"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "برخلاف بسیاری از لنفوم‌ها، لنفادنوپاتی در لوسمی سلول مویی معمولاً وجود ندارد؛ تظاهر غالب اسپلنومگالی و پان‌سیتوپنی است."
+  },
+  {
+    "id": "pa-nervoussystem-20",
+    "topicId": "brain-abscess",
+    "category": "Nervous System",
+    "question_fa": "یافته‌ی مایع مغزی-نخاعی در آبسه‌ی مغزی کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پروتئین بالا، گلوکز طبیعی",
+        "text_en": "High protein, normal glucose"
+      },
+      {
+        "id": "b",
+        "text_fa": "پروتئین بالا، گلوکز پایین",
+        "text_en": "High protein, low glucose"
+      },
+      {
+        "id": "c",
+        "text_fa": "کاملاً طبیعی",
+        "text_en": "Completely normal"
+      },
+      {
+        "id": "d",
+        "text_fa": "گلوکز بسیار بالا",
+        "text_en": "Very high glucose"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در آبسه‌ی مغزی، CSF پروتئین بالا اما گلوکز طبیعی دارد؛ این برخلاف مننژیت باکتریایی است که گلوکز پایین می‌رود."
+  },
+  {
+    "id": "pa-nervoussystem-21",
+    "topicId": "brain-abscess",
+    "category": "Nervous System",
+    "question_fa": "آبسه‌ی مغزی در تصویربرداری معمولاً چگونه دیده می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "ضایعه‌ی حلقه‌ای تقویت‌شونده",
+        "text_en": "Ring-enhancing lesion"
+      },
+      {
+        "id": "b",
+        "text_fa": "ضایعه‌ی منتشر بدون مرز",
+        "text_en": "Diffuse borderless lesion"
+      },
+      {
+        "id": "c",
+        "text_fa": "کلسیفیکاسیون گسترده",
+        "text_en": "Extensive calcification"
+      },
+      {
+        "id": "d",
+        "text_fa": "بدون اثر توده‌ای",
+        "text_en": "No mass effect"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آبسه‌ی مغزی معمولاً به‌صورت ضایعه‌ی حلقه‌ای تقویت‌شونده با مرکز نکروز چرکی دیده می‌شود."
+  },
+  {
+    "id": "pa-nervoussystem-22",
+    "topicId": "brain-abscess",
+    "category": "Nervous System",
+    "question_fa": "کدام راه انتشار می‌تواند به آبسه‌ی مغزی منجر شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "انتشار خونی از جمله اعمال دندانی",
+        "text_en": "Hematogenous, including dental procedures"
+      },
+      {
+        "id": "b",
+        "text_fa": "فقط تروما",
+        "text_en": "Trauma only"
+      },
+      {
+        "id": "c",
+        "text_fa": "فقط ژنتیک",
+        "text_en": "Genetics only"
+      },
+      {
+        "id": "d",
+        "text_fa": "واکنش خودایمنی",
+        "text_en": "Autoimmune reaction"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آبسه‌ی مغزی می‌تواند از راه کاشت مستقیم، گسترش موضعی یا انتشار خونی (قلب، ریه، استخوان، یا باکتریمی از اعمال دندانی) ایجاد شود."
+  },
+  {
+    "id": "pa-nervoussystem-23",
+    "topicId": "brain-abscess",
+    "category": "Nervous System",
+    "question_fa": "کدام عارضه‌ی آبسه‌ی مغزی می‌تواند کشنده باشد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فتق مغزی از افزایش فشار داخل‌جمجمه",
+        "text_en": "Brain herniation from raised ICP"
+      },
+      {
+        "id": "b",
+        "text_fa": "کم‌خونی مزمن",
+        "text_en": "Chronic anemia"
+      },
+      {
+        "id": "c",
+        "text_fa": "پوکی استخوان",
+        "text_en": "Osteoporosis"
+      },
+      {
+        "id": "d",
+        "text_fa": "سنگ کلیه",
+        "text_en": "Kidney stones"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "افزایش فشار داخل‌جمجمه در آبسه‌ی مغزی می‌تواند به فتق مغزی کشنده منجر شود؛ عوارض دیگر شامل بطنیت/مننژیت و ترومبوز سینوس وریدی است."
+  },
+  {
+    "id": "pa-nervoussystem-24",
+    "topicId": "brain-abscess",
+    "category": "Nervous System",
+    "question_fa": "آبسه‌ی مغزی اساساً از چه فرآیندی تشکیل می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "نکروز موضعی بافت مغز با التهاب باکتریایی",
+        "text_en": "Localized brain necrosis with bacterial inflammation"
+      },
+      {
+        "id": "b",
+        "text_fa": "تجمع چربی",
+        "text_en": "Fat accumulation"
+      },
+      {
+        "id": "c",
+        "text_fa": "رسوب آمیلوئید",
+        "text_en": "Amyloid deposition"
+      },
+      {
+        "id": "d",
+        "text_fa": "تکثیر عروقی خوش‌خیم",
+        "text_en": "Benign vascular proliferation"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آبسه‌ی مغزی کانون موضعی نکروز بافت مغز همراه با التهاب است که معمولاً از عفونت باکتریایی ناشی می‌شود."
+  },
+  {
+    "id": "pa-respiratory-5",
+    "topicId": "lung-abscess",
+    "category": "Respiratory",
+    "question_fa": "یافته‌ی تصویربرداری مشخصه‌ی آبسه‌ی ریه کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "حفره با سطح هوا-مایع",
+        "text_en": "Cavity with air-fluid level"
+      },
+      {
+        "id": "b",
+        "text_fa": "ندول کلسیفیه‌ی منفرد",
+        "text_en": "Solitary calcified nodule"
+      },
+      {
+        "id": "c",
+        "text_fa": "ادم منتشر دوطرفه",
+        "text_en": "Diffuse bilateral edema"
+      },
+      {
+        "id": "d",
+        "text_fa": "افیوژن پلور بدون حفره",
+        "text_en": "Pleural effusion without cavity"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آبسه‌ی ریه حفره‌ای پر از چرک با سطح هوا-مایع در تصویربرداری قفسه‌ی سینه ایجاد می‌کند."
+  },
+  {
+    "id": "pa-respiratory-6",
+    "topicId": "lung-abscess",
+    "category": "Respiratory",
+    "question_fa": "تشکیل آبسه به‌ویژه با کدام عفونت‌های پنومونی شایع است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پنوموکوکی یا کلبسیلا",
+        "text_en": "Pneumococcal or Klebsiella"
+      },
+      {
+        "id": "b",
+        "text_fa": "مایکوپلاسما",
+        "text_en": "Mycoplasma"
+      },
+      {
+        "id": "c",
+        "text_fa": "ویروس آنفلوانزا",
+        "text_en": "Influenza virus"
+      },
+      {
+        "id": "d",
+        "text_fa": "پنوموسیستیس",
+        "text_en": "Pneumocystis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تشکیل آبسه‌ی ریه به‌ویژه با عفونت‌های پنوموکوکی یا کلبسیلا شایع است؛ آسپیراسیون باکتری‌های بی‌هوازی نیز عامل مهمی است."
+  },
+  {
+    "id": "pa-respiratory-7",
+    "topicId": "lung-abscess",
+    "category": "Respiratory",
+    "question_fa": "خلط بدبو در آبسه‌ی ریه مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "عفونت بی‌هوازی",
+        "text_en": "Anaerobic infection"
+      },
+      {
+        "id": "b",
+        "text_fa": "عفونت ویروسی",
+        "text_en": "Viral infection"
+      },
+      {
+        "id": "c",
+        "text_fa": "واکنش آلرژیک",
+        "text_en": "Allergic reaction"
+      },
+      {
+        "id": "d",
+        "text_fa": "تومور خوش‌خیم",
+        "text_en": "Benign tumor"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "خلط فراوان و بدبو در آبسه‌ی ریه مطرح‌کننده‌ی عفونت باکتری‌های بی‌هوازی (اغلب از آسپیراسیون فلور دهان) است."
+  },
+  {
+    "id": "pa-respiratory-8",
+    "topicId": "lung-abscess",
+    "category": "Respiratory",
+    "question_fa": "کدام عارضه از گسترش عفونت آبسه‌ی ریه به فضای پلور ایجاد می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آمپیم",
+        "text_en": "Empyema"
+      },
+      {
+        "id": "b",
+        "text_fa": "پنوموتوراکس خودبه‌خودی",
+        "text_en": "Spontaneous pneumothorax"
+      },
+      {
+        "id": "c",
+        "text_fa": "آمبولی ریه",
+        "text_en": "Pulmonary embolism"
+      },
+      {
+        "id": "d",
+        "text_fa": "آسم",
+        "text_en": "Asthma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "گسترش عفونت آبسه‌ی ریه به فضای پلور، آمپیم (تجمع چرک در پلور) ایجاد می‌کند؛ انتشار خونی هم می‌تواند به اندوکاردیت و آبسه‌ی مغزی منجر شود."
+  },
+  {
+    "id": "pa-respiratory-9",
+    "topicId": "lung-abscess",
+    "category": "Respiratory",
+    "question_fa": "کدام زمینه بیمار را مستعد آبسه‌ی ریه‌ی آسپیراسیونی می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کاهش سطح هوشیاری/الکلیسم/اختلال بلع",
+        "text_en": "Reduced consciousness/alcoholism/dysphagia"
+      },
+      {
+        "id": "b",
+        "text_fa": "فعالیت ورزشی زیاد",
+        "text_en": "Excessive exercise"
+      },
+      {
+        "id": "c",
+        "text_fa": "رژیم پرفیبر",
+        "text_en": "High-fiber diet"
+      },
+      {
+        "id": "d",
+        "text_fa": "مصرف زیاد آب",
+        "text_en": "High water intake"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آبسه‌ی ریه‌ی آسپیراسیونی در زمینه‌ی کاهش سطح هوشیاری، الکلیسم یا اختلال بلع (که خطر آسپیراسیون فلور دهان را افزایش می‌دهد) رخ می‌دهد."
+  },
+  {
+    "id": "pa-respiratory-10",
+    "topicId": "sinonasal-nasopharyngeal-disease",
+    "category": "Respiratory",
+    "question_fa": "آنژیوفیبروم نازوفارنژیال تیپیک در کدام گروه رخ می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پسران نوجوان",
+        "text_en": "Adolescent males"
+      },
+      {
+        "id": "b",
+        "text_fa": "زنان مسن",
+        "text_en": "Elderly women"
+      },
+      {
+        "id": "c",
+        "text_fa": "نوزادان دختر",
+        "text_en": "Female infants"
+      },
+      {
+        "id": "d",
+        "text_fa": "مردان سالمند",
+        "text_en": "Elderly men"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آنژیوفیبروم نازوفارنژیال توموری خوش‌خیم و بسیار عروقی است که تقریباً منحصراً در پسران نوجوان (اغلب روشن‌پوست و موقرمز) رخ می‌دهد."
+  },
+  {
+    "id": "pa-respiratory-11",
+    "topicId": "sinonasal-nasopharyngeal-disease",
+    "category": "Respiratory",
+    "question_fa": "کارسینوم نازوفارنکس با کدام ویروس مرتبط است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "EBV",
+        "text_en": "EBV"
+      },
+      {
+        "id": "b",
+        "text_fa": "HHV-8",
+        "text_en": "HHV-8"
+      },
+      {
+        "id": "c",
+        "text_fa": "HPV",
+        "text_en": "HPV"
+      },
+      {
+        "id": "d",
+        "text_fa": "CMV",
+        "text_en": "CMV"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کارسینوم نازوفارنکس با عفونت EBV و رژیم پرنیتروزآمین (غذاهای تخمیری) مرتبط است."
+  },
+  {
+    "id": "pa-respiratory-12",
+    "topicId": "sinonasal-nasopharyngeal-disease",
+    "category": "Respiratory",
+    "question_fa": "کارسینوم نازوفارنکس اغلب چگونه اولین‌بار تظاهر می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "متاستاز به غدد لنفاوی گردنی (تا ۷۰٪)",
+        "text_en": "Cervical lymph node metastasis (up to 70%)"
+      },
+      {
+        "id": "b",
+        "text_fa": "شکستگی استخوان",
+        "text_en": "Bone fracture"
+      },
+      {
+        "id": "c",
+        "text_fa": "زردی",
+        "text_en": "Jaundice"
+      },
+      {
+        "id": "d",
+        "text_fa": "اسهال مزمن",
+        "text_en": "Chronic diarrhea"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کارسینوم نازوفارنکس اغلب تا مراحل پیشرفته مخفی می‌ماند و در تا ۷۰٪ بیماران با متاستاز به غدد لنفاوی گردنی (همراه انسداد بینی و اپیستاکسی) تظاهر می‌کند."
+  },
+  {
+    "id": "pa-respiratory-13",
+    "topicId": "sinonasal-nasopharyngeal-disease",
+    "category": "Respiratory",
+    "question_fa": "پولیپ بینی از نظر بافت‌شناسی چگونه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مخاط ادماتوز با استرومای شل و ارتشاح ائوزینوفیل/پلاسماسل",
+        "text_en": "Edematous mucosa with loose stroma and eosinophil/plasma cell infiltrate"
+      },
+      {
+        "id": "b",
+        "text_fa": "توده‌ی کاملاً کلسیفیه",
+        "text_en": "Fully calcified mass"
+      },
+      {
+        "id": "c",
+        "text_fa": "سلول‌های Reed-Sternberg",
+        "text_en": "Reed-Sternberg cells"
+      },
+      {
+        "id": "d",
+        "text_fa": "غضروف بالغ",
+        "text_en": "Mature cartilage"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پولیپ بینی از مخاط ادماتوز با استرومای شل، غدد موکوسی هایپرپلاستیک/کیستیک و ارتشاح نوتروفیل/ائوزینوفیل/پلاسماسل تشکیل شده است."
+  },
+  {
+    "id": "pa-respiratory-14",
+    "topicId": "sinonasal-nasopharyngeal-disease",
+    "category": "Respiratory",
+    "question_fa": "پاپیلوم معکوس با کدام ویژگی مشخص می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "رشد اپیتلیوم نئوپلاستیک به‌سمت داخل استروما",
+        "text_en": "Neoplastic epithelium growing inward into stroma"
+      },
+      {
+        "id": "b",
+        "text_fa": "رشد کاملاً به‌سمت خارج",
+        "text_en": "Purely exophytic growth"
+      },
+      {
+        "id": "c",
+        "text_fa": "فقدان اپیتلیوم",
+        "text_en": "Absence of epithelium"
+      },
+      {
+        "id": "d",
+        "text_fa": "کلسیفیکاسیون پسامومایی",
+        "text_en": "Psammomatous calcification"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در پاپیلوم معکوس، اپیتلیوم پوششی (سنگفرشی، تنفسی یا ترانزیشنال) به‌صورت ندول‌های اپیتلیوم نئوپلاستیک به‌سمت داخل استروما رشد می‌کند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-31",
+    "topicId": "malt-marginal-zone-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "شایع‌ترین محل درگیری لنفوم MALT کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "معده",
+        "text_en": "Stomach"
+      },
+      {
+        "id": "b",
+        "text_fa": "مغز",
+        "text_en": "Brain"
+      },
+      {
+        "id": "c",
+        "text_fa": "استخوان",
+        "text_en": "Bone"
+      },
+      {
+        "id": "d",
+        "text_fa": "کلیه",
+        "text_en": "Kidney"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "معده شایع‌ترین محل درگیری لنفوم MALT است و اکثر موارد با گاستریت ناشی از هلیکوباکتر پیلوری مرتبط‌اند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-32",
+    "topicId": "malt-marginal-zone-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "عامل زمینه‌ای اصلی لنفوم MALT معده کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "عفونت هلیکوباکتر پیلوری",
+        "text_en": "Helicobacter pylori infection"
+      },
+      {
+        "id": "b",
+        "text_fa": "ویروس EBV",
+        "text_en": "EBV"
+      },
+      {
+        "id": "c",
+        "text_fa": "الکل",
+        "text_en": "Alcohol"
+      },
+      {
+        "id": "d",
+        "text_fa": "آسپرین",
+        "text_en": "Aspirin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اکثر لنفوم‌های MALT معده با گاستریت مزمن ناشی از عفونت هلیکوباکتر پیلوری مرتبط هستند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-33",
+    "topicId": "malt-marginal-zone-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "چند درصد لنفوم‌های MALT معده با درمان موفق هلیکوباکتر پیلوری پسرفت می‌کنند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بیش از ۷۵٪",
+        "text_en": "More than 75%"
+      },
+      {
+        "id": "b",
+        "text_fa": "کمتر از ۱۰٪",
+        "text_en": "Less than 10%"
+      },
+      {
+        "id": "c",
+        "text_fa": "صفر درصد",
+        "text_en": "0%"
+      },
+      {
+        "id": "d",
+        "text_fa": "دقیقاً ۵۰٪",
+        "text_en": "Exactly 50%"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "بیش از ۷۵٪ لنفوم‌های MALT معده با درمان موفق هلیکوباکتر پیلوری پسرفت می‌کنند؛ ویژگی تقریباً منحصربه‌فردی در میان لنفوم‌ها."
+  },
+  {
+    "id": "pa-hematologiclymphoid-34",
+    "topicId": "malt-marginal-zone-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "لنفوم زون حاشیه‌ای طحالی با کدام ویروس مرتبط است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "ویروس هپاتیت C (HCV)",
+        "text_en": "Hepatitis C virus"
+      },
+      {
+        "id": "b",
+        "text_fa": "EBV",
+        "text_en": "EBV"
+      },
+      {
+        "id": "c",
+        "text_fa": "HIV",
+        "text_en": "HIV"
+      },
+      {
+        "id": "d",
+        "text_fa": "HPV",
+        "text_en": "HPV"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لنفوم زون حاشیه‌ای طحالی و DLBCL از زیرگروه‌های NHL مرتبط با ویروس هپاتیت C (HCV) هستند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-35",
+    "topicId": "malt-marginal-zone-lymphoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "لنفوم MALT در اثر چه مکانیسمی ایجاد می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تحریک آنتی‌ژنیک مزمن (التهاب مزمن مخاطی)",
+        "text_en": "Chronic antigenic stimulation (chronic mucosal inflammation)"
+      },
+      {
+        "id": "b",
+        "text_fa": "جهش ارثی تک‌ژنی",
+        "text_en": "Inherited single-gene mutation"
+      },
+      {
+        "id": "c",
+        "text_fa": "تروما",
+        "text_en": "Trauma"
+      },
+      {
+        "id": "d",
+        "text_fa": "کمبود ویتامین",
+        "text_en": "Vitamin deficiency"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لنفوم MALT از تحریک آنتی‌ژنیک مزمن (مانند عفونت هلیکوباکتر پیلوری) و تجمع بافت لنفوئید مرتبط با مخاط ناشی می‌شود؛ همین وابستگی، دلیل پسرفت با حذف محرک است."
   }
 ]

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M70,45 Q95,45 92,75 Q88,120 118,120 Q148,120 145,75 Q142,45 168,45 Q150,25 118,30 Q86,25 70,45 Z" fill="#e8d9f5" stroke="#7C4DBC" stroke-width="2"/>
+  <text x="118" y="80" font-size="6.5" fill="#5b3a9e" text-anchor="middle">کلیه‌ی نعل‌اسبی</text>
+  <text x="118" y="90" font-size="5.5" fill="#7C4DBC" text-anchor="middle">(اتصال قطب تحتانی ۹۰٪)</text>
+  <text x="118" y="132" font-size="6" fill="#1b2430" opacity="0.65" text-anchor="middle">آژنزی · هیپوپلازی · دیسپلازی مولتی‌کیستیک · اکتوپیک</text>
+  <text x="118" y="150" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Congenital renal anomalies</text>
+</svg>

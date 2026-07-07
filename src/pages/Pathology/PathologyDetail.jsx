@@ -1,7 +1,8 @@
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import pathologyData from "../../data/pathology.json";
 import Card from "./components/Card.jsx";
+import PathologyMindMap from "./PathologyMindMap.jsx";
 import PathologyEmptyState from "./components/PathologyEmptyState.jsx";
 import ImageViewer from "../../shared/components/ImageViewer.jsx";
 import BackButton from "../../shared/components/BackButton.jsx";
@@ -18,15 +19,20 @@ const SECTIONS = [
   { key: "microscopic_features", label: "یافته‌های میکروسکوپی", icon: "🔬" },
   { key: "clinical_features", label: "تظاهرات بالینی", icon: "🩺" },
   { key: "diagnostic_clues", label: "نکات تشخیصی", icon: "✅" },
+  { key: "differential_diagnosis", label: "تشخیص افتراقی", icon: "⚖️" },
   { key: "complications", label: "عوارض", icon: "⚠️" },
   { key: "common_confusions", label: "اشتباهات رایج", icon: "🔁" },
   { key: "exam_tips", label: "نکات امتحانی", icon: "📝" },
+  { key: "exam_trap", label: "تله‌ی امتحانی", icon: "🪤" },
 ];
 
 export default function PathologyDetail() {
   const { id } = useParams();
   const navigate = useNavigate();
   const item = useMemo(() => items.find((it) => it.id === id), [id]);
+  // "notes" = the existing جزوه layout (default). "mindmap" = the memory-friendly
+  // branch view. Additive toggle — notes content is unchanged.
+  const [view, setView] = useState("notes");
 
   // Real progress tracking: opening a detail page counts as "studied".
   useEffect(() => {
@@ -69,6 +75,41 @@ export default function PathologyDetail() {
         <span className="path-detail__category en">{item.category}</span>
       </div>
 
+      <div className="path-detail__tabs" role="tablist" aria-label="نمای مطالعه">
+        <button
+          type="button"
+          role="tab"
+          aria-selected={view === "notes"}
+          className={`path-detail__tab ${view === "notes" ? "is-active" : ""}`}
+          onClick={() => setView("notes")}
+        >
+          📄 جزوه
+        </button>
+        <button
+          type="button"
+          role="tab"
+          aria-selected={view === "mindmap"}
+          className={`path-detail__tab ${view === "mindmap" ? "is-active" : ""}`}
+          onClick={() => setView("mindmap")}
+        >
+          🧠 نقشه‌ذهنی
+        </button>
+      </div>
+
+      {view === "mindmap" ? (
+        <PathologyMindMap item={item} />
+      ) : (
+        <>
+      {item.definition && (
+        <Card className="path-detail__section">
+          <p className="path-detail__section-label">
+            <span className="path-detail__section-icon" aria-hidden="true">📖</span>
+            تعریف
+          </p>
+          <p className="path-detail__text">{item.definition}</p>
+        </Card>
+      )}
+
       <div className="path-detail__hero">
         <ImageViewer image={item.image} titleEn={item.title_en} />
       </div>
@@ -100,6 +141,28 @@ export default function PathologyDetail() {
           </Card>
         );
       })}
+
+      {item.mnemonic && (
+        <Card className="path-detail__section">
+          <p className="path-detail__section-label">
+            <span className="path-detail__section-icon" aria-hidden="true">🧠</span>
+            مِنِمونیک
+          </p>
+          <p className="path-detail__text">{item.mnemonic}</p>
+        </Card>
+      )}
+
+      {item.quick_summary && (
+        <Card className="path-detail__section">
+          <p className="path-detail__section-label">
+            <span className="path-detail__section-icon" aria-hidden="true">📌</span>
+            جمع‌بندی سریع
+          </p>
+          <p className="path-detail__text">{item.quick_summary}</p>
+        </Card>
+      )}
+        </>
+      )}
     </div>
   );
 }

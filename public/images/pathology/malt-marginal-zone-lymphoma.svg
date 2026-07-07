@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M95,35 Q70,40 72,70 Q74,110 105,112 Q120,110 120,80 Z" fill="#fdf3e2" stroke="#B9770E" stroke-width="1.5"/>
+  <text x="97" y="78" font-size="6" fill="#8a5a0a" text-anchor="middle">معده</text>
+  <g fill="#7C4DBC" opacity="0.55"><circle cx="90" cy="60" r="5"/><circle cx="102" cy="66" r="5"/><circle cx="88" cy="74" r="5"/><circle cx="100" cy="82" r="5"/></g>
+  <text x="165" y="60" font-size="6" fill="#5b3a9e" text-anchor="middle">MALT لنفوم</text>
+  <text x="165" y="76" font-size="5.5" fill="#B9770E" text-anchor="middle">H. pylori</text>
+  <text x="165" y="92" font-size="5.5" fill="#2E7D32" text-anchor="middle">۷۵٪ پسرفت با درمان</text>
+  <text x="120" y="150" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Gastric MALT lymphoma — H. pylori-associated</text>
+</svg>

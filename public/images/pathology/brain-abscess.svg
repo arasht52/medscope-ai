@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <path d="M40,50 Q120,28 200,50 Q212,95 175,120 Q120,140 65,120 Q28,95 40,50 Z" fill="#efe7f7" stroke="#7C4DBC" stroke-width="1.5"/>
+  <circle cx="115" cy="82" r="26" fill="none" stroke="#C0392B" stroke-width="4"/>
+  <circle cx="115" cy="82" r="16" fill="#C0392B" opacity="0.35"/>
+  <text x="115" y="85" font-size="6" fill="#7a2018" text-anchor="middle">نکروز چرکی</text>
+  <text x="160" y="60" font-size="5.5" fill="#C0392B" text-anchor="middle">حلقه‌ی تقویت‌شونده</text>
+  <text x="120" y="150" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Brain abscess — ring-enhancing, normal CSF glucose</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <g fill="#7C4DBC" opacity="0.55"><circle cx="80" cy="60" r="13"/><circle cx="120" cy="55" r="14"/><circle cx="160" cy="65" r="13"/><circle cx="95" cy="95" r="14"/><circle cx="140" cy="95" r="13"/></g>
+  <text x="120" y="128" font-size="6.5" fill="#7C4DBC" text-anchor="middle">سلول‌های بزرگ منتشر (۴–۵ برابر لنفوسیت کوچک)</text>
+  <text x="120" y="150" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">DLBCL — most common adult NHL, aggressive</text>
+</svg>

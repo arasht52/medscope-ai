@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <g fill="#7C4DBC" opacity="0.5"><circle cx="60" cy="55" r="8"/><circle cx="85" cy="50" r="8"/><circle cx="110" cy="58" r="8"/><circle cx="135" cy="50" r="8"/><circle cx="160" cy="56" r="8"/><circle cx="185" cy="52" r="8"/>
+  <circle cx="70" cy="80" r="8"/><circle cx="95" cy="85" r="8"/><circle cx="120" cy="80" r="8"/><circle cx="145" cy="86" r="8"/><circle cx="170" cy="80" r="8"/></g>
+  <text x="120" y="118" font-size="6.5" fill="#5b3a9e" text-anchor="middle">سلول‌های کوچک یکنواخت · t(11;14) cyclin D1</text>
+  <text x="120" y="150" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Mantle cell lymphoma — t(11;14), cyclin D1</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
+  <rect width="240" height="160" fill="#f8f5fc"/>
+  <g><circle cx="90" cy="70" r="20" fill="#cfe0f6" stroke="#1467c8" stroke-width="1.5"/>
+  <g stroke="#1467c8" stroke-width="1.2"><line x1="90" y1="50" x2="90" y2="42"/><line x1="110" y1="70" x2="118" y2="70"/><line x1="90" y1="90" x2="90" y2="98"/><line x1="70" y1="70" x2="62" y2="70"/><line x1="104" y1="56" x2="112" y2="48"/><line x1="104" y1="84" x2="112" y2="92"/><line x1="76" y1="56" x2="68" y2="48"/><line x1="76" y1="84" x2="68" y2="92"/></g>
+  <circle cx="90" cy="70" r="8" fill="#1467c8" opacity="0.55"/></g>
+  <text x="160" y="60" font-size="6" fill="#0e4f9e" text-anchor="middle">زوائد مویی</text>
+  <text x="160" y="80" font-size="6" fill="#0e4f9e" text-anchor="middle">BRAF · dry tap</text>
+  <text x="160" y="100" font-size="6" fill="#0e4f9e" text-anchor="middle">اسپلنومگالی</text>
+  <text x="120" y="150" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Hairy cell leukemia — BRAF, dry tap, splenomegaly</text>
+</svg>
