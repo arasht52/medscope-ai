@@ -526,27 +526,37 @@
       "exam_tips": [
         "کارسینوم سلول کوچک ریه، تهاجمی‌ترین زیرگروه و معمولاً در زمان تشخیص متاستاز داده است"
       ],
-      "image_url": "/images/pathology/bronchogenic-carcinoma.svg",
-      "image_caption": "نمودار شماتیک — کارسینوم برونکوژنیک (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/bronchogenic-carcinoma-photo.jpg",
+      "image_caption": "کارسینوم سلول کوچک ریه (small cell) — عکس واقعی، H&E",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/bronchogenic-carcinoma-photo.jpg",
+          "caption": "کارسینوم سلول کوچک ریه (small cell) — عکس واقعی، H&E",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Mikael Häggström",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_small_cell_carcinoma.jpg",
+          "license": "CC0",
+          "attribution": "Mikael Häggström"
+        },
+        {
           "url": "/images/pathology/bronchogenic-carcinoma.svg",
-          "caption": "نمودار شماتیک — کارسینوم برونکوژنیک (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/bronchogenic-carcinoma.svg",
-        "alt": "Bronchogenic Carcinoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/bronchogenic-carcinoma-photo.jpg",
+        "alt": "کارسینوم سلول کوچک ریه — سلول‌های کوچک با سیتوپلاسم کم و قالب‌گیری هسته‌ای؛ H&E",
+        "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Mikael Häggström",
+        "license": "CC0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_small_cell_carcinoma.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -950,27 +960,37 @@
       "exam_tips": [
         "اگزوفتالموس = نکته‌ی کلیدی برای افتراق گریوز از سایر علل پرکاری تیروئید"
       ],
-      "image_url": "/images/pathology/graves-disease.svg",
-      "image_caption": "نمودار شماتیک — بیماری گریوز (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/graves-disease-photo.jpg",
+      "image_caption": "بیماری گریوز — هایپرپلازی فولیکولی و کولوئید اسکالوپ (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/graves-disease-photo.jpg",
+          "caption": "بیماری گریوز — هایپرپلازی فولیکولی و کولوئید اسکالوپ (عکس واقعی، H&E)",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Librepath",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Graves_disease_--_high_mag.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Librepath"
+        },
+        {
           "url": "/images/pathology/graves-disease.svg",
-          "caption": "نمودار شماتیک — بیماری گریوز (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/graves-disease.svg",
-        "alt": "Graves' Disease — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/graves-disease-photo.jpg",
+        "alt": "بیماری گریوز — فولیکول‌های هایپرپلاستیک با کولوئید اسکالوپ‌شده و سلول‌های بلند؛ H&E",
+        "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Librepath",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Graves_disease_--_high_mag.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -1070,27 +1090,37 @@
       "exam_tips": [
         "فریتین پایین = فقر آهن واقعی؛ فریتین نرمال یا بالا در کم‌خونی میکروسیتیک باید به کم‌خونی بیماری مزمن یا تالاسمی شک کرد"
       ],
-      "image_url": "/images/pathology/iron-deficiency-anemia.svg",
-      "image_caption": "نمودار شماتیک — کم‌خونی فقر آهن (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-      "stain": "H&E",
+      "image_url": "/images/pathology/iron-deficiency-anemia-photo.jpg",
+      "image_caption": "کم‌خونی فقر آهن — RBCهای میکروسیتیک هیپوکروم (عکس واقعی)",
+      "stain": "Wright-Giemsa",
       "images": [
         {
+          "url": "/images/pathology/iron-deficiency-anemia-photo.jpg",
+          "caption": "کم‌خونی فقر آهن — RBCهای میکروسیتیک هیپوکروم (عکس واقعی)",
+          "magnification": "high",
+          "stain": "Wright-Giemsa",
+          "source": "Wikimedia Commons — Ed Uthman, MD",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Iron-deficiency_Anemia,_Peripheral_Blood_Smear_(4422704616).jpg",
+          "license": "CC BY 2.0",
+          "attribution": "Ed Uthman, MD"
+        },
+        {
           "url": "/images/pathology/iron-deficiency-anemia.svg",
-          "caption": "نمودار شماتیک — کم‌خونی فقر آهن (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/iron-deficiency-anemia.svg",
-        "alt": "Iron Deficiency Anemia — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/iron-deficiency-anemia-photo.jpg",
+        "alt": "کم‌خونی فقر آهن — گلبول‌های قرمز میکروسیتیک و هیپوکروم؛ اسمیر خون محیطی",
+        "type": "real_slide",
         "magnification": "high",
-        "stain": "H&E",
+        "stain": "Wright-Giemsa",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Ed Uthman, MD",
+        "license": "CC BY 2.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Iron-deficiency_Anemia,_Peripheral_Blood_Smear_(4422704616).jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -3628,28 +3658,38 @@
       "exam_tips": [
         "هیپرگاسترینمی + آنمی پرنیشیوز + آنتی‌بادی پاریتال = گاستریت اتوایمیون، نه H. pylori"
       ],
-      "image_url": "/images/pathology/gastritis-acute-chronic.svg",
-      "image_caption": "نمودار شماتیک — انفیلتراسیون مزمن و تجمع لنفوئیدی در گاستریت H. pylori (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/gastritis-acute-chronic-photo.jpg",
+      "image_caption": "گاستریت هلیکوباکتر پیلوری — باسیل‌ها در موکوس سطحی (عکس واقعی)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/gastritis-acute-chronic-photo.jpg",
+          "caption": "گاستریت هلیکوباکتر پیلوری — باسیل‌ها در موکوس سطحی (عکس واقعی)",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — CoRus13",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Acute_gastritis,_Helicobacter_pylori,_high_mag.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "CoRus13"
+        },
+        {
           "url": "/images/pathology/gastritis-acute-chronic.svg",
-          "caption": "نمودار شماتیک — انفیلتراسیون مزمن و تجمع لنفوئیدی در گاستریت H. pylori (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "200x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "200x",
       "subcategory_fa": "معده",
       "image": {
-        "url": "/images/pathology/gastritis-acute-chronic.svg",
-        "alt": "Acute & Chronic Gastritis — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "medium",
+        "url": "/images/pathology/gastritis-acute-chronic-photo.jpg",
+        "alt": "گاستریت هلیکوباکتری — باسیل‌های H. pylori در لایه‌ی موکوس سطحی؛ H&E",
+        "type": "real_slide",
+        "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — CoRus13",
+        "license": "CC BY-SA 4.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Acute_gastritis,_Helicobacter_pylori,_high_mag.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -5667,27 +5707,37 @@
       "exam_tips": [
         "توده‌ی شکمی کودک + الگوی بافتی تری‌فازیک (بلاستم/اپیتلیوم/استروما) = تومور ویلمز"
       ],
-      "image_url": "/images/pathology/wilms-tumor.svg",
-      "image_caption": "نمودار شماتیک — الگوی تری‌فازیک تومور ویلمز (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/wilms-tumor-photo.jpg",
+      "image_caption": "تومور ویلمز — الگوی سه‌فازی (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/wilms-tumor-photo.jpg",
+          "caption": "تومور ویلمز — الگوی سه‌فازی (عکس واقعی، H&E)",
+          "magnification": "medium",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Mikael Häggström",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_Wilms%27_tumor,_annotated.jpg",
+          "license": "CC0",
+          "attribution": "Mikael Häggström"
+        },
+        {
           "url": "/images/pathology/wilms-tumor.svg",
-          "caption": "نمودار شماتیک — الگوی تری‌فازیک تومور ویلمز (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/wilms-tumor.svg",
-        "alt": "Wilms Tumor (Nephroblastoma) — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "high",
+        "url": "/images/pathology/wilms-tumor-photo.jpg",
+        "alt": "تومور ویلمز — الگوی سه‌فازی (بلاستما، اپیتلیال، استرومال)؛ H&E",
+        "type": "real_slide",
+        "magnification": "medium",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Mikael Häggström",
+        "license": "CC0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_Wilms%27_tumor,_annotated.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -7323,27 +7373,37 @@
       "exam_tips": [
         "آمفیزم پایه‌ی ریه + سن پایین + عدم سیگار = کمبود آلفا-۱-آنتی‌تریپسین تا رد نشود"
       ],
-      "image_url": "/images/pathology/copd-emphysema-chronic-bronchitis.svg",
-      "image_caption": "نمودار شماتیک — تخریب آلوئولی در آمفیزم و هیپرپلازی غدد موکوسی در برونشیت مزمن (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/copd-emphysema-chronic-bronchitis-photo.jpg",
+      "image_caption": "آمفیزم — گشادی فضاهای هوایی و تخریب سپتا (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/copd-emphysema-chronic-bronchitis-photo.jpg",
+          "caption": "آمفیزم — گشادی فضاهای هوایی و تخریب سپتا (عکس واقعی، H&E)",
+          "magnification": "low",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Calicut Medical College",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Emphysema_Lung_4x.jpg",
+          "license": "CC BY-SA 4.0",
+          "attribution": "Calicut Medical College"
+        },
+        {
           "url": "/images/pathology/copd-emphysema-chronic-bronchitis.svg",
-          "caption": "نمودار شماتیک — تخریب آلوئولی در آمفیزم و هیپرپلازی غدد موکوسی در برونشیت مزمن (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "40x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "40x",
       "image": {
-        "url": "/images/pathology/copd-emphysema-chronic-bronchitis.svg",
-        "alt": "COPD (Emphysema & Chronic Bronchitis) — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/copd-emphysema-chronic-bronchitis-photo.jpg",
+        "alt": "آمفیزم — بزرگ‌شدن دائمی فضاهای هوایی و تخریب دیواره‌ی آلوئولی؛ H&E",
+        "type": "real_slide",
         "magnification": "low",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Calicut Medical College",
+        "license": "CC BY-SA 4.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Emphysema_Lung_4x.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -7708,27 +7768,37 @@
       "exam_tips": [
         "یرقان انسدادی بدون درد + سابقه‌ی کولیت اولسراتیو/PSC = کلانژیوکارسینوما تا رد نشود"
       ],
-      "image_url": "/images/pathology/cholangiocarcinoma.svg",
-      "image_caption": "نمودار شماتیک — کلانژیوکارسینوما با استرومای دسموپلاستیک (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/cholangiocarcinoma-photo.jpg",
+      "image_caption": "کلانژیوکارسینوم — غدد در استرومای دسموپلاستیک (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/cholangiocarcinoma-photo.jpg",
+          "caption": "کلانژیوکارسینوم — غدد در استرومای دسموپلاستیک (عکس واقعی، H&E)",
+          "magnification": "medium",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Nephron",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cholangiocarcinoma_-_intermed_mag.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Nephron"
+        },
+        {
           "url": "/images/pathology/cholangiocarcinoma.svg",
-          "caption": "نمودار شماتیک — کلانژیوکارسینوما با استرومای دسموپلاستیک (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "100x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "100x",
       "image": {
-        "url": "/images/pathology/cholangiocarcinoma.svg",
-        "alt": "Cholangiocarcinoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "low",
+        "url": "/images/pathology/cholangiocarcinoma-photo.jpg",
+        "alt": "کلانژیوکارسینوم — غدد بدخیم در استرومای دسموپلاستیک متراکم؛ H&E",
+        "type": "real_slide",
+        "magnification": "medium",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Nephron",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Cholangiocarcinoma_-_intermed_mag.jpg",
         "verifiedOpenLicense": true
       }
     },
