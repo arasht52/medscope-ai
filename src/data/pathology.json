@@ -460,27 +460,37 @@
       "exam_tips": [
         "سل ثانویه معمولاً در آپکس (لوب فوقانی) ریه فعال می‌شود؛ نکته‌ی کلاسیک امتحانی"
       ],
-      "image_url": "/images/pathology/pulmonary-tuberculosis.svg",
-      "image_caption": "نمودار شماتیک — سل ریوی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/pulmonary-tuberculosis-photo.jpg",
+      "image_caption": "سل ریوی — گرانولوم نکروزکننده‌ی کازئوز (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/pulmonary-tuberculosis-photo.jpg",
+          "caption": "سل ریوی — گرانولوم نکروزکننده‌ی کازئوز (عکس واقعی، H&E)",
+          "magnification": "medium",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Yale Rosen",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Pulmonary_tuberculosis_-_Necrotizing_granuloma_(6545186957).jpg",
+          "license": "CC BY-SA 2.0",
+          "attribution": "Yale Rosen"
+        },
+        {
           "url": "/images/pathology/pulmonary-tuberculosis.svg",
-          "caption": "نمودار شماتیک — سل ریوی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/pulmonary-tuberculosis.svg",
-        "alt": "Pulmonary Tuberculosis — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "high",
+        "url": "/images/pathology/pulmonary-tuberculosis-photo.jpg",
+        "alt": "سل ریوی — گرانولوم نکروزکننده (کازئوز) با نکروز مرکزی؛ H&E",
+        "type": "real_slide",
+        "magnification": "medium",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Yale Rosen",
+        "license": "CC BY-SA 2.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Pulmonary_tuberculosis_-_Necrotizing_granuloma_(6545186957).jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -629,27 +639,37 @@
       "exam_tips": [
         "سیروز = فیبروز برگشت‌ناپذیر + بازآرایی ندولار؛ هر دو جزء باید وجود داشته باشد"
       ],
-      "image_url": "/images/pathology/cirrhosis-of-liver.svg",
-      "image_caption": "نمودار شماتیک — سیروز کبدی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-      "stain": "H&E",
+      "image_url": "/images/pathology/cirrhosis-of-liver-photo.jpg",
+      "image_caption": "سیروز کبد — ندول‌های رژنراتیو و فیبروز (تری‌کروم، عکس واقعی)",
+      "stain": "Trichrome",
       "images": [
         {
+          "url": "/images/pathology/cirrhosis-of-liver-photo.jpg",
+          "caption": "سیروز کبد — ندول‌های رژنراتیو و فیبروز (تری‌کروم، عکس واقعی)",
+          "magnification": "low",
+          "stain": "Trichrome",
+          "source": "Wikimedia Commons — Mikael Häggström",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Trichrome_stain_of_chronic_alcoholic_cirrhosis.jpg",
+          "license": "CC0",
+          "attribution": "Mikael Häggström"
+        },
+        {
           "url": "/images/pathology/cirrhosis-of-liver.svg",
-          "caption": "نمودار شماتیک — سیروز کبدی (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/cirrhosis-of-liver.svg",
-        "alt": "Cirrhosis of the Liver — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "high",
-        "stain": "H&E",
+        "url": "/images/pathology/cirrhosis-of-liver-photo.jpg",
+        "alt": "سیروز کبد — ندول‌های رژنراتیو احاطه‌شده با باندهای فیبروز؛ رنگ‌آمیزی تری‌کروم",
+        "type": "real_slide",
+        "magnification": "low",
+        "stain": "Trichrome",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Mikael Häggström",
+        "license": "CC0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Trichrome_stain_of_chronic_alcoholic_cirrhosis.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -3222,27 +3242,37 @@
       "exam_tips": [
         "Aβ = پلاک خارج‌سلولی (از APP) | تاو = تار داخل‌سلولی (هیپرفسفریله)؛ این دو خط را هیچ‌وقت جا‌به‌جا نکنید"
       ],
-      "image_url": "/images/pathology/alzheimer-disease.svg",
-      "image_caption": "نمودار شماتیک — پلاک نوریتیک آمیلوئیدی و تار نوروفیبریلاری در بیماری آلزایمر (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-      "stain": "H&E / Congo Red",
+      "image_url": "/images/pathology/alzheimer-disease-photo.jpg",
+      "image_caption": "آلزایمر — تنگل‌های نوروفیبریلاری (رنگ نقره Gallyas، عکس واقعی)",
+      "stain": "Gallyas silver",
       "images": [
         {
+          "url": "/images/pathology/alzheimer-disease-photo.jpg",
+          "caption": "آلزایمر — تنگل‌های نوروفیبریلاری (رنگ نقره Gallyas، عکس واقعی)",
+          "magnification": "high",
+          "stain": "Gallyas silver",
+          "source": "Wikimedia Commons — Patho",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Neurofibrillary_tangles_in_the_Hippocampus_of_an_old_person_with_Alzheimer-related_pathology,_Gallyas_silver_stain.JPG",
+          "license": "CC BY-SA 3.0",
+          "attribution": "User:Patho"
+        },
+        {
           "url": "/images/pathology/alzheimer-disease.svg",
-          "caption": "نمودار شماتیک — پلاک نوریتیک آمیلوئیدی و تار نوروفیبریلاری در بیماری آلزایمر (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/alzheimer-disease.svg",
-        "alt": "Alzheimer Disease — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/alzheimer-disease-photo.jpg",
+        "alt": "آلزایمر — تنگل‌های نوروفیبریلاری در هیپوکامپ؛ رنگ‌آمیزی نقره‌ی Gallyas",
+        "type": "real_slide",
         "magnification": "high",
-        "stain": "H&E / Congo Red",
+        "stain": "Gallyas silver",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Patho",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Neurofibrillary_tangles_in_the_Hippocampus_of_an_old_person_with_Alzheimer-related_pathology,_Gallyas_silver_stain.JPG",
         "verifiedOpenLicense": true
       }
     },
@@ -3278,27 +3308,37 @@
       "exam_tips": [
         "↓نورون‌های ساب‌استانسیا نیگرا → ↓دوپامین → ↓توانایی حرکتی؛ این زنجیره را برای پاتوژنز پارکینسون به‌خاطر بسپارید"
       ],
-      "image_url": "/images/pathology/parkinson-disease.svg",
-      "image_caption": "نمودار شماتیک — جسم لویی در نورون باقی‌مانده‌ی ساب‌استانسیا نیگرا (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/parkinson-disease-photo.jpg",
+      "image_caption": "اجسام لوی (Lewy body) — عکس واقعی، H&E",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/parkinson-disease-photo.jpg",
+          "caption": "اجسام لوی (Lewy body) — عکس واقعی، H&E",
+          "magnification": "high",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Jensflorian",
+          "source_url": "https://commons.wikimedia.org/wiki/File:DLB_frontal_lewy_bodies_HE.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Jensflorian"
+        },
+        {
           "url": "/images/pathology/parkinson-disease.svg",
-          "caption": "نمودار شماتیک — جسم لویی در نورون باقی‌مانده‌ی ساب‌استانسیا نیگرا (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/parkinson-disease.svg",
-        "alt": "Parkinson Disease — نمودار شماتیک آموزشی",
-        "type": "diagram",
+        "url": "/images/pathology/parkinson-disease-photo.jpg",
+        "alt": "اجسام لوی (Lewy body) — انکلوزیون ائوزینوفیلیک داخل‌سیتوپلاسمی با هاله؛ H&E",
+        "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Jensflorian",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:DLB_frontal_lewy_bodies_HE.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -4090,28 +4130,38 @@
       "exam_tips": [
         "بیشتر آدنوماها به آدنوکارسینوم پیشرفت نمی‌کنند، اما تقریباً همه‌ی آدنوکارسینوم‌های اسپورادیک از یک آدنوما منشا می‌گیرند — این توالی آدنوما-کارسینوما را به‌خاطر بسپارید"
       ],
-      "image_url": "/images/pathology/colorectal-adenocarcinoma-polyps.svg",
-      "image_caption": "نمودار شماتیک — توالی آدنوما-کارسینوما در پولیپ کولورکتال (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/colorectal-adenocarcinoma-polyps-photo.jpg",
+      "image_caption": "آدنوکارسینوم کولورکتال (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/colorectal-adenocarcinoma-polyps-photo.jpg",
+          "caption": "آدنوکارسینوم کولورکتال (عکس واقعی، H&E)",
+          "magnification": "medium",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Mikael Häggström",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Colorectal_adenocarcinoma,_not_otherwise_specified.jpg",
+          "license": "CC0",
+          "attribution": "Mikael Häggström"
+        },
+        {
           "url": "/images/pathology/colorectal-adenocarcinoma-polyps.svg",
-          "caption": "نمودار شماتیک — توالی آدنوما-کارسینوما در پولیپ کولورکتال (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "100x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "100x",
       "subcategory_fa": "روده و کولون",
       "image": {
-        "url": "/images/pathology/colorectal-adenocarcinoma-polyps.svg",
-        "alt": "Colorectal Adenocarcinoma & Polyps (FAP) — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "low",
+        "url": "/images/pathology/colorectal-adenocarcinoma-polyps-photo.jpg",
+        "alt": "آدنوکارسینوم کولورکتال — غدد بدخیم با نکروز کثیف (dirty necrosis)؛ H&E",
+        "type": "real_slide",
+        "magnification": "medium",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Mikael Häggström",
+        "license": "CC0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Colorectal_adenocarcinoma,_not_otherwise_specified.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -4699,27 +4749,37 @@
       "exam_tips": [
         "بیشتر از ۹۰٪ سرطان‌های پانکراس از PanIN منشا می‌گیرند — این مسیر پیش‌ساز را مشابه توالی آدنوما-کارسینوما در کولون در نظر بگیرید"
       ],
-      "image_url": "/images/pathology/pancreatic-ductal-adenocarcinoma.svg",
-      "image_caption": "نمودار شماتیک — غدد بدخیم نفوذی در استرومای دسموپلاستیک آدنوکارسینوم پانکراس (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/pancreatic-ductal-adenocarcinoma-photo.jpg",
+      "image_caption": "آدنوکارسینوم مجرایی پانکراس — استرومای دسموپلاستیک (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/pancreatic-ductal-adenocarcinoma-photo.jpg",
+          "caption": "آدنوکارسینوم مجرایی پانکراس — استرومای دسموپلاستیک (عکس واقعی، H&E)",
+          "magnification": "medium",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Singh PK et al.",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pancreatic_ductal_adenocarcinoma.jpg",
+          "license": "CC BY 4.0",
+          "attribution": "Singh PK et al."
+        },
+        {
           "url": "/images/pathology/pancreatic-ductal-adenocarcinoma.svg",
-          "caption": "نمودار شماتیک — غدد بدخیم نفوذی در استرومای دسموپلاستیک آدنوکارسینوم پانکراس (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "100x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "100x",
       "image": {
-        "url": "/images/pathology/pancreatic-ductal-adenocarcinoma.svg",
-        "alt": "Pancreatic Ductal Adenocarcinoma — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "low",
+        "url": "/images/pathology/pancreatic-ductal-adenocarcinoma-photo.jpg",
+        "alt": "آدنوکارسینوم مجرایی پانکراس — غدد بدخیم در استرومای دسموپلاستیک متراکم؛ H&E",
+        "type": "real_slide",
+        "magnification": "medium",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Singh PK et al.",
+        "license": "CC BY 4.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pancreatic_ductal_adenocarcinoma.jpg",
         "verifiedOpenLicense": true
       }
     },
@@ -5037,27 +5097,37 @@
       "exam_tips": [
         "هیپوتیروئیدی + گواتر بدون درد + آنتی‌بادی ضد TPO مثبت = هاشیموتو"
       ],
-      "image_url": "/images/pathology/hashimoto-thyroiditis.svg",
-      "image_caption": "نمودار شماتیک — نفوذ لنفوسیتی و مراکز ژرمینال در تیروئیدیت هاشیموتو (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
+      "image_url": "/images/pathology/hashimoto-thyroiditis-photo.jpg",
+      "image_caption": "تیروئیدیت هاشیموتو — مراکز زایا و ارتشاح لنفوسیتی (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
+          "url": "/images/pathology/hashimoto-thyroiditis-photo.jpg",
+          "caption": "تیروئیدیت هاشیموتو — مراکز زایا و ارتشاح لنفوسیتی (عکس واقعی، H&E)",
+          "magnification": "low",
+          "stain": "H&E",
+          "source": "Wikimedia Commons — Librepath",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hashimoto_thyroiditis_--_low_mag.jpg",
+          "license": "CC BY-SA 3.0",
+          "attribution": "Librepath"
+        },
+        {
           "url": "/images/pathology/hashimoto-thyroiditis.svg",
-          "caption": "نمودار شماتیک — نفوذ لنفوسیتی و مراکز ژرمینال در تیروئیدیت هاشیموتو (جایگزین موقت تا افزودن عکس میکروسکوپی واقعی)",
-          "magnification": "400x"
+          "caption": "نمودار شماتیک (مرجع کمکی)",
+          "magnification": "—"
         }
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/hashimoto-thyroiditis.svg",
-        "alt": "Hashimoto Thyroiditis — نمودار شماتیک آموزشی",
-        "type": "diagram",
-        "magnification": "high",
+        "url": "/images/pathology/hashimoto-thyroiditis-photo.jpg",
+        "alt": "تیروئیدیت هاشیموتو — ارتشاح لنفوسیتی با مراکز زایا و سلول‌های Hürthle؛ H&E",
+        "type": "real_slide",
+        "magnification": "low",
         "stain": "H&E",
         "labels": [],
-        "source": "MedScope AI — نمودار اصلی و خودساخته",
-        "license": "CC0-1.0 (اثر اصلی و خودساخته)",
-        "attribution": null,
+        "source": "Wikimedia Commons — Librepath",
+        "license": "CC BY-SA 3.0",
+        "attribution": "https://commons.wikimedia.org/wiki/File:Hashimoto_thyroiditis_--_low_mag.jpg",
         "verifiedOpenLicense": true
       }
     },
