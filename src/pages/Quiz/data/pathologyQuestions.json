@@ -5008,5 +5008,755 @@
     ],
     "correctOptionId": "a",
     "explanation_fa": "لنفوم MALT از تحریک آنتی‌ژنیک مزمن (مانند عفونت هلیکوباکتر پیلوری) و تجمع بافت لنفوئید مرتبط با مخاط ناشی می‌شود؛ همین وابستگی، دلیل پسرفت با حذف محرک است."
+  },
+  {
+    "id": "pa-musculoskeletal-5",
+    "topicId": "osteoarthritis",
+    "category": "Musculoskeletal",
+    "question_fa": "کدام گره مشخصه‌ی درگیری دست در استئوآرتریت است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "گره‌ی هبردن در مفاصل DIP",
+        "text_en": "Heberden nodes at DIP joints"
+      },
+      {
+        "id": "b",
+        "text_fa": "گره‌ی روماتوئید",
+        "text_en": "Rheumatoid nodules"
+      },
+      {
+        "id": "c",
+        "text_fa": "توفوس",
+        "text_en": "Tophus"
+      },
+      {
+        "id": "d",
+        "text_fa": "گره‌ی اسلر",
+        "text_en": "Osler nodes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "گره‌های هبردن (استئوفیت مفاصل بین‌انگشتی دیستال/DIP) مشخصه‌ی OA و شایع در زنان‌اند؛ گره‌های بوشارد در PIP دیده می‌شوند."
+  },
+  {
+    "id": "pa-musculoskeletal-6",
+    "topicId": "osteoarthritis",
+    "category": "Musculoskeletal",
+    "question_fa": "ماهیت استئوآرتریت کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "دژنراتیو و غیرالتهابی",
+        "text_en": "Degenerative and non-inflammatory"
+      },
+      {
+        "id": "b",
+        "text_fa": "خودایمنِ سیستمیک",
+        "text_en": "Systemic autoimmune"
+      },
+      {
+        "id": "c",
+        "text_fa": "عفونی",
+        "text_en": "Infectious"
+      },
+      {
+        "id": "d",
+        "text_fa": "متابولیک کریستالی",
+        "text_en": "Crystal metabolic"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "OA بیماری مفصلی دژنراتیو و غیرالتهابی از تخریب غضروف است، برخلاف RA که خودایمن و التهابی است."
+  },
+  {
+    "id": "pa-musculoskeletal-7",
+    "topicId": "osteoarthritis",
+    "category": "Musculoskeletal",
+    "question_fa": "کدام یافته‌ی رادیوگرافیک در OA دیده می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تنگی فضای مفصلی، استئوفیت، اسکلروز ساب‌کندرال",
+        "text_en": "Joint-space narrowing, osteophytes, subchondral sclerosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "اروژن مفصلی منتشر",
+        "text_en": "Diffuse joint erosions"
+      },
+      {
+        "id": "c",
+        "text_fa": "استئوپنی پری‌آرتیکولار",
+        "text_en": "Periarticular osteopenia"
+      },
+      {
+        "id": "d",
+        "text_fa": "فیوژن مفصلی زودرس",
+        "text_en": "Early joint fusion"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "OA با تنگی فضای مفصلی، استئوفیت (زائده‌ی استخوانی قارچی‌شکل) و اسکلروز/کیست ساب‌کندرال مشخص می‌شود."
+  },
+  {
+    "id": "pa-musculoskeletal-8",
+    "topicId": "osteoarthritis",
+    "category": "Musculoskeletal",
+    "question_fa": "درد استئوآرتریت معمولاً چه الگویی دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "با فعالیت بدتر، با استراحت بهتر",
+        "text_en": "Worse with activity, better with rest"
+      },
+      {
+        "id": "b",
+        "text_fa": "سفتی صبحگاهیِ طولانی (>۱ ساعت)",
+        "text_en": "Prolonged morning stiffness (>1h)"
+      },
+      {
+        "id": "c",
+        "text_fa": "درد شبانه‌ی سیستمیک با تب",
+        "text_en": "Systemic night pain with fever"
+      },
+      {
+        "id": "d",
+        "text_fa": "بدون ارتباط با حرکت",
+        "text_en": "Unrelated to movement"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "درد OA با فعالیت/تحمل وزن بدتر و با استراحت بهتر می‌شود و سفتی صبحگاهی کوتاه دارد؛ سفتی صبحگاهی طولانی مطرح‌کننده‌ی RA است."
+  },
+  {
+    "id": "pa-musculoskeletal-9",
+    "topicId": "osteoarthritis",
+    "category": "Musculoskeletal",
+    "question_fa": "تفاوت الگوی درگیری دست در OA و RA کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "OA مفاصل DIP؛ RA مفاصل MCP و PIP",
+        "text_en": "OA affects DIP; RA affects MCP and PIP"
+      },
+      {
+        "id": "b",
+        "text_fa": "هر دو فقط MCP",
+        "text_en": "Both only MCP"
+      },
+      {
+        "id": "c",
+        "text_fa": "OA فقط مچ؛ RA فقط شست",
+        "text_en": "OA only wrist; RA only thumb"
+      },
+      {
+        "id": "d",
+        "text_fa": "هیچ تفاوتی ندارند",
+        "text_en": "No difference"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "OA مفاصل DIP (گره‌ی هبردن) را می‌گیرد در حالی‌که RA مفاصل MCP و PIP را درگیر می‌کند و معمولاً DIP را می‌بخشد."
+  },
+  {
+    "id": "pa-musculoskeletal-10",
+    "topicId": "gout",
+    "category": "Musculoskeletal",
+    "question_fa": "کریستال‌های نقرس چه ویژگی‌ای دارند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سوزنی و منفی‌شکنِ نور",
+        "text_en": "Needle-shaped and negatively birefringent"
+      },
+      {
+        "id": "b",
+        "text_fa": "رومبوئید و مثبت‌شکن",
+        "text_en": "Rhomboid and positively birefringent"
+      },
+      {
+        "id": "c",
+        "text_fa": "مکعبی و بی‌شکل",
+        "text_en": "Cubic and amorphous"
+      },
+      {
+        "id": "d",
+        "text_fa": "مدور و دولایه",
+        "text_en": "Round and bilamellar"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کریستال‌های مونوسدیم اورات در نقرس سوزنی و زیر نور پلاریزه منفی‌شکن‌اند و اغلب داخل نوتروفیل‌ها دیده می‌شوند."
+  },
+  {
+    "id": "pa-musculoskeletal-11",
+    "topicId": "gout",
+    "category": "Musculoskeletal",
+    "question_fa": "یافته‌ی پاتوگنومونیک نقرس کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "توفوس",
+        "text_en": "Tophus"
+      },
+      {
+        "id": "b",
+        "text_fa": "گره‌ی هبردن",
+        "text_en": "Heberden node"
+      },
+      {
+        "id": "c",
+        "text_fa": "پانوس",
+        "text_en": "Pannus"
+      },
+      {
+        "id": "d",
+        "text_fa": "جسم آشوف",
+        "text_en": "Aschoff body"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "توفوس (تجمع کریستال‌های اورات احاطه‌شده با واکنش التهابی و سلول‌های ژانت جسم‌خارجی) نشانه‌ی پاتوگنومونیک نقرس است."
+  },
+  {
+    "id": "pa-musculoskeletal-12",
+    "topicId": "gout",
+    "category": "Musculoskeletal",
+    "question_fa": "کلاسیک‌ترین مفصل درگیر در حمله‌ی حاد نقرس کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "متاتارسوفالانژیال اول (شست پا / پوداگرا)",
+        "text_en": "First metatarsophalangeal (great toe / podagra)"
+      },
+      {
+        "id": "b",
+        "text_fa": "زانو",
+        "text_en": "Knee"
+      },
+      {
+        "id": "c",
+        "text_fa": "مچ دست",
+        "text_en": "Wrist"
+      },
+      {
+        "id": "d",
+        "text_fa": "ستون فقرات",
+        "text_en": "Spine"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "حمله‌ی حاد نقرس به‌طور کلاسیک مفصل متاتارسوفالانژیال اول انگشت شست پا (پوداگرا) را درگیر می‌کند."
+  },
+  {
+    "id": "pa-musculoskeletal-13",
+    "topicId": "gout",
+    "category": "Musculoskeletal",
+    "question_fa": "علت شایع نقرس ثانویه کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "لیز سلولی در شیمی‌درمانی لوسمی یا نارسایی مزمن کلیه",
+        "text_en": "Cell lysis in leukemia chemotherapy or chronic renal failure"
+      },
+      {
+        "id": "b",
+        "text_fa": "کمبود ویتامین D",
+        "text_en": "Vitamin D deficiency"
+      },
+      {
+        "id": "c",
+        "text_fa": "عفونت استرپتوکوک",
+        "text_en": "Streptococcal infection"
+      },
+      {
+        "id": "d",
+        "text_fa": "تروما",
+        "text_en": "Trauma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "نقرس ثانویه از افزایش تولید اورات (لیز سریع سلولی در شیمی‌درمانی لوسمی) یا کاهش دفع (نارسایی مزمن کلیه) ناشی می‌شود."
+  },
+  {
+    "id": "pa-musculoskeletal-14",
+    "topicId": "gout",
+    "category": "Musculoskeletal",
+    "question_fa": "کدام گزاره درباره‌ی هایپراوریسمی درست است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "لازم است اما به‌تنهایی برای نقرس کافی نیست",
+        "text_en": "Necessary but not sufficient for gout"
+      },
+      {
+        "id": "b",
+        "text_fa": "همیشه به نقرس منجر می‌شود",
+        "text_en": "Always causes gout"
+      },
+      {
+        "id": "c",
+        "text_fa": "هیچ نقشی ندارد",
+        "text_en": "Has no role"
+      },
+      {
+        "id": "d",
+        "text_fa": "فقط در نقرس ثانویه دیده می‌شود",
+        "text_en": "Occurs only in secondary gout"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "هایپراوریسمی (اورات >۶.۸ mg/dL) برای ایجاد نقرس لازم است اما به‌تنهایی کافی نیست؛ بسیاری با هایپراوریسمی هرگز نقرس نمی‌گیرند."
+  },
+  {
+    "id": "pa-musculoskeletal-15",
+    "topicId": "osteonecrosis",
+    "category": "Musculoskeletal",
+    "question_fa": "شایع‌ترین محل درگیری در استئونکروز کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سر فمور",
+        "text_en": "Femoral head"
+      },
+      {
+        "id": "b",
+        "text_fa": "جمجمه",
+        "text_en": "Skull"
+      },
+      {
+        "id": "c",
+        "text_fa": "دنده",
+        "text_en": "Rib"
+      },
+      {
+        "id": "d",
+        "text_fa": "ستون فقرات گردنی",
+        "text_en": "Cervical spine"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "سر فمور شایع‌ترین محل استئونکروز (نکروز آواسکولار) است و کلاپس ساب‌کندرال آن می‌تواند به OA ثانویه منجر شود."
+  },
+  {
+    "id": "pa-musculoskeletal-16",
+    "topicId": "osteonecrosis",
+    "category": "Musculoskeletal",
+    "question_fa": "کدام علل کلاسیک استئونکروزِ غیرتروماتیک‌اند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کورتیکواستروئید و الکل",
+        "text_en": "Corticosteroids and alcohol"
+      },
+      {
+        "id": "b",
+        "text_fa": "کمبود آهن",
+        "text_en": "Iron deficiency"
+      },
+      {
+        "id": "c",
+        "text_fa": "پرفشاری خون",
+        "text_en": "Hypertension"
+      },
+      {
+        "id": "d",
+        "text_fa": "کم‌کاری تیروئید",
+        "text_en": "Hypothyroidism"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کورتیکواستروئید و الکل از علل کلاسیک استئونکروز غیرتروماتیک‌اند؛ شکستگی گردن فمور، بیماری داس‌شکل و بیماری کیسون نیز از علل هستند."
+  },
+  {
+    "id": "pa-musculoskeletal-17",
+    "topicId": "osteonecrosis",
+    "category": "Musculoskeletal",
+    "question_fa": "یافته‌ی بافت‌شناسی استئونکروز کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "لاکونای خالی از استئوسیت (استخوان مرده)",
+        "text_en": "Empty osteocyte lacunae (dead bone)"
+      },
+      {
+        "id": "b",
+        "text_fa": "سلول‌های ژانت لانگهانس",
+        "text_en": "Langhans giant cells"
+      },
+      {
+        "id": "c",
+        "text_fa": "اجسام پسامومایی",
+        "text_en": "Psammoma bodies"
+      },
+      {
+        "id": "d",
+        "text_fa": "روزت Homer-Wright",
+        "text_en": "Homer-Wright rosettes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "استئونکروز با استخوان مرده و لاکونای خالی از استئوسیت مشخص می‌شود، همراه نکروز مغز استخوان و چربی."
+  },
+  {
+    "id": "pa-musculoskeletal-18",
+    "topicId": "osteonecrosis",
+    "category": "Musculoskeletal",
+    "question_fa": "استئونکروز اساساً کدام فرآیند است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "انفارکت استخوان و مغز به‌علت قطع خون‌رسانی",
+        "text_en": "Infarction of bone and marrow from loss of blood supply"
+      },
+      {
+        "id": "b",
+        "text_fa": "عفونت چرکی استخوان",
+        "text_en": "Suppurative bone infection"
+      },
+      {
+        "id": "c",
+        "text_fa": "تومور استخوان‌ساز",
+        "text_en": "Bone-forming tumor"
+      },
+      {
+        "id": "d",
+        "text_fa": "التهاب خودایمن مفصل",
+        "text_en": "Autoimmune joint inflammation"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "استئونکروز انفارکت استخوان و مغز استخوان ناشی از قطع خون‌رسانی است که می‌تواند محدود به مدولا یا شامل مدولا و کورتکس باشد."
+  },
+  {
+    "id": "pa-musculoskeletal-19",
+    "topicId": "osteonecrosis",
+    "category": "Musculoskeletal",
+    "question_fa": "خطرناک‌ترین عارضه‌ی استئونکروزِ سر فمور کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کلاپس سطح مفصلی و استئوآرتریت ثانویه",
+        "text_en": "Collapse of articular surface and secondary osteoarthritis"
+      },
+      {
+        "id": "b",
+        "text_fa": "کم‌خونی",
+        "text_en": "Anemia"
+      },
+      {
+        "id": "c",
+        "text_fa": "سنگ کلیه",
+        "text_en": "Kidney stones"
+      },
+      {
+        "id": "d",
+        "text_fa": "فشار خون بالا",
+        "text_en": "Hypertension"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کلاپس ساب‌کندرالِ سر فمور به تخریب سطح مفصلی و استئوآرتریت ثانویه منجر می‌شود که ناتوانی مفصلی ایجاد می‌کند."
+  },
+  {
+    "id": "pa-musculoskeletal-20",
+    "topicId": "fracture-healing",
+    "category": "Musculoskeletal",
+    "question_fa": "اولین مرحله‌ی ترمیم شکستگی کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تشکیل هماتوم",
+        "text_en": "Hematoma formation"
+      },
+      {
+        "id": "b",
+        "text_fa": "کالوس استخوانی",
+        "text_en": "Bony callus"
+      },
+      {
+        "id": "c",
+        "text_fa": "بازسازی لاملار",
+        "text_en": "Lamellar remodeling"
+      },
+      {
+        "id": "d",
+        "text_fa": "کالوس نرم",
+        "text_en": "Soft callus"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "بلافاصله پس از شکستگی (۰–۲ هفته) پارگی عروق هماتوم ایجاد می‌کند که شبکه‌ی فیبرین و بافت گرانولاسیون برای ترمیم فراهم می‌کند."
+  },
+  {
+    "id": "pa-musculoskeletal-21",
+    "topicId": "fracture-healing",
+    "category": "Musculoskeletal",
+    "question_fa": "ترتیب صحیح مراحل ترمیم شکستگی کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هماتوم → کالوس نرم → کالوس استخوانی → بازسازی",
+        "text_en": "Hematoma → soft callus → bony callus → remodeling"
+      },
+      {
+        "id": "b",
+        "text_fa": "کالوس استخوانی → هماتوم → بازسازی",
+        "text_en": "Bony callus → hematoma → remodeling"
+      },
+      {
+        "id": "c",
+        "text_fa": "بازسازی → هماتوم → کالوس",
+        "text_en": "Remodeling → hematoma → callus"
+      },
+      {
+        "id": "d",
+        "text_fa": "کالوس نرم → هماتوم → بازسازی",
+        "text_en": "Soft callus → hematoma → remodeling"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "ترتیب ترمیم: هماتوم → بافت گرانولاسیون/کالوس نرم (فیبروکارتیلاژ) → کالوس استخوانی (woven) → بازسازی به استخوان لاملار."
+  },
+  {
+    "id": "pa-musculoskeletal-22",
+    "topicId": "fracture-healing",
+    "category": "Musculoskeletal",
+    "question_fa": "استخوانِ تازه‌ساخته در کالوس ابتدا از چه نوعی است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بافه‌ای (woven)",
+        "text_en": "Woven"
+      },
+      {
+        "id": "b",
+        "text_fa": "لاملار بالغ",
+        "text_en": "Mature lamellar"
+      },
+      {
+        "id": "c",
+        "text_fa": "غضروفی کلسیفیه",
+        "text_en": "Calcified cartilage"
+      },
+      {
+        "id": "d",
+        "text_fa": "کورتیکال متراکم",
+        "text_en": "Dense cortical"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "استخوان تازه در کالوس ابتدا بافه‌ای (woven) است که عمود بر محور کورتکس قرار می‌گیرد و سپس به استخوان لاملار بازسازی می‌شود."
+  },
+  {
+    "id": "pa-musculoskeletal-23",
+    "topicId": "fracture-healing",
+    "category": "Musculoskeletal",
+    "question_fa": "کالوس نرم (procallus) عمدتاً از چه بافتی تشکیل شده؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فیبروکارتیلاژ و هیالین",
+        "text_en": "Fibrocartilage and hyaline cartilage"
+      },
+      {
+        "id": "b",
+        "text_fa": "استخوان لاملار",
+        "text_en": "Lamellar bone"
+      },
+      {
+        "id": "c",
+        "text_fa": "چربی",
+        "text_en": "Fat"
+      },
+      {
+        "id": "d",
+        "text_fa": "فیبرین خالص",
+        "text_en": "Pure fibrin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کالوس نرم (procallus) از فیبروکارتیلاژ و غضروف هیالین تولیدشده توسط کندروسیت‌های مزانشیمی تشکیل شده و هنوز تثبیت‌کننده نیست."
+  },
+  {
+    "id": "pa-musculoskeletal-24",
+    "topicId": "fracture-healing",
+    "category": "Musculoskeletal",
+    "question_fa": "کدام عامل ترمیم شکستگی را مختل می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کورتیکواستروئید، دیابت و عفونت",
+        "text_en": "Corticosteroids, diabetes, and infection"
+      },
+      {
+        "id": "b",
+        "text_fa": "بی‌حرکتی مناسب",
+        "text_en": "Adequate immobilization"
+      },
+      {
+        "id": "c",
+        "text_fa": "خون‌رسانی خوب",
+        "text_en": "Good blood supply"
+      },
+      {
+        "id": "d",
+        "text_fa": "تغذیه‌ی کافی",
+        "text_en": "Adequate nutrition"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کورتیکواستروئید، دیابت، عفونت و بی‌حرکتی ناکافی/خون‌رسانی ضعیف ترمیم شکستگی را مختل کرده و خطر nonunion را افزایش می‌دهند."
+  },
+  {
+    "id": "pa-musculoskeletal-25",
+    "topicId": "skeletal-dysplasias",
+    "category": "Musculoskeletal",
+    "question_fa": "آکندروپلازی از موتاسیون کدام ژن ناشی می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "FGFR3 (gain-of-function)",
+        "text_en": "FGFR3 (gain-of-function)"
+      },
+      {
+        "id": "b",
+        "text_fa": "کلاژن نوع I",
+        "text_en": "Type I collagen"
+      },
+      {
+        "id": "c",
+        "text_fa": "FBN1 (فیبریلین)",
+        "text_en": "FBN1 (fibrillin)"
+      },
+      {
+        "id": "d",
+        "text_fa": "دیستروفین",
+        "text_en": "Dystrophin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آکندروپلازی، شایع‌ترین دیسپلازی اسکلتی و علت کوتولگی، از موتاسیون gain-of-function ژن FGFR3 (اتوزومال غالب) است که رشد اندوکندرال را مهار می‌کند."
+  },
+  {
+    "id": "pa-musculoskeletal-26",
+    "topicId": "skeletal-dysplasias",
+    "category": "Musculoskeletal",
+    "question_fa": "استئوژنزیس ایمپرفکتا از نقص کدام مولکول ناشی می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کلاژن نوع I",
+        "text_en": "Type I collagen"
+      },
+      {
+        "id": "b",
+        "text_fa": "کلاژن نوع IV",
+        "text_en": "Type IV collagen"
+      },
+      {
+        "id": "c",
+        "text_fa": "الاستین",
+        "text_en": "Elastin"
+      },
+      {
+        "id": "d",
+        "text_fa": "FGFR3",
+        "text_en": "FGFR3"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "استئوژنزیس ایمپرفکتا (بیماری استخوان شکننده) از نقص سنتز کلاژن نوع I (موتاسیون زنجیره‌های α1/α2) ناشی می‌شود."
+  },
+  {
+    "id": "pa-musculoskeletal-27",
+    "topicId": "skeletal-dysplasias",
+    "category": "Musculoskeletal",
+    "question_fa": "کدام نشانه مشخصه‌ی استئوژنزیس ایمپرفکتا است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "صلبیه‌ی آبی و شکستگی مکرر",
+        "text_en": "Blue sclerae and recurrent fractures"
+      },
+      {
+        "id": "b",
+        "text_fa": "صلبیه‌ی زرد و کاتاراکت",
+        "text_en": "Yellow sclerae and cataract"
+      },
+      {
+        "id": "c",
+        "text_fa": "توفوس",
+        "text_en": "Tophus"
+      },
+      {
+        "id": "d",
+        "text_fa": "گره‌ی هبردن",
+        "text_en": "Heberden node"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "استئوژنزیس ایمپرفکتا با استخوان شکننده و شکستگی مکرر، صلبیه‌ی آبی، کاهش شنوایی و نقص دندانی مشخص می‌شود (کلاژن نوع I در این بافت‌ها فراوان است)."
+  },
+  {
+    "id": "pa-musculoskeletal-28",
+    "topicId": "skeletal-dysplasias",
+    "category": "Musculoskeletal",
+    "question_fa": "الگوی وراثت آکندروپلازی کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "اتوزومال غالب",
+        "text_en": "Autosomal dominant"
+      },
+      {
+        "id": "b",
+        "text_fa": "اتوزومال مغلوب",
+        "text_en": "Autosomal recessive"
+      },
+      {
+        "id": "c",
+        "text_fa": "وابسته به X مغلوب",
+        "text_en": "X-linked recessive"
+      },
+      {
+        "id": "d",
+        "text_fa": "میتوکندریایی",
+        "text_en": "Mitochondrial"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آکندروپلازی اتوزومال غالب است و اغلب از موتاسیون آلل پدری FGFR3 ناشی می‌شود؛ هوش طبیعی است."
+  },
+  {
+    "id": "pa-musculoskeletal-29",
+    "topicId": "skeletal-dysplasias",
+    "category": "Musculoskeletal",
+    "question_fa": "شکستگی‌های مکررِ استئوژنزیس ایمپرفکتا ممکن است با چه چیزی اشتباه شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کودک‌آزاری",
+        "text_en": "Child abuse"
+      },
+      {
+        "id": "b",
+        "text_fa": "نقرس",
+        "text_en": "Gout"
+      },
+      {
+        "id": "c",
+        "text_fa": "استئوآرتریت",
+        "text_en": "Osteoarthritis"
+      },
+      {
+        "id": "d",
+        "text_fa": "استئوسارکوم",
+        "text_en": "Osteosarcoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "شکستگی‌های مکرر OI می‌تواند با کودک‌آزاری اشتباه شود؛ حضور صلبیه‌ی آبی، کاهش شنوایی و سابقه‌ی خانوادگی به تشخیص OI کمک می‌کند."
   }
 ]

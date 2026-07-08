@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160"><rect width="240" height="160" fill="#f8f5fc"/>
+<path d="M80,40 Q140,30 165,55 Q175,75 160,95 L120,120 Q85,115 75,85 Q70,55 80,40 Z" fill="#e8d9f5" stroke="#7C4DBC" stroke-width="2"/>
+<path d="M110,50 Q140,48 150,68 Q152,82 138,90 Q118,92 110,72 Z" fill="#C0392B" opacity="0.45"/>
+<text x="130" y="72" font-size="6" fill="#7a2018" text-anchor="middle">انفارکت</text>
+<text x="120" y="140" font-size="6.5" fill="#7a2018" text-anchor="middle">انفارکت استخوان/مغز — اغلب سر فمور</text>
+<text x="120" y="153" font-family="sans-serif" font-size="7" fill="#1b2430" text-anchor="middle" opacity="0.5">Osteonecrosis (avascular necrosis)</text></svg>

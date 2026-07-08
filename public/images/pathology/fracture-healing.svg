@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160"><rect width="240" height="160" fill="#f8f5fc"/>
+<g font-family="sans-serif"><rect x="20" y="55" width="40" height="45" rx="4" fill="#e8d9f5" stroke="#7C4DBC"/><text x="40" y="112" font-size="6" fill="#7C4DBC" text-anchor="middle">هماتوم</text>
+<rect x="75" y="55" width="40" height="45" rx="4" fill="#fdf3e2" stroke="#B9770E"/><text x="95" y="112" font-size="6" fill="#B9770E" text-anchor="middle">کالوس نرم</text>
+<rect x="130" y="55" width="40" height="45" rx="4" fill="#e7f6ee" stroke="#2E7D32"/><text x="150" y="112" font-size="6" fill="#2E7D32" text-anchor="middle">کالوس استخوانی</text>
+<rect x="185" y="55" width="40" height="45" rx="4" fill="#e8f0fb" stroke="#1467c8"/><text x="205" y="112" font-size="6" fill="#1467c8" text-anchor="middle">بازسازی</text></g>
+<path d="M60,77 L75,77 M115,77 L130,77 M170,77 L185,77" stroke="#5e6b7a" stroke-width="1.5" marker-end="url(#a)"/>
+<defs><marker id="a" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#5e6b7a"/></marker></defs>
+<text x="120" y="140" font-family="sans-serif" font-size="7" fill="#1b2430" text-anchor="middle" opacity="0.55">Fracture healing — hematoma → soft → bony callus → remodeling</text></svg>
