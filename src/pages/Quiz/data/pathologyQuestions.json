@@ -5758,5 +5758,2675 @@
     ],
     "correctOptionId": "a",
     "explanation_fa": "شکستگی‌های مکرر OI می‌تواند با کودک‌آزاری اشتباه شود؛ حضور صلبیه‌ی آبی، کاهش شنوایی و سابقه‌ی خانوادگی به تشخیص OI کمک می‌کند."
+  },
+  {
+    "id": "pa-endocrine-10",
+    "topicId": "graves-disease",
+    "category": "Endocrine",
+    "question_fa": "کدام یافته گریوز را از سایر علل پرکاری تیروئید افتراق می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "اگزوفتالموس و میکزدم پره‌تیبیال",
+        "text_en": "Exophthalmos and pretibial myxedema"
+      },
+      {
+        "id": "b",
+        "text_fa": "گواتر ندولار",
+        "text_en": "Nodular goiter"
+      },
+      {
+        "id": "c",
+        "text_fa": "کلسی‌تونین بالا",
+        "text_en": "High calcitonin"
+      },
+      {
+        "id": "d",
+        "text_fa": "هیپوکالمی",
+        "text_en": "Hypokalemia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اگزوفتالموس و میکزدم پره‌تیبیال یافته‌های اختصاصی گریوز هستند و در سایر علل پرکاری تیروئید دیده نمی‌شوند."
+  },
+  {
+    "id": "pa-endocrine-11",
+    "topicId": "graves-disease",
+    "category": "Endocrine",
+    "question_fa": "الگوی جذب ید رادیواکتیو در گریوز چگونه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "جذب منتشر و افزایش‌یافته",
+        "text_en": "Diffuse increased uptake"
+      },
+      {
+        "id": "b",
+        "text_fa": "جذب لکه‌ای (patchy)",
+        "text_en": "Patchy uptake"
+      },
+      {
+        "id": "c",
+        "text_fa": "جذب سرد (cold)",
+        "text_en": "Cold uptake"
+      },
+      {
+        "id": "d",
+        "text_fa": "بدون جذب",
+        "text_en": "No uptake"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "گریوز جذب منتشر و افزایش‌یافته‌ی ید نشان می‌دهد، برخلاف گواتر مولتی‌ندولار سمی که الگوی لکه‌ای دارد."
+  },
+  {
+    "id": "pa-endocrine-12",
+    "topicId": "papillary-thyroid-carcinoma",
+    "category": "Endocrine",
+    "question_fa": "کدام یافته‌ی میکروسکوپی مشخصه‌ی کارسینوم پاپیلاری تیروئید است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هسته‌های Orphan Annie eye و اجسام پسامومایی",
+        "text_en": "Orphan Annie eye nuclei and psammoma bodies"
+      },
+      {
+        "id": "b",
+        "text_fa": "سلول‌های Hürthle",
+        "text_en": "Hürthle cells"
+      },
+      {
+        "id": "c",
+        "text_fa": "آمیلوئید",
+        "text_en": "Amyloid"
+      },
+      {
+        "id": "d",
+        "text_fa": "نکروز کازئوز",
+        "text_en": "Caseous necrosis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "هسته‌های شفاف Orphan Annie eye و اجسام پسامومایی یافته‌های میکروسکوپی مشخصه‌ی کارسینوم پاپیلاری تیروئیدند."
+  },
+  {
+    "id": "pa-endocrine-13",
+    "topicId": "papillary-thyroid-carcinoma",
+    "category": "Endocrine",
+    "question_fa": "پیش‌آگهی کارسینوم پاپیلاری تیروئید چگونه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بهترین پیش‌آگهی، با وجود انتشار لنفاوی شایع",
+        "text_en": "Best prognosis, despite common lymphatic spread"
+      },
+      {
+        "id": "b",
+        "text_fa": "بدترین پیش‌آگهی",
+        "text_en": "Worst prognosis"
+      },
+      {
+        "id": "c",
+        "text_fa": "همیشه کشنده",
+        "text_en": "Always fatal"
+      },
+      {
+        "id": "d",
+        "text_fa": "فقط با کلسی‌تونین پیگیری می‌شود",
+        "text_en": "Followed only by calcitonin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کارسینوم پاپیلاری با وجود انتشار لنفاویِ شایع، بهترین پیش‌آگهی را در میان سرطان‌های تیروئید دارد."
+  },
+  {
+    "id": "pa-endocrine-14",
+    "topicId": "type-2-diabetes-mellitus",
+    "category": "Endocrine",
+    "question_fa": "یافته‌ی بافت‌شناسی مشخصه‌ی دیابت نوع ۲ طولانی‌مدت کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "رسوب آمیلوئید در جزایر لانگرهانس",
+        "text_en": "Amyloid deposition in islets of Langerhans"
+      },
+      {
+        "id": "b",
+        "text_fa": "انسولیت لنفوسیتی",
+        "text_en": "Lymphocytic insulitis"
+      },
+      {
+        "id": "c",
+        "text_fa": "فیبروز کامل پانکراس",
+        "text_en": "Complete pancreatic fibrosis"
+      },
+      {
+        "id": "d",
+        "text_fa": "نکروز چربی",
+        "text_en": "Fat necrosis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "رسوب آمیلوئید در جزایر لانگرهانس یافته‌ی بافت‌شناسی مشخصه‌ی دیابت نوع ۲ طولانی‌مدت است."
+  },
+  {
+    "id": "pa-endocrine-15",
+    "topicId": "type-2-diabetes-mellitus",
+    "category": "Endocrine",
+    "question_fa": "کدام آزمایش کنترل قند خون ۳ ماه گذشته را ارزیابی می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "HbA1c",
+        "text_en": "HbA1c"
+      },
+      {
+        "id": "b",
+        "text_fa": "قند ناشتای منفرد",
+        "text_en": "Single fasting glucose"
+      },
+      {
+        "id": "c",
+        "text_fa": "کتون ادرار",
+        "text_en": "Urine ketones"
+      },
+      {
+        "id": "d",
+        "text_fa": "C-peptide",
+        "text_en": "C-peptide"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "HbA1c میانگین کنترل قند خون طی حدود ۳ ماه گذشته را نشان می‌دهد و آزمایش کلیدی پیگیری دیابت است."
+  },
+  {
+    "id": "pa-endocrine-16",
+    "topicId": "primary-hyperaldosteronism",
+    "category": "Endocrine",
+    "question_fa": "کدام سه‌گانه مطرح‌کننده‌ی هیپرآلدوسترونیسم اولیه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هیپوکالمی + فشار خون بالا + رنین پایین",
+        "text_en": "Hypokalemia + hypertension + low renin"
+      },
+      {
+        "id": "b",
+        "text_fa": "هیپرکالمی + فشار خون پایین + رنین بالا",
+        "text_en": "Hyperkalemia + hypotension + high renin"
+      },
+      {
+        "id": "c",
+        "text_fa": "هیپوناترمی + هیپرپیگمانتاسیون",
+        "text_en": "Hyponatremia + hyperpigmentation"
+      },
+      {
+        "id": "d",
+        "text_fa": "هیپرکلسمی + PTH بالا",
+        "text_en": "Hypercalcemia + high PTH"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "هیپوکالمی + فشار خون بالا + رنین پایین سه‌گانه‌ی کلاسیک هیپرآلدوسترونیسم اولیه (سندرم کان) است."
+  },
+  {
+    "id": "pa-endocrine-17",
+    "topicId": "addison-disease",
+    "category": "Endocrine",
+    "question_fa": "کدام مجموعه مطرح‌کننده‌ی بیماری آدیسون (نارسایی اولیه‌ی آدرنال) است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هیپرپیگمانتاسیون + هیپوناترمی + هیپرکالمی",
+        "text_en": "Hyperpigmentation + hyponatremia + hyperkalemia"
+      },
+      {
+        "id": "b",
+        "text_fa": "هیپرپیگمانتاسیون + هیپرناترمی",
+        "text_en": "Hyperpigmentation + hypernatremia"
+      },
+      {
+        "id": "c",
+        "text_fa": "فشار خون بالا + هیپوکالمی",
+        "text_en": "Hypertension + hypokalemia"
+      },
+      {
+        "id": "d",
+        "text_fa": "هیپرکلسمی + سنگ کلیه",
+        "text_en": "Hypercalcemia + kidney stones"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "هیپرپیگمانتاسیون + هیپوناترمی + هیپرکالمی مطرح‌کننده‌ی آدیسونِ اولیه است؛ فقدان هیپرپیگمانتاسیون با ACTH پایین به نفع نارسایی ثانویه است."
+  },
+  {
+    "id": "pa-endocrine-18",
+    "topicId": "addison-disease",
+    "category": "Endocrine",
+    "question_fa": "علت هیپرپیگمانتاسیون در بیماری آدیسون چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "افزایش POMC (پیش‌ساز مشترک ACTH و MSH)",
+        "text_en": "Increased POMC (shared precursor of ACTH and MSH)"
+      },
+      {
+        "id": "b",
+        "text_fa": "رسوب ملانین ناشی از آفتاب",
+        "text_en": "Sun-induced melanin"
+      },
+      {
+        "id": "c",
+        "text_fa": "افزایش کورتیزول",
+        "text_en": "Increased cortisol"
+      },
+      {
+        "id": "d",
+        "text_fa": "کمبود آهن",
+        "text_en": "Iron deficiency"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در آدیسونِ اولیه، افزایش POMC (پیش‌ساز مشترک ACTH و MSH) هیپرپیگمانتاسیون ایجاد می‌کند؛ این در نارسایی ثانویه‌ی آدرنال دیده نمی‌شود."
+  },
+  {
+    "id": "pa-endocrine-19",
+    "topicId": "mody-lada-other-diabetes",
+    "category": "Endocrine",
+    "question_fa": "بزرگسالی با ظاهر دیابت نوع ۲ اما آنتی‌بادی GAD مثبت، به کدام تشخیص مطرح می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "LADA",
+        "text_en": "LADA"
+      },
+      {
+        "id": "b",
+        "text_fa": "MODY",
+        "text_en": "MODY"
+      },
+      {
+        "id": "c",
+        "text_fa": "دیابت بارداری",
+        "text_en": "Gestational diabetes"
+      },
+      {
+        "id": "d",
+        "text_fa": "دیابت نوع ۱ کلاسیک کودکی",
+        "text_en": "Classic childhood type 1"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "بزرگسال با ظاهر دیابت نوع ۲ که GAD مثبت دارد، مطرح‌کننده‌ی LADA (دیابت خودایمنِ نهفته‌ی بزرگسالان) است."
+  },
+  {
+    "id": "pa-endocrine-20",
+    "topicId": "pituitary-adenoma-functioning",
+    "category": "Endocrine",
+    "question_fa": "درمان خط اول پرولاکتینوما کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کابرگولین (آگونیست دوپامین)",
+        "text_en": "Cabergoline (dopamine agonist)"
+      },
+      {
+        "id": "b",
+        "text_fa": "جراحی فوری",
+        "text_en": "Immediate surgery"
+      },
+      {
+        "id": "c",
+        "text_fa": "رادیوتراپی",
+        "text_en": "Radiotherapy"
+      },
+      {
+        "id": "d",
+        "text_fa": "لووتیروکسین",
+        "text_en": "Levothyroxine"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "درمان خط اول پرولاکتینوما دارویی است (کابرگولین، آگونیست دوپامین)، نه جراحی."
+  },
+  {
+    "id": "pa-endocrine-21",
+    "topicId": "pituitary-adenoma-nonfunctioning",
+    "category": "Endocrine",
+    "question_fa": "همیانوپی بای‌تمپورال در توده‌ی هیپوفیز ناشی از چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فشار روی کیاسم بینایی از پایین",
+        "text_en": "Compression of the optic chiasm from below"
+      },
+      {
+        "id": "b",
+        "text_fa": "فشار روی عصب بینایی محیطی",
+        "text_en": "Peripheral optic nerve compression"
+      },
+      {
+        "id": "c",
+        "text_fa": "آب‌مروارید",
+        "text_en": "Cataract"
+      },
+      {
+        "id": "d",
+        "text_fa": "دکولمان شبکیه",
+        "text_en": "Retinal detachment"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "توده‌ی هیپوفیزی با فشار از پایین روی کیاسم بینایی، همیانوپی بای‌تمپورال (از دست رفتن میدان بینایی گیجگاهی دوطرفه) ایجاد می‌کند."
+  },
+  {
+    "id": "pa-endocrine-22",
+    "topicId": "hypopituitarism-sheehan-syndrome",
+    "category": "Endocrine",
+    "question_fa": "خون‌ریزی شدید پس از زایمان همراه با ناتوانی در شیردهی مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سندرم شیهان",
+        "text_en": "Sheehan syndrome"
+      },
+      {
+        "id": "b",
+        "text_fa": "بیماری آدیسون",
+        "text_en": "Addison disease"
+      },
+      {
+        "id": "c",
+        "text_fa": "گریوز",
+        "text_en": "Graves disease"
+      },
+      {
+        "id": "d",
+        "text_fa": "پرولاکتینوما",
+        "text_en": "Prolactinoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "خون‌ریزی شدید پس از زایمان + ناتوانی در شیردهی مطرح‌کننده‌ی سندرم شیهان (نکروز ایسکمیک هیپوفیز پس از زایمان) است."
+  },
+  {
+    "id": "pa-endocrine-23",
+    "topicId": "hypopituitarism-sheehan-syndrome",
+    "category": "Endocrine",
+    "question_fa": "در هیپوتیروئیدی مرکزی، قبل از شروع لووتیروکسین چه چیزی باید بررسی شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کورتیزول",
+        "text_en": "Cortisol"
+      },
+      {
+        "id": "b",
+        "text_fa": "کلسیم",
+        "text_en": "Calcium"
+      },
+      {
+        "id": "c",
+        "text_fa": "HbA1c",
+        "text_en": "HbA1c"
+      },
+      {
+        "id": "d",
+        "text_fa": "فریتین",
+        "text_en": "Ferritin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در هیپوتیروئیدی مرکزی باید قبل از لووتیروکسین کورتیزول بررسی شود؛ افزایش متابولیسم بدون جایگزینی کورتیزول می‌تواند بحران آدرنال ایجاد کند."
+  },
+  {
+    "id": "pa-endocrine-24",
+    "topicId": "toxic-nodular-goiter-toxic-adenoma",
+    "category": "Endocrine",
+    "question_fa": "پرکاری تیروئید بدون علائم چشمی در بیمار مسن با گواتر ندولار به کدام تشخیص مطرح است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "گواتر مولتی‌ندولار سمی",
+        "text_en": "Toxic multinodular goiter"
+      },
+      {
+        "id": "b",
+        "text_fa": "بیماری گریوز",
+        "text_en": "Graves disease"
+      },
+      {
+        "id": "c",
+        "text_fa": "تیروئیدیت هاشیموتو",
+        "text_en": "Hashimoto thyroiditis"
+      },
+      {
+        "id": "d",
+        "text_fa": "کارسینوم آناپلاستیک",
+        "text_en": "Anaplastic carcinoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پرکاری تیروئید بدون علائم چشمی در فرد مسن با گواتر ندولار مطرح‌کننده‌ی گواتر مولتی‌ندولار سمی است، نه گریوز؛ اسکن ید الگوی لکه‌ای نشان می‌دهد."
+  },
+  {
+    "id": "pa-endocrine-25",
+    "topicId": "follicular-thyroid-carcinoma",
+    "category": "Endocrine",
+    "question_fa": "چرا FNA نمی‌تواند کارسینوم فولیکولار را قطعی تشخیص دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تشخیص نیازمند بررسی تهاجم کپسولی/عروقی در نمونه‌ی جراحی است",
+        "text_en": "Diagnosis needs capsular/vascular invasion on the surgical specimen"
+      },
+      {
+        "id": "b",
+        "text_fa": "FNA همیشه بدخیمی را رد می‌کند",
+        "text_en": "FNA always excludes malignancy"
+      },
+      {
+        "id": "c",
+        "text_fa": "فولیکولار فاقد سلول است",
+        "text_en": "Follicular lesions have no cells"
+      },
+      {
+        "id": "d",
+        "text_fa": "فقط با کلسی‌تونین تشخیص داده می‌شود",
+        "text_en": "Diagnosed only by calcitonin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "FNA نمی‌تواند فولیکولار خوش‌خیم را از بدخیم افتراق دهد؛ تشخیص قطعی مستلزم دیدن تهاجم کپسولی/عروقی در نمونه‌ی جراحی است."
+  },
+  {
+    "id": "pa-endocrine-26",
+    "topicId": "medullary-anaplastic-thyroid-carcinoma",
+    "category": "Endocrine",
+    "question_fa": "کدام نشانگر تومورال مشخصه‌ی کارسینوم مدولاری تیروئید است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کلسی‌تونین",
+        "text_en": "Calcitonin"
+      },
+      {
+        "id": "b",
+        "text_fa": "AFP",
+        "text_en": "AFP"
+      },
+      {
+        "id": "c",
+        "text_fa": "PSA",
+        "text_en": "PSA"
+      },
+      {
+        "id": "d",
+        "text_fa": "CA-125",
+        "text_en": "CA-125"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کلسی‌تونین بالا نشانگر کارسینوم مدولاری تیروئید است؛ قبل از جراحی باید فئوکروموسیتوم همراه (در چارچوب MEN2) رد شود."
+  },
+  {
+    "id": "pa-endocrine-27",
+    "topicId": "medullary-anaplastic-thyroid-carcinoma",
+    "category": "Endocrine",
+    "question_fa": "قبل از جراحی کارسینوم مدولاری تیروئید چه چیزی باید غربالگری شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فئوکروموسیتوم (در چارچوب MEN2)",
+        "text_en": "Pheochromocytoma (in MEN2)"
+      },
+      {
+        "id": "b",
+        "text_fa": "دیابت",
+        "text_en": "Diabetes"
+      },
+      {
+        "id": "c",
+        "text_fa": "هپاتیت",
+        "text_en": "Hepatitis"
+      },
+      {
+        "id": "d",
+        "text_fa": "کم‌خونی",
+        "text_en": "Anemia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "به‌علت ارتباط با MEN2، باید قبل از جراحی تیروئید فئوکروموسیتومِ همراه غربالگری و رد شود تا از بحران فشار خون حین عمل جلوگیری شود."
+  },
+  {
+    "id": "pa-hepatobiliary-5",
+    "topicId": "cirrhosis-of-liver",
+    "category": "Hepatobiliary",
+    "question_fa": "دو جزء ضروری برای تعریف سیروز کدام‌اند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فیبروز برگشت‌ناپذیر + بازآرایی ندولار",
+        "text_en": "Irreversible fibrosis + nodular regeneration"
+      },
+      {
+        "id": "b",
+        "text_fa": "استئاتوز + التهاب",
+        "text_en": "Steatosis + inflammation"
+      },
+      {
+        "id": "c",
+        "text_fa": "کلستاز + یرقان",
+        "text_en": "Cholestasis + jaundice"
+      },
+      {
+        "id": "d",
+        "text_fa": "نکروز + آبسه",
+        "text_en": "Necrosis + abscess"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "سیروز نیازمند حضور هر دو جزء است: فیبروز برگشت‌ناپذیر و بازآرایی ندولار پارانشیم کبد."
+  },
+  {
+    "id": "pa-hepatobiliary-6",
+    "topicId": "hepatocellular-carcinoma",
+    "category": "Hepatobiliary",
+    "question_fa": "دکمپانسیشن ناگهانی همراه AFP بالا در بیمار سیروتیک مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کارسینوم هپاتوسلولار (HCC)",
+        "text_en": "Hepatocellular carcinoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "هپاتیت حاد A",
+        "text_en": "Acute hepatitis A"
+      },
+      {
+        "id": "c",
+        "text_fa": "کیست ساده",
+        "text_en": "Simple cyst"
+      },
+      {
+        "id": "d",
+        "text_fa": "هموکروماتوز",
+        "text_en": "Hemochromatosis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "دکمپانسیشن ناگهانی یا AFP بالا در بیمار سیروتیکِ شناخته‌شده تا رد نشدن باید به‌عنوان HCC در نظر گرفته شود."
+  },
+  {
+    "id": "pa-hepatobiliary-7",
+    "topicId": "chronic-viral-hepatitis-cirrhosis",
+    "category": "Hepatobiliary",
+    "question_fa": "هپاتوسیت «شیشه‌ای (ground-glass)» نشانه‌ی کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هپاتیت B مزمن",
+        "text_en": "Chronic hepatitis B"
+      },
+      {
+        "id": "b",
+        "text_fa": "هپاتیت C مزمن",
+        "text_en": "Chronic hepatitis C"
+      },
+      {
+        "id": "c",
+        "text_fa": "هپاتیت اتوایمیون",
+        "text_en": "Autoimmune hepatitis"
+      },
+      {
+        "id": "d",
+        "text_fa": "کبد چرب الکلی",
+        "text_en": "Alcoholic fatty liver"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "هپاتوسیت شیشه‌ای (ground-glass) نشانه‌ی پاتوگنومونیک هپاتیت B مزمن است (تجمع HBsAg)، نه C."
+  },
+  {
+    "id": "pa-hepatobiliary-8",
+    "topicId": "cholestatic-liver-disease-pbc-psc",
+    "category": "Hepatobiliary",
+    "question_fa": "آنتی‌بادی آنتی‌میتوکندریال (AMA) مثبت مشخصه‌ی کدام بیماری است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سیروز صفراوی اولیه (PBC)",
+        "text_en": "Primary biliary cholangitis (PBC)"
+      },
+      {
+        "id": "b",
+        "text_fa": "کلانژیت اسکلروزان اولیه (PSC)",
+        "text_en": "Primary sclerosing cholangitis (PSC)"
+      },
+      {
+        "id": "c",
+        "text_fa": "هپاتیت B",
+        "text_en": "Hepatitis B"
+      },
+      {
+        "id": "d",
+        "text_fa": "هموکروماتوز",
+        "text_en": "Hemochromatosis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "AMA مثبت در ~۹۵٪ موارد PBC دیده می‌شود؛ PSC (مرتبط با کولیت اولسراتیو، الگوی پوست‌پیازی) معمولاً AMA منفی است."
+  },
+  {
+    "id": "pa-hepatobiliary-9",
+    "topicId": "cholelithiasis-cholecystitis",
+    "category": "Hepatobiliary",
+    "question_fa": "آنمی همولیتیک مزمن (مثل سلول داسی‌شکل) خطر کدام نوع سنگ صفرا را افزایش می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سنگ پیگمانی سیاه",
+        "text_en": "Black pigment stones"
+      },
+      {
+        "id": "b",
+        "text_fa": "سنگ کلسترولی",
+        "text_en": "Cholesterol stones"
+      },
+      {
+        "id": "c",
+        "text_fa": "سنگ کلسیم اگزالات",
+        "text_en": "Calcium oxalate stones"
+      },
+      {
+        "id": "d",
+        "text_fa": "سنگ اسید اوریک",
+        "text_en": "Uric acid stones"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "همولیز مزمن بیلی‌روبین بیشتری تولید می‌کند و خطر سنگ پیگمانی سیاه را افزایش می‌دهد، نه سنگ کلسترولی."
+  },
+  {
+    "id": "pa-hepatobiliary-10",
+    "topicId": "pancreatic-ductal-adenocarcinoma",
+    "category": "Hepatobiliary",
+    "question_fa": "زردی انسدادی بدون درد در فرد مسن مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تومور سر پانکراس",
+        "text_en": "Tumor of the pancreatic head"
+      },
+      {
+        "id": "b",
+        "text_fa": "سنگ کیسه صفرا",
+        "text_en": "Gallstone"
+      },
+      {
+        "id": "c",
+        "text_fa": "هپاتیت ویروسی",
+        "text_en": "Viral hepatitis"
+      },
+      {
+        "id": "d",
+        "text_fa": "کبد چرب",
+        "text_en": "Fatty liver"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "زردی انسدادی بدون درد در فرد مسن باید شک به آدنوکارسینوم سر پانکراس را برانگیزد."
+  },
+  {
+    "id": "pa-hepatobiliary-11",
+    "topicId": "cholangiocarcinoma",
+    "category": "Hepatobiliary",
+    "question_fa": "تومور Klatskin کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کلانژیوکارسینوما در محل اتصال مجاری کبدی راست و چپ",
+        "text_en": "Cholangiocarcinoma at the confluence of right/left hepatic ducts"
+      },
+      {
+        "id": "b",
+        "text_fa": "تومور سر پانکراس",
+        "text_en": "Pancreatic head tumor"
+      },
+      {
+        "id": "c",
+        "text_fa": "کارسینوم کیسه صفرا",
+        "text_en": "Gallbladder carcinoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "آدنوم کبدی",
+        "text_en": "Hepatic adenoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تومور Klatskin کلانژیوکارسینومایی است که در محل اتصال مجاری کبدی راست و چپ (هیلوم) قرار دارد."
+  },
+  {
+    "id": "pa-hepatobiliary-12",
+    "topicId": "hepatic-adenoma",
+    "category": "Hepatobiliary",
+    "question_fa": "توده‌ی هپاتوسیتیِ بدون اسکار مرکزی در زن جوان مصرف‌کننده‌ی OCP چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آدنومای هپاتوسلولار",
+        "text_en": "Hepatocellular adenoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "هیپرپلازی فوکال ندولار",
+        "text_en": "Focal nodular hyperplasia"
+      },
+      {
+        "id": "c",
+        "text_fa": "کارسینوم هپاتوسلولار",
+        "text_en": "Hepatocellular carcinoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "همانژیوم",
+        "text_en": "Hemangioma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "توده‌ی هپاتوسیتی بدون اسکار مرکزی در زن جوان مصرف‌کننده‌ی OCP، آدنومای هپاتوسلولار است؛ قطع OCP می‌تواند باعث پسرفت آن شود."
+  },
+  {
+    "id": "pa-hepatobiliary-13",
+    "topicId": "focal-nodular-hyperplasia",
+    "category": "Hepatobiliary",
+    "question_fa": "اسکار ستاره‌ای مرکزی (central stellate scar) نشانه‌ی کلاسیک کدام ضایعه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هیپرپلازی فوکال ندولار (FNH)",
+        "text_en": "Focal nodular hyperplasia (FNH)"
+      },
+      {
+        "id": "b",
+        "text_fa": "کارسینوم هپاتوسلولار",
+        "text_en": "Hepatocellular carcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "آدنومای هپاتوسلولار",
+        "text_en": "Hepatocellular adenoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "کیست هیداتید",
+        "text_en": "Hydatid cyst"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اسکار ستاره‌ای مرکزی با الگوی رادیه‌ای نشانه‌ی کلاسیک FNH است (ضایعه‌ی خوش‌خیم که اغلب فقط پایش می‌شود)."
+  },
+  {
+    "id": "pa-renal-10",
+    "topicId": "glomerulonephritis-poststreptococcal",
+    "category": "Renal",
+    "question_fa": "یافته‌ی کلاسیک میکروسکوپ الکترونی در گلومرولونفریت پس از استرپتوکوک کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "برجستگی‌های زیراپیتلیال (subepithelial humps)",
+        "text_en": "Subepithelial humps"
+      },
+      {
+        "id": "b",
+        "text_fa": "افاسمنت پایه‌ی پودوسیت",
+        "text_en": "Podocyte foot process effacement only"
+      },
+      {
+        "id": "c",
+        "text_fa": "اسپایک و دوم",
+        "text_en": "Spike-and-dome"
+      },
+      {
+        "id": "d",
+        "text_fa": "دوپلیکاسیون غشای پایه",
+        "text_en": "Basement membrane duplication"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "برجستگی‌های زیراپیتلیال (humps) در میکروسکوپ الکترونی یافته‌ی کلاسیک PSGN است."
+  },
+  {
+    "id": "pa-renal-11",
+    "topicId": "polycystic-kidney-disease",
+    "category": "Renal",
+    "question_fa": "بیمار ADPKD با سردرد ناگهانی و شدید — به کدام عارضه باید فکر کرد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پارگی آنوریسم برِی (بری)",
+        "text_en": "Ruptured berry aneurysm"
+      },
+      {
+        "id": "b",
+        "text_fa": "مننژیت",
+        "text_en": "Meningitis"
+      },
+      {
+        "id": "c",
+        "text_fa": "میگرن ساده",
+        "text_en": "Simple migraine"
+      },
+      {
+        "id": "d",
+        "text_fa": "سکته‌ی ایسکمیک",
+        "text_en": "Ischemic stroke"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "ADPKD با آنوریسم‌های ساکولار (berry) مرتبط است؛ سردرد ناگهانی و شدید مطرح‌کننده‌ی پارگی آنوریسم و خون‌ریزی ساب‌آراکنوئید است."
+  },
+  {
+    "id": "pa-renal-12",
+    "topicId": "tubulointerstitial-nephritis-pyelonephritis",
+    "category": "Renal",
+    "question_fa": "ائوزینوفیل در ادرار + شروع داروی جدید + افت ناگهانی عملکرد کلیه مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "نفریت بینابینی حاد (آلرژیک)",
+        "text_en": "Acute (allergic) interstitial nephritis"
+      },
+      {
+        "id": "b",
+        "text_fa": "نکروز حاد توبولی",
+        "text_en": "Acute tubular necrosis"
+      },
+      {
+        "id": "c",
+        "text_fa": "گلومرولونفریت",
+        "text_en": "Glomerulonephritis"
+      },
+      {
+        "id": "d",
+        "text_fa": "سنگ کلیه",
+        "text_en": "Nephrolithiasis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "ائوزینوفیلی ادراری/خونی همراه شروع داروی جدید و افت عملکرد کلیه، نفریت بینابینی حادِ آلرژیک را مطرح می‌کند."
+  },
+  {
+    "id": "pa-renal-13",
+    "topicId": "nephrosclerosis-renal-artery-stenosis",
+    "category": "Renal",
+    "question_fa": "هیپرتانسیون رنوواسکولار (تنگی شریان کلیوی) با چه سطح رنینی همراه است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "رنین بالا",
+        "text_en": "High renin"
+      },
+      {
+        "id": "b",
+        "text_fa": "رنین پایین",
+        "text_en": "Low renin"
+      },
+      {
+        "id": "c",
+        "text_fa": "رنین صفر",
+        "text_en": "Zero renin"
+      },
+      {
+        "id": "d",
+        "text_fa": "رنین بی‌ارتباط",
+        "text_en": "Renin unrelated"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تنگی شریان کلیوی با فعال‌شدن سیستم رنین-آنژیوتانسین و رنین بالا همراه است و در صورت تشخیص زودرس با آنژیوپلاستی قابل‌درمان است."
+  },
+  {
+    "id": "pa-renal-14",
+    "topicId": "angiomyolipoma-renal",
+    "category": "Renal",
+    "question_fa": "توده‌ی کلیوی حاوی چربی در بیمار مبتلا به توبروز اسکلروزیس چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آنژیومیولیپوم",
+        "text_en": "Angiomyolipoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "کارسینوم سلول کلیوی",
+        "text_en": "Renal cell carcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "تومور ویلمز",
+        "text_en": "Wilms tumor"
+      },
+      {
+        "id": "d",
+        "text_fa": "انکوسیتوما",
+        "text_en": "Oncocytoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "توده‌ی کلیوی حاوی چربی در تصویربرداری + توبروز اسکلروزیس مطرح‌کننده‌ی آنژیومیولیپوم (خوش‌خیم) است، نه بدخیمی."
+  },
+  {
+    "id": "pa-renal-15",
+    "topicId": "bladder-urothelial-carcinoma",
+    "category": "Renal",
+    "question_fa": "هماچوری بدون درد در مرد سیگاری بالای ۵۰ سال اندیکاسیون کدام اقدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سیستوسکوپی",
+        "text_en": "Cystoscopy"
+      },
+      {
+        "id": "b",
+        "text_fa": "فقط مشاهده",
+        "text_en": "Observation only"
+      },
+      {
+        "id": "c",
+        "text_fa": "آنتی‌بیوتیک تجربی",
+        "text_en": "Empiric antibiotics"
+      },
+      {
+        "id": "d",
+        "text_fa": "دیالیز",
+        "text_en": "Dialysis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "هماچوری بدون درد در بیمار سیگاری بالای ۵۰ سال اندیکاسیون قطعی سیستوسکوپی برای رد کارسینوم اوروتلیال مثانه است."
+  },
+  {
+    "id": "pa-renal-16",
+    "topicId": "focal-segmental-glomerulosclerosis",
+    "category": "Renal",
+    "question_fa": "سندرم نفروتیک مقاوم به استروئید در بالغ مطرح‌کننده‌ی کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "گلومرولواسکلروز فوکال سگمنتال (FSGS)",
+        "text_en": "Focal segmental glomerulosclerosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "بیماری حداقل تغییر (MCD)",
+        "text_en": "Minimal change disease"
+      },
+      {
+        "id": "c",
+        "text_fa": "نفروپاتی ممبرانوس",
+        "text_en": "Membranous nephropathy"
+      },
+      {
+        "id": "d",
+        "text_fa": "نفروپاتی IgA",
+        "text_en": "IgA nephropathy"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "سندرم نفروتیک مقاوم به استروئید در بالغ به FSGS مطرح است، برخلاف MCD که پاسخ‌ده به استروئید و شایع‌تر در کودکان است."
+  },
+  {
+    "id": "pa-renal-17",
+    "topicId": "membranous-nephropathy",
+    "category": "Renal",
+    "question_fa": "سندرم نفروتیک در بالغ مسن همراه کاهش وزن/علائم سیستمیک، قبل از فرض ایدیوپاتیک چه اقدامی لازم است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "غربالگری بدخیمی زمینه‌ای",
+        "text_en": "Screen for underlying malignancy"
+      },
+      {
+        "id": "b",
+        "text_fa": "شروع فوری دیالیز",
+        "text_en": "Immediate dialysis"
+      },
+      {
+        "id": "c",
+        "text_fa": "بیوپسی پوست",
+        "text_en": "Skin biopsy"
+      },
+      {
+        "id": "d",
+        "text_fa": "هیچ اقدامی",
+        "text_en": "No workup"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "نفروپاتی ممبرانوس می‌تواند ثانویه به بدخیمی باشد؛ در بالغ مسن با علائم سیستمیک باید بدخیمی زمینه‌ای غربالگری شود."
+  },
+  {
+    "id": "pa-renal-18",
+    "topicId": "iga-nephropathy",
+    "category": "Renal",
+    "question_fa": "فاصله‌ی کوتاه (۱ تا ۲ روز) بین عفونت و هماچوری مطرح‌کننده‌ی کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "نفروپاتی IgA",
+        "text_en": "IgA nephropathy"
+      },
+      {
+        "id": "b",
+        "text_fa": "گلومرولونفریت پس از استرپتوکوک",
+        "text_en": "Post-streptococcal GN"
+      },
+      {
+        "id": "c",
+        "text_fa": "FSGS",
+        "text_en": "FSGS"
+      },
+      {
+        "id": "d",
+        "text_fa": "نفروپاتی ممبرانوس",
+        "text_en": "Membranous nephropathy"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "فاصله‌ی کوتاه (۱–۲ روز) بین عفونت و هماچوری به نفروپاتی IgA اشاره دارد؛ فاصله‌ی طولانی‌تر (۱–۳ هفته) به گلومرولونفریت پس از استرپتوکوک."
+  },
+  {
+    "id": "pa-renal-19",
+    "topicId": "rapidly-progressive-glomerulonephritis",
+    "category": "Renal",
+    "question_fa": "یافته‌ی بافت‌شناسی مشخصه‌ی گلومرولونفریت سریع‌پیشرونده (RPGN) کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هلال (crescent) در اکثر گلومرول‌ها",
+        "text_en": "Crescents in most glomeruli"
+      },
+      {
+        "id": "b",
+        "text_fa": "برجستگی زیراپیتلیال",
+        "text_en": "Subepithelial humps"
+      },
+      {
+        "id": "c",
+        "text_fa": "اسکلروز سگمنتال",
+        "text_en": "Segmental sclerosis"
+      },
+      {
+        "id": "d",
+        "text_fa": "گلومرول طبیعی",
+        "text_en": "Normal glomeruli"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "RPGN با تشکیل هلال در اکثر گلومرول‌ها و افت سریع GFR مشخص می‌شود؛ نوع دقیق با الگوی ایمونوفلورسانس تعیین می‌شود."
+  },
+  {
+    "id": "pa-gi-10",
+    "topicId": "peptic-ulcer-disease",
+    "category": "GI",
+    "question_fa": "درد که با غذا خوردن بهتر می‌شود مطرح‌کننده‌ی کدام زخم است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "زخم دوازدهه",
+        "text_en": "Duodenal ulcer"
+      },
+      {
+        "id": "b",
+        "text_fa": "زخم معده",
+        "text_en": "Gastric ulcer"
+      },
+      {
+        "id": "c",
+        "text_fa": "ازوفاژیت",
+        "text_en": "Esophagitis"
+      },
+      {
+        "id": "d",
+        "text_fa": "زخم دهانی",
+        "text_en": "Oral ulcer"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "درد زخم دوازدهه با غذا بهتر می‌شود، در حالی‌که درد زخم معده با غذا بدتر می‌شود — نکته‌ی کلاسیک حفظی."
+  },
+  {
+    "id": "pa-gi-11",
+    "topicId": "gastritis-acute-chronic",
+    "category": "GI",
+    "question_fa": "هیپرگاسترینمی + آنمی پرنیشیوز + آنتی‌بادی سلول پاریتال مطرح‌کننده‌ی کدام گاستریت است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "گاستریت اتوایمیون",
+        "text_en": "Autoimmune gastritis"
+      },
+      {
+        "id": "b",
+        "text_fa": "گاستریت ناشی از H. pylori",
+        "text_en": "H. pylori gastritis"
+      },
+      {
+        "id": "c",
+        "text_fa": "گاستریت شیمیایی",
+        "text_en": "Chemical gastritis"
+      },
+      {
+        "id": "d",
+        "text_fa": "گاستریت استرسی",
+        "text_en": "Stress gastritis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "هیپرگاسترینمی، آنمی پرنیشیوز و آنتی‌بادی سلول پاریتال مشخصه‌ی گاستریت اتوایمیون (نوع A) است، نه H. pylori."
+  },
+  {
+    "id": "pa-gi-12",
+    "topicId": "reflux-esophagitis-barrett",
+    "category": "GI",
+    "question_fa": "باره‌ت ازوفاگوس پیش‌ساز کدام بدخیمی است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آدنوکارسینوم مری",
+        "text_en": "Esophageal adenocarcinoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "کارسینوم سنگفرشی مری",
+        "text_en": "Esophageal squamous cell carcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "لنفوم",
+        "text_en": "Lymphoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "ملانوم",
+        "text_en": "Melanoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "باره‌ت (متاپلازی ستونی با سلول گابلت) پیش‌ساز اصلی آدنوکارسینوم مری است، نه کارسینوم سنگفرشی."
+  },
+  {
+    "id": "pa-gi-13",
+    "topicId": "achalasia-mallory-weiss",
+    "category": "GI",
+    "question_fa": "بیمار الکلی با هماتمز پس از استفراغ شدید مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سندرم مالوری-وایس",
+        "text_en": "Mallory-Weiss syndrome"
+      },
+      {
+        "id": "b",
+        "text_fa": "آکالازیا",
+        "text_en": "Achalasia"
+      },
+      {
+        "id": "c",
+        "text_fa": "واریس مری",
+        "text_en": "Esophageal varices"
+      },
+      {
+        "id": "d",
+        "text_fa": "باره‌ت",
+        "text_en": "Barrett esophagus"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پارگی طولی مخاط محل اتصال معده-مری پس از استفراغ شدید (اغلب در الکلی‌ها) سندرم مالوری-وایس است؛ آکالازیا با دیسفاژی تدریجی و «منقار پرنده» در بلع باریم تظاهر می‌کند."
+  },
+  {
+    "id": "pa-gi-14",
+    "topicId": "c-difficile-colitis",
+    "category": "GI",
+    "question_fa": "پسودوممبران روی مخاط کولون + سابقه‌ی آنتی‌بیوتیک اخیر مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کولیت ناشی از C. difficile",
+        "text_en": "C. difficile colitis"
+      },
+      {
+        "id": "b",
+        "text_fa": "کولیت اولسراتیو",
+        "text_en": "Ulcerative colitis"
+      },
+      {
+        "id": "c",
+        "text_fa": "کولیت ایسکمیک",
+        "text_en": "Ischemic colitis"
+      },
+      {
+        "id": "d",
+        "text_fa": "بیماری کرون",
+        "text_en": "Crohn disease"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پسودوممبران روی مخاط کولون همراه سابقه‌ی آنتی‌بیوتیک اخیر تا اثبات خلاف، کولیت C. difficile است."
+  },
+  {
+    "id": "pa-gi-15",
+    "topicId": "colorectal-adenocarcinoma-polyps",
+    "category": "GI",
+    "question_fa": "کدام گزاره درباره‌ی توالی آدنوما-کارسینوما در کولون درست است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تقریباً همه‌ی آدنوکارسینوم‌های اسپورادیک از یک آدنوما منشأ می‌گیرند",
+        "text_en": "Nearly all sporadic adenocarcinomas arise from an adenoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "همه‌ی آدنوماها بدخیم می‌شوند",
+        "text_en": "All adenomas become malignant"
+      },
+      {
+        "id": "c",
+        "text_fa": "آدنوکارسینوم بدون پیش‌ساز است",
+        "text_en": "Adenocarcinoma has no precursor"
+      },
+      {
+        "id": "d",
+        "text_fa": "آدنوما هرگز بدخیم نمی‌شود",
+        "text_en": "Adenoma never becomes malignant"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "بیشتر آدنوماها بدخیم نمی‌شوند، اما تقریباً همه‌ی آدنوکارسینوم‌های اسپورادیک کولون از یک آدنوما منشأ می‌گیرند (توالی آدنوما-کارسینوما)."
+  },
+  {
+    "id": "pa-gi-16",
+    "topicId": "oral-mucosal-lesions",
+    "category": "GI",
+    "question_fa": "کدام گزاره درباره‌ی لکوپلاکیا درست است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "یک توصیف بالینی است و تشخیص قطعی نیازمند بیوپسی است",
+        "text_en": "A clinical descriptor; definitive diagnosis needs biopsy"
+      },
+      {
+        "id": "b",
+        "text_fa": "همیشه بدخیم است",
+        "text_en": "Always malignant"
+      },
+      {
+        "id": "c",
+        "text_fa": "همیشه خوش‌خیم است",
+        "text_en": "Always benign"
+      },
+      {
+        "id": "d",
+        "text_fa": "با پاک‌شدن با گاز از بین می‌رود",
+        "text_en": "Wipes off with gauze"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لکوپلاکیا یک توصیف بالینی (پلاک سفیدِ پاک‌نشدنی) است نه تشخیص نهایی؛ تشخیص قطعی و رد دیسپلازی/کارسینوم فقط با بیوپسی ممکن است."
+  },
+  {
+    "id": "pa-gi-17",
+    "topicId": "salivary-gland-tumors",
+    "category": "GI",
+    "question_fa": "شایع‌ترین تومور خوش‌خیم غدد بزاقی («تومور مخلوط») کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پلئومورفیک آدنوما",
+        "text_en": "Pleomorphic adenoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "تومور وارتین",
+        "text_en": "Warthin tumor"
+      },
+      {
+        "id": "c",
+        "text_fa": "کارسینوم موکواپیدرموئید",
+        "text_en": "Mucoepidermoid carcinoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "آدنوم اکسیفیل",
+        "text_en": "Oxyphil adenoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پلئومورفیک آدنوما («تومور مخلوط») شایع‌ترین تومور خوش‌خیم غدد بزاقی است — یک تومور با چند نوع سلول (اپیتلیال و مزانشیمی)، نه دو تومور جدا."
+  },
+  {
+    "id": "pa-generalpathology-10",
+    "topicId": "necrosis-patterns-other",
+    "category": "General Pathology",
+    "question_fa": "مغز در ایسکمی چه نوع نکروزی می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "لیکوفکتیو",
+        "text_en": "Liquefactive"
+      },
+      {
+        "id": "b",
+        "text_fa": "انعقادی",
+        "text_en": "Coagulative"
+      },
+      {
+        "id": "c",
+        "text_fa": "کازئوز",
+        "text_en": "Caseous"
+      },
+      {
+        "id": "d",
+        "text_fa": "فیبرینوئید",
+        "text_en": "Fibrinoid"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "مغز حتی در ایسکمی نکروز لیکوفکتیو می‌دهد (به‌علت محتوای بالای لیپید و آنزیم‌های هیدرولیتیک)، برخلاف اکثر بافت‌ها که نکروز انعقادی می‌دهند."
+  },
+  {
+    "id": "pa-generalpathology-11",
+    "topicId": "apoptosis-cell-death",
+    "category": "General Pathology",
+    "question_fa": "تفاوت کلیدی آپوپتوز و نکروز کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آپوپتوز بدون التهاب؛ نکروز همراه با التهاب",
+        "text_en": "Apoptosis without inflammation; necrosis with inflammation"
+      },
+      {
+        "id": "b",
+        "text_fa": "هر دو همراه التهاب",
+        "text_en": "Both with inflammation"
+      },
+      {
+        "id": "c",
+        "text_fa": "آپوپتوز همیشه پاتولوژیک",
+        "text_en": "Apoptosis is always pathologic"
+      },
+      {
+        "id": "d",
+        "text_fa": "نکروز برنامه‌ریزی‌شده است",
+        "text_en": "Necrosis is programmed"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آپوپتوز (مرگ برنامه‌ریزی‌شده) معمولاً بدون التهاب است، در حالی‌که نکروز با نشت محتویات سلولی و التهاب همراه است."
+  },
+  {
+    "id": "pa-generalpathology-12",
+    "topicId": "vasculitis-classification-overview",
+    "category": "General Pathology",
+    "question_fa": "سالمند با سردرد گیجگاهی و کاهش بینایی — اقدام فوری کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "شروع کورتیکواستروئید قبل از بیوپسی",
+        "text_en": "Start corticosteroids before biopsy"
+      },
+      {
+        "id": "b",
+        "text_fa": "فقط مشاهده",
+        "text_en": "Observation only"
+      },
+      {
+        "id": "c",
+        "text_fa": "منتظر نتیجه‌ی بیوپسی ماندن",
+        "text_en": "Wait for biopsy result"
+      },
+      {
+        "id": "d",
+        "text_fa": "آنتی‌بیوتیک",
+        "text_en": "Antibiotics"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آرتریت سلول ژانت (تمپورال) اورژانس است؛ برای پیشگیری از کوری باید کورتیکواستروئید را پیش از بیوپسی شریان تمپورال شروع کرد."
+  },
+  {
+    "id": "pa-generalpathology-13",
+    "topicId": "tumor-metastasis-cascade",
+    "category": "General Pathology",
+    "question_fa": "چه زمانی بهترین فرصت برای درمان قطعی تومور وجود دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "در مرحله‌ی تهاجم موضعی زودرس",
+        "text_en": "At early local invasion"
+      },
+      {
+        "id": "b",
+        "text_fa": "پس از ورود به گردش خون",
+        "text_en": "After entering circulation"
+      },
+      {
+        "id": "c",
+        "text_fa": "پس از متاستاز دوردست",
+        "text_en": "After distant metastasis"
+      },
+      {
+        "id": "d",
+        "text_fa": "هیچ‌گاه",
+        "text_en": "Never"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تشخیص زودرس تهاجم موضعی بهترین فرصت درمان قطعی است؛ پس از ورود سلول‌ها به گردش خون و متاستاز، پیش‌آگهی به‌طور چشمگیر بدتر می‌شود."
+  },
+  {
+    "id": "pa-cardiovascular-10",
+    "topicId": "myocarditis-pericarditis",
+    "category": "Cardiovascular",
+    "question_fa": "در ارزیابی پریکاردیت همیشه باید به‌دنبال چه چیزی بود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "علت زمینه‌ای (عفونی، ایمونولوژیک، MI اخیر یا اورمی)",
+        "text_en": "An underlying cause (infectious, immunologic, recent MI, or uremia)"
+      },
+      {
+        "id": "b",
+        "text_fa": "تومور اولیه‌ی پریکارد",
+        "text_en": "Primary pericardial tumor"
+      },
+      {
+        "id": "c",
+        "text_fa": "کمبود ویتامین",
+        "text_en": "Vitamin deficiency"
+      },
+      {
+        "id": "d",
+        "text_fa": "ژنتیک",
+        "text_en": "Genetic mutation"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پریکاردیت اغلب ثانویه است؛ باید علت زمینه‌ای (عفونی، ایمونولوژیک، یا متفرقه مانند MI اخیر/سندرم درسلر یا اورمی) را جست‌وجو کرد."
+  },
+  {
+    "id": "pa-cardiovascular-11",
+    "topicId": "dilated-cardiomyopathy",
+    "category": "Cardiovascular",
+    "question_fa": "شایع‌ترین علت پیوند قلب در بالغین کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کاردیومیوپاتی دیلاته",
+        "text_en": "Dilated cardiomyopathy"
+      },
+      {
+        "id": "b",
+        "text_fa": "کاردیومیوپاتی هیپرتروفیک",
+        "text_en": "Hypertrophic cardiomyopathy"
+      },
+      {
+        "id": "c",
+        "text_fa": "کاردیومیوپاتی رستریکتیو",
+        "text_en": "Restrictive cardiomyopathy"
+      },
+      {
+        "id": "d",
+        "text_fa": "پریکاردیت",
+        "text_en": "Pericarditis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کاردیومیوپاتی دیلاته (دیلاتاسیون + اختلال سیستولیک) شایع‌ترین علت پیوند قلب در بالغین است."
+  },
+  {
+    "id": "pa-cardiovascular-12",
+    "topicId": "hypertrophic-cardiomyopathy",
+    "category": "Cardiovascular",
+    "question_fa": "ورزشکار جوان با مرگ ناگهانی و سابقه‌ی خانوادگی مطرح‌کننده‌ی کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کاردیومیوپاتی هیپرتروفیک (HCM)",
+        "text_en": "Hypertrophic cardiomyopathy"
+      },
+      {
+        "id": "b",
+        "text_fa": "کاردیومیوپاتی دیلاته",
+        "text_en": "Dilated cardiomyopathy"
+      },
+      {
+        "id": "c",
+        "text_fa": "پریکاردیت",
+        "text_en": "Pericarditis"
+      },
+      {
+        "id": "d",
+        "text_fa": "میوکاردیت ویروسی",
+        "text_en": "Viral myocarditis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "مرگ ناگهانی قلبی در ورزشکار جوان با سابقه‌ی خانوادگی همیشه باید HCM (اختلال دیاستولیک با هیپرتروفی سپتال) را مطرح کند."
+  },
+  {
+    "id": "pa-cardiovascular-13",
+    "topicId": "restrictive-cardiomyopathy",
+    "category": "Cardiovascular",
+    "question_fa": "سالمند با علائم نارسایی راست قلب و عملکرد سیستولیک نسبتاً طبیعی در اکو مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کاردیومیوپاتی رستریکتیو (مثلاً آمیلوئیدوز)",
+        "text_en": "Restrictive cardiomyopathy (e.g. amyloidosis)"
+      },
+      {
+        "id": "b",
+        "text_fa": "کاردیومیوپاتی دیلاته",
+        "text_en": "Dilated cardiomyopathy"
+      },
+      {
+        "id": "c",
+        "text_fa": "تنگی میترال",
+        "text_en": "Mitral stenosis"
+      },
+      {
+        "id": "d",
+        "text_fa": "آنمی",
+        "text_en": "Anemia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کاردیومیوپاتی رستریکتیو (دیواره‌ی سخت/فیبروتیک یا آمیلوئید، اختلال دیاستولیک) با علائم نارسایی راست و عملکرد سیستولیک نسبتاً حفظ‌شده تظاهر می‌کند؛ در سالمند به آمیلوئیدوز فکر کنید."
+  },
+  {
+    "id": "pa-nervoussystem-25",
+    "topicId": "astrocytoma-glioblastoma",
+    "category": "Nervous System",
+    "question_fa": "کدام تومور آستروسیتیک یک مسیر مجزا و نسبتاً خوش‌خیم در کودکان است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آستروسیتوم پیلوسیتیک (WHO I)",
+        "text_en": "Pilocytic astrocytoma (WHO I)"
+      },
+      {
+        "id": "b",
+        "text_fa": "گلیوبلاستوما (IV)",
+        "text_en": "Glioblastoma (IV)"
+      },
+      {
+        "id": "c",
+        "text_fa": "آستروسیتوم آناپلاستیک (III)",
+        "text_en": "Anaplastic astrocytoma (III)"
+      },
+      {
+        "id": "d",
+        "text_fa": "آستروسیتوم منتشر (II)",
+        "text_en": "Diffuse astrocytoma (II)"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "آستروسیتوم پیلوسیتیک (WHO I) مسیری جدا و نسبتاً خوش‌خیم در کودکان است؛ درجات II→III→IV یک طیف پیوسته‌ی منتشرند."
+  },
+  {
+    "id": "pa-nervoussystem-26",
+    "topicId": "meningioma",
+    "category": "Nervous System",
+    "question_fa": "اجسام پساموما در مننژیوما و کدام تومور دیگر دیده می‌شوند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کارسینوم پاپیلاری تیروئید",
+        "text_en": "Papillary thyroid carcinoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "گلیوبلاستوما",
+        "text_en": "Glioblastoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "لنفوم",
+        "text_en": "Lymphoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "مدولوبلاستوما",
+        "text_en": "Medulloblastoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اجسام پساموما ساختار مشترک مننژیوما و برخی کارسینوم‌های پاپیلاری (مانند تیروئید و سروز تخمدان) است، هرچند زمینه‌ی بافتی متفاوت است."
+  },
+  {
+    "id": "pa-nervoussystem-27",
+    "topicId": "bacterial-fungal-meningitis",
+    "category": "Nervous System",
+    "question_fa": "شایع‌ترین عامل مننژیت باکتریال در سالمند کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پنوموکوک و لیستریا",
+        "text_en": "Pneumococcus and Listeria"
+      },
+      {
+        "id": "b",
+        "text_fa": "مننگوکوک",
+        "text_en": "Meningococcus"
+      },
+      {
+        "id": "c",
+        "text_fa": "E. coli و GBS",
+        "text_en": "E. coli and GBS"
+      },
+      {
+        "id": "d",
+        "text_fa": "مایکوپلاسما",
+        "text_en": "Mycoplasma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "عامل مننژیت باکتریال با سن تغییر می‌کند: نوزاد → E.coli/GBS، نوجوان/جوان → مننگوکوک، سالمند → پنوموکوک/لیستریا."
+  },
+  {
+    "id": "pa-nervoussystem-28",
+    "topicId": "viral-encephalitis",
+    "category": "Nervous System",
+    "question_fa": "تغییر خلق/حافظه + درگیری لوب تمپورال مطرح‌کننده‌ی کدام آنسفالیت است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آنسفالیت HSV-1",
+        "text_en": "HSV-1 encephalitis"
+      },
+      {
+        "id": "b",
+        "text_fa": "آنسفالیت رابیس",
+        "text_en": "Rabies encephalitis"
+      },
+      {
+        "id": "c",
+        "text_fa": "آنسفالیت CMV",
+        "text_en": "CMV encephalitis"
+      },
+      {
+        "id": "d",
+        "text_fa": "آنسفالیت VZV",
+        "text_en": "VZV encephalitis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "درگیری لوب تمپورال با تغییر خلق/حافظه مشخصه‌ی آنسفالیت هرپس سیمپلکس نوع ۱ (HSV-1) است."
+  },
+  {
+    "id": "pa-nervoussystem-29",
+    "topicId": "parkinson-disease",
+    "category": "Nervous System",
+    "question_fa": "زنجیره‌ی پاتوژنز بیماری پارکینسون کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کاهش نورون‌های ساب‌استانسیا نیگرا → کاهش دوپامین → اختلال حرکتی",
+        "text_en": "Loss of substantia nigra neurons → low dopamine → motor impairment"
+      },
+      {
+        "id": "b",
+        "text_fa": "کاهش استیل‌کولین قشری",
+        "text_en": "Cortical acetylcholine loss"
+      },
+      {
+        "id": "c",
+        "text_fa": "دمیلیناسیون خودایمن",
+        "text_en": "Autoimmune demyelination"
+      },
+      {
+        "id": "d",
+        "text_fa": "انفارکت مغزی",
+        "text_en": "Cerebral infarction"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در پارکینسون، تخریب نورون‌های دوپامینرژیک ساب‌استانسیا نیگرا → کاهش دوپامین → اختلال حرکتی (برادی‌کینزی، ترمور، سفتی)."
+  },
+  {
+    "id": "pa-nervoussystem-30",
+    "topicId": "peripheral-nerve-sheath-tumors",
+    "category": "Nervous System",
+    "question_fa": "«نوروم آکوستیک» در واقع چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "شوانوما در زاویه‌ی سربلوپونتین روی عصب VIII",
+        "text_en": "Schwannoma at the cerebellopontine angle on CN VIII"
+      },
+      {
+        "id": "b",
+        "text_fa": "نوروفیبروما",
+        "text_en": "Neurofibroma"
+      },
+      {
+        "id": "c",
+        "text_fa": "مننژیوما",
+        "text_en": "Meningioma"
+      },
+      {
+        "id": "d",
+        "text_fa": "تومور واقعی نورون",
+        "text_en": "A true neuronal tumor"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "«نوروم آکوستیک» یک شوانوما در زاویه‌ی سربلوپونتین روی شاخه‌ی وستیبولار عصب هشتم است، نه یک تومور واقعی عصبی."
+  },
+  {
+    "id": "pa-nervoussystem-31",
+    "topicId": "epidural-hematoma",
+    "category": "Nervous System",
+    "question_fa": "فاصله‌ی هوشیار + شکل عدسی در CT پس از ضربه‌ی تمپورال مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هماتوم اپیدورال (شریان مننژیال میانی)",
+        "text_en": "Epidural hematoma (middle meningeal artery)"
+      },
+      {
+        "id": "b",
+        "text_fa": "هماتوم ساب‌دورال",
+        "text_en": "Subdural hematoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "خون‌ریزی ساب‌آراکنوئید",
+        "text_en": "Subarachnoid hemorrhage"
+      },
+      {
+        "id": "d",
+        "text_fa": "انفارکت مغزی",
+        "text_en": "Cerebral infarct"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "فاصله‌ی هوشیار (lucid interval) + شکل عدسی (بای‌کانوکس) در CT + ضربه‌ی تمپورال مشخصه‌ی هماتوم اپیدورال از پارگی شریان مننژیال میانی است."
+  },
+  {
+    "id": "pa-nervoussystem-32",
+    "topicId": "subdural-hematoma",
+    "category": "Nervous System",
+    "question_fa": "سالمند با گیجی تدریجی هفته‌ها پس از زمین‌خوردن خفیف مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هماتوم ساب‌دورال مزمن",
+        "text_en": "Chronic subdural hematoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "هماتوم اپیدورال",
+        "text_en": "Epidural hematoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "میگرن",
+        "text_en": "Migraine"
+      },
+      {
+        "id": "d",
+        "text_fa": "تومور اولیه‌ی مغز",
+        "text_en": "Primary brain tumor"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "هماتوم ساب‌دورال (وریدی، از پارگی وریدهای پل‌زننده) در سالمند می‌تواند به‌صورت مزمن با گیجی تدریجی هفته‌ها پس از ترومای خفیف تظاهر کند."
+  },
+  {
+    "id": "pa-nervoussystem-33",
+    "topicId": "subarachnoid-hemorrhage",
+    "category": "Nervous System",
+    "question_fa": "«بدترین سردرد عمر» با شروع ناگهانی مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "خون‌ریزی ساب‌آراکنوئید",
+        "text_en": "Subarachnoid hemorrhage"
+      },
+      {
+        "id": "b",
+        "text_fa": "مننژیت",
+        "text_en": "Meningitis"
+      },
+      {
+        "id": "c",
+        "text_fa": "سردرد تنشی",
+        "text_en": "Tension headache"
+      },
+      {
+        "id": "d",
+        "text_fa": "سینوزیت",
+        "text_en": "Sinusitis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "«بدترین سردرد عمر» با شروع ناگهانی تا رد نشدن SAH (اغلب از پارگی آنوریسم برِی) است؛ وازواسپاسم تأخیری (روز ۳–۱۰) باید پایش شود."
+  },
+  {
+    "id": "pa-nervoussystem-34",
+    "topicId": "intracerebral-hemorrhage",
+    "category": "Nervous System",
+    "question_fa": "خون‌ریزی لوبار مکرر در سالمند بدون فشار خون بالای شناخته‌شده مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آنژیوپاتی آمیلوئید مغزی",
+        "text_en": "Cerebral amyloid angiopathy"
+      },
+      {
+        "id": "b",
+        "text_fa": "خون‌ریزی هیپرتانسیو گانگلیون قاعده‌ای",
+        "text_en": "Hypertensive basal ganglia bleed"
+      },
+      {
+        "id": "c",
+        "text_fa": "تومور",
+        "text_en": "Tumor"
+      },
+      {
+        "id": "d",
+        "text_fa": "آنوریسم مایکوتیک",
+        "text_en": "Mycotic aneurysm"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "خون‌ریزی لوبارِ مکرر در سالمندِ بدون فشار خون بالا مطرح‌کننده‌ی آنژیوپاتی آمیلوئید مغزی است (همان پروتئین آمیلوئیدِ آلزایمر در دیواره‌ی عروق)."
+  },
+  {
+    "id": "pa-respiratory-15",
+    "topicId": "lobar-pneumonia",
+    "category": "Respiratory",
+    "question_fa": "ترتیب چهار مرحله‌ی کلاسیک پنومونی لوبار کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "احتقان → هپاتیزاسیون قرمز → هپاتیزاسیون خاکستری → رفع",
+        "text_en": "Congestion → red hepatization → gray hepatization → resolution"
+      },
+      {
+        "id": "b",
+        "text_fa": "رفع → احتقان → هپاتیزاسیون",
+        "text_en": "Resolution → congestion → hepatization"
+      },
+      {
+        "id": "c",
+        "text_fa": "هپاتیزاسیون خاکستری → قرمز → احتقان",
+        "text_en": "Gray → red hepatization → congestion"
+      },
+      {
+        "id": "d",
+        "text_fa": "احتقان → رفع → هپاتیزاسیون",
+        "text_en": "Congestion → resolution → hepatization"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "چهار مرحله‌ی پنومونی لوبار: احتقان → هپاتیزاسیون قرمز → هپاتیزاسیون خاکستری → رفع."
+  },
+  {
+    "id": "pa-respiratory-16",
+    "topicId": "pulmonary-tuberculosis",
+    "category": "Respiratory",
+    "question_fa": "سل ثانویه معمولاً کدام ناحیه‌ی ریه را فعال درگیر می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "آپکس (لوب فوقانی)",
+        "text_en": "Apex (upper lobe)"
+      },
+      {
+        "id": "b",
+        "text_fa": "قاعده (لوب تحتانی)",
+        "text_en": "Base (lower lobe)"
+      },
+      {
+        "id": "c",
+        "text_fa": "ناف ریه",
+        "text_en": "Hilum"
+      },
+      {
+        "id": "d",
+        "text_fa": "پلور",
+        "text_en": "Pleura"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "سل ثانویه (reactivation) معمولاً در آپکس/لوب فوقانی ریه رخ می‌دهد (به‌علت اکسیژن بالا)."
+  },
+  {
+    "id": "pa-respiratory-17",
+    "topicId": "bronchogenic-carcinoma",
+    "category": "Respiratory",
+    "question_fa": "تهاجمی‌ترین زیرگروه کارسینوم برونکوژنیک که معمولاً هنگام تشخیص متاستاز داده کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کارسینوم سلول کوچک",
+        "text_en": "Small cell carcinoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "آدنوکارسینوم",
+        "text_en": "Adenocarcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "کارسینوم سلول سنگفرشی",
+        "text_en": "Squamous cell carcinoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "کارسینوم سلول بزرگ",
+        "text_en": "Large cell carcinoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کارسینوم سلول کوچک ریه تهاجمی‌ترین زیرگروه است و اغلب در زمان تشخیص متاستاز داده است."
+  },
+  {
+    "id": "pa-respiratory-18",
+    "topicId": "bronchopneumonia",
+    "category": "Respiratory",
+    "question_fa": "برونکوپنومونی بیشتر در کدام گروه و با چه ارگانیسم‌هایی شایع است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بیماران بستری/سالمند با ارگانیسم‌های مختلط",
+        "text_en": "Hospitalized/elderly patients with mixed organisms"
+      },
+      {
+        "id": "b",
+        "text_fa": "جوانان سالم با یک ارگانیسم",
+        "text_en": "Healthy young adults with a single organism"
+      },
+      {
+        "id": "c",
+        "text_fa": "فقط کودکان",
+        "text_en": "Only children"
+      },
+      {
+        "id": "d",
+        "text_fa": "فقط ورزشکاران",
+        "text_en": "Only athletes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "برونکوپنومونی (الگوی لکه‌ای پچی) در بیماران بستری و سالمند با ارگانیسم‌های مختلط شایع‌تر است؛ پنومونی لوبار کلاسیک اغلب پنوموکوکی در فرد نسبتاً سالم است."
+  },
+  {
+    "id": "pa-respiratory-19",
+    "topicId": "atypical-mycoplasma-pneumonia",
+    "category": "Respiratory",
+    "question_fa": "اصطلاح «walking pneumonia» به کدام عامل اشاره دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مایکوپلاسما پنومونیه",
+        "text_en": "Mycoplasma pneumoniae"
+      },
+      {
+        "id": "b",
+        "text_fa": "استرپتوکوک پنومونیه",
+        "text_en": "Streptococcus pneumoniae"
+      },
+      {
+        "id": "c",
+        "text_fa": "کلبسیلا",
+        "text_en": "Klebsiella"
+      },
+      {
+        "id": "d",
+        "text_fa": "سل",
+        "text_en": "Tuberculosis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "«walking pneumonia» به پنومونی آتیپیک مایکوپلاسمایی اشاره دارد: علائم خفیف ولی یافته‌های رادیولوژیک نسبتاً برجسته."
+  },
+  {
+    "id": "pa-respiratory-20",
+    "topicId": "idiopathic-pulmonary-fibrosis",
+    "category": "Respiratory",
+    "question_fa": "کدام یافته‌ی میکروسکوپی کلیدِ تشخیص فیبروز ریوی ایدیوپاتیک است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کانون‌های فیبروبلاستی + honeycombing",
+        "text_en": "Fibroblastic foci + honeycombing"
+      },
+      {
+        "id": "b",
+        "text_fa": "گرانولوم غیرکازئوز",
+        "text_en": "Non-caseating granuloma"
+      },
+      {
+        "id": "c",
+        "text_fa": "سلول‌های آسمان پرستاره",
+        "text_en": "Starry sky cells"
+      },
+      {
+        "id": "d",
+        "text_fa": "اجسام آسبستوز",
+        "text_en": "Asbestos bodies"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کانون‌های فیبروبلاستی (fibroblastic foci) در کنار honeycombing، یافته‌ی کلیدی الگوی UIP در فیبروز ریوی ایدیوپاتیک است."
+  },
+  {
+    "id": "pa-respiratory-21",
+    "topicId": "pulmonary-carcinoid-tumor",
+    "category": "Respiratory",
+    "question_fa": "تمایز کارسینوئید تیپیک از آتیپیک ریه بر چه اساسی است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تعداد میتوز و وجود نکروز",
+        "text_en": "Mitotic count and presence of necrosis"
+      },
+      {
+        "id": "b",
+        "text_fa": "اندازه‌ی تومور فقط",
+        "text_en": "Tumor size only"
+      },
+      {
+        "id": "c",
+        "text_fa": "رنگ تومور",
+        "text_en": "Tumor color"
+      },
+      {
+        "id": "d",
+        "text_fa": "سن بیمار فقط",
+        "text_en": "Patient age only"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "کارسینوئید تیپیک: کمتر از ۲ میتوز در ۱۰ HPF بدون نکروز؛ کارسینوئید آتیپیک: ۲ تا ۱۰ میتوز به‌همراه نکروز کانونی."
+  },
+  {
+    "id": "pa-respiratory-22",
+    "topicId": "pneumothorax-mesothelioma-pleural",
+    "category": "Respiratory",
+    "question_fa": "سابقه‌ی مواجهه‌ی شغلی با آزبست + افیوژن پلور مکرر در سالمند مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مزوتلیوما",
+        "text_en": "Mesothelioma"
+      },
+      {
+        "id": "b",
+        "text_fa": "پنوموتوراکس خودبه‌خودی",
+        "text_en": "Spontaneous pneumothorax"
+      },
+      {
+        "id": "c",
+        "text_fa": "آسم",
+        "text_en": "Asthma"
+      },
+      {
+        "id": "d",
+        "text_fa": "پنومونی",
+        "text_en": "Pneumonia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "مواجهه‌ی شغلی با آزبست + افیوژن پلور مکرر در سالمند باید مزوتلیومای بدخیم پلور را مطرح کند."
+  },
+  {
+    "id": "pa-respiratory-23",
+    "topicId": "laryngeal-carcinoma-vocal-cord-lesions",
+    "category": "Respiratory",
+    "question_fa": "گرفتگی صدای پایدار در سیگاری مسن چه اقدامی می‌طلبد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "لارنگوسکوپی",
+        "text_en": "Laryngoscopy"
+      },
+      {
+        "id": "b",
+        "text_fa": "فقط استراحت صوتی",
+        "text_en": "Voice rest only"
+      },
+      {
+        "id": "c",
+        "text_fa": "آنتی‌بیوتیک",
+        "text_en": "Antibiotics"
+      },
+      {
+        "id": "d",
+        "text_fa": "آنتی‌هیستامین",
+        "text_en": "Antihistamines"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "گرفتگی صدای پایدارِ بدون بهبود در سیگاری مسن همیشه باید با لارنگوسکوپی بررسی شود تا کارسینوم حنجره رد شود."
+  },
+  {
+    "id": "pa-musculoskeletal-30",
+    "topicId": "chondrosarcoma",
+    "category": "Musculoskeletal",
+    "question_fa": "تومور کارتیلاژینوز استخوان در فرد مسن‌تر مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کندروسارکوم",
+        "text_en": "Chondrosarcoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "استئوسارکوم",
+        "text_en": "Osteosarcoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "سارکوم یوینگ",
+        "text_en": "Ewing sarcoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "استئوکندروم",
+        "text_en": "Osteochondroma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تومور کارتیلاژینوزِ استخوان در فرد مسن‌تر تا رد نشدن باید کندروسارکوم در نظر گرفته شود؛ استئوسارکوم و یوینگ بیشتر در جوانان‌اند."
+  },
+  {
+    "id": "pa-musculoskeletal-31",
+    "topicId": "osteochondroma-chondroma",
+    "category": "Musculoskeletal",
+    "question_fa": "رشد جدید یا درد در استئوکندرومِ شناخته‌شده‌ی بالغ چه معنایی دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "باید بدخیمی ثانویه (کندروسارکوم) رد شود",
+        "text_en": "Secondary malignancy (chondrosarcoma) must be excluded"
+      },
+      {
+        "id": "b",
+        "text_fa": "طبیعی است",
+        "text_en": "It is normal"
+      },
+      {
+        "id": "c",
+        "text_fa": "عفونت است",
+        "text_en": "It is infection"
+      },
+      {
+        "id": "d",
+        "text_fa": "نیاز به آنتی‌بیوتیک",
+        "text_en": "Needs antibiotics"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "رشد جدید یا درد در استئوکندرومِ قبلاً پایدارِ بالغ نگران‌کننده‌ی تحول به کندروسارکوم است و باید بررسی شود."
+  },
+  {
+    "id": "pa-musculoskeletal-32",
+    "topicId": "osteoporosis",
+    "category": "Musculoskeletal",
+    "question_fa": "پروفایل آزمایشگاهی استئوپروز کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کلسیم/فسفر/PTH طبیعی + کاهش دانسیته",
+        "text_en": "Normal Ca/phosphate/PTH + low bone density"
+      },
+      {
+        "id": "b",
+        "text_fa": "کلسیم و فسفر پایین + PTH بالا",
+        "text_en": "Low Ca and phosphate + high PTH"
+      },
+      {
+        "id": "c",
+        "text_fa": "کلسیم بالا + PTH بالا",
+        "text_en": "High Ca + high PTH"
+      },
+      {
+        "id": "d",
+        "text_fa": "فسفر بالا + PTH پایین",
+        "text_en": "High phosphate + low PTH"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در استئوپروز کلسیم/فسفر/PTH طبیعی است و فقط دانسیته‌ی استخوان کاهش می‌یابد؛ استئومالاسی کلسیم/فسفر پایین و PTH بالا دارد."
+  },
+  {
+    "id": "pa-musculoskeletal-33",
+    "topicId": "dermatomyositis-polymyositis",
+    "category": "Musculoskeletal",
+    "question_fa": "درماتومیوزیت در بالغ مسن نیازمند چه غربالگری‌ای است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "غربالگری بدخیمی پاراتومورال زمینه‌ای",
+        "text_en": "Screen for underlying paraneoplastic malignancy"
+      },
+      {
+        "id": "b",
+        "text_fa": "غربالگری دیابت",
+        "text_en": "Screen for diabetes"
+      },
+      {
+        "id": "c",
+        "text_fa": "غربالگری استئوپروز",
+        "text_en": "Screen for osteoporosis"
+      },
+      {
+        "id": "d",
+        "text_fa": "غربالگری کم‌خونی",
+        "text_en": "Screen for anemia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "درماتومیوزیت در بالغ مسن اغلب پاراتومورال است؛ باید بدخیمی زمینه‌ای غربالگری شود."
+  },
+  {
+    "id": "pa-musculoskeletal-34",
+    "topicId": "duchenne-becker-muscular-dystrophy",
+    "category": "Musculoskeletal",
+    "question_fa": "پسر با ضعف عضلانی پروگزیمال و علامت گاورز مثبت — کدام بررسی لازم است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "سطح کراتین کیناز و ژن دیستروفین",
+        "text_en": "Creatine kinase level and dystrophin gene"
+      },
+      {
+        "id": "b",
+        "text_fa": "کلسی‌تونین",
+        "text_en": "Calcitonin"
+      },
+      {
+        "id": "c",
+        "text_fa": "AFP",
+        "text_en": "AFP"
+      },
+      {
+        "id": "d",
+        "text_fa": "AMA",
+        "text_en": "AMA"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پسر با ضعف عضلانی پروگزیمال و علامت گاورز مثبت مطرح‌کننده‌ی دیستروفی عضلانی است؛ کراتین کیناز بالا و آنالیز ژن دیستروفین تشخیصی‌اند."
+  },
+  {
+    "id": "pa-femalereproductivesystem-29",
+    "topicId": "bartholin-cyst-vulvar-inflammation",
+    "category": "Female Reproductive System",
+    "question_fa": "درمان قطعی کیست غده‌ی بارتولن کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "اکسیزیون یا مارسوپیالیزاسیون",
+        "text_en": "Excision or marsupialization"
+      },
+      {
+        "id": "b",
+        "text_fa": "فقط تخلیه‌ی ساده",
+        "text_en": "Simple drainage only"
+      },
+      {
+        "id": "c",
+        "text_fa": "فقط آنتی‌بیوتیک",
+        "text_en": "Antibiotics only"
+      },
+      {
+        "id": "d",
+        "text_fa": "مشاهده",
+        "text_en": "Observation"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "درمان قطعی کیست بارتولن اکسیزیون یا مارسوپیالیزاسیون است؛ تخلیه‌ی ساده اغلب با عود همراه است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-30",
+    "topicId": "lichen-sclerosus-vulva",
+    "category": "Female Reproductive System",
+    "question_fa": "لیکن اسکلروزوس ولو با کدام مسیر بدخیمی مرتبط است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "VIN تفکیک‌یافته و کارسینوم سنگفرشی کراتینیزه",
+        "text_en": "Differentiated VIN and keratinizing SCC"
+      },
+      {
+        "id": "b",
+        "text_fa": "کارسینوم HPV-وابسته",
+        "text_en": "HPV-associated carcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "ملانوم",
+        "text_en": "Melanoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "آدنوکارسینوم",
+        "text_en": "Adenocarcinoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لیکن اسکلروزوس مستقیماً پره‌مالیگنانت نیست اما زمینه‌ساز VIN تفکیک‌یافته و کارسینوم سنگفرشی کراتینیزه‌ی HPV-غیروابسته است."
+  },
+  {
+    "id": "pa-femalereproductivesystem-31",
+    "topicId": "differentiated-vin-vulvar-scc",
+    "category": "Female Reproductive System",
+    "question_fa": "کدام مسیر کارسینوم سنگفرشی ولو HPV-غیروابسته است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "از VIN تفکیک‌یافته و موتاسیون TP53 (کراتینیزه)",
+        "text_en": "From differentiated VIN and TP53 mutation (keratinizing)"
+      },
+      {
+        "id": "b",
+        "text_fa": "از VIN کلاسیک و HPV (بازالوئید/وارتی)",
+        "text_en": "From classic VIN and HPV (basaloid/warty)"
+      },
+      {
+        "id": "c",
+        "text_fa": "از اندومتریوز",
+        "text_en": "From endometriosis"
+      },
+      {
+        "id": "d",
+        "text_fa": "از لیومیوم",
+        "text_en": "From leiomyoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "دو مسیر SCC ولو: HPV-وابسته (بازالوئید/وارتی از VIN کلاسیک) و HPV-غیروابسته (کراتینیزه از VIN تفکیک‌یافته و TP53)."
+  },
+  {
+    "id": "pa-femalereproductivesystem-32",
+    "topicId": "vaginal-scc-rhabdomyosarcoma",
+    "category": "Female Reproductive System",
+    "question_fa": "توده‌ی واژینال شبیه خوشه‌ی انگور در کودک خردسال (sarcoma botryoides) چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "رابدومیوسارکوم آمبریونال",
+        "text_en": "Embryonal rhabdomyosarcoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "کارسینوم سلول سنگفرشی",
+        "text_en": "Squamous cell carcinoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "لیومیوم",
+        "text_en": "Leiomyoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "آدنوکارسینوم",
+        "text_en": "Adenocarcinoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "«sarcoma botryoides» (توده‌ی واژینال شبیه خوشه‌ی انگور در نوزاد/کودک خردسال) رابدومیوسارکوم آمبریونال است."
+  },
+  {
+    "id": "pa-malereproductivesystem-14",
+    "topicId": "cryptorchidism",
+    "category": "Male Reproductive System",
+    "question_fa": "زمان توصیه‌شده‌ی اورکیوپکسی در کریپتورکیدیسم کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "۶ تا ۱۲ ماهگی",
+        "text_en": "6 to 12 months of age"
+      },
+      {
+        "id": "b",
+        "text_fa": "۵ سالگی",
+        "text_en": "5 years"
+      },
+      {
+        "id": "c",
+        "text_fa": "بلوغ",
+        "text_en": "Puberty"
+      },
+      {
+        "id": "d",
+        "text_fa": "بزرگسالی",
+        "text_en": "Adulthood"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اورکیوپکسی در ۶ تا ۱۲ ماهگی توصیه می‌شود؛ تأخیر بیشتر، تغییرات هیستولوژیک و خطر ناباروری/بدخیمی را تثبیت می‌کند."
+  },
+  {
+    "id": "pa-malereproductivesystem-15",
+    "topicId": "epididymo-orchitis",
+    "category": "Male Reproductive System",
+    "question_fa": "شایع‌ترین عوامل اپیدیدیمیت در مرد جوانِ فعال جنسی کدام‌اند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کلامیدیا تراکوماتیس و نایسریا گنوره",
+        "text_en": "C. trachomatis and N. gonorrhoeae"
+      },
+      {
+        "id": "b",
+        "text_fa": "E. coli",
+        "text_en": "E. coli"
+      },
+      {
+        "id": "c",
+        "text_fa": "سل",
+        "text_en": "Tuberculosis"
+      },
+      {
+        "id": "d",
+        "text_fa": "مایکوپلاسما",
+        "text_en": "Mycoplasma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در مرد جوان فعال جنسی، شایع‌ترین عوامل اپیدیدیمیت کلامیدیا تراکوماتیس و نایسریا گنوره‌آ هستند (در مسن‌تر E. coli شایع‌تر است)."
+  },
+  {
+    "id": "pa-malereproductivesystem-16",
+    "topicId": "yolk-sac-tumor-choriocarcinoma",
+    "category": "Male Reproductive System",
+    "question_fa": "AFP بالا در تومور بیضه مطرح‌کننده‌ی کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تومور یولک‌ساک",
+        "text_en": "Yolk sac tumor"
+      },
+      {
+        "id": "b",
+        "text_fa": "سمینوما",
+        "text_en": "Seminoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "کوریوکارسینوما",
+        "text_en": "Choriocarcinoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "تراتوم بالغ",
+        "text_en": "Mature teratoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "AFP بالا مطرح‌کننده‌ی تومور یولک‌ساک است؛ hCG به‌شدت بالا مطرح‌کننده‌ی کوریوکارسینوما."
+  },
+  {
+    "id": "pa-malereproductivesystem-17",
+    "topicId": "sex-cord-tumors-testis",
+    "category": "Male Reproductive System",
+    "question_fa": "بلوغ زودرس + توده‌ی بیضه در پسربچه مطرح‌کننده‌ی کدام تومور است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تومور سلول لایدیگ",
+        "text_en": "Leydig cell tumor"
+      },
+      {
+        "id": "b",
+        "text_fa": "سمینوما",
+        "text_en": "Seminoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "تومور یولک‌ساک",
+        "text_en": "Yolk sac tumor"
+      },
+      {
+        "id": "d",
+        "text_fa": "لنفوم",
+        "text_en": "Lymphoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تومور سلول لایدیگ می‌تواند آندروژن ترشح کند و در پسربچه با بلوغ زودرس و توده‌ی بیضه تظاهر کند."
+  },
+  {
+    "id": "pa-hematologiclymphoid-36",
+    "topicId": "acute-leukemia-aml-all",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "میله‌ی آئر (Auer rod) در بلاست‌ها نشانه‌ی کدام لوسمی است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "AML",
+        "text_en": "AML"
+      },
+      {
+        "id": "b",
+        "text_fa": "ALL",
+        "text_en": "ALL"
+      },
+      {
+        "id": "c",
+        "text_fa": "CLL",
+        "text_en": "CLL"
+      },
+      {
+        "id": "d",
+        "text_fa": "CML",
+        "text_en": "CML"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "میله‌ی آئر + بلاست میلوئید = AML؛ بلاست لنفوئید کوچک بدون میله‌ی آئر مطرح‌کننده‌ی ALL است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-37",
+    "topicId": "chronic-lymphocytic-leukemia",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "لنفوسیتوز بی‌علامت در سالمند + سلول‌های لکه‌ای (smudge) در اسمیر مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "لوسمی لنفوسیتی مزمن (CLL)",
+        "text_en": "Chronic lymphocytic leukemia"
+      },
+      {
+        "id": "b",
+        "text_fa": "لوسمی حاد",
+        "text_en": "Acute leukemia"
+      },
+      {
+        "id": "c",
+        "text_fa": "لنفوم بورکیت",
+        "text_en": "Burkitt lymphoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "مولتیپل میلوما",
+        "text_en": "Multiple myeloma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لنفوسیتوز بی‌علامت در سالمند همراه سلول‌های smudge در اسمیر خون محیطی مشخصه‌ی CLL است."
+  },
+  {
+    "id": "pa-hematologiclymphoid-38",
+    "topicId": "thymoma",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "میاستنی گراویس + توده‌ی مدیاستن قدامی مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "تیموما",
+        "text_en": "Thymoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "لنفوم هوچکین",
+        "text_en": "Hodgkin lymphoma"
+      },
+      {
+        "id": "c",
+        "text_fa": "تراتوم",
+        "text_en": "Teratoma"
+      },
+      {
+        "id": "d",
+        "text_fa": "گواتر داخل‌قفسه‌ای",
+        "text_en": "Intrathoracic goiter"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "میاستنی گراویس همراه توده‌ی مدیاستن قدامی باید برای تیموما ارزیابی شود (تیموما با میاستنی گراویس ارتباط قوی دارد)."
+  },
+  {
+    "id": "pa-hematologiclymphoid-39",
+    "topicId": "splenomegaly-spleen-pathology",
+    "category": "Hematologic & Lymphoid",
+    "question_fa": "اسپلنومگالی ماسیو بدون لنفادنوپاتی مطرح‌کننده‌ی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "لوسمی سلول مویی یا بیماری‌های میلوپرولیفراتیو",
+        "text_en": "Hairy cell leukemia or myeloproliferative disorders"
+      },
+      {
+        "id": "b",
+        "text_fa": "مننژیت",
+        "text_en": "Meningitis"
+      },
+      {
+        "id": "c",
+        "text_fa": "پنومونی",
+        "text_en": "Pneumonia"
+      },
+      {
+        "id": "d",
+        "text_fa": "سنگ کلیه",
+        "text_en": "Kidney stones"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "اسپلنومگالی ماسیو بدون لنفادنوپاتی مطرح‌کننده‌ی لوسمی سلول مویی یا بیماری‌های میلوپرولیفراتیو (مثل میلوفیبروز/CML) است."
   }
 ]
