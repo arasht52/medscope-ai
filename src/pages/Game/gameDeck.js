@@ -31,7 +31,7 @@ export const SUBJECTS = [
     id: "pharmacology",
     label_fa: "داروشناسی",
     label_en: "Pharmacology",
-    description_fa: "نام ژنریک را با نام تجاری جفت کن",
+    description_fa: "نام دارو را با خانواده‌ی دارویی‌اش جفت کن",
     back_icon: "💊",
   },
 ];

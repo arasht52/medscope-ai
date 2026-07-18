@@ -123,6 +123,21 @@ export default function DrugList() {
                 }
                 groups[groupIndex.get(key)].drugs.push(d);
               }
+              // Order the subgroups deliberately instead of by first-appearance
+              // (per Arash's daughter's feedback: hypnotics/anxiolytics are used
+              // more than Parkinson drugs, so they should come first). Unknown
+              // keys keep their original relative order via stable sort.
+              const SUBCAT_ORDER = [
+                "ضدتشنج",
+                "خواب‌آور و ضداضطراب",
+                "پارکینسون",
+                "سایر (میگرن و آلزایمر)",
+              ];
+              groups.sort((a, b) => {
+                const ia = SUBCAT_ORDER.indexOf(a.key);
+                const ib = SUBCAT_ORDER.indexOf(b.key);
+                return (ia === -1 ? Infinity : ia) - (ib === -1 ? Infinity : ib);
+              });
               const showHeadings = groups.length > 1 || groups[0]?.key;
 
               return groups.map((group) => (
