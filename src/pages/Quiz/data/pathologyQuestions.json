@@ -8428,5 +8428,370 @@
     ],
     "correctOptionId": "a",
     "explanation_fa": "اسپلنومگالی ماسیو بدون لنفادنوپاتی مطرح‌کننده‌ی لوسمی سلول مویی یا بیماری‌های میلوپرولیفراتیو (مثل میلوفیبروز/CML) است."
+  },
+  {
+    "id": "pa-musculoskeletal-35",
+    "topicId": "osteopetrosis",
+    "category": "Musculoskeletal",
+    "question_fa": "علت مولکولی استئوپتروزیس چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "نقص عملکرد/تکامل استئوکلاست (TCIRG1 یا کربنیک انیدراز ۲)",
+        "text_en": "Defective osteoclast function/development (TCIRG1 or carbonic anhydrase 2)"
+      },
+      {
+        "id": "b",
+        "text_fa": "نقص کلاژن نوع I",
+        "text_en": "Type I collagen defect"
+      },
+      {
+        "id": "c",
+        "text_fa": "موتاسیون FGFR3",
+        "text_en": "FGFR3 mutation"
+      },
+      {
+        "id": "d",
+        "text_fa": "کمبود ویتامین D",
+        "text_en": "Vitamin D deficiency"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "استئوپتروزیس از نقص عملکرد/تکامل استئوکلاست (اغلب موتاسیون TCIRG1 یا کربنیک انیدراز ۲) ناشی می‌شود که بازجذب استخوان را مختل می‌کند."
+  },
+  {
+    "id": "pa-musculoskeletal-36",
+    "topicId": "osteopetrosis",
+    "category": "Musculoskeletal",
+    "question_fa": "چرا در استئوپتروزیس با وجود دانسیته‌ی بالا شکستگی مکرر رخ می‌دهد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "استخوان بدون بازآرایی، شکننده است",
+        "text_en": "Bone lacks remodeling and is brittle"
+      },
+      {
+        "id": "b",
+        "text_fa": "استخوان کاملاً غایب است",
+        "text_en": "Bone is entirely absent"
+      },
+      {
+        "id": "c",
+        "text_fa": "استخوان بیش‌ازحد نرم است",
+        "text_en": "Bone is too soft"
+      },
+      {
+        "id": "d",
+        "text_fa": "استخوان عفونی است",
+        "text_en": "Bone is infected"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "با وجود نام «استخوان سنگی»، فقدان بازجذب و بازآراییِ استئوکلاستی استخوان را شکننده می‌کند، لذا با وجود دانسیته‌ی بالا به‌راحتی می‌شکند."
+  },
+  {
+    "id": "pa-musculoskeletal-37",
+    "topicId": "osteopetrosis",
+    "category": "Musculoskeletal",
+    "question_fa": "تغییرشکل کلاسیک انتهای استخوان‌های بلند در استئوپتروزیس چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فلاسک ارلن‌مایر (Erlenmeyer)",
+        "text_en": "Erlenmeyer flask deformity"
+      },
+      {
+        "id": "b",
+        "text_fa": "منقار پرنده",
+        "text_en": "Bird-beak"
+      },
+      {
+        "id": "c",
+        "text_fa": "استخوان موزائیک",
+        "text_en": "Mosaic bone"
+      },
+      {
+        "id": "d",
+        "text_fa": "فنجان‌شدن (cupping)",
+        "text_en": "Cupping"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "فقدان بازجذب استئوکلاستی باعث نبود کانال مدولاری و انتهای حباب‌مانند استخوان‌های بلند (تغییرشکل فلاسک ارلن‌مایر) می‌شود."
+  },
+  {
+    "id": "pa-musculoskeletal-38",
+    "topicId": "cleidocranial-dysplasia",
+    "category": "Musculoskeletal",
+    "question_fa": "دیسپلازی کلیدوکرانیال از موتاسیون کدام ژن ناشی می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "RUNX2 (از دست دادن عملکرد)",
+        "text_en": "RUNX2 (loss of function)"
+      },
+      {
+        "id": "b",
+        "text_fa": "FGFR3",
+        "text_en": "FGFR3"
+      },
+      {
+        "id": "c",
+        "text_fa": "کلاژن نوع I",
+        "text_en": "Type I collagen"
+      },
+      {
+        "id": "d",
+        "text_fa": "TCIRG1",
+        "text_en": "TCIRG1"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "دیسپلازی کلیدوکرانیال اختلال اتوزومال غالب از موتاسیون از دست دادن عملکرد RUNX2 (فاکتور تمایز استئوبلاست) است."
+  },
+  {
+    "id": "pa-musculoskeletal-39",
+    "topicId": "cleidocranial-dysplasia",
+    "category": "Musculoskeletal",
+    "question_fa": "کدام مجموعه یافته مشخصه‌ی دیسپلازی کلیدوکرانیال است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "ترقوه‌ی غایب/ابتدایی + فونتانل باز + تأخیر دندان",
+        "text_en": "Absent/rudimentary clavicles + open fontanelles + delayed teeth"
+      },
+      {
+        "id": "b",
+        "text_fa": "صلبیه‌ی آبی + شکستگی مکرر",
+        "text_en": "Blue sclerae + recurrent fractures"
+      },
+      {
+        "id": "c",
+        "text_fa": "کوتولگی با اندام کوتاه",
+        "text_en": "Short-limb dwarfism"
+      },
+      {
+        "id": "d",
+        "text_fa": "استخوان دنس + کم‌خونی",
+        "text_en": "Dense bone + anemia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "دیسپلازی کلیدوکرانیال با ترقوه‌های غایب/ابتدایی، فونتانل‌های باز و تأخیر بسته‌شدن درزها، استخوان ورمیان و تأخیر رویش دندان مشخص می‌شود."
+  },
+  {
+    "id": "pa-musculoskeletal-40",
+    "topicId": "osteomalacia-rickets",
+    "category": "Musculoskeletal",
+    "question_fa": "پروفایل آزمایشگاهی استئومالاسی/راشیتیسم کدام است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کلسیم و فسفر پایین + PTH بالا",
+        "text_en": "Low calcium and phosphate + high PTH"
+      },
+      {
+        "id": "b",
+        "text_fa": "کلسیم/فسفر/PTH طبیعی",
+        "text_en": "Normal Ca/phosphate/PTH"
+      },
+      {
+        "id": "c",
+        "text_fa": "کلسیم بالا + PTH بالا",
+        "text_en": "High Ca + high PTH"
+      },
+      {
+        "id": "d",
+        "text_fa": "فسفر بالا + PTH پایین",
+        "text_en": "High phosphate + low PTH"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "استئومالاسی/راشیتیسم اختلال مینرالیزاسیون (اغلب کمبود ویتامین D) است: کلسیم و فسفر پایین و PTH بالا؛ برخلاف استئوپروز که آزمایش‌ها طبیعی است."
+  },
+  {
+    "id": "pa-musculoskeletal-41",
+    "topicId": "osteomalacia-rickets",
+    "category": "Musculoskeletal",
+    "question_fa": "تفاوت راشیتیسم و استئومالاسی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "راشیتیسم در کودکان (صفحه‌ی رشد)، استئومالاسی در بزرگسالان",
+        "text_en": "Rickets in children (growth plate), osteomalacia in adults"
+      },
+      {
+        "id": "b",
+        "text_fa": "راشیتیسم در بزرگسالان، استئومالاسی در کودکان",
+        "text_en": "Rickets in adults, osteomalacia in children"
+      },
+      {
+        "id": "c",
+        "text_fa": "هر دو فقط در سالمندان",
+        "text_en": "Both only in elderly"
+      },
+      {
+        "id": "d",
+        "text_fa": "هیچ تفاوتی ندارند",
+        "text_en": "No difference"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "هر دو اختلال مینرالیزاسیون‌اند: راشیتیسم فرم کودکان (با درگیری صفحه‌ی رشد) و استئومالاسی فرم بزرگسالان است."
+  },
+  {
+    "id": "pa-musculoskeletal-42",
+    "topicId": "skeletal-dysplasias",
+    "category": "Musculoskeletal",
+    "question_fa": "⭐ کدام بیماری با موتاسیونش درست جفت شده است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "دیسپلازی کلیدوکرانیال — RUNX2",
+        "text_en": "Cleidocranial dysplasia — RUNX2"
+      },
+      {
+        "id": "b",
+        "text_fa": "آکندروپلازی — RUNX2",
+        "text_en": "Achondroplasia — RUNX2"
+      },
+      {
+        "id": "c",
+        "text_fa": "استئوژنزیس ایمپرفکتا — FGFR3",
+        "text_en": "Osteogenesis imperfecta — FGFR3"
+      },
+      {
+        "id": "d",
+        "text_fa": "استئوپتروزیس — COL1A1",
+        "text_en": "Osteopetrosis — COL1A1"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "دیسپلازی کلیدوکرانیال با RUNX2 جفت است. آکندروپلازی=FGFR3، استئوژنزیس ایمپرفکتا=کلاژن نوع I (COL1A1)، استئوپتروزیس=TCIRG1/CA2.",
+    "challenge": true
+  },
+  {
+    "id": "pa-musculoskeletal-43",
+    "topicId": "osteopetrosis",
+    "category": "Musculoskeletal",
+    "question_fa": "⭐ کدام بیماری با نشانه‌ی بافت‌شناسی/رادیولوژیکش درست جفت شده است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پاژه — استخوان لاملار موزائیک (jigsaw)",
+        "text_en": "Paget — mosaic lamellar bone (jigsaw)"
+      },
+      {
+        "id": "b",
+        "text_fa": "استئوپروز — نقص مینرالیزاسیون",
+        "text_en": "Osteoporosis — defective mineralization"
+      },
+      {
+        "id": "c",
+        "text_fa": "استئومالاسی — تغییرشکل فلاسک ارلن‌مایر",
+        "text_en": "Osteomalacia — Erlenmeyer flask deformity"
+      },
+      {
+        "id": "d",
+        "text_fa": "استئوپتروزیس — صلبیه‌ی آبی",
+        "text_en": "Osteopetrosis — blue sclerae"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "پاژه با الگوی موزائیکِ استخوان لاملار (شبیه جورچین) جفت است. فلاسک ارلن‌مایر=استئوپتروزیس، نقص مینرالیزاسیون=استئومالاسی (نه استئوپروز)، صلبیه‌ی آبی=استئوژنزیس ایمپرفکتا.",
+    "challenge": true
+  },
+  {
+    "id": "pa-musculoskeletal-44",
+    "topicId": "skeletal-dysplasias",
+    "category": "Musculoskeletal",
+    "question_fa": "⭐ کدام بیماری با نشانه‌ی بالینی کلاسیکش درست جفت شده است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "استئوژنزیس ایمپرفکتا — شکستگی‌های مکرر و صلبیه‌ی آبی",
+        "text_en": "Osteogenesis imperfecta — recurrent fractures and blue sclerae"
+      },
+      {
+        "id": "b",
+        "text_fa": "استئوپتروزیس — صلبیه‌ی آبی",
+        "text_en": "Osteopetrosis — blue sclerae"
+      },
+      {
+        "id": "c",
+        "text_fa": "پاژه — ترقوه‌ی غایب",
+        "text_en": "Paget — absent clavicles"
+      },
+      {
+        "id": "d",
+        "text_fa": "آکندروپلازی — تومور قهوه‌ای",
+        "text_en": "Achondroplasia — brown tumors"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "استئوژنزیس ایمپرفکتا با شکستگی مکرر و صلبیه‌ی آبی جفت است. ترقوه‌ی غایب=دیسپلازی کلیدوکرانیال، تومور قهوه‌ای=هیپرپاراتیروئیدیسم، صلبیه‌ی آبی به استئوپتروزیس ربطی ندارد.",
+    "challenge": true
+  },
+  {
+    "id": "pa-musculoskeletal-45",
+    "topicId": "osteomalacia-rickets",
+    "category": "Musculoskeletal",
+    "question_fa": "⭐ کدام بیماری با پروفایل آزمایشگاهیِ کلسیم/فسفر/PTH درست جفت شده است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "استئومالاسی — کلسیم و فسفر پایین، PTH بالا",
+        "text_en": "Osteomalacia — low Ca and phosphate, high PTH"
+      },
+      {
+        "id": "b",
+        "text_fa": "استئوپروز — کلسیم پایین، PTH بالا",
+        "text_en": "Osteoporosis — low Ca, high PTH"
+      },
+      {
+        "id": "c",
+        "text_fa": "هیپرپاراتیروئیدیسم اولیه — کلسیم پایین",
+        "text_en": "Primary hyperparathyroidism — low calcium"
+      },
+      {
+        "id": "d",
+        "text_fa": "استئوپتروزیس — فسفر بالا",
+        "text_en": "Osteopetrosis — high phosphate"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "استئومالاسی با کلسیم/فسفر پایین و PTH بالا جفت است. استئوپروز آزمایش‌های طبیعی دارد؛ هیپرپاراتیروئیدیسم اولیه کلسیمِ بالا (نه پایین) دارد.",
+    "challenge": true
+  },
+  {
+    "id": "pa-musculoskeletal-46",
+    "topicId": "primary-hyperparathyroidism",
+    "category": "Musculoskeletal",
+    "question_fa": "⭐ «تومور قهوه‌ای (brown tumor)» استخوان مشخصه‌ی کدام بیماری است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "هیپرپاراتیروئیدیسم",
+        "text_en": "Hyperparathyroidism"
+      },
+      {
+        "id": "b",
+        "text_fa": "استئوپتروزیس",
+        "text_en": "Osteopetrosis"
+      },
+      {
+        "id": "c",
+        "text_fa": "استئوژنزیس ایمپرفکتا",
+        "text_en": "Osteogenesis imperfecta"
+      },
+      {
+        "id": "d",
+        "text_fa": "آکندروپلازی",
+        "text_en": "Achondroplasia"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "تومور قهوه‌ای (به‌همراه استئوپروز و استئایتیس فیبروزا سیستیکا) از تظاهرات اسکلتی هیپرپاراتیروئیدیسم است، ناشی از فعالیت بالای استئوکلاست.",
+    "challenge": true
   }
 ]

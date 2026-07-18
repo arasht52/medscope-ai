@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160"><rect width="240" height="160" fill="#f8f5fc"/>
+<rect x="30" y="45" width="80" height="42" rx="6" fill="#fdf3e2" stroke="#B9770E" stroke-width="1.4"/>
+<text x="70" y="62" font-size="6.5" fill="#8a5a0a" text-anchor="middle">استئومالاسی/راشیتیسم</text>
+<text x="70" y="76" font-size="5.5" fill="#B9770E" text-anchor="middle">مینرالیزاسیون مختل</text>
+<rect x="130" y="45" width="80" height="42" rx="6" fill="#e8f0fb" stroke="#1467c8" stroke-width="1.4"/>
+<text x="170" y="62" font-size="6.5" fill="#0e4f9e" text-anchor="middle">استئوپروز</text>
+<text x="170" y="76" font-size="5.5" fill="#1467c8" text-anchor="middle">مینرالیزاسیون طبیعی</text>
+<text x="170" y="86" font-size="5.5" fill="#1467c8" text-anchor="middle">توده‌ی استخوان کم</text>
+<text x="120" y="112" font-size="6" fill="#1b2430" opacity="0.7" text-anchor="middle">راشیتیسم = کودک (صفحه‌ی رشد) · استئومالاسی = بالغ</text>
+<text x="120" y="126" font-size="6" fill="#8a5a0a" text-anchor="middle">علت: اختلال متابولیسم یا کمبود ویتامین D</text>
+<text x="120" y="150" font-family="sans-serif" font-size="7" fill="#1b2430" text-anchor="middle" opacity="0.5">Osteomalacia & rickets vs osteoporosis</text></svg>
