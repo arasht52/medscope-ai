@@ -4203,31 +4203,31 @@
     "id": "pa-hematologiclymphoid-24",
     "topicId": "mantle-cell-lymphoma",
     "category": "Hematologic & Lymphoid",
-    "question_fa": "سیر بالینی لنفوم مانتل‌سل چگونه است؟",
+    "question_fa": "کدام عبارت تفاوت سیر بالینی نوع متعارف لنفوم مانتل‌سل (Conventional MCL) و نوع لوسمیک غیرگره‌ای (Leukemic non-nodal MCL) را بهتر توصیف می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "تهاجمی متوسط و غیرقابل‌درمان (بقای ۸–۱۰ سال)",
-        "text_en": "Moderately aggressive, incurable (8–10y survival)"
+        "text_fa": "نوع متعارف اغلب تهاجمی‌تر است و نوع لوسمیک غیرگره‌ای می‌تواند کم‌شتاب باشد.",
+        "text_en": "Conventional MCL is often more aggressive, and leukemic non-nodal MCL can be indolent."
       },
       {
         "id": "b",
-        "text_fa": "کاملاً خوش‌خیم",
-        "text_en": "Entirely benign"
+        "text_fa": "نوع متعارف اغلب کم‌شتاب‌تر است و نوع لوسمیک غیرگره‌ای معمولاً تهاجمی‌تر است.",
+        "text_en": "Conventional MCL is often more indolent, and leukemic non-nodal MCL is usually more aggressive."
       },
       {
         "id": "c",
-        "text_fa": "همیشه قابل‌درمان قطعی",
-        "text_en": "Always curable"
+        "text_fa": "هر دو نوع معمولاً سیر کم‌شتاب مشابهی دارند.",
+        "text_en": "Both forms usually have a similarly indolent course."
       },
       {
         "id": "d",
-        "text_fa": "بدون علامت مادام‌العمر",
-        "text_en": "Lifelong asymptomatic"
+        "text_fa": "هر دو نوع معمولاً سیر تهاجمی مشابهی دارند.",
+        "text_en": "Both forms usually have a similarly aggressive course."
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "لنفوم مانتل‌سل تهاجمی متوسط و اغلب غیرقابل‌درمان است؛ بیشتر بیماران در مرحله‌ی پیشرفته تشخیص داده می‌شوند و بقای متوسط ۸ تا ۱۰ سال است."
+    "explanation_fa": "سیر لنفوم مانتل‌سل (Mantle cell lymphoma, MCL) متغیر است. نوع متعارف (Conventional MCL) اغلب تظاهر تهاجمی‌تری دارد. نوع لوسمیک غیرگره‌ای (Leukemic non-nodal MCL) می‌تواند سیر کم‌شتاب (Indolent) داشته باشد، هرچند در برخی موارد رفتار تهاجمی نشان می‌دهد. برآورد بقا به جمعیت مورد مطالعه، زیست‌شناسی بیماری و دورهٔ درمانی وابسته است."
   },
   {
     "id": "pa-hematologiclymphoid-25",
@@ -6303,31 +6303,31 @@
     "id": "pa-hepatobiliary-5",
     "topicId": "cirrhosis-of-liver",
     "category": "Hepatobiliary",
-    "question_fa": "دو جزء ضروری برای تعریف سیروز کدام‌اند؟",
+    "question_fa": "کدام ترکیب، تعریف مورفولوژیک سیروز کبدی (Cirrhosis) را بهتر بیان می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "فیبروز برگشت‌ناپذیر + بازآرایی ندولار",
-        "text_en": "Irreversible fibrosis + nodular regeneration"
+        "text_fa": "فیبروز منتشر همراه با بازآرایی معماری کبد به‌صورت ندول‌های بازساختی",
+        "text_en": "Diffuse fibrosis with regenerative nodular transformation of hepatic architecture"
       },
       {
         "id": "b",
-        "text_fa": "استئاتوز + التهاب",
-        "text_en": "Steatosis + inflammation"
+        "text_fa": "فیبروز پل‌زننده همراه با حفظ معماری لوبولی و بدون بازآرایی ندولار",
+        "text_en": "Bridging fibrosis with preserved lobular architecture and no nodular transformation"
       },
       {
         "id": "c",
-        "text_fa": "کلستاز + یرقان",
-        "text_en": "Cholestasis + jaundice"
+        "text_fa": "ندول‌های بازساختی منتشر بدون سپتاهای فیبروزی",
+        "text_en": "Diffuse regenerative nodules without fibrous septa"
       },
       {
         "id": "d",
-        "text_fa": "نکروز + آبسه",
-        "text_en": "Necrosis + abscess"
+        "text_fa": "استئاتوز منتشر همراه با التهاب لوبولی و بدون بازآرایی ندولار",
+        "text_en": "Diffuse steatosis with lobular inflammation and no nodular transformation"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "سیروز نیازمند حضور هر دو جزء است: فیبروز برگشت‌ناپذیر و بازآرایی ندولار پارانشیم کبد."
+    "explanation_fa": "در سیروز، فیبروز منتشر (Diffuse fibrosis) با بازآرایی معماری پارانشیم به شکل ندول‌های بازساختی (Regenerative nodules) همراه است. فیبروز بدون بازآرایی ندولار برای این تعریف مورفولوژیک کافی نیست. پسرفت بافت‌شناختی (Histological regression) در برخی زمینه‌ها مستند شده است. این یافته به معنی بازگشت کامل معماری یا امکان پسرفت در همهٔ موارد سیروز تثبیت‌شده نیست."
   },
   {
     "id": "pa-hepatobiliary-6",
@@ -6663,31 +6663,31 @@
     "id": "pa-renal-13",
     "topicId": "nephrosclerosis-renal-artery-stenosis",
     "category": "Renal",
-    "question_fa": "هیپرتانسیون رنوواسکولار (تنگی شریان کلیوی) با چه سطح رنینی همراه است؟",
+    "question_fa": "در هیپرتانسیون رنوواسکولار (Renovascular hypertension) ناشی از تنگی همودینامیک شریان کلیوی، کاهش فشار پرفیوژن کلیه در آغاز کدام پاسخ را برمی‌انگیزد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "رنین بالا",
-        "text_en": "High renin"
+        "text_fa": "افزایش آزادسازی رنین و فعال‌شدن RAAS",
+        "text_en": "Increased renin release and RAAS activation"
       },
       {
         "id": "b",
-        "text_fa": "رنین پایین",
-        "text_en": "Low renin"
+        "text_fa": "افزایش ترشح آلدوسترون مستقل از رنین",
+        "text_en": "Increased aldosterone secretion independent of renin"
       },
       {
         "id": "c",
-        "text_fa": "رنین صفر",
-        "text_en": "Zero renin"
+        "text_fa": "مهار آزادسازی رنین و کاهش آنژیوتانسین II",
+        "text_en": "Suppressed renin release and reduced angiotensin II"
       },
       {
         "id": "d",
-        "text_fa": "رنین بی‌ارتباط",
-        "text_en": "Renin unrelated"
+        "text_fa": "افزایش آزادسازی ANP و دفع سدیم",
+        "text_en": "Increased ANP release and sodium excretion"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "تنگی شریان کلیوی با فعال‌شدن سیستم رنین-آنژیوتانسین و رنین بالا همراه است و در صورت تشخیص زودرس با آنژیوپلاستی قابل‌درمان است."
+    "explanation_fa": "کاهش فشار پرفیوژن کلیهٔ مبتلا، آزادسازی رنین را تحریک و محور رنین–آنژیوتانسین–آلدوسترون (RAAS) را فعال می‌کند. آنژیوتانسین II با انقباض عروقی و آلدوسترون با احتباس سدیم به افزایش فشار خون کمک می‌کنند. در فاز مزمن، احتباس سدیم و سازوکارهای دیگر می‌توانند در تداوم فشار خون نقش داشته باشند. فعالیت رنین پلاسمای محیطی به مرحلهٔ بیماری و اثر داروها نیز وابسته است و در همهٔ بیماران بالا نیست."
   },
   {
     "id": "pa-renal-14",
@@ -7413,31 +7413,31 @@
     "id": "pa-nervoussystem-27",
     "topicId": "bacterial-fungal-meningitis",
     "category": "Nervous System",
-    "question_fa": "شایع‌ترین عامل مننژیت باکتریال در سالمند کدام است؟",
+    "question_fa": "در آموزش علت‌شناسی مننژیت باکتریایی سالمندان، کدام عامل مهم به‌طور تیپیک به شکل دیپلوکوک گرم‌مثبت نیزه‌ای (Lancet-shaped diplococcus) دیده می‌شود؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "پنوموکوک و لیستریا",
-        "text_en": "Pneumococcus and Listeria"
+        "text_fa": "استرپتوکوک پنومونیه",
+        "text_en": "Streptococcus pneumoniae"
       },
       {
         "id": "b",
-        "text_fa": "مننگوکوک",
-        "text_en": "Meningococcus"
+        "text_fa": "لیستریا مونوسیتوژنز",
+        "text_en": "Listeria monocytogenes"
       },
       {
         "id": "c",
-        "text_fa": "E. coli و GBS",
-        "text_en": "E. coli and GBS"
+        "text_fa": "نایسریا مننژیتیدیس",
+        "text_en": "Neisseria meningitidis"
       },
       {
         "id": "d",
-        "text_fa": "مایکوپلاسما",
-        "text_en": "Mycoplasma"
+        "text_fa": "استرپتوکوک آگالاکتیه",
+        "text_en": "Streptococcus agalactiae"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "عامل مننژیت باکتریال با سن تغییر می‌کند: نوزاد → E.coli/GBS، نوجوان/جوان → مننگوکوک، سالمند → پنوموکوک/لیستریا."
+    "explanation_fa": "پنوموکوک (Streptococcus pneumoniae) از عوامل اصلی مننژیت باکتریایی بزرگسالان است و به‌طور تیپیک دیپلوکوک گرم‌مثبت نیزه‌ای است. لیستریا (Listeria monocytogenes) نیز در سالمندان اهمیت ویژه دارد و یک باسیل کوتاه گرم‌مثبت است. اهمیت لیستریا در این گروه سنی به معنی فراوانی برابر با پنوموکوک نیست."
   },
   {
     "id": "pa-nervoussystem-28",
@@ -8073,31 +8073,31 @@
     "id": "pa-femalereproductivesystem-29",
     "topicId": "bartholin-cyst-vulvar-inflammation",
     "category": "Female Reproductive System",
-    "question_fa": "درمان قطعی کیست غده‌ی بارتولن کدام است؟",
+    "question_fa": "کدام سازوکار مستقیماً به تشکیل کیست مجرای غدهٔ بارتولن (Bartholin duct cyst) می‌انجامد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "اکسیزیون یا مارسوپیالیزاسیون",
-        "text_en": "Excision or marsupialization"
+        "text_fa": "انسداد مجرای غده و احتباس ترشحات",
+        "text_en": "Gland duct obstruction with retention of secretions"
       },
       {
         "id": "b",
-        "text_fa": "فقط تخلیه‌ی ساده",
-        "text_en": "Simple drainage only"
+        "text_fa": "تجمع چرک بر اثر التهاب حاد غده",
+        "text_en": "Pus accumulation due to acute gland inflammation"
       },
       {
         "id": "c",
-        "text_fa": "فقط آنتی‌بیوتیک",
-        "text_en": "Antibiotics only"
+        "text_fa": "کاشت اپیدرم در عمق بافت و تجمع کراتین",
+        "text_en": "Epidermal implantation into deeper tissue with keratin accumulation"
       },
       {
         "id": "d",
-        "text_fa": "مشاهده",
-        "text_en": "Observation"
+        "text_fa": "انسداد مجرای پارااورترال و اتساع آن",
+        "text_en": "Obstruction and dilation of a paraurethral duct"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "درمان قطعی کیست بارتولن اکسیزیون یا مارسوپیالیزاسیون است؛ تخلیه‌ی ساده اغلب با عود همراه است."
+    "explanation_fa": "انسداد مجرای غدهٔ بارتولن باعث احتباس ترشحات و اتساع مجرا می‌شود و کیست احتباسی (Retention cyst) ایجاد می‌کند. آبسهٔ بارتولن (Bartholin abscess) با التهاب عفونی و تجمع چرک مشخص می‌شود و می‌تواند با یا بدون کیست قبلی ایجاد شود."
   },
   {
     "id": "pa-femalereproductivesystem-30",
@@ -8583,31 +8583,31 @@
     "id": "pa-musculoskeletal-40",
     "topicId": "osteomalacia-rickets",
     "category": "Musculoskeletal",
-    "question_fa": "پروفایل آزمایشگاهی استئومالاسی/راشیتیسم کدام است؟",
+    "question_fa": "در مرحلهٔ پیشرفتهٔ استئومالاسی (Osteomalacia) ناشی از کمبود طول‌کشیدهٔ ویتامین D، کدام الگوی آزمایشگاهی انتظار می‌رود؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "کلسیم و فسفر پایین + PTH بالا",
-        "text_en": "Low calcium and phosphate + high PTH"
+        "text_fa": "کلسیم و فسفات پایین، PTH و ALP بالا",
+        "text_en": "Low calcium and phosphate, high PTH and ALP"
       },
       {
         "id": "b",
-        "text_fa": "کلسیم/فسفر/PTH طبیعی",
-        "text_en": "Normal Ca/phosphate/PTH"
+        "text_fa": "کلسیم و فسفات پایین، PTH و ALP پایین",
+        "text_en": "Low calcium and phosphate, low PTH and ALP"
       },
       {
         "id": "c",
-        "text_fa": "کلسیم بالا + PTH بالا",
-        "text_en": "High Ca + high PTH"
+        "text_fa": "کلسیم پایین و فسفات بالا، PTH و ALP بالا",
+        "text_en": "Low calcium and high phosphate, high PTH and ALP"
       },
       {
         "id": "d",
-        "text_fa": "فسفر بالا + PTH پایین",
-        "text_en": "High phosphate + low PTH"
+        "text_fa": "کلسیم بالا و فسفات پایین، PTH و ALP بالا",
+        "text_en": "High calcium and low phosphate, high PTH and ALP"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "استئومالاسی/راشیتیسم اختلال مینرالیزاسیون (اغلب کمبود ویتامین D) است: کلسیم و فسفر پایین و PTH بالا؛ برخلاف استئوپروز که آزمایش‌ها طبیعی است."
+    "explanation_fa": "استئومالاسی حاصل اختلال در معدنی‌شدن ماتریکس استخوان (Defective mineralization of osteoid) است. کمبود ویتامین D جذب روده‌ای کلسیم را کاهش می‌دهد و می‌تواند به هیپرپاراتیروئیدی ثانویه (Secondary hyperparathyroidism) بینجامد. PTH بالا دفع کلیوی فسفات را افزایش می‌دهد. آلکالن فسفاتاز (ALP) معمولاً افزایش می‌یابد. کلسیم و فسفات در مراحل اولیهٔ کمبود می‌توانند طبیعی باشند و در مرحلهٔ پیشرفته کاهش می‌یابند. الگوی آزمایشگاهی با علت و مرحله تغییر می‌کند."
   },
   {
     "id": "pa-musculoskeletal-41",
