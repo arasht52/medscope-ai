@@ -2733,31 +2733,31 @@
     "id": "pa-femalereproductivesystem-28",
     "topicId": "endometriosis-adenomyosis",
     "category": "Female Reproductive System",
-    "question_fa": "برای تشخیص بافت‌شناسی اندومتریوز، حضور کدام اجزا لازم است؟",
+    "question_fa": "در نمونهٔ بافتی صفاق لگن، کدام مجموعه از یافته‌ها مشخصهٔ الگوی کلاسیک اندومتریوز (Endometriosis) است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "غدد و استرومای آندومتر (± هموسیدرین)",
-        "text_en": "Endometrial glands and stroma (± hemosiderin)"
+        "text_fa": "غدد و استرومای نوع آندومتر، همراه با ماکروفاژهای حاوی هموسیدرین",
+        "text_en": "Endometrial-type glands and stroma with hemosiderin-laden macrophages"
       },
       {
         "id": "b",
-        "text_fa": "فقط سلول‌های عضله‌ی صاف",
-        "text_en": "Smooth muscle cells only"
+        "text_fa": "غدد مژک‌دار نوع لولهٔ رحمی، بدون استرومای نوع آندومتر",
+        "text_en": "Ciliated tubal-type glands without endometrial-type stroma"
       },
       {
         "id": "c",
-        "text_fa": "سلول‌های ژانت",
-        "text_en": "Giant cells"
+        "text_fa": "ماکروفاژهای حاوی هموسیدرین، بدون غدد یا استرومای نوع آندومتر",
+        "text_en": "Hemosiderin-laden macrophages without endometrial-type glands or stroma"
       },
       {
         "id": "d",
-        "text_fa": "پرزهای کوریونی",
-        "text_en": "Chorionic villi"
+        "text_fa": "غدد نوع اندوسرویکس، بدون استرومای نوع آندومتر",
+        "text_en": "Endocervical-type glands without endometrial-type stroma"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "تشخیص اندومتریوز بر حضور هم‌زمان غدد و استرومای آندومتر (با یا بدون هموسیدرین) در محل نابه‌جا استوار است."
+    "explanation_fa": "الگوی کلاسیک، غدد و استرومای نوع آندومتر در محل نابجاست. ماکروفاژهای حاوی هموسیدرین (hemosiderin-laden macrophages) قرینهٔ خون‌ریزی قبلی‌اند و به‌تنهایی تشخیص قطعی نمی‌دهند. در اندومتریوز استرومایی (stromal endometriosis)، استرومای نوع آندومتر بدون غدد قابل شناسایی دیده می‌شود. نمونه‌برداری محدود یا فیبروز ممکن است بعضی اجزا را پنهان کند."
   },
   {
     "id": "pa-malereproductivesystem-9",
@@ -3333,31 +3333,31 @@
     "id": "pa-hematologiclymphoid-15",
     "topicId": "follicular-lymphoma",
     "category": "Hematologic & Lymphoid",
-    "question_fa": "آیا t(14;18) به‌تنهایی برای ایجاد لنفوم فولیکولار کافی است؟",
+    "question_fa": "کدام گزاره نقش جابه‌جایی t(14;18)(q32;q21) در لنفوم فولیکولار (follicular lymphoma) را درست بیان می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "خیر، لازم است اما کافی نیست",
-        "text_en": "No, it is necessary but not sufficient"
+        "text_fa": "با IGH::BCL2 مرتبط است و به‌تنهایی برای ایجاد لنفوم کافی نیست.",
+        "text_en": "It is associated with IGH::BCL2 and is insufficient by itself to cause lymphoma."
       },
       {
         "id": "b",
-        "text_fa": "بله، به‌تنهایی کافی است",
-        "text_en": "Yes, it is sufficient alone"
+        "text_fa": "با IGH::BCL2 مرتبط است و به‌تنهایی برای ایجاد لنفوم کافی است.",
+        "text_en": "It is associated with IGH::BCL2 and is sufficient by itself to cause lymphoma."
       },
       {
         "id": "c",
-        "text_fa": "هیچ نقشی ندارد",
-        "text_en": "It has no role"
+        "text_fa": "با IGH::BCL2 مرتبط است و وجود آن برای تشخیص همهٔ موارد ضروری است.",
+        "text_en": "It is associated with IGH::BCL2 and is required to diagnose every case."
       },
       {
         "id": "d",
-        "text_fa": "فقط در کودکان کافی است",
-        "text_en": "Sufficient only in children"
+        "text_fa": "با IGH::CCND1 مرتبط است و موجب افزایش بیان سیکلین D1 می‌شود.",
+        "text_en": "It is associated with IGH::CCND1 and increases cyclin D1 expression."
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "t(14;18) لازم است اما به‌تنهایی برای ایجاد لنفوم فولیکولار کافی نیست و رویدادهای ژنتیکی اضافی لازم است."
+    "explanation_fa": "جابه‌جایی t(14;18) در بسیاری از موارد لنفوم فولیکولار کلاسیک، IGH را در مجاورت BCL2 قرار می‌دهد و می‌تواند بیان BCL2 و بقای سلول را افزایش دهد. این تغییر در همهٔ موارد وجود ندارد. وجود آن به‌تنهایی برای تبدیل بدخیم کافی نیست و رویدادهای مولکولی دیگری در لنفوم‌زایی سهم دارند."
   },
   {
     "id": "pa-hematologiclymphoid-16",
@@ -3993,31 +3993,31 @@
     "id": "pa-renal-6",
     "topicId": "congenital-renal-anomalies",
     "category": "Renal",
-    "question_fa": "آژنزی دوطرفه‌ی کلیه چه پیامدی دارد؟",
+    "question_fa": "در آژنزی دوطرفهٔ کلیهٔ جنین (bilateral renal agenesis)، کدام زنجیرهٔ پاتوفیزیولوژیک پیامد ریوی کلاسیک را توضیح می‌دهد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "ناسازگار با حیات (توالی پاتر)",
-        "text_en": "Incompatible with life (Potter sequence)"
+        "text_fa": "آنوری جنین ← کاهش شدید مایع آمنیوتیک ← هیپوپلازی ریه",
+        "text_en": "Fetal anuria → severe reduction in amniotic fluid → pulmonary hypoplasia"
       },
       {
         "id": "b",
-        "text_fa": "بدون علامت",
-        "text_en": "Asymptomatic"
+        "text_fa": "آنوری جنین ← افزایش مایع آمنیوتیک ← هیپوپلازی ریه",
+        "text_en": "Fetal anuria → increased amniotic fluid → pulmonary hypoplasia"
       },
       {
         "id": "c",
-        "text_fa": "نارسایی خفیف در بزرگسالی",
-        "text_en": "Mild failure in adulthood"
+        "text_fa": "کاهش ادرار جنین ← کاهش مایع آمنیوتیک ← فتق دیافراگم",
+        "text_en": "Reduced fetal urine output → reduced amniotic fluid → diaphragmatic hernia"
       },
       {
         "id": "d",
-        "text_fa": "افزایش فشار خون تنها",
-        "text_en": "Hypertension only"
+        "text_fa": "کاهش ادرار جنین ← افزایش مایع آمنیوتیک ← افیوژن پلور",
+        "text_en": "Reduced fetal urine output → increased amniotic fluid → pleural effusion"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "آژنزی دوطرفه‌ی کلیه ناسازگار با حیات است، در مرده‌زایی دیده می‌شود و اغلب با سایر اختلالات مادرزادی (توالی پاتر) همراه است."
+    "explanation_fa": "آنوری جنین می‌تواند به الیگوهیدرآمنیوس شدید یا آن‌هیدرآمنیوس (anhydramnios) بینجامد. کمبود شدید مایع رشد ریه را مختل می‌کند و هیپوپلازی ریوی، همراه با تغییرات فشاری صورت و اندام‌ها، بخشی از توالی پاتر (Potter sequence) است. پیش‌آگهی بسیار نامطلوب است. بقای نوزادی و حتی ترخیص در برخی موارد منتخب پس از مداخلهٔ تخصصی جنینی گزارش شده است. این بقا استثنایی است و نتیجهٔ معمول بیماری محسوب نمی‌شود."
   },
   {
     "id": "pa-renal-7",
@@ -6993,31 +6993,31 @@
     "id": "pa-gi-14",
     "topicId": "c-difficile-colitis",
     "category": "GI",
-    "question_fa": "پسودوممبران روی مخاط کولون + سابقه‌ی آنتی‌بیوتیک اخیر مطرح‌کننده‌ی چیست؟",
+    "question_fa": "بزرگسالی پس از مصرف اخیر آنتی‌بیوتیک دچار اسهال آبکی شده است. در کولونوسکوپی، پسودوممبران‌های چسبیده به مخاط دیده می‌شوند. بیمار درد ناگهانی شکم یا دفع خون ندارد. کدام تشخیص محتمل‌تر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "کولیت ناشی از C. difficile",
-        "text_en": "C. difficile colitis"
+        "text_fa": "کولیت ناشی از کلستریدیوئیدس دیفیسیل",
+        "text_en": "Clostridioides difficile colitis"
       },
       {
         "id": "b",
-        "text_fa": "کولیت اولسراتیو",
-        "text_en": "Ulcerative colitis"
-      },
-      {
-        "id": "c",
         "text_fa": "کولیت ایسکمیک",
         "text_en": "Ischemic colitis"
       },
       {
+        "id": "c",
+        "text_fa": "کولیت ناشی از سیتومگالوویروس",
+        "text_en": "Cytomegalovirus colitis"
+      },
+      {
         "id": "d",
-        "text_fa": "بیماری کرون",
-        "text_en": "Crohn disease"
+        "text_fa": "کولیت اولسراتیو فعال",
+        "text_en": "Active ulcerative colitis"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "پسودوممبران روی مخاط کولون همراه سابقه‌ی آنتی‌بیوتیک اخیر تا اثبات خلاف، کولیت C. difficile است."
+    "explanation_fa": "اسهال آبکی پس از مصرف آنتی‌بیوتیک همراه با پسودوممبران، کولیت ناشی از Clostridioides difficile را در میان گزینه‌ها محتمل‌تر می‌کند. پسودوممبران (pseudomembrane) در کولیت ایسکمیک و سایر آسیب‌های مخاطی هم ممکن است دیده شود. هیالینیزاسیون لامینا پروپریا در نمونهٔ بافتی می‌تواند به نفع ایسکمی باشد. الگوی بافتی باید همراه با شرح‌حال و یافته‌های آزمایشگاهی تفسیر شود."
   },
   {
     "id": "pa-gi-15",
@@ -7353,31 +7353,31 @@
     "id": "pa-nervoussystem-25",
     "topicId": "astrocytoma-glioblastoma",
     "category": "Nervous System",
-    "question_fa": "کدام تومور آستروسیتیک یک مسیر مجزا و نسبتاً خوش‌خیم در کودکان است؟",
+    "question_fa": "طبق WHO CNS5، کدام تومور در خانوادهٔ گلیوماهای آستروسیتی محدود (circumscribed astrocytic gliomas) قرار دارد و CNS WHO grade 1 است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "آستروسیتوم پیلوسیتیک (WHO I)",
-        "text_en": "Pilocytic astrocytoma (WHO I)"
+        "text_fa": "آستروسیتوم پیلوسیتیک",
+        "text_en": "Pilocytic astrocytoma"
       },
       {
         "id": "b",
-        "text_fa": "گلیوبلاستوما (IV)",
-        "text_en": "Glioblastoma (IV)"
+        "text_fa": "آستروسیتوم با جهش IDH، درجهٔ ۲",
+        "text_en": "Astrocytoma, IDH-mutant, CNS WHO grade 2"
       },
       {
         "id": "c",
-        "text_fa": "آستروسیتوم آناپلاستیک (III)",
-        "text_en": "Anaplastic astrocytoma (III)"
+        "text_fa": "الیگودندروگلیوما با جهش IDH و حذف هم‌زمان 1p/19q",
+        "text_en": "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted"
       },
       {
         "id": "d",
-        "text_fa": "آستروسیتوم منتشر (II)",
-        "text_en": "Diffuse astrocytoma (II)"
+        "text_fa": "گلیوبلاستوما با IDH نوع وحشی",
+        "text_en": "Glioblastoma, IDH-wildtype"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "آستروسیتوم پیلوسیتیک (WHO I) مسیری جدا و نسبتاً خوش‌خیم در کودکان است؛ درجات II→III→IV یک طیف پیوسته‌ی منتشرند."
+    "explanation_fa": "آستروسیتوم پیلوسیتیک در WHO CNS5 از خانوادهٔ گلیوماهای آستروسیتی محدود و دارای CNS WHO grade 1 است. آستروسیتوم با جهش IDH، الیگودندروگلیومای دارای جهش IDH و حذف هم‌زمان 1p/19q، و گلیوبلاستومای IDH نوع وحشی در خانوادهٔ گلیوماهای منتشر نوع بالغ قرار می‌گیرند. در CNS5، درجه در چارچوب نوع تومور و معیارهای بافتی و مولکولی آن تعیین می‌شود. مدل تاریخی II–III–IV مسیر پیشرفت مشترک همهٔ این تومورها نیست."
   },
   {
     "id": "pa-nervoussystem-26",
