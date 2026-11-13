@@ -1323,7 +1323,7 @@
     "id": "pa-malereproductivesystem-3",
     "topicId": "seminoma-embryonal-carcinoma",
     "category": "Male Reproductive System",
-    "question_fa": "مرد ۲۸ ساله توده‌ی بیضه‌ی بدون درد دارد. بیوپسی پس از ارکیکتومی، سلول‌های بزرگ یکنواخت با سیتوپلاسم شفاف و نفوذ لنفوسیتی نشان می‌دهد. کدام تومور بیضه مطرح است؟",
+    "question_fa": "مرد ۲۸ ساله تودهٔ بیضهٔ بدون درد دارد. در برش‌های بافتی نمونهٔ ارکیکتومی، سلول‌های بزرگ یکنواخت با سیتوپلاسم شفاف در لوبول‌هایی دیده می‌شوند که سپتاهای فیبروزی حاوی لنفوسیت آن‌ها را جدا می‌کنند. کدام تومور مطرح است؟",
     "options": [
       {
         "id": "a",
@@ -1347,7 +1347,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "سمینوما شایع‌ترین تومور سلول زایای بیضه است و با سلول‌های بزرگ یکنواخت با سیتوپلاسم شفاف و نفوذ لنفوسیتی استرومایی مشخص می‌شود؛ پیش‌آگهی آن نسبت به اکثر تومورهای ژرم‌سل دیگر بهتر است."
+    "explanation_fa": "سمینوما (Seminoma) به‌طور کلاسیک از سلول‌های بزرگ و نسبتاً یکنواخت با سیتوپلاسم شفاف تشکیل می‌شود. سپتاهای فیبروزی حاوی لنفوسیت می‌توانند لوبول‌های تومور را جدا کنند. این الگو در نمونهٔ ارکیکتومی (Orchiectomy specimen) به نفع سمینوماست."
   },
   {
     "id": "pa-femalereproductivesystem-3",
@@ -1437,7 +1437,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "الگوی «کولاک برف» بدون جنین، hCG بسیار بالا و رحم بزرگ‌تر از سن حاملگی مشخصه‌ی مول کامل است که تماماً منشأ پدری دارد."
+    "explanation_fa": "نمای سونوگرافی «کولاک برف»، نبود جنین قابل مشاهده و افزایش واضح β-hCG در این سناریو به نفع مول کامل (Complete hydatidiform mole) است. ژنوم هسته‌ای مول کامل معمولاً آندروژنتیک (Androgenetic)، یعنی با منشأ پدری، است. موارد نادر دووالدی (Biparental) نیز گزارش شده‌اند."
   },
   {
     "id": "pa-femalereproductivesystem-5",
@@ -1953,31 +1953,31 @@
     "id": "pa-femalereproductivesystem-12",
     "topicId": "endometrial-hyperplasia-carcinoma",
     "category": "Female Reproductive System",
-    "question_fa": "علامت هشداردهنده‌ی اصلی که باید برای رد کارسینوم آندومتر بیوپسی شود کدام است؟",
+    "question_fa": "کدام علامت در زنان یائسه می‌تواند هشداردهندهٔ کارسینوم آندومتر (Endometrial carcinoma) باشد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "خون‌ریزی پس از یائسگی",
-        "text_en": "Postmenopausal bleeding"
+        "text_fa": "خون‌ریزی واژینال پس از یائسگی",
+        "text_en": "Postmenopausal vaginal bleeding"
       },
       {
         "id": "b",
-        "text_fa": "ترشح شیری نوک پستان",
-        "text_en": "Milky nipple discharge"
+        "text_fa": "ترشح شیری دوطرفه از نوک پستان",
+        "text_en": "Bilateral milky nipple discharge"
       },
       {
         "id": "c",
-        "text_fa": "درد لگنی چرخه‌ای",
-        "text_en": "Cyclical pelvic pain"
+        "text_fa": "گرگرفتگی و تعریق شبانه",
+        "text_en": "Hot flashes and night sweats"
       },
       {
         "id": "d",
-        "text_fa": "آمنوره‌ی اولیه",
-        "text_en": "Primary amenorrhea"
+        "text_fa": "خشکی واژن بدون خون‌ریزی",
+        "text_en": "Vaginal dryness without bleeding"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "خون‌ریزی پس از یائسگی تا اثبات خلاف کارسینوم آندومتر است و مستلزم بیوپسی است؛ خوشبختانه اغلب به تشخیص زودرس منجر می‌شود."
+    "explanation_fa": "خون‌ریزی واژینال پس از یائسگی (Postmenopausal bleeding) از علائم هشداردهندهٔ کارسینوم آندومتر است. علل خوش‌خیم نیز می‌توانند همین علامت را ایجاد کنند، بنابراین خون‌ریزی به‌تنهایی بدخیمی را ثابت نمی‌کند."
   },
   {
     "id": "pa-femalereproductivesystem-13",
@@ -2073,31 +2073,31 @@
     "id": "pa-femalereproductivesystem-16",
     "topicId": "invasive-breast-carcinoma",
     "category": "Female Reproductive System",
-    "question_fa": "موتاسیون BRCA1 علاوه بر پستان، خطر کدام بدخیمی را به‌شدت افزایش می‌دهد؟",
+    "question_fa": "واریانت بیماری‌زای ارثی BRCA1 علاوه بر سرطان پستان، خطر کدام گروه بدخیمی را افزایش می‌دهد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "کارسینوم تخمدان",
-        "text_en": "Ovarian carcinoma"
+        "text_fa": "کارسینوم اپی‌تلیالی تخمدان و لولهٔ فالوپ",
+        "text_en": "Epithelial ovarian and fallopian tube carcinoma"
       },
       {
         "id": "b",
-        "text_fa": "کارسینوم تیروئید",
-        "text_en": "Thyroid carcinoma"
+        "text_fa": "کارسینوم پاپیلاری تیروئید",
+        "text_en": "Papillary thyroid carcinoma"
       },
       {
         "id": "c",
-        "text_fa": "ملانوم",
-        "text_en": "Melanoma"
+        "text_fa": "کارسینوم سلول کلیوی نوع سلول روشن",
+        "text_en": "Clear cell renal cell carcinoma"
       },
       {
         "id": "d",
-        "text_fa": "کارسینوم معده",
-        "text_en": "Gastric carcinoma"
+        "text_fa": "کارسینوم سلول سنگفرشی مری",
+        "text_en": "Esophageal squamous cell carcinoma"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "موتاسیون BRCA1 خطر کارسینوم تخمدان را نیز به‌شدت بالا می‌برد (در ۲۰ تا ۴۰٪ حاملان رخ می‌دهد)، لذا شناسایی حاملان اهمیت دارد."
+    "explanation_fa": "واریانت بیماری‌زای ارثی BRCA1 (Germline pathogenic BRCA1 variant) با افزایش خطر کارسینوم توبو-اواریان (Tubo-ovarian carcinoma) همراه است. برآورد خطر به جمعیت بررسی‌شده و افق زمانی بستگی دارد."
   },
   {
     "id": "pa-femalereproductivesystem-17",
@@ -2133,31 +2133,31 @@
     "id": "pa-femalereproductivesystem-18",
     "topicId": "invasive-breast-carcinoma",
     "category": "Female Reproductive System",
-    "question_fa": "کدام نوع ترشح نوک پستان ویژگی بدخیمی نیست؟",
+    "question_fa": "کدام الگوی ترشح نوک پستان با گالاکتورهٔ تیپیک (Galactorrhea) سازگارتر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "گالاکتوره (شیری، دوطرفه)",
-        "text_en": "Galactorrhea (milky, bilateral)"
+        "text_fa": "ترشح شیری دوطرفه از چند مجرا",
+        "text_en": "Bilateral milky discharge from multiple ducts"
       },
       {
         "id": "b",
-        "text_fa": "ترشح خونی یک‌طرفه‌ی خودبه‌خود",
-        "text_en": "Spontaneous unilateral bloody discharge"
+        "text_fa": "ترشح خونی خودبه‌خودی از یک مجرا",
+        "text_en": "Spontaneous bloody discharge from a single duct"
       },
       {
         "id": "c",
-        "text_fa": "ترشح مرتبط با DCIS",
-        "text_en": "Discharge associated with DCIS"
+        "text_fa": "ترشح سروزی شفاف و خودبه‌خودی از یک مجرا",
+        "text_en": "Spontaneous clear serous discharge from a single duct"
       },
       {
         "id": "d",
-        "text_fa": "ترشح خونی در زن مسن",
-        "text_en": "Bloody discharge in older woman"
+        "text_fa": "ترشح چرکی یک‌طرفه همراه با قرمزی و درد",
+        "text_en": "Unilateral purulent discharge with redness and pain"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "گالاکتوره (شیری، دوطرفه) با پرولاکتین بالا یا داروها مرتبط است و ویژگی بدخیمی نیست؛ ترشح خونی یک‌طرفه‌ی خودبه‌خود در زن مسن نگران‌کننده است."
+    "explanation_fa": "گالاکتوره (Galactorrhea) به ترشح شیری خارج از شیردهی فیزیولوژیک گفته می‌شود و به‌طور تیپیک می‌تواند دوطرفه و چندمجرایی باشد. ترشح خونی خودبه‌خودی تک‌مجرایی یک الگوی هشداردهنده است و می‌تواند در ضایعات خوش‌خیم مانند پاپیلوم داخل‌مجرایی یا در بدخیمی دیده شود."
   },
   {
     "id": "pa-cardiovascular-5",
@@ -2463,7 +2463,7 @@
     "id": "pa-femalereproductivesystem-19",
     "topicId": "uterine-leiomyoma-leiomyosarcoma",
     "category": "Female Reproductive System",
-    "question_fa": "شایع‌ترین تومور در زنان کدام است؟",
+    "question_fa": "شایع‌ترین نئوپلاسم خوش‌خیم رحم کدام است؟",
     "options": [
       {
         "id": "a",
@@ -2472,22 +2472,22 @@
       },
       {
         "id": "b",
-        "text_fa": "کارسینوم آندومتر",
-        "text_en": "Endometrial carcinoma"
+        "text_fa": "آدنومیوم رحم",
+        "text_en": "Uterine adenomyoma"
       },
       {
         "id": "c",
-        "text_fa": "لیومیوسارکوم",
-        "text_en": "Leiomyosarcoma"
+        "text_fa": "آدنوفیبروم رحم",
+        "text_en": "Uterine adenofibroma"
       },
       {
         "id": "d",
-        "text_fa": "فیبروآدنوم پستان",
-        "text_en": "Breast fibroadenoma"
+        "text_fa": "تومور آدنوماتوئید رحم",
+        "text_en": "Uterine adenomatoid tumor"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "لیومیوم رحم (فیبروم) نئوپلاسم خوش‌خیم عضله‌ی صاف و شاید شایع‌ترین تومور در زنان است."
+    "explanation_fa": "لیومیوم رحم (Uterine leiomyoma یا Fibroid) نئوپلاسم خوش‌خیم عضلهٔ صاف و شایع‌ترین تومور خوش‌خیم رحم است."
   },
   {
     "id": "pa-femalereproductivesystem-20",
@@ -2583,31 +2583,31 @@
     "id": "pa-femalereproductivesystem-23",
     "topicId": "uterine-leiomyoma-leiomyosarcoma",
     "category": "Female Reproductive System",
-    "question_fa": "لیومیوسارکوم رحم معمولاً به کدام اندام‌ها متاستاز خونی می‌دهد؟",
+    "question_fa": "کدام اندام از محل‌های شایع متاستاز خونی لیومیوسارکوم رحم (Uterine leiomyosarcoma) است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "ریه، استخوان و مغز",
-        "text_en": "Lungs, bone, and brain"
+        "text_fa": "ریه",
+        "text_en": "Lung"
       },
       {
         "id": "b",
-        "text_fa": "فقط غدد لنفاوی موضعی",
-        "text_en": "Only local lymph nodes"
+        "text_fa": "مغز",
+        "text_en": "Brain"
       },
       {
         "id": "c",
-        "text_fa": "کبد و طحال",
-        "text_en": "Liver and spleen"
+        "text_fa": "طحال",
+        "text_en": "Spleen"
       },
       {
         "id": "d",
-        "text_fa": "پوست و بافت زیرجلدی",
-        "text_en": "Skin and subcutaneous tissue"
+        "text_fa": "پوست",
+        "text_en": "Skin"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "بیش از نیمی از لیومیوسارکوم‌ها در نهایت به‌صورت خونی به اندام‌های دور مانند ریه، استخوان و مغز متاستاز می‌دهند."
+    "explanation_fa": "لیومیوسارکوم رحم می‌تواند از راه خون (Hematogenous spread) منتشر شود. ریه یکی از محل‌های شایع متاستاز دوردست است."
   },
   {
     "id": "pa-femalereproductivesystem-24",
@@ -2853,31 +2853,31 @@
     "id": "pa-malereproductivesystem-12",
     "topicId": "prostatitis",
     "category": "Male Reproductive System",
-    "question_fa": "یافتن گرانولوم در پروستات پس از تزریق BCG برای سرطان مثانه چه اهمیتی دارد؟",
+    "question_fa": "پس از تجویز داخل‌مثانه‌ای BCG برای سرطان مثانه، کدام تغییر التهابی ممکن است در پروستات دیده شود؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "بی‌اهمیت است و نیاز به درمان ندارد",
-        "text_en": "Clinically insignificant, needs no treatment"
+        "text_fa": "پروستاتیت گرانولوماتوز",
+        "text_en": "Granulomatous prostatitis"
       },
       {
         "id": "b",
-        "text_fa": "نشانه‌ی سرطان پروستات است",
-        "text_en": "Indicates prostate cancer"
+        "text_fa": "پروستاتیت ائوزینوفیلیک به‌عنوان الگوی تیپیک",
+        "text_en": "Eosinophilic prostatitis as the typical pattern"
       },
       {
         "id": "c",
-        "text_fa": "نشانه‌ی سل فعال است",
-        "text_en": "Indicates active tuberculosis"
+        "text_fa": "آمیلوئیدوز التهاب‌مرتبط پروستات",
+        "text_en": "Inflammation-associated prostatic amyloidosis"
       },
       {
         "id": "d",
-        "text_fa": "نیاز به پروستاتکتومی دارد",
-        "text_en": "Requires prostatectomy"
+        "text_fa": "واسکولیت لکوسیتوکلاستیک پروستات",
+        "text_en": "Leukocytoclastic vasculitis of the prostate"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "گرانولومِ پروستات پس از BCG‌درمانی سرطان مثانه یافته‌ای طبیعی، بی‌اهمیت و بدون نیاز به درمان است."
+    "explanation_fa": "پس از تجویز داخل‌مثانه‌ای BCG (Intravesical BCG)، التهاب گرانولوماتوز ممکن است در پروستات دیده شود. پروستاتیت گرانولوماتوز (Granulomatous prostatitis) می‌تواند یافته‌ای اتفاقی باشد یا با علائم همراه شود. وجود گرانولوم به‌تنهایی وضعیت بالینی یا وجود عفونت فعال را تعیین نمی‌کند."
   },
   {
     "id": "pa-malereproductivesystem-13",
@@ -7023,31 +7023,31 @@
     "id": "pa-gi-15",
     "topicId": "colorectal-adenocarcinoma-polyps",
     "category": "GI",
-    "question_fa": "کدام گزاره درباره‌ی توالی آدنوما-کارسینوما در کولون درست است؟",
+    "question_fa": "در توالی کلاسیک آدنوم–کارسینوم کولورکتال (Conventional adenoma–carcinoma sequence)، کدام ضایعه می‌تواند پیش‌ساز مستقیم کارسینوم باشد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "تقریباً همه‌ی آدنوکارسینوم‌های اسپورادیک از یک آدنوما منشأ می‌گیرند",
-        "text_en": "Nearly all sporadic adenocarcinomas arise from an adenoma"
+        "text_fa": "آدنوم توبولار همراه با دیسپلازی",
+        "text_en": "Tubular adenoma with dysplasia"
       },
       {
         "id": "b",
-        "text_fa": "همه‌ی آدنوماها بدخیم می‌شوند",
-        "text_en": "All adenomas become malignant"
+        "text_fa": "پولیپ التهابی بدون دیسپلازی",
+        "text_en": "Inflammatory polyp without dysplasia"
       },
       {
         "id": "c",
-        "text_fa": "آدنوکارسینوم بدون پیش‌ساز است",
-        "text_en": "Adenocarcinoma has no precursor"
+        "text_fa": "لیپوم زیرمخاطی",
+        "text_en": "Submucosal lipoma"
       },
       {
         "id": "d",
-        "text_fa": "آدنوما هرگز بدخیم نمی‌شود",
-        "text_en": "Adenoma never becomes malignant"
+        "text_fa": "دیورتیکول کولون",
+        "text_en": "Colonic diverticulum"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "بیشتر آدنوماها بدخیم نمی‌شوند، اما تقریباً همه‌ی آدنوکارسینوم‌های اسپورادیک کولون از یک آدنوما منشأ می‌گیرند (توالی آدنوما-کارسینوما)."
+    "explanation_fa": "در مسیر متعارف، آدنوم کولورکتال دیسپلاستیک (Conventional adenoma) می‌تواند به آدنوکارسینوم پیشرفت کند. تنها بخشی از آدنوم‌ها پیشرفت می‌کنند. مسیر ضایعات دندانه‌دار (Serrated neoplasia pathway) نیز وجود دارد و برخی ضایعات دندانه‌دار بدون پایه (Sessile serrated lesions) پیش‌ساز سرطان‌اند."
   },
   {
     "id": "pa-gi-16",
@@ -7083,11 +7083,11 @@
     "id": "pa-gi-17",
     "topicId": "salivary-gland-tumors",
     "category": "GI",
-    "question_fa": "شایع‌ترین تومور خوش‌خیم غدد بزاقی («تومور مخلوط») کدام است؟",
+    "question_fa": "کدام تومور خوش‌خیم غدد بزاقی به‌طور کلاسیک از اجزای اپی‌تلیالی داکتال و میواپیتلیال در استرومای کندرومیکسوئید تشکیل می‌شود؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "پلئومورفیک آدنوما",
+        "text_fa": "پلئومورفیک آدنوم",
         "text_en": "Pleomorphic adenoma"
       },
       {
@@ -7097,17 +7097,17 @@
       },
       {
         "id": "c",
-        "text_fa": "کارسینوم موکواپیدرموئید",
-        "text_en": "Mucoepidermoid carcinoma"
+        "text_fa": "آدنوم سلول بازال",
+        "text_en": "Basal cell adenoma"
       },
       {
         "id": "d",
-        "text_fa": "آدنوم اکسیفیل",
-        "text_en": "Oxyphil adenoma"
+        "text_fa": "انکوسیتوم",
+        "text_en": "Oncocytoma"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "پلئومورفیک آدنوما («تومور مخلوط») شایع‌ترین تومور خوش‌خیم غدد بزاقی است — یک تومور با چند نوع سلول (اپیتلیال و مزانشیمی)، نه دو تومور جدا."
+    "explanation_fa": "پلئومورفیک آدنوم (Pleomorphic adenoma) دارای سلول‌های اپی‌تلیالی داکتال و میواپیتلیال در استرومای کندرومیکسوئید (Chondromyxoid stroma) است. اصطلاح «تومور مخلوط» به تنوع بافتی این نئوپلاسم و نمای مزانشیم‌مانند ماتریکس آن اشاره دارد."
   },
   {
     "id": "pa-generalpathology-10",
@@ -8103,61 +8103,61 @@
     "id": "pa-femalereproductivesystem-30",
     "topicId": "lichen-sclerosus-vulva",
     "category": "Female Reproductive System",
-    "question_fa": "لیکن اسکلروزوس ولو با کدام مسیر بدخیمی مرتبط است؟",
+    "question_fa": "لیکن اسکلروزوس ولو (Vulvar lichen sclerosus) با افزایش خطر کدام مسیر بدخیمی ارتباط دارد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "VIN تفکیک‌یافته و کارسینوم سنگفرشی کراتینیزه",
-        "text_en": "Differentiated VIN and keratinizing SCC"
+        "text_fa": "مسیر مستقل از HPV با پیش‌ساز کلاسیک VIN تمایزیافته",
+        "text_en": "HPV-independent pathway with differentiated VIN as a classic precursor"
       },
       {
         "id": "b",
-        "text_fa": "کارسینوم HPV-وابسته",
-        "text_en": "HPV-associated carcinoma"
+        "text_fa": "مسیر وابسته به HPV پرخطر با پیش‌ساز HSIL ولو",
+        "text_en": "High-risk HPV-associated pathway with vulvar HSIL as a precursor"
       },
       {
         "id": "c",
-        "text_fa": "ملانوم",
-        "text_en": "Melanoma"
+        "text_fa": "مسیر ملانوسیتی منتهی به ملانوما",
+        "text_en": "Melanocytic pathway leading to melanoma"
       },
       {
         "id": "d",
-        "text_fa": "آدنوکارسینوم",
-        "text_en": "Adenocarcinoma"
+        "text_fa": "مسیر غده‌ای منتهی به آدنوکارسینوم",
+        "text_en": "Glandular pathway leading to adenocarcinoma"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "لیکن اسکلروزوس مستقیماً پره‌مالیگنانت نیست اما زمینه‌ساز VIN تفکیک‌یافته و کارسینوم سنگفرشی کراتینیزه‌ی HPV-غیروابسته است."
+    "explanation_fa": "لیکن اسکلروزوس زمینه‌ای التهابی است که با افزایش خطر کارسینوم سلول سنگفرشی ولو مستقل از HPV (HPV-independent vulvar SCC) ارتباط دارد. VIN تمایزیافته (dVIN) پیش‌ساز کلاسیک این مسیر است. این ارتباط به معنی پیشرفت حتمی لیکن اسکلروزوس نیست و کراتینیزاسیون به‌تنهایی وضعیت HPV را تعیین نمی‌کند."
   },
   {
     "id": "pa-femalereproductivesystem-31",
     "topicId": "differentiated-vin-vulvar-scc",
     "category": "Female Reproductive System",
-    "question_fa": "کدام مسیر کارسینوم سنگفرشی ولو HPV-غیروابسته است؟",
+    "question_fa": "کدام عبارت دربارهٔ مسیر مستقل از HPV در کارسینوم سلول سنگفرشی ولو (Vulvar SCC) دقیق‌تر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "از VIN تفکیک‌یافته و موتاسیون TP53 (کراتینیزه)",
-        "text_en": "From differentiated VIN and TP53 mutation (keratinizing)"
+        "text_fa": "VIN تمایزیافته پیش‌ساز کلاسیک است و الگوی p53 می‌تواند غیرطبیعی یا نوع وحشی باشد.",
+        "text_en": "Differentiated VIN is a classic precursor, and p53 staining can be abnormal or wild type."
       },
       {
         "id": "b",
-        "text_fa": "از VIN کلاسیک و HPV (بازالوئید/وارتی)",
-        "text_en": "From classic VIN and HPV (basaloid/warty)"
+        "text_fa": "ضایعهٔ پیش‌ساز معمول، HSIL ناشی از HPV پرخطر است.",
+        "text_en": "The usual precursor is high-risk HPV-associated HSIL."
       },
       {
         "id": "c",
-        "text_fa": "از اندومتریوز",
-        "text_en": "From endometriosis"
+        "text_fa": "مشاهدهٔ کراتینیزاسیون به‌تنهایی وضعیت HPV را تعیین می‌کند.",
+        "text_en": "Keratinization alone determines HPV status."
       },
       {
         "id": "d",
-        "text_fa": "از لیومیوم",
-        "text_en": "From leiomyoma"
+        "text_fa": "الگوی نوع وحشی p53 مسیر مستقل از HPV را رد می‌کند.",
+        "text_en": "A wild-type p53 pattern excludes the HPV-independent pathway."
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "دو مسیر SCC ولو: HPV-وابسته (بازالوئید/وارتی از VIN کلاسیک) و HPV-غیروابسته (کراتینیزه از VIN تفکیک‌یافته و TP53)."
+    "explanation_fa": "کارسینوم سلول سنگفرشی ولو مسیرهای HPV-associated و HPV-independent دارد. VIN تمایزیافته (dVIN) پیش‌ساز کلاسیک مسیر مستقل از HPV است. الگوی غیرطبیعی p53 در بخشی از موارد دیده می‌شود و زیرگروه‌های HPV-independent با p53 نوع وحشی نیز وجود دارند. کراتینیزاسیون به‌تنهایی برای تعیین وضعیت HPV کافی نیست."
   },
   {
     "id": "pa-femalereproductivesystem-32",
@@ -8223,31 +8223,31 @@
     "id": "pa-malereproductivesystem-15",
     "topicId": "epididymo-orchitis",
     "category": "Male Reproductive System",
-    "question_fa": "شایع‌ترین عوامل اپیدیدیمیت در مرد جوانِ فعال جنسی کدام‌اند؟",
+    "question_fa": "در اپیدیدیمیت حاد (Acute epididymitis)، کدام زوج شامل دو عامل کلاسیک عفونت منتقلهٔ جنسی است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "کلامیدیا تراکوماتیس و نایسریا گنوره",
-        "text_en": "C. trachomatis and N. gonorrhoeae"
+        "text_fa": "کلامیدیا تراکوماتیس و نایسریا گنوره‌آ",
+        "text_en": "Chlamydia trachomatis and Neisseria gonorrhoeae"
       },
       {
         "id": "b",
-        "text_fa": "E. coli",
-        "text_en": "E. coli"
+        "text_fa": "اشریشیا کلی و کلبسیلا پنومونیه",
+        "text_en": "Escherichia coli and Klebsiella pneumoniae"
       },
       {
         "id": "c",
-        "text_fa": "سل",
-        "text_en": "Tuberculosis"
+        "text_fa": "پروتئوس میرابیلیس و انتروکوک فکالیس",
+        "text_en": "Proteus mirabilis and Enterococcus faecalis"
       },
       {
         "id": "d",
-        "text_fa": "مایکوپلاسما",
-        "text_en": "Mycoplasma"
+        "text_fa": "اشریشیا کلی و پروتئوس میرابیلیس",
+        "text_en": "Escherichia coli and Proteus mirabilis"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "در مرد جوان فعال جنسی، شایع‌ترین عوامل اپیدیدیمیت کلامیدیا تراکوماتیس و نایسریا گنوره‌آ هستند (در مسن‌تر E. coli شایع‌تر است)."
+    "explanation_fa": "کلامیدیا تراکوماتیس (Chlamydia trachomatis) و نایسریا گنوره‌آ (Neisseria gonorrhoeae) از عوامل کلاسیک اپیدیدیمیت حاد مرتبط با عفونت منتقلهٔ جنسی‌اند. پاتوژن‌های روده‌ای یا ادراری مانند E. coli نیز در برخی زمینه‌ها عامل بیماری‌اند. سن به‌تنهایی عامل عفونت را تعیین نمی‌کند."
   },
   {
     "id": "pa-malereproductivesystem-16",
