@@ -213,31 +213,31 @@
     "id": "pa-gi-2",
     "topicId": "celiac-disease",
     "category": "GI",
-    "question_fa": "کودک با اسهال چرب مزمن، نفخ، و عقب‌ماندگی رشد، بیوپسی روده‌ی کوچک آتروفی پرز و هیپرپلازی کریپت نشان می‌دهد. کدام آنتی‌بادی برای تأیید تشخیص بیشترین کمک را می‌کند؟",
+    "question_fa": "در آموزش سرولوژی بیماری سلیاک کودکان، با فرض کافی بودن IgA تام و مصرف گلوتن، کدام آنتی‌بادی آزمون اولیهٔ ترجیحی است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "آنتی‌بادی ضد ترانس‌گلوتامیناز بافتی (tTG)",
-        "text_en": "Anti-tissue transglutaminase"
+        "text_fa": "IgA ضد ترانس‌گلوتامیناز بافتی نوع ۲ (tTG-IgA)",
+        "text_en": "IgA against tissue transglutaminase type 2 (tTG-IgA)"
       },
       {
         "id": "b",
-        "text_fa": "آنتی‌بادی ضد GAD",
-        "text_en": "Anti-GAD"
+        "text_fa": "IgA ضد اندومیزیوم (EMA-IgA)",
+        "text_en": "IgA anti-endomysial antibody (EMA-IgA)"
       },
       {
         "id": "c",
-        "text_fa": "آنتی‌بادی ضد TPO",
-        "text_en": "Anti-TPO"
+        "text_fa": "IgG ضد پپتید گلیادین دآمیده (DGP-IgG)",
+        "text_en": "IgG against deamidated gliadin peptides (DGP-IgG)"
       },
       {
         "id": "d",
-        "text_fa": "آنتی‌بادی ضد دسموگلئین",
-        "text_en": "Anti-desmoglein"
+        "text_fa": "IgA ضد پپتید گلیادین دآمیده (DGP-IgA)",
+        "text_en": "IgA against deamidated gliadin peptides (DGP-IgA)"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "آنتی‌بادی ضد ترانس‌گلوتامیناز بافتی (anti-tTG IgA) حساس‌ترین و اختصاصی‌ترین تست سرولوژیک برای بیماری سلیاک است؛ تشخیص نهایی با بیوپسی روده‌ی کوچک تأیید می‌شود."
+    "explanation_fa": "tTG-IgA آنتی‌بادی کلاس IgA علیه ترانس‌گلوتامیناز بافتی نوع ۲ (TG2) است. IgA تام برای تفسیر نتیجه اهمیت دارد. EMA-IgA نقش تأییدی دارد و آزمون‌های مبتنی بر IgG در کمبود IgA مطرح می‌شوند. مسیر تأیید تشخیص به زمینه و معیارهای راهنما وابسته است."
   },
   {
     "id": "pa-hepatobiliary-1",
@@ -273,31 +273,31 @@
     "id": "pa-hepatobiliary-2",
     "topicId": "gallbladder-carcinoma",
     "category": "Hepatobiliary",
-    "question_fa": "زن سالمندی با سابقه‌ی سنگ کیسه‌صفرای طولانی‌مدت، در سونوگرافی کلسیفیکاسیون کامل دیواره‌ی کیسه‌صفرا (پرسلانی) دارد. این یافته نشانه‌ی افزایش خطر چیست؟",
+    "question_fa": "در بررسی بافتی کیسه‌صفرای پرسلانی (Porcelain gallbladder)، کدام گزینه الگوهای کلسیفیکاسیون دیواره را درست توصیف می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "کارسینوم کیسه‌صفرا",
-        "text_en": "Gallbladder carcinoma"
+        "text_fa": "نوع کامل داخل‌جداری: کلسیفیکاسیون وسیع دیواره؛ نوع انتخابی مخاطی: کلسیفیکاسیون محدود به ناحیه مخاط.",
+        "text_en": "Complete intramural: extensive wall calcification. Selective mucosal: calcification limited to the mucosal region."
       },
       {
         "id": "b",
-        "text_fa": "هپاتیت خودایمنی",
-        "text_en": "Autoimmune hepatitis"
+        "text_fa": "نوع کامل داخل‌جداری: کلسیفیکاسیون محدود به مخاط؛ نوع انتخابی مخاطی: کلسیفیکاسیون وسیع دیواره.",
+        "text_en": "Complete intramural: calcification limited to the mucosa. Selective mucosal: extensive wall calcification."
       },
       {
         "id": "c",
-        "text_fa": "سیروز صفراوی اولیه",
-        "text_en": "Primary biliary cirrhosis"
+        "text_fa": "نوع کامل داخل‌جداری: کلسیفیکاسیون محدود به سروزا؛ نوع انتخابی مخاطی: کلسیفیکاسیون محدود به عضله.",
+        "text_en": "Complete intramural: calcification limited to the serosa. Selective mucosal: calcification limited to the muscle."
       },
       {
         "id": "d",
-        "text_fa": "کیست کبدی ساده",
-        "text_en": "Simple hepatic cyst"
+        "text_fa": "نوع کامل داخل‌جداری: کلسیفیکاسیون محدود به سنگ‌های داخل لومن؛ نوع انتخابی مخاطی: کلسیفیکاسیون محدود به سروزا.",
+        "text_en": "Complete intramural: calcification limited to intraluminal stones. Selective mucosal: calcification limited to the serosa."
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "کیسه‌صفرای پرسلانی (کلسیفیه) به‌علت التهاب مزمن طولانی‌مدت ریسک‌فاکتور مهمی برای کارسینوم کیسه‌صفراست و معمولاً اندیکاسیون کوله‌سیستکتومی پروفیلاکتیک است."
+    "explanation_fa": "کلسیفیکاسیون کامل داخل‌جداری (complete intramural calcification) به‌صورت گسترده در دیواره دیده می‌شود. کلسیفیکاسیون انتخابی مخاطی (selective mucosal calcification) کانونی است و ناحیهٔ مخاط را درگیر می‌کند. در سری گذشته‌نگر Stephen و Berger، ارتباط با سرطان در گروه انتخابی مخاطی مشاهده شد. از این مشاهده نمی‌توان خطر یکسان برای دو الگو یا خطر صفر در نوع کامل نتیجه گرفت."
   },
   {
     "id": "pa-renal-1",
@@ -2493,31 +2493,31 @@
     "id": "pa-femalereproductivesystem-20",
     "topicId": "uterine-leiomyoma-leiomyosarcoma",
     "category": "Female Reproductive System",
-    "question_fa": "کدام سه معیار برای افتراق لیومیوسارکوم از لیومیوم به کار می‌رود؟",
+    "question_fa": "در ارزیابی تومور عضلهٔ صاف رحم با مورفولوژی متعارف سلول دوکی، کدام مجموعه از یافته‌ها بیشترین حمایت را از لیومیوسارکوم متعارف (conventional spindle-cell leiomyosarcoma) می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "آتیپی هسته‌ای، اندکس میتوزی، نکروز تومور",
-        "text_en": "Nuclear atypia, mitotic index, tumor necrosis"
+        "text_fa": "آتیپی هسته‌ای متوسط تا شدید و منتشر، شمار میتوز بالا و نکروز انعقادی سلول توموری",
+        "text_en": "Diffuse moderate to severe nuclear atypia, high mitotic count, and coagulative tumor cell necrosis"
       },
       {
         "id": "b",
-        "text_fa": "اندازه، رنگ، محل",
-        "text_en": "Size, color, location"
+        "text_fa": "آتیپی خفیف کانونی، شمار میتوز پایین و نکروز انفارکتی با حاشیهٔ هیالین",
+        "text_en": "Focal mild atypia, low mitotic count, and infarct-type necrosis with a hyalinized border"
       },
       {
         "id": "c",
-        "text_fa": "سن، تعداد، علائم",
-        "text_en": "Age, number, symptoms"
+        "text_fa": "شمار میتوز بالا در سلول‌های یکنواخت، بدون آتیپی قابل توجه و بدون نکروز سلول توموری",
+        "text_en": "High mitotic count in uniform cells without significant atypia or tumor cell necrosis"
       },
       {
         "id": "d",
-        "text_fa": "الگوی گردابی، کپسول، کلسیفیکاسیون",
-        "text_en": "Whorled pattern, capsule, calcification"
+        "text_fa": "آتیپی هسته‌ای محدود به کانون‌های دژنراتیو، شمار میتوز پایین و نبود نکروز سلول توموری",
+        "text_en": "Nuclear atypia confined to degenerative foci, low mitotic count, and no tumor cell necrosis"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "افتراق لیومیوسارکوم از لیومیوم بر پایه‌ی آتیپی هسته‌ای، اندکس میتوزی و نکروز تومور است، نه صرفاً اندازه."
+    "explanation_fa": "سه محور ارزیابی شامل آتیپی هسته‌ای، شمار میتوز و نکروز انعقادی سلول توموری (coagulative tumor cell necrosis) هستند. در نوع توموری گذار بین تومور زنده و نکروزه معمولاً ناگهانی است. در نکروز ایسکمیک یا انفارکتی، هیالینیزاسیون یا بافت گرانولاسیون در مرز می‌تواند به افتراق کمک کند. الگوهای مرزی به نمونه‌برداری و تفسیر همهٔ یافته‌ها نیاز دارند. وجود هر سه ویژگی در گزینهٔ a بیشترین حمایت را دارد و حضور هم‌زمان هر سه شرط الزامی تشخیص نیست."
   },
   {
     "id": "pa-femalereproductivesystem-21",
@@ -3123,31 +3123,31 @@
     "id": "pa-hematologiclymphoid-8",
     "topicId": "diffuse-large-b-cell-lymphoma",
     "category": "Hematologic & Lymphoid",
-    "question_fa": "کدام بازآرایی در مسیر de novo ایجاد DLBCL نقش دارد؟",
+    "question_fa": "در بررسی سیتوژنتیک یک لنفوم منتشر سلول B بزرگ (DLBCL)، جابه‌جایی t(3;14)(q27;q32) گزارش شده است. کدام دو جایگاه ژنی در این جابه‌جایی درگیرند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "BCL6",
-        "text_en": "BCL6"
+        "text_fa": "BCL6 و IGH",
+        "text_en": "BCL6 and IGH"
       },
       {
         "id": "b",
-        "text_fa": "BCL2",
-        "text_en": "BCL2"
+        "text_fa": "BCL2 و IGH",
+        "text_en": "BCL2 and IGH"
       },
       {
         "id": "c",
-        "text_fa": "cyclin D1",
-        "text_en": "cyclin D1"
+        "text_fa": "MYC و IGH",
+        "text_en": "MYC and IGH"
       },
       {
         "id": "d",
-        "text_fa": "c-MYC به‌تنهایی",
-        "text_en": "c-MYC alone"
+        "text_fa": "CCND1 و IGH",
+        "text_en": "CCND1 and IGH"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "مسیر de novo ایجاد DLBCL با بازآرایی BCL6 (اغلب t(3;14)) مشخص می‌شود؛ حدود ۲۰٪ موارد از تحول فولیکولار (BCL2) ناشی می‌شوند."
+    "explanation_fa": "در t(3;14)(q27;q32)، جایگاه BCL6 در 3q27 کنار جایگاه زنجیرهٔ سنگین ایمونوگلوبولین (IGH) در 14q32 قرار می‌گیرد. این بازآرایی می‌تواند تنظیم بیان BCL6 را تغییر دهد. بازآرایی BCL2 نیز در برخی موارد de novo گزارش شده است."
   },
   {
     "id": "pa-hematologiclymphoid-9",
@@ -4413,31 +4413,31 @@
     "id": "pa-nervoussystem-20",
     "topicId": "brain-abscess",
     "category": "Nervous System",
-    "question_fa": "یافته‌ی مایع مغزی-نخاعی در آبسه‌ی مغزی کدام است؟",
+    "question_fa": "در ارزیابی تشخیصی آبسهٔ مغزی (brain abscess)، کدام گزاره دربارهٔ ارزش مایع مغزی‌نخاعی (CSF) درست است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "پروتئین بالا، گلوکز طبیعی",
-        "text_en": "High protein, normal glucose"
+        "text_fa": "CSF می‌تواند طبیعی یا غیراختصاصی باشد و نتیجهٔ طبیعی آبسه را رد نمی‌کند.",
+        "text_en": "CSF may be normal or show nonspecific findings. Normal CSF does not rule out an abscess."
       },
       {
         "id": "b",
-        "text_fa": "پروتئین بالا، گلوکز پایین",
-        "text_en": "High protein, low glucose"
+        "text_fa": "الگوی پروتئین بالا و گلوکز طبیعی، آبسه را از سایر ضایعات فضاگیر افتراق می‌دهد.",
+        "text_en": "High protein with normal glucose distinguishes an abscess from other space-occupying lesions."
       },
       {
         "id": "c",
-        "text_fa": "کاملاً طبیعی",
-        "text_en": "Completely normal"
+        "text_fa": "کاهش گلوکز CSF، آبسه را در افتراق با مننژیت باکتریایی رد می‌کند.",
+        "text_en": "Low CSF glucose rules out an abscess in the differential with bacterial meningitis."
       },
       {
         "id": "d",
-        "text_fa": "گلوکز بسیار بالا",
-        "text_en": "Very high glucose"
+        "text_fa": "کشت منفی CSF در بیمار دریافت‌نکردهٔ آنتی‌بیوتیک، آبسهٔ باکتریایی را رد می‌کند.",
+        "text_en": "A negative CSF culture in a patient who has not received antibiotics rules out a bacterial abscess."
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "در آبسه‌ی مغزی، CSF پروتئین بالا اما گلوکز طبیعی دارد؛ این برخلاف مننژیت باکتریایی است که گلوکز پایین می‌رود."
+    "explanation_fa": "در آبسهٔ مغزی (Brain abscess)، نتایج CSF متغیر و گاهی طبیعی‌اند؛ بنابراین CSF طبیعی، وجود آبسه را رد نمی‌کند. MRI نقش مهمی در ارزیابی این ضایعه دارد. پونکسیون کمری (Lumbar puncture) معمولاً توصیه نمی‌شود؛ زیرا بازده تشخیصی محدودی دارد و در حضور ضایعهٔ فضاگیر یا افزایش فشار داخل جمجمه ممکن است خطرناک باشد."
   },
   {
     "id": "pa-nervoussystem-21",
@@ -4743,31 +4743,31 @@
     "id": "pa-respiratory-11",
     "topicId": "sinonasal-nasopharyngeal-disease",
     "category": "Respiratory",
-    "question_fa": "کارسینوم نازوفارنکس با کدام ویروس مرتبط است؟",
+    "question_fa": "در نمونهٔ کارسینوم غیرکراتینیزان نازوفارنکس (nonkeratinizing nasopharyngeal carcinoma)، هیبریداسیون درجا برای EBER در هستهٔ سلول‌های توموری مثبت است. این یافته نشان‌دهندهٔ حضور کدام ویروس در سلول‌های تومور است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "EBV",
-        "text_en": "EBV"
+        "text_fa": "ویروس اپشتین–بار (EBV)",
+        "text_en": "Epstein–Barr virus (EBV)"
       },
       {
         "id": "b",
-        "text_fa": "HHV-8",
-        "text_en": "HHV-8"
+        "text_fa": "ویروس پاپیلومای انسانی پرخطر (high-risk HPV)",
+        "text_en": "High-risk human papillomavirus (HPV)"
       },
       {
         "id": "c",
-        "text_fa": "HPV",
-        "text_en": "HPV"
+        "text_fa": "هرپس‌ویروس انسانی ۸ (HHV-8)",
+        "text_en": "Human herpesvirus 8 (HHV-8)"
       },
       {
         "id": "d",
-        "text_fa": "CMV",
-        "text_en": "CMV"
+        "text_fa": "سیتومگالوویروس (CMV)",
+        "text_en": "Cytomegalovirus (CMV)"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "کارسینوم نازوفارنکس با عفونت EBV و رژیم پرنیتروزآمین (غذاهای تخمیری) مرتبط است."
+    "explanation_fa": "EBERها RNAهای کدشده توسط EBV هستند. مثبت بودن EBER-ISH در سلول‌های توموری، ارتباط کلاسیک EBV با کارسینوم غیرکراتینیزان نازوفارنکس را نشان می‌دهد. موارد مرتبط با HPV نیز گزارش شده‌اند و با آزمون اختصاصی HPV بررسی می‌شوند."
   },
   {
     "id": "pa-respiratory-12",
@@ -7803,61 +7803,61 @@
     "id": "pa-respiratory-20",
     "topicId": "idiopathic-pulmonary-fibrosis",
     "category": "Respiratory",
-    "question_fa": "کدام یافته‌ی میکروسکوپی کلیدِ تشخیص فیبروز ریوی ایدیوپاتیک است؟",
+    "question_fa": "در نمونهٔ جراحی ریه، فیبروز متراکم لکه‌ای با غلبهٔ زیرپلورال و پاراسپتال، تخریب معماری همراه با تغییرات لانه‌زنبوری و کانون‌های فیبروبلاستی دیده می‌شود. یافته‌ای به نفع الگوی جایگزین وجود ندارد. کدام الگوی بافت‌شناختی محتمل‌تر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "کانون‌های فیبروبلاستی + honeycombing",
-        "text_en": "Fibroblastic foci + honeycombing"
+        "text_fa": "پنومونی بینابینی معمول (UIP)",
+        "text_en": "Usual interstitial pneumonia (UIP)"
       },
       {
         "id": "b",
-        "text_fa": "گرانولوم غیرکازئوز",
-        "text_en": "Non-caseating granuloma"
+        "text_fa": "پنومونی بینابینی غیراختصاصی فیبروتیک (fibrotic NSIP)",
+        "text_en": "Fibrotic nonspecific interstitial pneumonia (fibrotic NSIP)"
       },
       {
         "id": "c",
-        "text_fa": "سلول‌های آسمان پرستاره",
-        "text_en": "Starry sky cells"
+        "text_fa": "پنومونی سازمان‌یابنده (organizing pneumonia)",
+        "text_en": "Organizing pneumonia"
       },
       {
         "id": "d",
-        "text_fa": "اجسام آسبستوز",
-        "text_en": "Asbestos bodies"
+        "text_fa": "آسیب منتشر آلوئولی در فاز سازمان‌یابی (organizing DAD)",
+        "text_en": "Organizing-phase diffuse alveolar damage (organizing DAD)"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "کانون‌های فیبروبلاستی (fibroblastic foci) در کنار honeycombing، یافته‌ی کلیدی الگوی UIP در فیبروز ریوی ایدیوپاتیک است."
+    "explanation_fa": "هم‌زمانی فیبروز لکه‌ای و زیرپلورال، تخریب معماری و کانون‌های فیبروبلاستی از UIP حمایت می‌کند. UIP یک الگوی مورفولوژیک است و در بیماری‌های دارای علت شناخته‌شده نیز دیده می‌شود. تشخیص IPF به تطبیق داده‌های بالینی، تصویربرداری و یافته‌های موجود و کنار گذاشتن علل شناخته‌شده نیاز دارد."
   },
   {
     "id": "pa-respiratory-21",
     "topicId": "pulmonary-carcinoid-tumor",
     "category": "Respiratory",
-    "question_fa": "تمایز کارسینوئید تیپیک از آتیپیک ریه بر چه اساسی است؟",
+    "question_fa": "طبق WHO Thoracic Tumours، ویرایش پنجم (۲۰۲۱)، کدام گزینه معیار کامل کارسینوئید آتیپیک را در نمونهٔ رزکسیون توموری با مورفولوژی کارسینوئید ریه بیان می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "تعداد میتوز و وجود نکروز",
-        "text_en": "Mitotic count and presence of necrosis"
+        "text_fa": "۲ تا ۱۰ میتوز در ۲ mm²، نکروز کانونی، یا هر دو",
+        "text_en": "2–10 mitoses per 2 mm², focal necrosis, or both"
       },
       {
         "id": "b",
-        "text_fa": "اندازه‌ی تومور فقط",
-        "text_en": "Tumor size only"
+        "text_fa": "کمتر از ۲ میتوز در ۲ mm² و نبود نکروز",
+        "text_en": "Fewer than 2 mitoses per 2 mm² and no necrosis"
       },
       {
         "id": "c",
-        "text_fa": "رنگ تومور",
-        "text_en": "Tumor color"
+        "text_fa": "بیش از ۱۰ میتوز در ۲ mm² بدون نکروز",
+        "text_en": "More than 10 mitoses per 2 mm² without necrosis"
       },
       {
         "id": "d",
-        "text_fa": "سن بیمار فقط",
-        "text_en": "Patient age only"
+        "text_fa": "Ki‑67 در محدودهٔ ۵ تا ۲۰٪ به‌تنهایی، با کمتر از ۲ میتوز در ۲ mm² و بدون نکروز",
+        "text_en": "Ki-67 of 5–20% alone, with fewer than 2 mitoses per 2 mm² and no necrosis"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "کارسینوئید تیپیک: کمتر از ۲ میتوز در ۱۰ HPF بدون نکروز؛ کارسینوئید آتیپیک: ۲ تا ۱۰ میتوز به‌همراه نکروز کانونی."
+    "explanation_fa": "در طبقه‌بندی WHO 2021، کارسینوئید تیپیک کمتر از ۲ میتوز در ۲ mm² دارد و نکروز ندارد. در کارسینوئید آتیپیک، شمار ۲ تا ۱۰ میتوز در ۲ mm² یا نکروز کانونی، در زمینهٔ مورفولوژی مناسب، معیار است. Ki‑67 به‌تنهایی معیار تفکیک این دو در این ویرایش نیست."
   },
   {
     "id": "pa-respiratory-22",
