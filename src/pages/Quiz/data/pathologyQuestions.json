@@ -2523,31 +2523,31 @@
     "id": "pa-femalereproductivesystem-21",
     "topicId": "uterine-leiomyoma-leiomyosarcoma",
     "category": "Female Reproductive System",
-    "question_fa": "کدام گزاره درباره‌ی منشأ لیومیوسارکوم رحم درست است؟",
+    "question_fa": "کدام عبارت دربارهٔ منشأ لیومیوسارکوم رحم (Uterine leiomyosarcoma) و ارتباط آن با لیومیوم دقیق‌تر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "به‌طور مستقل (de novo) از میومتر می‌روید، نه از لیومیوم",
-        "text_en": "Arises de novo from myometrium, not from leiomyoma"
+        "text_fa": "اغلب مستقل پدید می‌آید. اشتراک یک جهش به‌تنهایی تبدیل مستقیم را ثابت نمی‌کند.",
+        "text_en": "It usually arises de novo. A shared mutation alone does not prove direct transformation."
       },
       {
         "id": "b",
-        "text_fa": "همیشه از بدخیم‌شدن لیومیوم ایجاد می‌شود",
-        "text_en": "Always arises from malignant transformation of a leiomyoma"
+        "text_fa": "مسیر معمول آن تبدیل مستقیم یک لیومیوم از پیش موجود است.",
+        "text_en": "Its usual pathway is direct transformation of a pre-existing leiomyoma."
       },
       {
         "id": "c",
-        "text_fa": "از اپیتلیوم آندومتر منشأ می‌گیرد",
-        "text_en": "Arises from endometrial epithelium"
+        "text_fa": "منشأ آن اپیتلیوم آندومتر است که تمایز عضلهٔ صاف پیدا می‌کند.",
+        "text_en": "It originates in endometrial epithelium that acquires smooth muscle differentiation."
       },
       {
         "id": "d",
-        "text_fa": "منشأ عفونی دارد",
-        "text_en": "Has an infectious origin"
+        "text_fa": "مشاهدهٔ جهش مشترک MED12 برای اثبات تبدیل مستقیم لیومیوم کافی است.",
+        "text_en": "A shared MED12 mutation is sufficient to establish direct transformation from leiomyoma."
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "لیومیوسارکوم تصور می‌شود به‌طور مستقل از میومتر یا سلول‌های پیش‌ساز استرومایی برمی‌خیزد؛ تحول بدخیم لیومیوم به آن بسیار نادر است."
+    "explanation_fa": "لیومیوسارکوم رحم یک بدخیمی با تمایز عضلهٔ صاف است و اغلب مستقل (De novo) پدید می‌آید. در برخی تومورها، تغییراتی مانند جهش MED12 در هر دو نوع ضایعه دیده شده‌اند. اشتراک یک تغییر مولکولی به‌تنهایی ترتیب تکامل یا تبدیل مستقیم لیومیوم به لیومیوسارکوم را اثبات نمی‌کند. شواهد ارتباط کلونال در بعضی ضایعات همراه، امکان ارتباط را در زیرگروهی از موارد مطرح می‌کند."
   },
   {
     "id": "pa-femalereproductivesystem-22",
@@ -3453,31 +3453,31 @@
     "id": "pa-hematologiclymphoid-19",
     "topicId": "burkitt-lymphoma",
     "category": "Hematologic & Lymphoid",
-    "question_fa": "کدام ویژگی لنفوم بورکیت را متمایز می‌کند؟",
+    "question_fa": "در لنفوم بورکیت (Burkitt lymphoma)، کدام الگوی رنگ‌آمیزی Ki-67 با فعالیت تکثیری تیپیک تومور سازگار است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "سریع‌ترین تومور انسانی (دوبرابرشدن ۲۴–۴۸ ساعت)",
-        "text_en": "Fastest human tumor (doubling 24–48h)"
+        "text_fa": "مثبت بودن هسته‌ای در تقریباً تمام سلول‌های توموری",
+        "text_en": "Nuclear positivity in nearly all tumor cells"
       },
       {
         "id": "b",
-        "text_fa": "کندترین رشد",
-        "text_en": "Slowest growth"
+        "text_fa": "مثبت بودن هسته‌ای در اقلیتی از سلول‌های توموری",
+        "text_en": "Nuclear positivity in a minority of tumor cells"
       },
       {
         "id": "c",
-        "text_fa": "عدم متاستاز",
-        "text_en": "No metastasis"
+        "text_fa": "مثبت بودن محدود به ماکروفاژهای بین سلول‌های توموری",
+        "text_en": "Positivity confined to macrophages between tumor cells"
       },
       {
         "id": "d",
-        "text_fa": "منشأ اپیتلیال",
-        "text_en": "Epithelial origin"
+        "text_fa": "مثبت بودن سیتوپلاسمی منتشر در سلول‌های توموری",
+        "text_en": "Diffuse cytoplasmic positivity in tumor cells"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "لنفوم بورکیت سریع‌ترین تومور انسانی با زمان دوبرابرشدن ۲۴ تا ۴۸ ساعت است؛ همین رشد سریع خطر سندرم لیز تومور را ایجاد می‌کند."
+    "explanation_fa": "لنفوم بورکیت فعالیت تکثیری بسیار بالایی دارد و شاخص Ki-67 به‌طور تیپیک در تقریباً تمام هسته‌های سلول‌های توموری مثبت است. Ki-67 بالا به‌تنهایی برای تشخیص کافی نیست و باید همراه با مورفولوژی، ایمونوفنوتیپ و یافته‌های ژنتیکی از جمله بازآرایی MYC تفسیر شود."
   },
   {
     "id": "pa-hematologiclymphoid-20",
@@ -3603,31 +3603,31 @@
     "id": "pa-nervoussystem-8",
     "topicId": "oligodendroglioma",
     "category": "Nervous System",
-    "question_fa": "از دست رفتن 1p/19q چه اهمیت بالینی دارد؟",
+    "question_fa": "طبق WHO CNS5، کدام ترکیب مولکولی الیگودندروگلیوما (Oligodendroglioma) را در یک گلیوم منتشر تیپ بالغ تعریف می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "پاسخ بهتر به درمان و پیش‌آگهی مطلوب‌تر",
-        "text_en": "Better treatment response and prognosis"
+        "text_fa": "جهش IDH و حذف هم‌زمان بازوهای کامل 1p و 19q",
+        "text_en": "IDH mutation and whole-arm 1p/19q codeletion"
       },
       {
         "id": "b",
-        "text_fa": "پیش‌آگهی بسیار بد",
-        "text_en": "Very poor prognosis"
+        "text_fa": "جهش IDH و از دست رفتن ATRX، بدون کدلیشن 1p/19q",
+        "text_en": "IDH mutation and ATRX loss, without 1p/19q codeletion"
       },
       {
         "id": "c",
-        "text_fa": "بدون اهمیت",
-        "text_en": "No significance"
+        "text_fa": "جهش IDH و حذف‌های قطعه‌ای در 1p و 19q",
+        "text_en": "IDH mutation and segmental losses of 1p and 19q"
       },
       {
         "id": "d",
-        "text_fa": "نشانه‌ی متاستاز",
-        "text_en": "Sign of metastasis"
+        "text_fa": "IDH نوع وحشی و حذف هم‌زمان بازوهای کامل 1p و 19q",
+        "text_en": "IDH wild type and whole-arm 1p/19q codeletion"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "کدلیشن 1p/19q در الیگودندروگلیوما با پاسخ بهتر به شیمی‌درمانی و پیش‌آگهی مطلوب‌تر همراه است."
+    "explanation_fa": "در WHO CNS5، تعریف یکپارچهٔ Oligodendroglioma مستلزم جهش IDH1 یا IDH2 و حذف هم‌زمان بازوهای کامل 1p و 19q (Whole-arm codeletion) است. حذف‌های قطعه‌ای این معیار را برآورده نمی‌کنند."
   },
   {
     "id": "pa-nervoussystem-9",
@@ -3813,31 +3813,31 @@
     "id": "pa-nervoussystem-15",
     "topicId": "cns-lymphoma-brain-metastasis",
     "category": "Nervous System",
-    "question_fa": "شایع‌ترین علت توده‌ی مغزی در بالغین بستری کدام است؟",
+    "question_fa": "کدام یافتهٔ بافتی با متاستاز آدنوکارسینوم (Metastatic adenocarcinoma) به پارانشیم مغز سازگارتر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "متاستاز (اغلب کارسینوم)",
-        "text_en": "Metastasis (usually carcinoma)"
+        "text_fa": "غدد بدخیم با تمایز اپی‌تلیالی مشابه تومور اولیه",
+        "text_en": "Malignant glands with epithelial differentiation resembling the primary tumor"
       },
       {
         "id": "b",
-        "text_fa": "گلیوبلاستوما",
-        "text_en": "Glioblastoma"
+        "text_fa": "پزودوروزت‌های اطراف عروق با زوائد فیبریلاری",
+        "text_en": "Perivascular pseudorosettes with fibrillary processes"
       },
       {
         "id": "c",
-        "text_fa": "مننژیوما",
-        "text_en": "Meningioma"
+        "text_fa": "سلول‌های دوکی با اجسام وروکای",
+        "text_en": "Spindle cells with Verocay bodies"
       },
       {
         "id": "d",
-        "text_fa": "مدولوبلاستوما",
-        "text_en": "Medulloblastoma"
+        "text_fa": "آستروسیت‌های دوقطبی همراه با رشته‌های روزنتال",
+        "text_en": "Bipolar astrocytes with Rosenthal fibers"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "متاستازها (اغلب کارسینوم) یک‌چهارم تا نیمی از تومورهای داخل‌جمجمه‌ی بیماران بستری را تشکیل می‌دهند و شایع‌ترین علت توده‌ی مغزی در بالغین‌اند."
+    "explanation_fa": "متاستاز مغزی ممکن است الگوی تمایز تومور مبدأ را حفظ کند. در متاستاز آدنوکارسینوم (Adenocarcinoma)، غدد بدخیم با تمایز اپی‌تلیالی می‌توانند مشابه تومور اولیه باشند. در ضایعات کم‌تمایز، این شباهت ممکن است آشکار نباشد."
   },
   {
     "id": "pa-nervoussystem-16",
@@ -3873,31 +3873,31 @@
     "id": "pa-nervoussystem-17",
     "topicId": "cns-lymphoma-brain-metastasis",
     "category": "Nervous System",
-    "question_fa": "لنفوم اولیه‌ی CNS شایع‌ترین نئوپلاسم CNS در کدام گروه است؟",
+    "question_fa": "کدام زمینه با افزایش خطر لنفوم اولیهٔ دستگاه عصبی مرکزی (Primary CNS lymphoma, PCNSL) ارتباط شناخته‌شده دارد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "افراد دچار نقص ایمنی (ایدز/پیوند)",
-        "text_en": "Immunosuppressed (AIDS/transplant)"
+        "text_fa": "نقص ایمنی شدید در عفونت پیشرفتهٔ HIV",
+        "text_en": "Severe immunodeficiency in advanced HIV infection"
       },
       {
         "id": "b",
-        "text_fa": "کودکان سالم",
-        "text_en": "Healthy children"
+        "text_fa": "سابقهٔ میگرن با اورا",
+        "text_en": "History of migraine with aura"
       },
       {
         "id": "c",
-        "text_fa": "ورزشکاران",
-        "text_en": "Athletes"
+        "text_fa": "صرع کانونی پس از ضربه",
+        "text_en": "Post-traumatic focal epilepsy"
       },
       {
         "id": "d",
-        "text_fa": "سالمندان سالم",
-        "text_en": "Healthy elderly"
+        "text_fa": "هیپرتانسیون اولیهٔ طول‌کشیده",
+        "text_en": "Long-standing essential hypertension"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "لنفوم اولیه‌ی CNS شایع‌ترین نئوپلاسم CNS در افراد دچار نقص ایمنی، از جمله ایدز و پس از پیوند، است."
+    "explanation_fa": "نقص ایمنی شدید در عفونت پیشرفتهٔ HIV با افزایش خطر PCNSL همراه است. PCNSL در افراد دارای ایمنی سالم نیز رخ می‌دهد. میزان خطر به جمعیت و دورهٔ بررسی وابسته است."
   },
   {
     "id": "pa-nervoussystem-18",
@@ -4293,31 +4293,31 @@
     "id": "pa-hematologiclymphoid-27",
     "topicId": "hairy-cell-leukemia",
     "category": "Hematologic & Lymphoid",
-    "question_fa": "چرا در لوسمی سلول مویی «dry tap» رخ می‌دهد؟",
+    "question_fa": "در لوسمی سلول مویی کلاسیک (Classic hairy cell leukemia)، کدام تغییر بافتی علت تیپیک به‌دست نیامدن نمونه در آسپیرهٔ مغز استخوان (Dry tap) است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "فیبروز رتیکولین مغز را غیرقابل‌آسپیره می‌کند",
-        "text_en": "Reticulin fibrosis makes marrow inaspirable"
+        "text_fa": "افزایش رشته‌های رتیکولین در مغز استخوان",
+        "text_en": "Increased reticulin fibers in the bone marrow"
       },
       {
         "id": "b",
-        "text_fa": "فقدان کامل سلول",
-        "text_en": "Total absence of cells"
+        "text_fa": "جایگزینی گستردهٔ مغز استخوان با چربی",
+        "text_en": "Extensive fatty replacement of the bone marrow"
       },
       {
         "id": "c",
-        "text_fa": "خون‌ریزی مغز",
-        "text_en": "Marrow hemorrhage"
+        "text_fa": "نکروز گستردهٔ مغز استخوان",
+        "text_en": "Extensive bone marrow necrosis"
       },
       {
         "id": "d",
-        "text_fa": "عفونت مغز",
-        "text_en": "Marrow infection"
+        "text_fa": "سخت‌شدن ترابکول‌های استخوانی بر اثر استئواسکلروز",
+        "text_en": "Hardening of bony trabeculae due to osteosclerosis"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "سلول‌های مویی در ماتریکس رتیکولین به‌دام می‌افتند و مغز غیرقابل‌آسپیره می‌شود («dry tap»)؛ سلول‌ها فقط در بیوپسی مغز دیده می‌شوند."
+    "explanation_fa": "افزایش رتیکولین (Reticulin fibrosis) در مغز استخوان می‌تواند آسپیره را دشوار کند و به Dry tap بینجامد. بیوپسی مغز استخوان می‌تواند ارتشاح را نشان دهد. سلول‌های مویی ممکن است در اسمیر خون محیطی هم دیده شوند و تعداد سلول‌های در گردش متغیر است."
   },
   {
     "id": "pa-hematologiclymphoid-28",
@@ -4593,31 +4593,31 @@
     "id": "pa-respiratory-6",
     "topicId": "lung-abscess",
     "category": "Respiratory",
-    "question_fa": "تشکیل آبسه به‌ویژه با کدام عفونت‌های پنومونی شایع است؟",
+    "question_fa": "پس از آسپیراسیون ترشحات آلودهٔ دهان و حلق، کدام فرایند بافتی تشکیل یک آبسهٔ کانونی ریه (Lung abscess) را بهتر توصیف می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "پنوموکوکی یا کلبسیلا",
-        "text_en": "Pneumococcal or Klebsiella"
+        "text_fa": "نکروز چرکی کانونی پارانشیم با تشکیل حفرهٔ حاوی چرک",
+        "text_en": "Focal suppurative necrosis of lung parenchyma forming a pus-filled cavity"
       },
       {
         "id": "b",
-        "text_fa": "مایکوپلاسما",
-        "text_en": "Mycoplasma"
+        "text_fa": "التهاب شیمیایی حاد با آسیب منتشر آلوئولی و بدون حفرهٔ چرکی",
+        "text_en": "Acute chemical inflammation with diffuse alveolar injury and no pus-filled cavity"
       },
       {
         "id": "c",
-        "text_fa": "ویروس آنفلوانزا",
-        "text_en": "Influenza virus"
+        "text_fa": "تجمع چرک محدود به فضای پلور",
+        "text_en": "Accumulation of pus confined to the pleural space"
       },
       {
         "id": "d",
-        "text_fa": "پنوموسیستیس",
-        "text_en": "Pneumocystis"
+        "text_fa": "نکروز چندکانونی همراه با ریزحفره‌های متعدد در ناحیهٔ پنومونی",
+        "text_en": "Multifocal necrosis with multiple small cavities within an area of pneumonia"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "تشکیل آبسه‌ی ریه به‌ویژه با عفونت‌های پنوموکوکی یا کلبسیلا شایع است؛ آسپیراسیون باکتری‌های بی‌هوازی نیز عامل مهمی است."
+    "explanation_fa": "آسپیراسیون (Aspiration) ترشحات آلوده می‌تواند عفونت پارانشیم ریه و نکروز چرکی موضعی ایجاد کند. تخریب موضعی بافت و تشکیل حفرهٔ پر از چرک، الگوی آبسهٔ ریه است. در پنومونی نکروزان (Necrotizing pneumonia) الگوی تیپیک شامل نکروز در ناحیهٔ پنومونی و ریزحفره‌های متعدد است. تجمع چرک در فضای پلور آمپیم (Empyema) نام دارد."
   },
   {
     "id": "pa-respiratory-7",
