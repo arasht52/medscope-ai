@@ -1143,31 +1143,31 @@
     "id": "pa-hematologiclymphoid-3",
     "topicId": "iron-deficiency-anemia",
     "category": "Hematologic & Lymphoid",
-    "question_fa": "مرد مسنی با آنمی فقر آهن جدید بدون منبع خون‌ریزی واضح (نه از قاعدگی، نه تروما) مراجعه می‌کند. اولین قدم تشخیصی ضروری چیست؟",
+    "question_fa": "کدام سازوکار ارتباط کارسینوم کولورکتال (Colorectal carcinoma) با کم‌خونی فقر آهن را توضیح می‌دهد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "کولونوسکوپی برای رد کارسینوم کولورکتال",
-        "text_en": "Colonoscopy to rule out colorectal carcinoma"
+        "text_fa": "خون‌ریزی مزمن و پنهان از سطح تومور",
+        "text_en": "Chronic occult bleeding from the tumor surface"
       },
       {
         "id": "b",
-        "text_fa": "شروع آهن خوراکی بدون بررسی بیشتر",
-        "text_en": "Start oral iron without further workup"
+        "text_fa": "همولیز داخل عروقی",
+        "text_en": "Intravascular hemolysis"
       },
       {
         "id": "c",
-        "text_fa": "بیوپسی مغز استخوان فوری",
-        "text_en": "Immediate bone marrow biopsy"
+        "text_fa": "اختلال جذب ویتامین B12",
+        "text_en": "Impaired vitamin B12 absorption"
       },
       {
         "id": "d",
-        "text_fa": "نادیده‌گرفتن یافته، شایع و بی‌خطر است",
-        "text_en": "Ignore finding"
+        "text_fa": "کاهش اریتروپویتین به‌دلیل نارسایی کلیه",
+        "text_en": "Reduced erythropoietin due to renal failure"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "آنمی فقر آهن جدید در مرد مسن بدون منبع خون‌ریزی واضح باید همیشه کارسینوم کولورکتال (خون‌ریزی مزمن مخفی گوارشی) را مطرح کند تا رد شود؛ کولونوسکوپی اقدام تشخیصی کلیدی است."
+    "explanation_fa": "خون‌ریزی مزمن و پنهان گوارشی (Occult GI bleeding) از ضایعهٔ کولورکتال می‌تواند ذخایر آهن را کاهش دهد و به کم‌خونی فقر آهن بینجامد. فقر آهن علل دیگری هم دارد."
   },
   {
     "id": "pa-hematologiclymphoid-4",
@@ -3093,31 +3093,31 @@
     "id": "pa-hematologiclymphoid-7",
     "topicId": "diffuse-large-b-cell-lymphoma",
     "category": "Hematologic & Lymphoid",
-    "question_fa": "اندازه‌ی سلول‌های DLBCL نسبت به لنفوسیت کوچک چقدر است؟",
+    "question_fa": "کدام الگوی بافت‌شناسی با لنفوم منتشر سلول B بزرگ (DLBCL) سازگارتر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "۴ تا ۵ برابر",
-        "text_en": "4 to 5 times"
+        "text_fa": "رشد منتشر سلول‌های نئوپلاستیک بزرگ با تمایز سلول B",
+        "text_en": "Diffuse growth of large neoplastic cells of B-cell lineage"
       },
       {
         "id": "b",
-        "text_fa": "نصف",
-        "text_en": "Half"
+        "text_fa": "فولیکول‌های واکنشی با قطبیت حفظ‌شده",
+        "text_en": "Reactive follicles with preserved polarization"
       },
       {
         "id": "c",
-        "text_fa": "مساوی",
-        "text_en": "Equal"
+        "text_fa": "ارتشاح غالب نوتروفیل‌ها همراه با نکروز چرکی",
+        "text_en": "Predominantly neutrophilic infiltrate with suppurative necrosis"
       },
       {
         "id": "d",
-        "text_fa": "۱۰ برابر",
-        "text_en": "10 times"
+        "text_fa": "گرانولوم‌های اپی‌تلوئیدی سازمان‌یافته",
+        "text_en": "Well-formed epithelioid granulomas"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "سلول‌های DLBCL معمولاً ۴ تا ۵ برابر قطر یک لنفوسیت کوچک هستند و الگوی رشد منتشر دارند."
+    "explanation_fa": "DLBCL معمولاً الگوی رشد منتشر از سلول‌های لنفوئیدی بزرگ و آتیپیک دارد. اندازهٔ سلول‌ها متغیر است. تفسیر مورفولوژی با شواهد تمایز سلول B (B-cell lineage) تکمیل می‌شود."
   },
   {
     "id": "pa-hematologiclymphoid-8",
@@ -3153,7 +3153,7 @@
     "id": "pa-hematologiclymphoid-9",
     "topicId": "diffuse-large-b-cell-lymphoma",
     "category": "Hematologic & Lymphoid",
-    "question_fa": "کدام ساختار لنفوئیدی در DLBCL شایع درگیر می‌شود؟",
+    "question_fa": "در یک نمونهٔ آموزشی از لنفوم منتشر سلول B بزرگ (DLBCL)، ارتشاح لنفومی در لوزه‌های کامی، بافت آدنوئید و لوزهٔ زبانی دیده می‌شود. این یافته‌ها نشان‌دهندهٔ درگیری کدام مجموعهٔ لنفوئیدی هستند؟",
     "options": [
       {
         "id": "a",
@@ -3162,22 +3162,22 @@
       },
       {
         "id": "b",
-        "text_fa": "تیموس",
-        "text_en": "Thymus"
+        "text_fa": "گره‌های لنفاوی عمقی گردن در امتداد ورید ژوگولار داخلی",
+        "text_en": "Deep cervical lymph nodes along the internal jugular vein"
       },
       {
         "id": "c",
-        "text_fa": "مغز استخوان زودرس",
-        "text_en": "Early bone marrow"
+        "text_fa": "گره‌های لنفاوی رتروفارنژیال",
+        "text_en": "Retropharyngeal lymph nodes"
       },
       {
         "id": "d",
-        "text_fa": "طحال به‌تنهایی",
-        "text_en": "Spleen only"
+        "text_fa": "گره‌های لنفاوی زیر فکی",
+        "text_en": "Submandibular lymph nodes"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "درگیری حلقه‌ی والدایر (بافت لنفوئید حلق شامل لوزه و آدنوئید) در DLBCL شایع است؛ درگیری مغز استخوان نسبتاً نادر و دیررس است."
+    "explanation_fa": "حلقهٔ والدایر (Waldeyer ring)، شامل لوزه‌ها و آدنوئید، یکی از محل‌های شناخته‌شدهٔ درگیری در لنفوم منتشر سلول B بزرگ (DLBCL) است. درگیری مغز استخوان در برخی موارد از زمان تشخیص وجود دارد."
   },
   {
     "id": "pa-hematologiclymphoid-10",
@@ -4023,61 +4023,61 @@
     "id": "pa-renal-7",
     "topicId": "congenital-renal-anomalies",
     "category": "Renal",
-    "question_fa": "کدام گزاره درباره‌ی دیسپلازی مولتی‌کیستیک کلیه درست است؟",
+    "question_fa": "کدام عبارت دربارهٔ دیسپلازی مولتی‌کیستیک کلیه (MCDK) دقیق‌تر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "اسپورادیک و غیرارثی است",
-        "text_en": "Sporadic and non-hereditary"
+        "text_fa": "اغلب اسپورادیک است و ممکن است با آنومالی‌های دیگر دستگاه ادراری همراه باشد.",
+        "text_en": "It is usually sporadic and may be associated with other urinary tract anomalies."
       },
       {
         "id": "b",
-        "text_fa": "همیشه ارثی مغلوب است",
-        "text_en": "Always autosomal recessive"
+        "text_fa": "همواره با الگوی اتوزومال مغلوب به ارث می‌رسد.",
+        "text_en": "It is always inherited in an autosomal recessive pattern."
       },
       {
         "id": "c",
-        "text_fa": "هرگز یک‌طرفه نیست",
-        "text_en": "Never unilateral"
+        "text_fa": "تنها به‌صورت دوطرفه تظاهر می‌کند.",
+        "text_en": "It occurs only bilaterally."
       },
       {
         "id": "d",
-        "text_fa": "فاقد کیست است",
-        "text_en": "Has no cysts"
+        "text_fa": "کیست‌ها در این نوع دیسپلازی وجود ندارند.",
+        "text_en": "Cysts are absent in this type of dysplasia."
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "دیسپلازی مولتی‌کیستیک کلیه اختلالی اسپورادیک و غیرارثی است (برخلاف PKD ارثی) و اغلب با انسداد مجاری ادراری همراه است."
+    "explanation_fa": "دیسپلازی مولتی‌کیستیک کلیه (Multicystic dysplastic kidney) اغلب اسپورادیک است و می‌تواند یک‌طرفه یا دوطرفه باشد. آنومالی‌های دیگر دستگاه ادراری ممکن است همراه آن باشند. زمینهٔ ژنتیکی در بخشی از موارد دیسپلازی کلیه مطرح است."
   },
   {
     "id": "pa-renal-8",
     "topicId": "congenital-renal-anomalies",
     "category": "Renal",
-    "question_fa": "دیسپلازی مولتی‌کیستیک یک‌طرفه گاه با چه چیزی اشتباه می‌شود؟",
+    "question_fa": "دیسپلازی مولتی‌کیستیک یک‌طرفهٔ کلیه (MCDK) در صورت بزرگ‌شدن نامنظم کلیه ممکن است چه نمایی را تقلید کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "نئوپلاسم (منجر به نفرکتومی)",
-        "text_en": "Neoplasm (leading to nephrectomy)"
+        "text_fa": "تودهٔ نئوپلاستیک کلیه",
+        "text_en": "Renal neoplastic mass"
       },
       {
         "id": "b",
-        "text_fa": "سنگ کلیه",
-        "text_en": "Kidney stone"
+        "text_fa": "سنگ منفرد در لگنچهٔ کلیه",
+        "text_en": "Solitary renal pelvic calculus"
       },
       {
         "id": "c",
-        "text_fa": "پیلونفریت",
-        "text_en": "Pyelonephritis"
+        "text_fa": "پیلونفریت حاد بدون توده",
+        "text_en": "Acute pyelonephritis without a mass"
       },
       {
         "id": "d",
-        "text_fa": "کیست ساده",
-        "text_en": "Simple cyst"
+        "text_fa": "اتساع یکنواخت لگنچه بدون کیست‌های جداگانه",
+        "text_en": "Uniform renal pelvic dilation without separate cysts"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "دیسپلازی مولتی‌کیستیک یک‌طرفه (کلیه‌ی بزرگ نامنظم) می‌تواند نئوپلاسم را تقلید کند و به نفرکتومی بینجامد؛ کلیه‌ی مقابل طبیعی کار می‌کند."
+    "explanation_fa": "در دیسپلازی مولتی‌کیستیک کلیه (Multicystic dysplastic kidney)، کلیهٔ بزرگ و نامنظم با کیست‌های متعدد می‌تواند نمای توده‌مانند داشته باشد. وضعیت ساختاری و عملکرد کلیهٔ مقابل متغیر است و وجود ضایعهٔ یک‌طرفه سلامت آن را تضمین نمی‌کند."
   },
   {
     "id": "pa-renal-9",
@@ -5553,31 +5553,31 @@
     "id": "pa-musculoskeletal-23",
     "topicId": "fracture-healing",
     "category": "Musculoskeletal",
-    "question_fa": "کالوس نرم (procallus) عمدتاً از چه بافتی تشکیل شده؟",
+    "question_fa": "در ترمیم ثانویهٔ شکستگی، کالوس نرم (Soft callus) از چه بافتی تشکیل می‌شود و چه نقشی دارد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "فیبروکارتیلاژ و هیالین",
-        "text_en": "Fibrocartilage and hyaline cartilage"
+        "text_fa": "بافت فیبروزی و غضروفی با پایداری مکانیکی محدود",
+        "text_en": "Fibrous and cartilaginous tissue providing limited mechanical stability"
       },
       {
         "id": "b",
-        "text_fa": "استخوان لاملار",
-        "text_en": "Lamellar bone"
+        "text_fa": "استخوان لاملار بالغ با پایداری نهایی",
+        "text_en": "Mature lamellar bone providing final stability"
       },
       {
         "id": "c",
-        "text_fa": "چربی",
-        "text_en": "Fat"
+        "text_fa": "بافت چربی بدون اتصال قطعات",
+        "text_en": "Adipose tissue without bridging of the fragments"
       },
       {
         "id": "d",
-        "text_fa": "فیبرین خالص",
-        "text_en": "Pure fibrin"
+        "text_fa": "لختهٔ فیبرینی بدون اجزای فیبروزی و غضروفی",
+        "text_en": "Fibrin clot without fibrous and cartilaginous components"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "کالوس نرم (procallus) از فیبروکارتیلاژ و غضروف هیالین تولیدشده توسط کندروسیت‌های مزانشیمی تشکیل شده و هنوز تثبیت‌کننده نیست."
+    "explanation_fa": "در ترمیم ثانویه، کالوس نرم شامل بافت فیبروزی و غضروفی است و با اتصال نسبی قطعات، مقداری پایداری مکانیکی فراهم می‌کند. با تشکیل و معدنی‌شدن کالوس استخوانی (Bony callus)، سفتی و استحکام بیشتر می‌شود."
   },
   {
     "id": "pa-musculoskeletal-24",
@@ -6063,31 +6063,31 @@
     "id": "pa-endocrine-20",
     "topicId": "pituitary-adenoma-functioning",
     "category": "Endocrine",
-    "question_fa": "درمان خط اول پرولاکتینوما کدام است؟",
+    "question_fa": "فعال‌شدن گیرندهٔ دوپامین D2 در سلول‌های لاکتوتروف هیپوفیز قدامی چه اثر مستقیمی بر ترشح پرولاکتین دارد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "کابرگولین (آگونیست دوپامین)",
-        "text_en": "Cabergoline (dopamine agonist)"
+        "text_fa": "مهار ترشح پرولاکتین",
+        "text_en": "Inhibition of prolactin secretion"
       },
       {
         "id": "b",
-        "text_fa": "جراحی فوری",
-        "text_en": "Immediate surgery"
+        "text_fa": "تحریک ترشح پرولاکتین",
+        "text_en": "Stimulation of prolactin secretion"
       },
       {
         "id": "c",
-        "text_fa": "رادیوتراپی",
-        "text_en": "Radiotherapy"
+        "text_fa": "جایگزین‌شدن ترشح پرولاکتین با ترشح ACTH",
+        "text_en": "Replacement of prolactin secretion by ACTH secretion"
       },
       {
         "id": "d",
-        "text_fa": "لووتیروکسین",
-        "text_en": "Levothyroxine"
+        "text_fa": "تبدیل پرولاکتین به هورمون رشد",
+        "text_en": "Conversion of prolactin to growth hormone"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "درمان خط اول پرولاکتینوما دارویی است (کابرگولین، آگونیست دوپامین)، نه جراحی."
+    "explanation_fa": "دوپامین با فعال‌کردن گیرندهٔ D2 در سلول‌های لاکتوتروف (Lactotrophs) هیپوفیز قدامی، ترشح پرولاکتین را مهار می‌کند. کاهش این پیام مهاری می‌تواند سطح پرولاکتین را افزایش دهد."
   },
   {
     "id": "pa-endocrine-21",
@@ -6723,31 +6723,31 @@
     "id": "pa-renal-15",
     "topicId": "bladder-urothelial-carcinoma",
     "category": "Renal",
-    "question_fa": "هماچوری بدون درد در مرد سیگاری بالای ۵۰ سال اندیکاسیون کدام اقدام است؟",
+    "question_fa": "در کارسینوم اوروتلیال مثانه (Bladder urothelial carcinoma)، کدام جفتِ عامل خطر و تظاهر بالینی تیپیک درست است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "سیستوسکوپی",
-        "text_en": "Cystoscopy"
+        "text_fa": "مصرف دخانیات و هماچوری بدون درد",
+        "text_en": "Tobacco use and painless hematuria"
       },
       {
         "id": "b",
-        "text_fa": "فقط مشاهده",
-        "text_en": "Observation only"
+        "text_fa": "کمبود آهن و پروتئینوری نفروتیک",
+        "text_en": "Iron deficiency and nephrotic-range proteinuria"
       },
       {
         "id": "c",
-        "text_fa": "آنتی‌بیوتیک تجربی",
-        "text_en": "Empiric antibiotics"
+        "text_fa": "کمبود ویتامین D و دفع گلوکز در ادرار",
+        "text_en": "Vitamin D deficiency and glucosuria"
       },
       {
         "id": "d",
-        "text_fa": "دیالیز",
-        "text_en": "Dialysis"
+        "text_fa": "هیپرتیروئیدیسم و پلی‌اوری بدون هماچوری",
+        "text_en": "Hyperthyroidism and polyuria without hematuria"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "هماچوری بدون درد در بیمار سیگاری بالای ۵۰ سال اندیکاسیون قطعی سیستوسکوپی برای رد کارسینوم اوروتلیال مثانه است."
+    "explanation_fa": "مصرف دخانیات عامل خطر شناخته‌شدهٔ کارسینوم اوروتلیال مثانه است. هماچوری بدون درد (Painless hematuria) یکی از تظاهرات کلاسیک آن است و می‌تواند علل دیگری نیز داشته باشد."
   },
   {
     "id": "pa-renal-16",
