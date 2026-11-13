@@ -783,31 +783,31 @@
     "id": "pa-cardiovascular-3",
     "topicId": "myocardial-infarction",
     "category": "Cardiovascular",
-    "question_fa": "بیماری ۳ روز پس از انفارکتوس میوکارد، با درد قفسه‌ی سینه‌ی جدید که با تنفس عمیق تشدید می‌شود مراجعه می‌کند. بافت‌شناسی در این مرحله‌ی زمانی انفارکت میوکارد چه چیزی نشان می‌دهد؟",
+    "question_fa": "حدود ۲۴ تا ۴۸ ساعت پس از انفارکتوس حاد میوکارد بدون خون‌رسانی مجدد (reperfusion)، کدام الگوی بافت‌شناسی در ناحیهٔ انفارکت محتمل‌تر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "نفوذ نوتروفیلی فراوان و شروع نکروز کوآگولاتیو",
-        "text_en": "Heavy neutrophilic infiltrate, early coagulative necrosis"
+        "text_fa": "نکروز انعقادی میوسیت‌ها (coagulative necrosis) همراه با ارتشاح نوتروفیل‌ها",
+        "text_en": "Coagulative necrosis of myocytes with neutrophilic infiltration"
       },
       {
         "id": "b",
-        "text_fa": "اسکار فیبروزی کامل",
-        "text_en": "Complete fibrous scar"
+        "text_fa": "برداشت غالب میوسیت‌های نکروزه توسط ماکروفاژها",
+        "text_en": "Predominant macrophage removal of necrotic myocytes"
       },
       {
         "id": "c",
-        "text_fa": "بافت کاملاً طبیعی",
-        "text_en": "Completely normal tissue"
+        "text_fa": "بافت گرانولاسیون (granulation tissue) با عروق تازه و فیبروبلاست‌ها",
+        "text_en": "Granulation tissue with newly formed vessels and fibroblasts"
       },
       {
         "id": "d",
-        "text_fa": "کلسیفیکاسیون دیستروفیک گسترده",
-        "text_en": "Extensive dystrophic calcification"
+        "text_fa": "اسکار متراکم و بالغ کلاژنی (mature collagenous scar)",
+        "text_en": "Dense mature collagenous scar"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "در روز ۳ پس از انفارکت، نفوذ نوتروفیلی در اوج خود است و نکروز کوآگولاتیو میوسیت‌ها مشهود است؛ اسکار فیبروزی کامل معمولاً پس از ۶ تا ۸ هفته شکل می‌گیرد. درد پلوریتیک در این بازه می‌تواند نشانه‌ی پریکاردیت پس از انفارکت (سندرم درسلر در اشکال دیرتر) باشد."
+    "explanation_fa": "در بازهٔ تقریبی ۲۴ تا ۴۸ ساعت، نکروز انعقادی همراه با ارتشاح نوتروفیلی الگوی مورد انتظار است. غلبهٔ ماکروفاژها، شکل‌گیری بافت گرانولاسیون و اسکار بالغ به مراحل بعدی تعلق دارند. زمان‌بندی تقریبی است و خون‌رسانی مجدد می‌تواند ظاهر ضایعه را تغییر دهد."
   },
   {
     "id": "pa-cardiovascular-4",
@@ -2103,31 +2103,31 @@
     "id": "pa-femalereproductivesystem-17",
     "topicId": "invasive-breast-carcinoma",
     "category": "Female Reproductive System",
-    "question_fa": "بیماری پاژه‌ی نوک پستان معمولاً کدام پروفایل مولکولی را دارد؟",
+    "question_fa": "در بررسی ایمونوهیستوشیمی سلول‌های Paget در اپیدرم نوک پستان (Mammary Paget disease)، کدام الگوی بیان ER و HER2 به‌طور معمول گزارش می‌شود؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "ER منفی و HER2 مثبت",
-        "text_en": "ER-negative and HER2-positive"
+        "text_fa": "ER− / HER2+",
+        "text_en": "ER− / HER2+"
       },
       {
         "id": "b",
-        "text_fa": "ER مثبت و HER2 منفی",
-        "text_en": "ER-positive and HER2-negative"
+        "text_fa": "ER+ / HER2−",
+        "text_en": "ER+ / HER2−"
       },
       {
         "id": "c",
-        "text_fa": "سه‌گانه منفی",
-        "text_en": "Triple-negative"
+        "text_fa": "ER− / HER2−",
+        "text_en": "ER− / HER2−"
       },
       {
         "id": "d",
-        "text_fa": "فاقد هرگونه گیرنده‌ی هورمونی و HER2",
-        "text_en": "No receptors at all"
+        "text_fa": "ER+ / HER2+",
+        "text_en": "ER+ / HER2+"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "کارسینوم‌های همراه با بیماری پاژه معمولاً ER منفی هستند و HER2 را بیش‌ازحد بیان می‌کنند؛ سلول‌های پاژه از DCIS به پوست نوک پستان گسترش می‌یابند."
+    "explanation_fa": "سلول‌های Paget در بسیاری از موارد HER2 مثبت و ER منفی هستند؛ بااین‌حال، الگوهای دیگری نیز وجود دارند. این ویژگی‌ها باید از پروفایل ایمونوهیستوشیمی کارسینوم همراه تفکیک شوند."
   },
   {
     "id": "pa-femalereproductivesystem-18",
@@ -2433,31 +2433,31 @@
     "id": "pa-gi-9",
     "topicId": "ischemic-bowel-disease",
     "category": "GI",
-    "question_fa": "کدام گزاره درباره‌ی سودوممبران در بیماری ایسکمیک روده درست است؟",
+    "question_fa": "در بیوپسی کولون همراه با غشای کاذب (pseudomembrane)، کدام یافتهٔ بافتی بیشترین کمک را به افتراق کولیت ایسکمیک از کولیت ناشی از Clostridioides difficile می‌کند و به نفع ایسکمی است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "عفونت ثانویه‌ی باکتریایی می‌تواند سودوممبران ایجاد کند و آن را شبیه کولیت C. difficile کند",
-        "text_en": "Secondary bacterial infection can produce pseudomembranes, mimicking C. difficile colitis"
+        "text_fa": "هیالینیزاسیون لامینا پروپریا (lamina propria hyalinization)",
+        "text_en": "Lamina propria hyalinization"
       },
       {
         "id": "b",
-        "text_fa": "سودوممبران هرگز در ایسکمی روده دیده نمی‌شود",
-        "text_en": "Pseudomembranes never occur in bowel ischemia"
+        "text_fa": "وجود غشای کاذب روی مخاط",
+        "text_en": "Pseudomembrane on the mucosa"
       },
       {
         "id": "c",
-        "text_fa": "سودوممبران فقط در مری تشکیل می‌شود",
-        "text_en": "Pseudomembranes form only in the esophagus"
+        "text_fa": "وجود نوتروفیل در ترشحات سطحی",
+        "text_en": "Neutrophils in superficial exudate"
       },
       {
         "id": "d",
-        "text_fa": "وجود سودوممبران عفونت C. difficile را قطعی می‌کند",
-        "text_en": "Pseudomembranes confirm C. difficile infection"
+        "text_fa": "وجود بقایای نکروتیک در ترشحات سطحی",
+        "text_en": "Necrotic debris in superficial exudate"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "عفونت ثانویه‌ی باکتریایی و آزادشدن انتروتوکسین در ایسکمی روده می‌تواند سودوممبران ایجاد کند؛ بنابراین سودوممبران به‌تنهایی عفونت C. difficile را اثبات نمی‌کند."
+    "explanation_fa": "غشای کاذب در هر دو بیماری دیده می‌شود. هیالینیزاسیون لامینا پروپریا در مقایسهٔ بیوپسی‌های دارای غشای کاذب به نفع ایسکمی است. این یافته در کنار زمینهٔ بالینی و نتایج بررسی عفونت تفسیر می‌شود."
   },
   {
     "id": "pa-femalereproductivesystem-19",
@@ -2973,31 +2973,31 @@
     "id": "pa-generalpathology-7",
     "topicId": "vascular-tumors",
     "category": "General Pathology",
-    "question_fa": "آنژیوسارکوم کبدی با مواجهه با کدام عوامل مرتبط است؟",
+    "question_fa": "در کارگر کارخانهٔ تولید PVC که به آنژیوسارکوم اولیهٔ کبد (hepatic angiosarcoma) مبتلا شده است، مواجههٔ شغلی با کدام ماده ارتباط کلاسیک با این تومور دارد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "آرسنیک، توروتراست، پلی‌وینیل‌کلراید (PVC)",
-        "text_en": "Arsenic, Thorotrast, polyvinyl chloride (PVC)"
+        "text_fa": "مونومر وینیل کلراید (vinyl chloride monomer, VCM)",
+        "text_en": "Vinyl chloride monomer (VCM)"
       },
       {
         "id": "b",
-        "text_fa": "الکل و سیگار",
-        "text_en": "Alcohol and smoking"
+        "text_fa": "بنزن (benzene)",
+        "text_en": "Benzene"
       },
       {
         "id": "c",
-        "text_fa": "آفلاتوکسین",
-        "text_en": "Aflatoxin"
+        "text_fa": "آزبست (asbestos)",
+        "text_en": "Asbestos"
       },
       {
         "id": "d",
-        "text_fa": "هپاتیت B",
-        "text_en": "Hepatitis B"
+        "text_fa": "سیلیس بلوری (crystalline silica)",
+        "text_en": "Crystalline silica"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "آنژیوسارکوم کبدی با مواجهه با آرسنیک، توروتراست و PVC (با تأخیر طولانی بین مواجهه و تومور) مرتبط است."
+    "explanation_fa": "مواجههٔ شغلی با مونومر وینیل کلراید، مادهٔ اولیهٔ تولید پلی‌وینیل کلراید (PVC)، با آنژیوسارکوم کبدی ارتباط علّی دارد. سابقهٔ کار در صنعت PVC سرنخی برای بررسی مواجهه با مونومر است."
   },
   {
     "id": "pa-generalpathology-8",
@@ -6363,31 +6363,31 @@
     "id": "pa-hepatobiliary-7",
     "topicId": "chronic-viral-hepatitis-cirrhosis",
     "category": "Hepatobiliary",
-    "question_fa": "هپاتوسیت «شیشه‌ای (ground-glass)» نشانه‌ی کدام است؟",
+    "question_fa": "در بیوپسی کبد بیماری با هپاتیت B مزمن، هپاتوسیت‌هایی با سیتوپلاسم شیشه‌ای (ground-glass hepatocytes) دیده می‌شوند. تجمع داخل‌سلولی کدام پروتئین ویروسی به‌طور کلاسیک این ظاهر را ایجاد می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "هپاتیت B مزمن",
-        "text_en": "Chronic hepatitis B"
+        "text_fa": "آنتی‌ژن سطحی هپاتیت B (HBsAg)",
+        "text_en": "Hepatitis B surface antigen (HBsAg)"
       },
       {
         "id": "b",
-        "text_fa": "هپاتیت C مزمن",
-        "text_en": "Chronic hepatitis C"
+        "text_fa": "آنتی‌ژن مرکزی هپاتیت B (HBcAg)",
+        "text_en": "Hepatitis B core antigen (HBcAg)"
       },
       {
         "id": "c",
-        "text_fa": "هپاتیت اتوایمیون",
-        "text_en": "Autoimmune hepatitis"
+        "text_fa": "آنتی‌ژن e هپاتیت B (HBeAg)",
+        "text_en": "Hepatitis B e antigen (HBeAg)"
       },
       {
         "id": "d",
-        "text_fa": "کبد چرب الکلی",
-        "text_en": "Alcoholic fatty liver"
+        "text_fa": "پروتئین X ویروس هپاتیت B (HBx)",
+        "text_en": "Hepatitis B virus X protein (HBx)"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "هپاتوسیت شیشه‌ای (ground-glass) نشانه‌ی پاتوگنومونیک هپاتیت B مزمن است (تجمع HBsAg)، نه C."
+    "explanation_fa": "تجمع HBsAg در شبکهٔ آندوپلاسمی (endoplasmic reticulum) می‌تواند ظاهر شیشه‌ای ایجاد کند. این مورفولوژی در شرایط دیگری نیز دیده می‌شود و برای تفسیر آن، رنگ‌آمیزی HBsAg و زمینهٔ بالینی و ویروس‌شناختی اهمیت دارند."
   },
   {
     "id": "pa-hepatobiliary-8",
@@ -8736,31 +8736,31 @@
     "id": "pa-musculoskeletal-45",
     "topicId": "osteomalacia-rickets",
     "category": "Musculoskeletal",
-    "question_fa": "⭐ کدام بیماری با پروفایل آزمایشگاهیِ کلسیم/فسفر/PTH درست جفت شده است؟",
+    "question_fa": "در یک بزرگسال با استئومالاسی ناشی از کمبود شدید و طول‌کشیدهٔ ویتامین D و هیپوکلسمی، کدام الگوی کلسیم، فسفات و PTH با هیپرپاراتیروئیدیسم ثانویه (secondary hyperparathyroidism) ناشی از این کمبود سازگارتر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "استئومالاسی — کلسیم و فسفر پایین، PTH بالا",
-        "text_en": "Osteomalacia — low Ca and phosphate, high PTH"
+        "text_fa": "کلسیم پایین، فسفات پایین، PTH بالا",
+        "text_en": "Low calcium, low phosphate, high PTH"
       },
       {
         "id": "b",
-        "text_fa": "استئوپروز — کلسیم پایین، PTH بالا",
-        "text_en": "Osteoporosis — low Ca, high PTH"
+        "text_fa": "کلسیم پایین، فسفات بالا، PTH پایین",
+        "text_en": "Low calcium, high phosphate, low PTH"
       },
       {
         "id": "c",
-        "text_fa": "هیپرپاراتیروئیدیسم اولیه — کلسیم پایین",
-        "text_en": "Primary hyperparathyroidism — low calcium"
+        "text_fa": "کلسیم بالا، فسفات پایین، PTH بالا",
+        "text_en": "High calcium, low phosphate, high PTH"
       },
       {
         "id": "d",
-        "text_fa": "استئوپتروزیس — فسفر بالا",
-        "text_en": "Osteopetrosis — high phosphate"
+        "text_fa": "کلسیم بالا، فسفات بالا، PTH پایین",
+        "text_en": "High calcium, high phosphate, low PTH"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "استئومالاسی با کلسیم/فسفر پایین و PTH بالا جفت است. استئوپروز آزمایش‌های طبیعی دارد؛ هیپرپاراتیروئیدیسم اولیه کلسیمِ بالا (نه پایین) دارد.",
+    "explanation_fa": "در کمبود شدید و طول‌کشیدهٔ ویتامین D، کاهش جذب کلسیم می‌تواند به هیپوکلسمی و افزایش جبرانی PTH منجر شود. افزایش دفع کلیوی فسفات تحت اثر PTH به افت فسفات کمک می‌کند. در مراحل اولیه، کلسیم و فسفات ممکن است طبیعی باشند.",
     "challenge": true
   },
   {
