@@ -1473,31 +1473,31 @@
     "id": "pa-femalereproductivesystem-6",
     "topicId": "gestational-trophoblastic-disease",
     "category": "Female Reproductive System",
-    "question_fa": "کدام ضایعه‌ی GTD با خطر تبدیل به کوریوکارسینوما همراه نیست؟",
+    "question_fa": "پس از تخلیهٔ مول هیداتی‌فرم، خطر نئوپلازی تروفوبلاستیک بارداری (GTN) در مول پارشیال نسبت به مول کامل چگونه است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "مول پارشیال",
-        "text_en": "Partial mole"
+        "text_fa": "کمتر است، اما صفر نیست.",
+        "text_en": "It is lower, but not zero."
       },
       {
         "id": "b",
-        "text_fa": "مول کامل",
-        "text_en": "Complete mole"
+        "text_fa": "بیشتر است و با نوع مول تغییر می‌کند.",
+        "text_en": "It is higher and varies by mole type."
       },
       {
         "id": "c",
-        "text_fa": "مول مهاجم",
-        "text_en": "Invasive mole"
+        "text_fa": "در هر دو نوع تقریباً یکسان است.",
+        "text_en": "It is approximately the same for both types."
       },
       {
         "id": "d",
-        "text_fa": "PSTT",
-        "text_en": "Placental-site trophoblastic tumor"
+        "text_fa": "پس از مول پارشیال وجود ندارد.",
+        "text_en": "It does not occur after a partial mole."
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "مول پارشیال با کوریوکارسینوما همراه نیست، هرچند خطر بیماری مولار پایدار را افزایش می‌دهد؛ در مقابل مول کامل ~۲.۵٪ خطر کوریوکارسینوما دارد."
+    "explanation_fa": "خطر نئوپلازی تروفوبلاستیک بارداری پس از مول پارشیال کمتر از مول کامل است، اما صفر نیست. GTN عنوانی گسترده‌تر است و کوریوکارسینوما یکی از انواع آن است. خطر کلی GTN را نمی‌توان معادل خطر اختصاصی کوریوکارسینوما گرفت."
   },
   {
     "id": "pa-femalereproductivesystem-7",
@@ -3513,31 +3513,31 @@
     "id": "pa-nervoussystem-5",
     "topicId": "oligodendroglioma",
     "category": "Nervous System",
-    "question_fa": "کدام یافته‌ی ژنتیکی مشخصه‌ی الیگودندروگلیوماست؟",
+    "question_fa": "طبق WHO CNS5، در یک گلیوم منتشر نوع بالغ با مورفولوژی سازگار، کدام ترکیب مولکولی تشخیص الیگودندروگلیوما (Oligodendroglioma) را تعریف می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "از دست رفتن 1p و 19q",
-        "text_en": "Loss of 1p and 19q"
+        "text_fa": "جهش IDH و حذف هم‌زمان تمام بازوهای 1p و 19q",
+        "text_en": "IDH mutation and combined whole-arm 1p/19q codeletion"
       },
       {
         "id": "b",
-        "text_fa": "تقویت EGFR",
-        "text_en": "EGFR amplification"
+        "text_fa": "جهش IDH و حذف قطعه‌ای از هر دو بازوی 1p و 19q",
+        "text_en": "IDH mutation and partial loss of both 1p and 19q arms"
       },
       {
         "id": "c",
-        "text_fa": "t(11;14)",
-        "text_en": "t(11;14)"
+        "text_fa": "جهش IDH و از دست رفتن بیان هسته‌ای ATRX",
+        "text_en": "IDH mutation and loss of nuclear ATRX expression"
       },
       {
         "id": "d",
-        "text_fa": "موتاسیون RB",
-        "text_en": "RB mutation"
+        "text_fa": "IDH نوع وحشی و تقویت ژن EGFR",
+        "text_en": "IDH-wildtype status and EGFR amplification"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "الیگودندروگلیوما با از دست رفتن هتروزیگوسیتی کروموزوم‌های 1p و 19q مشخص می‌شود که با پاسخ بهتر به درمان همراه است."
+    "explanation_fa": "تشخیص یکپارچهٔ الیگودندروگلیوما در WHO CNS5 به جهش IDH و حذف هم‌زمان تمام بازوی کوتاه کروموزوم ۱ و تمام بازوی بلند کروموزوم ۱۹ (whole-arm 1p/19q codeletion) نیاز دارد. از دست رفتن هتروزیگوسیتی (LOH) در چند جایگاه یا حذف قطعه‌ای به‌تنهایی حذف تمام بازوها را ثابت نمی‌کند."
   },
   {
     "id": "pa-nervoussystem-6",
@@ -3783,7 +3783,7 @@
     "id": "pa-nervoussystem-14",
     "topicId": "ependymoma",
     "category": "Nervous System",
-    "question_fa": "اپاندیموم میکسوپاپیلاری (WHO I) در کجا رخ می‌دهد؟",
+    "question_fa": "اپاندیموم میکسوپاپیلاری (Myxopapillary ependymoma) که در WHO CNS5 درجهٔ ۲ دارد، به‌طور کلاسیک در کدام محل رخ می‌دهد؟",
     "options": [
       {
         "id": "a",
@@ -3807,7 +3807,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "اپاندیموم میکسوپاپیلاری ضایعه‌ی متمایز WHO I است که در فیلوم ترمینالِ نخاع رخ می‌دهد."
+    "explanation_fa": "فیلوم ترمیناله (filum terminale) محل کلاسیک اپاندیموم میکسوپاپیلاری است. این تومور در ناحیهٔ انتهایی کانال نخاعی، از جمله ناحیهٔ مخروط نخاعی و دم‌اسب نیز دیده می‌شود. در WHO CNS5 این تومور CNS WHO grade 2 است. این درجه جایگزین درجهٔ ۱ در طبقه‌بندی‌های پیشین شده و بازتاب احتمال عود مشابه اپاندیموم متعارف نخاعی است."
   },
   {
     "id": "pa-nervoussystem-15",
@@ -5043,31 +5043,31 @@
     "id": "pa-musculoskeletal-6",
     "topicId": "osteoarthritis",
     "category": "Musculoskeletal",
-    "question_fa": "ماهیت استئوآرتریت کدام است؟",
+    "question_fa": "کدام گزینه ماهیت استئوآرتریت (Osteoarthritis) را بهتر توصیف می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "دژنراتیو و غیرالتهابی",
-        "text_en": "Degenerative and non-inflammatory"
+        "text_fa": "بیماری دژنراتیو کل مفصل با التهاب متغیر",
+        "text_en": "Whole-joint degenerative disease with variable inflammation"
       },
       {
         "id": "b",
-        "text_fa": "خودایمنِ سیستمیک",
-        "text_en": "Systemic autoimmune"
+        "text_fa": "آرتریت ناشی از خودایمنی سیستمیک",
+        "text_en": "Arthritis caused by systemic autoimmunity"
       },
       {
         "id": "c",
-        "text_fa": "عفونی",
-        "text_en": "Infectious"
+        "text_fa": "آرتریت ناشی از عفونت داخل مفصل",
+        "text_en": "Arthritis caused by intra-articular infection"
       },
       {
         "id": "d",
-        "text_fa": "متابولیک کریستالی",
-        "text_en": "Crystal metabolic"
+        "text_fa": "آرتریت ناشی از رسوب کریستال در مفصل",
+        "text_en": "Arthritis caused by intra-articular crystal deposition"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "OA بیماری مفصلی دژنراتیو و غیرالتهابی از تخریب غضروف است، برخلاف RA که خودایمن و التهابی است."
+    "explanation_fa": "استئوآرتریت بیماری کل مفصل است. تغییرات ساختاری دژنراتیو می‌توانند غضروف، استخوان زیرغضروفی و سایر بافت‌های مفصل را درگیر کنند. التهاب کم‌درجه و سینوویت (synovitis) ممکن است همراه آن باشند. این التهاب بخشی از فرایند بیماری مفصل است و وجود آن به‌خودی‌خود نشان‌دهندهٔ آرتریت خودایمنی سیستمیک نیست."
   },
   {
     "id": "pa-musculoskeletal-7",
@@ -6333,7 +6333,7 @@
     "id": "pa-hepatobiliary-6",
     "topicId": "hepatocellular-carcinoma",
     "category": "Hepatobiliary",
-    "question_fa": "دکمپانسیشن ناگهانی همراه AFP بالا در بیمار سیروتیک مطرح‌کننده‌ی چیست؟",
+    "question_fa": "در بیماری با سیروز و دکمپانسیشن اخیر، AFP افزایش یافته و MRI چندفازی ندول جامد جدیدی در کبد با افزایش جذب مادهٔ حاجب در فاز شریانی و washout در فاز پورت نشان می‌دهد. کدام تشخیص محتمل‌تر است؟",
     "options": [
       {
         "id": "a",
@@ -6357,7 +6357,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "دکمپانسیشن ناگهانی یا AFP بالا در بیمار سیروتیکِ شناخته‌شده تا رد نشدن باید به‌عنوان HCC در نظر گرفته شود."
+    "explanation_fa": "در زمینهٔ سیروز، الگوی افزایش جذب شریانی و washout در فاز پورت در یک ندول جدید به نفع کارسینوم هپاتوسلولار (HCC) است. AFP بالا می‌تواند شک بالینی را تقویت کند، اما به‌تنهایی معیار تشخیصی نیست. دکمپانسیشن نیز علل متعدد دارد. تشخیص قطعی بر معیارهای معتبر تصویربرداری در بیماران واجد شرایط یا بررسی بافت‌شناسی در موارد مقتضی تکیه دارد."
   },
   {
     "id": "pa-hepatobiliary-7",
