@@ -20,6 +20,18 @@ import "./QuizPlay.css";
  * @param {string} homePath - route to go back to (QuizHome)
  */
 export default function QuizPlay({ title, questions, resultPath, homePath }) {
+  return (
+    <QuizAttempt
+      key={resultPath}
+      title={title}
+      questions={questions}
+      resultPath={resultPath}
+      homePath={homePath}
+    />
+  );
+}
+
+function QuizAttempt({ title, questions, resultPath, homePath }) {
   const navigate = useNavigate();
   const quiz = useQuiz(questions);
 

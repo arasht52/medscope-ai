@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import createQuizAttempt from "./createQuizAttempt.js";
 
 /**
  * useQuiz
@@ -8,12 +9,13 @@ import { useMemo, useState } from "react";
  * @param {Array} questions - question bank for the selected quiz type
  */
 export default function useQuiz(questions) {
+  const [attemptQuestions, setAttemptQuestions] = useState(() => createQuizAttempt(questions));
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState({}); // { [questionId]: selectedOptionId }
   const [finished, setFinished] = useState(false);
 
-  const total = questions.length;
-  const currentQuestion = questions[currentIndex] ?? null;
+  const total = attemptQuestions.length;
+  const currentQuestion = attemptQuestions[currentIndex] ?? null;
   const isLast = currentIndex === total - 1;
   const selectedOptionId = currentQuestion ? answers[currentQuestion.id] : undefined;
   const hasAnswered = selectedOptionId !== undefined;
@@ -33,25 +35,26 @@ export default function useQuiz(questions) {
   }
 
   function restart() {
+    setAttemptQuestions(createQuizAttempt(questions));
     setCurrentIndex(0);
     setAnswers({});
     setFinished(false);
   }
 
   const score = useMemo(() => {
-    return questions.reduce((acc, q) => {
-      return answers[q.id] === q.correctOptionId ? acc + 1 : acc;
+    return attemptQuestions.reduce((acc, q) => {
+      return answers[q.id] !== undefined && answers[q.id] === q.correctOptionId ? acc + 1 : acc;
     }, 0);
-  }, [answers, questions]);
+  }, [answers, attemptQuestions]);
 
   const wrongAnswers = useMemo(() => {
-    return questions
+    return attemptQuestions
       .filter((q) => answers[q.id] !== undefined && answers[q.id] !== q.correctOptionId)
       .map((q) => ({
         question: q,
         selectedOptionId: answers[q.id],
       }));
-  }, [answers, questions]);
+  }, [answers, attemptQuestions]);
 
   return {
     total,
