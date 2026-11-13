@@ -17,8 +17,8 @@
       },
       {
         "id": "c",
-        "text_fa": "نکروز چربی",
-        "text_en": "Fat necrosis"
+        "text_fa": "نکروز مایع‌شونده",
+        "text_en": "Liquefactive necrosis"
       },
       {
         "id": "d",
@@ -27,7 +27,7 @@
       }
     ],
     "correctOptionId": "b",
-    "explanation_fa": "نکروز کازئوز مشخصه‌ی عفونت‌های گرانولوماتوز مانند سل است؛ ترکیبی از ویژگی‌های نکروز انعقادی و لیکوفکتیو با ظاهر ماکروسکوپیک شبیه پنیر نرم است."
+    "explanation_fa": "در سل، مرکز بعضی گرانولوم‌ها ماده‌ای سفید مایل به زرد با ظاهر پنیری دارد. در میکروسکوپ، مواد دانه‌دار ائوزینوفیلیک و ازبین‌رفتن معماری سلولی از این الگو پشتیبانی می‌کنند. این سؤال نوع نکروز را می‌سنجد؛ این ظاهر به‌تنهایی علت عفونی را تعیین نمی‌کند."
   },
   {
     "id": "pa-generalpathology-2",
@@ -63,31 +63,31 @@
     "id": "pa-cardiovascular-1",
     "topicId": "atherosclerosis",
     "category": "Cardiovascular",
-    "question_fa": "مرد ۶۰ ساله‌ی سیگاری با درد قفسه‌ی سینه فعالیتی، آنژیوگرافی پلاک‌های نامنظم در عروق کرونری نشان می‌دهد. کدام سلول در مرکز تشکیل پلاک آتروم نقش کلیدی دارد؟",
+    "question_fa": "در مراحل اولیهٔ آترواسکلروز، مونوسیت‌های خون وارد اینتیما می‌شوند و به ماکروفاژ تمایز می‌یابند. کدام فرایند مستقیماً باعث می‌شود این ماکروفاژها در رگهٔ چربی (fatty streak) ظاهر سلول کف‌آلود (foam cell) پیدا کنند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "سلول فوم (ماکروفاژ پرشده از لیپید)",
-        "text_en": "Foam cell (lipid-laden macrophage)"
+        "text_fa": "برداشت لیپوپروتئین‌های تغییریافته و تجمع استرهای کلسترول در قطرات داخل سلولی",
+        "text_en": "Uptake of modified lipoproteins and intracellular accumulation of cholesteryl esters in lipid droplets"
       },
       {
         "id": "b",
-        "text_fa": "سلول پلاسما",
-        "text_en": "Plasma cell"
+        "text_fa": "خروج کلسترول از ماکروفاژ به آپولیپوپروتئین A-I از طریق ABCA1",
+        "text_en": "ABCA1-mediated cholesterol efflux from macrophages to apolipoprotein A-I"
       },
       {
         "id": "c",
-        "text_fa": "ائوزینوفیل",
-        "text_en": "Eosinophil"
+        "text_fa": "ترشح سیتوکین‌ها و جذب مونوسیت‌های بیشتر به اینتیما",
+        "text_en": "Cytokine secretion and recruitment of additional monocytes to the intima"
       },
       {
         "id": "d",
-        "text_fa": "مگاکاریوسیت",
-        "text_en": "Megakaryocyte"
+        "text_fa": "اتصال مونوسیت به اندوتلیوم و عبور آن به اینتیما",
+        "text_en": "Monocyte adhesion to endothelium and migration into the intima"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "ماکروفاژهایی که LDL اکسیدشده را بلعیده‌اند به سلول فوم تبدیل می‌شوند که هسته‌ی چربی پلاک آتروماتو را تشکیل می‌دهند؛ این سلول‌ها نقش محوری در پاتوژنز آترواسکلروز دارند."
+    "explanation_fa": "برداشت لیپوپروتئین‌های تغییریافته و تجمع لیپید در سیتوپلاسم، ظاهر کف‌آلود ماکروفاژ را ایجاد می‌کند. خروج کلسترول از راه ABCA1 در جهت کاهش بار کلسترول سلول عمل می‌کند. جذب و عبور مونوسیت‌ها زمینهٔ ورود آن‌ها را فراهم می‌کند. سلول‌های عضلهٔ صاف عروقی هم می‌توانند با تجمع لیپید به foam cell تبدیل شوند."
   },
   {
     "id": "pa-cardiovascular-2",
@@ -183,12 +183,12 @@
     "id": "pa-gi-1",
     "topicId": "ibd-crohn-ulcerative-colitis",
     "category": "GI",
-    "question_fa": "بیمار با اسهال خونی محدود به رکتوم و کولون که به‌صورت منتشر و مداوم (بدون نواحی سالم بینابینی) درگیر است، کدام بیماری را مطرح می‌کند؟",
+    "question_fa": "در بیماری با اسهال خونی مزمن، کولونوسکوپی التهاب پیوستهٔ مخاط را از رکتوم تا کولون نزولی، بدون قطعهٔ سالم بینابینی، نشان می‌دهد. کدام تشخیص با این الگو سازگارتر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "بیماری کرون",
-        "text_en": "Crohn disease"
+        "text_fa": "کولیت کرون",
+        "text_en": "Crohn colitis"
       },
       {
         "id": "b",
@@ -197,17 +197,17 @@
       },
       {
         "id": "c",
-        "text_fa": "بیماری سلیاک",
-        "text_en": "Celiac disease"
+        "text_fa": "کولیت ایسکمیک",
+        "text_en": "Ischemic colitis"
       },
       {
         "id": "d",
-        "text_fa": "ایسکمی روده",
-        "text_en": "Bowel ischemia"
+        "text_fa": "کولیت عفونی",
+        "text_en": "Infectious colitis"
       }
     ],
     "correctOptionId": "b",
-    "explanation_fa": "کولیت اولسراتیو همیشه از رکتوم شروع و به‌صورت منتشر و مداوم (بدون skip lesion) به سمت پروگزیمال کولون پیش می‌رود؛ این الگو آن را از بیماری کرون (که می‌تواند هر بخش لوله‌ی گوارش را با نواحی سالم بینابینی درگیر کند) افتراق می‌دهد."
+    "explanation_fa": "التهاب پیوستهٔ مخاط که از رکتوم به سمت پروگزیمال گسترش می‌یابد الگوی کلاسیک UC است. التهاب قطعه‌ای بیشتر به نفع کرون است. حفظ رکتوم (rectal sparing) در برخی بیماران UC نیز گزارش شده؛ الگو به‌تنهایی جای ارزیابی سایر علل کولیت را نمی‌گیرد."
   },
   {
     "id": "pa-gi-2",
@@ -303,31 +303,31 @@
     "id": "pa-renal-1",
     "topicId": "minimal-change-disease",
     "category": "Renal",
-    "question_fa": "کودک ۴ ساله با ادم منتشر و پروتئینوری شدید، بیوپسی کلیه گلومرول طبیعی در میکروسکوپ نوری نشان می‌دهد. شایع‌ترین تشخیص و درمان اولیه‌ی آن چیست؟",
+    "question_fa": "کودک ۴ ساله با ادم منتشر و پروتئینوری در محدودهٔ نفروتیک ارزیابی شده است. در نمونهٔ کلیه، گلومرول‌ها در میکروسکوپ نوری طبیعی‌اند؛ رسوب ایمنی معنی‌دار دیده نمی‌شود و EM افاسمان منتشر زوائد پودوسیت‌ها را نشان می‌دهد. محتمل‌ترین تشخیص چیست؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "بیماری مینیمال چنج، پاسخ خوب به کورتیکواستروئید",
-        "text_en": "Minimal change disease, responds to steroids"
+        "text_fa": "بیماری مینیمال چنج",
+        "text_en": "Minimal change disease"
       },
       {
         "id": "b",
-        "text_fa": "گلومرولواسکلروز فوکال سگمنتال، نیاز به دیالیز فوری",
-        "text_en": "FSGS, needs immediate dialysis"
+        "text_fa": "گلومرولواسکلروز فوکال سگمنتال",
+        "text_en": "FSGS"
       },
       {
         "id": "c",
-        "text_fa": "نفروپاتی ممبرانوس، نیاز به پیوند کلیه",
-        "text_en": "Membranous nephropathy, needs transplant"
+        "text_fa": "نفروپاتی ممبرانوس",
+        "text_en": "Membranous nephropathy"
       },
       {
         "id": "d",
-        "text_fa": "گلومرولونفریت پس از استرپتوکوک",
-        "text_en": "Post-streptococcal GN"
+        "text_fa": "گلومرولونفریت مرتبط با عفونت",
+        "text_en": "Infection-related glomerulonephritis"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "بیماری مینیمال چنج شایع‌ترین علت سندرم نفروتیک در کودکان است؛ گلومرول در میکروسکوپ نوری طبیعی به‌نظر می‌رسد (آسیب فقط در EM دیده می‌شود) و معمولاً به‌سرعت به کورتیکواستروئید پاسخ می‌دهد."
+    "explanation_fa": "ترکیب گلومرول‌های تقریباً طبیعی در LM، نبود رسوب ایمنی معنی‌دار و افاسمان منتشر زوائد پودوسیت‌ها در EM به نفع MCD است. افاسمان به‌تنهایی اختصاصی نیست؛ در FSGS ضایعهٔ اسکلروتیک کانونی ممکن است در نمونهٔ محدود دیده نشود. ذکر بیوپسی برای آزمون مورفولوژی است."
   },
   {
     "id": "pa-renal-2",
@@ -423,31 +423,31 @@
     "id": "pa-hematologiclymphoid-1",
     "topicId": "hodgkin-lymphoma",
     "category": "Hematologic & Lymphoid",
-    "question_fa": "مرد ۲۵ ساله با لنفادنوپاتی گردنی بدون درد و تعریق شبانه، بیوپسی سلول‌های غول‌پیکر دوهسته‌ای با هسته‌ی به‌شکل «چشم جغد» نشان می‌دهد. تشخیص چیست؟",
+    "question_fa": "در بیوپسی گرهٔ گردنی مرد ۲۵ ساله با لنفادنوپاتی بدون درد، سلول‌های درشت دوهسته‌ای با هستک‌های برجسته در زمینهٔ لنفوسیت‌های کوچک و ائوزینوفیل‌ها دیده می‌شوند. سلول‌های درشت CD30 مثبت، PAX5 ضعیف و CD20 منفی‌اند. محتمل‌ترین تشخیص چیست؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "لنفوم هوچکین (سلول رید-اشتنبرگ)",
-        "text_en": "Hodgkin lymphoma (Reed-Sternberg cell)"
+        "text_fa": "لنفوم هوچکین کلاسیک",
+        "text_en": "Classical Hodgkin lymphoma"
       },
       {
         "id": "b",
-        "text_fa": "لنفوم بورکیت",
-        "text_en": "Burkitt lymphoma"
+        "text_fa": "لنفوم سلول بزرگ آناپلاستیک",
+        "text_en": "Anaplastic large cell lymphoma"
       },
       {
         "id": "c",
-        "text_fa": "لوسمی لنفوسیتی مزمن",
-        "text_en": "Chronic lymphocytic leukemia"
+        "text_fa": "لنفوم منتشر سلول B بزرگ",
+        "text_en": "Diffuse large B-cell lymphoma"
       },
       {
         "id": "d",
-        "text_fa": "میلوم مولتیپل",
-        "text_en": "Multiple myeloma"
+        "text_fa": "لنفوم هوچکین ندولار با غلبهٔ لنفوسیتی",
+        "text_en": "Nodular lymphocyte-predominant Hodgkin lymphoma"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "سلول رید-اشتنبرگ (دوهسته‌ای با ظاهر چشم جغد) یافته‌ی پاتولوژیک تعیین‌کننده‌ی لنفوم هوچکین است."
+    "explanation_fa": "ترکیب سلول‌های Hodgkin/Reed–Sternberg، زمینهٔ التهابی واکنشی و الگوی CD30 مثبت، PAX5 ضعیف و CD20 منفی به نفع هوچکین کلاسیک است. CD30 یا ظاهر «چشم جغد» به‌تنهایی کافی نیست. در نوع ندولار با غلبهٔ لنفوسیتی، سلول‌های LP معمولاً CD20 را به‌وضوح بیان می‌کنند."
   },
   {
     "id": "pa-hematologiclymphoid-2",
@@ -483,31 +483,31 @@
     "id": "pa-musculoskeletal-1",
     "topicId": "ewing-sarcoma",
     "category": "Musculoskeletal",
-    "question_fa": "نوجوان ۱۲ ساله با درد و تورم دیافیز فمور و تب خفیف، تصویربرداری الگوی لایه‌لایه‌ی «پوست پیاز» نشان می‌دهد. تشخیص احتمالی چیست؟",
+    "question_fa": "نوجوان ۱۲ ساله‌ای با درد و تورم ران و تب خفیف مراجعه می‌کند. تصویربرداری ضایعهٔ لیتیک نفوذی در دیافیز فمور با گسترش به بافت نرم و واکنش پریوست لایه‌لایه نشان می‌دهد. در بیوپسی، ورقه‌هایی از سلول‌های گرد کوچک و یکنواخت با سیتوپلاسم اندک دیده می‌شود. این سلول‌ها CD99 غشایی قوی و منتشر دارند و CD45 منفی‌اند. استئوئید بدخیم در نمونه دیده نمی‌شود. در میان گزینه‌های زیر کدام تشخیص محتمل‌تر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "سارکوم یووینگ",
+        "text_fa": "سارکوم یوینگ",
         "text_en": "Ewing sarcoma"
       },
       {
         "id": "b",
-        "text_fa": "استئوسارکوم",
-        "text_en": "Osteosarcoma"
+        "text_fa": "استئوسارکوم سلول کوچک",
+        "text_en": "Small cell osteosarcoma"
       },
       {
         "id": "c",
-        "text_fa": "استئومیلیت باکتریایی به‌تنهایی",
-        "text_en": "Bacterial osteomyelitis alone"
+        "text_fa": "استئومیلیت باکتریایی",
+        "text_en": "Bacterial osteomyelitis"
       },
       {
         "id": "d",
-        "text_fa": "کندروسارکوم",
-        "text_en": "Chondrosarcoma"
+        "text_fa": "لنفوم اولیهٔ استخوان",
+        "text_en": "Primary bone lymphoma"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "الگوی پوست‌پیازی پریوستئال در استخوان دیافیزی نوجوان همراه با تب خفیف، یافته‌ی کلاسیک سارکوم یووینگ است؛ باید از استئومیلیت افتراق داده شود."
+    "explanation_fa": "سن، محل دیافیزی، تودهٔ بافت نرم و ورقه‌های سلول گرد کوچک همراه با CD99 غشایی قوی و منتشر مجموعاً به نفع یوینگ‌اند. تب و واکنش پریوست لایه‌لایه با استئومیلیت هم همپوشانی دارند. استئوئید ساخته‌شده به‌وسیلهٔ سلول‌های بدخیم به نفع استئوسارکوم است و ممکن است در نمونهٔ محدود دیده نشود. CD45 منفی از احتمال لنفوم می‌کاهد. CD99 اختصاصی نیست و تشخیص نهایی به ارزیابی کامل پاتولوژی و مولکولی نیاز دارد."
   },
   {
     "id": "pa-musculoskeletal-2",
@@ -543,31 +543,31 @@
     "id": "pa-nervoussystem-1",
     "topicId": "ischemic-stroke",
     "category": "Nervous System",
-    "question_fa": "بیمار ۷۵ ساله با ضعف ناگهانی نیمه‌ی راست بدن و اختلال گفتاری مراجعه می‌کند. سی‌تی‌اسکن اولیه (۲ ساعت پس از شروع) طبیعی است. محتمل‌ترین یافته‌ی پاتولوژیک زمینه‌ای چیست؟",
+    "question_fa": "بیمار ۷۵ ساله دچار ضعف ناگهانی نیمهٔ راست بدن و آفازی شده است. دو ساعت بعد علائم همچنان برقرارند. شاهدی از تشنج گزارش نشده و گلوکز خون طبیعی است؛ CT بدون کنتراست خون‌ریزی یا ضایعهٔ واضح نشان نمی‌دهد. محتمل‌ترین تشخیص چیست؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "انفارکت ایسکمیک مغزی حاد (هنوز در CT دیده نمی‌شود)",
-        "text_en": "Acute ischemic infarct (not yet visible on CT)"
+        "text_fa": "سکتهٔ مغزی ایسکمیک حاد",
+        "text_en": "Acute ischemic stroke"
       },
       {
         "id": "b",
-        "text_fa": "خون‌ریزی ساب‌آراکنوئید",
-        "text_en": "Subarachnoid hemorrhage"
+        "text_fa": "خون‌ریزی داخل مغزی حاد",
+        "text_en": "Acute intracerebral hemorrhage"
       },
       {
         "id": "c",
-        "text_fa": "تومور مغزی اولیه",
-        "text_en": "Primary brain tumor"
+        "text_fa": "فلج پس از تشنج",
+        "text_en": "Todd paresis"
       },
       {
         "id": "d",
-        "text_fa": "مننژیت باکتریایی",
-        "text_en": "Bacterial meningitis"
+        "text_fa": "نقص عصبی ناشی از هیپوگلیسمی",
+        "text_en": "Hypoglycemic stroke mimic"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "در ساعات اولیه‌ی سکته‌ی ایسکمیک، CT بدون کنتراست اغلب طبیعی به‌نظر می‌رسد چون تغییرات نکروزی هنوز به‌اندازه‌ی کافی پیشرفت نکرده‌اند؛ این یافته‌ی منفی کاذب نباید تشخیص را رد کند."
+    "explanation_fa": "شروع ناگهانی و ماندگاری نقص کانونی با سکتهٔ ایسکمیک سازگار است. CT بدون کنتراست ممکن است در ساعات نخست تغییرات ایسکمیک واضح نشان ندهد. نبود خون‌ریزی آشکار، گلوکز طبیعی و نبود شرح‌حال مطرح‌کنندهٔ تشنج، گزینه‌های دیگر را کم‌احتمال‌تر می‌کنند؛ CT طبیعی به‌تنهایی انفارکت را تأیید نمی‌کند."
   },
   {
     "id": "pa-nervoussystem-2",
@@ -2763,31 +2763,31 @@
     "id": "pa-malereproductivesystem-9",
     "topicId": "prostatitis",
     "category": "Male Reproductive System",
-    "question_fa": "شایع‌ترین فرم پروستاتیت کدام است؟",
+    "question_fa": "مرد ۳۸ ساله چهار ماه درد پرینه و درد هنگام انزال دارد. تب ندارد. در ارزیابی، شواهد عفونت باکتریایی یا علت دیگری برای درد پیدا نشده است. کدام دستهٔ بالینی NIH با این شرح‌حال سازگارتر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "غیرباکتریایی مزمن (سندرم درد مزمن لگن)",
-        "text_en": "Chronic non-bacterial (chronic pelvic pain)"
+        "text_fa": "پروستاتیت مزمن / سندرم درد مزمن لگن (CP/CPPS؛ دستهٔ III)",
+        "text_en": "Chronic prostatitis / chronic pelvic pain syndrome (CP/CPPS; category III)"
       },
       {
         "id": "b",
-        "text_fa": "باکتریایی حاد",
-        "text_en": "Acute bacterial"
+        "text_fa": "پروستاتیت باکتریایی حاد (دستهٔ I)",
+        "text_en": "Acute bacterial prostatitis (category I)"
       },
       {
         "id": "c",
-        "text_fa": "گرانولوماتوز",
-        "text_en": "Granulomatous"
+        "text_fa": "پروستاتیت باکتریایی مزمن (دستهٔ II)",
+        "text_en": "Chronic bacterial prostatitis (category II)"
       },
       {
         "id": "d",
-        "text_fa": "قارچی",
-        "text_en": "Fungal"
+        "text_fa": "پروستاتیت التهابی بدون علامت (دستهٔ IV)",
+        "text_en": "Asymptomatic inflammatory prostatitis (category IV)"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "پروستاتیت غیرباکتریایی مزمن شایع‌ترین فرم است و اغلب سندرم درد مزمن لگن نامیده می‌شود؛ بدون سابقه‌ی عفونت مکرر ادراری."
+    "explanation_fa": "درد مزمن لگنی بدون عفونت اثبات‌شده یا علت توضیح‌دهندهٔ دیگر با CP/CPPS سازگار است. عفونت‌های ادراری تکرارشونده با همان ارگانیسم به نفع پروستاتیت باکتریایی مزمن‌اند؛ نبود چنین سابقه‌ای به‌تنهایی کافی نیست. دستهٔ IV بدون علامت است."
   },
   {
     "id": "pa-malereproductivesystem-10",
@@ -3483,31 +3483,31 @@
     "id": "pa-hematologiclymphoid-20",
     "topicId": "burkitt-lymphoma",
     "category": "Hematologic & Lymphoid",
-    "question_fa": "فرم اندمیک بورکیت در چند درصد موارد با EBV همراه است؟",
+    "question_fa": "در تقسیم‌بندی اپیدمیولوژیک سنتی لنفوم بورکیت (Burkitt lymphoma)، کدام گزاره دربارهٔ ارتباط فرم اندمیک با ویروس Epstein–Barr (EBV) درست‌تر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "تقریباً ۱۰۰٪",
-        "text_en": "Nearly 100%"
+        "text_fa": "EBV در فرم اندمیک به‌طور معمول بیشتر از فرم اسپورادیک در سلول‌های تومور یافت می‌شود.",
+        "text_en": "EBV is generally detected in tumor cells more often in endemic than sporadic Burkitt lymphoma."
       },
       {
         "id": "b",
-        "text_fa": "حدود ۱۵٪",
-        "text_en": "About 15%"
+        "text_fa": "EBV در فرم اسپورادیک به‌طور معمول بیشتر از فرم اندمیک در سلول‌های تومور یافت می‌شود.",
+        "text_en": "EBV is generally detected in tumor cells more often in sporadic than endemic Burkitt lymphoma."
       },
       {
         "id": "c",
-        "text_fa": "صفر درصد",
-        "text_en": "0%"
+        "text_fa": "فراوانی EBV در فرم اندمیک و اسپورادیک در همهٔ جمعیت‌ها یکسان است.",
+        "text_en": "EBV frequency is the same in endemic and sporadic Burkitt lymphoma across all populations."
       },
       {
         "id": "d",
-        "text_fa": "حدود ۵۰٪",
-        "text_en": "About 50%"
+        "text_fa": "ارتباط تومور با EBV فقط به فرم مرتبط با نقص ایمنی محدود است.",
+        "text_en": "Tumor association with EBV is limited to immunodeficiency-associated Burkitt lymphoma."
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "فرم اندمیک (آفریقایی) بورکیت در تقریباً ۱۰۰٪ موارد با EBV همراه است، در حالی‌که فرم اسپورادیک ۱۵–۲۰٪ و فرم مرتبط با نقص ایمنی حدود ۲۵٪."
+    "explanation_fa": "در توصیف اپیدمیولوژیک سنتی، ارتباط بورکیت اندمیک با EBV قوی‌تر از فرم اسپورادیک است. فراوانی EBV در گروه‌های مختلف به جمعیت بستگی دارد. WHO-HAEM5 وضعیت EBV مثبت یا منفی تومور را در توصیف زیستی برجسته می‌کند؛ اصطلاح «اندمیک» در سؤال زمینهٔ اپیدمیولوژیک دارد."
   },
   {
     "id": "pa-nervoussystem-5",
@@ -3903,31 +3903,31 @@
     "id": "pa-nervoussystem-18",
     "topicId": "cns-lymphoma-brain-metastasis",
     "category": "Nervous System",
-    "question_fa": "پنج منشأ اولیه‌ی شایع متاستاز مغزی کدام‌اند؟",
+    "question_fa": "در داده‌های جمعیتی SEER آمریکا، در میان موارد متاستاز مغزی که هم‌زمان با تشخیص اولیهٔ سرطان ثبت شده‌اند، کدام منشأ بیشترین سهم را در مقایسه با گزینه‌های زیر دارد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "ریه، پستان، ملانوم، کلیه، گوارش",
-        "text_en": "Lung, breast, melanoma, kidney, GI"
+        "text_fa": "ریه",
+        "text_en": "Lung cancer"
       },
       {
         "id": "b",
-        "text_fa": "پروستات، تیروئید، مثانه، معده، کبد",
-        "text_en": "Prostate, thyroid, bladder, stomach, liver"
+        "text_fa": "پستان",
+        "text_en": "Breast cancer"
       },
       {
         "id": "c",
-        "text_fa": "استخوان، غضروف، عضله، پوست، چشم",
-        "text_en": "Bone, cartilage, muscle, skin, eye"
+        "text_fa": "ملانوم پوستی",
+        "text_en": "Cutaneous melanoma"
       },
       {
         "id": "d",
-        "text_fa": "لوزالمعده، طحال، تخمدان، بیضه، رحم",
-        "text_en": "Pancreas, spleen, ovary, testis, uterus"
+        "text_fa": "کلیه",
+        "text_en": "Kidney cancer"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "پنج منشأ اولیه‌ی شایع متاستاز مغزی ریه، پستان، پوست (ملانوم)، کلیه و دستگاه گوارش هستند."
+    "explanation_fa": "سرطان ریه از شایع‌ترین منشأهای متاستاز مغزی است و در این داده‌ها سهم بیشتری از گزینه‌های دیگر در موارد هم‌زمان داشت. سهم یک سرطان از کل موارد متاستاز با احتمال متاستاز مغزی در فرد مبتلا به همان سرطان تفاوت دارد."
   },
   {
     "id": "pa-nervoussystem-19",
@@ -4773,31 +4773,31 @@
     "id": "pa-respiratory-12",
     "topicId": "sinonasal-nasopharyngeal-disease",
     "category": "Respiratory",
-    "question_fa": "کارسینوم نازوفارنکس اغلب چگونه اولین‌بار تظاهر می‌کند؟",
+    "question_fa": "در یک بزرگسال با انسداد پایدار یک‌طرفهٔ بینی، اپیستاکسی و ضایعهٔ نازوفارنکس، کدام یافتهٔ معاینه با گسترش لنفاوی ناحیه‌ای کارسینوم نازوفارنکس (Nasopharyngeal carcinoma) سازگارتر است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "متاستاز به غدد لنفاوی گردنی (تا ۷۰٪)",
-        "text_en": "Cervical lymph node metastasis (up to 70%)"
+        "text_fa": "لنفادنوپاتی بدون درد در بخش فوقانی زنجیرهٔ گردنی عمقی",
+        "text_en": "Painless upper deep cervical lymphadenopathy"
       },
       {
         "id": "b",
-        "text_fa": "شکستگی استخوان",
-        "text_en": "Bone fracture"
+        "text_fa": "تورم دردناک و منتشر غدهٔ پاروتید",
+        "text_en": "Painful, diffuse parotid swelling"
       },
       {
         "id": "c",
-        "text_fa": "زردی",
-        "text_en": "Jaundice"
+        "text_fa": "ندول متحرک تیروئید که با بلع بالا می‌رود",
+        "text_en": "Mobile thyroid nodule that rises on swallowing"
       },
       {
         "id": "d",
-        "text_fa": "اسهال مزمن",
-        "text_en": "Chronic diarrhea"
+        "text_fa": "تودهٔ خط وسط گردن که با بیرون آوردن زبان حرکت می‌کند",
+        "text_en": "Midline neck mass that moves with tongue protrusion"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "کارسینوم نازوفارنکس اغلب تا مراحل پیشرفته مخفی می‌ماند و در تا ۷۰٪ بیماران با متاستاز به غدد لنفاوی گردنی (همراه انسداد بینی و اپیستاکسی) تظاهر می‌کند."
+    "explanation_fa": "لنفادنوپاتی گردنی می‌تواند نخستین سرنخ کارسینوم نازوفارنکس باشد، به‌خصوص همراه انسداد بینی یا اپیستاکسی. سه یافتهٔ دیگر محل یا منشأ متفاوتی دارند. این الگو مطرح‌کننده است و تشخیص کارسینوم با بیوپسی ضایعه انجام می‌شود."
   },
   {
     "id": "pa-respiratory-13",
@@ -5583,31 +5583,31 @@
     "id": "pa-musculoskeletal-24",
     "topicId": "fracture-healing",
     "category": "Musculoskeletal",
-    "question_fa": "کدام عامل ترمیم شکستگی را مختل می‌کند؟",
+    "question_fa": "پس از تثبیت شکستگی دیافیز تیبیا، در پیگیری پیشرفت جوش‌خوردن اندک است. کدام یافته، بر اساس معیارهای اجماعی، وجود عفونت مرتبط با شکستگی (fracture-related infection) را به‌عنوان عامل احتمالی اختلال ترمیم تأیید می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "کورتیکواستروئید، دیابت و عفونت",
-        "text_en": "Corticosteroids, diabetes, and infection"
+        "text_fa": "ترشح چرکی از زخم محل شکستگی",
+        "text_en": "Purulent drainage from the fracture-site wound"
       },
       {
         "id": "b",
-        "text_fa": "بی‌حرکتی مناسب",
-        "text_en": "Adequate immobilization"
+        "text_fa": "قرمزی پایدار پوست در اطراف زخم",
+        "text_en": "Persistent skin redness around the wound"
       },
       {
         "id": "c",
-        "text_fa": "خون‌رسانی خوب",
-        "text_en": "Good blood supply"
+        "text_fa": "افزایش پروتئین واکنشی C (CRP) در آزمایش خون",
+        "text_en": "Elevated blood C-reactive protein (CRP)"
       },
       {
         "id": "d",
-        "text_fa": "تغذیه‌ی کافی",
-        "text_en": "Adequate nutrition"
+        "text_fa": "درد موضعی رو به افزایش در محل شکستگی",
+        "text_en": "Increasing local pain at the fracture site"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "کورتیکواستروئید، دیابت، عفونت و بی‌حرکتی ناکافی/خون‌رسانی ضعیف ترمیم شکستگی را مختل کرده و خطر nonunion را افزایش می‌دهند."
+    "explanation_fa": "ترشح چرکی از زخم معیار تأییدی عفونت مرتبط با شکستگی است. قرمزی، افزایش CRP و درد فزاینده یافته‌های مطرح‌کننده‌اند و به ارزیابی بیشتر نیاز دارند. عفونت با افزایش خطر جوش‌نخوردن (nonunion) ارتباط دارد. احراز جوش‌نخوردن به ارزیابی جداگانهٔ روند ترمیم نیاز دارد."
   },
   {
     "id": "pa-musculoskeletal-25",
