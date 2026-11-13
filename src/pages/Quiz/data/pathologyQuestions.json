@@ -153,31 +153,31 @@
     "id": "pa-respiratory-2",
     "topicId": "pulmonary-embolism-hypertension",
     "category": "Respiratory",
-    "question_fa": "بیمار ۵ روز پس از جراحی ارتوپدی بزرگ، با تنگی نفس ناگهانی و درد قفسه‌ی سینه مراجعه می‌کند. کدام منشأ شایع‌ترین علت این تظاهر است؟",
+    "question_fa": "در بیماری که پس از جراحی بزرگ ارتوپدی دچار ترومبوآمبولی ریه (Pulmonary thromboembolism) شده است، منشأ معمول لخته کدام است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "ترومبوز ورید عمقی پا",
-        "text_en": "Deep vein thrombosis of the leg"
+        "text_fa": "ترومبوز وریدهای عمقی اندام تحتانی",
+        "text_en": "Deep venous thrombosis of the lower limb"
       },
       {
         "id": "b",
-        "text_fa": "آمبولی چربی از مغز استخوان",
-        "text_en": "Fat embolism from bone marrow"
+        "text_fa": "ترومبوز شریان فمورال",
+        "text_en": "Femoral artery thrombosis"
       },
       {
         "id": "c",
-        "text_fa": "آمبولی هوا",
-        "text_en": "Air embolism"
+        "text_fa": "ترومبوز ورید پورت",
+        "text_en": "Portal vein thrombosis"
       },
       {
         "id": "d",
-        "text_fa": "آمبولی مایع آمنیوتیک",
-        "text_en": "Amniotic fluid embolism"
+        "text_fa": "ترومبوز وریدهای سطحی ساق، محدود به شبکهٔ سطحی",
+        "text_en": "Superficial calf venous thrombosis confined to the superficial veins"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "بیش از ۹۵٪ آمبولی‌های ریوی از ترومبوز ورید عمقی اندام تحتانی منشأ می‌گیرند، به‌خصوص پس از جراحی بزرگ ارتوپدی با بی‌حرکتی طولانی."
+    "explanation_fa": "ترومبوز ورید عمقی اندام تحتانی (Deep vein thrombosis, DVT) منشأ معمول ترومبوآمبولی ریه است. جراحی ارتوپدی و بی‌حرکتی خطر ترومبوآمبولی وریدی را افزایش می‌دهند. سندرم آمبولی چربی (Fat embolism syndrome) نیز پس از برخی آسیب‌ها یا جراحی‌های ارتوپدی ممکن است رخ دهد و سازوکار متفاوتی دارد."
   },
   {
     "id": "pa-gi-1",
@@ -513,7 +513,7 @@
     "id": "pa-musculoskeletal-2",
     "topicId": "paget-disease-bone",
     "category": "Musculoskeletal",
-    "question_fa": "مرد ۷۰ ساله بدون علامت، در آزمایش روتین آلکالین فسفاتاز بسیار بالا با کلسیم و فسفر طبیعی دارد. کدام بیماری استخوانی بیشترین احتمال را دارد؟",
+    "question_fa": "در مرد ۷۰ ساله‌ای، آلکالن فسفاتاز استخوانی (Bone-specific ALP) افزایش یافته و کلسیم و فسفات سرم طبیعی‌اند. رادیوگرافی لگن بزرگ‌شدن استخوان، ضخیم‌شدن کورتکس و درشت‌شدن ترابکول‌ها را نشان می‌دهد. کدام بیماری محتمل‌تر است؟",
     "options": [
       {
         "id": "a",
@@ -537,7 +537,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "افزایش ایزوله‌ی آلکالین فسفاتاز (با کلسیم/فسفر طبیعی) در سالمند بدون علامت، یافته‌ی کلاسیک بیماری پاژه‌ی استخوان است؛ در هیپرپاراتیروئیدیسم کلسیم نیز بالا می‌بود."
+    "explanation_fa": "بیماری پاژهٔ استخوان (Paget disease of bone) با بازسازی پرشتاب و نامنظم استخوان همراه است. افزایش ALP استخوانی همراه با بزرگ‌شدن استخوان، ضخیم‌شدن کورتکس و درشت‌شدن ترابکول‌ها از این تشخیص حمایت می‌کند. طبیعی بودن کلسیم و فسفات به‌تنهایی استئومالاسی (Osteomalacia) یا سایر اختلالات متابولیک استخوان را رد نمی‌کند."
   },
   {
     "id": "pa-nervoussystem-1",
@@ -4737,7 +4737,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "آنژیوفیبروم نازوفارنژیال توموری خوش‌خیم و بسیار عروقی است که تقریباً منحصراً در پسران نوجوان (اغلب روشن‌پوست و موقرمز) رخ می‌دهد."
+    "explanation_fa": "آنژیوفیبروم نازوفارنژیال (Nasopharyngeal angiofibroma) توموری خوش‌خیم و بسیار عروقی است که به‌طور تیپیک در پسران نوجوان رخ می‌دهد."
   },
   {
     "id": "pa-respiratory-11",
@@ -5463,7 +5463,7 @@
     "id": "pa-musculoskeletal-20",
     "topicId": "fracture-healing",
     "category": "Musculoskeletal",
-    "question_fa": "اولین مرحله‌ی ترمیم شکستگی کدام است؟",
+    "question_fa": "در آغاز ترمیم ثانویهٔ شکستگی (Secondary fracture healing)، کدام رویداد مستقیماً پس از پارگی عروق در محل شکستگی رخ می‌دهد؟",
     "options": [
       {
         "id": "a",
@@ -5487,7 +5487,7 @@
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "بلافاصله پس از شکستگی (۰–۲ هفته) پارگی عروق هماتوم ایجاد می‌کند که شبکه‌ی فیبرین و بافت گرانولاسیون برای ترمیم فراهم می‌کند."
+    "explanation_fa": "پارگی عروق در محل شکستگی به تشکیل سریع هماتوم (Hematoma) می‌انجامد. پاسخ التهابی اولیه با مرحلهٔ هماتوم هم‌پوشانی دارد. با سازمان‌یافتن هماتوم و تشکیل بافت گرانولاسیون، کالوس نرم (Soft callus) شکل می‌گیرد و پس از آن کالوس استخوانی (Bony callus) ایجاد می‌شود."
   },
   {
     "id": "pa-musculoskeletal-21",
@@ -5853,31 +5853,31 @@
     "id": "pa-endocrine-13",
     "topicId": "papillary-thyroid-carcinoma",
     "category": "Endocrine",
-    "question_fa": "پیش‌آگهی کارسینوم پاپیلاری تیروئید چگونه است؟",
+    "question_fa": "کدام عبارت پیش‌آگهی کارسینوم پاپیلاری تیروئید (Papillary thyroid carcinoma) را دقیق‌تر توصیف می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "بهترین پیش‌آگهی، با وجود انتشار لنفاوی شایع",
-        "text_en": "Best prognosis, despite common lymphatic spread"
+        "text_fa": "عموماً مطلوب است و به مرحله و ویژگی‌های خطر وابسته است.",
+        "text_en": "Generally favorable and dependent on stage and risk features."
       },
       {
         "id": "b",
-        "text_fa": "بدترین پیش‌آگهی",
-        "text_en": "Worst prognosis"
+        "text_fa": "عموماً نامطلوب است، حتی در بیماری محدود به تیروئید و کم‌خطر.",
+        "text_en": "Generally poor, even in low-risk disease confined to the thyroid."
       },
       {
         "id": "c",
-        "text_fa": "همیشه کشنده",
-        "text_en": "Always fatal"
+        "text_fa": "درگیری گره‌های لنفاوی گردنی با خطر عود ارتباطی ندارد.",
+        "text_en": "Cervical lymph node involvement is unrelated to recurrence risk."
       },
       {
         "id": "d",
-        "text_fa": "فقط با کلسی‌تونین پیگیری می‌شود",
-        "text_en": "Followed only by calcitonin"
+        "text_fa": "پیش‌آگهی را می‌توان فقط از اندازهٔ تومور تعیین کرد.",
+        "text_en": "Prognosis can be determined from tumor size alone."
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "کارسینوم پاپیلاری با وجود انتشار لنفاویِ شایع، بهترین پیش‌آگهی را در میان سرطان‌های تیروئید دارد."
+    "explanation_fa": "پیش‌آگهی کارسینوم پاپیلاری تیروئید عموماً مطلوب است و با مرحله و ویژگی‌های خطر تغییر می‌کند. انتشار به گره‌های لنفاوی گردنی (Cervical lymph node metastasis) ممکن است رخ دهد و ویژگی‌هایی مانند وسعت درگیری گرهی در ارزیابی خطر عود اهمیت دارند."
   },
   {
     "id": "pa-endocrine-14",
@@ -6003,31 +6003,31 @@
     "id": "pa-endocrine-18",
     "topicId": "addison-disease",
     "category": "Endocrine",
-    "question_fa": "علت هیپرپیگمانتاسیون در بیماری آدیسون چیست؟",
+    "question_fa": "کدام سازوکار هیپرپیگمانتاسیون را در نارسایی اولیهٔ آدرنال (Primary adrenal insufficiency) توضیح می‌دهد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "افزایش POMC (پیش‌ساز مشترک ACTH و MSH)",
-        "text_en": "Increased POMC (shared precursor of ACTH and MSH)"
+        "text_fa": "کاهش بازخورد کورتیزول و افزایش تحریک MC1R به‌وسیلهٔ ACTH",
+        "text_en": "Reduced cortisol feedback and increased ACTH-mediated stimulation of MC1R"
       },
       {
         "id": "b",
-        "text_fa": "رسوب ملانین ناشی از آفتاب",
-        "text_en": "Sun-induced melanin"
+        "text_fa": "افزایش کورتیزول و مهار ترشح ACTH",
+        "text_en": "Increased cortisol and suppression of ACTH secretion"
       },
       {
         "id": "c",
-        "text_fa": "افزایش کورتیزول",
-        "text_en": "Increased cortisol"
+        "text_fa": "کاهش ترشح ACTH و کاهش تحریک MC1R",
+        "text_en": "Reduced ACTH secretion and reduced MC1R stimulation"
       },
       {
         "id": "d",
-        "text_fa": "کمبود آهن",
-        "text_en": "Iron deficiency"
+        "text_fa": "کاهش آلدوسترون و تحریک مستقیم MC1R به‌وسیلهٔ رنین",
+        "text_en": "Reduced aldosterone and direct stimulation of MC1R by renin"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "در آدیسونِ اولیه، افزایش POMC (پیش‌ساز مشترک ACTH و MSH) هیپرپیگمانتاسیون ایجاد می‌کند؛ این در نارسایی ثانویه‌ی آدرنال دیده نمی‌شود."
+    "explanation_fa": "کاهش کورتیزول بازخورد منفی آن را بر محور هیپوتالاموس–هیپوفیز کم می‌کند. در نتیجه، ACTH مشتق از پیش‌ساز POMC افزایش می‌یابد. ACTH در غلظت بالا می‌تواند گیرندهٔ ملانوکورتین ۱ (MC1R) را در ملانوسیت‌ها فعال کند و ساخت ملانین را افزایش دهد."
   },
   {
     "id": "pa-endocrine-19",
@@ -7743,31 +7743,31 @@
     "id": "pa-respiratory-18",
     "topicId": "bronchopneumonia",
     "category": "Respiratory",
-    "question_fa": "برونکوپنومونی بیشتر در کدام گروه و با چه ارگانیسم‌هایی شایع است؟",
+    "question_fa": "کدام الگوی بافت‌شناسی مشخصهٔ برونکوپنومونی (Bronchopneumonia) است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "بیماران بستری/سالمند با ارگانیسم‌های مختلط",
-        "text_en": "Hospitalized/elderly patients with mixed organisms"
+        "text_fa": "کانون‌های لکه‌ای التهاب چرکی حاد پیرامون برونشیول‌ها",
+        "text_en": "Patchy bronchiolocentric foci of acute suppurative inflammation"
       },
       {
         "id": "b",
-        "text_fa": "جوانان سالم با یک ارگانیسم",
-        "text_en": "Healthy young adults with a single organism"
+        "text_fa": "تحکیم یکنواخت بخش وسیعی از یک لوب",
+        "text_en": "Uniform consolidation of a large part of one lobe"
       },
       {
         "id": "c",
-        "text_fa": "فقط کودکان",
-        "text_en": "Only children"
+        "text_fa": "التهاب عمدتاً بینابینی در سپتاهای آلوئولی",
+        "text_en": "Predominantly interstitial inflammation in the alveolar septa"
       },
       {
         "id": "d",
-        "text_fa": "فقط ورزشکاران",
-        "text_en": "Only athletes"
+        "text_fa": "گرانولوم‌های نکروزان با نکروز پنیری مرکزی",
+        "text_en": "Necrotizing granulomas with central caseous necrosis"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "برونکوپنومونی (الگوی لکه‌ای پچی) در بیماران بستری و سالمند با ارگانیسم‌های مختلط شایع‌تر است؛ پنومونی لوبار کلاسیک اغلب پنوموکوکی در فرد نسبتاً سالم است."
+    "explanation_fa": "در برونکوپنومونی، التهاب چرکی حاد به‌صورت کانون‌های لکه‌ای پیرامون برونشیول‌ها و در آلوئول‌های مجاور دیده می‌شود. نوتروفیل‌ها می‌توانند فضای آلوئولی را پر کنند. این الگوی مورفولوژیک به‌تنهایی تعداد یا نوع عوامل عفونی را تعیین نمی‌کند."
   },
   {
     "id": "pa-respiratory-19",
