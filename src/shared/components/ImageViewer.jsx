@@ -124,7 +124,6 @@ export default function ImageViewer({ image, titleEn = "", compact = false }) {
   const magLabel = img.magnification ? MAGNIFICATION_LABELS_FA[img.magnification] : null;
   const typeLabel = IMAGE_TYPE_LABELS_FA[img.type] || null;
   const hasLabels = img.labels.length > 0;
-  const attributionLine = [img.source, img.attribution].filter(Boolean).join(" — ");
 
   return (
     <div className={`image-viewer ${compact ? "is-compact" : ""}`}>
@@ -209,13 +208,60 @@ export default function ImageViewer({ image, titleEn = "", compact = false }) {
       </div>
 
       {/* Caption + license */}
-      {img.alt && <p className="image-viewer__caption">{img.alt}</p>}
-      {(attributionLine || img.license) && (
-        <p className="image-viewer__license">
-          {attributionLine && <span className="image-viewer__source" dir="ltr">{attributionLine}</span>}
-          {img.license && <span className="image-viewer__license-tag" dir="ltr">{img.license}</span>}
-        </p>
+      {img.alt && <p className="image-viewer__caption" dir="rtl">{img.alt}</p>}
+      <ImageAttribution image={img} />
+    </div>
+  );
+}
+
+function safeExternalUrl(value) {
+  if (typeof value !== "string") return null;
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" && !url.username && !url.password ? url.href : null;
+  } catch {
+    return null;
+  }
+}
+
+function AttributionLink({ url, className, dir, children }) {
+  const href = safeExternalUrl(url);
+  return href ? (
+    <a className={className} dir={dir} href={href} target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  ) : <span className={className} dir={dir}>{children}</span>;
+}
+
+function ImageAttribution({ image }) {
+  const credit = image.rightsCredit;
+  if (!credit) {
+    const line = [image.source, image.attribution].filter(Boolean).join(" — ");
+    if (!line && !image.license) return null;
+    return (
+      <p className="image-viewer__license">
+        {line && <span className="image-viewer__source" dir="ltr">{line}</span>}
+        {image.license && <span className="image-viewer__license-tag" dir="ltr">{image.license}</span>}
+      </p>
+    );
+  }
+
+  return (
+    <div className="image-viewer__credit" dir="rtl">
+      <p className="image-viewer__license">
+        <bdi>{credit.creator}</bdi>
+        <AttributionLink url={credit.sourceUrl}>منبع اصلی تصویر</AttributionLink>
+        {credit.fileUrl !== credit.sourceUrl && (
+          <AttributionLink url={credit.fileUrl}>پروندهٔ تصویر</AttributionLink>
+        )}
+        <AttributionLink url={credit.licenseUrl} className="image-viewer__license-tag" dir="ltr">
+          {credit.licenseName}
+        </AttributionLink>
+      </p>
+      {credit.publication && (
+        <p dir="ltr"><AttributionLink url={credit.sourceUrl}>{credit.publication}</AttributionLink></p>
       )}
+      {credit.processing?.notice_fa && <p>{credit.processing.notice_fa}</p>}
     </div>
   );
 }

@@ -175,6 +175,24 @@
   color: var(--color-text-muted, #5e6b7a);
 }
 .image-viewer__source { opacity: 0.9; }
+.image-viewer__credit {
+  display: grid;
+  gap: 4px;
+  color: var(--color-text-muted, #5e6b7a);
+  font-size: 11.5px;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+.image-viewer__credit p { margin: 0; }
+.image-viewer__credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.image-viewer__credit a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
 .image-viewer__license-tag {
   padding: 2px 7px;
   border-radius: var(--radius-sm, 8px);

@@ -461,12 +461,12 @@
         "سل ثانویه معمولاً در آپکس (لوب فوقانی) ریه فعال می‌شود؛ نکته‌ی کلاسیک امتحانی"
       ],
       "image_url": "/images/pathology/pulmonary-tuberculosis-photo.jpg",
-      "image_caption": "سل ریوی — گرانولوم نکروزکننده‌ی کازئوز (عکس واقعی، H&E)",
+      "image_caption": "گرانولوم نکروزکننده در نمونهٔ گزارش‌شدهٔ سل ریوی؛ H&E. این نما به‌تنهایی عامل را تأیید نمی‌کند.",
       "stain": "H&E",
       "images": [
         {
           "url": "/images/pathology/pulmonary-tuberculosis-photo.jpg",
-          "caption": "سل ریوی — گرانولوم نکروزکننده‌ی کازئوز (عکس واقعی، H&E)",
+          "caption": "گرانولوم نکروزکننده در نمونهٔ گزارش‌شدهٔ سل ریوی؛ H&E. این نما به‌تنهایی عامل را تأیید نمی‌کند.",
           "magnification": "medium",
           "stain": "H&E",
           "source": "Wikimedia Commons — Yale Rosen",
@@ -483,7 +483,7 @@
       "magnification": "400x",
       "image": {
         "url": "/images/pathology/pulmonary-tuberculosis-photo.jpg",
-        "alt": "سل ریوی — گرانولوم نکروزکننده (کازئوز) با نکروز مرکزی؛ H&E",
+        "alt": "گرانولوم نکروزکننده در نمونهٔ گزارش‌شدهٔ سل ریوی؛ H&E. این نما به‌تنهایی عامل را تأیید نمی‌کند.",
         "type": "real_slide",
         "magnification": "medium",
         "stain": "H&E",
@@ -491,7 +491,27 @@
         "source": "Wikimedia Commons — Yale Rosen",
         "license": "CC BY-SA 2.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Pulmonary_tuberculosis_-_Necrotizing_granuloma_(6545186957).jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Yale Rosen",
+          "sourceUrl": "https://www.flickr.com/photos/pulmonary_pathology/6545186957/",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Pulmonary_tuberculosis_-_Necrotizing_granuloma_(6545186957).jpg",
+          "licenseName": "CC BY-SA 2.0 Generic",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              631
+            ],
+            "commonsOriginalDimensions": [
+              2917,
+              1918
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -527,12 +547,12 @@
         "کارسینوم سلول کوچک ریه، تهاجمی‌ترین زیرگروه و معمولاً در زمان تشخیص متاستاز داده است"
       ],
       "image_url": "/images/pathology/bronchogenic-carcinoma-photo.jpg",
-      "image_caption": "کارسینوم سلول کوچک ریه (small cell) — عکس واقعی، H&E",
+      "image_caption": "کارسینوم سلول کوچک با منشأ ریوی در نمونهٔ متاستاز دیوارهٔ قفسهٔ سینه؛ H&E.",
       "stain": "H&E",
       "images": [
         {
           "url": "/images/pathology/bronchogenic-carcinoma-photo.jpg",
-          "caption": "کارسینوم سلول کوچک ریه (small cell) — عکس واقعی، H&E",
+          "caption": "کارسینوم سلول کوچک با منشأ ریوی در نمونهٔ متاستاز دیوارهٔ قفسهٔ سینه؛ H&E.",
           "magnification": "high",
           "stain": "H&E",
           "source": "Wikimedia Commons — Mikael Häggström",
@@ -549,7 +569,7 @@
       "magnification": "400x",
       "image": {
         "url": "/images/pathology/bronchogenic-carcinoma-photo.jpg",
-        "alt": "کارسینوم سلول کوچک ریه — سلول‌های کوچک با سیتوپلاسم کم و قالب‌گیری هسته‌ای؛ H&E",
+        "alt": "کارسینوم سلول کوچک با منشأ ریوی در نمونهٔ متاستاز دیوارهٔ قفسهٔ سینه؛ H&E.",
         "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
@@ -557,7 +577,27 @@
         "source": "Wikimedia Commons — Mikael Häggström",
         "license": "CC0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_small_cell_carcinoma.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Mikael Häggström, M.D.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Histopathology_of_small_cell_carcinoma.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Histopathology_of_small_cell_carcinoma.jpg",
+          "licenseName": "CC0 1.0 Universal",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              718
+            ],
+            "commonsOriginalDimensions": [
+              2048,
+              1532
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -991,7 +1031,27 @@
         "source": "Wikimedia Commons — Librepath",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Graves_disease_--_high_mag.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Librepath",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Graves_disease_--_high_mag.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Graves_disease_--_high_mag.jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              640
+            ],
+            "commonsOriginalDimensions": [
+              4272,
+              2848
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -1033,10 +1093,10 @@
           "caption": "کارسینوم پاپیلاری تیروئید (عکس واقعی، H&E)",
           "magnification": "medium",
           "stain": "H&E",
-          "source": "Wikimedia Commons",
+          "source": "Wikimedia Commons — KGH (original uploader)",
           "source_url": "https://commons.wikimedia.org/wiki/File:Thyroid_papillary_carcinoma_histopathology_(2).jpg",
           "license": "CC BY-SA 3.0",
-          "attribution": "Wikimedia Commons"
+          "attribution": "KGH (original uploader)"
         },
         {
           "url": "/images/pathology/papillary-thyroid-carcinoma.svg",
@@ -1052,10 +1112,30 @@
         "magnification": "medium",
         "stain": "H&E",
         "labels": [],
-        "source": "Wikimedia Commons",
+        "source": "Wikimedia Commons — KGH (original uploader)",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Thyroid_papillary_carcinoma_histopathology_(2).jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "KGH (original uploader)",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thyroid_papillary_carcinoma_histopathology_(2).jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Thyroid_papillary_carcinoma_histopathology_(2).jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              723
+            ],
+            "commonsOriginalDimensions": [
+              2040,
+              1536
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -1121,7 +1201,27 @@
         "source": "Wikimedia Commons — Ed Uthman, MD",
         "license": "CC BY 2.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Iron-deficiency_Anemia,_Peripheral_Blood_Smear_(4422704616).jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Ed Uthman, MD",
+          "sourceUrl": "https://www.flickr.com/photos/euthman/4422704616/",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Iron-deficiency_Anemia,_Peripheral_Blood_Smear_(4422704616).jpg",
+          "licenseName": "CC BY 2.0 Generic",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              639
+            ],
+            "commonsOriginalDimensions": [
+              1711,
+              1139
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -3084,12 +3184,12 @@
         "در کودک با علائم مخچه‌ای و فشار بالای داخل‌جمجمه‌ای، مدولوبلاستوما را در تشخیص افتراقی قرار دهید"
       ],
       "image_url": "/images/pathology/medulloblastoma-photo.jpg",
-      "image_caption": "مدولوبلاستوما — روزت‌های Homer-Wright (عکس واقعی، H&E)",
+      "image_caption": "مدولوبلاستوما با ساختارهای روزتی؛ H&E.",
       "stain": "H&E",
       "images": [
         {
           "url": "/images/pathology/medulloblastoma-photo.jpg",
-          "caption": "مدولوبلاستوما — روزت‌های Homer-Wright (عکس واقعی، H&E)",
+          "caption": "مدولوبلاستوما با ساختارهای روزتی؛ H&E.",
           "magnification": "high",
           "stain": "H&E",
           "source": "Wikimedia Commons — Jensflorian",
@@ -3106,7 +3206,7 @@
       "magnification": "400x",
       "image": {
         "url": "/images/pathology/medulloblastoma-photo.jpg",
-        "alt": "مدولوبلاستوما — سلول‌های آبی کوچک گرد با روزت‌های Homer-Wright؛ H&E",
+        "alt": "مدولوبلاستوما با ساختارهای روزتی؛ H&E.",
         "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
@@ -3114,7 +3214,27 @@
         "source": "Wikimedia Commons — Jensflorian",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Medulloblastoma_with_rosettes.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Jensflorian",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Medulloblastoma_with_rosettes.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Medulloblastoma_with_rosettes.jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              712
+            ],
+            "commonsOriginalDimensions": [
+              2080,
+              1542
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -3303,7 +3423,27 @@
         "source": "Wikimedia Commons — Patho",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Neurofibrillary_tangles_in_the_Hippocampus_of_an_old_person_with_Alzheimer-related_pathology,_Gallyas_silver_stain.JPG",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Patho",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Neurofibrillary_tangles_in_the_Hippocampus_of_an_old_person_with_Alzheimer-related_pathology,_Gallyas_silver_stain.JPG",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Neurofibrillary_tangles_in_the_Hippocampus_of_an_old_person_with_Alzheimer-related_pathology,_Gallyas_silver_stain.JPG",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              640
+            ],
+            "commonsOriginalDimensions": [
+              1920,
+              1280
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -3339,12 +3479,12 @@
         "↓نورون‌های ساب‌استانسیا نیگرا → ↓دوپامین → ↓توانایی حرکتی؛ این زنجیره را برای پاتوژنز پارکینسون به‌خاطر بسپارید"
       ],
       "image_url": "/images/pathology/parkinson-disease-photo.jpg",
-      "image_caption": "اجسام لوی (Lewy body) — عکس واقعی، H&E",
+      "image_caption": "اجسام لوی در نمونهٔ اتوپسی قشر فرونتال از مورد دمانس با اجسام لوی (DLB)؛ H&E. این مورفولوژی در بیماری پارکینسون نیز دیده می‌شود.",
       "stain": "H&E",
       "images": [
         {
           "url": "/images/pathology/parkinson-disease-photo.jpg",
-          "caption": "اجسام لوی (Lewy body) — عکس واقعی، H&E",
+          "caption": "اجسام لوی در نمونهٔ اتوپسی قشر فرونتال از مورد دمانس با اجسام لوی (DLB)؛ H&E. این مورفولوژی در بیماری پارکینسون نیز دیده می‌شود.",
           "magnification": "high",
           "stain": "H&E",
           "source": "Wikimedia Commons — Jensflorian",
@@ -3361,7 +3501,7 @@
       "magnification": "400x",
       "image": {
         "url": "/images/pathology/parkinson-disease-photo.jpg",
-        "alt": "اجسام لوی (Lewy body) — انکلوزیون ائوزینوفیلیک داخل‌سیتوپلاسمی با هاله؛ H&E",
+        "alt": "اجسام لوی در نمونهٔ اتوپسی قشر فرونتال از مورد دمانس با اجسام لوی (DLB)؛ H&E. این مورفولوژی در بیماری پارکینسون نیز دیده می‌شود.",
         "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
@@ -3369,7 +3509,27 @@
         "source": "Wikimedia Commons — Jensflorian",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:DLB_frontal_lewy_bodies_HE.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Jensflorian",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:DLB_frontal_lewy_bodies_HE.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:DLB_frontal_lewy_bodies_HE.jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "matches-commons-original",
+            "localDimensions": [
+              435,
+              556
+            ],
+            "commonsOriginalDimensions": [
+              435,
+              556
+            ],
+            "notice_fa": "فایل محلی با فایل ثبت‌شده در Wikimedia Commons یکسان است."
+          }
+        }
       }
     },
     {
@@ -3659,12 +3819,12 @@
         "هیپرگاسترینمی + آنمی پرنیشیوز + آنتی‌بادی پاریتال = گاستریت اتوایمیون، نه H. pylori"
       ],
       "image_url": "/images/pathology/gastritis-acute-chronic-photo.jpg",
-      "image_caption": "گاستریت هلیکوباکتر پیلوری — باسیل‌ها در موکوس سطحی (عکس واقعی)",
+      "image_caption": "بیوپسی معده با الگوی التهابی به نفع گاستریت مرتبط با H. pylori؛ H&E.",
       "stain": "H&E",
       "images": [
         {
           "url": "/images/pathology/gastritis-acute-chronic-photo.jpg",
-          "caption": "گاستریت هلیکوباکتر پیلوری — باسیل‌ها در موکوس سطحی (عکس واقعی)",
+          "caption": "بیوپسی معده با الگوی التهابی به نفع گاستریت مرتبط با H. pylori؛ H&E.",
           "magnification": "high",
           "stain": "H&E",
           "source": "Wikimedia Commons — CoRus13",
@@ -3682,7 +3842,7 @@
       "subcategory_fa": "معده",
       "image": {
         "url": "/images/pathology/gastritis-acute-chronic-photo.jpg",
-        "alt": "گاستریت هلیکوباکتری — باسیل‌های H. pylori در لایه‌ی موکوس سطحی؛ H&E",
+        "alt": "بیوپسی معده با الگوی التهابی به نفع گاستریت مرتبط با H. pylori؛ H&E.",
         "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
@@ -3690,7 +3850,27 @@
         "source": "Wikimedia Commons — CoRus13",
         "license": "CC BY-SA 4.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Acute_gastritis,_Helicobacter_pylori,_high_mag.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "CoRus13",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acute_gastritis,_Helicobacter_pylori,_high_mag.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Acute_gastritis,_Helicobacter_pylori,_high_mag.jpg",
+          "licenseName": "CC BY-SA 4.0 International",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              640
+            ],
+            "commonsOriginalDimensions": [
+              4272,
+              2848
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -3759,7 +3939,27 @@
         "source": "Wikimedia Commons — Nephron",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Signet_ring_cell_carcinoma_-_high_mag.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Nephron",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Signet_ring_cell_carcinoma_-_high_mag.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Signet_ring_cell_carcinoma_-_high_mag.jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              1440
+            ],
+            "commonsOriginalDimensions": [
+              2848,
+              4272
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -4171,12 +4371,12 @@
         "برخی آدنوم‌های متعارف به آدنوکارسینوم پیشرفت می‌کنند. مسیر ضایعات دندانه‌دار (Serrated neoplasia pathway) نیز می‌تواند به سرطان کولورکتال منتهی شود."
       ],
       "image_url": "/images/pathology/colorectal-adenocarcinoma-polyps-photo.jpg",
-      "image_caption": "آدنوکارسینوم کولورکتال (عکس واقعی، H&E)",
+      "image_caption": "آدنوکارسینوم کولورکتال با الگوی غده‌ای؛ H&E.",
       "stain": "H&E",
       "images": [
         {
           "url": "/images/pathology/colorectal-adenocarcinoma-polyps-photo.jpg",
-          "caption": "آدنوکارسینوم کولورکتال (عکس واقعی، H&E)",
+          "caption": "آدنوکارسینوم کولورکتال با الگوی غده‌ای؛ H&E.",
           "magnification": "medium",
           "stain": "H&E",
           "source": "Wikimedia Commons — Mikael Häggström",
@@ -4194,7 +4394,7 @@
       "subcategory_fa": "روده و کولون",
       "image": {
         "url": "/images/pathology/colorectal-adenocarcinoma-polyps-photo.jpg",
-        "alt": "آدنوکارسینوم کولورکتال — غدد بدخیم با نکروز کثیف (dirty necrosis)؛ H&E",
+        "alt": "آدنوکارسینوم کولورکتال با الگوی غده‌ای؛ H&E.",
         "type": "real_slide",
         "magnification": "medium",
         "stain": "H&E",
@@ -4202,7 +4402,27 @@
         "source": "Wikimedia Commons — Mikael Häggström",
         "license": "CC0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Colorectal_adenocarcinoma,_not_otherwise_specified.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Mikael Häggström, M.D.",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colorectal_adenocarcinoma,_not_otherwise_specified.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Colorectal_adenocarcinoma,_not_otherwise_specified.jpg",
+          "licenseName": "CC0 1.0 Universal",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              1003
+            ],
+            "commonsOriginalDimensions": [
+              1705,
+              1781
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -4790,18 +5010,18 @@
         "بیشتر از ۹۰٪ سرطان‌های پانکراس از PanIN منشا می‌گیرند — این مسیر پیش‌ساز را مشابه توالی آدنوما-کارسینوما در کولون در نظر بگیرید"
       ],
       "image_url": "/images/pathology/pancreatic-ductal-adenocarcinoma-photo.jpg",
-      "image_caption": "آدنوکارسینوم مجرایی پانکراس — استرومای دسموپلاستیک (عکس واقعی، H&E)",
+      "image_caption": "آدنوکارسینوم مجرایی پانکراس (PDAC)؛ نمای بافت‌شناسی H&E از مقالهٔ Tayao و همکاران.",
       "stain": "H&E",
       "images": [
         {
           "url": "/images/pathology/pancreatic-ductal-adenocarcinoma-photo.jpg",
-          "caption": "آدنوکارسینوم مجرایی پانکراس — استرومای دسموپلاستیک (عکس واقعی، H&E)",
+          "caption": "آدنوکارسینوم مجرایی پانکراس (PDAC)؛ نمای بافت‌شناسی H&E از مقالهٔ Tayao و همکاران.",
           "magnification": "medium",
           "stain": "H&E",
-          "source": "Wikimedia Commons — Singh PK et al.",
+          "source": "Wikimedia Commons — Tayao et al.",
           "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pancreatic_ductal_adenocarcinoma.jpg",
           "license": "CC BY 4.0",
-          "attribution": "Singh PK et al."
+          "attribution": "Tayao et al."
         },
         {
           "url": "/images/pathology/pancreatic-ductal-adenocarcinoma.svg",
@@ -4812,15 +5032,36 @@
       "magnification": "100x",
       "image": {
         "url": "/images/pathology/pancreatic-ductal-adenocarcinoma-photo.jpg",
-        "alt": "آدنوکارسینوم مجرایی پانکراس — غدد بدخیم در استرومای دسموپلاستیک متراکم؛ H&E",
+        "alt": "آدنوکارسینوم مجرایی پانکراس (PDAC)؛ نمای بافت‌شناسی H&E از مقالهٔ Tayao و همکاران.",
         "type": "real_slide",
         "magnification": "medium",
         "stain": "H&E",
         "labels": [],
-        "source": "Wikimedia Commons — Singh PK et al.",
+        "source": "Wikimedia Commons — Tayao et al.",
         "license": "CC BY 4.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pancreatic_ductal_adenocarcinoma.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Michael Tayao et al.",
+          "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150338",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pancreatic_ductal_adenocarcinoma.jpg",
+          "licenseName": "CC BY 4.0 International",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "matches-commons-original",
+            "localDimensions": [
+              891,
+              749
+            ],
+            "commonsOriginalDimensions": [
+              891,
+              749
+            ],
+            "notice_fa": "فایل محلی با فایل ثبت‌شده در Wikimedia Commons یکسان است. شمارهٔ دقیق پنل و جزئیات استخراج آن از شکل مقاله تأیید نشده‌اند."
+          },
+          "publication": "Tayao M, Andrici J, Farzin M, et al. Loss of BAP1 Expression Is Very Rare in Pancreatic Ductal Adenocarcinoma. PLOS ONE. 2016;11(3):e0150338. doi:10.1371/journal.pone.0150338."
+        }
       }
     },
     {
@@ -5138,12 +5379,12 @@
         "هیپوتیروئیدی + گواتر بدون درد + آنتی‌بادی ضد TPO مثبت = هاشیموتو"
       ],
       "image_url": "/images/pathology/hashimoto-thyroiditis-photo.jpg",
-      "image_caption": "تیروئیدیت هاشیموتو — مراکز زایا و ارتشاح لنفوسیتی (عکس واقعی، H&E)",
+      "image_caption": "تیروئیدیت هاشیموتو در نمای کم‌بزرگ‌نمایی: ارتشاح لنفوسیتی و فولیکول‌های لنفوئیدی؛ H&E.",
       "stain": "H&E",
       "images": [
         {
           "url": "/images/pathology/hashimoto-thyroiditis-photo.jpg",
-          "caption": "تیروئیدیت هاشیموتو — مراکز زایا و ارتشاح لنفوسیتی (عکس واقعی، H&E)",
+          "caption": "تیروئیدیت هاشیموتو در نمای کم‌بزرگ‌نمایی: ارتشاح لنفوسیتی و فولیکول‌های لنفوئیدی؛ H&E.",
           "magnification": "low",
           "stain": "H&E",
           "source": "Wikimedia Commons — Librepath",
@@ -5160,7 +5401,7 @@
       "magnification": "400x",
       "image": {
         "url": "/images/pathology/hashimoto-thyroiditis-photo.jpg",
-        "alt": "تیروئیدیت هاشیموتو — ارتشاح لنفوسیتی با مراکز زایا و سلول‌های Hürthle؛ H&E",
+        "alt": "تیروئیدیت هاشیموتو در نمای کم‌بزرگ‌نمایی: ارتشاح لنفوسیتی و فولیکول‌های لنفوئیدی؛ H&E.",
         "type": "real_slide",
         "magnification": "low",
         "stain": "H&E",
@@ -5168,7 +5409,27 @@
         "source": "Wikimedia Commons — Librepath",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Hashimoto_thyroiditis_--_low_mag.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Librepath",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hashimoto_thyroiditis_--_low_mag.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Hashimoto_thyroiditis_--_low_mag.jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              640
+            ],
+            "commonsOriginalDimensions": [
+              4272,
+              2848
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -5911,7 +6172,27 @@
         "source": "Wikimedia Commons — Ed Uthman, MD",
         "license": "CC BY 2.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Gastric_Amyloidosis_(Congo_Red_Stain,_Crossed_Polarizers)_(3595838954).jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Ed Uthman, MD",
+          "sourceUrl": "https://www.flickr.com/photos/euthman/3595838954/",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Gastric_Amyloidosis_(Congo_Red_Stain,_Crossed_Polarizers)_(3595838954).jpg",
+          "licenseName": "CC BY 2.0 Generic",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              885
+            ],
+            "commonsOriginalDimensions": [
+              1452,
+              1338
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -6193,14 +6474,14 @@
         "هیپرکلسمی + نارسایی کلیه + کم‌خونی + ضایعات استخوانی (CRAB) در سالمند = میلوم مولتیپل تا رد نشود"
       ],
       "image_url": "/images/pathology/multiple-myeloma-photo.jpg",
-      "image_caption": "سلول‌های پلاسما در فیلم مغز استخوان میلوما (عکس واقعی)",
-      "stain": "Wright-Giemsa",
+      "image_caption": "سلول‌های پلاسما در اسمیر مغز استخوان بیمار مبتلا به مولتیپل میلوما.",
+      "stain": null,
       "images": [
         {
           "url": "/images/pathology/multiple-myeloma-photo.jpg",
-          "caption": "سلول‌های پلاسما در فیلم مغز استخوان میلوما (عکس واقعی)",
+          "caption": "سلول‌های پلاسما در اسمیر مغز استخوان بیمار مبتلا به مولتیپل میلوما.",
           "magnification": "high",
-          "stain": "Wright-Giemsa",
+          "stain": null,
           "source": "Wikimedia Commons — Dr Osaro Erhabor",
           "source_url": "https://commons.wikimedia.org/wiki/File:Plasma_Cells_in_a_Marrow_film_on_a_Myeloma_patient.jpg",
           "license": "CC BY-SA 3.0",
@@ -6215,15 +6496,35 @@
       "magnification": "400x",
       "image": {
         "url": "/images/pathology/multiple-myeloma-photo.jpg",
-        "alt": "مولتیپل میلوما — سلول‌های پلاسمای نئوپلاستیک در آسپیره‌ی مغز استخوان",
+        "alt": "سلول‌های پلاسما در اسمیر مغز استخوان بیمار مبتلا به مولتیپل میلوما.",
         "type": "real_slide",
         "magnification": "high",
-        "stain": "Wright-Giemsa",
+        "stain": null,
         "labels": [],
         "source": "Wikimedia Commons — Dr Osaro Erhabor",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Plasma_Cells_in_a_Marrow_film_on_a_Myeloma_patient.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Dr Osaro Erhabor",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plasma_Cells_in_a_Marrow_film_on_a_Myeloma_patient.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Plasma_Cells_in_a_Marrow_film_on_a_Myeloma_patient.jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              768
+            ],
+            "commonsOriginalDimensions": [
+              1280,
+              1024
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -6258,14 +6559,14 @@
         "میله‌ی آئر + بلاست میلوئید = AML؛ بلاست لنفوئید کوچک بدون میله‌ی آئر = ALL"
       ],
       "image_url": "/images/pathology/acute-leukemia-aml-all-photo.jpg",
-      "image_caption": "میلوبلاست با میله‌ی آوئر — نشانه‌ی AML (عکس واقعی)",
-      "stain": "Wright-Giemsa",
+      "image_caption": "میلوبلاست با میلهٔ آوئر (Auer rod) در اسمیر خون؛ سرنخ تمایز میلوئیدی.",
+      "stain": null,
       "images": [
         {
           "url": "/images/pathology/acute-leukemia-aml-all-photo.jpg",
-          "caption": "میلوبلاست با میله‌ی آوئر — نشانه‌ی AML (عکس واقعی)",
+          "caption": "میلوبلاست با میلهٔ آوئر (Auer rod) در اسمیر خون؛ سرنخ تمایز میلوئیدی.",
           "magnification": "high",
-          "stain": "Wright-Giemsa",
+          "stain": null,
           "source": "Wikimedia Commons — Paulo Henrique Orlandi Mourao",
           "source_url": "https://commons.wikimedia.org/wiki/File:Myeloblast_with_Auer_Rod_smear_2009-11-23.JPG",
           "license": "CC BY-SA 3.0",
@@ -6280,15 +6581,35 @@
       "magnification": "400x",
       "image": {
         "url": "/images/pathology/acute-leukemia-aml-all-photo.jpg",
-        "alt": "لوسمی میلوئید حاد — میلوبلاست با میله‌ی آوئر (Auer rod)",
+        "alt": "میلوبلاست با میلهٔ آوئر (Auer rod) در اسمیر خون؛ سرنخ تمایز میلوئیدی.",
         "type": "real_slide",
         "magnification": "high",
-        "stain": "Wright-Giemsa",
+        "stain": null,
         "labels": [],
         "source": "Wikimedia Commons — Paulo Henrique Orlandi Mourao",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Myeloblast_with_Auer_Rod_smear_2009-11-23.JPG",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Paulo Henrique Orlandi Mourao",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myeloblast_with_Auer_Rod_smear_2009-11-23.JPG",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Myeloblast_with_Auer_Rod_smear_2009-11-23.JPG",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              720
+            ],
+            "commonsOriginalDimensions": [
+              1466,
+              1099
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -6323,12 +6644,12 @@
         "لنفوسیتوز بدون علامت در سالمند + سلول‌های لکه‌ای در اسمیر = CLL"
       ],
       "image_url": "/images/pathology/chronic-lymphocytic-leukemia-photo.jpg",
-      "image_caption": "CLL — لنفوسیتوز و سلول‌های smudge (عکس واقعی، Wright-Giemsa)",
+      "image_caption": "اسمیر خون محیطی در CLL: لنفوسیت‌های بالغ با کروماتین متراکم و ترک‌خورده؛ Wright–Giemsa.",
       "stain": "Wright-Giemsa",
       "images": [
         {
           "url": "/images/pathology/chronic-lymphocytic-leukemia-photo.jpg",
-          "caption": "CLL — لنفوسیتوز و سلول‌های smudge (عکس واقعی، Wright-Giemsa)",
+          "caption": "اسمیر خون محیطی در CLL: لنفوسیت‌های بالغ با کروماتین متراکم و ترک‌خورده؛ Wright–Giemsa.",
           "magnification": "high",
           "stain": "Wright-Giemsa",
           "source": "Wikimedia Commons — Gabriel Caponetti",
@@ -6345,7 +6666,7 @@
       "magnification": "400x",
       "image": {
         "url": "/images/pathology/chronic-lymphocytic-leukemia-photo.jpg",
-        "alt": "لوسمی لنفوسیتی مزمن — لنفوسیت‌های کوچک بالغ و سلول‌های smudge؛ Wright-Giemsa",
+        "alt": "اسمیر خون محیطی در CLL: لنفوسیت‌های بالغ با کروماتین متراکم و ترک‌خورده؛ Wright–Giemsa.",
         "type": "real_slide",
         "magnification": "high",
         "stain": "Wright-Giemsa",
@@ -6353,7 +6674,27 @@
         "source": "Wikimedia Commons — Gabriel Caponetti",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Chronic_lymphocytic_leukemia_(Wright-Giemsa,_50x)..jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Gabriel Caponetti",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chronic_lymphocytic_leukemia_(Wright-Giemsa,_50x)..jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Chronic_lymphocytic_leukemia_(Wright-Giemsa,_50x)..jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              720
+            ],
+            "commonsOriginalDimensions": [
+              1280,
+              960
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -6591,12 +6932,12 @@
       "mnemonic": "«Follicular = 14-18، BCL2، آهسته (indolent)» — عدد ۱۴+۱۸ و مهار آپوپتوز توسط BCL2 را کنار هم به‌خاطر بسپار.",
       "quick_summary": "لنفوم فولیکولار دومین NHL شایع، ایندولنت و از سلول‌های مرکز زایای B است. مشخصه: t(14;18) و بیش‌بیانی BCL2 (مهار آپوپتوز)؛ الگوی ندولار یکنواخت با مرزهای نامشخص، درگیری پاراترابکولار مغز استخوان. با لنفادنوپاتی بدون‌درد تظاهر می‌کند، به درمان خوب پاسخ می‌دهد اما درمان قطعی دشوار است و می‌تواند به DLBCL تحول یابد.",
       "image_url": "/images/pathology/follicular-lymphoma-photo.jpg",
-      "image_caption": "لنفوم فولیکولار — الگوی ندولار یکنواخت (عکس واقعی، H&E)",
+      "image_caption": "نمای کم‌بزرگ‌نمایی لنفوم سلول B کوچک با الگوی ندولار سازگار با لنفوم فولیکولار؛ H&E.",
       "stain": "H&E",
       "images": [
         {
           "url": "/images/pathology/follicular-lymphoma-photo.jpg",
-          "caption": "لنفوم فولیکولار — الگوی ندولار یکنواخت (عکس واقعی، H&E)",
+          "caption": "نمای کم‌بزرگ‌نمایی لنفوم سلول B کوچک با الگوی ندولار سازگار با لنفوم فولیکولار؛ H&E.",
           "magnification": "low",
           "stain": "H&E",
           "source": "Wikimedia Commons — Nephron",
@@ -6613,7 +6954,7 @@
       "magnification": "بزرگ‌نمایی کم",
       "image": {
         "url": "/images/pathology/follicular-lymphoma-photo.jpg",
-        "alt": "لنفوم فولیکولار — فولیکول‌های نئوپلاستیک یکنواخت با بزرگ‌نمایی کم؛ H&E",
+        "alt": "نمای کم‌بزرگ‌نمایی لنفوم سلول B کوچک با الگوی ندولار سازگار با لنفوم فولیکولار؛ H&E.",
         "type": "real_slide",
         "magnification": "low",
         "stain": "H&E",
@@ -6621,7 +6962,27 @@
         "source": "Wikimedia Commons — Nephron",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Follicular_lymphoma_--_low_mag.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Nephron",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Follicular_lymphoma_--_low_mag.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Follicular_lymphoma_--_low_mag.jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              640
+            ],
+            "commonsOriginalDimensions": [
+              4272,
+              2848
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -6679,14 +7040,14 @@
       "mnemonic": "«بورکیت = 8-14، c-MYC، Starry sky، تکثیر بالا» — عدد ۸ (مثل بی‌نهایتِ خوابیده = رشد بی‌پایانِ سریع) را به c-MYC و آسمان پرستاره وصل کن.",
       "quick_summary": "Burkitt lymphoma یک لنفوم بسیار مهاجم سلول B با فعالیت تکثیری بسیار بالا است. بازآرایی MYC، اغلب به‌صورت t(8;14)، و الگوی Starry-sky از ویژگی‌های مهم آن هستند. فرم‌های اصلی شامل Endemic، Sporadic و Immunodeficiency-associated هستند.",
       "image_url": "/images/pathology/burkitt-lymphoma-photo.jpg",
-      "image_caption": "الگوی «آسمان پرستاره» بورکیت — عکس واقعی میکروسکوپی (H&E ×200)",
-      "stain": "H&E",
+      "image_caption": "لنفوم بورکیت، شکل ۲: پنل A الگوی Starry-sky در H&E ×200؛ پنل B رنگ‌آمیزی CD20، پنل C رنگ‌آمیزی c-MYC و پنل D هیبریداسیون درجا برای EBER.",
+      "stain": "H&E / CD20 / c-MYC / EBER",
       "images": [
         {
           "url": "/images/pathology/burkitt-lymphoma-photo.jpg",
-          "caption": "الگوی «آسمان پرستاره» بورکیت — عکس واقعی میکروسکوپی (H&E ×200)",
-          "magnification": "medium",
-          "stain": "H&E",
+          "caption": "لنفوم بورکیت، شکل ۲: پنل A الگوی Starry-sky در H&E ×200؛ پنل B رنگ‌آمیزی CD20، پنل C رنگ‌آمیزی c-MYC و پنل D هیبریداسیون درجا برای EBER.",
+          "magnification": null,
+          "stain": "H&E / CD20 / c-MYC / EBER",
           "source": "Wikimedia Commons — Datta S, Gogia A, Mallick S",
           "source_url": "https://commons.wikimedia.org/wiki/File:Microscopic_panel_showing_intermediate-sized_atypical_lymphoid_cells_arranged_in_sheets_with_numerous_tingible-body_macrophages,_creating_a_starry-sky_pattern_(H%26E,_%C3%97200).jpg",
           "license": "CC BY 4.0",
@@ -6698,18 +7059,39 @@
           "magnification": "گراس"
         }
       ],
-      "magnification": "بزرگ‌نمایی زیاد",
+      "magnification": null,
       "image": {
         "url": "/images/pathology/burkitt-lymphoma-photo.jpg",
-        "alt": "لنفوم بورکیت — الگوی «آسمان پرستاره» با ماکروفاژهای tingible-body؛ H&E ×200",
+        "alt": "لنفوم بورکیت، شکل ۲: پنل A الگوی Starry-sky در H&E ×200؛ پنل B رنگ‌آمیزی CD20، پنل C رنگ‌آمیزی c-MYC و پنل D هیبریداسیون درجا برای EBER.",
         "type": "real_slide",
-        "magnification": "medium",
-        "stain": "H&E",
+        "magnification": null,
+        "stain": "H&E / CD20 / c-MYC / EBER",
         "labels": [],
         "source": "Wikimedia Commons — Datta S, Gogia A, Mallick S",
         "license": "CC BY 4.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Microscopic_panel_showing_intermediate-sized_atypical_lymphoid_cells_arranged_in_sheets_with_numerous_tingible-body_macrophages,_creating_a_starry-sky_pattern_(H%26E,_%C3%97200).jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Datta S, Gogia A and Mallick S",
+          "sourceUrl": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1677060/full#F2",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Microscopic_panel_showing_intermediate-sized_atypical_lymphoid_cells_arranged_in_sheets_with_numerous_tingible-body_macrophages,_creating_a_starry-sky_pattern_(H%26E,_%C3%97200).jpg",
+          "licenseName": "CC BY 4.0 International",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              720
+            ],
+            "commonsOriginalDimensions": [
+              1535,
+              1152
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          },
+          "publication": "Datta S, Gogia A, Mallick S. Epstein-Barr virus-associated lymphomas: biology, molecular genomics and precision oncology. Front Oncol. 2025;15:1677060. Figure 2. doi:10.3389/fonc.2025.1677060."
+        }
       }
     },
     {
@@ -6838,12 +7220,12 @@
       "mnemonic": "«Hairy = BRAF، dry tap، اسپلنِ بزرگ، بدون گره لنفاوی» — سلول مویی + کیناز BRAF + آسپیراسیون خشک.",
       "quick_summary": "لوسمی سلول مویی نئوپلاسم ایندولنت سلول B با سلول‌های دارای زوائد سیتوپلاسمی مومانند است. مشخصه: موتاسیون BRAF (>۹۰٪)، اسپلنومگالی ماسیو، پان‌سیتوپنی و «dry tap» (مغز غیرقابل‌آسپیره به‌علت فیبروز رتیکولین). لنفادنوپاتی معمولاً وجود ندارد. بیشتر در مردان سفیدپوست میانسال.",
       "image_url": "/images/pathology/hairy-cell-leukemia-photo.jpg",
-      "image_caption": "لوسمی سلول مویی — سلول‌های مویی (عکس واقعی)",
+      "image_caption": "لوسمی سلول مویی در مقطع مغز استخوان: سلول‌های کوچک با سیتوپلاسم روشن و هستهٔ گرد مرکزی (Fried-egg appearance)؛ H&E.",
       "stain": "H&E",
       "images": [
         {
           "url": "/images/pathology/hairy-cell-leukemia-photo.jpg",
-          "caption": "لوسمی سلول مویی — سلول‌های مویی (عکس واقعی)",
+          "caption": "لوسمی سلول مویی در مقطع مغز استخوان: سلول‌های کوچک با سیتوپلاسم روشن و هستهٔ گرد مرکزی (Fried-egg appearance)؛ H&E.",
           "magnification": "high",
           "stain": "H&E",
           "source": "Wikimedia Commons — Nephron",
@@ -6860,7 +7242,7 @@
       "magnification": "بزرگ‌نمایی زیاد",
       "image": {
         "url": "/images/pathology/hairy-cell-leukemia-photo.jpg",
-        "alt": "لوسمی سلول مویی — سلول‌های لنفوئید با زوائد سیتوپلاسمی مویی؛ H&E",
+        "alt": "لوسمی سلول مویی در مقطع مغز استخوان: سلول‌های کوچک با سیتوپلاسم روشن و هستهٔ گرد مرکزی (Fried-egg appearance)؛ H&E.",
         "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
@@ -6868,7 +7250,27 @@
         "source": "Wikimedia Commons — Nephron",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Hairy_cell_leukemia_-_high_mag.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Nephron",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hairy_cell_leukemia_-_high_mag.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Hairy_cell_leukemia_-_high_mag.jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              640
+            ],
+            "commonsOriginalDimensions": [
+              4272,
+              2848
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -7030,12 +7432,12 @@
         "کودک با درد استخوان دیافیزی + تب + الگوی پوست پیاز = سارکوم یووینگ را رد کنید قبل از فرض عفونت"
       ],
       "image_url": "/images/pathology/ewing-sarcoma-photo.jpg",
-      "image_caption": "سارکوم یوینگ — سلول‌های آبی کوچک گرد (عکس واقعی، H&E)",
+      "image_caption": "سارکوم یوینگ در نمونهٔ بافت ریه؛ سلول‌های گرد کوچک در رنگ‌آمیزی H&E.",
       "stain": "H&E",
       "images": [
         {
           "url": "/images/pathology/ewing-sarcoma-photo.jpg",
-          "caption": "سارکوم یوینگ — سلول‌های آبی کوچک گرد (عکس واقعی، H&E)",
+          "caption": "سارکوم یوینگ در نمونهٔ بافت ریه؛ سلول‌های گرد کوچک در رنگ‌آمیزی H&E.",
           "magnification": "high",
           "stain": "H&E",
           "source": "Wikimedia Commons — Nephron",
@@ -7052,7 +7454,7 @@
       "magnification": "400x",
       "image": {
         "url": "/images/pathology/ewing-sarcoma-photo.jpg",
-        "alt": "سارکوم یوینگ — سلول‌های آبی کوچک گرد یکنواخت؛ H&E",
+        "alt": "سارکوم یوینگ در نمونهٔ بافت ریه؛ سلول‌های گرد کوچک در رنگ‌آمیزی H&E.",
         "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
@@ -7060,7 +7462,27 @@
         "source": "Wikimedia Commons — Nephron",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Ewing_sarcoma_-_very_high_mag.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Nephron",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ewing_sarcoma_-_very_high_mag.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Ewing_sarcoma_-_very_high_mag.jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              640
+            ],
+            "commonsOriginalDimensions": [
+              4272,
+              2848
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -8002,7 +8424,27 @@
         "source": "Wikimedia Commons — Calicut Medical College",
         "license": "CC BY-SA 4.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Emphysema_Lung_4x.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Department of Pathology, Calicut Medical College",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emphysema_Lung_4x.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Emphysema_Lung_4x.jpg",
+          "licenseName": "CC BY-SA 4.0 International",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              720
+            ],
+            "commonsOriginalDimensions": [
+              2048,
+              1536
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -8397,7 +8839,27 @@
         "source": "Wikimedia Commons — Nephron",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Cholangiocarcinoma_-_intermed_mag.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Nephron",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cholangiocarcinoma_-_intermed_mag.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Cholangiocarcinoma_-_intermed_mag.jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              640
+            ],
+            "commonsOriginalDimensions": [
+              4272,
+              2848
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -9379,12 +9841,12 @@
       "mnemonic": "«Oligo = 1 و 9 (1p/19q)، تخم‌مرغ نیمرو، سنگی (کلسیفیه)» — معیار مولکولی: جهش IDH و حذف هم‌زمان بازوهای کامل 1p و 19q؛ fried-egg و کلسیفیکاسیون سرنخ‌های مورفولوژیک‌اند.",
       "quick_summary": "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted یک گلیوم منتشر با معیارهای مولکولی مشخص است. ظاهر Fried-egg و کلسیفیکاسیون از سرنخ‌های مورفولوژیک‌اند، اما به‌تنهایی تشخیص را تعیین نمی‌کنند. تشنج از تظاهرات بالینی شناخته‌شده است.",
       "image_url": "/images/pathology/oligodendroglioma-photo.jpg",
-      "image_caption": "الیگودندروگلیوما — سلول‌های تخم‌مرغ نیمرو (عکس واقعی، H&E)",
+      "image_caption": "نمونهٔ تاریخی با برچسب الیگودندروگلیوما: هالهٔ روشن دور هسته (Fried-egg appearance) در H&E. تشخیص یکپارچه به تأیید جهش IDH و حذف هم‌زمان بازوهای کامل 1p/19q نیاز دارد.",
       "stain": "H&E",
       "images": [
         {
           "url": "/images/pathology/oligodendroglioma-photo.jpg",
-          "caption": "الیگودندروگلیوما — سلول‌های تخم‌مرغ نیمرو (عکس واقعی، H&E)",
+          "caption": "نمونهٔ تاریخی با برچسب الیگودندروگلیوما: هالهٔ روشن دور هسته (Fried-egg appearance) در H&E. تشخیص یکپارچه به تأیید جهش IDH و حذف هم‌زمان بازوهای کامل 1p/19q نیاز دارد.",
           "magnification": "high",
           "stain": "H&E",
           "source": "Wikimedia Commons — Nephron",
@@ -9401,7 +9863,7 @@
       "magnification": "بزرگ‌نمایی زیاد",
       "image": {
         "url": "/images/pathology/oligodendroglioma-photo.jpg",
-        "alt": "الیگودندروگلیوما — سلول‌های «تخم‌مرغ نیمرو» با هاله‌ی روشن دور هسته؛ H&E",
+        "alt": "نمونهٔ تاریخی با برچسب الیگودندروگلیوما: هالهٔ روشن دور هسته (Fried-egg appearance) در H&E. تشخیص یکپارچه به تأیید جهش IDH و حذف هم‌زمان بازوهای کامل 1p/19q نیاز دارد.",
         "type": "real_slide",
         "magnification": "high",
         "stain": "H&E",
@@ -9409,7 +9871,27 @@
         "source": "Wikimedia Commons — Nephron",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Oligodendroglioma1_high_mag.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Nephron",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oligodendroglioma1_high_mag.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Oligodendroglioma1_high_mag.jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              640
+            ],
+            "commonsOriginalDimensions": [
+              4272,
+              2848
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -9495,7 +9977,27 @@
         "source": "Wikimedia Commons — Jensflorian",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Ependymoma_pseudorosette.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Jensflorian",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ependymoma_pseudorosette.jpg",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Ependymoma_pseudorosette.jpg",
+          "licenseName": "CC BY-SA 3.0 Unported",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              712
+            ],
+            "commonsOriginalDimensions": [
+              2080,
+              1542
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
@@ -9732,7 +10234,27 @@
         "source": "Wikimedia Commons — Ed Uthman, MD",
         "license": "CC BY 2.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Complete_Hydatidiform_Mole_(6032574442).jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": true,
+        "rightsCredit": {
+          "creator": "Ed Uthman, MD",
+          "sourceUrl": "https://www.flickr.com/photos/euthman/6032574442/",
+          "fileUrl": "https://commons.wikimedia.org/wiki/File:Complete_Hydatidiform_Mole_(6032574442).jpg",
+          "licenseName": "CC BY 2.0 Generic",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "status": "CONDITIONAL",
+          "processing": {
+            "status": "smaller-rendition-history-unverified",
+            "localDimensions": [
+              960,
+              960
+            ],
+            "commonsOriginalDimensions": [
+              1441,
+              1441
+            ],
+            "notice_fa": "نسخهٔ محلی ۹۶۰ پیکسل عرض دارد و از نسخهٔ اصلی کوچک‌تر است. جزئیات پردازش تأیید نشده‌اند."
+          }
+        }
       }
     },
     {
