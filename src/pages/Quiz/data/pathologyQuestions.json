@@ -6783,31 +6783,31 @@
     "id": "pa-renal-17",
     "topicId": "membranous-nephropathy",
     "category": "Renal",
-    "question_fa": "سندرم نفروتیک در بالغ مسن همراه کاهش وزن/علائم سیستمیک، قبل از فرض ایدیوپاتیک چه اقدامی لازم است؟",
+    "question_fa": "کدام بیماری زمینه‌ای از همراهی‌های شناخته‌شدهٔ نفروپاتی ممبرانوس (Membranous nephropathy) است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "غربالگری بدخیمی زمینه‌ای",
-        "text_en": "Screen for underlying malignancy"
+        "text_fa": "بدخیمی جامد مانند کارسینوم ریه",
+        "text_en": "A solid malignancy such as lung carcinoma"
       },
       {
         "id": "b",
-        "text_fa": "شروع فوری دیالیز",
-        "text_en": "Immediate dialysis"
+        "text_fa": "دیابت بی‌مزهٔ مرکزی",
+        "text_en": "Central diabetes insipidus"
       },
       {
         "id": "c",
-        "text_fa": "بیوپسی پوست",
-        "text_en": "Skin biopsy"
+        "text_fa": "هیپرپاراتیروئیدیسم اولیه",
+        "text_en": "Primary hyperparathyroidism"
       },
       {
         "id": "d",
-        "text_fa": "هیچ اقدامی",
-        "text_en": "No workup"
+        "text_fa": "آکندروپلازی",
+        "text_en": "Achondroplasia"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "نفروپاتی ممبرانوس می‌تواند ثانویه به بدخیمی باشد؛ در بالغ مسن با علائم سیستمیک باید بدخیمی زمینه‌ای غربالگری شود."
+    "explanation_fa": "نفروپاتی ممبرانوس با رسوب کمپلکس‌های ایمنی زیر اپی‌تلیال شناخته می‌شود. بدخیمی، از جمله برخی تومورهای جامد، ممکن است با این الگو همراه باشد. بسیاری از موارد در زمینهٔ دیگری رخ می‌دهند."
   },
   {
     "id": "pa-renal-18",
@@ -7203,31 +7203,31 @@
     "id": "pa-generalpathology-13",
     "topicId": "tumor-metastasis-cascade",
     "category": "General Pathology",
-    "question_fa": "چه زمانی بهترین فرصت برای درمان قطعی تومور وجود دارد؟",
+    "question_fa": "کدام یافته تشکیل متاستاز دوردست را از تهاجم موضعی تومور متمایز می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "در مرحله‌ی تهاجم موضعی زودرس",
-        "text_en": "At early local invasion"
+        "text_fa": "استقرار کانون توموری جداگانه در اندامی دوردست",
+        "text_en": "Establishment of a separate tumor deposit in a distant organ"
       },
       {
         "id": "b",
-        "text_fa": "پس از ورود به گردش خون",
-        "text_en": "After entering circulation"
+        "text_fa": "نفوذ مستقیم تومور به بافت مجاور",
+        "text_en": "Direct tumor invasion into adjacent tissue"
       },
       {
         "id": "c",
-        "text_fa": "پس از متاستاز دوردست",
-        "text_en": "After distant metastasis"
+        "text_fa": "ورود سلول توموری به رگ بدون تشکیل کانون دوردست",
+        "text_en": "Tumor cell entry into a vessel without establishment of a distant deposit"
       },
       {
         "id": "d",
-        "text_fa": "هیچ‌گاه",
-        "text_en": "Never"
+        "text_fa": "نفوذ تومور به استرومای مجاور غشای پایه",
+        "text_en": "Tumor invasion into stroma adjacent to the basement membrane"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "تشخیص زودرس تهاجم موضعی بهترین فرصت درمان قطعی است؛ پس از ورود سلول‌ها به گردش خون و متاستاز، پیش‌آگهی به‌طور چشمگیر بدتر می‌شود."
+    "explanation_fa": "تهاجم موضعی (Local invasion) گسترش مستقیم تومور به بافت مجاور است. متاستاز دوردست (Distant metastasis) مستلزم استقرار کانون توموری جدا از تومور اولیه در محل دوردست است. حضور سلول‌های توموری در خون مرحله‌ای ممکن از انتشار است و به‌تنهایی وجود کانون متاستاتیک را ثابت نمی‌کند."
   },
   {
     "id": "pa-cardiovascular-10",
@@ -7593,61 +7593,61 @@
     "id": "pa-nervoussystem-33",
     "topicId": "subarachnoid-hemorrhage",
     "category": "Nervous System",
-    "question_fa": "«بدترین سردرد عمر» با شروع ناگهانی مطرح‌کننده‌ی چیست؟",
+    "question_fa": "پارگی کدام ضایعهٔ عروقی از علل کلاسیک خون‌ریزی زیرعنکبوتیهٔ خودبه‌خودی است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "خون‌ریزی ساب‌آراکنوئید",
-        "text_en": "Subarachnoid hemorrhage"
+        "text_fa": "آنوریسم ساکولار شریان مغزی",
+        "text_en": "Saccular aneurysm of a cerebral artery"
       },
       {
         "id": "b",
-        "text_fa": "مننژیت",
-        "text_en": "Meningitis"
+        "text_fa": "آنوریسم آئورت شکمی",
+        "text_en": "Abdominal aortic aneurysm"
       },
       {
         "id": "c",
-        "text_fa": "سردرد تنشی",
-        "text_en": "Tension headache"
+        "text_fa": "آنوریسم شریان پوپلیته",
+        "text_en": "Popliteal artery aneurysm"
       },
       {
         "id": "d",
-        "text_fa": "سینوزیت",
-        "text_en": "Sinusitis"
+        "text_fa": "آنوریسم شریان طحالی",
+        "text_en": "Splenic artery aneurysm"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "«بدترین سردرد عمر» با شروع ناگهانی تا رد نشدن SAH (اغلب از پارگی آنوریسم برِی) است؛ وازواسپاسم تأخیری (روز ۳–۱۰) باید پایش شود."
+    "explanation_fa": "پارگی آنوریسم ساکولار داخل جمجمه (Saccular intracranial aneurysm) می‌تواند خون را مستقیماً وارد فضای زیرعنکبوتیه کند. خون‌ریزی زیرعنکبوتیهٔ خودبه‌خودی علل دیگری نیز دارد."
   },
   {
     "id": "pa-nervoussystem-34",
     "topicId": "intracerebral-hemorrhage",
     "category": "Nervous System",
-    "question_fa": "خون‌ریزی لوبار مکرر در سالمند بدون فشار خون بالای شناخته‌شده مطرح‌کننده‌ی چیست؟",
+    "question_fa": "در آنژیوپاتی آمیلوئید مغزی (CAA)، کدام تغییر بافتی با خون‌ریزی لوبار ارتباط دارد؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "آنژیوپاتی آمیلوئید مغزی",
-        "text_en": "Cerebral amyloid angiopathy"
+        "text_fa": "رسوب آمیلوئید بتا در دیوارهٔ عروق مغزی",
+        "text_en": "Amyloid-beta deposition in cerebral vessel walls"
       },
       {
         "id": "b",
-        "text_fa": "خون‌ریزی هیپرتانسیو گانگلیون قاعده‌ای",
-        "text_en": "Hypertensive basal ganglia bleed"
+        "text_fa": "رسوب آلفا‌سینوکلئین در نورون‌های جسم سیاه",
+        "text_en": "Alpha-synuclein deposition in substantia nigra neurons"
       },
       {
         "id": "c",
-        "text_fa": "تومور",
-        "text_en": "Tumor"
+        "text_fa": "رسوب تاو فقط در نورون‌های قشری",
+        "text_en": "Tau deposition confined to cortical neurons"
       },
       {
         "id": "d",
-        "text_fa": "آنوریسم مایکوتیک",
-        "text_en": "Mycotic aneurysm"
+        "text_fa": "رسوب آمیلوئید بتا فقط در پلاک‌های پارانشیمی",
+        "text_en": "Amyloid-beta deposition confined to parenchymal plaques"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "خون‌ریزی لوبارِ مکرر در سالمندِ بدون فشار خون بالا مطرح‌کننده‌ی آنژیوپاتی آمیلوئید مغزی است (همان پروتئین آمیلوئیدِ آلزایمر در دیواره‌ی عروق)."
+    "explanation_fa": "در نوع شایع آنژیوپاتی آمیلوئید مغزی (Cerebral amyloid angiopathy)، آمیلوئید بتا (Aβ) در دیوارهٔ عروق قشری و لپتومننژیال رسوب می‌کند و می‌تواند زمینه‌ساز خون‌ریزی لوبار شود. نبود پرفشاری خون شرط تعریف این ضایعه نیست."
   },
   {
     "id": "pa-respiratory-15",
@@ -7893,47 +7893,77 @@
     "id": "pa-respiratory-23",
     "topicId": "laryngeal-carcinoma-vocal-cord-lesions",
     "category": "Respiratory",
-    "question_fa": "گرفتگی صدای پایدار در سیگاری مسن چه اقدامی می‌طلبد؟",
+    "question_fa": "مواجهه با دخانیات و دیسفونی پایدار در آموزش پاتولوژی با کدام بدخیمی حنجره ارتباط کلاسیک دارند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "لارنگوسکوپی",
-        "text_en": "Laryngoscopy"
+        "text_fa": "کارسینوم سلول سنگفرشی حنجره",
+        "text_en": "Laryngeal squamous cell carcinoma"
       },
       {
         "id": "b",
-        "text_fa": "فقط استراحت صوتی",
-        "text_en": "Voice rest only"
+        "text_fa": "کندروسارکوم حنجره",
+        "text_en": "Laryngeal chondrosarcoma"
       },
       {
         "id": "c",
-        "text_fa": "آنتی‌بیوتیک",
-        "text_en": "Antibiotics"
+        "text_fa": "ملانوم مخاطی حنجره",
+        "text_en": "Laryngeal mucosal melanoma"
       },
       {
         "id": "d",
-        "text_fa": "آنتی‌هیستامین",
-        "text_en": "Antihistamines"
+        "text_fa": "آدنوکارسینوم نوع غدد بزاقی حنجره",
+        "text_en": "Salivary-type adenocarcinoma of the larynx"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "گرفتگی صدای پایدارِ بدون بهبود در سیگاری مسن همیشه باید با لارنگوسکوپی بررسی شود تا کارسینوم حنجره رد شود."
+    "explanation_fa": "مصرف دخانیات عامل خطر کارسینوم سلول سنگفرشی حنجره (Laryngeal squamous cell carcinoma) است. درگیری گلوت می‌تواند با دیسفونی پایدار تظاهر کند. دیسفونی به‌تنهایی اختصاصی بدخیمی نیست."
   },
   {
     "id": "pa-musculoskeletal-30",
     "topicId": "chondrosarcoma",
     "category": "Musculoskeletal",
-    "question_fa": "تومور کارتیلاژینوز استخوان در فرد مسن‌تر مطرح‌کننده‌ی چیست؟",
+    "question_fa": "در یک تومور مرکزی غضروف‌ساز لگن، غضروف نئوپلاستیک به‌صورت نفوذی میان ترابکول‌های از پیش موجود رشد می‌کند و آن‌ها را دربرمی‌گیرد. این الگو بیشتر به نفع کدام ضایعه است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "کندروسارکوم",
-        "text_en": "Chondrosarcoma"
+        "text_fa": "کندروسارکوم متعارف",
+        "text_en": "Conventional chondrosarcoma"
       },
       {
         "id": "b",
-        "text_fa": "استئوسارکوم",
-        "text_en": "Osteosarcoma"
+        "text_fa": "انکندروم",
+        "text_en": "Enchondroma"
+      },
+      {
+        "id": "c",
+        "text_fa": "استئوکندروم",
+        "text_en": "Osteochondroma"
+      },
+      {
+        "id": "d",
+        "text_fa": "کندروبلاستوما",
+        "text_en": "Chondroblastoma"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "در کندروسارکوم متعارف (Conventional chondrosarcoma)، رشد نفوذی غضروف نئوپلاستیک در مغز استخوان و دربرگرفتن ترابکول‌های بومی از سرنخ‌های افتراق از انکندروم است. معماری ضایعه در کنار محل و یافته‌های تصویربرداری تفسیر می‌شود."
+  },
+  {
+    "id": "pa-musculoskeletal-31",
+    "topicId": "osteochondroma-chondroma",
+    "category": "Musculoskeletal",
+    "question_fa": "رشد تازهٔ یک استئوکندروم (Osteochondroma) پس از بلوغ اسکلتی می‌تواند سرنخ کدام تحول نئوپلاستیک باشد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "کندروسارکوم محیطی ثانویه",
+        "text_en": "Secondary peripheral chondrosarcoma"
+      },
+      {
+        "id": "b",
+        "text_fa": "کندروسارکوم مرکزی اولیه",
+        "text_en": "Primary central chondrosarcoma"
       },
       {
         "id": "c",
@@ -7942,132 +7972,102 @@
       },
       {
         "id": "d",
-        "text_fa": "استئوکندروم",
-        "text_en": "Osteochondroma"
+        "text_fa": "تومور سلول غول‌آسای استخوان",
+        "text_en": "Giant cell tumor of bone"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "تومور کارتیلاژینوزِ استخوان در فرد مسن‌تر تا رد نشدن باید کندروسارکوم در نظر گرفته شود؛ استئوسارکوم و یوینگ بیشتر در جوانان‌اند."
-  },
-  {
-    "id": "pa-musculoskeletal-31",
-    "topicId": "osteochondroma-chondroma",
-    "category": "Musculoskeletal",
-    "question_fa": "رشد جدید یا درد در استئوکندرومِ شناخته‌شده‌ی بالغ چه معنایی دارد؟",
-    "options": [
-      {
-        "id": "a",
-        "text_fa": "باید بدخیمی ثانویه (کندروسارکوم) رد شود",
-        "text_en": "Secondary malignancy (chondrosarcoma) must be excluded"
-      },
-      {
-        "id": "b",
-        "text_fa": "طبیعی است",
-        "text_en": "It is normal"
-      },
-      {
-        "id": "c",
-        "text_fa": "عفونت است",
-        "text_en": "It is infection"
-      },
-      {
-        "id": "d",
-        "text_fa": "نیاز به آنتی‌بیوتیک",
-        "text_en": "Needs antibiotics"
-      }
-    ],
-    "correctOptionId": "a",
-    "explanation_fa": "رشد جدید یا درد در استئوکندرومِ قبلاً پایدارِ بالغ نگران‌کننده‌ی تحول به کندروسارکوم است و باید بررسی شود."
+    "explanation_fa": "اگر استئوکندروم دچار تحول بدخیم شود، تومور ثانویه معمولاً کندروسارکوم محیطی (Secondary peripheral chondrosarcoma) است که از کلاهک غضروفی منشأ می‌گیرد. رشد پس از بلوغ اسکلتی می‌تواند سرنخ باشد. درد به‌تنهایی تحول بدخیم را ثابت نمی‌کند و ممکن است منشأ مکانیکی داشته باشد."
   },
   {
     "id": "pa-musculoskeletal-32",
     "topicId": "osteoporosis",
     "category": "Musculoskeletal",
-    "question_fa": "پروفایل آزمایشگاهی استئوپروز کدام است؟",
+    "question_fa": "کدام عبارت تفاوت بنیادی استئوپروز (Osteoporosis) و استئومالاسی (Osteomalacia) را بیان می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "کلسیم/فسفر/PTH طبیعی + کاهش دانسیته",
-        "text_en": "Normal Ca/phosphate/PTH + low bone density"
+        "text_fa": "استئوپروز کاهش تودهٔ استخوان است و استئومالاسی نقص معدنی‌شدن استئوئید.",
+        "text_en": "Osteoporosis involves reduced bone mass, and osteomalacia involves defective osteoid mineralization."
       },
       {
         "id": "b",
-        "text_fa": "کلسیم و فسفر پایین + PTH بالا",
-        "text_en": "Low Ca and phosphate + high PTH"
+        "text_fa": "استئوپروز نقص معدنی‌شدن استئوئید است و استئومالاسی کاهش توده با معدنی‌شدن طبیعی.",
+        "text_en": "Osteoporosis involves defective osteoid mineralization, and osteomalacia involves reduced mass with normal mineralization."
       },
       {
         "id": "c",
-        "text_fa": "کلسیم بالا + PTH بالا",
-        "text_en": "High Ca + high PTH"
+        "text_fa": "هر دو با نقص اولیهٔ بازجذب استئوکلاستی تعریف می‌شوند.",
+        "text_en": "Both are defined by a primary defect in osteoclastic resorption."
       },
       {
         "id": "d",
-        "text_fa": "فسفر بالا + PTH پایین",
-        "text_en": "High phosphate + low PTH"
+        "text_fa": "هر دو با افزایش تودهٔ استخوان و معدنی‌شدن طبیعی تعریف می‌شوند.",
+        "text_en": "Both are defined by increased bone mass with normal mineralization."
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "در استئوپروز کلسیم/فسفر/PTH طبیعی است و فقط دانسیته‌ی استخوان کاهش می‌یابد؛ استئومالاسی کلسیم/فسفر پایین و PTH بالا دارد."
+    "explanation_fa": "در استئوپروز، تودهٔ استخوان کاهش می‌یابد و معدنی‌شدن ماتریکس باقی‌مانده معمولاً حفظ می‌شود. در استئومالاسی، معدنی‌شدن استئوئید مختل است. شاخص‌های آزمایشگاهیِ استئومالاسی با علت و مرحله تغییر می‌کنند."
   },
   {
     "id": "pa-musculoskeletal-33",
     "topicId": "dermatomyositis-polymyositis",
     "category": "Musculoskeletal",
-    "question_fa": "درماتومیوزیت در بالغ مسن نیازمند چه غربالگری‌ای است؟",
+    "question_fa": "کدام همراهی در درماتومیوزیت با شروع در بزرگسالی (Adult-onset dermatomyositis) شناخته شده است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "غربالگری بدخیمی پاراتومورال زمینه‌ای",
-        "text_en": "Screen for underlying paraneoplastic malignancy"
+        "text_fa": "افزایش خطر بدخیمی",
+        "text_en": "Increased risk of malignancy"
       },
       {
         "id": "b",
-        "text_fa": "غربالگری دیابت",
-        "text_en": "Screen for diabetes"
+        "text_fa": "کاهش خطر بدخیمی",
+        "text_en": "Decreased risk of malignancy"
       },
       {
         "id": "c",
-        "text_fa": "غربالگری استئوپروز",
-        "text_en": "Screen for osteoporosis"
+        "text_fa": "همراهی اختصاصی با بیماری ویلسون",
+        "text_en": "Specific association with Wilson disease"
       },
       {
         "id": "d",
-        "text_fa": "غربالگری کم‌خونی",
-        "text_en": "Screen for anemia"
+        "text_fa": "همراهی اختصاصی با آکندروپلازی",
+        "text_en": "Specific association with achondroplasia"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "درماتومیوزیت در بالغ مسن اغلب پاراتومورال است؛ باید بدخیمی زمینه‌ای غربالگری شود."
+    "explanation_fa": "درماتومیوزیت بالغین با افزایش خطر بدخیمی همراه است. این همراهی یک ارتباط در سطح جمعیت است. همهٔ موارد ناشی از بدخیمی نیستند و میزان خطر بین زیرگروه‌ها فرق می‌کند."
   },
   {
     "id": "pa-musculoskeletal-34",
     "topicId": "duchenne-becker-muscular-dystrophy",
     "category": "Musculoskeletal",
-    "question_fa": "پسر با ضعف عضلانی پروگزیمال و علامت گاورز مثبت — کدام بررسی لازم است؟",
+    "question_fa": "دیستروفین (Dystrophin) چگونه به پایداری غشای فیبر عضلانی کمک می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "سطح کراتین کیناز و ژن دیستروفین",
-        "text_en": "Creatine kinase level and dystrophin gene"
+        "text_fa": "اتصال اسکلت اکتینی به کمپلکس غشایی مرتبط با ماتریکس خارج‌سلولی",
+        "text_en": "Linking the actin cytoskeleton to a membrane complex connected to the extracellular matrix"
       },
       {
         "id": "b",
-        "text_fa": "کلسی‌تونین",
-        "text_en": "Calcitonin"
+        "text_fa": "پمپ‌کردن کلسیم به شبکهٔ سارکوپلاسمی",
+        "text_en": "Pumping calcium into the sarcoplasmic reticulum"
       },
       {
         "id": "c",
-        "text_fa": "AFP",
-        "text_en": "AFP"
+        "text_fa": "تجزیهٔ استیل‌کولین در محل اتصال عصب و عضله",
+        "text_en": "Breaking down acetylcholine at the neuromuscular junction"
       },
       {
         "id": "d",
-        "text_fa": "AMA",
-        "text_en": "AMA"
+        "text_fa": "فعال‌کردن مستقیم سر میوزین برای هیدرولیز ATP",
+        "text_en": "Directly activating the myosin head to hydrolyze ATP"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "پسر با ضعف عضلانی پروگزیمال و علامت گاورز مثبت مطرح‌کننده‌ی دیستروفی عضلانی است؛ کراتین کیناز بالا و آنالیز ژن دیستروفین تشخیصی‌اند."
+    "explanation_fa": "دیستروفین اکتین زیرغشایی را از طریق کمپلکس گلیکوپروتئینی وابسته به دیستروفین به ماتریکس خارج‌سلولی متصل می‌کند. این پیوند از سارکولم (Sarcolemma) در برابر تنش مکانیکی انقباض محافظت می‌کند."
   },
   {
     "id": "pa-femalereproductivesystem-29",
@@ -8313,31 +8313,31 @@
     "id": "pa-hematologiclymphoid-36",
     "topicId": "acute-leukemia-aml-all",
     "category": "Hematologic & Lymphoid",
-    "question_fa": "میله‌ی آئر (Auer rod) در بلاست‌ها نشانه‌ی کدام لوسمی است؟",
+    "question_fa": "وجود میلهٔ آئر (Auer rod) در بلاست‌های هماتوپوئتیک از کدام نوع تمایز پشتیبانی می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "AML",
-        "text_en": "AML"
+        "text_fa": "تمایز میلوئیدی گرانولوسیتی",
+        "text_en": "Granulocytic myeloid differentiation"
       },
       {
         "id": "b",
-        "text_fa": "ALL",
-        "text_en": "ALL"
+        "text_fa": "تمایز لنفوئیدی سلول B",
+        "text_en": "B-lymphoid differentiation"
       },
       {
         "id": "c",
-        "text_fa": "CLL",
-        "text_en": "CLL"
+        "text_fa": "تمایز لنفوئیدی سلول T",
+        "text_en": "T-lymphoid differentiation"
       },
       {
         "id": "d",
-        "text_fa": "CML",
-        "text_en": "CML"
+        "text_fa": "تمایز مگاکاریوسیتی",
+        "text_en": "Megakaryocytic differentiation"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "میله‌ی آئر + بلاست میلوئید = AML؛ بلاست لنفوئید کوچک بدون میله‌ی آئر مطرح‌کننده‌ی ALL است."
+    "explanation_fa": "میله‌های آئر انکلوزیون‌های سوزنی سیتوپلاسمی حاصل از تجمع گرانول‌های اولیه‌اند و از تمایز میلوئیدی (Myeloid differentiation) پشتیبانی می‌کنند. وجود آن‌ها به‌تنهایی برای تعیین یک تشخیص مشخص AML کافی نیست و در بعضی نئوپلاسم‌های میلودیسپلاستیک هم دیده می‌شوند."
   },
   {
     "id": "pa-hematologiclymphoid-37",
@@ -8493,31 +8493,31 @@
     "id": "pa-musculoskeletal-37",
     "topicId": "osteopetrosis",
     "category": "Musculoskeletal",
-    "question_fa": "تغییرشکل کلاسیک انتهای استخوان‌های بلند در استئوپتروزیس چیست؟",
+    "question_fa": "در استئوپتروزیس (Osteopetrosis)، شکل فلاسک ارلن‌مایر در انتهای استخوان بلند ناشی از کدام تغییر معماری است؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "فلاسک ارلن‌مایر (Erlenmeyer)",
-        "text_en": "Erlenmeyer flask deformity"
+        "text_fa": "پهن‌ماندن متافیز بر اثر اختلال باریک‌شدن آن",
+        "text_en": "Persistent metaphyseal flaring due to impaired tapering"
       },
       {
         "id": "b",
-        "text_fa": "منقار پرنده",
-        "text_en": "Bird-beak"
+        "text_fa": "تنگ‌شدن کانال مدولاری با حفظ شکل طبیعی متافیز",
+        "text_en": "Medullary canal narrowing with preserved metaphyseal contour"
       },
       {
         "id": "c",
-        "text_fa": "استخوان موزائیک",
-        "text_en": "Mosaic bone"
+        "text_fa": "فرورفتگی سطح مفصلی اپی‌فیز بدون تغییر متافیز",
+        "text_en": "Depression of the epiphyseal articular surface without metaphyseal change"
       },
       {
         "id": "d",
-        "text_fa": "فنجان‌شدن (cupping)",
-        "text_en": "Cupping"
+        "text_fa": "نازک‌شدن موضعی دیافیز بدون پهن‌شدن متافیز",
+        "text_en": "Focal diaphyseal thinning without metaphyseal flaring"
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "فقدان بازجذب استئوکلاستی باعث نبود کانال مدولاری و انتهای حباب‌مانند استخوان‌های بلند (تغییرشکل فلاسک ارلن‌مایر) می‌شود."
+    "explanation_fa": "در تغییرشکل فلاسک ارلن‌مایر (Erlenmeyer flask deformity)، متافیز بر اثر اختلال مدل‌سازی به‌طور طبیعی باریک نمی‌شود و پهن باقی می‌ماند. فضای مدولاری در استئوپتروزیس می‌تواند تنگ شود. فقدان کامل آن برای ایجاد تغییرشکل لازم نیست."
   },
   {
     "id": "pa-musculoskeletal-38",
@@ -8613,31 +8613,31 @@
     "id": "pa-musculoskeletal-41",
     "topicId": "osteomalacia-rickets",
     "category": "Musculoskeletal",
-    "question_fa": "تفاوت راشیتیسم و استئومالاسی چیست؟",
+    "question_fa": "کدام عبارت محل اصلی اختلال در راشیتیسم (Rickets) و استئومالاسی (Osteomalacia) را درست بیان می‌کند؟",
     "options": [
       {
         "id": "a",
-        "text_fa": "راشیتیسم در کودکان (صفحه‌ی رشد)، استئومالاسی در بزرگسالان",
-        "text_en": "Rickets in children (growth plate), osteomalacia in adults"
+        "text_fa": "راشیتیسم: صفحهٔ رشد باز. استئومالاسی: استئوئید.",
+        "text_en": "Rickets: open growth plate. Osteomalacia: osteoid."
       },
       {
         "id": "b",
-        "text_fa": "راشیتیسم در بزرگسالان، استئومالاسی در کودکان",
-        "text_en": "Rickets in adults, osteomalacia in children"
+        "text_fa": "راشیتیسم: استئوئید. استئومالاسی: صفحهٔ رشد باز.",
+        "text_en": "Rickets: osteoid. Osteomalacia: open growth plate."
       },
       {
         "id": "c",
-        "text_fa": "هر دو فقط در سالمندان",
-        "text_en": "Both only in elderly"
+        "text_fa": "هر دو فقط غضروف مفصلی را درگیر می‌کنند.",
+        "text_en": "Both affect only articular cartilage."
       },
       {
         "id": "d",
-        "text_fa": "هیچ تفاوتی ندارند",
-        "text_en": "No difference"
+        "text_fa": "هر دو فقط حجم استخوان را کم می‌کنند و معدنی‌شدن حفظ می‌شود.",
+        "text_en": "Both reduce only bone volume while preserving mineralization."
       }
     ],
     "correctOptionId": "a",
-    "explanation_fa": "هر دو اختلال مینرالیزاسیون‌اند: راشیتیسم فرم کودکان (با درگیری صفحه‌ی رشد) و استئومالاسی فرم بزرگسالان است."
+    "explanation_fa": "راشیتیسم صفحهٔ رشد باز را درگیر می‌کند و با اختلال در تمایز و معدنی‌شدن غضروف رشد همراه است. استئومالاسی نقص معدنی‌شدن استئوئید است. این دو فرایند می‌توانند در کودکان هم‌زمان وجود داشته باشند."
   },
   {
     "id": "pa-musculoskeletal-42",
