@@ -3,7 +3,7 @@ import test from "node:test";
 import { build } from "esbuild";
 import { JSDOM } from "jsdom";
 
-test("React quiz scores all four positions and preserves feedback, review and retakes", async () => {
+test("React quiz scores all four positions, handles perfect and imperfect results, and preserves review and retakes", async () => {
   const { outputFiles } = await build({
     entryPoints: ["tests/quiz-interaction.jsx"],
     bundle: true,

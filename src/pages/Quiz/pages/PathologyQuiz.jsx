@@ -27,15 +27,15 @@ export default function PathologyQuiz() {
 
 export function PathologyCategoryQuiz() {
   const { category } = useParams();
-  const decoded = decodeURIComponent(category);
-  const filtered = pathologyQuestions.filter((q) => q.category === decoded);
+  const filtered = pathologyQuestions.filter((q) => q.category === category);
 
   return (
     <QuizPlay
-      title={`آزمون پاتولوژی — ${decoded}`}
+      title={`آزمون پاتولوژی — ${category}`}
       questions={filtered}
       resultPath={`/quiz/pathology/${category}/result`}
       homePath="/quiz/pathology"
+      scrollOnAdvance
     />
   );
 }
@@ -47,7 +47,7 @@ export function PathologyCategoryQuiz() {
  */
 export function PathologyCombinedQuiz() {
   const { cats } = useParams();
-  const selected = decodeURIComponent(cats).split("|").filter(Boolean);
+  const selected = cats.split("|").filter(Boolean);
   const filtered = pathologyQuestions.filter((q) => selected.includes(q.category));
 
   return (
@@ -56,6 +56,7 @@ export function PathologyCombinedQuiz() {
       questions={filtered}
       resultPath={`/quiz/pathology/custom/${cats}/result`}
       homePath="/quiz/pathology"
+      scrollOnAdvance
     />
   );
 }

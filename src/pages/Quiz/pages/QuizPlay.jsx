@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useLayoutEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import PageHeader from "../../../shared/components/PageHeader";
 import ProgressBar from "../../../shared/components/ProgressBar";
@@ -19,7 +19,7 @@ import "./QuizPlay.css";
  * @param {string} resultPath - route to navigate to once the quiz is finished
  * @param {string} homePath - route to go back to (QuizHome)
  */
-export default function QuizPlay({ title, questions, resultPath, homePath }) {
+export default function QuizPlay({ title, questions, resultPath, homePath, scrollOnAdvance = false }) {
   return (
     <QuizAttempt
       key={resultPath}
@@ -27,13 +27,20 @@ export default function QuizPlay({ title, questions, resultPath, homePath }) {
       questions={questions}
       resultPath={resultPath}
       homePath={homePath}
+      scrollOnAdvance={scrollOnAdvance}
     />
   );
 }
 
-function QuizAttempt({ title, questions, resultPath, homePath }) {
+function QuizAttempt({ title, questions, resultPath, homePath, scrollOnAdvance }) {
   const navigate = useNavigate();
   const quiz = useQuiz(questions);
+
+  useLayoutEffect(() => {
+    if (scrollOnAdvance && quiz.currentIndex > 0) {
+      window.scrollTo({ top: 0, behavior: "instant" });
+    }
+  }, [scrollOnAdvance, quiz.currentIndex]);
 
   useEffect(() => {
     if (quiz.finished) {

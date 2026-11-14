@@ -4,6 +4,7 @@ import { flushSync } from "react-dom";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 import QuizPlay from "../src/pages/Quiz/pages/QuizPlay.jsx";
 import QuizResult from "../src/pages/Quiz/pages/QuizResult.jsx";
+import ScoreSummary from "../src/pages/Quiz/components/ScoreSummary.jsx";
 import useQuiz from "../src/pages/Quiz/hooks/useQuiz.js";
 import bank from "../src/pages/Quiz/data/pathologyQuestions.json";
 
@@ -41,6 +42,17 @@ function Probe({ rows }) {
 const originalRandom = Math.random;
 async function run() {
   try {
+    const perfectMessage = "عالی بود! همه پاسخ‌ها درست بودند.";
+    for (const [score, percent] of [[293, "100%"], [292, "99%"], [0, "0%"]]) {
+      render(<ScoreSummary score={score} total={293} />);
+      const summary = document.querySelector(".score-summary");
+      check(summary.querySelector(".score-summary__fraction").textContent.trim() ===
+        `${score} از 293 پاسخ صحیح`, "Incorrect fraction for " + score);
+      check(summary.querySelector(".score-summary__pct").textContent === percent,
+        "Incorrect percentage for " + score);
+      check(summary.textContent.includes(perfectMessage) === (score === 293),
+        "Incorrect perfect-score feedback for " + score);
+    }
     for (let position = 0; position < 4; position++) {
       render(null);
       // The first three random draws shuffle question one. Move its first

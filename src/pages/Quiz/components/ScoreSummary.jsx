@@ -6,10 +6,11 @@ import "./ScoreSummary.css";
  * Shows score, percentage, and a short message based on performance.
  */
 export default function ScoreSummary({ score, total }) {
-  const pct = total > 0 ? Math.round((score / total) * 100) : 0;
+  const isPerfect = total > 0 && score === total;
+  const pct = total > 0 ? Math.min(isPerfect ? 100 : 99, Math.round((score / total) * 100)) : 0;
 
   let message = "نتیجه ثبت شد.";
-  if (pct === 100) message = "عالی بود! همه پاسخ‌ها درست بودند.";
+  if (isPerfect) message = "عالی بود! همه پاسخ‌ها درست بودند.";
   else if (pct >= 70) message = "خوب بود! با کمی مرور به نمره کامل می‌رسید.";
   else if (pct >= 40) message = "قابل قبول. مرور دوباره مبحث پیشنهاد می‌شود.";
   else message = "نیاز به مرور بیشتر این مبحث دارید.";
