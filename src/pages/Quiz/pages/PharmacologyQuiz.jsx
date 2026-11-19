@@ -22,7 +22,7 @@ export default function PharmacologyQuiz() {
 
 export function PharmacologyCategoryQuiz() {
   const { category } = useParams();
-  const decoded = decodeURIComponent(category);
+  const decoded = category;
   const filtered = pharmacologyQuestions.filter((q) => q.category === decoded);
 
   return (
@@ -43,7 +43,7 @@ export function PharmacologyCategoryQuiz() {
  */
 export function PharmacologyCombinedQuiz() {
   const { cats } = useParams();
-  const selected = decodeURIComponent(cats).split("|").filter(Boolean);
+  const selected = cats.split("|").filter(Boolean);
   const filtered = pharmacologyQuestions.filter((q) => selected.includes(q.category));
 
   return (

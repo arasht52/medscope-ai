@@ -40,7 +40,10 @@ function resolveQuestionImage(question) {
  */
 export default function QuestionCard({ question, selectedOptionId, onSelect, index, total }) {
   const hasAnswered = selectedOptionId !== undefined;
-  const questionImage = resolveQuestionImage(question);
+  const originalImage = resolveQuestionImage(question);
+  const questionImage = originalImage && !hasAnswered
+    ? { ...originalImage, alt: "تصویر آموزشی برای شناسایی در این سؤال", labels: [] }
+    : originalImage;
 
   function getState(option) {
     if (!hasAnswered) return "idle";
@@ -57,7 +60,7 @@ export default function QuestionCard({ question, selectedOptionId, onSelect, ind
       <div className="question-card__meta">
         سوال {index + 1} از {total}
       </div>
-      {(question.topicTitleEn || question.drugTitleEn) && (
+      {(!questionImage || hasAnswered) && (question.topicTitleEn || question.drugTitleEn) && (
         <div className="question-card__topic ltr-term">
           {question.topicTitleEn || question.drugTitleEn}
         </div>
@@ -67,7 +70,8 @@ export default function QuestionCard({ question, selectedOptionId, onSelect, ind
         <div className="question-card__image-wrap">
           <ImageViewer
             image={questionImage}
-            titleEn={question.topicTitleEn || question.drugTitleEn || ""}
+            titleEn={hasAnswered ? question.topicTitleEn || question.drugTitleEn || "" : ""}
+            neutralSourceLabel={!hasAnswered}
             compact
           />
         </div>

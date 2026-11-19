@@ -1,4 +1,7 @@
 import { useMemo } from "react";
+import { useNavigate } from "react-router-dom";
+import PageHeader from "../../../shared/components/PageHeader";
+import Button from "../../../shared/components/Button";
 import QuizPlay from "./QuizPlay";
 import histologyData from "../../../data/histology.json";
 import { buildImageIdentificationQuiz } from "../../../shared/lib/imageQuiz.js";
@@ -10,7 +13,8 @@ import { buildImageIdentificationQuiz } from "../../../shared/lib/imageQuiz.js";
  * beforehand, per student feedback on how visual identification is
  * actually practiced.
  */
-export default function HistologyImageQuiz() {
+// Retain the generator for future reactivation after image review.
+function AvailableHistologyImageQuiz() {
   const questions = useMemo(
     () =>
       buildImageIdentificationQuiz(histologyData.items, {
@@ -28,5 +32,16 @@ export default function HistologyImageQuiz() {
       resultPath="/quiz/histology-image/result"
       homePath="/quiz"
     />
+  );
+}
+
+export default function HistologyImageQuiz() {
+  const navigate = useNavigate();
+  return (
+    <div className="quiz-play" dir="rtl">
+      <PageHeader title="آزمون تصویری بافت‌شناسی" onBack={() => navigate("/quiz")} />
+      <p role="status">آزمون تصویری بافت‌شناسی تا آماده‌شدن تصاویر مناسب و تأییدشده موقتاً در دسترس نیست.</p>
+      <Button onClick={() => navigate("/quiz")}>بازگشت به آزمون‌ها</Button>
+    </div>
   );
 }

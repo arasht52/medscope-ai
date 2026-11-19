@@ -9,6 +9,7 @@
 import histologyData from "../../data/histology.json";
 import pathologyData from "../../data/pathology.json";
 import pharmacologyData from "../../data/pharmacology.json";
+import { isImageUsable } from "../../shared/lib/imageSafety.js";
 import { isApprovedQuizImage } from "../../shared/lib/imageQuiz.js";
 import { approvedPathologyQuizImages } from "../../shared/lib/pathologyQuizImages.js";
 
@@ -122,7 +123,8 @@ function deckFromPharmacology(drugs, pairCount) {
 export function buildDeck(subjectId, pairCount = PAIR_COUNT) {
   let cards = [];
   if (subjectId === "histology") {
-    cards = deckFromImageItems(histologyData.items, pairCount);
+    cards = deckFromImageItems(histologyData.items.filter((item) =>
+      isImageUsable(item.image) && item.image_url === item.image.url), pairCount);
   } else if (subjectId === "pathology") {
     cards = deckFromImageItems(
       pathologyData.items.filter((item) => isApprovedQuizImage(item.image, approvedPathologyQuizImages))

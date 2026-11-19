@@ -31,7 +31,7 @@ function clamp(v, lo, hi) {
  *  - titleEn: string — used as an accessible fallback label
  *  - compact: boolean — smaller framing (used inside quizzes)
  */
-export default function ImageViewer({ image, titleEn = "", compact = false }) {
+export default function ImageViewer({ image, titleEn = "", compact = false, neutralSourceLabel = false }) {
   const img = useMemo(() => normalizeImage(image), [image]);
   const usable = isImageUsable(img);
 
@@ -209,7 +209,7 @@ export default function ImageViewer({ image, titleEn = "", compact = false }) {
 
       {/* Caption + license */}
       {img.alt && <p className="image-viewer__caption" dir="rtl">{img.alt}</p>}
-      <ImageAttribution image={img} />
+      <ImageAttribution image={img} neutralSourceLabel={neutralSourceLabel} />
     </div>
   );
 }
@@ -233,7 +233,7 @@ function AttributionLink({ url, className, dir, children }) {
   ) : <span className={className} dir={dir}>{children}</span>;
 }
 
-function ImageAttribution({ image }) {
+function ImageAttribution({ image, neutralSourceLabel }) {
   const credit = image.rightsCredit;
   if (!credit) {
     const line = [image.source, image.attribution].filter(Boolean).join(" — ");
@@ -246,7 +246,7 @@ function ImageAttribution({ image }) {
             {sourceUrl ? (
               <>
                 {image.source && <>{image.source} — </>}
-                <AttributionLink url={sourceUrl}>{image.attribution}</AttributionLink>
+                <AttributionLink url={sourceUrl}>{neutralSourceLabel ? "منبع اصلی تصویر" : image.attribution}</AttributionLink>
               </>
             ) : line}
           </span>

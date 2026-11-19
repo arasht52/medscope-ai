@@ -64,7 +64,7 @@ export default function QuizHome() {
     <div className="quiz-home">
       <PageHeader title="آزمون‌ها" />
       <div className="quiz-home__list">
-        {quizTypes.map((q) => (
+        {quizTypes.filter((q) => q.key !== "histology-image").map((q) => (
           <Card key={q.key} className="quiz-home__item" onClick={() => navigate(q.path)}>
             <div className={`quiz-home__badge quiz-home__badge--${q.accent}`}>
               {q.count} سوال

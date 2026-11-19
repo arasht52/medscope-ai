@@ -21,7 +21,7 @@ export default function HistologyQuiz() {
 
 export function HistologyCategoryQuiz() {
   const { category } = useParams();
-  const decoded = decodeURIComponent(category);
+  const decoded = category;
   const filtered = histologyQuestions.filter((q) => q.category === decoded);
 
   return (
@@ -41,7 +41,7 @@ export function HistologyCategoryQuiz() {
  */
 export function HistologyCombinedQuiz() {
   const { cats } = useParams();
-  const selected = decodeURIComponent(cats).split("|").filter(Boolean);
+  const selected = cats.split("|").filter(Boolean);
   const filtered = histologyQuestions.filter((q) => selected.includes(q.category));
 
   return (
