@@ -237,10 +237,20 @@ function ImageAttribution({ image }) {
   const credit = image.rightsCredit;
   if (!credit) {
     const line = [image.source, image.attribution].filter(Boolean).join(" — ");
+    const sourceUrl = safeExternalUrl(image.attribution);
     if (!line && !image.license) return null;
     return (
       <p className="image-viewer__license">
-        {line && <span className="image-viewer__source" dir="ltr">{line}</span>}
+        {line && (
+          <span className="image-viewer__source" dir="ltr">
+            {sourceUrl ? (
+              <>
+                {image.source && <>{image.source} — </>}
+                <AttributionLink url={sourceUrl}>{image.attribution}</AttributionLink>
+              </>
+            ) : line}
+          </span>
+        )}
         {image.license && <span className="image-viewer__license-tag" dir="ltr">{image.license}</span>}
       </p>
     );
