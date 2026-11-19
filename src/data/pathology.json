@@ -761,38 +761,22 @@
       "exam_tips": [
         "دکمپانسیشن ناگهانی + AFP بالا در بیمار سیروتیک شناخته‌شده = تله‌ی امتحانی کلاسیک HCC"
       ],
-      "image_url": "/images/pathology/hepatocellular-carcinoma-photo.jpg",
+      "image_url": null,
       "image_caption": "کارسینوم سلول کبدی (HCC) — عکس واقعی، H&E",
       "stain": "H&E",
-      "images": [
-        {
-          "url": "/images/pathology/hepatocellular-carcinoma-photo.jpg",
-          "caption": "کارسینوم سلول کبدی (HCC) — عکس واقعی، H&E",
-          "magnification": "high",
-          "stain": "H&E",
-          "source": "Wikimedia Commons",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Hepatocellular_carcinoma_histopathology_(1).jpg",
-          "license": "CC BY-SA 3.0",
-          "attribution": "Wikimedia Commons"
-        },
-        {
-          "url": "/images/pathology/hepatocellular-carcinoma.svg",
-          "caption": "نمودار شماتیک (مرجع کمکی)",
-          "magnification": "—"
-        }
-      ],
+      "images": [],
       "magnification": "100x",
       "image": {
-        "url": "/images/pathology/hepatocellular-carcinoma-photo.jpg",
+        "url": null,
         "alt": "کارسینوم سلول کبدی — سلول‌های شبه‌هپاتوسیت با ترابکول‌های ضخیم؛ H&E",
-        "type": "real_slide",
+        "type": "placeholder",
         "magnification": "high",
         "stain": "H&E",
         "labels": [],
         "source": "Wikimedia Commons",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Hepatocellular_carcinoma_histopathology_(1).jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": false
       }
     },
     {
@@ -1254,38 +1238,22 @@
       "exam_tips": [
         "پیش‌آگهی هوچکین به‌طور کلی بهتر از اکثر زیرگروه‌های لنفوم غیرهوچکین است"
       ],
-      "image_url": "/images/pathology/hodgkin-lymphoma-photo.jpg",
+      "image_url": null,
       "image_caption": "سلول رید-اشتنبرگ کلاسیک (چشم جغد) — عکس واقعی میکروسکوپی",
       "stain": "H&E",
-      "images": [
-        {
-          "url": "/images/pathology/hodgkin-lymphoma-photo.jpg",
-          "caption": "سلول رید-اشتنبرگ کلاسیک (چشم جغد) — عکس واقعی میکروسکوپی",
-          "magnification": "—",
-          "stain": "H&E",
-          "source": "Wikimedia Commons — National Cancer Institute (NCI)",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Reed-Sternberg_lymphocyte_nci-vol-7172-300.jpg",
-          "license": "Public domain (NCI)",
-          "attribution": "National Cancer Institute (NCI) Visuals Online"
-        },
-        {
-          "url": "/images/pathology/hodgkin-lymphoma.svg",
-          "caption": "نمودار شماتیک — لنفوم هوچکین (مرجع کمکی)",
-          "magnification": "گراس"
-        }
-      ],
+      "images": [],
       "magnification": "—",
       "image": {
-        "url": "/images/pathology/hodgkin-lymphoma-photo.jpg",
+        "url": null,
         "alt": "لنفوم هوچکین — سلول رید-اشتنبرگ کلاسیک با ظاهر «چشم جغد»؛ H&E",
-        "type": "real_slide",
+        "type": "placeholder",
         "magnification": null,
         "stain": "H&E",
         "labels": [],
         "source": "Wikimedia Commons — National Cancer Institute (NCI)",
         "license": "Public domain (NCI)",
         "attribution": "https://commons.wikimedia.org/wiki/File:Reed-Sternberg_lymphocyte_nci-vol-7172-300.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": false
       }
     },
     {
@@ -4244,39 +4212,23 @@
       "exam_tips": [
         "آتروفی ویلی + هیپرپلازی کریپت + لنفوسیت داخل‌اپیتلیال = سه‌گانه‌ی کلاسیک بافت‌شناسی سلیاک"
       ],
-      "image_url": "/images/pathology/celiac-disease-photo.jpg",
+      "image_url": null,
       "image_caption": "بیماری سلیاک — آتروفی پرزی (عکس واقعی، H&E)",
       "stain": "H&E",
-      "images": [
-        {
-          "url": "/images/pathology/celiac-disease-photo.jpg",
-          "caption": "بیماری سلیاک — آتروفی پرزی (عکس واقعی، H&E)",
-          "magnification": "low",
-          "stain": "H&E",
-          "source": "Wikimedia Commons — GeneFood",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_villous_atrophy_in_celiac_disease.jpg",
-          "license": "CC BY 4.0",
-          "attribution": "GeneFood"
-        },
-        {
-          "url": "/images/pathology/celiac-disease.svg",
-          "caption": "نمودار شماتیک (مرجع کمکی)",
-          "magnification": "—"
-        }
-      ],
+      "images": [],
       "magnification": "100x",
       "subcategory_fa": "روده و کولون",
       "image": {
-        "url": "/images/pathology/celiac-disease-photo.jpg",
+        "url": null,
         "alt": "بیماری سلیاک — آتروفی پرزهای روده و هایپرپلازی کریپت؛ H&E",
-        "type": "real_slide",
+        "type": "placeholder",
         "magnification": "low",
         "stain": "H&E",
         "labels": [],
         "source": "Wikimedia Commons — GeneFood",
         "license": "CC BY 4.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_villous_atrophy_in_celiac_disease.jpg",
-        "verifiedOpenLicense": true
+        "verifiedOpenLicense": false
       }
     },
     {
