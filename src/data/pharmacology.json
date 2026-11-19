@@ -2671,6 +2671,151 @@
       ],
       "interactions": [],
       "exam_tips": "پرازیکوانتل داروی انتخابی برای شیستوزومیازیس است؛ در درمان سیستی‌سرکوزیس مغزی همراه با کورتیکواستروئید تجویز می‌شود تا واکنش التهابی ناشی از مرگ کیست کنترل شود."
+    },
+    {
+      "id": "apixaban",
+      "generic_name": "Apixaban",
+      "brand_names": [
+        "Eliquis"
+      ],
+      "category": "Anticoagulants",
+      "drug_class": "Direct oral factor Xa inhibitor",
+      "mechanism": "مهار مستقیم Factor Xa آزاد و مرتبط با کمپلکس پروترومبیناز، تولید ترومبین را کاهش می‌دهد.",
+      "indications": [
+        "کاهش خطر سکته و آمبولی سیستمیک در فیبریلاسیون دهلیزی غیر‌دریچه‌ای",
+        "درمان DVT و PE و کاهش خطر عود"
+      ],
+      "adverse_effects": [
+        "خونریزی، از جمله خونریزی شدید"
+      ],
+      "contraindications": [
+        "خونریزی پاتولوژیک فعال",
+        "حساسیت شدید به دارو"
+      ],
+      "interactions": [
+        "Rifampin با القای CYP3A4 و P-gp مواجهه با Apixaban را کاهش می‌دهد.",
+        "مهارکننده‌های قوی هم‌زمان CYP3A4 و P-gp می‌توانند مواجهه را افزایش دهند.",
+        "داروهای ضدپلاکت خطر خونریزی را افزایش می‌دهند."
+      ],
+      "exam_tips": "Apixaban مستقیماً Xa را مهار می‌کند؛ Heparin از طریق Antithrombin عمل می‌کند.",
+      "references": [
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a454cd24-0c6d-46e8-b1e4-197388606175"
+      ]
+    },
+    {
+      "id": "rifampin",
+      "generic_name": "Rifampin",
+      "brand_names": [
+        "Rifadin"
+      ],
+      "category": "Antibiotics",
+      "drug_class": "Rifamycin antimycobacterial",
+      "mechanism": "به RNA polymerase وابسته به DNA باکتری متصل می‌شود و رونویسی را مهار می‌کند.",
+      "indications": [
+        "جزء رژیم ترکیبی دارویی در سل فعال",
+        "ریشه‌کنی ناقلی مننگوکوک در موقعیت‌های تعریف‌شده"
+      ],
+      "adverse_effects": [
+        "آسیب کبدی",
+        "تغییر رنگ نارنجی تا قرمز ترشحات بدن",
+        "واکنش‌های حساسیتی"
+      ],
+      "contraindications": [
+        "حساسیت به ریفامایسین‌ها",
+        "هم‌زمانی با برخی داروهای ضدویروس مانند Saquinavir تقویت‌شده با Ritonavir، طبق برچسب"
+      ],
+      "interactions": [
+        "القای آنزیم‌ها و ناقل‌ها می‌تواند مواجهه با Apixaban و برخی داروهای دیگر را کم کند."
+      ],
+      "exam_tips": "رونویسی هدف اثر ضدباکتریایی است؛ القای آنزیمی میزبان منشأ بسیاری از تداخل‌هاست.",
+      "references": [
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=036ab68e-5085-4edc-bd83-784b43d64eab",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a454cd24-0c6d-46e8-b1e4-197388606175"
+      ]
+    },
+    {
+      "id": "budesonide-inhaled",
+      "generic_name": "Budesonide (inhaled)",
+      "brand_names": [
+        "Pulmicort Flexhaler"
+      ],
+      "category": "Respiratory",
+      "drug_class": "Inhaled corticosteroid (ICS)",
+      "mechanism": "فعال‌سازی گیرندهٔ داخل‌سلولی گلوکوکورتیکوئید، بیان ژن‌های مرتبط با التهاب راه هوایی را تغییر می‌دهد.",
+      "indications": [
+        "کنترل نگهدارندهٔ التهاب راه هوایی در آسم"
+      ],
+      "adverse_effects": [
+        "کاندیدیاز دهان و حلق",
+        "عوارض سیستمیک کورتیکواستروئیدی در صورت افزایش مواجهه"
+      ],
+      "contraindications": [
+        "حساسیت شدید به اجزای فرآورده؛ برای Flexhaler حساسیت شدید به پروتئین شیر نیز مطرح است.",
+        "در برچسب Flexhaler، کاربرد به‌عنوان درمان اولیهٔ Status asthmaticus یا حملهٔ حاد آسم نیازمند اقدامات فوری در بخش منع مصرف آمده است."
+      ],
+      "interactions": [
+        "Ketoconazole و سایر مهارکننده‌های قوی CYP3A4 می‌توانند مواجههٔ سیستمیک را افزایش دهند."
+      ],
+      "exam_tips": "مهار التهاب با ICS و اتساع سریع راه هوایی با آگونیست β2 دو سازوکار متفاوت‌اند.",
+      "references": [
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5d0c6c7e-2f53-4238-ab34-bd8cf49d8a66"
+      ]
+    },
+    {
+      "id": "cyclophosphamide",
+      "generic_name": "Cyclophosphamide",
+      "brand_names": [],
+      "category": "Immunosuppressant/Antineoplastic",
+      "drug_class": "Alkylating nitrogen mustard prodrug",
+      "mechanism": "پس از فعال‌سازی متابولیک کبدی، متابولیت آلکیله‌کننده پیوند عرضی DNA ایجاد می‌کند.",
+      "indications": [
+        "بخشی از رژیم‌های درمانی برخی بدخیمی‌ها مانند لنفوم‌ها و سرطان پستان"
+      ],
+      "adverse_effects": [
+        "سرکوب مغز استخوان و افزایش خطر عفونت",
+        "سیستیت خونریزی‌دهنده و سمیت مجاری ادراری",
+        "آسیب باروری"
+      ],
+      "contraindications": [
+        "حساسیت شدید به دارو",
+        "انسداد خروجی ادرار"
+      ],
+      "interactions": [
+        "هم‌زمانی با عوامل سرکوب‌کنندهٔ مغز استخوان می‌تواند سمیت خونی را تشدید کند."
+      ],
+      "exam_tips": "Phosphoramide mustard با اثر آلکیله‌کننده و Acrolein با سمیت مثانه ارتباط دارد.",
+      "references": [
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=329b5a3a-c7b9-4b11-abf0-009719cdfb79"
+      ]
+    },
+    {
+      "id": "epinephrine",
+      "generic_name": "Epinephrine",
+      "brand_names": [
+        "Adrenalin"
+      ],
+      "category": "Cardiovascular",
+      "drug_class": "Alpha and beta adrenergic agonist",
+      "mechanism": "آگونیست گیرنده‌های آدرنرژیک α و β است. α1 انقباض عروقی، β1 تحریک قلبی و β2 اتساع برونش ایجاد می‌کند.",
+      "indications": [
+        "در برچسب فرآوردهٔ تزریقی Adrenalin، آنافیلاکسی و افت فشار خون مرتبط با شوک سپتیک مطرح‌اند."
+      ],
+      "adverse_effects": [
+        "تپش قلب و لرزش",
+        "پرفشاری خون یا آریتمی",
+        "ایسکمی موضعی در نشت بافتی هنگام انفوزیون"
+      ],
+      "contraindications": [
+        "در برچسب Adrenalin منع مصرف رسمی درج نشده است. هشدارهای قلبی و عروقی جداگانه مطرح‌اند."
+      ],
+      "interactions": [
+        "بتابلوکرها می‌توانند پاسخ بتاآدرنرژیک را تضعیف کنند.",
+        "داروهای سه‌حلقه‌ای می‌توانند پاسخ افزایش فشار را تقویت کنند."
+      ],
+      "exam_tips": "β2 عضلهٔ صاف برونش را شل می‌کند و α1 مقاومت عروقی را بالا می‌برد.",
+      "references": [
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3b7a4364-668d-4eb2-a20c-04adc35aabe4"
+      ]
     }
   ]
 }

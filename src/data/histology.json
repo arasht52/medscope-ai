@@ -19,6 +19,11 @@
       "id": "nervous",
       "label_fa": "بافت عصبی",
       "label_en": "Nervous Tissue"
+    },
+    {
+      "id": "organ-histology",
+      "label_fa": "بافت‌شناسی اندام‌ها",
+      "label_en": "Organ Histology"
     }
   ],
   "items": [
@@ -1234,6 +1239,150 @@
         "attribution": null,
         "verifiedOpenLicense": true
       }
+    },
+    {
+      "id": "renal-corpuscle-tubules",
+      "images": [],
+      "title_en": "Renal Corpuscle and Tubules",
+      "title_fa": "جسمک کلیوی و توبول‌ها",
+      "category": "organ-histology",
+      "tissue_overview": "جسمک کلیوی در قشر، آغاز فیلتراسیون است. توبول‌های پیچ‌خورده ترکیب مایع فیلترشده را تغییر می‌دهند.",
+      "microscopic_features": [
+        "کلاف گلومرولی درون کپسول بومن قرار دارد.",
+        "توبول پروگزیمال حاشیهٔ مسواکی برجسته دارد و لبهٔ لومن آن محوتر از توبول دیستال است."
+      ],
+      "locations": [
+        "قشر کلیه",
+        "مدولا دارای قطعات حلقهٔ هنله و مجاری جمع‌کننده است."
+      ],
+      "diagnostic_clues": [
+        "ابتدا فضای بومن پیرامون کلاف را پیدا کنید.",
+        "وضوح لبهٔ لومن را در چند توبول مقایسه کنید."
+      ],
+      "common_confusions": [
+        "برش مایل می‌تواند لومن را تنگ نشان دهد؛ تنگی لومن به‌تنهایی معیار تشخیص نیست."
+      ],
+      "exam_tips": [
+        "جسمک کلیوی نشانهٔ قشر است."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/25-4-microscopic-anatomy-of-the-kidney"
+      ]
+    },
+    {
+      "id": "hepatic-lobule",
+      "images": [],
+      "title_en": "Classical Hepatic Lobule",
+      "title_fa": "لوبول کلاسیک کبد",
+      "category": "organ-histology",
+      "tissue_overview": "لوبول کلاسیک پارانشیم را پیرامون ورید مرکزی سازمان می‌دهد. مسیر خون و صفرا در این مدل جهت مخالف دارند.",
+      "microscopic_features": [
+        "صفحات هپاتوسیت با سینوزوئیدهای بین آن‌ها به سمت ورید مرکزی آرایش دارند.",
+        "شاخه‌های ورید باب، شریان کبدی و مجرای صفراوی اجزای سه‌گانهٔ کلاسیک پورت‌اند."
+      ],
+      "locations": [
+        "پارانشیم کبد",
+        "فضاهای پورت در پیرامون لوبول"
+      ],
+      "diagnostic_clues": [
+        "ورید مرکزی را در محل همگرایی سینوزوئیدها بیابید.",
+        "مجرای کوچک صفراوی پوشش مکعبی دارد."
+      ],
+      "common_confusions": [
+        "ممکن است در یک سطح برش هر سه جزء کلاسیک پورت دیده نشوند."
+      ],
+      "exam_tips": [
+        "خون به ورید مرکزی و صفرا به سوی مجاری پورت می‌رود."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-6-accessory-organs-in-digestion-the-liver-pancreas-and-gallbladder"
+      ]
+    },
+    {
+      "id": "pulmonary-alveoli",
+      "images": [],
+      "title_en": "Pulmonary Alveoli",
+      "title_fa": "آلوئول‌های ریه",
+      "category": "organ-histology",
+      "tissue_overview": "آلوئول محل تبادل گاز است. پنوموسیت نوع I سطح نازک و نوع II سورفکتانت فراهم می‌کند.",
+      "microscopic_features": [
+        "دیوارک نازک بین آلوئول‌ها مویرگ دارد.",
+        "پنوموسیت نوع I پهن و نوع II مکعبی‌تر است."
+      ],
+      "locations": [
+        "ناحیهٔ تنفسی ریه",
+        "در امتداد مجاری و کیسه‌های آلوئولی"
+      ],
+      "diagnostic_clues": [
+        "در بزرگ‌نمایی کم، شبکهٔ فضاهای هوایی و سپتوم‌های باریک را پیدا کنید.",
+        "آلوئول‌های بازشونده در دیواره، برونشیول تنفسی را مشخص می‌کنند."
+      ],
+      "common_confusions": [
+        "مویرگ درون سپتوم قرار می‌گیرد و ممکن است حاوی گلبول قرمز باشد."
+      ],
+      "exam_tips": [
+        "نوع I برای تبادل گاز و نوع II برای سورفکتانت."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-1-organs-and-structures-of-the-respiratory-system"
+      ]
+    },
+    {
+      "id": "small-intestinal-mucosa",
+      "images": [],
+      "title_en": "Small Intestinal Mucosa",
+      "title_fa": "مخاط رودهٔ باریک",
+      "category": "organ-histology",
+      "tissue_overview": "پرز و میکروویلی سطح جذب را گسترش می‌دهند. کریپت‌ها در مخاط بین پایهٔ پرزها قرار دارند.",
+      "microscopic_features": [
+        "محور پرز لامینا پروپریا و پوشش آن استوانه‌ای ساده است.",
+        "انتروسیت‌های دارای حاشیهٔ مسواکی و سلول‌های جامی بخشی از پوشش پرز هستند."
+      ],
+      "locations": [
+        "مخاط دوازدهه، ژژنوم و ایلئوم"
+      ],
+      "diagnostic_clues": [
+        "غدد برونر در زیرمخاط نشانهٔ دوازدهه‌اند.",
+        "تجمع فولیکولی Peyer patches سرنخ ایلئوم است."
+      ],
+      "common_confusions": [
+        "کریپت در کولون هم دیده می‌شود؛ پرز به نفع رودهٔ باریک است."
+      ],
+      "exam_tips": [
+        "پس از شناسایی پرز، برای تعیین بخش روده زیرمخاط را هم بررسی کنید."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-5-the-small-and-large-intestines"
+      ]
+    },
+    {
+      "id": "thick-thin-skin",
+      "images": [],
+      "title_en": "Thick and Thin Skin",
+      "title_fa": "پوست ضخیم و نازک",
+      "category": "organ-histology",
+      "tissue_overview": "تقسیم پوست به ضخیم و نازک بر اساس اپیدرم است. پوست ضخیم کف دست و پا برای تحمل اصطکاک تخصص یافته است.",
+      "microscopic_features": [
+        "اپیدرم پوشش سنگفرشی مطبق کراتینه دارد.",
+        "در پوست ضخیم، طبقهٔ شاخی برجسته و طبقهٔ شفاف دیده می‌شود."
+      ],
+      "locations": [
+        "پوست ضخیم در کف دست و پا",
+        "پوست نازک در بیشتر سطح بدن"
+      ],
+      "diagnostic_clues": [
+        "ضخامت لایهٔ شاخی و وجود ضمائم را در چند میدان بررسی کنید.",
+        "فولیکول مو به نفع پوست نازک است."
+      ],
+      "common_confusions": [
+        "ندیدن فولیکول در یک میدان کوچک برای تشخیص پوست ضخیم کافی نیست."
+      ],
+      "exam_tips": [
+        "Stratum lucidum میان لایهٔ دانه‌دار و شاخی پوست ضخیم است."
+      ],
+      "references": [
+        "https://openstax.org/books/anatomy-and-physiology-2e/pages/5-1-layers-of-the-skin"
+      ]
     }
   ]
 }

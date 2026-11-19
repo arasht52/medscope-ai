@@ -521,5 +521,455 @@
     ],
     "correctOptionId": "a",
     "explanation_fa": "اپی‌نوریوم خارجی‌ترین و ضخیم‌ترین لایه‌ی بافت همبند است که کل عصب محیطی (شامل چندین فاسیکل) را احاطه می‌کند؛ این سلسله‌مراتب (اندونوریوم → پری‌نوریوم → اپی‌نوریوم) از سطح فیبر تا کل عصب پیش می‌رود."
+  },
+  {
+    "id": "h-s01-renal-corpuscle-tubules-1",
+    "topicId": "renal-corpuscle-tubules",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "وجود کدام ساختار قشری بودن میدان کلیه را مشخص می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "جسمک کلیوی",
+        "text_en": "Renal corpuscle"
+      },
+      {
+        "id": "b",
+        "text_fa": "مجرای جمع‌کننده",
+        "text_en": "Collecting duct"
+      },
+      {
+        "id": "c",
+        "text_fa": "شاخهٔ نازک هنله",
+        "text_en": "Thin limb of Henle"
+      },
+      {
+        "id": "d",
+        "text_fa": "مویرگ راست",
+        "text_en": "Vasa recta"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "جسمک کلیوی در قشر قرار دارد."
+  },
+  {
+    "id": "h-s01-renal-corpuscle-tubules-2",
+    "topicId": "renal-corpuscle-tubules",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "در مقطع قشر کلیه، کدام بخش توبولی حاشیهٔ مسواکی برجسته دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "توبول دیستال",
+        "text_en": "Distal tubule"
+      },
+      {
+        "id": "b",
+        "text_fa": "توبول پروگزیمال",
+        "text_en": "Proximal tubule"
+      },
+      {
+        "id": "c",
+        "text_fa": "لایهٔ جداری بومن",
+        "text_en": "Parietal Bowman layer"
+      },
+      {
+        "id": "d",
+        "text_fa": "مجرای جمع‌کننده",
+        "text_en": "Collecting duct"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation_fa": "میکروویلی‌های پروگزیمال سطح بازجذب را افزایش می‌دهند."
+  },
+  {
+    "id": "h-s01-renal-corpuscle-tubules-3",
+    "topicId": "renal-corpuscle-tubules",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "فیلترات گلومرولی بلافاصله وارد کدام فضا می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "لومن توبول دیستال",
+        "text_en": "Distal tubule lumen"
+      },
+      {
+        "id": "b",
+        "text_fa": "بینابینی قشر",
+        "text_en": "Cortical interstitium"
+      },
+      {
+        "id": "c",
+        "text_fa": "فضای بومن",
+        "text_en": "Bowman space"
+      },
+      {
+        "id": "d",
+        "text_fa": "لومن مجرای جمع‌کننده",
+        "text_en": "Collecting duct lumen"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation_fa": "فضای بومن فیلترات را می‌گیرد و در قطب ادراری به توبول پروگزیمال ادامه دارد."
+  },
+  {
+    "id": "h-s01-hepatic-lobule-1",
+    "topicId": "hepatic-lobule",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "سینوزوئیدها در لوبول کلاسیک به کجا تخلیه می‌شوند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "شاخهٔ شریان کبدی",
+        "text_en": "Hepatic arterial branch"
+      },
+      {
+        "id": "b",
+        "text_fa": "شاخهٔ ورید باب",
+        "text_en": "Portal venous branch"
+      },
+      {
+        "id": "c",
+        "text_fa": "مجرای صفراوی",
+        "text_en": "Bile duct"
+      },
+      {
+        "id": "d",
+        "text_fa": "ورید مرکزی",
+        "text_en": "Central vein"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation_fa": "خون از شاخه‌های پورت وارد سینوزوئیدها می‌شود و به ورید مرکزی می‌ریزد."
+  },
+  {
+    "id": "h-s01-hepatic-lobule-2",
+    "topicId": "hepatic-lobule",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "کدام ساختار فضای پورت پوشش مکعبی دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مجرای کوچک صفراوی",
+        "text_en": "Small bile duct"
+      },
+      {
+        "id": "b",
+        "text_fa": "وریدچهٔ باب",
+        "text_en": "Portal venule"
+      },
+      {
+        "id": "c",
+        "text_fa": "شریانچهٔ کبدی",
+        "text_en": "Hepatic arteriole"
+      },
+      {
+        "id": "d",
+        "text_fa": "رگ لنفاوی",
+        "text_en": "Lymphatic vessel"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "مجرای صفراوی با اپیتلیوم مکعبی پوشیده شده و عروق اندوتلیوم دارند."
+  },
+  {
+    "id": "h-s01-hepatic-lobule-3",
+    "topicId": "hepatic-lobule",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "صفرا در کانالیکول‌ها به سمت کدام ناحیه جریان دارد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مرکز لوبول",
+        "text_en": "Lobular center"
+      },
+      {
+        "id": "b",
+        "text_fa": "پیرامون لوبول و فضای پورت",
+        "text_en": "Lobular periphery and portal tract"
+      },
+      {
+        "id": "c",
+        "text_fa": "لومن سینوزوئید",
+        "text_en": "Sinusoidal lumen"
+      },
+      {
+        "id": "d",
+        "text_fa": "ورید مرکزی",
+        "text_en": "Central vein"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation_fa": "صفرا از کانالیکول‌های بین هپاتوسیت‌ها به مجاری صفراوی پیرامون لوبول می‌رسد."
+  },
+  {
+    "id": "h-s01-pulmonary-alveoli-1",
+    "topicId": "pulmonary-alveoli",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "کدام سلول پوشش نازک عمدهٔ سطح آلوئول را می‌سازد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "پنوموسیت نوع II",
+        "text_en": "Type II pneumocyte"
+      },
+      {
+        "id": "b",
+        "text_fa": "ماکروفاژ آلوئولی",
+        "text_en": "Alveolar macrophage"
+      },
+      {
+        "id": "c",
+        "text_fa": "پنوموسیت نوع I",
+        "text_en": "Type I pneumocyte"
+      },
+      {
+        "id": "d",
+        "text_fa": "سلول کلاب",
+        "text_en": "Club cell"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation_fa": "پهن بودن پنوموسیت نوع I فاصلهٔ انتشار گاز را کم می‌کند."
+  },
+  {
+    "id": "h-s01-pulmonary-alveoli-2",
+    "topicId": "pulmonary-alveoli",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "کدام سلول آلوئولی سورفکتانت می‌سازد؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "فیبروبلاست سپتوم",
+        "text_en": "Septal fibroblast"
+      },
+      {
+        "id": "b",
+        "text_fa": "پنوموسیت نوع I",
+        "text_en": "Type I pneumocyte"
+      },
+      {
+        "id": "c",
+        "text_fa": "اندوتلیوم مویرگی",
+        "text_en": "Capillary endothelium"
+      },
+      {
+        "id": "d",
+        "text_fa": "پنوموسیت نوع II",
+        "text_en": "Type II pneumocyte"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation_fa": "ترشح نوع II کشش سطحی مایع آلوئولی را کاهش می‌دهد."
+  },
+  {
+    "id": "h-s01-pulmonary-alveoli-3",
+    "topicId": "pulmonary-alveoli",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "تفاوت ساختاری برونشیول تنفسی با برونشیول انتهایی چیست؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "بازشدن آلوئول در دیواره",
+        "text_en": "Alveolar openings in the wall"
+      },
+      {
+        "id": "b",
+        "text_fa": "غضروف هیالین",
+        "text_en": "Hyaline cartilage"
+      },
+      {
+        "id": "c",
+        "text_fa": "غدد زیرمخاطی",
+        "text_en": "Submucosal glands"
+      },
+      {
+        "id": "d",
+        "text_fa": "پوشش سنگفرشی مطبق پیوسته",
+        "text_en": "Continuous stratified squamous lining"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "برونشیول تنفسی آغاز بخش تبادل گاز است و بخش‌هایی از دیواره‌اش به آلوئول باز می‌شوند."
+  },
+  {
+    "id": "h-s01-small-intestinal-mucosa-1",
+    "topicId": "small-intestinal-mucosa",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "پرز همراه با غدد برونر زیرمخاطی به نفع کدام بخش است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "ژژنوم",
+        "text_en": "Jejunum"
+      },
+      {
+        "id": "b",
+        "text_fa": "دوازدهه",
+        "text_en": "Duodenum"
+      },
+      {
+        "id": "c",
+        "text_fa": "ایلئوم",
+        "text_en": "Ileum"
+      },
+      {
+        "id": "d",
+        "text_fa": "کولون صعودی",
+        "text_en": "Ascending colon"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation_fa": "غدد برونر مشخصهٔ زیرمخاط دوازدهه‌اند."
+  },
+  {
+    "id": "h-s01-small-intestinal-mucosa-2",
+    "topicId": "small-intestinal-mucosa",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "پرز همراه با Peyer patches برجسته کدام بخش را مطرح می‌کند؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "دوازدهه",
+        "text_en": "Duodenum"
+      },
+      {
+        "id": "b",
+        "text_fa": "ژژنوم",
+        "text_en": "Jejunum"
+      },
+      {
+        "id": "c",
+        "text_fa": "ایلئوم",
+        "text_en": "Ileum"
+      },
+      {
+        "id": "d",
+        "text_fa": "سیگموئید",
+        "text_en": "Sigmoid colon"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation_fa": "Peyer patches به‌ویژه در ایلئوم برجسته‌اند."
+  },
+  {
+    "id": "h-s01-small-intestinal-mucosa-3",
+    "topicId": "small-intestinal-mucosa",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "حاشیهٔ مسواکی انتروسیت از چه ساخته می‌شود؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "مژک متحرک",
+        "text_en": "Motile cilia"
+      },
+      {
+        "id": "b",
+        "text_fa": "استریوسیلیا",
+        "text_en": "Stereocilia"
+      },
+      {
+        "id": "c",
+        "text_fa": "چین عضلانی",
+        "text_en": "Muscular folds"
+      },
+      {
+        "id": "d",
+        "text_fa": "میکروویلی رأسی",
+        "text_en": "Apical microvilli"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation_fa": "میکروویلی‌ها سطح غشای رأسی انتروسیت را افزایش می‌دهند."
+  },
+  {
+    "id": "h-s01-thick-thin-skin-1",
+    "topicId": "thick-thin-skin",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "کدام لایه سرنخ کلاسیک پوست ضخیم است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "لایهٔ شفاف",
+        "text_en": "Stratum lucidum"
+      },
+      {
+        "id": "b",
+        "text_fa": "لایهٔ پایه",
+        "text_en": "Stratum basale"
+      },
+      {
+        "id": "c",
+        "text_fa": "لایهٔ خاردار",
+        "text_en": "Stratum spinosum"
+      },
+      {
+        "id": "d",
+        "text_fa": "لایهٔ دانه‌دار",
+        "text_en": "Stratum granulosum"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation_fa": "لایهٔ شفاف بین لایهٔ دانه‌دار و شاخی در پوست ضخیم مشخص می‌شود."
+  },
+  {
+    "id": "h-s01-thick-thin-skin-2",
+    "topicId": "thick-thin-skin",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "وجود کدام ساختار به نفع پوست نازک است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "غدهٔ عرق اکرین",
+        "text_en": "Eccrine sweat gland"
+      },
+      {
+        "id": "b",
+        "text_fa": "فولیکول مو",
+        "text_en": "Hair follicle"
+      },
+      {
+        "id": "c",
+        "text_fa": "پاپیلای درم",
+        "text_en": "Dermal papilla"
+      },
+      {
+        "id": "d",
+        "text_fa": "لایهٔ شاخی",
+        "text_en": "Stratum corneum"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation_fa": "پوست ضخیم کف دست و پا فولیکول مو ندارد. غدهٔ اکرین در آن یافت می‌شود."
+  },
+  {
+    "id": "h-s01-thick-thin-skin-3",
+    "topicId": "thick-thin-skin",
+    "category": "بافت‌شناسی اندام‌ها",
+    "question_fa": "ضخامت کدام ساختار مبنای تقسیم پوست به ضخیم و نازک است؟",
+    "options": [
+      {
+        "id": "a",
+        "text_fa": "درم شبکه‌ای",
+        "text_en": "Reticular dermis"
+      },
+      {
+        "id": "b",
+        "text_fa": "هیپودرم",
+        "text_en": "Hypodermis"
+      },
+      {
+        "id": "c",
+        "text_fa": "اپیدرم",
+        "text_en": "Epidermis"
+      },
+      {
+        "id": "d",
+        "text_fa": "درم پاپیلری",
+        "text_en": "Papillary dermis"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation_fa": "طبقه‌بندی بر اساس ضخامت اپیدرم، به‌ویژه لایهٔ شاخی، انجام می‌شود."
   }
 ]
