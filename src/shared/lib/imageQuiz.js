@@ -15,6 +15,24 @@
 // tissue's English name before the student answers would give the
 // answer away.
 
+import { isImageUsable } from "./imageSafety.js";
+
+function safeSource(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:" && !url.username && !url.password;
+  } catch { return false; }
+}
+
+export function isApprovedQuizImage(image, approvedUrls) {
+  return isImageUsable(image) && approvedUrls.includes(image.url) &&
+    typeof image.source === "string" && !!image.source.trim() &&
+    typeof image.license === "string" && /^(CC0|CC BY(?:-SA)?)(?: |$)/.test(image.license) &&
+    safeSource(image.attribution) &&
+    (!image.rightsCredit || (safeSource(image.rightsCredit.sourceUrl) &&
+      safeSource(image.rightsCredit.licenseUrl) && !!image.rightsCredit.creator));
+}
+
 function shuffle(array) {
   const a = [...array];
   for (let i = a.length - 1; i > 0; i--) {
@@ -36,12 +54,15 @@ const OPTION_LETTERS = ["a", "b", "c", "d"];
  *   "این بافت کدام است؟"
  * @param {string} opts.idPrefix - prefix for generated question ids
  */
-export function buildImageIdentificationQuiz(items, { count = 10, questionText, idPrefix }) {
-  const eligible = items.filter((it) => it.images && it.images.length > 0);
+export function buildImageIdentificationQuiz(items, { count = 10, questionText, idPrefix, approvedImageUrls }) {
+  const eligible = approvedImageUrls
+    ? items.filter((it) => isApprovedQuizImage(it.image, approvedImageUrls))
+    : items.filter((it) => it.images && it.images.length > 0);
+  if (approvedImageUrls && eligible.length < 4) return [];
   const chosen = shuffle(eligible).slice(0, Math.min(count, eligible.length));
 
   return chosen.map((correctItem, qIndex) => {
-    const image = correctItem.images[Math.floor(Math.random() * correctItem.images.length)];
+    const image = approvedImageUrls ? correctItem.image : correctItem.images[Math.floor(Math.random() * correctItem.images.length)];
 
     const distractorPool = eligible.filter((it) => it.id !== correctItem.id);
     const distractors = shuffle(distractorPool).slice(0, 3);
@@ -60,6 +81,7 @@ export function buildImageIdentificationQuiz(items, { count = 10, questionText, 
       id: `${idPrefix}-${qIndex + 1}`,
       question_fa: questionText,
       image_url: image.url,
+      ...(approvedImageUrls ? { image: { ...image, labels: [...(image.labels || [])] } } : {}),
       image_caption: metaLine,
       options,
       correctOptionId,

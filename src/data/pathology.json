@@ -546,38 +546,22 @@
       "exam_tips": [
         "کارسینوم سلول کوچک ریه، تهاجمی‌ترین زیرگروه و معمولاً در زمان تشخیص متاستاز داده است"
       ],
-      "image_url": "/images/pathology/bronchogenic-carcinoma-photo.jpg",
+      "image_url": null,
       "image_caption": "کارسینوم سلول کوچک با منشأ ریوی در نمونهٔ متاستاز دیوارهٔ قفسهٔ سینه؛ H&E.",
       "stain": "H&E",
-      "images": [
-        {
-          "url": "/images/pathology/bronchogenic-carcinoma-photo.jpg",
-          "caption": "کارسینوم سلول کوچک با منشأ ریوی در نمونهٔ متاستاز دیوارهٔ قفسهٔ سینه؛ H&E.",
-          "magnification": "high",
-          "stain": "H&E",
-          "source": "Wikimedia Commons — Mikael Häggström",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_small_cell_carcinoma.jpg",
-          "license": "CC0",
-          "attribution": "Mikael Häggström"
-        },
-        {
-          "url": "/images/pathology/bronchogenic-carcinoma.svg",
-          "caption": "نمودار شماتیک (مرجع کمکی)",
-          "magnification": "—"
-        }
-      ],
+      "images": [],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/bronchogenic-carcinoma-photo.jpg",
+        "url": null,
         "alt": "کارسینوم سلول کوچک با منشأ ریوی در نمونهٔ متاستاز دیوارهٔ قفسهٔ سینه؛ H&E.",
-        "type": "real_slide",
+        "type": "placeholder",
         "magnification": "high",
         "stain": "H&E",
         "labels": [],
         "source": "Wikimedia Commons — Mikael Häggström",
         "license": "CC0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_small_cell_carcinoma.jpg",
-        "verifiedOpenLicense": true,
+        "verifiedOpenLicense": false,
         "rightsCredit": {
           "creator": "Mikael Häggström, M.D.",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Histopathology_of_small_cell_carcinoma.jpg",
@@ -1068,38 +1052,22 @@
       "exam_tips": [
         "با وجود انتشار لنفاوی شایع، کارسینوم پاپیلاری تیروئید بهترین پیش‌آگهی را در میان سرطان‌های تیروئید دارد"
       ],
-      "image_url": "/images/pathology/papillary-thyroid-carcinoma-photo.jpg",
+      "image_url": null,
       "image_caption": "کارسینوم پاپیلاری تیروئید (عکس واقعی، H&E)",
       "stain": "H&E",
-      "images": [
-        {
-          "url": "/images/pathology/papillary-thyroid-carcinoma-photo.jpg",
-          "caption": "کارسینوم پاپیلاری تیروئید (عکس واقعی، H&E)",
-          "magnification": "medium",
-          "stain": "H&E",
-          "source": "Wikimedia Commons — KGH (original uploader)",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Thyroid_papillary_carcinoma_histopathology_(2).jpg",
-          "license": "CC BY-SA 3.0",
-          "attribution": "KGH (original uploader)"
-        },
-        {
-          "url": "/images/pathology/papillary-thyroid-carcinoma.svg",
-          "caption": "نمودار شماتیک (مرجع کمکی)",
-          "magnification": "—"
-        }
-      ],
+      "images": [],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/papillary-thyroid-carcinoma-photo.jpg",
+        "url": null,
         "alt": "کارسینوم پاپیلاری تیروئید — ساختار پاپیلاری و تغییرات هسته‌ای؛ H&E",
-        "type": "real_slide",
+        "type": "placeholder",
         "magnification": "medium",
         "stain": "H&E",
         "labels": [],
         "source": "Wikimedia Commons — KGH (original uploader)",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Thyroid_papillary_carcinoma_histopathology_(2).jpg",
-        "verifiedOpenLicense": true,
+        "verifiedOpenLicense": false,
         "rightsCredit": {
           "creator": "KGH (original uploader)",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thyroid_papillary_carcinoma_histopathology_(2).jpg",
@@ -1154,38 +1122,22 @@
       "exam_tips": [
         "فریتین پایین = فقر آهن واقعی؛ فریتین نرمال یا بالا در کم‌خونی میکروسیتیک باید به کم‌خونی بیماری مزمن یا تالاسمی شک کرد"
       ],
-      "image_url": "/images/pathology/iron-deficiency-anemia-photo.jpg",
+      "image_url": null,
       "image_caption": "کم‌خونی فقر آهن — RBCهای میکروسیتیک هیپوکروم (عکس واقعی)",
       "stain": "Wright-Giemsa",
-      "images": [
-        {
-          "url": "/images/pathology/iron-deficiency-anemia-photo.jpg",
-          "caption": "کم‌خونی فقر آهن — RBCهای میکروسیتیک هیپوکروم (عکس واقعی)",
-          "magnification": "high",
-          "stain": "Wright-Giemsa",
-          "source": "Wikimedia Commons — Ed Uthman, MD",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Iron-deficiency_Anemia,_Peripheral_Blood_Smear_(4422704616).jpg",
-          "license": "CC BY 2.0",
-          "attribution": "Ed Uthman, MD"
-        },
-        {
-          "url": "/images/pathology/iron-deficiency-anemia.svg",
-          "caption": "نمودار شماتیک (مرجع کمکی)",
-          "magnification": "—"
-        }
-      ],
+      "images": [],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/iron-deficiency-anemia-photo.jpg",
+        "url": null,
         "alt": "کم‌خونی فقر آهن — گلبول‌های قرمز میکروسیتیک و هیپوکروم؛ اسمیر خون محیطی",
-        "type": "real_slide",
+        "type": "placeholder",
         "magnification": "high",
         "stain": "Wright-Giemsa",
         "labels": [],
         "source": "Wikimedia Commons — Ed Uthman, MD",
         "license": "CC BY 2.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Iron-deficiency_Anemia,_Peripheral_Blood_Smear_(4422704616).jpg",
-        "verifiedOpenLicense": true,
+        "verifiedOpenLicense": false,
         "rightsCredit": {
           "creator": "Ed Uthman, MD",
           "sourceUrl": "https://www.flickr.com/photos/euthman/4422704616/",
@@ -4961,38 +4913,22 @@
       "exam_tips": [
         "بیشتر از ۹۰٪ سرطان‌های پانکراس از PanIN منشا می‌گیرند — این مسیر پیش‌ساز را مشابه توالی آدنوما-کارسینوما در کولون در نظر بگیرید"
       ],
-      "image_url": "/images/pathology/pancreatic-ductal-adenocarcinoma-photo.jpg",
+      "image_url": null,
       "image_caption": "آدنوکارسینوم مجرایی پانکراس (PDAC)؛ نمای بافت‌شناسی H&E از مقالهٔ Tayao و همکاران.",
       "stain": "H&E",
-      "images": [
-        {
-          "url": "/images/pathology/pancreatic-ductal-adenocarcinoma-photo.jpg",
-          "caption": "آدنوکارسینوم مجرایی پانکراس (PDAC)؛ نمای بافت‌شناسی H&E از مقالهٔ Tayao و همکاران.",
-          "magnification": "medium",
-          "stain": "H&E",
-          "source": "Wikimedia Commons — Tayao et al.",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pancreatic_ductal_adenocarcinoma.jpg",
-          "license": "CC BY 4.0",
-          "attribution": "Tayao et al."
-        },
-        {
-          "url": "/images/pathology/pancreatic-ductal-adenocarcinoma.svg",
-          "caption": "نمودار شماتیک (مرجع کمکی)",
-          "magnification": "—"
-        }
-      ],
+      "images": [],
       "magnification": "100x",
       "image": {
-        "url": "/images/pathology/pancreatic-ductal-adenocarcinoma-photo.jpg",
+        "url": null,
         "alt": "آدنوکارسینوم مجرایی پانکراس (PDAC)؛ نمای بافت‌شناسی H&E از مقالهٔ Tayao و همکاران.",
-        "type": "real_slide",
+        "type": "placeholder",
         "magnification": "medium",
         "stain": "H&E",
         "labels": [],
         "source": "Wikimedia Commons — Tayao et al.",
         "license": "CC BY 4.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Histopathology_of_pancreatic_ductal_adenocarcinoma.jpg",
-        "verifiedOpenLicense": true,
+        "verifiedOpenLicense": false,
         "rightsCredit": {
           "creator": "Michael Tayao et al.",
           "sourceUrl": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150338",
@@ -6093,38 +6029,22 @@
       "exam_tips": [
         "بیمار با آرتریت روماتوئید مزمن + پروتئینوری جدید = به آمیلوئیدوز AA فکر کنید"
       ],
-      "image_url": "/images/pathology/amyloidosis-photo.jpg",
+      "image_url": null,
       "image_caption": "آمیلوئیدوز — سبز سیبی Congo red زیر نور پلاریزه (عکس واقعی)",
       "stain": "Congo red (نور پلاریزه)",
-      "images": [
-        {
-          "url": "/images/pathology/amyloidosis-photo.jpg",
-          "caption": "آمیلوئیدوز — سبز سیبی Congo red زیر نور پلاریزه (عکس واقعی)",
-          "magnification": "medium",
-          "stain": "Congo red (نور پلاریزه)",
-          "source": "Wikimedia Commons — Ed Uthman, MD",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Gastric_Amyloidosis_(Congo_Red_Stain,_Crossed_Polarizers)_(3595838954).jpg",
-          "license": "CC BY 2.0",
-          "attribution": "Ed Uthman, MD"
-        },
-        {
-          "url": "/images/pathology/amyloidosis.svg",
-          "caption": "نمودار شماتیک (مرجع کمکی)",
-          "magnification": "—"
-        }
-      ],
+      "images": [],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/amyloidosis-photo.jpg",
+        "url": null,
         "alt": "آمیلوئیدوز — دورفشکنی سبز-سیبی رنگ‌آمیزی Congo red زیر نور پلاریزه",
-        "type": "real_slide",
+        "type": "placeholder",
         "magnification": "medium",
         "stain": "Congo red (نور پلاریزه)",
         "labels": [],
         "source": "Wikimedia Commons — Ed Uthman, MD",
         "license": "CC BY 2.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Gastric_Amyloidosis_(Congo_Red_Stain,_Crossed_Polarizers)_(3595838954).jpg",
-        "verifiedOpenLicense": true,
+        "verifiedOpenLicense": false,
         "rightsCredit": {
           "creator": "Ed Uthman, MD",
           "sourceUrl": "https://www.flickr.com/photos/euthman/3595838954/",
@@ -6510,38 +6430,22 @@
       "exam_tips": [
         "میله‌ی آئر + بلاست میلوئید = AML؛ بلاست لنفوئید کوچک بدون میله‌ی آئر = ALL"
       ],
-      "image_url": "/images/pathology/acute-leukemia-aml-all-photo.jpg",
+      "image_url": null,
       "image_caption": "میلوبلاست با میلهٔ آوئر (Auer rod) در اسمیر خون؛ سرنخ تمایز میلوئیدی.",
       "stain": null,
-      "images": [
-        {
-          "url": "/images/pathology/acute-leukemia-aml-all-photo.jpg",
-          "caption": "میلوبلاست با میلهٔ آوئر (Auer rod) در اسمیر خون؛ سرنخ تمایز میلوئیدی.",
-          "magnification": "high",
-          "stain": null,
-          "source": "Wikimedia Commons — Paulo Henrique Orlandi Mourao",
-          "source_url": "https://commons.wikimedia.org/wiki/File:Myeloblast_with_Auer_Rod_smear_2009-11-23.JPG",
-          "license": "CC BY-SA 3.0",
-          "attribution": "Paulo Henrique Orlandi Mourao"
-        },
-        {
-          "url": "/images/pathology/acute-leukemia-aml-all.svg",
-          "caption": "نمودار شماتیک (مرجع کمکی)",
-          "magnification": "—"
-        }
-      ],
+      "images": [],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/acute-leukemia-aml-all-photo.jpg",
+        "url": null,
         "alt": "میلوبلاست با میلهٔ آوئر (Auer rod) در اسمیر خون؛ سرنخ تمایز میلوئیدی.",
-        "type": "real_slide",
+        "type": "placeholder",
         "magnification": "high",
         "stain": null,
         "labels": [],
         "source": "Wikimedia Commons — Paulo Henrique Orlandi Mourao",
         "license": "CC BY-SA 3.0",
         "attribution": "https://commons.wikimedia.org/wiki/File:Myeloblast_with_Auer_Rod_smear_2009-11-23.JPG",
-        "verifiedOpenLicense": true,
+        "verifiedOpenLicense": false,
         "rightsCredit": {
           "creator": "Paulo Henrique Orlandi Mourao",
           "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myeloblast_with_Auer_Rod_smear_2009-11-23.JPG",

@@ -7,6 +7,12 @@ const excludedImages = new Set([
   "images/pathology/celiac-disease-photo.jpg",
   "images/pathology/hodgkin-lymphoma-photo.jpg",
   "images/pathology/hepatocellular-carcinoma-photo.jpg",
+  "images/pathology/bronchogenic-carcinoma-photo.jpg",
+  "images/pathology/papillary-thyroid-carcinoma-photo.jpg",
+  "images/pathology/iron-deficiency-anemia-photo.jpg",
+  "images/pathology/pancreatic-ductal-adenocarcinoma-photo.jpg",
+  "images/pathology/amyloidosis-photo.jpg",
+  "images/pathology/acute-leukemia-aml-all-photo.jpg",
 ]);
 
 function filteredPublicAssets() {

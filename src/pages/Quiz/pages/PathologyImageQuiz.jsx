@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import QuizPlay from "./QuizPlay";
 import pathologyData from "../../../data/pathology.json";
 import { buildImageIdentificationQuiz } from "../../../shared/lib/imageQuiz.js";
+import { approvedPathologyQuizImages } from "../../../shared/lib/pathologyQuizImages.js";
 
 /**
  * PathologyImageQuiz
@@ -14,6 +15,7 @@ export default function PathologyImageQuiz() {
     () =>
       buildImageIdentificationQuiz(pathologyData.items, {
         count: 8,
+        approvedImageUrls: approvedPathologyQuizImages,
         questionText: "این یافته مربوط به کدام بیماری است؟",
         idPrefix: "p-img",
       }),
