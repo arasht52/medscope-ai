@@ -1,12 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160">
-  <rect width="240" height="160" fill="#f8f5fc"/>
-  <path d="M95,30 Q120,20 145,30 L150,110 Q120,125 90,110 Z" fill="#e8d9f5" stroke="#7C4DBC" stroke-width="2"/>
-  <text x="120" y="70" font-size="7" fill="#7C4DBC" text-anchor="middle">thyroid</text>
-  <circle cx="88" cy="45" r="7" fill="#C0392B" opacity="0.55"/>
-  <circle cx="152" cy="45" r="7" fill="#2E7D32" opacity="0.55"/>
-  <circle cx="86" cy="98" r="13" fill="#C0392B" opacity="0.8"/>
-  <circle cx="154" cy="98" r="7" fill="#2E7D32" opacity="0.55"/>
-  <text x="86" y="122" font-size="6" fill="#C0392B" text-anchor="middle">adenoma (enlarged)</text>
-  <text x="154" y="60" font-size="6" fill="#2E7D32" text-anchor="middle">normal</text>
-  <text x="120" y="150" font-family="sans-serif" font-size="7.5" fill="#1b2430" text-anchor="middle" opacity="0.55">Parathyroid adenoma — solitary enlarged gland, others normal</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 730" width="480" height="730" role="img" aria-labelledby="title desc" lang="fa">
+  <title id="title">آدنوم منفرد پاراتیروئید؛ یکی از علت‌های هایپرپاراتیروئیدیسم اولیه</title>
+  <desc id="desc">نمای شماتیک پشت تیروئید و چهار غدهٔ پاراتیروئید؛ یک آدنوم بزرگ‌شده با رنگ نارنجی و سه غدهٔ دیگر با رنگ سبز مشخص‌اند. این آرایش همهٔ علت‌های بیماری را نشان نمی‌دهد و مقیاس واقعی ندارد.</desc>
+  <style>text{font-family:Tahoma,Arial,sans-serif;fill:#253044}.fa{direction:rtl;unicode-bidi:plaintext}.line{stroke:#576477;stroke-width:2;fill:none}</style>
+  <rect width="480" height="730" rx="16" fill="#f8f5fc"/>
+  <text class="fa" x="240" y="34" text-anchor="middle" font-size="24">آدنوم منفرد پاراتیروئید</text>
+  <text x="240" y="65" text-anchor="middle" font-size="20">Solitary parathyroid adenoma</text>
+  <rect x="20" y="88" width="440" height="344" rx="16" fill="#fff" stroke="#dfd7eb"/>
+  <text class="fa" x="240" y="122" text-anchor="middle" font-size="20">تیروئید؛ نمای پشت، شماتیک</text>
+  <path d="M215 188 C188 147 136 157 132 222 L137 329 C139 385 191 397 216 354 L222 267 L258 267 L264 354 C289 397 341 385 343 329 L348 222 C344 157 292 147 265 188 L258 236 L222 236 Z" fill="#e8d9f5" stroke="#7c4dbc" stroke-width="3"/>
+  <path d="M240 132 L240 236" class="line"/>
+  <g fill="#d7eedf" stroke="#276747" stroke-width="3">
+    <circle cx="172" cy="216" r="13"/><circle cx="308" cy="216" r="13"/><circle cx="308" cy="330" r="13"/>
+  </g>
+  <circle cx="172" cy="330" r="29" fill="#f6c78d" stroke="#a85314" stroke-width="4"/>
+  <text x="172" y="338" text-anchor="middle" font-size="22">A</text>
+  <circle cx="436" cy="476" r="10" fill="#d7eedf" stroke="#276747" stroke-width="2"/>
+  <text class="fa" x="410" y="483" font-size="20">غدد پاراتیروئید باقی‌مانده</text>
+  <circle cx="436" cy="522" r="15" fill="#f6c78d" stroke="#a85314" stroke-width="3"/>
+  <text class="fa" x="410" y="529" font-size="20">آدنوم بزرگ‌شده؛ نشان A</text>
+  <rect x="24" y="570" width="432" height="102" rx="12" fill="#eef4fb"/>
+  <text class="fa" x="240" y="600" text-anchor="middle" font-size="20">یکی از علت‌های</text>
+  <text class="fa" x="240" y="627" text-anchor="middle" font-size="20">هایپرپاراتیروئیدیسم اولیه است؛</text>
+  <text class="fa" x="240" y="654" text-anchor="middle" font-size="20">همهٔ موارد، آدنوم منفرد ندارند.</text>
+  <text class="fa" x="240" y="700" text-anchor="middle" font-size="18">رنگ و اندازه نمادین‌اند؛ تصویر بافتی نیست.</text>
 </svg>
