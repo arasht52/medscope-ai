@@ -5,15 +5,17 @@
 // app's pattern of one hook per module (useQuiz.js, useFavorites.js,
 // useHistologyData.js).
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { buildDeck } from "./gameDeck";
 import { getGameBest, saveGameBest } from "../../shared/lib/storage";
 
 const MISMATCH_DELAY_MS = 700;
 const MATCH_DELAY_MS = 350;
 
-export default function useMemoryGame(subjectId) {
-  const [deck, setDeck] = useState(() => buildDeck(subjectId));
+export default function useMemoryGame(subjectId, availableDeck) {
+  const [attempt, setAttempt] = useState(0);
+  // A caller may supply a reactive deck when image availability changes.
+  const deck = useMemo(() => availableDeck ?? buildDeck(subjectId), [subjectId, availableDeck, attempt]);
   const [flipped, setFlipped] = useState([]); // uids currently face-up, unresolved
   const [matched, setMatched] = useState(new Set()); // uids permanently face-up
   const [moves, setMoves] = useState(0);
@@ -24,20 +26,29 @@ export default function useMemoryGame(subjectId) {
   const totalPairs = deck.length / 2;
   const won = deck.length > 0 && matched.size === deck.length;
 
+  useEffect(() => {
+    setFlipped([]);
+    setMatched(new Set());
+    setMoves(0);
+    setSeconds(0);
+    setChecking(false);
+  }, [deck]);
+
   // Timer — stops the moment the board is fully matched.
   useEffect(() => {
-    if (won) return;
+    if (won || deck.length === 0) return;
     const id = setInterval(() => setSeconds((s) => s + 1), 1000);
     return () => clearInterval(id);
   }, [won, deck]);
 
   // Resolve a pair once two cards are face-up.
   useEffect(() => {
-    if (flipped.length !== 2) return;
+    if (deck.length === 0 || flipped.length !== 2) return;
     setChecking(true);
     const [a, b] = flipped;
     const cardA = deck.find((c) => c.uid === a);
     const cardB = deck.find((c) => c.uid === b);
+    if (!cardA || !cardB) return;
     const isMatch = Boolean(cardA && cardB && cardA.pairId === cardB.pairId);
 
     setMoves((m) => m + 1);
@@ -78,22 +89,23 @@ export default function useMemoryGame(subjectId) {
 
   const flipCard = useCallback(
     (uid) => {
+      if (!deck.some((card) => card.uid === uid)) return;
       if (checking) return;
       if (flipped.includes(uid) || matched.has(uid)) return;
       if (flipped.length >= 2) return;
       setFlipped((prev) => [...prev, uid]);
     },
-    [checking, flipped, matched]
+    [checking, flipped, matched, deck]
   );
 
   const restart = useCallback(() => {
-    setDeck(buildDeck(subjectId));
+    setAttempt((value) => value + 1);
     setFlipped([]);
     setMatched(new Set());
     setMoves(0);
     setSeconds(0);
     setChecking(false);
-  }, [subjectId]);
+  }, []);
 
   return {
     deck,

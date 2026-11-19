@@ -18,6 +18,8 @@
  * educational placeholder instead of rendering it.
  */
 
+import { isPathologySvgScientificallyAllowed } from "./pathologySvgSafety.js";
+
 export const IMAGE_TYPES = ["real_slide", "gross", "diagram", "placeholder"];
 
 export const MAGNIFICATION_LABELS_FA = {
@@ -47,6 +49,7 @@ export function isImageUsable(image) {
   if (!image || typeof image !== "object") return false;
   if (image.verifiedOpenLicense !== true) return false;
   if (!image.url || typeof image.url !== "string") return false;
+  if (!isPathologySvgScientificallyAllowed(image.url)) return false;
   if (image.type === "placeholder") return false;
   return true;
 }

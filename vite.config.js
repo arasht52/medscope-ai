@@ -2,6 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { cpSync } from "node:fs";
 import { isAbsolute, relative, resolve } from "node:path";
+import { isPathologySvgScientificallyAllowed } from "./src/shared/lib/pathologySvgSafety.js";
 
 const excludedImages = new Set([
   "images/pathology/celiac-disease-photo.jpg",
@@ -31,7 +32,10 @@ function filteredPublicAssets() {
       }
       cpSync(config.publicDir, output, {
         recursive: true,
-        filter: (source) => !excludedImages.has(relative(config.publicDir, source).replaceAll("\\", "/")),
+        filter: (source) => {
+          const path = relative(config.publicDir, source).replaceAll("\\", "/");
+          return !excludedImages.has(path) && isPathologySvgScientificallyAllowed(`/${path}`);
+        },
       });
     },
   };

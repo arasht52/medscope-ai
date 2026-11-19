@@ -25,9 +25,19 @@ export default function MemoryGamePlay() {
   return <MemoryGameBoard key={subject} subjectId={subject} meta={meta} navigate={navigate} />;
 }
 
-function MemoryGameBoard({ subjectId, meta, navigate }) {
+export function MemoryGameBoard({ subjectId, meta, navigate, availableDeck }) {
   const { deck, flipped, matched, moves, seconds, won, totalPairs, best, flipCard, restart } =
-    useMemoryGame(subjectId);
+    useMemoryGame(subjectId, availableDeck);
+
+  if (deck.length === 0) {
+    return (
+      <div className="page game-play" dir="rtl">
+        <PageHeader title={`بازی حافظه — ${meta.label_fa}`} onBack={() => navigate("/game")} />
+        <p className="game-play__hint" role="status">در حال حاضر تصویر تأییدشده‌ای برای این بازی موجود نیست.</p>
+        <Button onClick={() => navigate("/game")}>بازگشت به بازی‌ها</Button>
+      </div>
+    );
+  }
 
   return (
     <div className="page game-play">

@@ -47,4 +47,7 @@ test("approved question image renders as an img rather than a placeholder", asyn
   const question = buildImageIdentificationQuiz(data.items, opts)[0];
   assert.match(render(question.image), /class="image-viewer__img"/);
   assert(!render(question.image).includes("image-viewer--placeholder"));
+  const svg = data.items.find(it => it.image?.url?.endsWith(".svg"));
+  assert.match(render(svg.image), /image-viewer--placeholder/);
+  assert(!render(svg.image).includes('<img'));
 });
