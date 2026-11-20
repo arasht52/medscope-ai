@@ -10,7 +10,7 @@
 
 import { useFavorites } from '../useFavorites'
 
-export default function FavoriteButton({ item, size = 22 }) {
+export default function FavoriteButton({ item, size = 22, icon }) {
   const { isFavorite, toggleFavorite } = useFavorites()
   const active = isFavorite(item.id, item.type)
 
@@ -26,7 +26,7 @@ export default function FavoriteButton({ item, size = 22 }) {
       aria-label={active ? 'حذف از علاقه‌مندی‌ها' : 'افزودن به علاقه‌مندی‌ها'}
       style={{ fontSize: size }}
     >
-      {active ? '★' : '☆'}
+      {icon || (active ? '★' : '☆')}
     </button>
   )
 }

@@ -1,12 +1,11 @@
 import { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
-import { Search, Microscope, Pill, Stethoscope, Brain, Star, ChevronLeft, CalendarCheck, BarChart3 } from "lucide-react";
-import { getDueCount } from "../../shared/lib/learning.js";
+import { Search, ChevronLeft, CalendarCheck, BookOpen, ArrowLeft } from "lucide-react";
+import { getDueCount, getEvents } from "../../shared/lib/learning.js";
 
-import ProgressBar from "./components/ProgressBar.jsx";
-import CardNotch from "./components/CardNotch.jsx";
-import ModuleCard from "./components/ModuleCard.jsx";
-import RecentItemCard from "./components/RecentItemCard.jsx";
+import MedicalIcon from "../../shared/components/MedicalIcon.jsx";
+import { resolveTopic } from "../../shared/lib/topicResolver.js";
+import "../../shared/components/AcademicPrototype.css";
 import SearchResults from "./components/SearchResults.jsx";
 import { useProgress } from "./hooks/useProgress.js";
 import { toFaDigits } from "./utils/toFaDigits.js";
@@ -29,10 +28,6 @@ const PATHOLOGY_TOTAL = pathologyData.items.length;
  * (per DATA_SCHEMA.md — only generic_name in English). Both adaptations
  * below are integration glue only: no module's own files were changed.
  */
-function histologyCategoryLabel(categoryId) {
-  return histologyData.categories.find((c) => c.id === categoryId)?.label_fa ?? categoryId;
-}
-
 /** Normalizes text for case/diacritic-insensitive matching across fa/en. */
 function normalize(text) {
   return (text || "").toString().toLowerCase().trim();
@@ -66,193 +61,50 @@ function searchAllModules(query) {
   return [...fromHistology, ...fromPharmacology, ...fromPathology].slice(0, 8);
 }
 
-const recentItems = [
-  ...histologyData.items.slice(0, 2).map((i) => ({
-    id: i.id,
-    type: "histology",
-    title_fa: i.title_fa,
-    title_en: i.title_en,
-    category: histologyCategoryLabel(i.category),
-  })),
-  ...pharmacologyData.drugs.slice(0, 2).map((d) => ({
-    id: d.id,
-    type: "pharmacology",
-    title_fa: d.generic_name,
-    title_en: d.generic_name,
-    category: d.drug_class,
-  })),
-];
-
 export default function Home() {
   const [query, setQuery] = useState("");
-  const isSearching = query.trim().length > 0;
   const dueCount = useMemo(() => getDueCount(), []);
   const searchResults = useMemo(() => searchAllModules(query), [query]);
-
-  // Real progress: each module's Detail page calls markDone(itemId) when
-  // opened (see useProgress.js), so these counts reflect actual distinct
-  // items the student has viewed, persisted in localStorage.
-  const histology = useProgress("histology", HISTOLOGY_TOTAL);
-  const pharmacology = useProgress("pharmacology", PHARMACOLOGY_TOTAL);
-  const pathology = useProgress("pathology", PATHOLOGY_TOTAL);
-
+  const recent = useMemo(() => {
+    const seen = new Set();
+    return [...getEvents()].reverse().filter(event => event.type === "study")
+      .map(event => resolveTopic(event.module, event.itemId)).filter(topic => {
+        if (!topic || seen.has(topic.href)) return false;
+        seen.add(topic.href);
+        return true;
+      }).slice(0, 3);
+  }, []);
+  const progress = [useProgress("histology", HISTOLOGY_TOTAL), useProgress("pharmacology", PHARMACOLOGY_TOTAL), useProgress("pathology", PATHOLOGY_TOTAL)];
+  const subjects = [
+    { id: "histology", fa: "بافت‌شناسی", en: "Histology", icon: "histology", unit: "موضوع" },
+    { id: "pharmacology", fa: "داروشناسی", en: "Pharmacology", icon: "pharmacology", unit: "دارو" },
+    { id: "pathology", fa: "پاتولوژی", en: "Pathology", icon: "pathology", unit: "موضوع" },
+  ];
+  const last = recent[0];
+  const done = progress.reduce((sum, p) => sum + p.done, 0);
+  const total = progress.reduce((sum, p) => sum + p.total, 0);
   return (
-    <div dir="rtl" lang="fa" className="w-full max-w-md mx-auto flex flex-col bg-bg">
-      {/* Header */}
-      <header className="px-5 pt-6 pb-3">
-        <p className="text-sm text-muted">صبح بخیر، دانشجو</p>
-        <h1 className="text-xl font-bold mt-0.5 text-ink">امروز چی می‌خوای مرور کنی؟</h1>
+    <main className="academic-home academic-ui" dir="rtl" lang="fa">
+      <header className="academic-brand">
+        <Link to="/" aria-label="خانه MedScope" className="academic-wordmark" dir="ltr"><span className="academic-monogram">M<span>+</span></span><strong>MedScope<span>MEDICAL LEARNING</span></strong></Link>
+        <Link to="/favorites" className="academic-icon-button" aria-label="علاقه‌مندی‌ها"><MedicalIcon name="favorites" size={22} /></Link>
       </header>
-
-      {/* Search bar — real cross-module search (Histology + Pharmacology +
-          Pathology); results render below, replacing the rest of Home
-          while a query is active. */}
-      <div className="px-5 pb-4">
-        <div className="flex items-center gap-2 rounded-2xl px-3 py-3 bg-surface border border-border">
-          <Search size={18} className="text-muted" />
-          <input
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            type="text"
-            placeholder="جستجو در بافت‌شناسی، داروها و پاتولوژی..."
-            aria-label="جستجو در بافت‌شناسی، داروها و پاتولوژی"
-            className="flex-1 bg-transparent outline-none text-sm text-right text-ink"
-          />
-        </div>
-      </div>
-
-      {isSearching && <SearchResults results={searchResults} />}
-
-      {!isSearching && (
-        <>
-      {/* Active-learning entry: daily spaced-repetition review + analytics */}
-      <section className="px-5 pb-4">
-        <div className="grid grid-cols-2 gap-3">
-          <Link
-            to="/review"
-            className="relative flex items-center gap-2 rounded-2xl px-3 py-3 bg-surface border border-border"
-          >
-            <CalendarCheck size={20} className="text-histology" />
-            <span className="text-sm font-semibold text-ink">مرور امروز</span>
-            {dueCount > 0 && (
-              <span className="absolute -top-1.5 -left-1.5 min-w-[20px] h-5 px-1 rounded-full bg-histology text-white text-[11px] font-bold grid place-items-center">
-                {toFaDigits(dueCount)}
-              </span>
-            )}
-          </Link>
-          <Link
-            to="/progress"
-            className="flex items-center gap-2 rounded-2xl px-3 py-3 bg-surface border border-border"
-          >
-            <BarChart3 size={20} className="text-histology" />
-            <span className="text-sm font-semibold text-ink">پیشرفت</span>
-          </Link>
-        </div>
-      </section>
-
-      {/* Progress section */}
-      <section className="px-5 pb-4">
-        <div className="relative rounded-2xl p-4 bg-surface border border-border">
-          <CardNotch variant="histology" />
-          <div className="flex items-center justify-between mb-3">
-            <span className="text-sm font-semibold text-ink">پیشرفت مطالعه</span>
-            <span className="text-xs text-muted">این هفته</span>
-          </div>
-
-          <div className="flex flex-col gap-3">
-            <div>
-              <div className="flex items-center justify-between mb-1.5">
-                <span className="text-xs text-ink">بافت‌شناسی · Histology</span>
-                <span className="text-xs text-histology">
-                  {toFaDigits(histology.done)}/{toFaDigits(histology.total)}
-                </span>
-              </div>
-              <ProgressBar value={histology.done} total={histology.total} variant="histology" />
-            </div>
-
-            <div>
-              <div className="flex items-center justify-between mb-1.5">
-                <span className="text-xs text-ink">داروشناسی · Pharmacology</span>
-                <span className="text-xs text-pharm">
-                  {toFaDigits(pharmacology.done)}/{toFaDigits(pharmacology.total)}
-                </span>
-              </div>
-              <ProgressBar value={pharmacology.done} total={pharmacology.total} variant="pharm" />
-            </div>
-
-            <div>
-              <div className="flex items-center justify-between mb-1.5">
-                <span className="text-xs text-ink">پاتولوژی · Pathology</span>
-                <span className="text-xs text-path">
-                  {toFaDigits(pathology.done)}/{toFaDigits(pathology.total)}
-                </span>
-              </div>
-              <ProgressBar value={pathology.done} total={pathology.total} variant="path" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Module grid */}
-      <section className="px-5 pb-5">
-        <div className="grid grid-cols-2 gap-3">
-          <ModuleCard
-            to="/histology"
-            variant="histology"
-            icon={Microscope}
-            titleFa="بافت‌شناسی"
-            titleEn="Histology Atlas"
-            subtitle={`${toFaDigits(HISTOLOGY_TOTAL)} موضوع`}
-          />
-          <ModuleCard
-            to="/pharmacology"
-            variant="pharm"
-            icon={Pill}
-            titleFa="داروشناسی"
-            titleEn="Pharmacology"
-            subtitle={`${toFaDigits(PHARMACOLOGY_TOTAL)} دارو`}
-          />
-          <ModuleCard
-            to="/pathology"
-            variant="path"
-            icon={Stethoscope}
-            titleFa="پاتولوژی"
-            titleEn="Pathology"
-            subtitle={`${toFaDigits(PATHOLOGY_TOTAL)} مورد`}
-          />
-          <ModuleCard
-            to="/quiz"
-            variant="quiz"
-            icon={Brain}
-            titleFa="آزمون"
-            titleEn="Quiz"
-            subtitle="تست دانش"
-          />
-          <ModuleCard
-            to="/favorites"
-            variant="fav"
-            icon={Star}
-            titleFa="علاقه‌مندی‌ها"
-            titleEn="Favorites"
-            subtitle="موارد ذخیره‌شده"
-          />
-        </div>
-      </section>
-
-      {/* Recent items */}
-      <section className="pb-5">
-        <div className="px-5 flex items-center justify-between mb-3">
-          <span className="text-sm font-semibold text-ink">موارد اخیر</span>
-          <ChevronLeft size={16} className="text-muted" />
-        </div>
-        <div className="flex gap-3 overflow-x-auto px-5 pb-1 [scrollbar-width:none]">
-          {recentItems.map((item) => (
-            <RecentItemCard key={`${item.type}:${item.id}`} item={item} />
-          ))}
-        </div>
-      </section>
-        </>
-      )}
-    </div>
+      <div className="academic-welcome"><p className="academic-eyebrow">فضای یادگیری شما</p><h1>مطالعهٔ امروز را ادامه بده.</h1></div>
+      <label className="academic-search"><Search size={20} aria-hidden="true" /><input value={query} onChange={e => setQuery(e.target.value)} placeholder="جستجوی بافت، دارو یا بیماری" aria-label="جستجو در بافت‌شناسی، داروها و پاتولوژی" /></label>
+      {query.trim() ? <SearchResults results={searchResults} /> : <>
+        <section className="academic-continue" aria-label="ادامه مطالعه">
+          <div className="academic-continue__label"><BookOpen size={17} aria-hidden="true" /><span>{last ? "ادامه از آخرین مطالعه" : "اولین قدم یادگیری"}</span></div>
+          <h2>{last ? last.title_fa : "یک مبحث، یک قدم جلوتر"}</h2>
+          <p>{last ? <bdi dir="ltr">{last.title_en}</bdi> : "از بافت‌شناسی، داروشناسی یا پاتولوژی شروع کن."}</p>
+          <Link to={last?.href || "/histology"} className="academic-primary">{last ? "ادامهٔ مطالعه" : "شروع مطالعه"}<ArrowLeft size={18} aria-hidden="true" /></Link>
+        </section>
+        <section className="academic-subjects" aria-labelledby="subject-heading"><div className="academic-section-heading"><h2 id="subject-heading">مسیرهای یادگیری</h2><span>سه درس، یک فضای مطالعه</span></div>
+          {subjects.map((subject, i) => <Link key={subject.id} to={`/${subject.id}`} className="academic-subject"><span className="academic-subject__icon"><MedicalIcon name={subject.icon} size={48} /></span><span className="academic-subject__name"><strong>{subject.fa}</strong><span dir="ltr">{subject.en}</span></span><span className="academic-subject__count">{toFaDigits(progress[i].total)} {subject.unit}</span><ChevronLeft size={17} aria-hidden="true" /></Link>)}
+        </section>
+        <section className="academic-progress" aria-labelledby="progress-heading"><div className="academic-section-heading"><h2 id="progress-heading"><MedicalIcon name="progress" size={22} />مسیر طی‌شده</h2><Link to="/progress">جزئیات <ChevronLeft size={14} /></Link></div><p><strong>{toFaDigits(done)}</strong> از {toFaDigits(total)} مبحث را باز کرده‌ای<span>بازدید از محتوا؛ نه سنجش تسلط علمی</span></p><div className="academic-progress__track" role="progressbar" aria-label="مباحث بازشده" aria-valuenow={done} aria-valuemin={0} aria-valuemax={total}><span style={{width: `${done / total * 100}%`}} /></div></section>
+        <div className="academic-tools"><Link to="/review"><CalendarCheck size={19} /><span>مرور امروز</span><b>{toFaDigits(dueCount)}</b></Link><Link to="/quiz"><MedicalIcon name="quiz" size={22} /><span>آزمون دانش</span><ChevronLeft size={16} /></Link></div>
+        {recent.length > 0 && <section className="academic-recent"><h2>آخرین مطالعه‌ها</h2>{recent.map(topic => <Link key={topic.href} to={topic.href}><span>{topic.title_fa}</span><ChevronLeft size={16} /></Link>)}</section>}
+      </>}
+    </main>
   );
 }

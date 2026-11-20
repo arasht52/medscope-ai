@@ -31,7 +31,7 @@ function clamp(v, lo, hi) {
  *  - titleEn: string — used as an accessible fallback label
  *  - compact: boolean — smaller framing (used inside quizzes)
  */
-export default function ImageViewer({ image, titleEn = "", compact = false, neutralSourceLabel = false }) {
+export default function ImageViewer({ image, titleEn = "", compact = false, neutralSourceLabel = false, enlargeLabel = "" }) {
   const img = useMemo(() => normalizeImage(image), [image]);
   const usable = isImageUsable(img);
 
@@ -195,6 +195,13 @@ export default function ImageViewer({ image, titleEn = "", compact = false, neut
           <button type="button" onClick={resetView} aria-label="بازنشانی بزرگ‌نمایی">۱:۱</button>
           <button type="button" onClick={() => zoomBy(STEP)} aria-label="بزرگ‌نمایی" disabled={scale >= MAX_SCALE}>+</button>
         </div>
+        {enlargeLabel && (
+          <button type="button" className="image-viewer__enlarge" aria-pressed={scale > MIN_SCALE}
+            onClick={() => { if (scale > MIN_SCALE) resetView(); else setScale(2); }}>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5M8 8l-5-5m13 5 5-5M8 16l-5 5m13-5 5 5" /></svg>
+            {scale > MIN_SCALE ? "بازگشت به نمای کامل" : enlargeLabel}
+          </button>
+        )}
         {hasLabels && (
           <button
             type="button"

@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import pathologyData from "../../data/pathology.json";
 import Card from "./components/Card.jsx";
+import MeningiomaStudy from "./MeningiomaStudy.jsx";
 import PathologyMindMap from "./PathologyMindMap.jsx";
 import PathologyEmptyState from "./components/PathologyEmptyState.jsx";
 import ImageViewer from "../../shared/components/ImageViewer.jsx";
@@ -52,6 +53,8 @@ export default function PathologyDetail() {
       </div>
     );
   }
+
+  if (item.id === "meningioma") return <MeningiomaStudy item={item} view={view} onViewChange={setView} />;
 
   return (
     <div className="page path-detail">
