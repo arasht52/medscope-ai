@@ -1,12 +1,13 @@
+import { usesStudyLayout } from "../../shared/lib/studyLayoutScope.js";
+import DisciplinePilot from "../../shared/components/DisciplinePilot.jsx";
 import { useEffect, useMemo } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import pharmacologyData from "../../data/pharmacology.json";
-import Card from "./components/Card.jsx";
+import { StudyHeader, StudySection, StudyQuizLink } from "../../shared/components/StudyExperience.jsx";
 import Disclaimer from "./components/Disclaimer.jsx";
 import EmptyState from "./components/EmptyState.jsx";
 import BackButton from "../../shared/components/BackButton.jsx";
-import FavoriteButton from "../Favorites/components/FavoriteButton";
-import { FAVORITE_TYPES, markItemViewed } from "../../shared/lib/storage";
+import { markItemViewed } from "../../shared/lib/storage";
 import { recordStudy } from "../../shared/lib/learning";
 import { matchSuffixTip } from "./suffixTips.js";
 import "./Pharmacology.css";
@@ -45,87 +46,22 @@ export default function DrugDetail() {
     );
   }
 
-  return (
-    <div className="page drug-detail">
-      <div className="page-header drug-detail__header">
-        <BackButton onClick={() => navigate(-1)} label="بازگشت" />
-        <div className="drug-detail__title-row">
-          <h1 className="drug-detail__name en">{drug.generic_name}</h1>
-          <FavoriteButton
-            item={{
-              id: drug.id,
-              type: FAVORITE_TYPES.PHARMACOLOGY,
-              title_en: drug.generic_name,
-              title_fa: drug.generic_name,
-              subtitle: drug.drug_class,
-            }}
-          />
-        </div>
-        {drug.brand_names?.length > 0 && (
-          <p className="drug-detail__brands en">{drug.brand_names.join(" · ")}</p>
-        )}
-        <span className="drug-detail__category">{drug.category}</span>
-      </div>
+  return <DrugStudy drug={drug} suffixTip={suffixTip} />;
+}
 
-      <Disclaimer />
-
-      <Card className="drug-detail__section">
-        <p className="drug-detail__section-label">
-          <span className="drug-detail__section-icon" aria-hidden="true">🧪</span>
-          گروه دارویی
-        </p>
-        <p className="drug-detail__class en">{drug.drug_class}</p>
-      </Card>
-
-      {suffixTip && (
-        <Card className="drug-detail__section suffix-tip-inline">
-          <p className="drug-detail__section-label">
-            <span className="drug-detail__section-icon" aria-hidden="true">💡</span>
-            نکته پسوند
-          </p>
-          <p className="drug-detail__text">
-            نام این دارو با پسوند <span className="en">{suffixTip.suffix}</span> تمام می‌شود؛
-            این پسوند معمولاً نشانه‌ی <strong>{suffixTip.class_fa}</strong>{" "}
-            (<span className="en">{suffixTip.class_en}</span>) است.
-          </p>
-        </Card>
-      )}
-
-      <Card className="drug-detail__section">
-        <p className="drug-detail__section-label">
-          <span className="drug-detail__section-icon" aria-hidden="true">⚙️</span>
-          مکانیسم اثر
-        </p>
-        <p className="drug-detail__text">{drug.mechanism}</p>
-      </Card>
-
-      {SECTIONS.map(({ key, label, icon }) => {
-        const items = drug[key];
-        if (!items || items.length === 0) return null;
-        return (
-          <Card key={key} className="drug-detail__section">
-            <p className="drug-detail__section-label">
-              <span className="drug-detail__section-icon" aria-hidden="true">{icon}</span>
-              {label}
-            </p>
-            <ul className="drug-detail__list">
-              {items.map((item, i) => (
-                <li key={i}>{item}</li>
-              ))}
-            </ul>
-          </Card>
-        );
-      })}
-
-      {drug.exam_tips && (
-        <Card className="drug-detail__section drug-detail__exam-tip">
-          <p className="drug-detail__section-label">
-            <span className="drug-detail__section-icon" aria-hidden="true">🎯</span>
-            نکته امتحانی
-          </p>
-          <p className="drug-detail__text">{drug.exam_tips}</p>
-        </Card>
-      )}
-    </div>
-  );
+export function DrugStudy({ drug, suffixTip = matchSuffixTip(drug.generic_name) }) {
+  if (usesStudyLayout("pharmacology", drug.id)) return <DisciplinePilot item={drug} discipline="pharmacology" category={drug.category} suffixTip={suffixTip} />;
+  return <main className="academic-ui academic-topic academic-shared-study" dir="rtl" lang="fa">
+    <StudyHeader subject="داروشناسی" subjectPath="/pharmacology" category={drug.category} titleEn={drug.generic_name}
+      favorite={{ id: drug.id, type: "pharmacology", title_fa: drug.generic_name, title_en: drug.generic_name, subtitle: drug.drug_class }}>
+      {drug.brand_names?.length > 0 && <p className="academic-brands" dir="ltr">{drug.brand_names.join(" · ")}</p>}
+    </StudyHeader>
+    <Disclaimer />
+    <StudySection title="گروه دارویی" value={drug.drug_class} expanded />
+    {suffixTip && <StudySection title="نکته پسوند" expanded><p>نام این دارو با پسوند <bdi dir="ltr">{suffixTip.suffix}</bdi> تمام می‌شود؛ این پسوند معمولاً نشانه‌ی <strong>{suffixTip.class_fa}</strong> (<bdi dir="ltr">{suffixTip.class_en}</bdi>) است.</p></StudySection>}
+    <StudySection title="مکانیسم اثر" value={drug.mechanism} expanded />
+    {SECTIONS.map(({ key, label }) => <StudySection key={key} title={label} value={drug[key]} />)}
+    <StudySection title="نکته امتحانی" value={drug.exam_tips} exam />
+    <StudyQuizLink to={`/quiz/pharmacology/${encodeURIComponent(drug.category)}`} category={drug.category} />
+  </main>;
 }

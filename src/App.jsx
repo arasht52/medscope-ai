@@ -9,6 +9,8 @@ import RouteFallback from "./shared/components/RouteFallback.jsx";
 // (Phase 7). Each import() becomes its own lazily-loaded chunk.
 import Home from "./pages/Home/Home.jsx";
 
+const Subjects = lazy(() => import("./pages/Subjects/Subjects.jsx"));
+
 const HistologyListPage = lazy(() => import("./pages/Histology/HistologyListPage.jsx"));
 const HistologyDetailPage = lazy(() => import("./pages/Histology/HistologyDetailPage.jsx"));
 const HistologyAtlas = lazy(() => import("./pages/Histology/HistologyAtlas.jsx"));
@@ -45,7 +47,7 @@ const ROUTES_WITHOUT_BOTTOM_NAV = [
 
 function AppShell() {
   const { pathname } = useLocation();
-  const hideNav = ROUTES_WITHOUT_BOTTOM_NAV.includes(pathname);
+  const hideNav = ROUTES_WITHOUT_BOTTOM_NAV.includes(pathname) || pathname.startsWith("/quiz/");
 
   return (
     <div className="app-shell">
@@ -53,6 +55,7 @@ function AppShell() {
         <Suspense fallback={<RouteFallback />}>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/subjects" element={<Subjects />} />
 
             <Route path="/histology" element={<HistologyListPage />} />
             <Route path="/histology/atlas" element={<HistologyAtlas />} />

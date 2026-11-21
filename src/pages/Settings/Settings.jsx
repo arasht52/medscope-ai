@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import MedicalIcon from "../../shared/components/MedicalIcon.jsx";
+import { ChevronLeft, CalendarCheck, Microscope } from "lucide-react";
 import { useState } from "react";
 import PageHeader from "./components/PageHeader";
 import Card from "./components/Card";
@@ -10,6 +13,7 @@ import {
   resetGameScores,
 } from "../../shared/lib/storage";
 import "./Settings.css";
+import "../../shared/components/StudyExperience.css";
 
 export default function Settings() {
   // "progress" | "favorites" | null
@@ -36,11 +40,18 @@ export default function Settings() {
   }
 
   return (
-    <div className="settings-page" dir="rtl">
+    <div className="settings-page academic-ui academic-more" dir="rtl">
       <PageHeader
-        title="تنظیمات"
+        title="بیشتر"
         subtitle="مدیریت اپلیکیشن MedScope AI"
       />
+
+      <nav className="academic-secondary-links" aria-label="امکانات بیشتر">
+        <Link to="/favorites"><MedicalIcon name="favorites" size={22} /><span>علاقه‌مندی‌ها</span><ChevronLeft size={18} /></Link>
+        <Link to="/progress"><MedicalIcon name="progress" size={22} /><span>پیشرفت مطالعه</span><ChevronLeft size={18} /></Link>
+        <Link to="/review"><CalendarCheck size={22} /><span>مرور امروز</span><ChevronLeft size={18} /></Link>
+        <Link to="/histology/atlas"><Microscope size={22} /><span>اطلس بافت‌شناسی</span><ChevronLeft size={18} /></Link>
+      </nav>
 
       <Card title="درباره MedScope AI">
         <p>

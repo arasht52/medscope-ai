@@ -121,7 +121,7 @@ export default function ImageViewer({ image, titleEn = "", compact = false, neut
     );
   }
 
-  const magLabel = img.magnification ? MAGNIFICATION_LABELS_FA[img.magnification] : null;
+  const magLabel = img.type === "real_slide" && img.magnification ? MAGNIFICATION_LABELS_FA[img.magnification] : null;
   const typeLabel = IMAGE_TYPE_LABELS_FA[img.type] || null;
   const hasLabels = img.labels.length > 0;
 
@@ -131,7 +131,7 @@ export default function ImageViewer({ image, titleEn = "", compact = false, neut
       <div className="image-viewer__badges">
         {typeLabel && <span className="image-viewer__badge image-viewer__badge--type">{typeLabel}</span>}
         {magLabel && <span className="image-viewer__badge">{magLabel}</span>}
-        {img.stain && (
+        {img.type === "real_slide" && img.stain && (
           <span className="image-viewer__badge image-viewer__badge--stain">
             رنگ‌آمیزی <span className="ltr-term" dir="ltr">{img.stain}</span>
           </span>

@@ -1,8 +1,10 @@
+import { usesStudyLayout } from "../../shared/lib/studyLayoutScope.js";
+import DisciplinePilot from "../../shared/components/DisciplinePilot.jsx";
 import { Link } from "react-router-dom";
-import { ArrowRight, ArrowLeft, BookOpen, Network, GraduationCap } from "lucide-react";
+import { ArrowLeft, BookOpen, Network, GraduationCap } from "lucide-react";
 import MedicalIcon from "../../shared/components/MedicalIcon.jsx";
 import ImageViewer from "../../shared/components/ImageViewer.jsx";
-import FavoriteButton from "../Favorites/components/FavoriteButton";
+import { StudyHeader } from "../../shared/components/StudyExperience.jsx";
 import PathologyMindMap from "./PathologyMindMap.jsx";
 import "../../shared/components/AcademicPrototype.css";
 
@@ -33,19 +35,16 @@ function MedicalParagraphs({ text }) {
 }
 
 export default function MeningiomaStudy({ item, view, onViewChange }) {
+  if (usesStudyLayout("pathology", item.id)) return <DisciplinePilot item={item} discipline="pathology" category={item.category}>
+    <div className="academic-tabs" role="group" aria-label="نمای مطالعه"><button onClick={() => onViewChange(view === "notes" ? "mindmap" : "notes")}>{view === "notes" ? "نمایش نقشهٔ ذهنی" : "بازگشت به یادداشت درس"}</button></div>
+    {view === "mindmap" && <PathologyMindMap item={item} />}
+  </DisciplinePilot>;
   // Verbatim excerpt, not newly authored medical content. Full text is below.
   const overview = (item.definition || item.pathogenesis || "").split(/(?<=\.)\s/)[0];
   return (
     <main className="academic-topic academic-ui" dir="rtl" lang="fa">
-      <header className="academic-topic__toolbar">
-        <Link to="/pathology" className="academic-back"><ArrowRight size={18} />پاتولوژی</Link>
-        <span className="academic-small-brand" dir="ltr">MedScope</span>
-        <FavoriteButton icon={<MedicalIcon name="favorites" size={22} />} item={{ id: item.id, type: "pathology", title_fa: item.title_fa, title_en: item.title_en, subtitle: item.category }} />
-      </header>
-      <div className="academic-topic__heading">
-        <p className="academic-eyebrow">یادداشت آموزشی <span aria-hidden="true">/</span> <bdi dir="ltr">{item.category}</bdi></p>
-        <h1>{item.title_fa}</h1><p className="academic-topic__english" dir="ltr">{item.title_en}</p>
-      </div>
+      <StudyHeader subject="پاتولوژی" subjectPath="/pathology" category={item.category} titleFa={item.title_fa} titleEn={item.title_en}
+        favorite={{ id: item.id, type: "pathology", title_fa: item.title_fa, title_en: item.title_en, subtitle: item.category }} />
       <div className="academic-tabs" role="tablist" aria-label="نمای مطالعه">
         <button role="tab" id="academic-notes-tab" aria-controls="academic-notes" aria-selected={view === "notes"} onClick={() => onViewChange("notes")}><BookOpen size={18} />یادداشت درس</button>
         <button role="tab" id="academic-map-tab" aria-controls="academic-map" aria-selected={view === "mindmap"} onClick={() => onViewChange("mindmap")}><Network size={18} />نقشهٔ ذهنی</button>
@@ -53,8 +52,8 @@ export default function MeningiomaStudy({ item, view, onViewChange }) {
       {view === "mindmap" ? <div id="academic-map" role="tabpanel" aria-labelledby="academic-map-tab"><PathologyMindMap item={item} /></div> :
         <div id="academic-notes" role="tabpanel" aria-labelledby="academic-notes-tab">
           {overview && <section className="academic-overview"><h2>در یک نگاه</h2><p><MedicalText text={overview} /></p></section>}
-          <section className="academic-image" aria-labelledby="academic-image-title"><div className="academic-section-heading"><h2 id="academic-image-title"><MedicalIcon name="histology" size={22} />نمای بافت‌شناسی</h2><span>برای بررسی دقیق‌تر</span></div><ImageViewer image={item.image} titleEn={item.title_en} neutralSourceLabel enlargeLabel="بزرگ‌نمایی تصویر" /></section>
-          <nav className="academic-jump" aria-label="بخش‌های درس"><a href="#academic-microscopic_features">مورفولوژی</a><a href="#academic-diagnostic_clues">نکات تشخیصی</a><a href="#academic-exam">نکات امتحانی</a></nav>
+          <section className="academic-image" aria-labelledby="academic-image-title"><div className="academic-section-heading"><h2 id="academic-image-title"><MedicalIcon name="histology" size={22} />{item.id === "meningioma" ? "نمای بافت‌شناسی" : "تصویر آموزشی"}</h2><span>برای بررسی دقیق‌تر</span></div><ImageViewer image={item.image} titleEn={item.title_en} neutralSourceLabel enlargeLabel="بزرگ‌نمایی تصویر" /></section>
+          <nav className="academic-jump" aria-label="بخش‌های درس">{item.microscopic_features?.length > 0 && <a href="#academic-microscopic_features">مورفولوژی</a>}{item.diagnostic_clues?.length > 0 && <a href="#academic-diagnostic_clues">نکات تشخیصی</a>}{item.exam_tips?.length > 0 && <a href="#academic-exam">نکات امتحانی</a>}</nav>
           <div className="academic-reading">
             {item.definition && <section className="academic-reading-section"><h2>تعریف</h2><MedicalParagraphs text={item.definition} /></section>}
             {item.pathogenesis && <details className="academic-reading-section"><summary>پاتوژنز</summary><MedicalParagraphs text={item.pathogenesis} /></details>}
