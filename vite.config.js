@@ -41,7 +41,22 @@ function filteredPublicAssets() {
   };
 }
 
+// Reject malformed quiz URLs before Vite's HTML fallback decodes them.
+export function safeQuizUrls() {
+  const install = (server) => { server.middlewares.use((req, res, next) => {
+    if (!/^\/quiz(?:\/|[?#]|$)/.test(req.url || "")) return next();
+    try { decodeURI(req.url); } catch {
+      res.statusCode = 302;
+      res.setHeader("Location", "/quiz");
+      res.end();
+      return;
+    }
+    next();
+  }); };
+  return { name: "safe-quiz-urls", configureServer: install, configurePreviewServer: install };
+}
+
 export default defineConfig({
-  plugins: [react(), filteredPublicAssets()],
+  plugins: [safeQuizUrls(), react(), filteredPublicAssets()],
   build: { copyPublicDir: false },
 });

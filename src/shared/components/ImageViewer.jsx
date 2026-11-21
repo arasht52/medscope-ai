@@ -31,7 +31,7 @@ function clamp(v, lo, hi) {
  *  - titleEn: string — used as an accessible fallback label
  *  - compact: boolean — smaller framing (used inside quizzes)
  */
-export default function ImageViewer({ image, titleEn = "", compact = false, neutralSourceLabel = false, enlargeLabel = "" }) {
+export default function ImageViewer({ image, titleEn = "", compact = false, neutralSourceLabel = false, enlargeLabel = "", hidePublicationTitle = false }) {
   const img = useMemo(() => normalizeImage(image), [image]);
   const usable = isImageUsable(img);
 
@@ -216,7 +216,7 @@ export default function ImageViewer({ image, titleEn = "", compact = false, neut
 
       {/* Caption + license */}
       {img.alt && <p className="image-viewer__caption" dir="rtl">{img.alt}</p>}
-      <ImageAttribution image={img} neutralSourceLabel={neutralSourceLabel} />
+      <ImageAttribution image={img} neutralSourceLabel={neutralSourceLabel} hidePublicationTitle={hidePublicationTitle} />
     </div>
   );
 }
@@ -240,7 +240,7 @@ function AttributionLink({ url, className, dir, children }) {
   ) : <span className={className} dir={dir}>{children}</span>;
 }
 
-function ImageAttribution({ image, neutralSourceLabel }) {
+function ImageAttribution({ image, neutralSourceLabel, hidePublicationTitle }) {
   const credit = image.rightsCredit;
   if (!credit) {
     const line = [image.source, image.attribution].filter(Boolean).join(" — ");
@@ -276,7 +276,7 @@ function ImageAttribution({ image, neutralSourceLabel }) {
         </AttributionLink>
       </p>
       {credit.publication && (
-        <p dir="ltr"><AttributionLink url={credit.sourceUrl}>{credit.publication}</AttributionLink></p>
+        <p dir="ltr"><AttributionLink url={credit.sourceUrl}>{hidePublicationTitle ? "ارجاع انتشار اصلی" : credit.publication}</AttributionLink></p>
       )}
       {credit.processing?.notice_fa && <p>{credit.processing.notice_fa}</p>}
     </div>

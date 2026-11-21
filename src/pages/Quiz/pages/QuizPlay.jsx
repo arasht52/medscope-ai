@@ -1,3 +1,4 @@
+import { AcademicQuizQuestion, academicQuizMeta } from "../components/AcademicQuiz.jsx";
 import { useEffect, useLayoutEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import PageHeader from "../../../shared/components/PageHeader";
@@ -19,7 +20,7 @@ import "./QuizPlay.css";
  * @param {string} resultPath - route to navigate to once the quiz is finished
  * @param {string} homePath - route to go back to (QuizHome)
  */
-export default function QuizPlay({ title, questions, resultPath, homePath, scrollOnAdvance = false }) {
+export default function QuizPlay({ title, questions, resultPath, homePath, scrollOnAdvance = false, academicPrototype = true }) {
   return (
     <QuizAttempt
       key={resultPath}
@@ -28,19 +29,20 @@ export default function QuizPlay({ title, questions, resultPath, homePath, scrol
       resultPath={resultPath}
       homePath={homePath}
       scrollOnAdvance={scrollOnAdvance}
+      academicPrototype={academicPrototype}
     />
   );
 }
 
-function QuizAttempt({ title, questions, resultPath, homePath, scrollOnAdvance }) {
+function QuizAttempt({ title, questions, resultPath, homePath, scrollOnAdvance, academicPrototype }) {
   const navigate = useNavigate();
   const quiz = useQuiz(questions);
 
   useLayoutEffect(() => {
-    if (scrollOnAdvance && quiz.currentIndex > 0) {
+    if ((scrollOnAdvance || (academicPrototype && academicQuizMeta(resultPath))) && quiz.currentIndex > 0) {
       window.scrollTo({ top: 0, behavior: "instant" });
     }
-  }, [scrollOnAdvance, quiz.currentIndex]);
+  }, [scrollOnAdvance, academicPrototype, resultPath, quiz.currentIndex]);
 
   useEffect(() => {
     if (quiz.finished) {
@@ -68,6 +70,8 @@ function QuizAttempt({ title, questions, resultPath, homePath, scrollOnAdvance }
       </div>
     );
   }
+
+  if (academicPrototype && academicQuizMeta(resultPath)) return <AcademicQuizQuestion key={quiz.currentQuestion.id} quiz={quiz} homePath={homePath} meta={academicQuizMeta(resultPath)}/>;
 
   return (
     <div className="quiz-play">

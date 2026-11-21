@@ -15,7 +15,7 @@ const STATE_SR_TEXT = {
   "correct-unselected": " (پاسخ صحیح)",
 };
 
-export default function AnswerOption({ option, state, onSelect, disabled }) {
+export default function AnswerOption({ option, state, onSelect, disabled, selectable = false, showStateLabel = false }) {
   // state: "idle" | "selected-correct" | "selected-wrong" | "correct-unselected" | "muted"
   const srText = STATE_SR_TEXT[state];
 
@@ -25,11 +25,13 @@ export default function AnswerOption({ option, state, onSelect, disabled }) {
       className={`answer-option answer-option--${state}`}
       onClick={() => onSelect(option.id)}
       disabled={disabled}
+      aria-pressed={selectable ? state === "pending" : undefined}
     >
       <span className="answer-option__text_fa">{option.text_fa}</span>
       {option.text_en && (
         <span className="answer-option__text_en ltr-term">{option.text_en}</span>
       )}
+      {showStateLabel && srText && <span className="answer-option__feedback-label" aria-hidden="true">{srText}</span>}
       {srText && <span className="sr-only">{srText}</span>}
     </button>
   );

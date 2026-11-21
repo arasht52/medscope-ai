@@ -1,3 +1,4 @@
+import { AcademicQuizResults, academicQuizMeta } from "../components/AcademicQuiz.jsx";
 import { useLocation, useNavigate } from "react-router-dom";
 import PageHeader from "../../../shared/components/PageHeader";
 import Button from "../../../shared/components/Button";
@@ -35,6 +36,8 @@ export default function QuizResult() {
   // instead of a binary histology/pharmacology check that had already
   // gone stale once Pathology was added.
   const retakePath = location.pathname.replace(/\/result$/, "");
+
+  if (academicQuizMeta(location.pathname)) return <AcademicQuizResults meta={academicQuizMeta(location.pathname)} state={state} onBack={() => navigate("/quiz")} onRetry={() => navigate(retakePath)}/>;
 
   return (
     <div className="quiz-result">

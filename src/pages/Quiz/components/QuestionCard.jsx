@@ -1,7 +1,13 @@
+import { shouldShowQuizImage } from "./quizImagePresentation.js";
 import Card from "../../../shared/components/Card";
 import ImageViewer from "../../../shared/components/ImageViewer";
 import AnswerOption from "./AnswerOption";
 import "./QuestionCard.css";
+
+function AcademicQuestionText({ text }) {
+  return String(text).split(/([A-Za-z][A-Za-z0-9+\/−-]*(?: [A-Za-z][A-Za-z0-9+\/−-]*)*)/g).map((part, i) =>
+    /[A-Za-z]/.test(part) ? <bdi key={i} dir="ltr">{part}</bdi> : part);
+}
 
 /**
  * Resolve a question's image into the safe `image` schema. New questions carry
@@ -38,7 +44,7 @@ function resolveQuestionImage(question) {
  * @param {number} index - zero-based question index
  * @param {number} total - total question count
  */
-export default function QuestionCard({ question, selectedOptionId, onSelect, index, total }) {
+export default function QuestionCard({ question, selectedOptionId, onSelect, index, total, pendingOptionId, academic = false, feedback = null }) {
   const hasAnswered = selectedOptionId !== undefined;
   const originalImage = resolveQuestionImage(question);
   const questionImage = originalImage && !hasAnswered
@@ -46,7 +52,7 @@ export default function QuestionCard({ question, selectedOptionId, onSelect, ind
     : originalImage;
 
   function getState(option) {
-    if (!hasAnswered) return "idle";
+    if (!hasAnswered) return option.id === pendingOptionId ? "pending" : "idle";
     const isCorrect = option.id === question.correctOptionId;
     const isSelected = option.id === selectedOptionId;
     if (isSelected && isCorrect) return "selected-correct";
@@ -60,24 +66,25 @@ export default function QuestionCard({ question, selectedOptionId, onSelect, ind
       <div className="question-card__meta">
         سوال {index + 1} از {total}
       </div>
-      {(!questionImage || hasAnswered) && (question.topicTitleEn || question.drugTitleEn) && (
+      {(hasAnswered || (!academic && !questionImage)) && (question.topicTitleEn || question.drugTitleEn) && (
         <div className="question-card__topic ltr-term">
           {question.topicTitleEn || question.drugTitleEn}
         </div>
       )}
 
-      {questionImage && (
+      {shouldShowQuizImage(question, originalImage, hasAnswered) && (
         <div className="question-card__image-wrap">
           <ImageViewer
             image={questionImage}
             titleEn={hasAnswered ? question.topicTitleEn || question.drugTitleEn || "" : ""}
             neutralSourceLabel={!hasAnswered}
+            hidePublicationTitle={academic && !hasAnswered}
             compact
           />
         </div>
       )}
 
-      <h2 className="question-card__question">{question.question_fa}</h2>
+      <h2 className="question-card__question">{academic ? <AcademicQuestionText text={question.question_fa}/> : question.question_fa}</h2>
 
       <div className="question-card__options">
         {question.options.map((option) => (
@@ -87,14 +94,17 @@ export default function QuestionCard({ question, selectedOptionId, onSelect, ind
             state={getState(option)}
             onSelect={onSelect}
             disabled={hasAnswered}
+            selectable={academic}
+            showStateLabel={academic}
           />
         ))}
       </div>
 
+      {feedback}
       {hasAnswered && (
         <div className="question-card__explanation">
           <strong>توضیح: </strong>
-          {question.explanation_fa}
+          {academic ? <AcademicQuestionText text={question.explanation_fa}/> : question.explanation_fa}
         </div>
       )}
     </Card>

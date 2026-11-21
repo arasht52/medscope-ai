@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 
+import QuizRouteSafety from "./pages/Quiz/components/QuizRouteSafety.jsx";
 import BottomNav from "./shared/components/BottomNav.jsx";
 import RouteFallback from "./shared/components/RouteFallback.jsx";
 
@@ -53,7 +54,7 @@ function AppShell() {
     <div className="app-shell">
       <div className="app-shell__content">
         <Suspense fallback={<RouteFallback />}>
-          <Routes>
+          <QuizRouteSafety><Routes>
             <Route path="/" element={<Home />} />
             <Route path="/subjects" element={<Subjects />} />
 
@@ -83,7 +84,7 @@ function AppShell() {
             <Route path="/settings" element={<Settings />} />
 
             <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
+          </Routes></QuizRouteSafety>
         </Suspense>
       </div>
 

@@ -28,6 +28,8 @@ export default function PathologyImageQuiz() {
       questions={questions}
       resultPath="/quiz/pathology-image/result"
       homePath="/quiz"
+      academicPrototype
+      scrollOnAdvance
     />
   );
 }
