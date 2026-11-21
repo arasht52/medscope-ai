@@ -1,0 +1,8 @@
+.app-error-boundary{min-height:100dvh;display:grid;align-items:center;padding:24px 20px;background:#f6f5f1;color:#183347;overflow-wrap:anywhere}
+.app-error-boundary>section{width:100%;max-width:440px;margin-inline:auto}
+.app-error-boundary h1{font-size:23px;line-height:1.8;letter-spacing:0}
+.app-error-boundary p{font-size:16px;line-height:2;margin-top:16px;color:#5a6871}
+.app-error-boundary__actions{display:grid;gap:12px;margin-top:28px}
+.app-error-boundary .ms-btn{min-height:48px;border-radius:8px;background:#126b67;color:#fffefa}
+.app-error-boundary .ms-btn--ghost{background:transparent;color:#183347;border-color:#b7c9c4}
+.app-error-boundary h1:focus-visible{outline:2px solid #126b67;outline-offset:5px}

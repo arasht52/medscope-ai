@@ -1,6 +1,7 @@
 import React, { act, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { MemoryGameBoard } from "../src/pages/Game/MemoryGamePlay.jsx";
+import { approvedPathologyQuizImages } from "../src/shared/lib/pathologyQuizImages.js";
 import { buildDeck, getSubjectMeta } from "../src/pages/Game/gameDeck.js";
 
 const root = createRoot(document.getElementById("root"));
@@ -41,7 +42,7 @@ window.runMemoryGameEmptyTests = () => {
       check(active.size===1,"nonempty pool should have one timer");
       const cards=[...document.querySelectorAll('.game-card')];
       check(cards.length===count*2,"invalid pair count");
-      check([...document.querySelectorAll('.game-card img')].every(i=>i.getAttribute('src')?.endsWith('-photo.jpg')),"blank image card");
+      check([...document.querySelectorAll('.game-card img')].every(i=>approvedPathologyQuizImages.includes(i.getAttribute('src'))),"blank image card");
       act(()=>[...active.values()].forEach(fn=>fn()));
       check(document.querySelector('.game-play__stats').textContent.includes('0:01'),"timer did not tick");
       click(cards[0]);click(cards[1]);

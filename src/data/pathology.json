@@ -460,12 +460,12 @@
       "exam_tips": [
         "سل ثانویه معمولاً در آپکس (لوب فوقانی) ریه فعال می‌شود؛ نکته‌ی کلاسیک امتحانی"
       ],
-      "image_url": "/images/pathology/pulmonary-tuberculosis-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-026.jpg",
       "image_caption": "گرانولوم نکروزکننده در نمونهٔ گزارش‌شدهٔ سل ریوی؛ H&E. این نما به‌تنهایی عامل را تأیید نمی‌کند.",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/pulmonary-tuberculosis-photo.jpg",
+          "url": "/images/pathology/pathology-img-026.jpg",
           "caption": "گرانولوم نکروزکننده در نمونهٔ گزارش‌شدهٔ سل ریوی؛ H&E. این نما به‌تنهایی عامل را تأیید نمی‌کند.",
           "magnification": "medium",
           "stain": "H&E",
@@ -482,7 +482,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/pulmonary-tuberculosis-photo.jpg",
+        "url": "/images/pathology/pathology-img-026.jpg",
         "alt": "گرانولوم نکروزکننده در نمونهٔ گزارش‌شدهٔ سل ریوی؛ H&E. این نما به‌تنهایی عامل را تأیید نمی‌کند.",
         "type": "real_slide",
         "magnification": "medium",
@@ -673,12 +673,12 @@
       "exam_tips": [
         "سیروز = فیبروز منتشر همراه با بازآرایی ندولار پارانشیم. پسرفت بافتی در برخی زمینه‌ها ممکن است"
       ],
-      "image_url": "/images/pathology/cirrhosis-of-liver-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-006.jpg",
       "image_caption": "سیروز کبد — ندول‌های رژنراتیو و فیبروز (تری‌کروم، عکس واقعی)",
       "stain": "Trichrome",
       "images": [
         {
-          "url": "/images/pathology/cirrhosis-of-liver-photo.jpg",
+          "url": "/images/pathology/pathology-img-006.jpg",
           "caption": "سیروز کبد — ندول‌های رژنراتیو و فیبروز (تری‌کروم، عکس واقعی)",
           "magnification": "low",
           "stain": "Trichrome",
@@ -695,7 +695,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/cirrhosis-of-liver-photo.jpg",
+        "url": "/images/pathology/pathology-img-006.jpg",
         "alt": "سیروز کبد — ندول‌های رژنراتیو احاطه‌شده با باندهای فیبروز؛ رنگ‌آمیزی تری‌کروم",
         "type": "real_slide",
         "magnification": "low",
@@ -904,12 +904,12 @@
       "exam_tips": [
         "تمایل کارسینوم سلول کلیوی به رشد درون ورید کلیوی و حتی ورید اجوف تحتانی، نکته‌ی کلاسیک امتحانی است"
       ],
-      "image_url": "/images/pathology/renal-cell-carcinoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-028.jpg",
       "image_caption": "کارسینوم سلول کلیوی (clear cell) — عکس واقعی، H&E",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/renal-cell-carcinoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-028.jpg",
           "caption": "کارسینوم سلول کلیوی (clear cell) — عکس واقعی، H&E",
           "magnification": "medium",
           "stain": "H&E",
@@ -926,7 +926,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/renal-cell-carcinoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-028.jpg",
         "alt": "کارسینوم سلول کلیوی نوع clear cell — سلول‌های با سیتوپلاسم روشن؛ H&E",
         "type": "real_slide",
         "magnification": "medium",
@@ -968,12 +968,12 @@
       "exam_tips": [
         "اگزوفتالموس = نکته‌ی کلیدی برای افتراق گریوز از سایر علل پرکاری تیروئید"
       ],
-      "image_url": "/images/pathology/graves-disease-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-015.jpg",
       "image_caption": "بیماری گریوز — هایپرپلازی فولیکولی و کولوئید اسکالوپ (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/graves-disease-photo.jpg",
+          "url": "/images/pathology/pathology-img-015.jpg",
           "caption": "بیماری گریوز — هایپرپلازی فولیکولی و کولوئید اسکالوپ (عکس واقعی، H&E)",
           "magnification": "high",
           "stain": "H&E",
@@ -990,7 +990,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/graves-disease-photo.jpg",
+        "url": "/images/pathology/pathology-img-015.jpg",
         "alt": "بیماری گریوز — فولیکول‌های هایپرپلاستیک با کولوئید اسکالوپ‌شده و سلول‌های بلند؛ H&E",
         "type": "real_slide",
         "magnification": "high",
@@ -1294,12 +1294,12 @@
       "exam_tips": [
         "شایع‌ترین محل استئوسارکوم، متافیز دیستال فمور و پروگزیمال تیبیا (اطراف زانو) است"
       ],
-      "image_url": "/images/pathology/osteosarcoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-022.jpg",
       "image_caption": "استئوسارکوم — تولید استئوئید توسط سلول بدخیم (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/osteosarcoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-022.jpg",
           "caption": "استئوسارکوم — تولید استئوئید توسط سلول بدخیم (عکس واقعی، H&E)",
           "magnification": "high",
           "stain": "H&E",
@@ -1316,7 +1316,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/osteosarcoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-022.jpg",
         "alt": "استئوسارکوم — سلول‌های بدخیم که استئوئید تولید می‌کنند؛ H&E",
         "type": "real_slide",
         "magnification": "high",
@@ -2169,12 +2169,12 @@
       "exam_tips": [
         "قانون 10s: ۱۰٪ خارج آدرنال، ۱۰٪ دوطرفه، ۱۰٪ بدخیم، ۱۰٪ بدون فشار خون، ۱۰٪ خانوادگی — یک نکته بسیار پرتکرار در امتحانات"
       ],
-      "image_url": "/images/pathology/pheochromocytoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-024.jpg",
       "image_caption": "فئوکروموسیتوما — الگوی Zellballen (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/pheochromocytoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-024.jpg",
           "caption": "فئوکروموسیتوما — الگوی Zellballen (عکس واقعی، H&E)",
           "magnification": "high",
           "stain": "H&E",
@@ -2191,7 +2191,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/pheochromocytoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-024.jpg",
         "alt": "فئوکروموسیتوما — الگوی «Zellballen» (لانه‌ای)؛ H&E",
         "type": "real_slide",
         "magnification": "high",
@@ -2773,12 +2773,12 @@
       "exam_tips": [
         "سمینوما رادیوسنسیتیو و کموسنسیتیو است و بهترین پیش‌آگهی را در بین تومورهای ژرم‌سل دارد"
       ],
-      "image_url": "/images/pathology/seminoma-embryonal-carcinoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-029.jpg",
       "image_caption": "سمینوما — سلول‌های یکنواخت + استرومای لنفوسیتی (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/seminoma-embryonal-carcinoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-029.jpg",
           "caption": "سمینوما — سلول‌های یکنواخت + استرومای لنفوسیتی (عکس واقعی، H&E)",
           "magnification": "medium",
           "stain": "H&E",
@@ -2795,7 +2795,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/seminoma-embryonal-carcinoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-029.jpg",
         "alt": "سمینوما — صفحات سلول‌های بزرگ یکنواخت با استرومای لنفوسیتی؛ H&E",
         "type": "real_slide",
         "magnification": "medium",
@@ -2964,12 +2964,12 @@
       "exam_tips": [
         "هر چهار درجه از یک طیف واحدند: آستروسیتومای منتشر (II) → آناپلاستیک (III) → گلیوبلاستوما (IV)؛ نوع پیلوسیتیک (I) یک مسیر کاملاً جدا و نسبتاً خوش‌خیم در کودکان است"
       ],
-      "image_url": "/images/pathology/astrocytoma-glioblastoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-002.jpg",
       "image_caption": "گلیوبلاستوما — پلئومورفیسم سلولی (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/astrocytoma-glioblastoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-002.jpg",
           "caption": "گلیوبلاستوما — پلئومورفیسم سلولی (عکس واقعی، H&E)",
           "magnification": "high",
           "stain": "H&E",
@@ -2986,7 +2986,7 @@
       ],
       "magnification": "100x",
       "image": {
-        "url": "/images/pathology/astrocytoma-glioblastoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-002.jpg",
         "alt": "گلیوبلاستوما — سلول‌های پلئومورف با آتیپی بارز؛ H&E",
         "type": "real_slide",
         "magnification": "high",
@@ -3034,12 +3034,12 @@
       "exam_tips": [
         "اجسام پساموما را هم در مننژیوما و هم در برخی کارسینوم‌های پاپیلاری (مثل تیروئید) می‌بینید — ساختار مشترک ولی زمینه‌ی بافتی کاملاً متفاوت"
       ],
-      "image_url": "/images/pathology/meningioma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-019.jpg",
       "image_caption": "مننژیوما — الگوی گردابی و اجسام پسامومایی (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/meningioma-photo.jpg",
+          "url": "/images/pathology/pathology-img-019.jpg",
           "caption": "مننژیوما — الگوی گردابی و اجسام پسامومایی (عکس واقعی، H&E)",
           "magnification": "high",
           "stain": "H&E",
@@ -3056,7 +3056,7 @@
       ],
       "magnification": "200x",
       "image": {
-        "url": "/images/pathology/meningioma-photo.jpg",
+        "url": "/images/pathology/pathology-img-019.jpg",
         "alt": "مننژیوما — الگوی گردابی (whorls) و اجسام پسامومایی؛ H&E",
         "type": "real_slide",
         "magnification": "high",
@@ -3103,12 +3103,12 @@
       "exam_tips": [
         "در کودک با علائم مخچه‌ای و فشار بالای داخل‌جمجمه‌ای، مدولوبلاستوما را در تشخیص افتراقی قرار دهید"
       ],
-      "image_url": "/images/pathology/medulloblastoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-018.jpg",
       "image_caption": "مدولوبلاستوما با ساختارهای روزتی؛ H&E.",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/medulloblastoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-018.jpg",
           "caption": "مدولوبلاستوما با ساختارهای روزتی؛ H&E.",
           "magnification": "high",
           "stain": "H&E",
@@ -3125,7 +3125,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/medulloblastoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-018.jpg",
         "alt": "مدولوبلاستوما با ساختارهای روزتی؛ H&E.",
         "type": "real_slide",
         "magnification": "high",
@@ -3312,12 +3312,12 @@
       "exam_tips": [
         "Aβ = پلاک خارج‌سلولی (از APP) | تاو = تار داخل‌سلولی (هیپرفسفریله)؛ این دو خط را هیچ‌وقت جا‌به‌جا نکنید"
       ],
-      "image_url": "/images/pathology/alzheimer-disease-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-001.jpg",
       "image_caption": "آلزایمر — تنگل‌های نوروفیبریلاری (رنگ نقره Gallyas، عکس واقعی)",
       "stain": "Gallyas silver",
       "images": [
         {
-          "url": "/images/pathology/alzheimer-disease-photo.jpg",
+          "url": "/images/pathology/pathology-img-001.jpg",
           "caption": "آلزایمر — تنگل‌های نوروفیبریلاری (رنگ نقره Gallyas، عکس واقعی)",
           "magnification": "high",
           "stain": "Gallyas silver",
@@ -3334,7 +3334,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/alzheimer-disease-photo.jpg",
+        "url": "/images/pathology/pathology-img-001.jpg",
         "alt": "آلزایمر — تنگل‌های نوروفیبریلاری در هیپوکامپ؛ رنگ‌آمیزی نقره‌ی Gallyas",
         "type": "real_slide",
         "magnification": "high",
@@ -3398,12 +3398,12 @@
       "exam_tips": [
         "↓نورون‌های ساب‌استانسیا نیگرا → ↓دوپامین → ↓توانایی حرکتی؛ این زنجیره را برای پاتوژنز پارکینسون به‌خاطر بسپارید"
       ],
-      "image_url": "/images/pathology/parkinson-disease-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-023.jpg",
       "image_caption": "اجسام لوی در نمونهٔ اتوپسی قشر فرونتال از مورد دمانس با اجسام لوی (DLB)؛ H&E. این مورفولوژی در بیماری پارکینسون نیز دیده می‌شود.",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/parkinson-disease-photo.jpg",
+          "url": "/images/pathology/pathology-img-023.jpg",
           "caption": "اجسام لوی در نمونهٔ اتوپسی قشر فرونتال از مورد دمانس با اجسام لوی (DLB)؛ H&E. این مورفولوژی در بیماری پارکینسون نیز دیده می‌شود.",
           "magnification": "high",
           "stain": "H&E",
@@ -3420,7 +3420,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/parkinson-disease-photo.jpg",
+        "url": "/images/pathology/pathology-img-023.jpg",
         "alt": "اجسام لوی در نمونهٔ اتوپسی قشر فرونتال از مورد دمانس با اجسام لوی (DLB)؛ H&E. این مورفولوژی در بیماری پارکینسون نیز دیده می‌شود.",
         "type": "real_slide",
         "magnification": "high",
@@ -3738,12 +3738,12 @@
       "exam_tips": [
         "هیپرگاسترینمی + آنمی پرنیشیوز + آنتی‌بادی پاریتال = گاستریت اتوایمیون، نه H. pylori"
       ],
-      "image_url": "/images/pathology/gastritis-acute-chronic-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-013.jpg",
       "image_caption": "بیوپسی معده با الگوی التهابی به نفع گاستریت مرتبط با H. pylori؛ H&E.",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/gastritis-acute-chronic-photo.jpg",
+          "url": "/images/pathology/pathology-img-013.jpg",
           "caption": "بیوپسی معده با الگوی التهابی به نفع گاستریت مرتبط با H. pylori؛ H&E.",
           "magnification": "high",
           "stain": "H&E",
@@ -3761,7 +3761,7 @@
       "magnification": "200x",
       "subcategory_fa": "معده",
       "image": {
-        "url": "/images/pathology/gastritis-acute-chronic-photo.jpg",
+        "url": "/images/pathology/pathology-img-013.jpg",
         "alt": "بیوپسی معده با الگوی التهابی به نفع گاستریت مرتبط با H. pylori؛ H&E.",
         "type": "real_slide",
         "magnification": "high",
@@ -3827,12 +3827,12 @@
       "exam_tips": [
         "سلول حلقه‌نشان (signet-ring) = نوع دیفیوز؛ ساختار غده‌ای = نوع روده‌ای — این تمایز بافت‌شناسی کلیدی امتحانی است"
       ],
-      "image_url": "/images/pathology/gastric-carcinoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-012.jpg",
       "image_caption": "کارسینوم سلول انگشتری (signet ring) — عکس واقعی، H&E",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/gastric-carcinoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-012.jpg",
           "caption": "کارسینوم سلول انگشتری (signet ring) — عکس واقعی، H&E",
           "magnification": "high",
           "stain": "H&E",
@@ -3850,7 +3850,7 @@
       "magnification": "400x",
       "subcategory_fa": "معده",
       "image": {
-        "url": "/images/pathology/gastric-carcinoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-012.jpg",
         "alt": "کارسینوم سلول انگشتری (signet ring) — سلول‌هایی با موسین که هسته را به حاشیه رانده؛ H&E",
         "type": "real_slide",
         "magnification": "high",
@@ -3915,12 +3915,12 @@
       "exam_tips": [
         "باره‌ت = متاپلازی سنگفرشی به ستونی با سلول گابلت؛ این پیش‌ساز اصلی آدنوکارسینوم مری است، نه کارسینوم سنگفرشی"
       ],
-      "image_url": "/images/pathology/reflux-esophagitis-barrett-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-027.jpg",
       "image_caption": "مری بارت — سلول‌های جامی متاپلاستیک (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/reflux-esophagitis-barrett-photo.jpg",
+          "url": "/images/pathology/pathology-img-027.jpg",
           "caption": "مری بارت — سلول‌های جامی متاپلاستیک (عکس واقعی، H&E)",
           "magnification": "medium",
           "stain": "H&E",
@@ -3938,7 +3938,7 @@
       "magnification": "200x",
       "subcategory_fa": "مری",
       "image": {
-        "url": "/images/pathology/reflux-esophagitis-barrett-photo.jpg",
+        "url": "/images/pathology/pathology-img-027.jpg",
         "alt": "مری بارت — متاپلازی روده‌ای با سلول‌های جامی (goblet)؛ H&E",
         "type": "real_slide",
         "magnification": "medium",
@@ -4274,12 +4274,12 @@
       "exam_tips": [
         "برخی آدنوم‌های متعارف به آدنوکارسینوم پیشرفت می‌کنند. مسیر ضایعات دندانه‌دار (Serrated neoplasia pathway) نیز می‌تواند به سرطان کولورکتال منتهی شود."
       ],
-      "image_url": "/images/pathology/colorectal-adenocarcinoma-polyps-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-007.jpg",
       "image_caption": "آدنوکارسینوم کولورکتال با الگوی غده‌ای؛ H&E.",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/colorectal-adenocarcinoma-polyps-photo.jpg",
+          "url": "/images/pathology/pathology-img-007.jpg",
           "caption": "آدنوکارسینوم کولورکتال با الگوی غده‌ای؛ H&E.",
           "magnification": "medium",
           "stain": "H&E",
@@ -4297,7 +4297,7 @@
       "magnification": "100x",
       "subcategory_fa": "روده و کولون",
       "image": {
-        "url": "/images/pathology/colorectal-adenocarcinoma-polyps-photo.jpg",
+        "url": "/images/pathology/pathology-img-007.jpg",
         "alt": "آدنوکارسینوم کولورکتال با الگوی غده‌ای؛ H&E.",
         "type": "real_slide",
         "magnification": "medium",
@@ -5266,12 +5266,12 @@
       "exam_tips": [
         "هیپوتیروئیدی + گواتر بدون درد + آنتی‌بادی ضد TPO مثبت = هاشیموتو"
       ],
-      "image_url": "/images/pathology/hashimoto-thyroiditis-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-017.jpg",
       "image_caption": "تیروئیدیت هاشیموتو در نمای کم‌بزرگ‌نمایی: ارتشاح لنفوسیتی و فولیکول‌های لنفوئیدی؛ H&E.",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/hashimoto-thyroiditis-photo.jpg",
+          "url": "/images/pathology/pathology-img-017.jpg",
           "caption": "تیروئیدیت هاشیموتو در نمای کم‌بزرگ‌نمایی: ارتشاح لنفوسیتی و فولیکول‌های لنفوئیدی؛ H&E.",
           "magnification": "low",
           "stain": "H&E",
@@ -5288,7 +5288,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/hashimoto-thyroiditis-photo.jpg",
+        "url": "/images/pathology/pathology-img-017.jpg",
         "alt": "تیروئیدیت هاشیموتو در نمای کم‌بزرگ‌نمایی: ارتشاح لنفوسیتی و فولیکول‌های لنفوئیدی؛ H&E.",
         "type": "real_slide",
         "magnification": "low",
@@ -5856,12 +5856,12 @@
       "exam_tips": [
         "توده‌ی شکمی کودک + الگوی بافتی تری‌فازیک (بلاستم/اپیتلیوم/استروما) = تومور ویلمز"
       ],
-      "image_url": "/images/pathology/wilms-tumor-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-030.jpg",
       "image_caption": "تومور ویلمز — الگوی سه‌فازی (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/wilms-tumor-photo.jpg",
+          "url": "/images/pathology/pathology-img-030.jpg",
           "caption": "تومور ویلمز — الگوی سه‌فازی (عکس واقعی، H&E)",
           "magnification": "medium",
           "stain": "H&E",
@@ -5878,7 +5878,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/wilms-tumor-photo.jpg",
+        "url": "/images/pathology/pathology-img-030.jpg",
         "alt": "تومور ویلمز — الگوی سه‌فازی (بلاستما، اپیتلیال، استرومال)؛ H&E",
         "type": "real_slide",
         "magnification": "medium",
@@ -6345,12 +6345,12 @@
       "exam_tips": [
         "هیپرکلسمی + نارسایی کلیه + کم‌خونی + ضایعات استخوانی (CRAB) در سالمند = میلوم مولتیپل تا رد نشود"
       ],
-      "image_url": "/images/pathology/multiple-myeloma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-020.jpg",
       "image_caption": "سلول‌های پلاسما در اسمیر مغز استخوان بیمار مبتلا به مولتیپل میلوما.",
       "stain": null,
       "images": [
         {
-          "url": "/images/pathology/multiple-myeloma-photo.jpg",
+          "url": "/images/pathology/pathology-img-020.jpg",
           "caption": "سلول‌های پلاسما در اسمیر مغز استخوان بیمار مبتلا به مولتیپل میلوما.",
           "magnification": "high",
           "stain": null,
@@ -6367,7 +6367,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/multiple-myeloma-photo.jpg",
+        "url": "/images/pathology/pathology-img-020.jpg",
         "alt": "سلول‌های پلاسما در اسمیر مغز استخوان بیمار مبتلا به مولتیپل میلوما.",
         "type": "real_slide",
         "magnification": "high",
@@ -6499,12 +6499,12 @@
       "exam_tips": [
         "لنفوسیتوز بدون علامت در سالمند + سلول‌های لکه‌ای در اسمیر = CLL"
       ],
-      "image_url": "/images/pathology/chronic-lymphocytic-leukemia-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-005.jpg",
       "image_caption": "اسمیر خون محیطی در CLL: لنفوسیت‌های بالغ با کروماتین متراکم و ترک‌خورده؛ Wright–Giemsa.",
       "stain": "Wright-Giemsa",
       "images": [
         {
-          "url": "/images/pathology/chronic-lymphocytic-leukemia-photo.jpg",
+          "url": "/images/pathology/pathology-img-005.jpg",
           "caption": "اسمیر خون محیطی در CLL: لنفوسیت‌های بالغ با کروماتین متراکم و ترک‌خورده؛ Wright–Giemsa.",
           "magnification": "high",
           "stain": "Wright-Giemsa",
@@ -6521,7 +6521,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/chronic-lymphocytic-leukemia-photo.jpg",
+        "url": "/images/pathology/pathology-img-005.jpg",
         "alt": "اسمیر خون محیطی در CLL: لنفوسیت‌های بالغ با کروماتین متراکم و ترک‌خورده؛ Wright–Giemsa.",
         "type": "real_slide",
         "magnification": "high",
@@ -6787,12 +6787,12 @@
       ],
       "mnemonic": "«Follicular = 14-18، BCL2، آهسته (indolent)» — عدد ۱۴+۱۸ و مهار آپوپتوز توسط BCL2 را کنار هم به‌خاطر بسپار.",
       "quick_summary": "لنفوم فولیکولار دومین NHL شایع، ایندولنت و از سلول‌های مرکز زایای B است. مشخصه: t(14;18) و بیش‌بیانی BCL2 (مهار آپوپتوز)؛ الگوی ندولار یکنواخت با مرزهای نامشخص، درگیری پاراترابکولار مغز استخوان. با لنفادنوپاتی بدون‌درد تظاهر می‌کند، به درمان خوب پاسخ می‌دهد اما درمان قطعی دشوار است و می‌تواند به DLBCL تحول یابد.",
-      "image_url": "/images/pathology/follicular-lymphoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-011.jpg",
       "image_caption": "نمای کم‌بزرگ‌نمایی لنفوم سلول B کوچک با الگوی ندولار سازگار با لنفوم فولیکولار؛ H&E.",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/follicular-lymphoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-011.jpg",
           "caption": "نمای کم‌بزرگ‌نمایی لنفوم سلول B کوچک با الگوی ندولار سازگار با لنفوم فولیکولار؛ H&E.",
           "magnification": "low",
           "stain": "H&E",
@@ -6809,7 +6809,7 @@
       ],
       "magnification": "بزرگ‌نمایی کم",
       "image": {
-        "url": "/images/pathology/follicular-lymphoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-011.jpg",
         "alt": "نمای کم‌بزرگ‌نمایی لنفوم سلول B کوچک با الگوی ندولار سازگار با لنفوم فولیکولار؛ H&E.",
         "type": "real_slide",
         "magnification": "low",
@@ -6895,12 +6895,12 @@
       ],
       "mnemonic": "«بورکیت = 8-14، c-MYC، Starry sky، تکثیر بالا» — عدد ۸ (مثل بی‌نهایتِ خوابیده = رشد بی‌پایانِ سریع) را به c-MYC و آسمان پرستاره وصل کن.",
       "quick_summary": "Burkitt lymphoma یک لنفوم بسیار مهاجم سلول B با فعالیت تکثیری بسیار بالا است. بازآرایی MYC، اغلب به‌صورت t(8;14)، و الگوی Starry-sky از ویژگی‌های مهم آن هستند. فرم‌های اصلی شامل Endemic، Sporadic و Immunodeficiency-associated هستند.",
-      "image_url": "/images/pathology/burkitt-lymphoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-003.jpg",
       "image_caption": "لنفوم بورکیت، شکل ۲: پنل A الگوی Starry-sky در H&E ×200؛ پنل B رنگ‌آمیزی CD20، پنل C رنگ‌آمیزی c-MYC و پنل D هیبریداسیون درجا برای EBER.",
       "stain": "H&E / CD20 / c-MYC / EBER",
       "images": [
         {
-          "url": "/images/pathology/burkitt-lymphoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-003.jpg",
           "caption": "لنفوم بورکیت، شکل ۲: پنل A الگوی Starry-sky در H&E ×200؛ پنل B رنگ‌آمیزی CD20، پنل C رنگ‌آمیزی c-MYC و پنل D هیبریداسیون درجا برای EBER.",
           "magnification": null,
           "stain": "H&E / CD20 / c-MYC / EBER",
@@ -6917,7 +6917,7 @@
       ],
       "magnification": null,
       "image": {
-        "url": "/images/pathology/burkitt-lymphoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-003.jpg",
         "alt": "لنفوم بورکیت، شکل ۲: پنل A الگوی Starry-sky در H&E ×200؛ پنل B رنگ‌آمیزی CD20، پنل C رنگ‌آمیزی c-MYC و پنل D هیبریداسیون درجا برای EBER.",
         "type": "real_slide",
         "magnification": null,
@@ -7075,12 +7075,12 @@
       ],
       "mnemonic": "«Hairy = BRAF، dry tap، اسپلنِ بزرگ، بدون گره لنفاوی» — سلول مویی + کیناز BRAF + آسپیراسیون خشک.",
       "quick_summary": "لوسمی سلول مویی نئوپلاسم ایندولنت سلول B با سلول‌های دارای زوائد سیتوپلاسمی مومانند است. مشخصه: موتاسیون BRAF (>۹۰٪)، اسپلنومگالی ماسیو، پان‌سیتوپنی و «dry tap» (مغز غیرقابل‌آسپیره به‌علت فیبروز رتیکولین). لنفادنوپاتی معمولاً وجود ندارد. بیشتر در مردان سفیدپوست میانسال.",
-      "image_url": "/images/pathology/hairy-cell-leukemia-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-016.jpg",
       "image_caption": "لوسمی سلول مویی در مقطع مغز استخوان: سلول‌های کوچک با سیتوپلاسم روشن و هستهٔ گرد مرکزی (Fried-egg appearance)؛ H&E.",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/hairy-cell-leukemia-photo.jpg",
+          "url": "/images/pathology/pathology-img-016.jpg",
           "caption": "لوسمی سلول مویی در مقطع مغز استخوان: سلول‌های کوچک با سیتوپلاسم روشن و هستهٔ گرد مرکزی (Fried-egg appearance)؛ H&E.",
           "magnification": "high",
           "stain": "H&E",
@@ -7097,7 +7097,7 @@
       ],
       "magnification": "بزرگ‌نمایی زیاد",
       "image": {
-        "url": "/images/pathology/hairy-cell-leukemia-photo.jpg",
+        "url": "/images/pathology/pathology-img-016.jpg",
         "alt": "لوسمی سلول مویی در مقطع مغز استخوان: سلول‌های کوچک با سیتوپلاسم روشن و هستهٔ گرد مرکزی (Fried-egg appearance)؛ H&E.",
         "type": "real_slide",
         "magnification": "high",
@@ -7287,12 +7287,12 @@
       "exam_tips": [
         "کودک با درد استخوان دیافیزی + تب + الگوی پوست پیاز = سارکوم یووینگ را رد کنید قبل از فرض عفونت"
       ],
-      "image_url": "/images/pathology/ewing-sarcoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-010.jpg",
       "image_caption": "سارکوم یوینگ در نمونهٔ بافت ریه؛ سلول‌های گرد کوچک در رنگ‌آمیزی H&E.",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/ewing-sarcoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-010.jpg",
           "caption": "سارکوم یوینگ در نمونهٔ بافت ریه؛ سلول‌های گرد کوچک در رنگ‌آمیزی H&E.",
           "magnification": "high",
           "stain": "H&E",
@@ -7309,7 +7309,7 @@
       ],
       "magnification": "400x",
       "image": {
-        "url": "/images/pathology/ewing-sarcoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-010.jpg",
         "alt": "سارکوم یوینگ در نمونهٔ بافت ریه؛ سلول‌های گرد کوچک در رنگ‌آمیزی H&E.",
         "type": "real_slide",
         "magnification": "high",
@@ -8249,12 +8249,12 @@
       "exam_tips": [
         "آمفیزم پایه‌ی ریه + سن پایین + عدم سیگار = کمبود آلفا-۱-آنتی‌تریپسین تا رد نشود"
       ],
-      "image_url": "/images/pathology/copd-emphysema-chronic-bronchitis-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-008.jpg",
       "image_caption": "آمفیزم — گشادی فضاهای هوایی و تخریب سپتا (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/copd-emphysema-chronic-bronchitis-photo.jpg",
+          "url": "/images/pathology/pathology-img-008.jpg",
           "caption": "آمفیزم — گشادی فضاهای هوایی و تخریب سپتا (عکس واقعی، H&E)",
           "magnification": "low",
           "stain": "H&E",
@@ -8271,7 +8271,7 @@
       ],
       "magnification": "40x",
       "image": {
-        "url": "/images/pathology/copd-emphysema-chronic-bronchitis-photo.jpg",
+        "url": "/images/pathology/pathology-img-008.jpg",
         "alt": "آمفیزم — بزرگ‌شدن دائمی فضاهای هوایی و تخریب دیواره‌ی آلوئولی؛ H&E",
         "type": "real_slide",
         "magnification": "low",
@@ -8664,12 +8664,12 @@
       "exam_tips": [
         "یرقان انسدادی بدون درد + سابقه‌ی کولیت اولسراتیو/PSC = کلانژیوکارسینوما تا رد نشود"
       ],
-      "image_url": "/images/pathology/cholangiocarcinoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-004.jpg",
       "image_caption": "کلانژیوکارسینوم — غدد در استرومای دسموپلاستیک (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/cholangiocarcinoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-004.jpg",
           "caption": "کلانژیوکارسینوم — غدد در استرومای دسموپلاستیک (عکس واقعی، H&E)",
           "magnification": "medium",
           "stain": "H&E",
@@ -8686,7 +8686,7 @@
       ],
       "magnification": "100x",
       "image": {
-        "url": "/images/pathology/cholangiocarcinoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-004.jpg",
         "alt": "کلانژیوکارسینوم — غدد بدخیم در استرومای دسموپلاستیک متراکم؛ H&E",
         "type": "real_slide",
         "magnification": "medium",
@@ -9696,12 +9696,12 @@
       ],
       "mnemonic": "«Oligo = 1 و 9 (1p/19q)، تخم‌مرغ نیمرو، سنگی (کلسیفیه)» — معیار مولکولی: جهش IDH و حذف هم‌زمان بازوهای کامل 1p و 19q؛ fried-egg و کلسیفیکاسیون سرنخ‌های مورفولوژیک‌اند.",
       "quick_summary": "Oligodendroglioma, IDH-mutant and 1p/19q-codeleted یک گلیوم منتشر با معیارهای مولکولی مشخص است. ظاهر Fried-egg و کلسیفیکاسیون از سرنخ‌های مورفولوژیک‌اند، اما به‌تنهایی تشخیص را تعیین نمی‌کنند. تشنج از تظاهرات بالینی شناخته‌شده است.",
-      "image_url": "/images/pathology/oligodendroglioma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-021.jpg",
       "image_caption": "نمونهٔ تاریخی با برچسب الیگودندروگلیوما: هالهٔ روشن دور هسته (Fried-egg appearance) در H&E. تشخیص یکپارچه به تأیید جهش IDH و حذف هم‌زمان بازوهای کامل 1p/19q نیاز دارد.",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/oligodendroglioma-photo.jpg",
+          "url": "/images/pathology/pathology-img-021.jpg",
           "caption": "نمونهٔ تاریخی با برچسب الیگودندروگلیوما: هالهٔ روشن دور هسته (Fried-egg appearance) در H&E. تشخیص یکپارچه به تأیید جهش IDH و حذف هم‌زمان بازوهای کامل 1p/19q نیاز دارد.",
           "magnification": "high",
           "stain": "H&E",
@@ -9718,7 +9718,7 @@
       ],
       "magnification": "بزرگ‌نمایی زیاد",
       "image": {
-        "url": "/images/pathology/oligodendroglioma-photo.jpg",
+        "url": "/images/pathology/pathology-img-021.jpg",
         "alt": "نمونهٔ تاریخی با برچسب الیگودندروگلیوما: هالهٔ روشن دور هسته (Fried-egg appearance) در H&E. تشخیص یکپارچه به تأیید جهش IDH و حذف هم‌زمان بازوهای کامل 1p/19q نیاز دارد.",
         "type": "real_slide",
         "magnification": "high",
@@ -9802,12 +9802,12 @@
       ],
       "mnemonic": "«اپاندیموما = Ependyma → بطن چهارم (کودک) / نخاع (بالغ)، پزودوروزتِ اطرافِ عروق» — و هیدروسفالی به‌علت انسداد بطن چهارم.",
       "quick_summary": "اپاندیموما گلیومی از سلول‌های اپاندیمال است؛ در کودکان نزدیک بطن چهارم (با هیدروسفالی) و در بالغین در نخاع (مرتبط با NF2). یافته‌ی مشخصه، پزودوروزت اطراف عروقی است. اکثراً WHO II؛ رزکسیون کامل پیش‌آگهی را به‌طور چشمگیر بهتر می‌کند.",
-      "image_url": "/images/pathology/ependymoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-009.jpg",
       "image_caption": "اپاندیموما — پزودوروزت اطراف عروقی (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/ependymoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-009.jpg",
           "caption": "اپاندیموما — پزودوروزت اطراف عروقی (عکس واقعی، H&E)",
           "magnification": "high",
           "stain": "H&E",
@@ -9824,7 +9824,7 @@
       ],
       "magnification": "بزرگ‌نمایی زیاد",
       "image": {
-        "url": "/images/pathology/ependymoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-009.jpg",
         "alt": "اپاندیموما — پزودوروزت اطراف عروقی؛ H&E",
         "type": "real_slide",
         "magnification": "high",
@@ -10059,12 +10059,12 @@
       ],
       "mnemonic": "«COMplete = COMpletely paternal» — مول کامل کاملاً پدری است (۴۶,XX)، جنین ندارد و همان است که به کوریوکارسینوما تبدیل می‌شود؛ Partial = دو اسپرم، تری‌پلوئید، جنین دارد.",
       "quick_summary": "GTD طیف تکثیر تروفوبلاست است. مول کامل (تماماً پدری، بدون جنین، snowstorm، hCG بسیار بالا) خطر تبدیل به کوریوکارسینوما دارد؛ مول پارشیال (تری‌پلوئید، جنین حاضر) ندارد. کوریوکارسینوما بدخیم و سریعاً متاستازدهنده اما بسیار پاسخ‌ده به شیمی‌درمانی است. hCG نشانگر کلیدی تشخیص و پیگیری است.",
-      "image_url": "/images/pathology/gestational-trophoblastic-disease-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-014.jpg",
       "image_caption": "مول هیداتیفرم کامل — پرزهای هیدروپیک متورم (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/gestational-trophoblastic-disease-photo.jpg",
+          "url": "/images/pathology/pathology-img-014.jpg",
           "caption": "مول هیداتیفرم کامل — پرزهای هیدروپیک متورم (عکس واقعی، H&E)",
           "magnification": "—",
           "stain": "H&E",
@@ -10081,7 +10081,7 @@
       ],
       "magnification": "گراس",
       "image": {
-        "url": "/images/pathology/gestational-trophoblastic-disease-photo.jpg",
+        "url": "/images/pathology/pathology-img-014.jpg",
         "alt": "مول هیداتیفرم کامل — پرزهای کوریونی متورم (هیدروپیک) با ادم بارز؛ H&E",
         "type": "real_slide",
         "magnification": null,
@@ -10248,12 +10248,12 @@
       ],
       "mnemonic": "«Peripheral zone, no Basal layer, Perineural, osteoBlastic» — چهار P/B کلیدی: منشأ محیطی، فقدان لایه‌ی بازال، تهاجم پری‌نورال و متاستاز استئوبلاستیک.",
       "quick_summary": "آدنوکارسینوم پروستات از زون محیطی برمی‌خیزد (برخلاف BPH که زون گذاری). بافت‌شناسی: غدد کوچک بدون لایه‌ی بازال، تهاجم پری‌نورال. آندروژن‌محور است؛ متاستاز استخوانی استئوبلاستیک تیپیک است. گریدینگ با Gleason. PSA اختصاصی عضو است نه سرطان. علائم ادراری دیررس‌اند چون تومور محیطی است.",
-      "image_url": "/images/pathology/prostatic-adenocarcinoma-photo.jpg",
+      "image_url": "/images/pathology/pathology-img-025.jpg",
       "image_caption": "آدنوکارسینوم پروستات — تهاجم پری‌نورال (عکس واقعی، H&E)",
       "stain": "H&E",
       "images": [
         {
-          "url": "/images/pathology/prostatic-adenocarcinoma-photo.jpg",
+          "url": "/images/pathology/pathology-img-025.jpg",
           "caption": "آدنوکارسینوم پروستات — تهاجم پری‌نورال (عکس واقعی، H&E)",
           "magnification": "high",
           "stain": "H&E",
@@ -10270,7 +10270,7 @@
       ],
       "magnification": "گراس",
       "image": {
-        "url": "/images/pathology/prostatic-adenocarcinoma-photo.jpg",
+        "url": "/images/pathology/pathology-img-025.jpg",
         "alt": "آدنوکارسینوم پروستات — تهاجم پری‌نورال محیطی؛ H&E",
         "type": "real_slide",
         "magnification": "high",
