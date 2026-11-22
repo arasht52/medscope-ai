@@ -38,7 +38,7 @@ function AvailableHistologyImageQuiz() {
 export default function HistologyImageQuiz() {
   const navigate = useNavigate();
   return (
-    <div className="quiz-play" dir="rtl">
+    <div className="quiz-play academic-standard" dir="rtl">
       <PageHeader title="آزمون تصویری بافت‌شناسی" onBack={() => navigate("/quiz")} />
       <p role="status">آزمون تصویری بافت‌شناسی تا آماده‌شدن تصاویر مناسب و تأییدشده موقتاً در دسترس نیست.</p>
       <Button onClick={() => navigate("/quiz")}>بازگشت به آزمون‌ها</Button>

@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import PageHeader from "../../shared/components/PageHeader";
 import Card from "../../shared/components/Card";
+import AcademicPageHeading from "../../shared/components/AcademicPageHeading.jsx";
+import MedicalIcon from "../../shared/components/MedicalIcon.jsx";
 import { SUBJECTS } from "./gameDeck";
 import { getGameBest } from "../../shared/lib/storage";
 import "./GameHome.css";
@@ -16,8 +17,8 @@ export default function GameHome() {
   const navigate = useNavigate();
 
   return (
-    <div className="page">
-      <PageHeader title="بازی حافظه" />
+    <div className="page academic-standard">
+      <AcademicPageHeading icon="memory" title="بازی حافظه" />
       <p className="game-home__intro">
         کارت‌ها را برگردان و جفت‌های درست را پیدا کن — یک راه سریع و سرگرم‌کننده برای مرور نکته‌های درسی.
       </p>
@@ -31,12 +32,13 @@ export default function GameHome() {
               className="game-home__item"
               onClick={() => navigate(`/game/${s.id}`)}
             >
+              <MedicalIcon className="game-home__icon" name={s.id} size={48} />
               <div className="game-home__title">{s.label_fa}</div>
               <div className="game-home__subtitle ltr-term">{s.label_en}</div>
               <div className="game-home__desc">{s.description_fa}</div>
               {best && (
                 <div className="game-home__best">
-                  🏆 بهترین رکورد: {best.moves} حرکت · {formatTime(best.seconds)}
+                  بهترین رکورد: {best.moves} حرکت · {formatTime(best.seconds)}
                 </div>
               )}
             </Card>

@@ -35,7 +35,7 @@ export default function DrugDetail() {
 
   if (!drug) {
     return (
-      <div className="page">
+      <div className="page academic-standard">
         <EmptyState
           icon="❓"
           title="این دارو پیدا نشد"

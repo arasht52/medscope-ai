@@ -33,7 +33,7 @@ export default function HistologyDetail({ itemId, onBack }) {
 
   if (!item) {
     return (
-      <div className="histology-detail">
+      <div className="histology-detail academic-standard">
         <Header title="جزئیات بافت" onBack={onBack} />
         <EmptyState title="موردی یافت نشد" description="این مورد در دیتاست هیستولوژی موجود نیست." />
       </div>

@@ -1,0 +1,192 @@
+/* Phase 3.5: adapt legacy templates to the approved academic visual language.
+   Explicit opt-in only. Home, study layouts and AcademicQuiz are not targets.
+   Higher scoped specificity also makes lazy CSS import order immaterial. */
+.app-shell .academic-standard {
+  --color-primary: #126b67;
+  --color-primary-dark: #125f5b;
+  --color-secondary: #126b67;
+  --color-primary-soft: #eaf0eb;
+  --color-primary-tint: #eaf0eb;
+  --color-secondary-soft: #eaf0eb;
+  --color-secondary-tint: #eaf0eb;
+  --color-bg: #f6f5f1;
+  --color-surface: #fffefa;
+  --color-card: #fffefa;
+  --color-text: #183347;
+  --color-text-muted: #5a6871;
+  --color-border: #dce2df;
+  --color-path: #126b67;
+  --color-path-tint: #eaf0eb;
+  --color-game: #126b67;
+  --color-game-tint: #eaf0eb;
+  --radius-md: 9px;
+  --radius-lg: 12px;
+  --radius-card: 9px;
+  --shadow-card: none;
+  --set-primary: #126b67;
+  --set-bg: #f6f5f1;
+  --set-card-bg: #fffefa;
+  --set-text: #183347;
+  --set-text-muted: #5a6871;
+  --set-danger: #a33e43;
+  --set-radius: 9px;
+  width: 100%;
+  min-width: 0;
+  flex: 1;
+  margin-inline: auto;
+  padding: 24px 22px 32px;
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-family: var(--font-fa);
+  direction: rtl;
+  text-align: start;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.academic-standard *, .academic-standard *::before, .academic-standard *::after { min-width: 0; }
+.academic-standard :is(.en, .latin, .ltr-term, [dir="ltr"]) {
+  font-family: var(--font-en);
+  unicode-bidi: isolate;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.academic-standard :is(h1, h2, h3) { color: var(--color-text); line-height: 1.7; }
+.academic-standard h1 { font-size: 25px; }
+.academic-standard h2 { font-size: 18px; }
+.academic-standard :is(button, a, input, summary):focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+.academic-standard :is(.page-header, .app-header, .ms-header) {
+  position: static;
+  background: transparent;
+  padding: 0 0 20px;
+  margin: 0 0 20px;
+  border-bottom: 1px solid var(--color-border);
+}
+.academic-standard :is(.ms-header__title, .app-header__title, .page-title) { font-size: 23px; }
+.academic-standard .page-subtitle { font-size: 13px; margin-top: 4px; }
+.academic-page-heading { display: flex; align-items: center; gap: 14px; padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid var(--color-border); }
+.academic-page-heading > svg { flex-shrink: 0; }
+.academic-page-heading > div { flex: 1; }
+.academic-page-heading h1 { font-size: 25px; margin: 0; }
+.academic-page-heading p { font-size: 13px; color: var(--color-text-muted); margin-top: 3px; }
+.academic-standard :is(.ms-header__back, .app-header__back, .back-button) {
+  width: 44px; height: 44px; flex-shrink: 0;
+  border: 1px solid var(--color-border); border-radius: 8px;
+  color: var(--color-text); background: var(--color-surface); box-shadow: none;
+}
+.academic-standard :is(.ms-card, .card, .path-card, .list-item-card, .set-card, .review-card) {
+  border: 1px solid var(--color-border); border-radius: 9px;
+  background: var(--color-surface); box-shadow: none;
+}
+.academic-standard :is(.ms-card, .card, .path-card, .list-item-card):hover { box-shadow: none; }
+.academic-standard :is(.ms-btn, .set-btn) { min-height: 46px; border-radius: 7px; font-size: 14px; padding: 10px 16px; line-height: 1.8; white-space: normal; }
+.academic-standard .ms-btn--primary { background: var(--color-primary); color: #fffefa; }
+.academic-standard .ms-btn--secondary { background: var(--color-primary-tint); color: var(--color-primary-dark); border: 1px solid var(--color-border); }
+.academic-standard .ms-btn--ghost { border: 1px solid var(--color-border); }
+.academic-standard :is(.category-grid, .quiz-category-picker__grid) { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.academic-standard .category-grid__item {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 5px;
+  min-height: 90px; padding: 16px 12px;
+  border: 1px solid var(--color-border); border-radius: 9px;
+  background: var(--color-surface); box-shadow: none;
+}
+.academic-standard .category-grid__name { font-size: 14px; line-height: 1.8; overflow-wrap: anywhere; word-break: normal; }
+.academic-standard :is(.category-grid__count, .quiz-category-picker__count) { font-size: 12px; color: var(--color-text-muted); }
+.academic-standard :is(.search-bar, .h-search-bar, .path-search-bar) { min-height: 48px; border-radius: 8px; box-shadow: none; background: var(--color-surface); }
+.academic-standard :is(input[type="search"], .search-bar__input, .h-search-bar__input, .path-search-bar__input) { min-width: 0; width: 100%; font-size: 14px; }
+.academic-standard :is(.search-bar__clear, .h-search-bar__clear, .path-search-bar__clear) { min-width: 36px; height: 36px; border-radius: 6px; }
+.academic-standard :is(.category-filter, .h-category-filter, .path-category-filter) { gap: 8px; }
+.academic-standard :is(.histology-list__controls, .histology-list__items, .histology-list__category-grid, .histology-list__count) { padding-inline: 0; }
+.academic-standard .histology-list__controls { margin-bottom: 16px; }
+.academic-standard .histology-list__atlas-btn { display: flex; align-items: center; gap: 8px; width: 100%; min-height: 44px; margin: 0 0 14px; border-radius: 7px; text-align: start; }
+.academic-standard :is(.histology-list__back-to-categories, .path-page__back-to-categories, .pharma-page__back-to-categories) { min-height: 44px; padding-inline: 0; }
+.academic-standard .list-item-card { min-height: 86px; padding: 16px; }
+.academic-standard .list-item-card__title-en { font-size: 13px; }
+.academic-standard :is(.drug-list__row, .path-list__row) { flex-wrap: wrap; gap: 10px; }
+.academic-standard :is(.drug-list__main, .path-list__main) { flex: 1 1 180px; }
+.academic-standard :is(.drug-list__name, .path-list__name-fa) { font-size: 16px; line-height: 1.8; }
+.academic-standard :is(.drug-list__chip, .path-list__chip, .list-item-card__tag) { max-width: 100%; color: var(--color-primary-dark); background: var(--color-primary-tint); font-size: 12px; white-space: normal; }
+.academic-standard :is(.drug-list__group-heading, .path-list__group-heading) { color: var(--color-text); padding-block: 14px 8px; }
+.academic-standard :is(.quiz-home__list, .game-home__list) { padding: 0; gap: 12px; }
+.academic-standard :is(.quiz-home__item, .game-home__item) { position: relative; display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 4px 14px; padding: 18px; text-align: start; }
+.academic-standard :is(.quiz-home__icon, .game-home__icon) { grid-column: 1; grid-row: 1 / span 4; align-self: center; }
+.academic-standard :is(.quiz-home__item, .game-home__item) > :not(svg) { grid-column: 2; }
+.academic-standard :is(.quiz-home__badge, .quiz-home__badge--primary, .quiz-home__badge--secondary, .quiz-home__badge--tertiary) { color: var(--color-primary-dark); background: var(--color-primary-tint); border-radius: 5px; padding: 3px 9px; }
+.academic-standard .quiz-home__badge { justify-self: start; }
+.academic-standard :is(.quiz-home__title, .game-home__title) { font-size: 17px; }
+.academic-standard :is(.quiz-home__subtitle, .game-home__subtitle) { font-size: 13px; text-align: start; }
+.academic-standard .game-home__intro { padding: 0; margin-bottom: 22px; font-size: 14px; }
+.academic-standard .quiz-category-picker__hint { margin-bottom: 22px; font-size: 14px; line-height: 2; }
+.academic-standard .quiz-category-picker__item { position: relative; padding: 0; }
+.academic-standard .quiz-category-picker__main { width: 100%; min-height: 122px; padding: 48px 12px 14px; }
+.academic-standard .quiz-category-picker__checkbox { position: absolute; inset: 10px 12px auto auto; margin: 0; width: 32px; height: 32px; min-width: 32px; }
+.academic-standard .quiz-category-picker__custom-bar { padding-block: 12px; }
+.academic-standard :is(.quiz-play__empty, .quiz-result__empty, .game-play__hint[role="status"], .progress-empty, .review-empty, .empty-state, .h-empty-state, .path-empty-state, .ms-empty-state) {
+  padding: 24px 18px; margin: 18px 0;
+  border: 1px solid var(--color-border); border-radius: 9px;
+  background: var(--color-surface); line-height: 2; color: var(--color-text-muted);
+}
+.academic-standard :is(.quiz-result__empty, .review-empty, .progress-empty) { display: grid; gap: 16px; }
+.academic-standard :is(.quiz-play > p[role="status"], .quiz-play > p) { margin-block: 20px; }
+.academic-standard :is(.ms-favorites-page__tabs, .progress-stats) { gap: 8px; }
+.academic-standard .ms-tab { padding: 10px 4px; min-height: 44px; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-surface); color: var(--color-text-muted); font-size: 13px; }
+.academic-standard .ms-tab--active { background: var(--color-primary); color: #fffefa; border-color: var(--color-primary); }
+.academic-standard .ms-favorites-page__header { border-bottom: 1px solid var(--color-border); padding-bottom: 20px; margin-bottom: 20px; }
+.academic-standard .ms-favorites-page__item-subtitle { direction: ltr; unicode-bidi: isolate; text-align: start; font-family: var(--font-en); }
+.academic-standard .ms-favorites-page__item-title { font-size: 16px; }
+.academic-standard .ms-favorites-page__remove { min-width: 44px; min-height: 44px; }
+.academic-standard :is(.ms-badge, .ms-badge--histology, .ms-badge--pharmacology, .ms-badge--pathology) { background: var(--color-primary-tint); color: var(--color-primary-dark); }
+.academic-standard .progress-stats { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.academic-standard .progress-stat__icon { display: grid; place-items: center; }
+.academic-standard .progress-topics__row { flex-wrap: wrap; gap: 8px; }
+.academic-standard .progress-readiness__note { font-size: 13px; }
+.academic-standard :is(.progress-block, .review-card) { box-shadow: none; }
+.academic-standard .review-card { padding: 20px 16px; }
+.academic-standard .review-card__answer li { line-height: 2; margin-bottom: 8px; }
+.academic-standard .review-card__grades { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.academic-standard .review-grade { min-height: 44px; border-radius: 7px; }
+.academic-standard .game-play__hint { padding-inline: 0; font-size: 14px; }
+.academic-standard .game-play__stats { padding-inline: 0; flex-wrap: wrap; gap: 8px; }
+.academic-standard .game-play__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); padding-inline: 0; }
+.academic-standard .game-card__face { border-radius: 8px; }
+.academic-standard .game-card__text { font-size: 12px; line-height: 1.7; }
+.academic-standard .game-card__face--back { border: 1px solid #b7cbc4; }
+.academic-standard .game-win-modal { border-radius: 10px; }
+.academic-standard .game-win-modal__actions { flex-wrap: wrap; }
+.academic-standard .set-card { padding: 18px; }
+.academic-standard .set-card__title { font-size: 16px; }
+.academic-standard .settings-row { flex-wrap: wrap; gap: 8px; }
+.academic-standard .set-modal { border-radius: 10px; }
+.academic-standard .settings-toast { max-width: calc(100% - 32px); }
+.academic-standard .path-cluster__disease-link { flex-wrap: wrap; }
+.academic-standard .path-cluster__disease-name-fa { flex-basis: 100%; }
+.academic-standard .path-cluster__disease-name-en { flex: 1; }
+.academic-standard .path-cluster__compare-row { flex-wrap: wrap; gap: 8px; }
+.academic-standard .path-cluster__compare-disease { flex-basis: 100%; }
+.academic-standard .path-cluster__compare-arrow { width: 44px; height: 44px; }
+.academic-standard .path-detail__section { margin-block: 16px; }
+.academic-standard .path-detail__section-label { display: flex; align-items: center; gap: 8px; color: var(--color-primary-dark); font-size: 16px; }
+.academic-standard :is(.pharma-page__header, .path-page__header) { border-bottom: 0; padding-bottom: 0; }
+.academic-standard :is(.pharma-page__controls, .path-page__controls) { margin-top: 0; }
+.academic-standard .set-modal { background: var(--color-surface); }
+.academic-standard .set-btn--secondary { background: var(--color-primary-tint); }
+.academic-standard .set-page-header { border-bottom: 1px solid var(--color-border); padding-bottom: 20px; margin-bottom: 20px; }
+.academic-standard .path-cluster__disclaimer { background: #f2efe3; border-color: #ded8c4; }
+.academic-standard .game-card__face--back > svg { flex-shrink: 0; }
+.academic-standard :is(.empty-state__icon, .path-empty-state__icon, .ms-empty-state__icon) { display: grid; place-items: center; margin-bottom: 16px; }
+/* An image-focused dark surface is intentional; align controls, not the image. */
+.academic-standard.histology-atlas { padding: 16px; color: #fffefa; background: #183347; }
+.academic-standard .histology-atlas__stage { min-height: 0; padding-inline: 0; }
+.academic-standard .histology-atlas__footer { overflow-y: auto; padding-inline: 0; }
+.academic-standard .histology-atlas__exit { width: 44px; height: 44px; border-radius: 8px; }
+.academic-standard .histology-atlas__detail-link { color: #b8e5db; }
+.academic-standard .histology-atlas__meta { color: #b8e5db; }
+.academic-standard .histology-atlas__nav-btn { min-width: 44px; min-height: 44px; border-radius: 8px; }
+.academic-standard .histology-atlas__title-en { text-align: center; }
+@media (max-width: 350px) {
+  .app-shell .academic-standard { padding-inline: 16px; }
+  .academic-page-heading h1, .academic-standard h1 { font-size: 22px; }
+  .academic-standard .category-grid__item { padding-inline: 10px; }
+}

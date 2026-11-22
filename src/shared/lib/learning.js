@@ -13,6 +13,8 @@
 // by page visits. Everything is local (localStorage) — no backend, matching
 // the app's React + Vite + local-JSON architecture.
 
+import { resolveQuestionTopic } from "./topicResolver.js";
+
 const KEYS = {
   cards: "medscope:srs:cards", // { [cardKey]: Card }
   events: "medscope:events", // Event[]  (capped)
@@ -185,12 +187,15 @@ export function logQuizAttempt(questions, wrongIds, resolveMeta) {
   const wrong = new Set(wrongIds);
   const now = Date.now();
   questions.forEach((q) => {
-    const module = q.module || inferModule(q);
-    const itemId = q.topicId || q.drugId || q.id;
+    const topic = resolveQuestionTopic(q);
+    const module = topic?.module || q.module || inferModule(q);
+    const itemId = topic?.itemId || q.topicId || q.drugId || q.id;
     const correct = !wrong.has(q.id);
     logEvent({ type: "quiz", module, itemId, correct, t: now });
     if (itemId && module) {
-      const meta = resolveMeta ? resolveMeta(module, itemId) : {};
+      const meta = resolveMeta ? resolveMeta(module, itemId) : topic
+        ? { title_fa: topic.title_fa, title_en: topic.title_en, subtitle: topic.subtitle }
+        : {};
       ensureCard(module, itemId, meta);
     }
   });

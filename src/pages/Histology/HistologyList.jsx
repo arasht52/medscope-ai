@@ -1,4 +1,5 @@
-import Header from "./components/Header";
+import AcademicPageHeading from "../../shared/components/AcademicPageHeading.jsx";
+import MedicalIcon from "../../shared/components/MedicalIcon.jsx";
 import SearchBar from "./components/HistologySearchBar";
 import CategoryFilter from "./components/HistologyCategoryFilter";
 import CategoryGrid from "./CategoryGrid";
@@ -25,12 +26,13 @@ export default function HistologyList({ onSelectItem, onBack, onOpenAtlas }) {
   const showCategoryGrid = categoryId === null && query.trim() === "";
 
   return (
-    <div className="histology-list">
-      <Header title="آتلاس هیستولوژی" onBack={onBack} />
+    <div className="histology-list academic-standard">
+      <AcademicPageHeading icon="histology" title="آتلاس هیستولوژی" />
+      {onBack && <button type="button" onClick={onBack}>بازگشت</button>}
 
       {onOpenAtlas && (
         <button type="button" className="histology-list__atlas-btn" onClick={onOpenAtlas}>
-          🖼️ حالت اطلس تصویری — فقط مرور عکس‌ها
+          <MedicalIcon name="histology" size={22} /> حالت اطلس تصویری — فقط مرور عکس‌ها
         </button>
       )}
 

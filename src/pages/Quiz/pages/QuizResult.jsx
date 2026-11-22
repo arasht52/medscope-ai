@@ -20,7 +20,7 @@ export default function QuizResult() {
   if (!state) {
     // Defensive fallback: user landed here directly without taking a quiz.
     return (
-      <div className="quiz-result">
+      <div className="quiz-result academic-standard">
         <PageHeader title="نتیجه آزمون" onBack={() => navigate("/quiz")} />
         <div className="quiz-result__empty">
           <p>نتیجه‌ای برای نمایش وجود ندارد.</p>
@@ -40,7 +40,7 @@ export default function QuizResult() {
   if (academicQuizMeta(location.pathname)) return <AcademicQuizResults meta={academicQuizMeta(location.pathname)} state={state} onBack={() => navigate("/quiz")} onRetry={() => navigate(retakePath)}/>;
 
   return (
-    <div className="quiz-result">
+    <div className="quiz-result academic-standard">
       <PageHeader title="نتیجه آزمون" onBack={() => navigate("/quiz")} />
       <div className="quiz-result__content">
         <ScoreSummary score={score} total={total} />

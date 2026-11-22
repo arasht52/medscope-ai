@@ -53,7 +53,7 @@ export default function QuizCategoryPicker({ title, questions, basePath, homePat
   }
 
   return (
-    <div className="quiz-category-picker">
+    <div className="quiz-category-picker academic-standard">
       <PageHeader title={title} onBack={() => navigate(homePath)} />
       <p className="quiz-category-picker__hint">
         برای شروع آزمون یک سیستم را لمس کنید، یا چند سیستم را با تیک علامت بزنید تا آزمون ترکیبی بسازید.

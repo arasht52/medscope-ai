@@ -40,7 +40,7 @@ export default function Settings() {
   }
 
   return (
-    <div className="settings-page academic-ui academic-more" dir="rtl">
+    <div className="settings-page academic-ui academic-more academic-standard" dir="rtl">
       <PageHeader
         title="بیشتر"
         subtitle="مدیریت اپلیکیشن MedScope AI"

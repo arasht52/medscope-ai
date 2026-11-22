@@ -6,6 +6,7 @@ import PathologyCategoryFilter from "./components/PathologyCategoryFilter.jsx";
 import Card from "./components/Card.jsx";
 import PathologyEmptyState from "./components/PathologyEmptyState.jsx";
 import CategoryGrid from "./CategoryGrid.jsx";
+import AcademicPageHeading from "../../shared/components/AcademicPageHeading.jsx";
 import "./Pathology.css";
 
 const { items, categories, clusters = [] } = pathologyData;
@@ -74,12 +75,9 @@ export default function PathologyList() {
   const showCategoryGrid = !activeCategory && query.trim() === "";
 
   return (
-    <div className="page path-page">
+    <div className="page path-page academic-standard">
       <div className="page-header path-page__header">
-        <h1 className="page-title">پاتولوژی</h1>
-        <p className="page-subtitle">
-          {items.length} مورد پاتولوژی برای مرور درسی و امتحان
-        </p>
+        <AcademicPageHeading icon="pathology" title="پاتولوژی" subtitle={`${items.length} مورد پاتولوژی برای مرور درسی و امتحان`} />
         <div className="path-page__controls">
           <PathologySearchBar
             value={query}
@@ -116,7 +114,7 @@ export default function PathologyList() {
                   <Card as={Link} to={`/pathology/cluster/${c.id}`} interactive className="path-list__card path-list__card--cluster">
                     <div className="path-list__row">
                       <div className="path-list__main">
-                        <p className="path-list__name-fa">🔍 {c.title_fa} (مقایسه)</p>
+                        <p className="path-list__name-fa">{c.title_fa} (مقایسه)</p>
                         <p className="path-list__name-en en">{c.title_en} — Diagnostic Cluster</p>
                       </div>
                       <span className="path-list__chip en">{c.disease_ids.length} بیماری</span>

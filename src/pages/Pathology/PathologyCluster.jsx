@@ -32,7 +32,7 @@ export default function PathologyCluster() {
 
   if (!cluster) {
     return (
-      <div className="page">
+      <div className="page academic-standard">
         <PathologyEmptyState
           icon="❓"
           title="این مجموعه پیدا نشد"
@@ -47,7 +47,7 @@ export default function PathologyCluster() {
   const currentFeature = features[featureIndex];
 
   return (
-    <div className="page path-detail path-cluster">
+    <div className="page path-detail path-cluster academic-standard">
       <div className="page-header path-detail__header">
         <BackButton onClick={() => navigate(-1)} label="بازگشت" />
         <div className="path-detail__title-row">

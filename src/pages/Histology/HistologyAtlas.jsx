@@ -2,6 +2,7 @@ import { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import histologyData from "../../data/histology.json";
 import ImageWithFallback from "../../shared/components/ImageWithFallback.jsx";
+import { IMAGE_TYPE_LABELS_FA } from "../../shared/lib/imageSafety.js";
 import "./HistologyAtlas.css";
 
 // Flatten every tissue's images into one continuous swipeable sequence —
@@ -13,6 +14,7 @@ const SLIDES = histologyData.items.flatMap((item) =>
     title_fa: item.title_fa,
     title_en: item.title_en,
     stain: item.stain,
+    imageType: item.image?.type,
     ...img,
   }))
 );
@@ -23,7 +25,9 @@ export default function HistologyAtlas() {
   const touchStartX = useRef(null);
 
   const slide = SLIDES[index];
-  const metaLine = [slide.stain, slide.magnification].filter(Boolean).join(" • ");
+  const metaLine = slide.imageType === "real_slide"
+    ? [slide.stain, slide.magnification].filter(Boolean).join(" • ")
+    : IMAGE_TYPE_LABELS_FA[slide.imageType] || "";
 
   function goTo(i) {
     setIndex(((i % SLIDES.length) + SLIDES.length) % SLIDES.length);
@@ -42,7 +46,7 @@ export default function HistologyAtlas() {
   }
 
   return (
-    <div className="histology-atlas" dir="rtl">
+    <div className="histology-atlas academic-standard" dir="rtl">
       <header className="histology-atlas__header">
         <button
           type="button"

@@ -26,7 +26,7 @@ export default function PathologyDetail() {
 
   if (!item) {
     return (
-      <div className="page">
+      <div className="page academic-standard">
         <PathologyEmptyState
           icon="❓"
           title="این مورد پیدا نشد"

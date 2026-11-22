@@ -29,7 +29,7 @@ export default function FavoritesPage({ onOpenItem }) {
   }, [favorites, filter])
 
   return (
-    <div className="ms-favorites-page" dir="rtl">
+    <div className="ms-favorites-page academic-standard" dir="rtl">
       <header className="ms-favorites-page__header">
         <h1>علاقه‌مندی‌ها</h1>
         <p className="ms-favorites-page__count">{favorites.length} مورد</p>

@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import PageHeader from "../../../shared/components/PageHeader";
 import Card from "../../../shared/components/Card";
+import AcademicPageHeading from "../../../shared/components/AcademicPageHeading.jsx";
+import MedicalIcon from "../../../shared/components/MedicalIcon.jsx";
 import histologyQuestions from "../data/histologyQuestions.json";
 import pharmacologyQuestions from "../data/pharmacologyQuestions.json";
 import pathologyQuestions from "../data/pathologyQuestions.json";
@@ -44,7 +45,7 @@ export default function QuizHome() {
     },
     {
       key: "histology-image",
-      title: "🖼️ آزمون تصویری بافت‌شناسی",
+      title: "آزمون تصویری بافت‌شناسی",
       subtitle: "Histology Image Quiz",
       count: 8,
       path: "/quiz/histology-image",
@@ -52,7 +53,7 @@ export default function QuizHome() {
     },
     {
       key: "pathology-image",
-      title: "🖼️ آزمون تصویری پاتولوژی",
+      title: "آزمون تصویری پاتولوژی",
       subtitle: "Pathology Image Quiz",
       count: 8,
       path: "/quiz/pathology-image",
@@ -61,11 +62,12 @@ export default function QuizHome() {
   ];
 
   return (
-    <div className="quiz-home">
-      <PageHeader title="آزمون‌ها" />
+    <div className="quiz-home academic-standard">
+      <AcademicPageHeading icon="quiz" title="آزمون‌ها" />
       <div className="quiz-home__list">
         {quizTypes.filter((q) => q.key !== "histology-image").map((q) => (
           <Card key={q.key} className="quiz-home__item" onClick={() => navigate(q.path)}>
+            <MedicalIcon className="quiz-home__icon" name={q.key === "pathology-image" ? "pathology" : q.key} size={48} />
             <div className={`quiz-home__badge quiz-home__badge--${q.accent}`}>
               {q.count} سوال
             </div>

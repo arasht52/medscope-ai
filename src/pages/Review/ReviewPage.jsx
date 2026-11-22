@@ -2,8 +2,9 @@ import { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import PageHeader from "../../shared/components/PageHeader";
 import Button from "../../shared/components/Button";
+import MedicalIcon from "../../shared/components/MedicalIcon.jsx";
 import { getDueQueue, reviewCard, GRADE_LABELS_FA } from "../../shared/lib/learning";
-import { resolveTopic } from "../../shared/lib/topicResolver";
+import { resolveReviewTopic } from "../../shared/lib/topicResolver";
 import "./ReviewPage.css";
 
 const GRADE_ORDER = ["again", "hard", "good", "easy"];
@@ -28,12 +29,12 @@ export default function ReviewPage() {
 
   const card = queue[pos] || null;
   const topic = useMemo(
-    () => (card ? resolveTopic(card.module, card.itemId) : null),
+    () => resolveReviewTopic(card),
     [card]
   );
 
   function grade(g) {
-    if (!card) return;
+    if (!card || !topic) return;
     reviewCard(card.module, card.itemId, g);
     setDone((d) => d + 1);
     setRevealed(false);
@@ -43,12 +44,12 @@ export default function ReviewPage() {
   const finished = pos >= queue.length;
 
   return (
-    <div className="review-page">
+    <div className="review-page academic-standard">
       <PageHeader title="مرور امروز" onBack={() => navigate("/")} />
 
       {queue.length === 0 && (
         <div className="review-empty">
-          <div className="review-empty__icon" aria-hidden="true">✅</div>
+          <MedicalIcon name="quiz" size={48} />
           <h2>مروری برای امروز نداری</h2>
           <p>وقتی تاپیک‌ها را مطالعه کنی یا آزمون بدهی، این‌جا به‌صورت خودکار وارد صف مرور فاصله‌دار می‌شوند.</p>
           <Button onClick={() => navigate("/histology")} fullWidth>شروع مطالعه</Button>
@@ -57,9 +58,11 @@ export default function ReviewPage() {
 
       {queue.length > 0 && finished && (
         <div className="review-empty">
-          <div className="review-empty__icon" aria-hidden="true">🎉</div>
+          <MedicalIcon name="progress" size={48} />
           <h2>{toFa(done)} کارت مرور شد</h2>
-          <p>مرور امروزت کامل شد. فردا کارت‌های تازه بر اساس عملکردت برمی‌گردند.</p>
+          <p>{done < queue.length
+            ? "مرورهای قابل شناسایی این نوبت پایان یافتند. رکوردهای قدیمیِ ناشناخته بدون تغییر حفظ شده‌اند."
+            : "مرور امروزت کامل شد. فردا کارت‌های تازه بر اساس عملکردت برمی‌گردند."}</p>
           <Button onClick={() => navigate("/progress")} fullWidth>دیدن پیشرفت</Button>
           <Button variant="ghost" onClick={() => navigate("/")} fullWidth>خانه</Button>
         </div>
@@ -69,21 +72,27 @@ export default function ReviewPage() {
         <div className="review-card">
           <div className="review-card__progress">
             کارت {toFa(pos + 1)} از {toFa(queue.length)}
-            <span className="review-card__module">{MODULE_LABEL[card.module] || card.module}</span>
+            <span className="review-card__module">{MODULE_LABEL[card.module] || "مرور آموزشی"}</span>
           </div>
 
           <div className="review-card__prompt">
-            <p className="review-card__hint">به یاد بیاور:</p>
-            <h2 className="review-card__title">{topic ? topic.title_fa : card.title_fa || card.itemId}</h2>
+            <p className="review-card__hint">{topic ? "به یاد بیاور:" : "مرور ذخیره‌شده"}</p>
+            <h2 className="review-card__title">{topic ? topic.title_fa : "موضوع این مرور در دسترس نیست"}</h2>
             {topic?.title_en && <p className="review-card__title-en ltr-term" dir="ltr">{topic.title_en}</p>}
             {topic?.subtitle && <span className="review-card__subtitle">{topic.subtitle}</span>}
           </div>
 
-          {!revealed && (
+          {!topic && <>
+            <p className="review-card__answer-empty" role="status">موضوع این رکورد قدیمی قابل شناسایی نیست. رکورد شما حفظ شده است؛ می‌توانید درس‌ها را باز کنید یا به مرور بعدی بروید.</p>
+            <Button onClick={() => navigate("/subjects")} fullWidth>رفتن به درس‌ها</Button>
+            <Button variant="ghost" onClick={() => { setRevealed(false); setPos(p => p + 1); }} fullWidth>مرور بعدی</Button>
+          </>}
+
+          {topic && !revealed && (
             <Button onClick={() => setRevealed(true)} fullWidth>نمایش پاسخ</Button>
           )}
 
-          {revealed && (
+          {topic && revealed && (
             <>
               <div className="review-card__answer">
                 <p className="review-card__answer-label">نکات کلیدی</p>

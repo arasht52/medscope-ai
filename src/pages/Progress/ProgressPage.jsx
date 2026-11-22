@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import PageHeader from "../../shared/components/PageHeader";
 import Button from "../../shared/components/Button";
+import MedicalIcon from "../../shared/components/MedicalIcon.jsx";
 import { getViewedCount } from "../../shared/lib/storage";
 import {
   getStudyStreak,
@@ -54,7 +55,7 @@ export default function ProgressPage() {
   const hasData = data.cards > 0 || data.accuracy;
 
   return (
-    <div className="progress-page">
+    <div className="progress-page academic-standard">
       <PageHeader title="پیشرفت و تحلیل یادگیری" onBack={() => navigate("/")} />
 
       {!hasData && (
@@ -154,7 +155,7 @@ function Stat({ icon, label, value, accent, onClick }) {
   const Tag = onClick ? "button" : "div";
   return (
     <Tag className={`progress-stat ${accent ? "is-accent" : ""} ${onClick ? "is-button" : ""}`} onClick={onClick}>
-      <span className="progress-stat__icon" aria-hidden="true">{icon}</span>
+      <span className="progress-stat__icon" aria-hidden="true"><MedicalIcon name={icon === "🗂️" || icon === "📚" ? "quiz" : "progress"} size={22} /></span>
       <span className="progress-stat__value">{value}</span>
       <span className="progress-stat__label">{label}</span>
     </Tag>
@@ -171,9 +172,10 @@ function TopicList({ rows, tone, navigate }) {
             <button
               type="button"
               className="progress-topics__row"
+              disabled={!t}
               onClick={() => t && navigate(t.href)}
             >
-              <span className="progress-topics__name">{t ? t.title_fa : r.itemId}</span>
+              <span className="progress-topics__name">{t ? t.title_fa : "موضوع این مرور در دسترس نیست"}</span>
               <span className={`progress-topics__pct progress-topics__pct--${tone}`}>
                 {toFa(r.pct)}٪ ({toFa(r.correct)}/{toFa(r.total)})
               </span>

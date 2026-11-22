@@ -7,6 +7,7 @@ import Card from "./components/Card.jsx";
 import EmptyState from "./components/EmptyState.jsx";
 import CategoryGrid from "./CategoryGrid.jsx";
 import SuffixTipsCard from "./SuffixTipsCard.jsx";
+import AcademicPageHeading from "../../shared/components/AcademicPageHeading.jsx";
 import "./Pharmacology.css";
 
 const { drugs, categories } = pharmacologyData;
@@ -62,12 +63,9 @@ export default function DrugList() {
   const showCategoryGrid = !activeCategory && query.trim() === "";
 
   return (
-    <div className="page pharma-page">
+    <div className="page pharma-page academic-standard">
       <div className="page-header pharma-page__header">
-        <h1 className="page-title">فارماکولوژی</h1>
-        <p className="page-subtitle">
-          {drugs.length} داروی پرکاربرد برای مرور درسی و امتحان
-        </p>
+        <AcademicPageHeading icon="pharmacology" title="فارماکولوژی" subtitle={`${drugs.length} داروی پرکاربرد برای مرور درسی و امتحان`} />
         <div className="pharma-page__controls">
           <SearchBar
             value={query}

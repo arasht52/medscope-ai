@@ -4,6 +4,7 @@ import PageHeader from "../../shared/components/PageHeader";
 import Button from "../../shared/components/Button";
 import ImageWithFallback from "../../shared/components/ImageWithFallback";
 import useMemoryGame from "./useMemoryGame";
+import MedicalIcon from "../../shared/components/MedicalIcon.jsx";
 import { getSubjectMeta } from "./gameDeck";
 import "./MemoryGamePlay.css";
 
@@ -31,7 +32,7 @@ export function MemoryGameBoard({ subjectId, meta, navigate, availableDeck }) {
 
   if (deck.length === 0) {
     return (
-      <div className="page game-play" dir="rtl">
+      <div className="page game-play academic-standard" dir="rtl">
         <PageHeader title={`بازی حافظه — ${meta.label_fa}`} onBack={() => navigate("/game")} />
         <p className="game-play__hint" role="status">در حال حاضر تصویر تأییدشده‌ای برای این بازی موجود نیست.</p>
         <Button onClick={() => navigate("/game")}>بازگشت به بازی‌ها</Button>
@@ -40,7 +41,7 @@ export function MemoryGameBoard({ subjectId, meta, navigate, availableDeck }) {
   }
 
   return (
-    <div className="page game-play">
+    <div className="page game-play academic-standard">
       <PageHeader title={`بازی حافظه — ${meta.label_fa}`} onBack={() => navigate("/game")} />
 
       <p className="game-play__hint">{meta.description_fa}</p>
@@ -72,7 +73,7 @@ export function MemoryGameBoard({ subjectId, meta, navigate, availableDeck }) {
             >
               <div className="game-card__inner">
                 <div className="game-card__face game-card__face--back" aria-hidden="true">
-                  {meta.back_icon || "؟"}
+                  <MedicalIcon name="memory" size={40} />
                 </div>
                 <div className="game-card__face game-card__face--front">
                   {card.kind === "image" ? (
@@ -97,14 +98,14 @@ export function MemoryGameBoard({ subjectId, meta, navigate, availableDeck }) {
       {won && (
         <div className="game-win-overlay">
           <div className="game-win-modal" role="dialog" aria-modal="true" aria-labelledby="game-win-title">
-            <h3 id="game-win-title">🎉 آفرین!</h3>
+            <h3 id="game-win-title">آفرین!</h3>
             <p>
               با {moves} حرکت و {formatTime(seconds)} زمان، همه‌ی جفت‌ها را پیدا کردی.
             </p>
             {best && (
               <p className="game-win-modal__best">
                 {best.moves === moves && best.seconds === seconds
-                  ? "این رکورد جدید توست! 🏆"
+                  ? "این رکورد جدید توست!"
                   : `بهترین رکورد: ${best.moves} حرکت · ${formatTime(best.seconds)}`}
               </p>
             )}

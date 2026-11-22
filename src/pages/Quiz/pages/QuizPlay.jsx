@@ -64,7 +64,7 @@ function QuizAttempt({ title, questions, resultPath, homePath, scrollOnAdvance, 
 
   if (!quiz.currentQuestion) {
     return (
-      <div className="quiz-play">
+      <div className="quiz-play academic-standard">
         <PageHeader title={title} onBack={() => navigate(homePath)} />
         <p className="quiz-play__empty">سوالی برای این آزمون ثبت نشده است.</p>
       </div>
@@ -74,7 +74,7 @@ function QuizAttempt({ title, questions, resultPath, homePath, scrollOnAdvance, 
   if (academicPrototype && academicQuizMeta(resultPath)) return <AcademicQuizQuestion key={quiz.currentQuestion.id} quiz={quiz} homePath={homePath} meta={academicQuizMeta(resultPath)}/>;
 
   return (
-    <div className="quiz-play">
+    <div className="quiz-play academic-standard">
       <PageHeader title={title} onBack={() => navigate(homePath)} />
       <div className="quiz-play__progress">
         <ProgressBar value={quiz.currentIndex + (quiz.hasAnswered ? 1 : 0)} max={quiz.total} />

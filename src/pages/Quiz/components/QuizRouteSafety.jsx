@@ -13,7 +13,7 @@ export default function QuizRouteSafety({ children }) {
   const { pathname } = useLocation();
   const navigate = useNavigate();
   if (!isMalformedQuizPath(pathname)) return children;
-  return <main className="quiz-play" dir="rtl" lang="fa">
+  return <main className="quiz-play academic-standard" dir="rtl" lang="fa">
     <PageHeader title="آزمون" onBack={() => navigate("/quiz")} />
     <p role="status">نشانی آزمون معتبر نیست. لطفاً آزمون را از فهرست انتخاب کنید.</p>
     <Button onClick={() => navigate("/quiz")}>بازگشت به آزمون‌ها</Button>
